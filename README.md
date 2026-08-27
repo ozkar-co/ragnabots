@@ -8,6 +8,11 @@ Proyecto personal, mantenido por una sola persona. Enfoque **data-first**: prime
 
 **M0** — Documentos de diseño. Sin código de negocio aún.
 
+**Datos recolectados** (2026-08-27) en `data/raw/` desde servidor `kansas`:
+- YAML rAthena (item/mob DB + imports + rates)
+- Snapshot DB parcial (26 chars, sin vendings ni login)
+- Ver `data/manifest.json`
+
 ## Cómo retomar
 
 ```bash
@@ -37,6 +42,8 @@ ragnabots/
 └── README.md
 ```
 
-## Próximo paso (M1)
+## Próximo paso (M1, en curso)
 
-Ejecutar el checklist de `docs/02-data-inventory.md`: recolectar YAML de rAthena, rates de config, clonar la DB del servidor, inspeccionar schema real. El código vendrá después.
+1. Completar checklist en `docs/02-data-inventory.md` (falta: vendings, SQLite local, mercado externo)
+2. Normalizar catálogos desde `data/raw/rathena/`
+3. El código vendrá después de cerrar M1

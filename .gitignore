@@ -14,8 +14,9 @@ build/
 *.db
 *.sqlite
 *.sqlite3
-data/*.sql
 data/dumps/
+data/raw/**/login.sql
+data/raw/**/full_backup.sql
 
 # Logs and runtime
 logs/

@@ -2,32 +2,43 @@
 
 Antes de escribir **cualquier** código de negocio, recolectar e inspeccionar estas fuentes. Marcar cada ítem conforme se complete.
 
+**Estado:** recolectado parcialmente el 2026-08-27 desde `kansas` (172.26.0.1). Ver `data/manifest.json` y `data/raw/`.
+
 ## rAthena — archivos del servidor
 
-Ruta base del servidor: `________________` (anotar en M1)
+Ruta base del servidor: `/home/oz/rathena`
 
 ### Base de datos YAML
 
-- [ ] `db/item_db.yml` — inspeccionar campos reales (id, name, type, buy, sell, weight, etc.)
-- [ ] `db/mob_db.yml` — formato de drops en tu versión (Item, Rate, ¿estructura anidada?)
-- [ ] `db/mob_item_ratio.yml` — ¿existe? ¿tiene overrides?
-- [ ] Otros YAML relevantes descubiertos: ________________
+- [x] `db/item_db.yml` — header + imports a pre-re, re, import
+- [x] `db/mob_db.yml` — header + imports; drops con `Item`, `Rate`, `Index`, `StealProtected`
+- [x] `db/mob_item_ratio.yml` — existe; import vacío (solo Header)
+- [x] Otros YAML relevantes: `db/re/item_db_{equip,etc,usable}.yml`, `db/re/mob_db.yml`, `db/pre-re/*.yml`
+
+**Cadena de imports (importante):** los archivos raíz no tienen Body; cargan:
+1. `db/pre-re/` (Prerenewal)
+2. `db/re/` (Renewal) — bulk del catálogo (~10MB item DB)
+3. `db/import/` — overrides custom del servidor
 
 ### Configuración de rates
 
-- [ ] `conf/battle/drops.conf` — item_rate_*, item_drop_*_min/max
-- [ ] `conf/battle/exp.conf` — si afecta economía indirectamente
-- [ ] `conf/battle/` — otros conf relevantes: ________________
-- [ ] `conf/import/` — overrides que pisen los valores base
+- [x] `conf/battle/drops.conf` — base 100 = 1x
+- [x] `conf/battle/exp.conf` — copiado
+- [ ] `conf/battle/` — otros conf relevantes: pendiente revisar `items.conf`, `monster.conf`
+- [x] `conf/import/battle_conf.txt` — **rates custom del servidor** (ver abajo)
 
-### Hallazgos de inspección (completar en M1)
+### Hallazgos de inspección
 
 ```
-# Pegar aquí notas tras abrir los archivos reales:
-# - Versión de rAthena:
-# - Campos inesperados en item_db:
-# - Formato de drops en mob_db:
-# - Rates personalizados encontrados:
+Versión: rAthena YAML v3 (items), v5 (mobs) — Renewal
+Custom items en import/: 5 entradas
+Custom mobs en import/: 1 override (DRAINLIAR id 1111 con drops redefinidos)
+mob_item_ratio import: vacío
+
+Rates custom (battle_conf.txt → data/raw/server_rates.json):
+  common: 5x | heal/use: 10x | equip: 15x | card: 100x | mvp/treasure: 5x
+
+Drops en mob_db usan Rate sobre base 10000 (ej. Rate: 1500 = 15%)
 ```
 
 ## Mercado externo (referencia de precios)
@@ -40,65 +51,64 @@ Ruta base del servidor: `________________` (anotar en M1)
 ### Hallazgos
 
 ```
-# Fuente elegida:
-# Rate referencia vs propio:
-# Ítems custom del servidor no cubiertos:
+Fuente elegida: pendiente
+Rate referencia vs propio: servidor custom (5x-100x según categoría)
+Ítems custom: 5 en import/item_db.yml — no estarán en DBs públicas
 ```
 
 ## Base de datos MySQL (clon)
 
 Ver procedimiento en [03-server-snapshot.md](03-server-snapshot.md).
 
-- [ ] Dump MySQL del servidor (completo o subset)
+- [x] Snapshot desde ozro-backup (`20260827_030000`) — SQL + JSON
 - [ ] Conversión/import a SQLite local para desarrollo
-- [ ] Inspeccionar tablas críticas (ver abajo)
+- [x] Inspeccionar tablas críticas (parcial — sin vendings)
 
 ### Tablas a inspeccionar primero
 
-| Tabla | Qué buscar |
-|-------|------------|
-| `char` | char_ids de familia, distribución de zeny, niveles |
-| `inventory` | qué llevan los jugadores reales |
-| `cart_inventory` | ítems en carros de merchants |
-| `vendings` | tiendas activas, mapas, autotrade flag |
-| `vending_items` | precios reales del mercado actual |
-| `zenylog` | flujo de zeny (si existe historial útil) |
-| `picklog` | transacciones de ítems (si existe) |
+| Tabla | Estado | Hallazgo |
+|-------|--------|----------|
+| `char` | copiado | 26 personajes; hub principal geffen |
+| `inventory` | copiado | 791 filas |
+| `cart_inventory` | copiado | 13 filas (pocos merchants) |
+| `vendings` | **no en backup** | ozro-backup no exportó esta tabla |
+| `vending_items` | **no en backup** | idem |
+| `zenylog` | no en backup | — |
+| `picklog` | no en backup | — |
+| `login` | **excluido** | contiene contraseñas — no va a git |
 
 ### Hallazgos de la DB
 
 ```
-# Número de personajes activos:
-# char_ids familia (hermano/primos):
-# Vendings activas (count, mapas principales):
-# Rango de precios observados vs NPC buy/sell:
-# Anomalías o sorpresas en el schema:
+Personajes: 26
+Mapa principal: geffen (mayoría de chars)
+Cart inventory: 13 filas — hay actividad merchant limitada
+Char merchant existente: "Vendedor" (150014) — estudiar como referencia
+GM "Dios" (150013) con zeny inflado — excluir de métricas económicas
+Vendings: no disponibles en este snapshot — necesario dump directo MySQL
+Schema referencia: data/raw/rathena/sql-files/main.sql
 ```
 
-## Salida esperada en `data/` (forma TBD)
+## Salida en `data/` (decisión parcial)
 
-**No decidir formato hasta completar la inspección.** Opciones a evaluar en M1:
+| Archivo | Estado | Formato |
+|---------|--------|---------|
+| `data/manifest.json` | hecho | JSON |
+| `data/raw/server_rates.json` | hecho | JSON |
+| `data/raw/rathena/**` | hecho | YAML/conf originales |
+| `data/raw/db_snapshot/**` | hecho | SQL + JSON |
+| `data/items.*` | pendiente | normalizar desde YAML |
+| `data/mobs.*` | pendiente | normalizar desde YAML |
+| `data/price_dictionary.*` | pendiente | requiere mercado externo + vending |
 
-| Formato | Cuándo tiene sentido |
-|---------|---------------------|
-| JSON | Catálogos pequeños, diccionarios |
-| CSV | Tablas planas, fácil de inspeccionar a mano |
-| Parquet | Solo si el volumen lo justifica |
-
-Archivos candidatos (nombres y schema se definen tras inspección):
-
-- `data/manifest.json` — fecha, hashes, fuentes usadas
-- `data/items.*` — catálogo de ítems normalizado
-- `data/mobs.*` — catálogo de mobs + drops
-- `data/server_rates.json` — rates extraídos de conf
-- `data/market_reference.*` — precios externos normalizados
-- `data/price_dictionary.*` — piso/techo/mediana por ítem
+**Formato elegido por ahora:** JSON para metadata y snapshots; YAML crudo en `data/raw/`; normalización TBD.
 
 ## Criterio de salida de M1
 
-M1 está listo cuando:
-
-1. Todos los checkboxes de arriba están marcados o justificados como N/A.
-2. Los hallazgos están documentados (secciones "Hallazgos").
-3. El formato de `data/` está decidido con ejemplos reales.
-4. Existe un plan concreto para M2 basado en datos, no en suposiciones.
+1. [x] YAML y conf recolectados
+2. [x] Snapshot DB parcial recolectado
+3. [ ] Vendings obtenidos (dump MySQL directo)
+4. [ ] Clon SQLite local creado
+5. [ ] Mercado externo explorado
+6. [ ] Catálogos normalizados (items, mobs)
+7. [ ] Plan M2 basado en datos

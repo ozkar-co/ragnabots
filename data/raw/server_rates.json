@@ -1,0 +1,28 @@
+{
+  "source": "data/raw/rathena/conf/import/battle_conf.txt",
+  "note": "Overrides sobre drops.conf base (100 = 1x)",
+  "rates": {
+    "item_rate_common": 500,
+    "item_rate_common_boss": 500,
+    "item_rate_heal": 1000,
+    "item_rate_heal_boss": 1000,
+    "item_rate_use": 1000,
+    "item_rate_use_boss": 1000,
+    "item_rate_equip": 1500,
+    "item_rate_equip_boss": 1500,
+    "item_rate_card": 10000,
+    "item_rate_card_boss": 10000,
+    "item_rate_mvp": 500,
+    "item_rate_treasure": 500,
+    "alchemist_summon_reward": 2
+  },
+  "human_readable": {
+    "common": "5x",
+    "heal": "10x",
+    "use": "10x",
+    "equip": "15x",
+    "card": "100x",
+    "mvp": "5x",
+    "treasure": "5x"
+  }
+}

@@ -1,0 +1,98 @@
+
+//La penalizacion de flee (10% por atacante a partir de 2) tambien aplica a mobs
+agi_penalty_target: 3
+agi_penalty_count: 2
+agi_penalty_num: 10
+
+//No hay penalizacion de Def por cantidad de atacantes
+vit_penalty_type: 0
+
+//falcon y Wargos al mismo tiempo
+warg_can_falcon: yes
+
+// Esconder la version, no hace falta que lo sepan
+display_version: no
+
+//cambios de drop
+item_rate_common: 500 //5x
+item_rate_common_boss: 500 //5x
+item_rate_heal: 1000 //10x
+item_rate_heal_boss: 1000 //10x
+item_rate_use: 1000 //10x
+item_rate_use_boss: 1000 //10x
+item_rate_equip: 1500 //15x
+item_rate_equip_boss: 1500 //15x
+item_rate_card: 10000 //100x
+item_rate_card_boss: 10000 //100x
+item_rate_mvp: 500 //5x
+item_rate_treasure: 500 //5x
+alchemist_summon_reward: 2
+
+//anunciar los objetos raros (1%)
+rare_drop_announce: 100
+item_auto_get: yes
+mercenary_autoloot: yes
+homunculus_autoloot: yes
+
+//cambios de exp
+base_exp_rate: 500 //5x
+job_exp_rate: 500 //5x
+mvp_exp_rate: 1000 //10x
+quest_exp_rate: 300 // 3x
+multi_level_up: true
+exp_bonus_attacker: 25
+shop_exp: 100
+zeny_penalty: 100 //1%
+disp_experience: true
+disp_zeny: true
+
+feature.atcommand_suggestions: on
+feature.achievement: off
+feature.equipswitch: off
+feature.attendance: off
+feature.privateairship: off
+feature.barter: on
+feature.barter_extended: off
+feature.instance_allow_reconnect: yes
+feature.roulette: off
+
+
+vending_tax: 0
+broadcast_hide_name: 0
+
+
+mvp_hp_rate: 200
+monster_hp_rate: 200
+zeny_from_mobs: yes
+monster_hp_bars_info: no
+
+party_even_share_bonus: 0
+
+pet_equip_required: no
+pet_attack_support: yes
+pet_damage_support: yes
+pet_attack_exp_to_master: yes
+pet_lv_rate: 50
+
+restart_hp_rate: 50
+restart_sp_rate: 50
+player_skillup_limit: no
+
+bone_drop: 1
+
+devotion_level_difference: 15
+backstab_bow_penalty: no
+skill_steal_random_options: yes
+max_heal: 1
+max_heal_lv: 11
+emergency_call: 15
+skip_teleport_lv1_menu: yes
+allow_skill_without_day: yes
+allow_es_magic_player: yes
+taekwon_mission_mobname: 1
+cart_revo_knockback: no
+refresh_song: yes
+skill_drop_items_full: yes
+
+
+

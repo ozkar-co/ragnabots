@@ -1,0 +1,50 @@
+{
+  "snapshot_date": "2026-08-27",
+  "source_server": "kansas (172.26.0.1)",
+  "rathena_path": "/home/oz/rathena",
+  "backup_path": "/home/oz/ozro-backup/backups/20260827_030000",
+  "files": {
+    "rathena_yaml": [
+      "data/raw/rathena/db/item_db.yml",
+      "data/raw/rathena/db/mob_db.yml",
+      "data/raw/rathena/db/mob_item_ratio.yml",
+      "data/raw/rathena/db/import/item_db.yml",
+      "data/raw/rathena/db/import/mob_db.yml",
+      "data/raw/rathena/db/import/mob_item_ratio.yml",
+      "data/raw/rathena/db/re/item_db_equip.yml",
+      "data/raw/rathena/db/re/item_db_etc.yml",
+      "data/raw/rathena/db/re/item_db_usable.yml",
+      "data/raw/rathena/db/re/mob_db.yml",
+      "data/raw/rathena/db/pre-re/item_db.yml",
+      "data/raw/rathena/db/pre-re/mob_db.yml"
+    ],
+    "rathena_conf": [
+      "data/raw/rathena/conf/battle/drops.conf",
+      "data/raw/rathena/conf/battle/exp.conf",
+      "data/raw/rathena/conf/import/battle_conf.txt"
+    ],
+    "rathena_schema": [
+      "data/raw/rathena/sql-files/main.sql"
+    ],
+    "db_snapshot_sql": [
+      "char", "cart_inventory", "inventory", "storage",
+      "guild", "guild_member", "guild_position", "party", "quest"
+    ],
+    "db_snapshot_json": [
+      "char", "cart_inventory", "inventory"
+    ]
+  },
+  "excluded": {
+    "login.sql": "contiene hashes de contraseñas — no copiar a git",
+    "full_backup.sql": "incluye login — usar solo local si hace falta",
+    "vendings": "no presente en backup ozro-backup (tabla vacía o no exportada)"
+  },
+  "stats": {
+    "characters": 26,
+    "inventory_rows": 791,
+    "cart_inventory_rows": 13,
+    "custom_items_import": 5,
+    "custom_mobs_import": 1,
+    "main_map": "geffen"
+  }
+}
