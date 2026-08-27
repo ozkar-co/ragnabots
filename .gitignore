@@ -1,0 +1,32 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Secrets
+.env
+*.env.local
+
+# DB clones (large, local only)
+*.db
+*.sqlite
+*.sqlite3
+data/*.sql
+data/dumps/
+
+# Logs and runtime
+logs/
+*.log
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS
+.DS_Store
+Thumbs.db
