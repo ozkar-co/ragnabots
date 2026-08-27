@@ -1,0 +1,10 @@
+# Ítems de prueba — ampliar desde catálogo YAML cuando se normalice
+# Un ID por línea. Comentarios con #
+
+501
+909
+1201
+607
+714
+1750
+4001

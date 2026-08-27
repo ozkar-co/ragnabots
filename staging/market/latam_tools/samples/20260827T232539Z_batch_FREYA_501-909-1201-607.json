@@ -1,0 +1,143 @@
+{
+  "fetched_at": "2026-08-27T23:25:39.011193+00:00",
+  "source": "latam_tools",
+  "server": "FREYA",
+  "item_ids": [
+    501,
+    909,
+    1201,
+    607
+  ],
+  "url": "https://mercado.latam-tools.com.br/api/v1/prices?items=501,909,1201,607&server=FREYA",
+  "response": {
+    "prices": [
+      {
+        "itemId": 501,
+        "name": "Poção Vermelha",
+        "slots": null,
+        "type": "consumivel",
+        "inMarket": true,
+        "links": {
+          "divinePride": "https://www.divine-pride.net/database/item/501",
+          "market": "https://ro.gnjoylatam.com/pt/intro/shop-search/trading?serverType=FREYA&searchWord=Po%C3%A7%C3%A3o+Vermelha&storeType=BUY&sortType=LOW_PRICE&p=1",
+          "marketHistory": "https://ro.gnjoylatam.com/pt/intro/shop-search/market-price?serverType=FREYA&searchWord=Po%C3%A7%C3%A3o+Vermelha&period=ALL"
+        },
+        "market": {
+          "min": 0,
+          "max": 1000000,
+          "avg": 521860,
+          "totalSold": 76779,
+          "at": 1787866136
+        },
+        "offers": {
+          "stores": 2,
+          "units": 160,
+          "min": 30,
+          "p25": 30,
+          "median": 30,
+          "p75": 30,
+          "max": 100,
+          "at": 1787872320
+        },
+        "cheapest": []
+      },
+      {
+        "itemId": 909,
+        "name": "Jellopy",
+        "slots": null,
+        "type": "diversos",
+        "inMarket": true,
+        "links": {
+          "divinePride": "https://www.divine-pride.net/database/item/909",
+          "market": "https://ro.gnjoylatam.com/pt/intro/shop-search/trading?serverType=FREYA&searchWord=Jellopy&storeType=BUY&sortType=LOW_PRICE&p=1",
+          "marketHistory": "https://ro.gnjoylatam.com/pt/intro/shop-search/market-price?serverType=FREYA&searchWord=Jellopy&period=ALL"
+        },
+        "market": {
+          "min": 10,
+          "max": 8000000,
+          "avg": 7431,
+          "totalSold": 36936,
+          "at": 1787866136
+        },
+        "offers": {
+          "stores": 3,
+          "units": 2760,
+          "min": 899,
+          "p25": 899,
+          "median": 2098,
+          "p75": 2098,
+          "max": 2099,
+          "at": 1787872320
+        },
+        "cheapest": []
+      },
+      {
+        "itemId": 1201,
+        "name": "Faca",
+        "slots": 3,
+        "type": "adaga",
+        "inMarket": true,
+        "links": {
+          "divinePride": "https://www.divine-pride.net/database/item/1201",
+          "market": "https://ro.gnjoylatam.com/pt/intro/shop-search/trading?serverType=FREYA&searchWord=Faca&storeType=BUY&sortType=LOW_PRICE&p=1",
+          "marketHistory": "https://ro.gnjoylatam.com/pt/intro/shop-search/market-price?serverType=FREYA&searchWord=Faca&period=ALL"
+        },
+        "market": {
+          "min": 10000,
+          "max": 999999,
+          "avg": 369999,
+          "totalSold": 3,
+          "at": 1787866136
+        },
+        "offers": {
+          "stores": 2,
+          "units": 2,
+          "min": 1999999,
+          "p25": 1999999,
+          "median": 1999999,
+          "p75": 1999999,
+          "max": 2000000,
+          "at": 1787872320
+        },
+        "cheapest": []
+      },
+      {
+        "itemId": 607,
+        "name": "Fruto de Yggdrasil",
+        "slots": null,
+        "type": "diversos",
+        "inMarket": true,
+        "links": {
+          "divinePride": "https://www.divine-pride.net/database/item/607",
+          "market": "https://ro.gnjoylatam.com/pt/intro/shop-search/trading?serverType=FREYA&searchWord=Fruto+de+Yggdrasil&storeType=BUY&sortType=LOW_PRICE&p=1",
+          "marketHistory": "https://ro.gnjoylatam.com/pt/intro/shop-search/market-price?serverType=FREYA&searchWord=Fruto+de+Yggdrasil&period=ALL"
+        },
+        "market": {
+          "min": 3999,
+          "max": 10000000,
+          "avg": 51643,
+          "totalSold": 68416,
+          "at": 1787866136
+        },
+        "offers": {
+          "stores": 17,
+          "units": 1301,
+          "min": 22800,
+          "p25": 28900,
+          "median": 29999,
+          "p75": 39999,
+          "max": 999999,
+          "at": 1787872320
+        },
+        "cheapest": []
+      }
+    ],
+    "missing": [],
+    "freshness": {
+      "marketAt": 1787866136,
+      "tradingAt": 1787872320,
+      "tradingAgeMin": 14
+    },
+    "nextTradingAt": 1787873847
+  }
+}

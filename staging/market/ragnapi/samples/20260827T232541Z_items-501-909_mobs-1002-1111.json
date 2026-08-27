@@ -1,0 +1,599 @@
+{
+  "fetched_at": "2026-08-27T23:25:39.066761+00:00",
+  "source": "ragnapi",
+  "items": {
+    "501": {
+      "url": "https://ragnapi.com/api/v1/re-newal/items/501",
+      "data": {
+        "_id": "60f722616715d887c1d95eba",
+        "id": 501,
+        "name": "red_potion",
+        "description": "A potion made from grinded Red Herbs that restores about 45 HP.",
+        "img": "http://db.irowiki.org/image/item/501.png",
+        "skills": [],
+        "size_modifier": [],
+        "drop_rate": [
+          {
+            "quest_name": "",
+            "amount": ""
+          }
+        ],
+        "equipable": {}
+      }
+    },
+    "909": {
+      "url": "https://ragnapi.com/api/v1/re-newal/items/909",
+      "data": {
+        "_id": "60f722616715d887c1d95f97",
+        "id": 909,
+        "name": "jellopy",
+        "description": "A small crystallization created by some monsters.",
+        "img": "http://db.irowiki.org/image/item/909.png",
+        "skills": [],
+        "size_modifier": [],
+        "drop_rate": [
+          {
+            "lv": "1",
+            "monster": "Elusive Poring",
+            "rate": "100.00%",
+            "highest_spawn": "(Doesn't spawn on any map)",
+            "element": "Water 1",
+            "flee": "--",
+            "hit": "202"
+          },
+          {
+            "lv": "1",
+            "monster": "Furious Poring",
+            "rate": "100.00%",
+            "highest_spawn": "(Doesn't spawn on any map)",
+            "element": "Water 1",
+            "flee": "--",
+            "hit": "202"
+          },
+          {
+            "lv": "1",
+            "monster": "Poring Ringleader",
+            "rate": "100.00%",
+            "highest_spawn": "(Doesn't spawn on any map)",
+            "element": "Water 1",
+            "flee": "177",
+            "hit": "202"
+          },
+          {
+            "lv": "1",
+            "monster": "Swift Poring",
+            "rate": "100.00%",
+            "highest_spawn": "(Doesn't spawn on any map)",
+            "element": "Water 1",
+            "flee": "177",
+            "hit": "202"
+          },
+          {
+            "lv": "0",
+            "monster": "Eggring",
+            "rate": "87.50%",
+            "highest_spawn": "Lasagna Field 01",
+            "element": "(None) 0",
+            "flee": "--",
+            "hit": "200"
+          },
+          {
+            "lv": "2",
+            "monster": "Drops",
+            "rate": "75.00%",
+            "highest_spawn": "150 at Sograt Desert 07",
+            "element": "Fire 1",
+            "flee": "178",
+            "hit": "203"
+          },
+          {
+            "lv": "1",
+            "monster": "Poring",
+            "rate": "70.00%",
+            "highest_spawn": "120 at Prontera Field 08",
+            "element": "Water 1",
+            "flee": "177",
+            "hit": "202"
+          },
+          {
+            "lv": "0",
+            "monster": "Wild Hornet",
+            "rate": "40.00%",
+            "highest_spawn": "Lasagna Field 02",
+            "element": "(None) 0",
+            "flee": "--",
+            "hit": "200"
+          },
+          {
+            "lv": "11",
+            "monster": "Hornet",
+            "rate": "35.00%",
+            "highest_spawn": "150 at Prontera Field 05",
+            "element": "Wind 1",
+            "flee": "187",
+            "hit": "235"
+          },
+          {
+            "lv": "27",
+            "monster": "Skeleton",
+            "rate": "30.00%",
+            "highest_spawn": "35 at Payon Cave 1",
+            "element": "Undead 1",
+            "flee": "216",
+            "hit": "242"
+          },
+          {
+            "lv": "21",
+            "monster": "Thief Bug",
+            "rate": "20.00%",
+            "highest_spawn": "80 at Prontera Field 05",
+            "element": "Neutral 3",
+            "flee": "203",
+            "hit": "228"
+          },
+          {
+            "lv": "28",
+            "monster": "Ant Egg",
+            "rate": "20.00%",
+            "highest_spawn": "87 at Ant Hell 1",
+            "element": "Neutral 3",
+            "flee": "--",
+            "hit": "229"
+          },
+          {
+            "lv": "5",
+            "monster": "Chonchon",
+            "rate": "15.00%",
+            "highest_spawn": "150 at Geffen Field 00",
+            "element": "Wind 1",
+            "flee": "183",
+            "hit": "209"
+          },
+          {
+            "lv": "95",
+            "monster": "Stapo",
+            "rate": "10.00%",
+            "highest_spawn": "150 at Veins Field 07",
+            "element": "Earth 2",
+            "flee": "329",
+            "hit": "341"
+          },
+          {
+            "lv": "100",
+            "monster": "Jejeling",
+            "rate": "7.51%",
+            "highest_spawn": "30 at Malaya Field 01",
+            "element": "Earth 2",
+            "flee": "285",
+            "hit": "371"
+          }
+        ],
+        "equipable": {}
+      }
+    }
+  },
+  "monsters": {
+    "1002": {
+      "url": "https://ragnapi.com/api/v1/re-newal/monsters/1002",
+      "data": {
+        "_id": "60daa0cfd8debd76e414e03c",
+        "monster_id": 1002,
+        "monster_info": "poring",
+        "size": "medium",
+        "race": "plant",
+        "type": "water",
+        "element_power": 1,
+        "gif": "http://db.irowiki.org/image/monster/1002.png",
+        "main_atb": {
+          "agi": 1,
+          "int": 0,
+          "luk": 5,
+          "vit": 1,
+          "dex": 6
+        },
+        "main_stats": {
+          "level": "1",
+          "def": "2 + 10.45%",
+          "hp": "60",
+          "m_def": "54.29%",
+          "attack": "8 ~ 9",
+          "range": "1 cell",
+          "aspd": "106.4",
+          "move_speed": "400 ms",
+          "base_exp": "27",
+          "base_exp_per_hp": "0.45",
+          "job_exp": "20",
+          "job_exp_per_hp": "0.333",
+          "hit": "202",
+          "flee": "177"
+        },
+        "elementalDamage": {
+          "neutral": 100,
+          "poison": 100,
+          "earth": 100,
+          "shadow": 100,
+          "water": 25,
+          "undead": 100,
+          "fire": 90,
+          "holy": 100,
+          "wind": 175,
+          "ghost": 100
+        },
+        "skills": {
+          "mode": [
+            "passive",
+            "looter"
+          ],
+          "spell": [
+            {
+              "level": 1,
+              "name": "water_attack"
+            }
+          ],
+          "summon": {
+            "summoned_by": [
+              "mastering"
+            ]
+          }
+        },
+        "drops": [
+          {
+            "name": "jellopy",
+            "img": "http://db.irowiki.org/image/item/909.png",
+            "rate": 70
+          },
+          {
+            "name": "knife",
+            "img": "http://db.irowiki.org/image/item/1202.png",
+            "rate": 1
+          },
+          {
+            "name": "sticky_mucus",
+            "img": "http://db.irowiki.org/image/item/938.png",
+            "rate": 4
+          },
+          {
+            "name": "apple",
+            "img": "http://db.irowiki.org/image/item/512.png",
+            "rate": 10
+          },
+          {
+            "name": "empty_bottle",
+            "img": "http://db.irowiki.org/image/item/713.png",
+            "rate": 15
+          },
+          {
+            "name": "apple",
+            "img": "http://db.irowiki.org/image/item/512.png",
+            "rate": 1.51
+          },
+          {
+            "name": "unripe_apple",
+            "img": "http://db.irowiki.org/image/item/619.png",
+            "rate": 0.21
+          },
+          {
+            "name": "poring_card",
+            "img": "http://db.irowiki.org/image/item/4001.png",
+            "rate": 0.02
+          }
+        ],
+        "maps": [
+          {
+            "amount": 80,
+            "frequency": "instantly",
+            "name": "geffen_field",
+            "number": 0,
+            "type": "field",
+            "img": "http://db.irowiki.org/image/map/thumb/gef_fild00.png"
+          },
+          {
+            "amount": 20,
+            "frequency": "instantly",
+            "name": "geffen_field",
+            "number": 7,
+            "type": "field",
+            "img": "http://db.irowiki.org/image/map/thumb/gef_fild07.png"
+          },
+          {
+            "amount": 40,
+            "frequency": "instantly",
+            "name": "payon_forest",
+            "number": 1,
+            "type": "field",
+            "img": "http://db.irowiki.org/image/map/thumb/pay_fild01.png"
+          },
+          {
+            "amount": 30,
+            "frequency": "instantly",
+            "name": "payon_forest",
+            "number": 3,
+            "type": "field",
+            "img": "http://db.irowiki.org/image/map/thumb/pay_fild03.png"
+          },
+          {
+            "amount": 40,
+            "frequency": "instantly",
+            "name": "payon_forest",
+            "number": 4,
+            "type": "field",
+            "img": "http://db.irowiki.org/image/map/thumb/pay_fild04.png"
+          },
+          {
+            "amount": 60,
+            "frequency": "instantly",
+            "name": "prontera_field",
+            "number": 1,
+            "type": "field",
+            "img": "http://db.irowiki.org/image/map/thumb/prt_fild01.png"
+          },
+          {
+            "amount": 30,
+            "frequency": "instantly",
+            "name": "prontera_field",
+            "number": 6,
+            "type": "field",
+            "img": "http://db.irowiki.org/image/map/thumb/prt_fild06.png"
+          },
+          {
+            "amount": 120,
+            "frequency": "instantly",
+            "name": "prontera_field",
+            "number": 8,
+            "type": "field",
+            "img": "http://db.irowiki.org/image/map/thumb/prt_fild08.png"
+          },
+          {
+            "amount": 5,
+            "frequency": "after_2_minutes",
+            "name": "labyrinth_forest",
+            "number": 1,
+            "type": "dungeon",
+            "img": "http://db.irowiki.org/image/map/thumb/prt_maze01.png"
+          },
+          {
+            "amount": 10,
+            "frequency": "instantly",
+            "name": "toy_factory",
+            "number": 1,
+            "type": "dungeon",
+            "img": "http://db.irowiki.org/image/map/thumb/xmas_dun01.png"
+          },
+          {
+            "amount": 5,
+            "frequency": "",
+            "name": "endless_tower_f_f",
+            "number": 125,
+            "type": "instance",
+            "img": "http://db.irowiki.org/image/map/thumb/1@tower.png"
+          }
+        ]
+      }
+    },
+    "1111": {
+      "url": "https://ragnapi.com/api/v1/re-newal/monsters/1111",
+      "data": {
+        "_id": "60daa0cfd8debd76e414e0a1",
+        "monster_id": 1111,
+        "monster_info": "drainliar",
+        "size": "small",
+        "race": "brute",
+        "type": "shadow",
+        "element_power": 2,
+        "gif": "http://db.irowiki.org/image/monster/1111.png",
+        "main_atb": {
+          "agi": 34,
+          "int": 22,
+          "luk": 20,
+          "vit": 24,
+          "dex": 50
+        },
+        "main_stats": {
+          "level": "47",
+          "def": "50 + 3510.00%",
+          "hp": "1,162",
+          "m_def": "1511.74%",
+          "attack": "100 ~ 142",
+          "range": "1 cell",
+          "aspd": "136.2",
+          "move_speed": "250 ms",
+          "base_exp": "389",
+          "base_exp_per_hp": "0.335",
+          "job_exp": "438",
+          "job_exp_per_hp": "0.377",
+          "hit": "281",
+          "flee": "267"
+        },
+        "elementalDamage": {
+          "neutral": 100,
+          "poison": 25,
+          "earth": 75,
+          "shadow": -25,
+          "water": 75,
+          "undead": 0,
+          "fire": 75,
+          "holy": 150,
+          "wind": 75,
+          "ghost": 50
+        },
+        "skills": {
+          "mode": [
+            "aggressive",
+            "changes_target_if_attacked"
+          ],
+          "spell": [
+            {
+              "level": 3,
+              "name": "blind_attack"
+            },
+            {
+              "level": 1,
+              "name": "blood_drain"
+            },
+            {
+              "level": 1,
+              "name": "shadow_attack"
+            }
+          ],
+          "summon": {}
+        },
+        "drops": [
+          {
+            "name": "emveretarcon",
+            "img": "http://db.irowiki.org/image/item/1011.png",
+            "rate": 0.61
+          },
+          {
+            "name": "tooth_of_bat",
+            "img": "http://db.irowiki.org/image/item/913.png",
+            "rate": 30
+          },
+          {
+            "name": "sardonyx",
+            "img": "http://db.irowiki.org/image/item/725.png",
+            "rate": 0.21
+          },
+          {
+            "name": "red_herb",
+            "img": "http://db.irowiki.org/image/item/507.png",
+            "rate": 10
+          },
+          {
+            "name": "wing_of_red_bat",
+            "img": "http://db.irowiki.org/image/item/7006.png",
+            "rate": 55
+          },
+          {
+            "name": "wing_of_red_bat",
+            "img": "http://db.irowiki.org/image/item/7006.png",
+            "rate": 15
+          },
+          {
+            "name": "rough_oridecon",
+            "img": "http://db.irowiki.org/image/item/756.png",
+            "rate": 0.41
+          },
+          {
+            "name": "drainliar_card",
+            "img": "http://db.irowiki.org/image/item/4069.png",
+            "rate": 0.02
+          }
+        ],
+        "maps": [
+          {
+            "amount": 40,
+            "frequency": "instantly",
+            "name": "clock_tower_bf",
+            "number": 1,
+            "type": "dungeon",
+            "img": "http://db.irowiki.org/image/map/thumb/alde_dun01.png"
+          },
+          {
+            "amount": 45,
+            "frequency": "multiple",
+            "name": "clock_tower_bf",
+            "number": 3,
+            "type": "dungeon",
+            "img": "http://db.irowiki.org/image/map/thumb/alde_dun03.png"
+          },
+          {
+            "amount": 20,
+            "frequency": "instantly",
+            "name": "geffen_dungeon",
+            "number": 2,
+            "type": "dungeon",
+            "img": "http://db.irowiki.org/image/map/thumb/gef_dun01.png"
+          },
+          {
+            "amount": 10,
+            "frequency": "instantly",
+            "name": "glast_heim_culvert",
+            "number": 4,
+            "type": "dungeon",
+            "img": "http://db.irowiki.org/image/map/thumb/gl_sew04.png"
+          },
+          {
+            "amount": 20,
+            "frequency": "instantly",
+            "name": "mjolnir_dead_pit",
+            "number": 2,
+            "type": "dungeon",
+            "img": "http://db.irowiki.org/image/map/thumb/mjo_dun02.png"
+          },
+          {
+            "amount": 5,
+            "frequency": "instantly",
+            "name": "orc_dungeon",
+            "number": 1,
+            "type": "dungeon",
+            "img": "http://db.irowiki.org/image/map/thumb/orcsdun01.png"
+          },
+          {
+            "amount": 20,
+            "frequency": "instantly",
+            "name": "orc_dungeon",
+            "number": 2,
+            "type": "dungeon",
+            "img": "http://db.irowiki.org/image/map/thumb/orcsdun02.png"
+          },
+          {
+            "amount": 5,
+            "frequency": "instantly",
+            "name": "payon_cave",
+            "number": 2,
+            "type": "dungeon",
+            "img": "http://db.irowiki.org/image/map/thumb/pay_dun01.png"
+          },
+          {
+            "amount": 20,
+            "frequency": "instantly",
+            "name": "prontera_culvert",
+            "number": 4,
+            "type": "dungeon",
+            "img": "http://db.irowiki.org/image/map/thumb/prt_sewb4.png"
+          },
+          {
+            "amount": 20,
+            "frequency": "instantly",
+            "name": "pyramid_f",
+            "number": 2,
+            "type": "dungeon",
+            "img": "http://db.irowiki.org/image/map/thumb/moc_pryd02.png"
+          },
+          {
+            "amount": 5,
+            "frequency": "instantly",
+            "name": "pyramid_f",
+            "number": 3,
+            "type": "dungeon",
+            "img": "http://db.irowiki.org/image/map/thumb/moc_pryd03.png"
+          },
+          {
+            "amount": 40,
+            "frequency": "instantly",
+            "name": "sphinx",
+            "number": 1,
+            "type": "dungeon",
+            "img": "http://db.irowiki.org/image/map/thumb/in_sphinx1.png"
+          },
+          {
+            "amount": 15,
+            "frequency": "instantly",
+            "name": "sphinx",
+            "number": 2,
+            "type": "dungeon",
+            "img": "http://db.irowiki.org/image/map/thumb/in_sphinx2.png"
+          },
+          {
+            "amount": 15,
+            "frequency": "",
+            "name": "endless_tower_f_f",
+            "number": 125,
+            "type": "instance",
+            "img": "http://db.irowiki.org/image/map/thumb/1@tower.png"
+          }
+        ]
+      }
+    }
+  }
+}

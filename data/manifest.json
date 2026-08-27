@@ -34,17 +34,21 @@
       "char", "cart_inventory", "inventory"
     ]
   },
+  "external_market": {
+    "staging": "staging/market/",
+    "sources_probing": ["atlantis_playro", "latam_tools", "ragnapi"],
+    "sources_pending": ["divine_pride"],
+    "player_analysis": false,
+    "vendings_local": "blocked_until_autotrade"
+  },
   "excluded": {
     "login.sql": "contiene hashes de contraseñas — no copiar a git",
     "full_backup.sql": "incluye login — usar solo local si hace falta",
-    "vendings": "no presente en backup ozro-backup (tabla vacía o no exportada)"
+    "vendings": "pendiente hasta autotrade en OzRo"
   },
   "stats": {
-    "characters": 26,
-    "inventory_rows": 791,
-    "cart_inventory_rows": 13,
+    "db_snapshot_chars": 26,
     "custom_items_import": 5,
-    "custom_mobs_import": 1,
-    "main_map": "geffen"
+    "custom_mobs_import": 1
   }
 }

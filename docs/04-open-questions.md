@@ -14,7 +14,7 @@ Decisiones **intencionalmente aplazadas** hasta tener datos reales. Actualizar e
 
 | # | Pregunta | Contexto |
 |---|----------|----------|
-| 4 | ¿Qué fuente(s) de mercado externo usar? | Explorar en M1 |
+| 4 | ¿Qué fuente(s) de mercado externo usar? | latam-tools + RagnaAPI en staging; Divine Pride con key |
 | 5 | ¿Cómo normalizar precios al rate custom del servidor? | Rates salen de conf, no asumir fórmula |
 | 6 | ¿Hay ítems custom no presentes en DBs públicas? | Revisar item_db real |
 | 7 | ¿Fórmula de drop efectivo coincide con `@mobinfo` en juego? | Validar muestra en M2 |
@@ -23,10 +23,10 @@ Decisiones **intencionalmente aplazadas** hasta tener datos reales. Actualizar e
 
 | # | Pregunta | Contexto |
 |---|----------|----------|
-| 8 | ¿Cuántos bots y qué roles (seller/farmer/buyer)? | Observar patrones reales en clon DB |
+| 8 | ¿Cuántos bots y qué roles? | Diseño manual — no basado en jugadores locales |
 | 9 | ¿char_ids de bots ya existen en el servidor? | Revisar tabla `char` |
 | 10 | ¿Priorizar compras a char_ids de familia? | Decisión de diseño M5 |
-| 11 | ¿Coordenadas de vending en qué mapas? | Observar dónde venden jugadores reales |
+| 11 | ¿Coordenadas de vending? | Pendiente; dump vendings cuando haya autotrade |
 
 ## Simulación y auditoría
 
@@ -46,9 +46,20 @@ Decisiones **intencionalmente aplazadas** hasta tener datos reales. Actualizar e
 
 ---
 
-## Resueltas
+### #4 — Fuentes de mercado externo
+**Respuesta:** latam-tools (vending bRO LATAM), RagnaAPI (metadata/drops), Divine Pride pendiente key (NPC prices). Staging en `staging/market/`.
+**Fecha:** 2026-08-27
+**Etapa:** M1
 
-_(ninguna aún — M0)_
+### #8 — Perfiles de bots
+**Respuesta:** No derivar de jugadores locales. Diseñar perfiles manualmente; precios desde mercado externo validado.
+**Fecha:** 2026-08-27
+**Etapa:** M1
+
+### #11 — Vendings locales
+**Respuesta:** Dump pendiente hasta tener tienda autotrade en OzRo.
+**Fecha:** 2026-08-27
+**Etapa:** M1
 
 <!-- Formato para respuestas:
 ### #N — Título

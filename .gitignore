@@ -6,6 +6,11 @@ __pycache__/
 dist/
 build/
 
+# Staging (probes temporales — revisar antes de promover a data/)
+staging/**/bulk/
+staging/market/atlantis_playro/bulk/items/
+staging/market/atlantis_playro/bulk/progress.json
+
 # Secrets
 .env
 *.env.local

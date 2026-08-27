@@ -10,6 +10,8 @@ Llenar de vida el mercado de un servidor privado de Ragnarok Online (rAthena) me
 
 El servidor no debe sentirse vacío. Los mercaderes deben parecer jugadores auténticos con carro, nombres creíbles y carteras en mapas como Prontera.
 
+El dataset también servirá para diseño de **NPCs y quests**, no solo bots.
+
 ## Audiencia
 
 Jugadores reales del servidor familiar. El sistema existe para mejorar su experiencia, no para farmear en su nombre ni para obtener ventaja injusta.
@@ -58,7 +60,7 @@ Cada etapa tendrá su propio plan iterado. No implementar etapas futuras hasta c
 
 ## Fase SQLite: clon del servidor real
 
-Para desarrollo seguro, se clonará el MySQL de producción tal cual está y se convertirá a SQLite local. Los bots y sus interacciones se diseñarán observando **datos reales** de jugadores existentes (patrones de vending, zeny, inventarios), no perfiles inventados.
+Para desarrollo seguro, se clonará el MySQL de producción a SQLite local cuando haga falta probar inyección. **No usamos patrones de jugadores locales** para diseñar bots — poco historial de juego. Los precios vienen de mercado externo (ver `docs/05-external-market.md`).
 
 Ver [03-server-snapshot.md](03-server-snapshot.md) para el procedimiento.
 
