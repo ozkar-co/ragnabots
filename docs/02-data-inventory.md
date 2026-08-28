@@ -16,11 +16,13 @@ Ruta base: `/home/oz/rathena` → `data/raw/rathena/`
 - [x] **Curación capa 1** — 5,328 con precio → `staging/market/latam_tools/curated/`
 - [x] **Atlantis top 2,000** — 733 con stats históricas
 - [x] **LATAM clásico ID&lt;10k** — 1,833; bot focus 202; ver `classic_deep_analysis.md`
-- [ ] Fetch Atlantis gaps clásicos (744 con offers)
-- [ ] NPC focus 100–200 por tipo
-- [ ] Completar 29k gradual (referencia)
-- [ ] Divine Pride API key
-- [ ] Promover a `data/market/`
+- [x] Fetch Atlantis gaps clásicos — 688 nuevos → **1 421** con stats
+- [x] **Dropeables** — 1 115 (normal 1 107) — `droppable_*.json/txt`
+- [x] **Spawns renewal** — NPC `re/mobs` copiados; 1 132 mobs / 357 mapas
+- [x] **Grindable** — 926 ítems (drop + spawn normal) — `grindable_*`
+- [ ] Simulación de grind → oferta de bots
+- [ ] Techo compra a jugadores (LATAM median)
+- [ ] _(más adelante)_ más fetch / Divine Pride / data/market/
 
 ### Resultado LATAM FREYA (2026-08-28)
 

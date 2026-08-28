@@ -58,8 +58,12 @@ Bulk crudo (115 MB) en `bulk/FREYA/items/` — **local, gitignored**.
 ### Corto plazo
 1. [x] **Atlantis** sobre `top2000_ids.txt` — 733 con stats (2026-08-28)
 2. [x] Análisis LATAM clásico ID&lt;10k — 1833 ítems; bot focus 202; ratios por categoría
-3. Fetch Atlantis de `atlantis_fetch_priority_offers.txt` (744 gaps clásicos con offers)
-4. Agrupar bot focus → NPC shops 100–200 por tipo (etc/consumable/card primero)
+3. Fetch Atlantis de `atlantis_fetch_priority_offers.txt` (744 gaps) — **hecho** → 1 421 con stats
+4. [x] Filtrar dropeables (`mob_db`) → **1 115** — ver `droppable_notes.md`
+5. [x] Spawns `npc/re/mobs` + grindable → **926** — ver `staging/market/spawns/`
+6. Simular grind bots (mapas/mobs densos + companions)
+7. Techo compra a jugadores (LATAM median)
+8. _(aplazado)_ resto de fetch Atlantis/ragnapi
 
 ### Medio plazo
 4. Promover capa 3 validada a `data/market/price_dictionary.json`

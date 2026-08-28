@@ -1,0 +1,10 @@
+{
+  "source": "npc/re/mobs (renewal)",
+  "spawn_lines_normal": 3173,
+  "spawn_lines_boss": 64,
+  "unique_maps": 357,
+  "unique_mobs_normal": 1132,
+  "droppable": 1115,
+  "grindable": 926,
+  "not_grindable": 189
+}

@@ -48,13 +48,18 @@
     "atlantis_top2000": {
       "status": "complete",
       "date": "2026-08-28",
-      "input": "staging/market/latam_tools/curated/top2000_ids.txt",
-      "with_stats": 733,
-      "no_data": 1267,
+      "with_stats": 1421,
+      "grindable": 926,
       "bulk_local": "staging/market/atlantis_playro/bulk/",
       "curated": "staging/market/atlantis_playro/curated/"
     },
-    "next": "cross LATAM+Atlantis, NPC focus top 100-200 by type",
+    "spawns": {
+      "source": "npc/re/mobs",
+      "maps": 357,
+      "mobs_normal": 1132,
+      "path": "staging/market/spawns/"
+    },
+    "next": "grind simulation from grindable + spawn maps",
     "sources_pending": ["ragnapi", "divine_pride"],
     "player_analysis": false,
     "vendings_local": "blocked_until_autotrade"

@@ -1,0 +1,4311 @@
+{
+  "1007": {
+    "name": "FABRE",
+    "companions": [
+      {
+        "mob_id": 1002,
+        "name": "PORING",
+        "weight": 773
+      },
+      {
+        "mob_id": 1063,
+        "name": "LUNATIC",
+        "weight": 671
+      },
+      {
+        "mob_id": 2398,
+        "name": "LITTLE_PORING",
+        "weight": 170
+      },
+      {
+        "mob_id": 1011,
+        "name": "CHONCHON",
+        "weight": 84
+      },
+      {
+        "mob_id": 1008,
+        "name": "PUPA",
+        "weight": 65
+      },
+      {
+        "mob_id": 1010,
+        "name": "WILOW",
+        "weight": 63
+      },
+      {
+        "mob_id": 1080,
+        "name": "GREEN_PLANT",
+        "weight": 45
+      },
+      {
+        "mob_id": 1020,
+        "name": "MANDRAGORA",
+        "weight": 25
+      }
+    ]
+  },
+  "1002": {
+    "name": "PORING",
+    "companions": [
+      {
+        "mob_id": 1007,
+        "name": "FABRE",
+        "weight": 773
+      },
+      {
+        "mob_id": 1063,
+        "name": "LUNATIC",
+        "weight": 646
+      },
+      {
+        "mob_id": 2398,
+        "name": "LITTLE_PORING",
+        "weight": 170
+      },
+      {
+        "mob_id": 1008,
+        "name": "PUPA",
+        "weight": 65
+      },
+      {
+        "mob_id": 1010,
+        "name": "WILOW",
+        "weight": 63
+      },
+      {
+        "mob_id": 1011,
+        "name": "CHONCHON",
+        "weight": 59
+      },
+      {
+        "mob_id": 1080,
+        "name": "GREEN_PLANT",
+        "weight": 44
+      },
+      {
+        "mob_id": 1031,
+        "name": "POPORING",
+        "weight": 33
+      }
+    ]
+  },
+  "1063": {
+    "name": "LUNATIC",
+    "companions": [
+      {
+        "mob_id": 1007,
+        "name": "FABRE",
+        "weight": 671
+      },
+      {
+        "mob_id": 1002,
+        "name": "PORING",
+        "weight": 646
+      },
+      {
+        "mob_id": 2398,
+        "name": "LITTLE_PORING",
+        "weight": 170
+      },
+      {
+        "mob_id": 1011,
+        "name": "CHONCHON",
+        "weight": 30
+      },
+      {
+        "mob_id": 1008,
+        "name": "PUPA",
+        "weight": 25
+      },
+      {
+        "mob_id": 1020,
+        "name": "MANDRAGORA",
+        "weight": 25
+      },
+      {
+        "mob_id": 1080,
+        "name": "GREEN_PLANT",
+        "weight": 24
+      },
+      {
+        "mob_id": 1104,
+        "name": "COCO",
+        "weight": 5
+      }
+    ]
+  },
+  "1080": {
+    "name": "GREEN_PLANT",
+    "companions": [
+      {
+        "mob_id": 1081,
+        "name": "YELLOW_PLANT",
+        "weight": 224
+      },
+      {
+        "mob_id": 1078,
+        "name": "RED_PLANT",
+        "weight": 173
+      },
+      {
+        "mob_id": 1079,
+        "name": "BLUE_PLANT",
+        "weight": 95
+      },
+      {
+        "mob_id": 1368,
+        "name": "GEOGRAPHER",
+        "weight": 70
+      },
+      {
+        "mob_id": 1128,
+        "name": "HORN",
+        "weight": 61
+      },
+      {
+        "mob_id": 1083,
+        "name": "SHINING_PLANT",
+        "weight": 60
+      },
+      {
+        "mob_id": 1031,
+        "name": "POPORING",
+        "weight": 56
+      },
+      {
+        "mob_id": 1372,
+        "name": "GOAT",
+        "weight": 55
+      }
+    ]
+  },
+  "1031": {
+    "name": "POPORING",
+    "companions": [
+      {
+        "mob_id": 1128,
+        "name": "HORN",
+        "weight": 111
+      },
+      {
+        "mob_id": 1033,
+        "name": "ELDER_WILOW",
+        "weight": 68
+      },
+      {
+        "mob_id": 1057,
+        "name": "YOYO",
+        "weight": 64
+      },
+      {
+        "mob_id": 1080,
+        "name": "GREEN_PLANT",
+        "weight": 56
+      },
+      {
+        "mob_id": 1242,
+        "name": "MARIN",
+        "weight": 56
+      },
+      {
+        "mob_id": 1078,
+        "name": "RED_PLANT",
+        "weight": 51
+      },
+      {
+        "mob_id": 1104,
+        "name": "COCO",
+        "weight": 51
+      },
+      {
+        "mob_id": 1035,
+        "name": "HUNTER_FLY",
+        "weight": 49
+      }
+    ]
+  },
+  "1081": {
+    "name": "YELLOW_PLANT",
+    "companions": [
+      {
+        "mob_id": 1078,
+        "name": "RED_PLANT",
+        "weight": 240
+      },
+      {
+        "mob_id": 1080,
+        "name": "GREEN_PLANT",
+        "weight": 224
+      },
+      {
+        "mob_id": 1368,
+        "name": "GEOGRAPHER",
+        "weight": 98
+      },
+      {
+        "mob_id": 1085,
+        "name": "RED_MUSHROOM",
+        "weight": 66
+      },
+      {
+        "mob_id": 1613,
+        "name": "METALING",
+        "weight": 65
+      },
+      {
+        "mob_id": 1082,
+        "name": "WHITE_PLANT",
+        "weight": 59
+      },
+      {
+        "mob_id": 1079,
+        "name": "BLUE_PLANT",
+        "weight": 56
+      },
+      {
+        "mob_id": 1372,
+        "name": "GOAT",
+        "weight": 55
+      }
+    ]
+  },
+  "1099": {
+    "name": "ARGIOPE",
+    "companions": [
+      {
+        "mob_id": 2151,
+        "name": "ALNOLDI",
+        "weight": 75
+      },
+      {
+        "mob_id": 1139,
+        "name": "MANTIS",
+        "weight": 61
+      },
+      {
+        "mob_id": 1100,
+        "name": "ARGOS",
+        "weight": 48
+      },
+      {
+        "mob_id": 1118,
+        "name": "FLORA",
+        "weight": 45
+      },
+      {
+        "mob_id": 1037,
+        "name": "SIDE_WINDER",
+        "weight": 45
+      },
+      {
+        "mob_id": 1380,
+        "name": "DRILLER",
+        "weight": 44
+      },
+      {
+        "mob_id": 2153,
+        "name": "CENDRAWASIH",
+        "weight": 16
+      },
+      {
+        "mob_id": 1079,
+        "name": "BLUE_PLANT",
+        "weight": 14
+      }
+    ]
+  },
+  "1613": {
+    "name": "METALING",
+    "companions": [
+      {
+        "mob_id": 1619,
+        "name": "PORCELLIO",
+        "weight": 118
+      },
+      {
+        "mob_id": 1162,
+        "name": "RAFFLESIA",
+        "weight": 85
+      },
+      {
+        "mob_id": 1215,
+        "name": "STEM_WORM",
+        "weight": 85
+      },
+      {
+        "mob_id": 1081,
+        "name": "YELLOW_PLANT",
+        "weight": 65
+      },
+      {
+        "mob_id": 1078,
+        "name": "RED_PLANT",
+        "weight": 60
+      },
+      {
+        "mob_id": 1682,
+        "name": "REMOVAL",
+        "weight": 50
+      },
+      {
+        "mob_id": 1627,
+        "name": "ANOPHELES",
+        "weight": 50
+      },
+      {
+        "mob_id": 1628,
+        "name": "MOLE",
+        "weight": 42
+      }
+    ]
+  },
+  "1368": {
+    "name": "GEOGRAPHER",
+    "companions": [
+      {
+        "mob_id": 1372,
+        "name": "GOAT",
+        "weight": 127
+      },
+      {
+        "mob_id": 1139,
+        "name": "MANTIS",
+        "weight": 121
+      },
+      {
+        "mob_id": 1081,
+        "name": "YELLOW_PLANT",
+        "weight": 98
+      },
+      {
+        "mob_id": 1369,
+        "name": "GRAND_PECO",
+        "weight": 78
+      },
+      {
+        "mob_id": 1715,
+        "name": "NOVUS",
+        "weight": 77
+      },
+      {
+        "mob_id": 1718,
+        "name": "NOVUS_",
+        "weight": 77
+      },
+      {
+        "mob_id": 1386,
+        "name": "SLEEPER",
+        "weight": 71
+      },
+      {
+        "mob_id": 1080,
+        "name": "GREEN_PLANT",
+        "weight": 70
+      }
+    ]
+  },
+  "1369": {
+    "name": "GRAND_PECO",
+    "companions": [
+      {
+        "mob_id": 1386,
+        "name": "SLEEPER",
+        "weight": 92
+      },
+      {
+        "mob_id": 1376,
+        "name": "HARPY",
+        "weight": 80
+      },
+      {
+        "mob_id": 1368,
+        "name": "GEOGRAPHER",
+        "weight": 78
+      },
+      {
+        "mob_id": 1372,
+        "name": "GOAT",
+        "weight": 66
+      },
+      {
+        "mob_id": 1078,
+        "name": "RED_PLANT",
+        "weight": 40
+      },
+      {
+        "mob_id": 1081,
+        "name": "YELLOW_PLANT",
+        "weight": 40
+      },
+      {
+        "mob_id": 1080,
+        "name": "GREEN_PLANT",
+        "weight": 40
+      },
+      {
+        "mob_id": 2656,
+        "name": "C1_SLEEPER",
+        "weight": 2
+      }
+    ]
+  },
+  "1139": {
+    "name": "MANTIS",
+    "companions": [
+      {
+        "mob_id": 1037,
+        "name": "SIDE_WINDER",
+        "weight": 163
+      },
+      {
+        "mob_id": 1380,
+        "name": "DRILLER",
+        "weight": 124
+      },
+      {
+        "mob_id": 1368,
+        "name": "GEOGRAPHER",
+        "weight": 121
+      },
+      {
+        "mob_id": 1114,
+        "name": "DUSTINESS",
+        "weight": 98
+      },
+      {
+        "mob_id": 1035,
+        "name": "HUNTER_FLY",
+        "weight": 76
+      },
+      {
+        "mob_id": 1099,
+        "name": "ARGIOPE",
+        "weight": 61
+      },
+      {
+        "mob_id": 1080,
+        "name": "GREEN_PLANT",
+        "weight": 50
+      },
+      {
+        "mob_id": 1031,
+        "name": "POPORING",
+        "weight": 44
+      }
+    ]
+  },
+  "1376": {
+    "name": "HARPY",
+    "companions": [
+      {
+        "mob_id": 1372,
+        "name": "GOAT",
+        "weight": 132
+      },
+      {
+        "mob_id": 1386,
+        "name": "SLEEPER",
+        "weight": 96
+      },
+      {
+        "mob_id": 1369,
+        "name": "GRAND_PECO",
+        "weight": 80
+      },
+      {
+        "mob_id": 1078,
+        "name": "RED_PLANT",
+        "weight": 45
+      },
+      {
+        "mob_id": 1081,
+        "name": "YELLOW_PLANT",
+        "weight": 45
+      },
+      {
+        "mob_id": 1080,
+        "name": "GREEN_PLANT",
+        "weight": 45
+      },
+      {
+        "mob_id": 1368,
+        "name": "GEOGRAPHER",
+        "weight": 36
+      },
+      {
+        "mob_id": 1079,
+        "name": "BLUE_PLANT",
+        "weight": 4
+      }
+    ]
+  },
+  "1782": {
+    "name": "ROWEEN",
+    "companions": [
+      {
+        "mob_id": 1627,
+        "name": "ANOPHELES",
+        "weight": 121
+      },
+      {
+        "mob_id": 1030,
+        "name": "ANACONDAQ",
+        "weight": 102
+      },
+      {
+        "mob_id": 1680,
+        "name": "HILL_WIND_1",
+        "weight": 101
+      },
+      {
+        "mob_id": 1107,
+        "name": "DESERT_WOLF_B",
+        "weight": 61
+      },
+      {
+        "mob_id": 1106,
+        "name": "DESERT_WOLF",
+        "weight": 56
+      },
+      {
+        "mob_id": 1081,
+        "name": "YELLOW_PLANT",
+        "weight": 15
+      },
+      {
+        "mob_id": 1776,
+        "name": "SIROMA",
+        "weight": 5
+      },
+      {
+        "mob_id": 1780,
+        "name": "MUSCIPULAR",
+        "weight": 5
+      }
+    ]
+  },
+  "1386": {
+    "name": "SLEEPER",
+    "companions": [
+      {
+        "mob_id": 1376,
+        "name": "HARPY",
+        "weight": 96
+      },
+      {
+        "mob_id": 1369,
+        "name": "GRAND_PECO",
+        "weight": 92
+      },
+      {
+        "mob_id": 1368,
+        "name": "GEOGRAPHER",
+        "weight": 71
+      },
+      {
+        "mob_id": 1372,
+        "name": "GOAT",
+        "weight": 46
+      },
+      {
+        "mob_id": 1078,
+        "name": "RED_PLANT",
+        "weight": 45
+      },
+      {
+        "mob_id": 1081,
+        "name": "YELLOW_PLANT",
+        "weight": 45
+      },
+      {
+        "mob_id": 1080,
+        "name": "GREEN_PLANT",
+        "weight": 45
+      },
+      {
+        "mob_id": 1079,
+        "name": "BLUE_PLANT",
+        "weight": 4
+      }
+    ]
+  },
+  "1104": {
+    "name": "COCO",
+    "companions": [
+      {
+        "mob_id": 1128,
+        "name": "HORN",
+        "weight": 89
+      },
+      {
+        "mob_id": 1033,
+        "name": "ELDER_WILOW",
+        "weight": 71
+      },
+      {
+        "mob_id": 1031,
+        "name": "POPORING",
+        "weight": 51
+      },
+      {
+        "mob_id": 1056,
+        "name": "SMOKIE",
+        "weight": 45
+      },
+      {
+        "mob_id": 1057,
+        "name": "YOYO",
+        "weight": 44
+      },
+      {
+        "mob_id": 1085,
+        "name": "RED_MUSHROOM",
+        "weight": 37
+      },
+      {
+        "mob_id": 1080,
+        "name": "GREEN_PLANT",
+        "weight": 28
+      },
+      {
+        "mob_id": 1012,
+        "name": "RODA_FROG",
+        "weight": 24
+      }
+    ]
+  },
+  "1781": {
+    "name": "DROSERA",
+    "companions": [
+      {
+        "mob_id": 1780,
+        "name": "MUSCIPULAR",
+        "weight": 192
+      },
+      {
+        "mob_id": 1784,
+        "name": "STAPO",
+        "weight": 98
+      },
+      {
+        "mob_id": 1783,
+        "name": "GALION",
+        "weight": 69
+      },
+      {
+        "mob_id": 1081,
+        "name": "YELLOW_PLANT",
+        "weight": 40
+      },
+      {
+        "mob_id": 1836,
+        "name": "MAGMARING",
+        "weight": 38
+      },
+      {
+        "mob_id": 1078,
+        "name": "RED_PLANT",
+        "weight": 30
+      },
+      {
+        "mob_id": 1082,
+        "name": "WHITE_PLANT",
+        "weight": 10
+      },
+      {
+        "mob_id": 1079,
+        "name": "BLUE_PLANT",
+        "weight": 7
+      }
+    ]
+  },
+  "1078": {
+    "name": "RED_PLANT",
+    "companions": [
+      {
+        "mob_id": 1081,
+        "name": "YELLOW_PLANT",
+        "weight": 240
+      },
+      {
+        "mob_id": 1080,
+        "name": "GREEN_PLANT",
+        "weight": 173
+      },
+      {
+        "mob_id": 1079,
+        "name": "BLUE_PLANT",
+        "weight": 69
+      },
+      {
+        "mob_id": 1368,
+        "name": "GEOGRAPHER",
+        "weight": 65
+      },
+      {
+        "mob_id": 1085,
+        "name": "RED_MUSHROOM",
+        "weight": 60
+      },
+      {
+        "mob_id": 1613,
+        "name": "METALING",
+        "weight": 60
+      },
+      {
+        "mob_id": 1372,
+        "name": "GOAT",
+        "weight": 55
+      },
+      {
+        "mob_id": 1084,
+        "name": "BLACK_MUSHROOM",
+        "weight": 54
+      }
+    ]
+  },
+  "1012": {
+    "name": "RODA_FROG",
+    "companions": [
+      {
+        "mob_id": 1094,
+        "name": "AMBERNITE",
+        "weight": 120
+      },
+      {
+        "mob_id": 1085,
+        "name": "RED_MUSHROOM",
+        "weight": 40
+      },
+      {
+        "mob_id": 1084,
+        "name": "BLACK_MUSHROOM",
+        "weight": 30
+      },
+      {
+        "mob_id": 2404,
+        "name": "DEAD_PLANKTON",
+        "weight": 30
+      },
+      {
+        "mob_id": 1167,
+        "name": "SAVAGE_BABE",
+        "weight": 26
+      },
+      {
+        "mob_id": 1080,
+        "name": "GREEN_PLANT",
+        "weight": 25
+      },
+      {
+        "mob_id": 2405,
+        "name": "WEAK_SKELETON",
+        "weight": 24
+      },
+      {
+        "mob_id": 1014,
+        "name": "SPORE",
+        "weight": 24
+      }
+    ]
+  },
+  "1033": {
+    "name": "ELDER_WILOW",
+    "companions": [
+      {
+        "mob_id": 1128,
+        "name": "HORN",
+        "weight": 104
+      },
+      {
+        "mob_id": 1104,
+        "name": "COCO",
+        "weight": 71
+      },
+      {
+        "mob_id": 1031,
+        "name": "POPORING",
+        "weight": 68
+      },
+      {
+        "mob_id": 1080,
+        "name": "GREEN_PLANT",
+        "weight": 41
+      },
+      {
+        "mob_id": 1085,
+        "name": "RED_MUSHROOM",
+        "weight": 22
+      },
+      {
+        "mob_id": 1057,
+        "name": "YOYO",
+        "weight": 22
+      },
+      {
+        "mob_id": 1079,
+        "name": "BLUE_PLANT",
+        "weight": 10
+      },
+      {
+        "mob_id": 1078,
+        "name": "RED_PLANT",
+        "weight": 6
+      }
+    ]
+  },
+  "1037": {
+    "name": "SIDE_WINDER",
+    "companions": [
+      {
+        "mob_id": 1139,
+        "name": "MANTIS",
+        "weight": 163
+      },
+      {
+        "mob_id": 1380,
+        "name": "DRILLER",
+        "weight": 80
+      },
+      {
+        "mob_id": 1099,
+        "name": "ARGIOPE",
+        "weight": 45
+      },
+      {
+        "mob_id": 1155,
+        "name": "PETIT",
+        "weight": 36
+      },
+      {
+        "mob_id": 1080,
+        "name": "GREEN_PLANT",
+        "weight": 35
+      },
+      {
+        "mob_id": 1031,
+        "name": "POPORING",
+        "weight": 33
+      },
+      {
+        "mob_id": 1035,
+        "name": "HUNTER_FLY",
+        "weight": 33
+      },
+      {
+        "mob_id": 1101,
+        "name": "BAPHOMET_",
+        "weight": 25
+      }
+    ]
+  },
+  "1372": {
+    "name": "GOAT",
+    "companions": [
+      {
+        "mob_id": 1376,
+        "name": "HARPY",
+        "weight": 132
+      },
+      {
+        "mob_id": 1368,
+        "name": "GEOGRAPHER",
+        "weight": 127
+      },
+      {
+        "mob_id": 1369,
+        "name": "GRAND_PECO",
+        "weight": 66
+      },
+      {
+        "mob_id": 1078,
+        "name": "RED_PLANT",
+        "weight": 55
+      },
+      {
+        "mob_id": 1081,
+        "name": "YELLOW_PLANT",
+        "weight": 55
+      },
+      {
+        "mob_id": 1080,
+        "name": "GREEN_PLANT",
+        "weight": 55
+      },
+      {
+        "mob_id": 1386,
+        "name": "SLEEPER",
+        "weight": 46
+      },
+      {
+        "mob_id": 1079,
+        "name": "BLUE_PLANT",
+        "weight": 4
+      }
+    ]
+  },
+  "1680": {
+    "name": "HILL_WIND_1",
+    "companions": [
+      {
+        "mob_id": 1782,
+        "name": "ROWEEN",
+        "weight": 101
+      },
+      {
+        "mob_id": 1627,
+        "name": "ANOPHELES",
+        "weight": 61
+      },
+      {
+        "mob_id": 1030,
+        "name": "ANACONDAQ",
+        "weight": 54
+      },
+      {
+        "mob_id": 1106,
+        "name": "DESERT_WOLF",
+        "weight": 23
+      },
+      {
+        "mob_id": 1107,
+        "name": "DESERT_WOLF_B",
+        "weight": 15
+      },
+      {
+        "mob_id": 2804,
+        "name": "C1_HILL_WIND_1",
+        "weight": 3
+      },
+      {
+        "mob_id": 2803,
+        "name": "C5_HILL_WIND_1",
+        "weight": 3
+      },
+      {
+        "mob_id": 2904,
+        "name": "C4_ANACONDAQ",
+        "weight": 2
+      }
+    ]
+  },
+  "1111": {
+    "name": "DRAINLIAR",
+    "companions": [
+      {
+        "mob_id": 1164,
+        "name": "REQUIEM",
+        "weight": 62
+      },
+      {
+        "mob_id": 1178,
+        "name": "ZEROM",
+        "weight": 62
+      },
+      {
+        "mob_id": 1209,
+        "name": "CRAMP",
+        "weight": 60
+      },
+      {
+        "mob_id": 1216,
+        "name": "PENOMENA",
+        "weight": 55
+      },
+      {
+        "mob_id": 1146,
+        "name": "MATYR",
+        "weight": 48
+      },
+      {
+        "mob_id": 1194,
+        "name": "ARCLOUSE",
+        "weight": 47
+      },
+      {
+        "mob_id": 1041,
+        "name": "MUMMY",
+        "weight": 25
+      },
+      {
+        "mob_id": 1028,
+        "name": "SOLDIER_SKELETON",
+        "weight": 25
+      }
+    ]
+  },
+  "1068": {
+    "name": "HYDRA",
+    "companions": [
+      {
+        "mob_id": 1070,
+        "name": "KUKRE",
+        "weight": 78
+      },
+      {
+        "mob_id": 1071,
+        "name": "PIRATE_SKEL",
+        "weight": 74
+      },
+      {
+        "mob_id": 1067,
+        "name": "CORNUTUS",
+        "weight": 55
+      },
+      {
+        "mob_id": 1066,
+        "name": "VADON",
+        "weight": 50
+      },
+      {
+        "mob_id": 1069,
+        "name": "SWORD_FISH",
+        "weight": 41
+      },
+      {
+        "mob_id": 1144,
+        "name": "MARSE",
+        "weight": 40
+      },
+      {
+        "mob_id": 1044,
+        "name": "OBEAUNE",
+        "weight": 40
+      },
+      {
+        "mob_id": 1084,
+        "name": "BLACK_MUSHROOM",
+        "weight": 39
+      }
+    ]
+  },
+  "1118": {
+    "name": "FLORA",
+    "companions": [
+      {
+        "mob_id": 1494,
+        "name": "KIND_OF_BEETLE",
+        "weight": 111
+      },
+      {
+        "mob_id": 1100,
+        "name": "ARGOS",
+        "weight": 86
+      },
+      {
+        "mob_id": 1166,
+        "name": "SAVAGE",
+        "weight": 70
+      },
+      {
+        "mob_id": 1687,
+        "name": "GREEN_IGUANA",
+        "weight": 67
+      },
+      {
+        "mob_id": 1271,
+        "name": "ALLIGATOR",
+        "weight": 64
+      },
+      {
+        "mob_id": 1099,
+        "name": "ARGIOPE",
+        "weight": 45
+      },
+      {
+        "mob_id": 1080,
+        "name": "GREEN_PLANT",
+        "weight": 39
+      },
+      {
+        "mob_id": 1156,
+        "name": "PETIT_",
+        "weight": 37
+      }
+    ]
+  },
+  "1195": {
+    "name": "RIDEWORD",
+    "companions": [
+      {
+        "mob_id": 1199,
+        "name": "PUNK",
+        "weight": 123
+      },
+      {
+        "mob_id": 1191,
+        "name": "MIMIC",
+        "weight": 86
+      },
+      {
+        "mob_id": 1698,
+        "name": "DEATHWORD",
+        "weight": 60
+      },
+      {
+        "mob_id": 1163,
+        "name": "RAYDRIC",
+        "weight": 58
+      },
+      {
+        "mob_id": 1320,
+        "name": "OWL_DUKE",
+        "weight": 51
+      },
+      {
+        "mob_id": 1377,
+        "name": "ELDER",
+        "weight": 44
+      },
+      {
+        "mob_id": 1699,
+        "name": "ANCIENT_MIMIC",
+        "weight": 40
+      },
+      {
+        "mob_id": 1260,
+        "name": "DARK_FRAME",
+        "weight": 36
+      }
+    ]
+  },
+  "1718": {
+    "name": "NOVUS_",
+    "companions": [
+      {
+        "mob_id": 1715,
+        "name": "NOVUS",
+        "weight": 152
+      },
+      {
+        "mob_id": 1721,
+        "name": "DRAGON_EGG",
+        "weight": 88
+      },
+      {
+        "mob_id": 1368,
+        "name": "GEOGRAPHER",
+        "weight": 77
+      },
+      {
+        "mob_id": 1714,
+        "name": "FERUS",
+        "weight": 14
+      },
+      {
+        "mob_id": 1191,
+        "name": "MIMIC",
+        "weight": 14
+      },
+      {
+        "mob_id": 1699,
+        "name": "ANCIENT_MIMIC",
+        "weight": 14
+      },
+      {
+        "mob_id": 1081,
+        "name": "YELLOW_PLANT",
+        "weight": 10
+      },
+      {
+        "mob_id": 1717,
+        "name": "FERUS_",
+        "weight": 9
+      }
+    ]
+  },
+  "1058": {
+    "name": "METALLER",
+    "companions": [
+      {
+        "mob_id": 1138,
+        "name": "MAGNOLIA",
+        "weight": 106
+      },
+      {
+        "mob_id": 1040,
+        "name": "GOLEM",
+        "weight": 55
+      },
+      {
+        "mob_id": 1081,
+        "name": "YELLOW_PLANT",
+        "weight": 23
+      },
+      {
+        "mob_id": 1105,
+        "name": "DENIRO",
+        "weight": 16
+      },
+      {
+        "mob_id": 1160,
+        "name": "PIERE",
+        "weight": 16
+      },
+      {
+        "mob_id": 1095,
+        "name": "ANDRE",
+        "weight": 16
+      },
+      {
+        "mob_id": 1042,
+        "name": "STEEL_CHONCHON",
+        "weight": 15
+      },
+      {
+        "mob_id": 1013,
+        "name": "WOLF",
+        "weight": 15
+      }
+    ]
+  },
+  "1715": {
+    "name": "NOVUS",
+    "companions": [
+      {
+        "mob_id": 1718,
+        "name": "NOVUS_",
+        "weight": 152
+      },
+      {
+        "mob_id": 1721,
+        "name": "DRAGON_EGG",
+        "weight": 88
+      },
+      {
+        "mob_id": 1368,
+        "name": "GEOGRAPHER",
+        "weight": 77
+      },
+      {
+        "mob_id": 1714,
+        "name": "FERUS",
+        "weight": 14
+      },
+      {
+        "mob_id": 1191,
+        "name": "MIMIC",
+        "weight": 14
+      },
+      {
+        "mob_id": 1699,
+        "name": "ANCIENT_MIMIC",
+        "weight": 14
+      },
+      {
+        "mob_id": 1081,
+        "name": "YELLOW_PLANT",
+        "weight": 10
+      },
+      {
+        "mob_id": 1717,
+        "name": "FERUS_",
+        "weight": 9
+      }
+    ]
+  },
+  "1494": {
+    "name": "KIND_OF_BEETLE",
+    "companions": [
+      {
+        "mob_id": 1166,
+        "name": "SAVAGE",
+        "weight": 134
+      },
+      {
+        "mob_id": 1118,
+        "name": "FLORA",
+        "weight": 111
+      },
+      {
+        "mob_id": 1277,
+        "name": "GREATEST_GENERAL",
+        "weight": 64
+      },
+      {
+        "mob_id": 1100,
+        "name": "ARGOS",
+        "weight": 41
+      },
+      {
+        "mob_id": 1080,
+        "name": "GREEN_PLANT",
+        "weight": 38
+      },
+      {
+        "mob_id": 1079,
+        "name": "BLUE_PLANT",
+        "weight": 7
+      },
+      {
+        "mob_id": 2673,
+        "name": "C3_SAVAGE",
+        "weight": 3
+      },
+      {
+        "mob_id": 1085,
+        "name": "RED_MUSHROOM",
+        "weight": 2
+      }
+    ]
+  },
+  "1128": {
+    "name": "HORN",
+    "companions": [
+      {
+        "mob_id": 1031,
+        "name": "POPORING",
+        "weight": 111
+      },
+      {
+        "mob_id": 1033,
+        "name": "ELDER_WILOW",
+        "weight": 104
+      },
+      {
+        "mob_id": 1104,
+        "name": "COCO",
+        "weight": 89
+      },
+      {
+        "mob_id": 1057,
+        "name": "YOYO",
+        "weight": 64
+      },
+      {
+        "mob_id": 1080,
+        "name": "GREEN_PLANT",
+        "weight": 61
+      },
+      {
+        "mob_id": 1085,
+        "name": "RED_MUSHROOM",
+        "weight": 27
+      },
+      {
+        "mob_id": 1079,
+        "name": "BLUE_PLANT",
+        "weight": 15
+      },
+      {
+        "mob_id": 1078,
+        "name": "RED_PLANT",
+        "weight": 11
+      }
+    ]
+  },
+  "1113": {
+    "name": "DROPS",
+    "companions": [
+      {
+        "mob_id": 1050,
+        "name": "PICKY_",
+        "weight": 62
+      },
+      {
+        "mob_id": 1047,
+        "name": "PECOPECO_EGG",
+        "weight": 54
+      },
+      {
+        "mob_id": 1049,
+        "name": "PICKY",
+        "weight": 54
+      },
+      {
+        "mob_id": 1011,
+        "name": "CHONCHON",
+        "weight": 46
+      },
+      {
+        "mob_id": 1009,
+        "name": "CONDOR",
+        "weight": 39
+      },
+      {
+        "mob_id": 1031,
+        "name": "POPORING",
+        "weight": 33
+      },
+      {
+        "mob_id": 1242,
+        "name": "MARIN",
+        "weight": 33
+      },
+      {
+        "mob_id": 1002,
+        "name": "PORING",
+        "weight": 28
+      }
+    ]
+  },
+  "1100": {
+    "name": "ARGOS",
+    "companions": [
+      {
+        "mob_id": 1118,
+        "name": "FLORA",
+        "weight": 86
+      },
+      {
+        "mob_id": 1099,
+        "name": "ARGIOPE",
+        "weight": 48
+      },
+      {
+        "mob_id": 1494,
+        "name": "KIND_OF_BEETLE",
+        "weight": 41
+      },
+      {
+        "mob_id": 1013,
+        "name": "WOLF",
+        "weight": 41
+      },
+      {
+        "mob_id": 1042,
+        "name": "STEEL_CHONCHON",
+        "weight": 41
+      },
+      {
+        "mob_id": 1080,
+        "name": "GREEN_PLANT",
+        "weight": 35
+      },
+      {
+        "mob_id": 1081,
+        "name": "YELLOW_PLANT",
+        "weight": 17
+      },
+      {
+        "mob_id": 1085,
+        "name": "RED_MUSHROOM",
+        "weight": 16
+      }
+    ]
+  },
+  "1057": {
+    "name": "YOYO",
+    "companions": [
+      {
+        "mob_id": 1128,
+        "name": "HORN",
+        "weight": 64
+      },
+      {
+        "mob_id": 1031,
+        "name": "POPORING",
+        "weight": 64
+      },
+      {
+        "mob_id": 1586,
+        "name": "LEAF_CAT",
+        "weight": 63
+      },
+      {
+        "mob_id": 1080,
+        "name": "GREEN_PLANT",
+        "weight": 52
+      },
+      {
+        "mob_id": 1056,
+        "name": "SMOKIE",
+        "weight": 44
+      },
+      {
+        "mob_id": 1104,
+        "name": "COCO",
+        "weight": 44
+      },
+      {
+        "mob_id": 1033,
+        "name": "ELDER_WILOW",
+        "weight": 22
+      },
+      {
+        "mob_id": 1081,
+        "name": "YELLOW_PLANT",
+        "weight": 12
+      }
+    ]
+  },
+  "1005": {
+    "name": "FARMILIAR",
+    "companions": [
+      {
+        "mob_id": 1048,
+        "name": "THIEF_BUG_EGG",
+        "weight": 86
+      },
+      {
+        "mob_id": 1051,
+        "name": "THIEF_BUG",
+        "weight": 70
+      },
+      {
+        "mob_id": 1175,
+        "name": "TAROU",
+        "weight": 69
+      },
+      {
+        "mob_id": 1031,
+        "name": "POPORING",
+        "weight": 43
+      },
+      {
+        "mob_id": 1160,
+        "name": "PIERE",
+        "weight": 35
+      },
+      {
+        "mob_id": 1105,
+        "name": "DENIRO",
+        "weight": 35
+      },
+      {
+        "mob_id": 1095,
+        "name": "ANDRE",
+        "weight": 35
+      },
+      {
+        "mob_id": 1097,
+        "name": "ANT_EGG",
+        "weight": 35
+      }
+    ]
+  },
+  "1166": {
+    "name": "SAVAGE",
+    "companions": [
+      {
+        "mob_id": 1494,
+        "name": "KIND_OF_BEETLE",
+        "weight": 134
+      },
+      {
+        "mob_id": 1118,
+        "name": "FLORA",
+        "weight": 70
+      },
+      {
+        "mob_id": 1277,
+        "name": "GREATEST_GENERAL",
+        "weight": 64
+      },
+      {
+        "mob_id": 1080,
+        "name": "GREEN_PLANT",
+        "weight": 28
+      },
+      {
+        "mob_id": 1079,
+        "name": "BLUE_PLANT",
+        "weight": 10
+      },
+      {
+        "mob_id": 1085,
+        "name": "RED_MUSHROOM",
+        "weight": 7
+      },
+      {
+        "mob_id": 1002,
+        "name": "PORING",
+        "weight": 5
+      },
+      {
+        "mob_id": 1104,
+        "name": "COCO",
+        "weight": 5
+      }
+    ]
+  },
+  "1163": {
+    "name": "RAYDRIC",
+    "companions": [
+      {
+        "mob_id": 1276,
+        "name": "RAYDRIC_ARCHER",
+        "weight": 72
+      },
+      {
+        "mob_id": 1132,
+        "name": "KHALITZBURG",
+        "weight": 70
+      },
+      {
+        "mob_id": 1195,
+        "name": "RIDEWORD",
+        "weight": 58
+      },
+      {
+        "mob_id": 1208,
+        "name": "WANDER_MAN",
+        "weight": 36
+      },
+      {
+        "mob_id": 1219,
+        "name": "KNIGHT_OF_ABYSS",
+        "weight": 28
+      },
+      {
+        "mob_id": 1084,
+        "name": "BLACK_MUSHROOM",
+        "weight": 12
+      },
+      {
+        "mob_id": 1117,
+        "name": "EVIL_DRUID",
+        "weight": 9
+      },
+      {
+        "mob_id": 1283,
+        "name": "CHIMERA",
+        "weight": 3
+      }
+    ]
+  },
+  "1018": {
+    "name": "CREAMY",
+    "companions": [
+      {
+        "mob_id": 1174,
+        "name": "STAINER",
+        "weight": 110
+      },
+      {
+        "mob_id": 1056,
+        "name": "SMOKIE",
+        "weight": 51
+      },
+      {
+        "mob_id": 1103,
+        "name": "CARAMEL",
+        "weight": 50
+      },
+      {
+        "mob_id": 1060,
+        "name": "BIGFOOT",
+        "weight": 50
+      },
+      {
+        "mob_id": 1031,
+        "name": "POPORING",
+        "weight": 41
+      },
+      {
+        "mob_id": 1077,
+        "name": "POISON_SPORE",
+        "weight": 30
+      },
+      {
+        "mob_id": 1080,
+        "name": "GREEN_PLANT",
+        "weight": 18
+      },
+      {
+        "mob_id": 1078,
+        "name": "RED_PLANT",
+        "weight": 16
+      }
+    ]
+  },
+  "1174": {
+    "name": "STAINER",
+    "companions": [
+      {
+        "mob_id": 1018,
+        "name": "CREAMY",
+        "weight": 110
+      },
+      {
+        "mob_id": 1103,
+        "name": "CARAMEL",
+        "weight": 54
+      },
+      {
+        "mob_id": 1060,
+        "name": "BIGFOOT",
+        "weight": 54
+      },
+      {
+        "mob_id": 1031,
+        "name": "POPORING",
+        "weight": 45
+      },
+      {
+        "mob_id": 1056,
+        "name": "SMOKIE",
+        "weight": 25
+      },
+      {
+        "mob_id": 1078,
+        "name": "RED_PLANT",
+        "weight": 20
+      },
+      {
+        "mob_id": 1080,
+        "name": "GREEN_PLANT",
+        "weight": 18
+      },
+      {
+        "mob_id": 1048,
+        "name": "THIEF_BUG_EGG",
+        "weight": 10
+      }
+    ]
+  },
+  "1055": {
+    "name": "MUKA",
+    "companions": [
+      {
+        "mob_id": 1019,
+        "name": "PECOPECO",
+        "weight": 151
+      },
+      {
+        "mob_id": 1047,
+        "name": "PECOPECO_EGG",
+        "weight": 42
+      },
+      {
+        "mob_id": 1081,
+        "name": "YELLOW_PLANT",
+        "weight": 17
+      },
+      {
+        "mob_id": 1080,
+        "name": "GREEN_PLANT",
+        "weight": 7
+      },
+      {
+        "mob_id": 2741,
+        "name": "C3_MUKA",
+        "weight": 3
+      },
+      {
+        "mob_id": 2718,
+        "name": "C5_PECOPECO",
+        "weight": 2
+      }
+    ]
+  },
+  "1011": {
+    "name": "CHONCHON",
+    "companions": [
+      {
+        "mob_id": 1007,
+        "name": "FABRE",
+        "weight": 84
+      },
+      {
+        "mob_id": 1002,
+        "name": "PORING",
+        "weight": 59
+      },
+      {
+        "mob_id": 1113,
+        "name": "DROPS",
+        "weight": 46
+      },
+      {
+        "mob_id": 1063,
+        "name": "LUNATIC",
+        "weight": 30
+      },
+      {
+        "mob_id": 1020,
+        "name": "MANDRAGORA",
+        "weight": 25
+      },
+      {
+        "mob_id": 1008,
+        "name": "PUPA",
+        "weight": 25
+      },
+      {
+        "mob_id": 1050,
+        "name": "PICKY_",
+        "weight": 23
+      },
+      {
+        "mob_id": 1080,
+        "name": "GREEN_PLANT",
+        "weight": 18
+      }
+    ]
+  },
+  "1014": {
+    "name": "SPORE",
+    "companions": [
+      {
+        "mob_id": 1025,
+        "name": "SNAKE",
+        "weight": 91
+      },
+      {
+        "mob_id": 1024,
+        "name": "WORM_TAIL",
+        "weight": 91
+      },
+      {
+        "mob_id": 1085,
+        "name": "RED_MUSHROOM",
+        "weight": 36
+      },
+      {
+        "mob_id": 1080,
+        "name": "GREEN_PLANT",
+        "weight": 34
+      },
+      {
+        "mob_id": 1084,
+        "name": "BLACK_MUSHROOM",
+        "weight": 24
+      },
+      {
+        "mob_id": 2404,
+        "name": "DEAD_PLANKTON",
+        "weight": 24
+      },
+      {
+        "mob_id": 2405,
+        "name": "WEAK_SKELETON",
+        "weight": 24
+      },
+      {
+        "mob_id": 1012,
+        "name": "RODA_FROG",
+        "weight": 24
+      }
+    ]
+  },
+  "1864": {
+    "name": "ZOMBIE_SLAUGHTER",
+    "companions": [
+      {
+        "mob_id": 1865,
+        "name": "RAGGED_ZOMBIE",
+        "weight": 112
+      },
+      {
+        "mob_id": 1869,
+        "name": "FLAME_SKULL",
+        "weight": 45
+      },
+      {
+        "mob_id": 1867,
+        "name": "BANSHEE",
+        "weight": 42
+      },
+      {
+        "mob_id": 1036,
+        "name": "GHOUL",
+        "weight": 42
+      },
+      {
+        "mob_id": 1866,
+        "name": "HELL_POODLE",
+        "weight": 37
+      },
+      {
+        "mob_id": 1870,
+        "name": "NECROMANCER",
+        "weight": 7
+      },
+      {
+        "mob_id": 2887,
+        "name": "C1_BANSHEE",
+        "weight": 3
+      },
+      {
+        "mob_id": 2603,
+        "name": "C1_ZOMBIE_SLAUGHTER",
+        "weight": 3
+      }
+    ]
+  },
+  "1780": {
+    "name": "MUSCIPULAR",
+    "companions": [
+      {
+        "mob_id": 1781,
+        "name": "DROSERA",
+        "weight": 192
+      },
+      {
+        "mob_id": 1784,
+        "name": "STAPO",
+        "weight": 72
+      },
+      {
+        "mob_id": 1783,
+        "name": "GALION",
+        "weight": 69
+      },
+      {
+        "mob_id": 1081,
+        "name": "YELLOW_PLANT",
+        "weight": 40
+      },
+      {
+        "mob_id": 1836,
+        "name": "MAGMARING",
+        "weight": 38
+      },
+      {
+        "mob_id": 1078,
+        "name": "RED_PLANT",
+        "weight": 30
+      },
+      {
+        "mob_id": 1082,
+        "name": "WHITE_PLANT",
+        "weight": 10
+      },
+      {
+        "mob_id": 1079,
+        "name": "BLUE_PLANT",
+        "weight": 7
+      }
+    ]
+  },
+  "1023": {
+    "name": "ORK_WARRIOR",
+    "companions": [
+      {
+        "mob_id": 1273,
+        "name": "ORC_LADY",
+        "weight": 128
+      },
+      {
+        "mob_id": 1686,
+        "name": "ORC_BABY",
+        "weight": 51
+      },
+      {
+        "mob_id": 1080,
+        "name": "GREEN_PLANT",
+        "weight": 24
+      },
+      {
+        "mob_id": 1079,
+        "name": "BLUE_PLANT",
+        "weight": 6
+      },
+      {
+        "mob_id": 2725,
+        "name": "C2_ORC_LADY",
+        "weight": 3
+      },
+      {
+        "mob_id": 2722,
+        "name": "C4_ORK_WARRIOR",
+        "weight": 2
+      }
+    ]
+  },
+  "1167": {
+    "name": "SAVAGE_BABE",
+    "companions": [
+      {
+        "mob_id": 1052,
+        "name": "ROCKER",
+        "weight": 67
+      },
+      {
+        "mob_id": 1010,
+        "name": "WILOW",
+        "weight": 34
+      },
+      {
+        "mob_id": 1004,
+        "name": "HORNET",
+        "weight": 34
+      },
+      {
+        "mob_id": 1012,
+        "name": "RODA_FROG",
+        "weight": 26
+      },
+      {
+        "mob_id": 1094,
+        "name": "AMBERNITE",
+        "weight": 26
+      },
+      {
+        "mob_id": 1085,
+        "name": "RED_MUSHROOM",
+        "weight": 11
+      },
+      {
+        "mob_id": 1080,
+        "name": "GREEN_PLANT",
+        "weight": 5
+      },
+      {
+        "mob_id": 2680,
+        "name": "C5_ROCKER",
+        "weight": 3
+      }
+    ]
+  },
+  "1191": {
+    "name": "MIMIC",
+    "companions": [
+      {
+        "mob_id": 1699,
+        "name": "ANCIENT_MIMIC",
+        "weight": 90
+      },
+      {
+        "mob_id": 1195,
+        "name": "RIDEWORD",
+        "weight": 86
+      },
+      {
+        "mob_id": 1377,
+        "name": "ELDER",
+        "weight": 44
+      },
+      {
+        "mob_id": 1032,
+        "name": "VERIT",
+        "weight": 40
+      },
+      {
+        "mob_id": 1698,
+        "name": "DEATHWORD",
+        "weight": 40
+      },
+      {
+        "mob_id": 1146,
+        "name": "MATYR",
+        "weight": 36
+      },
+      {
+        "mob_id": 1714,
+        "name": "FERUS",
+        "weight": 30
+      },
+      {
+        "mob_id": 1721,
+        "name": "DRAGON_EGG",
+        "weight": 28
+      }
+    ]
+  },
+  "1051": {
+    "name": "THIEF_BUG",
+    "companions": [
+      {
+        "mob_id": 1048,
+        "name": "THIEF_BUG_EGG",
+        "weight": 132
+      },
+      {
+        "mob_id": 1175,
+        "name": "TAROU",
+        "weight": 88
+      },
+      {
+        "mob_id": 1005,
+        "name": "FARMILIAR",
+        "weight": 70
+      },
+      {
+        "mob_id": 1053,
+        "name": "THIEF_BUG_",
+        "weight": 50
+      },
+      {
+        "mob_id": 1004,
+        "name": "HORNET",
+        "weight": 42
+      },
+      {
+        "mob_id": 1054,
+        "name": "THIEF_BUG__",
+        "weight": 40
+      },
+      {
+        "mob_id": 1014,
+        "name": "SPORE",
+        "weight": 20
+      },
+      {
+        "mob_id": 1111,
+        "name": "DRAINLIAR",
+        "weight": 20
+      }
+    ]
+  },
+  "1253": {
+    "name": "GARGOYLE",
+    "companions": [
+      {
+        "mob_id": 1207,
+        "name": "STING",
+        "weight": 56
+      },
+      {
+        "mob_id": 1179,
+        "name": "WHISPER",
+        "weight": 49
+      },
+      {
+        "mob_id": 1206,
+        "name": "ANOLIAN",
+        "weight": 25
+      },
+      {
+        "mob_id": 1209,
+        "name": "CRAMP",
+        "weight": 24
+      },
+      {
+        "mob_id": 1310,
+        "name": "MAJORUROS",
+        "weight": 17
+      },
+      {
+        "mob_id": 1194,
+        "name": "ARCLOUSE",
+        "weight": 16
+      },
+      {
+        "mob_id": 1111,
+        "name": "DRAINLIAR",
+        "weight": 12
+      },
+      {
+        "mob_id": 1080,
+        "name": "GREEN_PLANT",
+        "weight": 10
+      }
+    ]
+  },
+  "1019": {
+    "name": "PECOPECO",
+    "companions": [
+      {
+        "mob_id": 1055,
+        "name": "MUKA",
+        "weight": 151
+      },
+      {
+        "mob_id": 1047,
+        "name": "PECOPECO_EGG",
+        "weight": 42
+      },
+      {
+        "mob_id": 1081,
+        "name": "YELLOW_PLANT",
+        "weight": 17
+      },
+      {
+        "mob_id": 1080,
+        "name": "GREEN_PLANT",
+        "weight": 7
+      },
+      {
+        "mob_id": 2741,
+        "name": "C3_MUKA",
+        "weight": 3
+      },
+      {
+        "mob_id": 2718,
+        "name": "C5_PECOPECO",
+        "weight": 2
+      }
+    ]
+  },
+  "1380": {
+    "name": "DRILLER",
+    "companions": [
+      {
+        "mob_id": 1139,
+        "name": "MANTIS",
+        "weight": 124
+      },
+      {
+        "mob_id": 1037,
+        "name": "SIDE_WINDER",
+        "weight": 80
+      },
+      {
+        "mob_id": 1099,
+        "name": "ARGIOPE",
+        "weight": 44
+      },
+      {
+        "mob_id": 1080,
+        "name": "GREEN_PLANT",
+        "weight": 30
+      },
+      {
+        "mob_id": 1078,
+        "name": "RED_PLANT",
+        "weight": 10
+      },
+      {
+        "mob_id": 1079,
+        "name": "BLUE_PLANT",
+        "weight": 9
+      },
+      {
+        "mob_id": 1083,
+        "name": "SHINING_PLANT",
+        "weight": 6
+      },
+      {
+        "mob_id": 2846,
+        "name": "C4_DRILLER",
+        "weight": 3
+      }
+    ]
+  },
+  "1699": {
+    "name": "ANCIENT_MIMIC",
+    "companions": [
+      {
+        "mob_id": 1698,
+        "name": "DEATHWORD",
+        "weight": 140
+      },
+      {
+        "mob_id": 1191,
+        "name": "MIMIC",
+        "weight": 90
+      },
+      {
+        "mob_id": 1320,
+        "name": "OWL_DUKE",
+        "weight": 90
+      },
+      {
+        "mob_id": 1377,
+        "name": "ELDER",
+        "weight": 80
+      },
+      {
+        "mob_id": 1295,
+        "name": "OWL_BARON",
+        "weight": 70
+      },
+      {
+        "mob_id": 1697,
+        "name": "PLASMA_B",
+        "weight": 40
+      },
+      {
+        "mob_id": 1195,
+        "name": "RIDEWORD",
+        "weight": 40
+      },
+      {
+        "mob_id": 1694,
+        "name": "PLASMA_R",
+        "weight": 40
+      }
+    ]
+  },
+  "1010": {
+    "name": "WILOW",
+    "companions": [
+      {
+        "mob_id": 1002,
+        "name": "PORING",
+        "weight": 63
+      },
+      {
+        "mob_id": 1007,
+        "name": "FABRE",
+        "weight": 63
+      },
+      {
+        "mob_id": 1167,
+        "name": "SAVAGE_BABE",
+        "weight": 34
+      },
+      {
+        "mob_id": 1004,
+        "name": "HORNET",
+        "weight": 34
+      },
+      {
+        "mob_id": 1008,
+        "name": "PUPA",
+        "weight": 20
+      },
+      {
+        "mob_id": 1085,
+        "name": "RED_MUSHROOM",
+        "weight": 17
+      },
+      {
+        "mob_id": 1080,
+        "name": "GREEN_PLANT",
+        "weight": 9
+      },
+      {
+        "mob_id": 2836,
+        "name": "C3_FABRE",
+        "weight": 3
+      }
+    ]
+  },
+  "1004": {
+    "name": "HORNET",
+    "companions": [
+      {
+        "mob_id": 1048,
+        "name": "THIEF_BUG_EGG",
+        "weight": 42
+      },
+      {
+        "mob_id": 1051,
+        "name": "THIEF_BUG",
+        "weight": 42
+      },
+      {
+        "mob_id": 1167,
+        "name": "SAVAGE_BABE",
+        "weight": 34
+      },
+      {
+        "mob_id": 1010,
+        "name": "WILOW",
+        "weight": 34
+      },
+      {
+        "mob_id": 1085,
+        "name": "RED_MUSHROOM",
+        "weight": 11
+      },
+      {
+        "mob_id": 1080,
+        "name": "GREEN_PLANT",
+        "weight": 6
+      },
+      {
+        "mob_id": 2671,
+        "name": "C1_SAVAGE_BABE",
+        "weight": 2
+      },
+      {
+        "mob_id": 2798,
+        "name": "C5_HORNET",
+        "weight": 2
+      }
+    ]
+  },
+  "1107": {
+    "name": "DESERT_WOLF_B",
+    "companions": [
+      {
+        "mob_id": 1009,
+        "name": "CONDOR",
+        "weight": 171
+      },
+      {
+        "mob_id": 1001,
+        "name": "SCORPION",
+        "weight": 75
+      },
+      {
+        "mob_id": 1782,
+        "name": "ROWEEN",
+        "weight": 61
+      },
+      {
+        "mob_id": 1627,
+        "name": "ANOPHELES",
+        "weight": 50
+      },
+      {
+        "mob_id": 1081,
+        "name": "YELLOW_PLANT",
+        "weight": 23
+      },
+      {
+        "mob_id": 1106,
+        "name": "DESERT_WOLF",
+        "weight": 22
+      },
+      {
+        "mob_id": 1030,
+        "name": "ANACONDAQ",
+        "weight": 15
+      },
+      {
+        "mob_id": 1680,
+        "name": "HILL_WIND_1",
+        "weight": 15
+      }
+    ]
+  },
+  "1138": {
+    "name": "MAGNOLIA",
+    "companions": [
+      {
+        "mob_id": 1058,
+        "name": "METALLER",
+        "weight": 106
+      },
+      {
+        "mob_id": 1081,
+        "name": "YELLOW_PLANT",
+        "weight": 18
+      },
+      {
+        "mob_id": 1042,
+        "name": "STEEL_CHONCHON",
+        "weight": 15
+      },
+      {
+        "mob_id": 1013,
+        "name": "WOLF",
+        "weight": 15
+      },
+      {
+        "mob_id": 1100,
+        "name": "ARGOS",
+        "weight": 15
+      },
+      {
+        "mob_id": 1085,
+        "name": "RED_MUSHROOM",
+        "weight": 13
+      },
+      {
+        "mob_id": 2642,
+        "name": "C2_STEEL_CHONCHON",
+        "weight": 3
+      },
+      {
+        "mob_id": 2768,
+        "name": "C5_MAGNOLIA",
+        "weight": 2
+      }
+    ]
+  },
+  "1627": {
+    "name": "ANOPHELES",
+    "companions": [
+      {
+        "mob_id": 1782,
+        "name": "ROWEEN",
+        "weight": 121
+      },
+      {
+        "mob_id": 1682,
+        "name": "REMOVAL",
+        "weight": 70
+      },
+      {
+        "mob_id": 1680,
+        "name": "HILL_WIND_1",
+        "weight": 61
+      },
+      {
+        "mob_id": 1613,
+        "name": "METALING",
+        "weight": 50
+      },
+      {
+        "mob_id": 1107,
+        "name": "DESERT_WOLF_B",
+        "weight": 50
+      },
+      {
+        "mob_id": 1030,
+        "name": "ANACONDAQ",
+        "weight": 38
+      },
+      {
+        "mob_id": 1106,
+        "name": "DESERT_WOLF",
+        "weight": 34
+      },
+      {
+        "mob_id": 1133,
+        "name": "KOBOLD_1",
+        "weight": 23
+      }
+    ]
+  },
+  "1060": {
+    "name": "BIGFOOT",
+    "companions": [
+      {
+        "mob_id": 1103,
+        "name": "CARAMEL",
+        "weight": 68
+      },
+      {
+        "mob_id": 1174,
+        "name": "STAINER",
+        "weight": 54
+      },
+      {
+        "mob_id": 1018,
+        "name": "CREAMY",
+        "weight": 50
+      },
+      {
+        "mob_id": 1080,
+        "name": "GREEN_PLANT",
+        "weight": 18
+      },
+      {
+        "mob_id": 1400,
+        "name": "KARAKASA",
+        "weight": 14
+      },
+      {
+        "mob_id": 1406,
+        "name": "KAPHA",
+        "weight": 14
+      },
+      {
+        "mob_id": 1068,
+        "name": "HYDRA",
+        "weight": 14
+      },
+      {
+        "mob_id": 1031,
+        "name": "POPORING",
+        "weight": 11
+      }
+    ]
+  },
+  "1114": {
+    "name": "DUSTINESS",
+    "companions": [
+      {
+        "mob_id": 1139,
+        "name": "MANTIS",
+        "weight": 98
+      },
+      {
+        "mob_id": 1368,
+        "name": "GEOGRAPHER",
+        "weight": 52
+      },
+      {
+        "mob_id": 1035,
+        "name": "HUNTER_FLY",
+        "weight": 47
+      },
+      {
+        "mob_id": 1081,
+        "name": "YELLOW_PLANT",
+        "weight": 25
+      },
+      {
+        "mob_id": 1078,
+        "name": "RED_PLANT",
+        "weight": 20
+      },
+      {
+        "mob_id": 1080,
+        "name": "GREEN_PLANT",
+        "weight": 20
+      },
+      {
+        "mob_id": 1002,
+        "name": "PORING",
+        "weight": 5
+      },
+      {
+        "mob_id": 1104,
+        "name": "COCO",
+        "weight": 5
+      }
+    ]
+  },
+  "1273": {
+    "name": "ORC_LADY",
+    "companions": [
+      {
+        "mob_id": 1023,
+        "name": "ORK_WARRIOR",
+        "weight": 128
+      },
+      {
+        "mob_id": 1686,
+        "name": "ORC_BABY",
+        "weight": 51
+      },
+      {
+        "mob_id": 1080,
+        "name": "GREEN_PLANT",
+        "weight": 24
+      },
+      {
+        "mob_id": 1079,
+        "name": "BLUE_PLANT",
+        "weight": 6
+      },
+      {
+        "mob_id": 2725,
+        "name": "C2_ORC_LADY",
+        "weight": 3
+      },
+      {
+        "mob_id": 2722,
+        "name": "C4_ORK_WARRIOR",
+        "weight": 2
+      }
+    ]
+  },
+  "1103": {
+    "name": "CARAMEL",
+    "companions": [
+      {
+        "mob_id": 1060,
+        "name": "BIGFOOT",
+        "weight": 68
+      },
+      {
+        "mob_id": 1174,
+        "name": "STAINER",
+        "weight": 54
+      },
+      {
+        "mob_id": 1018,
+        "name": "CREAMY",
+        "weight": 50
+      },
+      {
+        "mob_id": 1080,
+        "name": "GREEN_PLANT",
+        "weight": 18
+      },
+      {
+        "mob_id": 1079,
+        "name": "BLUE_PLANT",
+        "weight": 8
+      },
+      {
+        "mob_id": 1002,
+        "name": "PORING",
+        "weight": 5
+      },
+      {
+        "mob_id": 1104,
+        "name": "COCO",
+        "weight": 5
+      },
+      {
+        "mob_id": 1114,
+        "name": "DUSTINESS",
+        "weight": 5
+      }
+    ]
+  },
+  "1698": {
+    "name": "DEATHWORD",
+    "companions": [
+      {
+        "mob_id": 1699,
+        "name": "ANCIENT_MIMIC",
+        "weight": 140
+      },
+      {
+        "mob_id": 1320,
+        "name": "OWL_DUKE",
+        "weight": 90
+      },
+      {
+        "mob_id": 1377,
+        "name": "ELDER",
+        "weight": 80
+      },
+      {
+        "mob_id": 1295,
+        "name": "OWL_BARON",
+        "weight": 70
+      },
+      {
+        "mob_id": 1195,
+        "name": "RIDEWORD",
+        "weight": 60
+      },
+      {
+        "mob_id": 1191,
+        "name": "MIMIC",
+        "weight": 40
+      },
+      {
+        "mob_id": 1696,
+        "name": "PLASMA_P",
+        "weight": 40
+      },
+      {
+        "mob_id": 1694,
+        "name": "PLASMA_R",
+        "weight": 40
+      }
+    ]
+  },
+  "1162": {
+    "name": "RAFFLESIA",
+    "companions": [
+      {
+        "mob_id": 1215,
+        "name": "STEM_WORM",
+        "weight": 85
+      },
+      {
+        "mob_id": 1613,
+        "name": "METALING",
+        "weight": 85
+      },
+      {
+        "mob_id": 1692,
+        "name": "BREEZE",
+        "weight": 40
+      },
+      {
+        "mob_id": 1080,
+        "name": "GREEN_PLANT",
+        "weight": 35
+      },
+      {
+        "mob_id": 1378,
+        "name": "DEMON_PUNGUS",
+        "weight": 30
+      },
+      {
+        "mob_id": 1081,
+        "name": "YELLOW_PLANT",
+        "weight": 25
+      },
+      {
+        "mob_id": 1078,
+        "name": "RED_PLANT",
+        "weight": 20
+      },
+      {
+        "mob_id": 2695,
+        "name": "C1_RAFFLESIA",
+        "weight": 3
+      }
+    ]
+  },
+  "1009": {
+    "name": "CONDOR",
+    "companions": [
+      {
+        "mob_id": 1107,
+        "name": "DESERT_WOLF_B",
+        "weight": 171
+      },
+      {
+        "mob_id": 1001,
+        "name": "SCORPION",
+        "weight": 75
+      },
+      {
+        "mob_id": 1049,
+        "name": "PICKY",
+        "weight": 39
+      },
+      {
+        "mob_id": 1050,
+        "name": "PICKY_",
+        "weight": 39
+      },
+      {
+        "mob_id": 1047,
+        "name": "PECOPECO_EGG",
+        "weight": 39
+      },
+      {
+        "mob_id": 1113,
+        "name": "DROPS",
+        "weight": 39
+      },
+      {
+        "mob_id": 1081,
+        "name": "YELLOW_PLANT",
+        "weight": 18
+      },
+      {
+        "mob_id": 2856,
+        "name": "C4_DESERT_WOLF_B",
+        "weight": 3
+      }
+    ]
+  },
+  "1025": {
+    "name": "SNAKE",
+    "companions": [
+      {
+        "mob_id": 1024,
+        "name": "WORM_TAIL",
+        "weight": 91
+      },
+      {
+        "mob_id": 1014,
+        "name": "SPORE",
+        "weight": 91
+      },
+      {
+        "mob_id": 1080,
+        "name": "GREEN_PLANT",
+        "weight": 24
+      },
+      {
+        "mob_id": 1085,
+        "name": "RED_MUSHROOM",
+        "weight": 17
+      },
+      {
+        "mob_id": 1002,
+        "name": "PORING",
+        "weight": 5
+      },
+      {
+        "mob_id": 1104,
+        "name": "COCO",
+        "weight": 5
+      },
+      {
+        "mob_id": 1174,
+        "name": "STAINER",
+        "weight": 5
+      },
+      {
+        "mob_id": 1103,
+        "name": "CARAMEL",
+        "weight": 5
+      }
+    ]
+  },
+  "1052": {
+    "name": "ROCKER",
+    "companions": [
+      {
+        "mob_id": 1167,
+        "name": "SAVAGE_BABE",
+        "weight": 67
+      },
+      {
+        "mob_id": 1084,
+        "name": "BLACK_MUSHROOM",
+        "weight": 8
+      },
+      {
+        "mob_id": 1002,
+        "name": "PORING",
+        "weight": 5
+      },
+      {
+        "mob_id": 1104,
+        "name": "COCO",
+        "weight": 5
+      },
+      {
+        "mob_id": 1174,
+        "name": "STAINER",
+        "weight": 5
+      },
+      {
+        "mob_id": 1103,
+        "name": "CARAMEL",
+        "weight": 5
+      },
+      {
+        "mob_id": 1114,
+        "name": "DUSTINESS",
+        "weight": 5
+      },
+      {
+        "mob_id": 1128,
+        "name": "HORN",
+        "weight": 5
+      }
+    ]
+  },
+  "1036": {
+    "name": "GHOUL",
+    "companions": [
+      {
+        "mob_id": 1867,
+        "name": "BANSHEE",
+        "weight": 73
+      },
+      {
+        "mob_id": 1586,
+        "name": "LEAF_CAT",
+        "weight": 48
+      },
+      {
+        "mob_id": 1865,
+        "name": "RAGGED_ZOMBIE",
+        "weight": 46
+      },
+      {
+        "mob_id": 1864,
+        "name": "ZOMBIE_SLAUGHTER",
+        "weight": 42
+      },
+      {
+        "mob_id": 1866,
+        "name": "HELL_POODLE",
+        "weight": 42
+      },
+      {
+        "mob_id": 1130,
+        "name": "JAKK",
+        "weight": 40
+      },
+      {
+        "mob_id": 1061,
+        "name": "NIGHTMARE",
+        "weight": 40
+      },
+      {
+        "mob_id": 1179,
+        "name": "WHISPER",
+        "weight": 26
+      }
+    ]
+  },
+  "1619": {
+    "name": "PORCELLIO",
+    "companions": [
+      {
+        "mob_id": 1613,
+        "name": "METALING",
+        "weight": 118
+      },
+      {
+        "mob_id": 1085,
+        "name": "RED_MUSHROOM",
+        "weight": 38
+      },
+      {
+        "mob_id": 1616,
+        "name": "PITMAN",
+        "weight": 30
+      },
+      {
+        "mob_id": 1620,
+        "name": "NOXIOUS",
+        "weight": 30
+      },
+      {
+        "mob_id": 1078,
+        "name": "RED_PLANT",
+        "weight": 30
+      },
+      {
+        "mob_id": 1081,
+        "name": "YELLOW_PLANT",
+        "weight": 30
+      },
+      {
+        "mob_id": 1628,
+        "name": "MOLE",
+        "weight": 12
+      },
+      {
+        "mob_id": 1621,
+        "name": "VENOMOUS",
+        "weight": 10
+      }
+    ]
+  },
+  "1094": {
+    "name": "AMBERNITE",
+    "companions": [
+      {
+        "mob_id": 1012,
+        "name": "RODA_FROG",
+        "weight": 120
+      },
+      {
+        "mob_id": 1167,
+        "name": "SAVAGE_BABE",
+        "weight": 26
+      },
+      {
+        "mob_id": 1080,
+        "name": "GREEN_PLANT",
+        "weight": 15
+      },
+      {
+        "mob_id": 2679,
+        "name": "C4_RODA_FROG",
+        "weight": 2
+      },
+      {
+        "mob_id": 2678,
+        "name": "C3_RODA_FROG",
+        "weight": 2
+      },
+      {
+        "mob_id": 2905,
+        "name": "C5_AMBERNITE",
+        "weight": 2
+      },
+      {
+        "mob_id": 1089,
+        "name": "TOAD",
+        "weight": 1
+      },
+      {
+        "mob_id": 1083,
+        "name": "SHINING_PLANT",
+        "weight": 1
+      }
+    ]
+  },
+  "1085": {
+    "name": "RED_MUSHROOM",
+    "companions": [
+      {
+        "mob_id": 1084,
+        "name": "BLACK_MUSHROOM",
+        "weight": 70
+      },
+      {
+        "mob_id": 1081,
+        "name": "YELLOW_PLANT",
+        "weight": 66
+      },
+      {
+        "mob_id": 2404,
+        "name": "DEAD_PLANKTON",
+        "weight": 60
+      },
+      {
+        "mob_id": 1078,
+        "name": "RED_PLANT",
+        "weight": 60
+      },
+      {
+        "mob_id": 1080,
+        "name": "GREEN_PLANT",
+        "weight": 44
+      },
+      {
+        "mob_id": 2405,
+        "name": "WEAK_SKELETON",
+        "weight": 44
+      },
+      {
+        "mob_id": 1012,
+        "name": "RODA_FROG",
+        "weight": 40
+      },
+      {
+        "mob_id": 1079,
+        "name": "BLUE_PLANT",
+        "weight": 39
+      }
+    ]
+  },
+  "1687": {
+    "name": "GREEN_IGUANA",
+    "companions": [
+      {
+        "mob_id": 1118,
+        "name": "FLORA",
+        "weight": 67
+      },
+      {
+        "mob_id": 1079,
+        "name": "BLUE_PLANT",
+        "weight": 6
+      },
+      {
+        "mob_id": 1080,
+        "name": "GREEN_PLANT",
+        "weight": 5
+      },
+      {
+        "mob_id": 2808,
+        "name": "C5_GREEN_IGUANA",
+        "weight": 2
+      },
+      {
+        "mob_id": 1083,
+        "name": "SHINING_PLANT",
+        "weight": 1
+      }
+    ]
+  },
+  "1001": {
+    "name": "SCORPION",
+    "companions": [
+      {
+        "mob_id": 1107,
+        "name": "DESERT_WOLF_B",
+        "weight": 75
+      },
+      {
+        "mob_id": 1009,
+        "name": "CONDOR",
+        "weight": 75
+      },
+      {
+        "mob_id": 1081,
+        "name": "YELLOW_PLANT",
+        "weight": 8
+      },
+      {
+        "mob_id": 2856,
+        "name": "C4_DESERT_WOLF_B",
+        "weight": 3
+      },
+      {
+        "mob_id": 2670,
+        "name": "C5_SCORPION",
+        "weight": 3
+      },
+      {
+        "mob_id": 1091,
+        "name": "DRAGON_FLY",
+        "weight": 1
+      }
+    ]
+  },
+  "1024": {
+    "name": "WORM_TAIL",
+    "companions": [
+      {
+        "mob_id": 1025,
+        "name": "SNAKE",
+        "weight": 91
+      },
+      {
+        "mob_id": 1014,
+        "name": "SPORE",
+        "weight": 91
+      },
+      {
+        "mob_id": 1080,
+        "name": "GREEN_PLANT",
+        "weight": 24
+      },
+      {
+        "mob_id": 1085,
+        "name": "RED_MUSHROOM",
+        "weight": 12
+      },
+      {
+        "mob_id": 2653,
+        "name": "C3_SNAKE",
+        "weight": 3
+      },
+      {
+        "mob_id": 2610,
+        "name": "C3_WORM_TAIL",
+        "weight": 3
+      },
+      {
+        "mob_id": 1083,
+        "name": "SHINING_PLANT",
+        "weight": 2
+      }
+    ]
+  },
+  "1127": {
+    "name": "HODE",
+    "companions": [
+      {
+        "mob_id": 1165,
+        "name": "SAND_MAN",
+        "weight": 69
+      },
+      {
+        "mob_id": 1119,
+        "name": "FRILLDORA",
+        "weight": 23
+      },
+      {
+        "mob_id": 1081,
+        "name": "YELLOW_PLANT",
+        "weight": 6
+      },
+      {
+        "mob_id": 2674,
+        "name": "C4_SAND_MAN",
+        "weight": 2
+      },
+      {
+        "mob_id": 2802,
+        "name": "C4_HODE",
+        "weight": 2
+      },
+      {
+        "mob_id": 1079,
+        "name": "BLUE_PLANT",
+        "weight": 1
+      }
+    ]
+  },
+  "2401": {
+    "name": "G_PORING",
+    "companions": []
+  },
+  "1042": {
+    "name": "STEEL_CHONCHON",
+    "companions": [
+      {
+        "mob_id": 1013,
+        "name": "WOLF",
+        "weight": 43
+      },
+      {
+        "mob_id": 1100,
+        "name": "ARGOS",
+        "weight": 41
+      },
+      {
+        "mob_id": 1152,
+        "name": "ORC_SKELETON",
+        "weight": 30
+      },
+      {
+        "mob_id": 1111,
+        "name": "DRAINLIAR",
+        "weight": 25
+      },
+      {
+        "mob_id": 1084,
+        "name": "BLACK_MUSHROOM",
+        "weight": 20
+      },
+      {
+        "mob_id": 1177,
+        "name": "ZENORC",
+        "weight": 20
+      },
+      {
+        "mob_id": 1085,
+        "name": "RED_MUSHROOM",
+        "weight": 18
+      },
+      {
+        "mob_id": 1081,
+        "name": "YELLOW_PLANT",
+        "weight": 17
+      }
+    ]
+  },
+  "1048": {
+    "name": "THIEF_BUG_EGG",
+    "companions": [
+      {
+        "mob_id": 1051,
+        "name": "THIEF_BUG",
+        "weight": 132
+      },
+      {
+        "mob_id": 1005,
+        "name": "FARMILIAR",
+        "weight": 86
+      },
+      {
+        "mob_id": 1175,
+        "name": "TAROU",
+        "weight": 43
+      },
+      {
+        "mob_id": 1004,
+        "name": "HORNET",
+        "weight": 42
+      },
+      {
+        "mob_id": 1053,
+        "name": "THIEF_BUG_",
+        "weight": 30
+      },
+      {
+        "mob_id": 1014,
+        "name": "SPORE",
+        "weight": 20
+      },
+      {
+        "mob_id": 1054,
+        "name": "THIEF_BUG__",
+        "weight": 20
+      },
+      {
+        "mob_id": 1018,
+        "name": "CREAMY",
+        "weight": 10
+      }
+    ]
+  },
+  "1084": {
+    "name": "BLACK_MUSHROOM",
+    "companions": [
+      {
+        "mob_id": 1085,
+        "name": "RED_MUSHROOM",
+        "weight": 70
+      },
+      {
+        "mob_id": 2404,
+        "name": "DEAD_PLANKTON",
+        "weight": 60
+      },
+      {
+        "mob_id": 1078,
+        "name": "RED_PLANT",
+        "weight": 54
+      },
+      {
+        "mob_id": 1082,
+        "name": "WHITE_PLANT",
+        "weight": 44
+      },
+      {
+        "mob_id": 2405,
+        "name": "WEAK_SKELETON",
+        "weight": 44
+      },
+      {
+        "mob_id": 1068,
+        "name": "HYDRA",
+        "weight": 39
+      },
+      {
+        "mob_id": 1015,
+        "name": "ZOMBIE",
+        "weight": 30
+      },
+      {
+        "mob_id": 1012,
+        "name": "RODA_FROG",
+        "weight": 30
+      }
+    ]
+  },
+  "1320": {
+    "name": "OWL_DUKE",
+    "companions": [
+      {
+        "mob_id": 1698,
+        "name": "DEATHWORD",
+        "weight": 90
+      },
+      {
+        "mob_id": 1699,
+        "name": "ANCIENT_MIMIC",
+        "weight": 90
+      },
+      {
+        "mob_id": 1295,
+        "name": "OWL_BARON",
+        "weight": 80
+      },
+      {
+        "mob_id": 1377,
+        "name": "ELDER",
+        "weight": 52
+      },
+      {
+        "mob_id": 1195,
+        "name": "RIDEWORD",
+        "weight": 51
+      },
+      {
+        "mob_id": 1267,
+        "name": "CARAT",
+        "weight": 35
+      },
+      {
+        "mob_id": 1260,
+        "name": "DARK_FRAME",
+        "weight": 35
+      },
+      {
+        "mob_id": 1269,
+        "name": "CLOCK",
+        "weight": 30
+      }
+    ]
+  },
+  "1271": {
+    "name": "ALLIGATOR",
+    "companions": [
+      {
+        "mob_id": 1118,
+        "name": "FLORA",
+        "weight": 64
+      },
+      {
+        "mob_id": 1262,
+        "name": "MUTANT_DRAGON",
+        "weight": 5
+      },
+      {
+        "mob_id": 2907,
+        "name": "C2_ALLIGATOR",
+        "weight": 3
+      },
+      {
+        "mob_id": 1083,
+        "name": "SHINING_PLANT",
+        "weight": 3
+      },
+      {
+        "mob_id": 1089,
+        "name": "TOAD",
+        "weight": 1
+      }
+    ]
+  },
+  "1620": {
+    "name": "NOXIOUS",
+    "companions": [
+      {
+        "mob_id": 1621,
+        "name": "VENOMOUS",
+        "weight": 97
+      },
+      {
+        "mob_id": 1616,
+        "name": "PITMAN",
+        "weight": 72
+      },
+      {
+        "mob_id": 1622,
+        "name": "TEDDY_BEAR",
+        "weight": 64
+      },
+      {
+        "mob_id": 1378,
+        "name": "DEMON_PUNGUS",
+        "weight": 33
+      },
+      {
+        "mob_id": 1619,
+        "name": "PORCELLIO",
+        "weight": 30
+      },
+      {
+        "mob_id": 1081,
+        "name": "YELLOW_PLANT",
+        "weight": 25
+      },
+      {
+        "mob_id": 1080,
+        "name": "GREEN_PLANT",
+        "weight": 25
+      },
+      {
+        "mob_id": 1078,
+        "name": "RED_PLANT",
+        "weight": 10
+      }
+    ]
+  },
+  "1215": {
+    "name": "STEM_WORM",
+    "companions": [
+      {
+        "mob_id": 1162,
+        "name": "RAFFLESIA",
+        "weight": 85
+      },
+      {
+        "mob_id": 1613,
+        "name": "METALING",
+        "weight": 85
+      },
+      {
+        "mob_id": 1692,
+        "name": "BREEZE",
+        "weight": 60
+      },
+      {
+        "mob_id": 1080,
+        "name": "GREEN_PLANT",
+        "weight": 35
+      },
+      {
+        "mob_id": 1378,
+        "name": "DEMON_PUNGUS",
+        "weight": 30
+      },
+      {
+        "mob_id": 1081,
+        "name": "YELLOW_PLANT",
+        "weight": 26
+      },
+      {
+        "mob_id": 1078,
+        "name": "RED_PLANT",
+        "weight": 25
+      },
+      {
+        "mob_id": 1031,
+        "name": "POPORING",
+        "weight": 20
+      }
+    ]
+  },
+  "1987": {
+    "name": "CENTIPEDE",
+    "companions": [
+      {
+        "mob_id": 1986,
+        "name": "TATACHO",
+        "weight": 122
+      },
+      {
+        "mob_id": 2092,
+        "name": "DOLOMEDES",
+        "weight": 58
+      },
+      {
+        "mob_id": 2024,
+        "name": "BRADIUM_GOLEM",
+        "weight": 55
+      },
+      {
+        "mob_id": 1999,
+        "name": "CENTIPEDE_LARVA",
+        "weight": 42
+      },
+      {
+        "mob_id": 1989,
+        "name": "HILLSRION",
+        "weight": 35
+      },
+      {
+        "mob_id": 2873,
+        "name": "C1_CENTIPEDE",
+        "weight": 2
+      },
+      {
+        "mob_id": 2850,
+        "name": "C3_DOLOMEDES",
+        "weight": 2
+      },
+      {
+        "mob_id": 2735,
+        "name": "C2_NEPENTHES",
+        "weight": 2
+      }
+    ]
+  },
+  "1621": {
+    "name": "VENOMOUS",
+    "companions": [
+      {
+        "mob_id": 1620,
+        "name": "NOXIOUS",
+        "weight": 97
+      },
+      {
+        "mob_id": 1622,
+        "name": "TEDDY_BEAR",
+        "weight": 64
+      },
+      {
+        "mob_id": 1616,
+        "name": "PITMAN",
+        "weight": 52
+      },
+      {
+        "mob_id": 1378,
+        "name": "DEMON_PUNGUS",
+        "weight": 33
+      },
+      {
+        "mob_id": 1081,
+        "name": "YELLOW_PLANT",
+        "weight": 25
+      },
+      {
+        "mob_id": 1080,
+        "name": "GREEN_PLANT",
+        "weight": 25
+      },
+      {
+        "mob_id": 1619,
+        "name": "PORCELLIO",
+        "weight": 10
+      },
+      {
+        "mob_id": 1078,
+        "name": "RED_PLANT",
+        "weight": 10
+      }
+    ]
+  },
+  "1692": {
+    "name": "BREEZE",
+    "companions": [
+      {
+        "mob_id": 1215,
+        "name": "STEM_WORM",
+        "weight": 60
+      },
+      {
+        "mob_id": 1162,
+        "name": "RAFFLESIA",
+        "weight": 40
+      },
+      {
+        "mob_id": 1613,
+        "name": "METALING",
+        "weight": 40
+      },
+      {
+        "mob_id": 1080,
+        "name": "GREEN_PLANT",
+        "weight": 32
+      },
+      {
+        "mob_id": 1378,
+        "name": "DEMON_PUNGUS",
+        "weight": 30
+      },
+      {
+        "mob_id": 1081,
+        "name": "YELLOW_PLANT",
+        "weight": 22
+      },
+      {
+        "mob_id": 1693,
+        "name": "PLASMA_Y",
+        "weight": 14
+      },
+      {
+        "mob_id": 1078,
+        "name": "RED_PLANT",
+        "weight": 10
+      }
+    ]
+  },
+  "1013": {
+    "name": "WOLF",
+    "companions": [
+      {
+        "mob_id": 1042,
+        "name": "STEEL_CHONCHON",
+        "weight": 43
+      },
+      {
+        "mob_id": 1100,
+        "name": "ARGOS",
+        "weight": 41
+      },
+      {
+        "mob_id": 1085,
+        "name": "RED_MUSHROOM",
+        "weight": 18
+      },
+      {
+        "mob_id": 1081,
+        "name": "YELLOW_PLANT",
+        "weight": 17
+      },
+      {
+        "mob_id": 1058,
+        "name": "METALLER",
+        "weight": 15
+      },
+      {
+        "mob_id": 1138,
+        "name": "MAGNOLIA",
+        "weight": 15
+      },
+      {
+        "mob_id": 1080,
+        "name": "GREEN_PLANT",
+        "weight": 14
+      },
+      {
+        "mob_id": 1002,
+        "name": "PORING",
+        "weight": 5
+      }
+    ]
+  },
+  "1074": {
+    "name": "SHELLFISH",
+    "companions": [
+      {
+        "mob_id": 1073,
+        "name": "CRAB",
+        "weight": 130
+      },
+      {
+        "mob_id": 1266,
+        "name": "ASTER",
+        "weight": 104
+      },
+      {
+        "mob_id": 1391,
+        "name": "GALAPAGO",
+        "weight": 51
+      },
+      {
+        "mob_id": 1254,
+        "name": "RAGGLER",
+        "weight": 34
+      },
+      {
+        "mob_id": 1317,
+        "name": "FUR_SEAL",
+        "weight": 27
+      },
+      {
+        "mob_id": 1323,
+        "name": "SEE_OTTER",
+        "weight": 24
+      },
+      {
+        "mob_id": 1080,
+        "name": "GREEN_PLANT",
+        "weight": 10
+      },
+      {
+        "mob_id": 1081,
+        "name": "YELLOW_PLANT",
+        "weight": 10
+      }
+    ]
+  },
+  "1030": {
+    "name": "ANACONDAQ",
+    "companions": [
+      {
+        "mob_id": 1782,
+        "name": "ROWEEN",
+        "weight": 102
+      },
+      {
+        "mob_id": 1680,
+        "name": "HILL_WIND_1",
+        "weight": 54
+      },
+      {
+        "mob_id": 1627,
+        "name": "ANOPHELES",
+        "weight": 38
+      },
+      {
+        "mob_id": 1107,
+        "name": "DESERT_WOLF_B",
+        "weight": 15
+      },
+      {
+        "mob_id": 2804,
+        "name": "C1_HILL_WIND_1",
+        "weight": 3
+      },
+      {
+        "mob_id": 2904,
+        "name": "C4_ANACONDAQ",
+        "weight": 2
+      }
+    ]
+  },
+  "1008": {
+    "name": "PUPA",
+    "companions": [
+      {
+        "mob_id": 1002,
+        "name": "PORING",
+        "weight": 65
+      },
+      {
+        "mob_id": 1007,
+        "name": "FABRE",
+        "weight": 65
+      },
+      {
+        "mob_id": 1063,
+        "name": "LUNATIC",
+        "weight": 25
+      },
+      {
+        "mob_id": 1011,
+        "name": "CHONCHON",
+        "weight": 25
+      },
+      {
+        "mob_id": 2398,
+        "name": "LITTLE_PORING",
+        "weight": 20
+      },
+      {
+        "mob_id": 1010,
+        "name": "WILOW",
+        "weight": 20
+      },
+      {
+        "mob_id": 1085,
+        "name": "RED_MUSHROOM",
+        "weight": 11
+      },
+      {
+        "mob_id": 1080,
+        "name": "GREEN_PLANT",
+        "weight": 10
+      }
+    ]
+  },
+  "1079": {
+    "name": "BLUE_PLANT",
+    "companions": [
+      {
+        "mob_id": 1080,
+        "name": "GREEN_PLANT",
+        "weight": 95
+      },
+      {
+        "mob_id": 1078,
+        "name": "RED_PLANT",
+        "weight": 69
+      },
+      {
+        "mob_id": 1081,
+        "name": "YELLOW_PLANT",
+        "weight": 56
+      },
+      {
+        "mob_id": 1083,
+        "name": "SHINING_PLANT",
+        "weight": 53
+      },
+      {
+        "mob_id": 1085,
+        "name": "RED_MUSHROOM",
+        "weight": 39
+      },
+      {
+        "mob_id": 1693,
+        "name": "PLASMA_Y",
+        "weight": 38
+      },
+      {
+        "mob_id": 1082,
+        "name": "WHITE_PLANT",
+        "weight": 30
+      },
+      {
+        "mob_id": 1084,
+        "name": "BLACK_MUSHROOM",
+        "weight": 29
+      }
+    ]
+  },
+  "1622": {
+    "name": "TEDDY_BEAR",
+    "companions": [
+      {
+        "mob_id": 1621,
+        "name": "VENOMOUS",
+        "weight": 64
+      },
+      {
+        "mob_id": 1620,
+        "name": "NOXIOUS",
+        "weight": 64
+      },
+      {
+        "mob_id": 1616,
+        "name": "PITMAN",
+        "weight": 42
+      },
+      {
+        "mob_id": 1378,
+        "name": "DEMON_PUNGUS",
+        "weight": 33
+      },
+      {
+        "mob_id": 1614,
+        "name": "MINERAL",
+        "weight": 30
+      },
+      {
+        "mob_id": 1615,
+        "name": "OBSIDIAN",
+        "weight": 30
+      },
+      {
+        "mob_id": 1617,
+        "name": "WASTE_STOVE",
+        "weight": 30
+      },
+      {
+        "mob_id": 1081,
+        "name": "YELLOW_PLANT",
+        "weight": 25
+      }
+    ]
+  },
+  "2398": {
+    "name": "LITTLE_PORING",
+    "companions": [
+      {
+        "mob_id": 1002,
+        "name": "PORING",
+        "weight": 170
+      },
+      {
+        "mob_id": 1063,
+        "name": "LUNATIC",
+        "weight": 170
+      },
+      {
+        "mob_id": 1007,
+        "name": "FABRE",
+        "weight": 170
+      },
+      {
+        "mob_id": 1008,
+        "name": "PUPA",
+        "weight": 20
+      },
+      {
+        "mob_id": 2770,
+        "name": "C2_LUNATIC",
+        "weight": 1
+      },
+      {
+        "mob_id": 2696,
+        "name": "C3_PORING",
+        "weight": 1
+      },
+      {
+        "mob_id": 2697,
+        "name": "C4_PORING",
+        "weight": 1
+      },
+      {
+        "mob_id": 2698,
+        "name": "C5_PORING",
+        "weight": 1
+      }
+    ]
+  },
+  "1194": {
+    "name": "ARCLOUSE",
+    "companions": [
+      {
+        "mob_id": 1111,
+        "name": "DRAINLIAR",
+        "weight": 47
+      },
+      {
+        "mob_id": 1207,
+        "name": "STING",
+        "weight": 43
+      },
+      {
+        "mob_id": 1191,
+        "name": "MIMIC",
+        "weight": 23
+      },
+      {
+        "mob_id": 1032,
+        "name": "VERIT",
+        "weight": 23
+      },
+      {
+        "mob_id": 1297,
+        "name": "ANCIENT_MUMMY",
+        "weight": 23
+      },
+      {
+        "mob_id": 1213,
+        "name": "HIGH_ORC",
+        "weight": 20
+      },
+      {
+        "mob_id": 1211,
+        "name": "BRILIGHT",
+        "weight": 20
+      },
+      {
+        "mob_id": 1189,
+        "name": "ORC_ARCHER",
+        "weight": 20
+      }
+    ]
+  },
+  "1165": {
+    "name": "SAND_MAN",
+    "companions": [
+      {
+        "mob_id": 1127,
+        "name": "HODE",
+        "weight": 69
+      },
+      {
+        "mob_id": 1119,
+        "name": "FRILLDORA",
+        "weight": 23
+      },
+      {
+        "mob_id": 1081,
+        "name": "YELLOW_PLANT",
+        "weight": 6
+      },
+      {
+        "mob_id": 2674,
+        "name": "C4_SAND_MAN",
+        "weight": 2
+      },
+      {
+        "mob_id": 2802,
+        "name": "C4_HODE",
+        "weight": 2
+      },
+      {
+        "mob_id": 1079,
+        "name": "BLUE_PLANT",
+        "weight": 1
+      }
+    ]
+  },
+  "1179": {
+    "name": "WHISPER",
+    "companions": [
+      {
+        "mob_id": 1253,
+        "name": "GARGOYLE",
+        "weight": 49
+      },
+      {
+        "mob_id": 1587,
+        "name": "KRABEN",
+        "weight": 31
+      },
+      {
+        "mob_id": 1036,
+        "name": "GHOUL",
+        "weight": 26
+      },
+      {
+        "mob_id": 1584,
+        "name": "TAMRUAN",
+        "weight": 23
+      },
+      {
+        "mob_id": 1320,
+        "name": "OWL_DUKE",
+        "weight": 22
+      },
+      {
+        "mob_id": 1195,
+        "name": "RIDEWORD",
+        "weight": 22
+      },
+      {
+        "mob_id": 1143,
+        "name": "MARIONETTE",
+        "weight": 21
+      },
+      {
+        "mob_id": 1109,
+        "name": "DEVIRUCHI",
+        "weight": 20
+      }
+    ]
+  },
+  "1106": {
+    "name": "DESERT_WOLF",
+    "companions": [
+      {
+        "mob_id": 1782,
+        "name": "ROWEEN",
+        "weight": 56
+      },
+      {
+        "mob_id": 1627,
+        "name": "ANOPHELES",
+        "weight": 34
+      },
+      {
+        "mob_id": 1680,
+        "name": "HILL_WIND_1",
+        "weight": 23
+      },
+      {
+        "mob_id": 1107,
+        "name": "DESERT_WOLF_B",
+        "weight": 22
+      },
+      {
+        "mob_id": 2803,
+        "name": "C5_HILL_WIND_1",
+        "weight": 3
+      },
+      {
+        "mob_id": 2855,
+        "name": "C3_DESERT_WOLF_B",
+        "weight": 2
+      }
+    ]
+  },
+  "1586": {
+    "name": "LEAF_CAT",
+    "companions": [
+      {
+        "mob_id": 1057,
+        "name": "YOYO",
+        "weight": 63
+      },
+      {
+        "mob_id": 1036,
+        "name": "GHOUL",
+        "weight": 48
+      },
+      {
+        "mob_id": 1587,
+        "name": "KRABEN",
+        "weight": 17
+      },
+      {
+        "mob_id": 1179,
+        "name": "WHISPER",
+        "weight": 16
+      },
+      {
+        "mob_id": 1081,
+        "name": "YELLOW_PLANT",
+        "weight": 10
+      },
+      {
+        "mob_id": 2781,
+        "name": "C3_LEAF_CAT",
+        "weight": 2
+      },
+      {
+        "mob_id": 2609,
+        "name": "C2_YOYO",
+        "weight": 1
+      }
+    ]
+  },
+  "1040": {
+    "name": "GOLEM",
+    "companions": [
+      {
+        "mob_id": 1058,
+        "name": "METALLER",
+        "weight": 55
+      },
+      {
+        "mob_id": 1081,
+        "name": "YELLOW_PLANT",
+        "weight": 7
+      },
+      {
+        "mob_id": 2812,
+        "name": "C4_GOLEM",
+        "weight": 2
+      },
+      {
+        "mob_id": 2857,
+        "name": "C5_DENIRO",
+        "weight": 2
+      },
+      {
+        "mob_id": 1105,
+        "name": "DENIRO",
+        "weight": 2
+      },
+      {
+        "mob_id": 1160,
+        "name": "PIERE",
+        "weight": 2
+      },
+      {
+        "mob_id": 1095,
+        "name": "ANDRE",
+        "weight": 2
+      },
+      {
+        "mob_id": 1097,
+        "name": "ANT_EGG",
+        "weight": 2
+      }
+    ]
+  },
+  "1371": {
+    "name": "FAKE_ANGEL",
+    "companions": [
+      {
+        "mob_id": 1390,
+        "name": "VIOLY",
+        "weight": 133
+      },
+      {
+        "mob_id": 1292,
+        "name": "MINI_DEMON",
+        "weight": 102
+      },
+      {
+        "mob_id": 1374,
+        "name": "INCUBUS",
+        "weight": 51
+      },
+      {
+        "mob_id": 1370,
+        "name": "SUCCUBUS",
+        "weight": 50
+      },
+      {
+        "mob_id": 1219,
+        "name": "KNIGHT_OF_ABYSS",
+        "weight": 40
+      },
+      {
+        "mob_id": 1268,
+        "name": "BLOODY_KNIGHT",
+        "weight": 4
+      },
+      {
+        "mob_id": 1203,
+        "name": "MYSTELTAINN",
+        "weight": 4
+      },
+      {
+        "mob_id": 1205,
+        "name": "EXECUTIONER",
+        "weight": 4
+      }
+    ]
+  },
+  "1156": {
+    "name": "PETIT_",
+    "companions": [
+      {
+        "mob_id": 1139,
+        "name": "MANTIS",
+        "weight": 37
+      },
+      {
+        "mob_id": 1118,
+        "name": "FLORA",
+        "weight": 37
+      },
+      {
+        "mob_id": 1079,
+        "name": "BLUE_PLANT",
+        "weight": 8
+      },
+      {
+        "mob_id": 2714,
+        "name": "C1_PETIT",
+        "weight": 2
+      }
+    ]
+  }
+}
