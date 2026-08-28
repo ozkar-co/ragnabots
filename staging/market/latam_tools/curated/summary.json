@@ -1,0 +1,237 @@
+{
+  "source": "latam_tools",
+  "server": "FREYA",
+  "fetched_at": "2026-08-28",
+  "total_scanned": 29059,
+  "with_price_data": 5328,
+  "with_active_offers": 4065,
+  "not_in_market": 15593,
+  "top20_by_total_sold": [
+    {
+      "item_id": 1100005,
+      "name": "Elixir Dourado",
+      "type": "consumivel",
+      "offers_median": 2899,
+      "offers_min": 2340,
+      "market_avg": 2725,
+      "total_sold": 9529997,
+      "has_offers": true,
+      "has_market": true
+    },
+    {
+      "item_id": 1100003,
+      "name": "Elixir Vermelho",
+      "type": "consumivel",
+      "offers_median": 1487,
+      "offers_min": 1219,
+      "market_avg": 3419,
+      "total_sold": 3193085,
+      "has_offers": true,
+      "has_market": true
+    },
+    {
+      "item_id": 1000405,
+      "name": "Fragmento de Ametista",
+      "type": null,
+      "offers_median": 42700,
+      "offers_min": 39999,
+      "market_avg": 30930,
+      "total_sold": 3114318,
+      "has_offers": true,
+      "has_market": true
+    },
+    {
+      "item_id": 1100004,
+      "name": "Elixir Azul",
+      "type": "consumivel",
+      "offers_median": 7575,
+      "offers_min": 7567,
+      "market_avg": 8202,
+      "total_sold": 1685413,
+      "has_offers": true,
+      "has_market": true
+    },
+    {
+      "item_id": 6211,
+      "name": "Semente de Planta Sanguessuga",
+      "type": "diversos",
+      "offers_median": 2050,
+      "offers_min": 2039,
+      "market_avg": 2167,
+      "total_sold": 1469791,
+      "has_offers": true,
+      "has_market": true
+    },
+    {
+      "item_id": 1000322,
+      "name": "Pó de Éter",
+      "type": "diversos",
+      "offers_median": 88496,
+      "offers_min": 83000,
+      "market_avg": 60946,
+      "total_sold": 1188046,
+      "has_offers": true,
+      "has_market": true
+    },
+    {
+      "item_id": 25273,
+      "name": "Moeda de Corrida",
+      "type": "diversos",
+      "offers_median": 44499,
+      "offers_min": 43000,
+      "market_avg": 31951,
+      "total_sold": 1148054,
+      "has_offers": true,
+      "has_market": true
+    },
+    {
+      "item_id": 1033,
+      "name": "Raiz de Planta Carnívora",
+      "type": "diversos",
+      "offers_median": 3500,
+      "offers_min": 2999,
+      "market_avg": 627,
+      "total_sold": 875744,
+      "has_offers": true,
+      "has_market": true
+    },
+    {
+      "item_id": 23016,
+      "name": "Fragmento Ominoso",
+      "type": "diversos",
+      "offers_median": 14500,
+      "offers_min": 14300,
+      "market_avg": 14786,
+      "total_sold": 809507,
+      "has_offers": true,
+      "has_market": true
+    },
+    {
+      "item_id": 1000103,
+      "name": "Vale Varmida",
+      "type": "diversos",
+      "offers_median": 17000,
+      "offers_min": 16400,
+      "market_avg": 16947,
+      "total_sold": 792376,
+      "has_offers": true,
+      "has_market": true
+    },
+    {
+      "item_id": 12414,
+      "name": "Bala de Guaraná",
+      "type": "diversos",
+      "offers_median": 6500,
+      "offers_min": 4350,
+      "market_avg": 6301,
+      "total_sold": 655863,
+      "has_offers": true,
+      "has_market": true
+    },
+    {
+      "item_id": 1000281,
+      "name": "Frasco de Terrário",
+      "type": "diversos",
+      "offers_median": 9300,
+      "offers_min": 8899,
+      "market_avg": 15919,
+      "total_sold": 623642,
+      "has_offers": true,
+      "has_market": true
+    },
+    {
+      "item_id": 7565,
+      "name": "Veneno Pegajoso",
+      "type": "diversos",
+      "offers_median": 699,
+      "offers_min": 500,
+      "market_avg": 332,
+      "total_sold": 600168,
+      "has_offers": true,
+      "has_market": true
+    },
+    {
+      "item_id": 6671,
+      "name": "Moeda Mágica de Geffen",
+      "type": "diversos",
+      "offers_median": 1150,
+      "offers_min": 795,
+      "market_avg": 1110,
+      "total_sold": 566995,
+      "has_offers": true,
+      "has_market": true
+    },
+    {
+      "item_id": 678,
+      "name": "Garrafa de Veneno",
+      "type": "diversos",
+      "offers_median": 16500,
+      "offers_min": 15000,
+      "market_avg": 15431,
+      "total_sold": 544268,
+      "has_offers": true,
+      "has_market": true
+    },
+    {
+      "item_id": 578,
+      "name": "Morango",
+      "type": "consumivel",
+      "offers_median": 1299,
+      "offers_min": 999,
+      "market_avg": 2557,
+      "total_sold": 535834,
+      "has_offers": true,
+      "has_market": true
+    },
+    {
+      "item_id": 25669,
+      "name": "Chip Misterioso",
+      "type": "diversos",
+      "offers_median": 7000,
+      "offers_min": 4750,
+      "market_avg": 5699,
+      "total_sold": 466250,
+      "has_offers": true,
+      "has_market": true
+    },
+    {
+      "item_id": 6608,
+      "name": "Mana Coagulada",
+      "type": "diversos",
+      "offers_median": 9996,
+      "offers_min": 7950,
+      "market_avg": 7867,
+      "total_sold": 441834,
+      "has_offers": true,
+      "has_market": true
+    },
+    {
+      "item_id": 12721,
+      "name": "Cicuta",
+      "type": "diversos",
+      "offers_median": 8498,
+      "offers_min": 5900,
+      "market_avg": 5244,
+      "total_sold": 441135,
+      "has_offers": true,
+      "has_market": true
+    },
+    {
+      "item_id": 25786,
+      "name": "Arquivos de Biopesquisa",
+      "type": "diversos",
+      "offers_median": 4498,
+      "offers_min": 3000,
+      "market_avg": 3543,
+      "total_sold": 438461,
+      "has_offers": true,
+      "has_market": true
+    }
+  ],
+  "refinement_targets": {
+    "tier1_all_market": 5328,
+    "tier2_target": 2000,
+    "tier3_atlantis_target": 1000,
+    "tier4_npc_focus": "top 100-200 by type"
+  }
+}

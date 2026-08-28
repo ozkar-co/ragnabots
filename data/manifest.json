@@ -36,8 +36,17 @@
   },
   "external_market": {
     "staging": "staging/market/",
-    "sources_probing": ["atlantis_playro", "latam_tools", "ragnapi"],
-    "sources_pending": ["divine_pride"],
+    "latam_freya": {
+      "status": "complete",
+      "date": "2026-08-28",
+      "total_scanned": 29059,
+      "with_price_data": 5328,
+      "with_active_offers": 4065,
+      "bulk_local": "staging/market/latam_tools/bulk/FREYA/",
+      "curated": "staging/market/latam_tools/curated/"
+    },
+    "next": "atlantis on top2000_ids.txt",
+    "sources_pending": ["atlantis_playro", "ragnapi", "divine_pride"],
     "player_analysis": false,
     "vendings_local": "blocked_until_autotrade"
   },

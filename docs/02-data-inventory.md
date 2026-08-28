@@ -1,106 +1,53 @@
 # Inventario de datos (checklist M1)
 
-Antes de escribir **cualquier** código de negocio, recolectar e inspeccionar estas fuentes.
-
-**Estado:** 2026-08-27 — YAML local recolectado; mercado externo en `staging/`.
+**Estado:** 2026-08-28 — YAML local + LATAM FREYA completo. Ver [06-market-curation-plan.md](06-market-curation-plan.md).
 
 ## rAthena — archivos del servidor
 
-Ruta base: `/home/oz/rathena` → copiado en `data/raw/rathena/`
+Ruta base: `/home/oz/rathena` → `data/raw/rathena/`
 
-### Base de datos YAML
+- [x] YAML item/mob + imports + rates
+- [x] 5 ítems custom OzRo (35001–35005)
 
-- [x] `db/item_db.yml` — header + imports a pre-re, re, import
-- [x] `db/mob_db.yml` — drops con `Item`, `Rate`, `Index`
-- [x] `db/mob_item_ratio.yml` — import vacío
-- [x] `db/re/`, `db/import/` — catálogo completo + 5 ítems custom OzRo
+## Mercado externo
 
-### Configuración de rates
+- [x] Staging operativo (`fetch_batch.py`)
+- [x] **LATAM FREYA completo** — 29,059 ítems escaneados
+- [x] **Curación capa 1** — 5,328 con precio → `staging/market/latam_tools/curated/`
+- [ ] Atlantis sobre top 2,000
+- [ ] Refinar a top 1,000 + NPC focus 100–200
+- [ ] Completar 29k gradual (atlantis/ragnapi, referencia)
+- [ ] Divine Pride API key
+- [ ] Promover a `data/market/`
 
-- [x] `conf/battle/drops.conf`, `exp.conf`
-- [x] `conf/import/battle_conf.txt` → `data/raw/server_rates.json`
+### Resultado LATAM FREYA (2026-08-28)
 
-### Hallazgos YAML
+| Métrica | Valor |
+|---------|-------|
+| Escaneados | 29,059 |
+| Con datos de precio | 5,328 |
+| Con vending activo | 4,065 |
+| No en mercado LATAM | 15,593 |
+| Bulk local | `staging/market/latam_tools/bulk/FREYA/` (115 MB, gitignored) |
+| Curado en git | `staging/market/latam_tools/curated/` |
 
-```
-Renewal YAML v3/v5
-Custom items: 35001-35005 (monedas OzRo + MVP_Soul) — sin fuente externa
-Custom mob: DRAINLIAR (1111) override en import/
-Rates: common 5x, heal/use 10x, equip 15x, card 100x, mvp 5x
-```
+## Base de datos MySQL
 
-## Mercado externo (referencia de precios)
+- [x] Snapshot schema reference
+- [ ] Clon SQLite
+- [ ] Vendings OzRo — bloqueado hasta autotrade
 
-**No usamos datos de jugadores locales** para precios — poco historial de juego.
-
-Flujo: `staging/market/` → validar → promover a `data/market/` (cuando esté listo).
-
-Ver [05-external-market.md](05-external-market.md) y `staging/market/README.md`.
-
-- [x] Explorar fuentes con API pública
-- [x] Carpeta staging separada + script de prueba
-- [ ] Validar fidelidad con muestra representativa (≥20 ítems)
-- [ ] Decidir ajuste de rates vs OzRo
-- [ ] Divine Pride API key (NPC buy/sell ancla)
-- [ ] Promover fuentes validadas a `data/`
-
-### Fuentes en prueba
-
-| Fuente | API sin key | Qué aporta | Estado |
-|--------|-------------|------------|--------|
-| **atlantis_playro** | Sí (HTML) | histórico min/max/avg/std, total_sold, NPC | probing |
-| latam-tools | Sí | vending median actual bRO LATAM | probing |
-| RagnaAPI | Sí | drops, stats mobs, metadata ítems | probing |
-| Divine Pride | No (key) | NPC buy/sell, DB oficial | pending_key |
-
-### Hallazgos mercado (inicial)
-
-```
-latam-tools FREYA item 501: offers.median=30, jellopy 909 median~2098
-RagnaAPI: sin precios mercado; útil para quests (drops, equip jobs)
-Ítems custom 35001-35005: solo YAML local
-Vendings OzRo: pendiente cuando haya autotrade activo
-```
-
-## Base de datos MySQL (solo schema / SQLite)
-
-El snapshot DB local **no se usa para analizar jugadores**. Sirve para:
-- Conocer schema real (`sql-files/main.sql`)
-- Futuro clon SQLite para pruebas de inyección
-
-- [x] Snapshot parcial en `data/raw/db_snapshot/` (schema reference)
-- [ ] Clon SQLite local
-- [ ] Vendings OzRo — **bloqueado** hasta tienda autotrade
-
-| Tabla | Uso |
-|-------|-----|
-| `char`, `inventory`, etc. | solo schema; no análisis de patrones |
-| `vendings` | pendiente dump propio |
-| `login` | excluido (contraseñas) |
-
-## Salida en `data/` vs `staging/`
-
-| Ubicación | Contenido | Estado |
-|-----------|-----------|--------|
-| `data/raw/rathena/` | YAML + conf servidor | hecho |
-| `data/raw/server_rates.json` | rates OzRo | hecho |
-| `data/manifest.json` | inventario | hecho |
-| `staging/market/*/samples/` | probes API externos | en curso |
-| `data/market/` | dataset validado | pendiente |
-| `data/items.*`, `data/mobs.*` | catálogos normalizados | pendiente |
-
-## Usos del dataset (bots + diseño)
-
-- **Bots:** diccionario de precios, simulación económica
-- **NPCs:** precios de shop razonables vs mercado
-- **Quests:** recompensas balanceadas vs drops y valor de ítems
-
-## Criterio de salida M1
+## Criterio de salida M1 (parcial)
 
 1. [x] YAML y conf locales
-2. [x] Staging mercado externo operativo
-3. [ ] Validación de muestras (documentar en `staging/market/`)
-4. [ ] NPC buy/sell ancla (YAML local o Divine Pride)
-5. [ ] Vendings propios (cuando aplique)
-6. [ ] Catálogos normalizados en `data/`
-7. [ ] Plan M2
+2. [x] LATAM batch completo + curación capa 1–2
+3. [ ] Atlantis top 2000
+4. [ ] Diccionario precios en `data/market/`
+5. [ ] Plan M2 simulación
+
+## Usos del dataset
+
+- **Bots:** capa 3 (~1k precios)
+- **NPCs:** capa 4 (top 100–200 por tipo)
+- **Quests:** ragnapi drops + precios capa 1–3
+- **Referencia 30k:** completar gradual para casos puntuales

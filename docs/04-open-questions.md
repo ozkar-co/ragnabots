@@ -47,8 +47,8 @@ Decisiones **intencionalmente aplazadas** hasta tener datos reales. Actualizar e
 ---
 
 ### #4 — Fuentes de mercado externo
-**Respuesta:** latam-tools (vending bRO LATAM), RagnaAPI (metadata/drops), Divine Pride pendiente key (NPC prices). Staging en `staging/market/`.
-**Fecha:** 2026-08-27
+**Respuesta:** LATAM completo (29k). Curar en capas: 5328 → 2000 → 1000 → 100-200 NPCs. Atlantis siguiente.
+**Fecha:** 2026-08-28
 **Etapa:** M1
 
 ### #8 — Perfiles de bots

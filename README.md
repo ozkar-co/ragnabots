@@ -6,11 +6,11 @@ Proyecto personal, mantenido por una sola persona. Enfoque **data-first**: prime
 
 ## Estado actual
 
-**M1 en curso** — datos locales + staging de mercado externo.
+**M1 en curso** — LATAM FREYA completo (29k escaneados, 5.3k con precio útil).
 
-- `data/raw/` — YAML rAthena y rates del servidor OzRo
-- `staging/market/` — probes de APIs públicas (validar antes de promover)
-- Sin código de negocio aún
+- `staging/market/latam_tools/curated/` — listas refinadas (commitear)
+- `staging/market/latam_tools/bulk/` — bulk 115 MB (local, gitignored)
+- Próximo: Atlantis sobre `top2000_ids.txt` — ver [docs/06-market-curation-plan.md](docs/06-market-curation-plan.md)
 
 ## Staging (mercado externo)
 
@@ -38,7 +38,7 @@ Lee los docs en orden:
 | [docs/01-vision.md](docs/01-vision.md) | Objetivo, etapas, qué no es el proyecto |
 | [docs/02-data-inventory.md](docs/02-data-inventory.md) | Checklist de datos a recolectar (M1) |
 | [docs/03-server-snapshot.md](docs/03-server-snapshot.md) | Clon MySQL → SQLite para desarrollo |
-| [docs/05-external-market.md](docs/05-external-market.md) | Mercado externo, staging, validación |
+| [docs/06-market-curation-plan.md](docs/06-market-curation-plan.md) | Curación por capas: 5k → 2k → 1k → NPCs |
 
 ## Estructura
 
