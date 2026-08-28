@@ -1,0 +1,1825 @@
+{
+  "generated": "design_sample.py",
+  "assumptions": {
+    "kill_weight": "proportional to spawn amount (harvest plants excluded only)",
+    "harvest_plants_excluded": [
+      "BLACK_MUSHROOM",
+      "BLUE_PLANT",
+      "GREEN_PLANT",
+      "RED_MUSHROOM",
+      "RED_PLANT",
+      "SHINING_PLANT",
+      "WHITE_PLANT",
+      "YELLOW_PLANT"
+    ],
+    "note_race_plant": "Race=Plant NO se excluye (Poring/Spore/Flora son grindables)",
+    "drop_formula": "P = Σ (amount_i/total) * min(1, rate_raw * ozro_mult / 10000)",
+    "ozro_mults": {
+      "common": 5.0,
+      "heal": 10.0,
+      "use": 10.0,
+      "equip": 15.0,
+      "card": 100.0
+    },
+    "prices": {
+      "atlantis": "avg from ranked_atlantis",
+      "latam": "offers_median from ranked_market"
+    },
+    "difficulty": {
+      "novice": "avg_lv ≤ 20",
+      "easy": "21–40",
+      "mid": "41–70",
+      "hard": "71–100",
+      "expert": ">100"
+    },
+    "ev_caveat": "EV Atlantis con policy=full está inflado por cards (100x) y equip (15x) × precios avg altos/ruidosos; usar policy restricted o EV solo-Etc para oferta de bot realista",
+    "scale_plan": "10 sample → ~20 templates × replicas ≈ 100 bots; not all active"
+  },
+  "bot_count": 10,
+  "bots": [
+    {
+      "id": "01_poring_field",
+      "label": "Campo Prontera (newbie)",
+      "tier_target": "novice",
+      "loot_policy": "full",
+      "maps": [
+        "prt_fild08"
+      ],
+      "map_tiers": [
+        "novice"
+      ],
+      "map_avg_levels": [
+        3.08
+      ],
+      "offer_item_count": 14,
+      "ev_atlantis_per_kill_by_map": [
+        2079.44
+      ],
+      "ev_latam_per_kill_by_map": [
+        9383.73
+      ],
+      "ev_atlantis_all_by_map": [
+        495887.44
+      ],
+      "ev_atlantis_cards_by_map": [
+        90909.07
+      ],
+      "notes": "Loot denso clásico; referencia de volumen bajo valor.",
+      "maps_top_drops": [
+        {
+          "map": "prt_fild08",
+          "tier": "novice",
+          "avg_level": 3.08,
+          "avg_hp": 55,
+          "combat_amount": 616,
+          "top_mobs": [
+            {
+              "aegis": "PORING",
+              "amount": 197,
+              "level": 1,
+              "hp": 55
+            },
+            {
+              "aegis": "FABRE",
+              "amount": 177,
+              "level": 6,
+              "hp": 59
+            },
+            {
+              "aegis": "LUNATIC",
+              "amount": 167,
+              "level": 3,
+              "hp": 48
+            },
+            {
+              "aegis": "LITTLE_PORING",
+              "amount": 50,
+              "level": 1,
+              "hp": 40
+            },
+            {
+              "aegis": "PUPA",
+              "amount": 20,
+              "level": 4,
+              "hp": 51
+            }
+          ],
+          "top_offer": [
+            {
+              "item_id": 938,
+              "name": "Sticky Mucus",
+              "type": "Etc",
+              "p": 0.1224026,
+              "atlantis_avg": 5113,
+              "latam_median": 2000,
+              "ev_at": 625.84
+            },
+            {
+              "item_id": 619,
+              "name": "Unripe Apple",
+              "type": "Usable",
+              "p": 0.00704545,
+              "atlantis_avg": 51656,
+              "latam_median": 129000,
+              "ev_at": 363.94
+            },
+            {
+              "item_id": 705,
+              "name": "Clover",
+              "type": "Etc",
+              "p": 0.4163961,
+              "atlantis_avg": 490,
+              "latam_median": 1800,
+              "ev_at": 204.03
+            },
+            {
+              "item_id": 909,
+              "name": "Jellopy",
+              "type": "Etc",
+              "p": 0.40746753,
+              "atlantis_avg": 445,
+              "latam_median": 2099,
+              "ev_at": 181.32
+            },
+            {
+              "item_id": 511,
+              "name": "Green Herb",
+              "type": "Healing",
+              "p": 0.28733766,
+              "atlantis_avg": 525,
+              "latam_median": 1499,
+              "ev_at": 150.85
+            },
+            {
+              "item_id": 949,
+              "name": "Feather",
+              "type": "Etc",
+              "p": 0.4163961,
+              "atlantis_avg": 304,
+              "latam_median": 10000,
+              "ev_at": 126.58
+            },
+            {
+              "item_id": 1002,
+              "name": "Iron Ore",
+              "type": "Etc",
+              "p": 0.00811688,
+              "atlantis_avg": 13612,
+              "latam_median": 11000,
+              "ev_at": 110.49
+            },
+            {
+              "item_id": 512,
+              "name": "Apple",
+              "type": "Healing",
+              "p": 0.40746753,
+              "atlantis_avg": 252,
+              "latam_median": null,
+              "ev_at": 102.68
+            }
+          ],
+          "top_cards": [
+            {
+              "item_id": 4002,
+              "name": "Fabre Card",
+              "p": 0.05746753,
+              "atlantis_avg": 1204102,
+              "ev_at": 69196.77
+            },
+            {
+              "item_id": 4001,
+              "name": "Poring Card",
+              "p": 0.07045455,
+              "atlantis_avg": 120003,
+              "ev_at": 8454.76
+            },
+            {
+              "item_id": 4006,
+              "name": "Lunatic Card",
+              "p": 0.05584416,
+              "atlantis_avg": 140027,
+              "ev_at": 7819.69
+            },
+            {
+              "item_id": 4545,
+              "name": "Novice Poring Card",
+              "p": 0.08116883,
+              "atlantis_avg": 64882,
+              "ev_at": 5266.4
+            },
+            {
+              "item_id": 4003,
+              "name": "Pupa Card",
+              "p": 0.00032468,
+              "atlantis_avg": 528051,
+              "ev_at": 171.45
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02_pay_spore",
+      "label": "Campo Payon (spore)",
+      "tier_target": "novice",
+      "loot_policy": "full",
+      "maps": [
+        "pay_fild08"
+      ],
+      "map_tiers": [
+        "novice"
+      ],
+      "map_avg_levels": [
+        17.85
+      ],
+      "offer_item_count": 11,
+      "ev_atlantis_per_kill_by_map": [
+        3013.06
+      ],
+      "ev_latam_per_kill_by_map": [
+        3500.41
+      ],
+      "ev_atlantis_all_by_map": [
+        38310.78
+      ],
+      "ev_atlantis_cards_by_map": [
+        23707.71
+      ],
+      "notes": "Segundo newbie; Spore/etc de Payon.",
+      "maps_top_drops": [
+        {
+          "map": "pay_fild08",
+          "tier": "novice",
+          "avg_level": 17.85,
+          "avg_hp": 214,
+          "combat_amount": 210,
+          "top_mobs": [
+            {
+              "aegis": "SPORE",
+              "amount": 148,
+              "level": 18,
+              "hp": 223
+            },
+            {
+              "aegis": "WORM_TAIL",
+              "amount": 31,
+              "level": 17,
+              "hp": 186
+            },
+            {
+              "aegis": "SNAKE",
+              "amount": 31,
+              "level": 18,
+              "hp": 203
+            }
+          ],
+          "top_offer": [
+            {
+              "item_id": 507,
+              "name": "Red Herb",
+              "type": "Healing",
+              "p": 0.82285714,
+              "atlantis_avg": 1239,
+              "latam_median": 1399,
+              "ev_at": 1019.52
+            },
+            {
+              "item_id": 578,
+              "name": "Strawberry",
+              "type": "Healing",
+              "p": 0.57047619,
+              "atlantis_avg": 1369,
+              "latam_median": 1299,
+              "ev_at": 780.98
+            },
+            {
+              "item_id": 743,
+              "name": "Spore Doll",
+              "type": "Etc",
+              "p": 0.00352381,
+              "atlantis_avg": 167585,
+              "latam_median": 19999,
+              "ev_at": 590.54
+            },
+            {
+              "item_id": 921,
+              "name": "Mushroom Spore",
+              "type": "Etc",
+              "p": 0.7047619,
+              "atlantis_avg": 363,
+              "latam_median": 900,
+              "ev_at": 255.83
+            },
+            {
+              "item_id": 937,
+              "name": "Venom Canine",
+              "type": "Etc",
+              "p": 0.05904762,
+              "atlantis_avg": 2808,
+              "latam_median": 1288,
+              "ev_at": 165.81
+            },
+            {
+              "item_id": 926,
+              "name": "Snake Scale",
+              "type": "Etc",
+              "p": 0.14761905,
+              "atlantis_avg": 686,
+              "latam_median": 500,
+              "ev_at": 101.27
+            },
+            {
+              "item_id": 906,
+              "name": "Pointed Scale",
+              "type": "Etc",
+              "p": 0.14761905,
+              "atlantis_avg": 487,
+              "latam_median": 5000,
+              "ev_at": 71.89
+            },
+            {
+              "item_id": 1011,
+              "name": "Emveretarcon",
+              "type": "Etc",
+              "p": 0.00834048,
+              "atlantis_avg": 2349,
+              "latam_median": null,
+              "ev_at": 19.59
+            }
+          ],
+          "top_cards": [
+            {
+              "item_id": 4022,
+              "name": "Spore Card",
+              "p": 0.07047619,
+              "atlantis_avg": 277985,
+              "ev_at": 19591.32
+            },
+            {
+              "item_id": 4037,
+              "name": "Snake Card",
+              "p": 0.0147619,
+              "atlantis_avg": 174068,
+              "ev_at": 2569.58
+            },
+            {
+              "item_id": 4034,
+              "name": "Wormtail Card",
+              "p": 0.00147619,
+              "atlantis_avg": 1047837,
+              "ev_at": 1546.81
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03_desert_muka",
+      "label": "Desierto Muka",
+      "tier_target": "easy",
+      "loot_policy": "full",
+      "maps": [
+        "moc_fild01"
+      ],
+      "map_tiers": [
+        "easy"
+      ],
+      "map_avg_levels": [
+        22.06
+      ],
+      "offer_item_count": 10,
+      "ev_atlantis_per_kill_by_map": [
+        2440.57
+      ],
+      "ev_latam_per_kill_by_map": [
+        6414.44
+      ],
+      "ev_atlantis_all_by_map": [
+        14289.84
+      ],
+      "ev_atlantis_cards_by_map": [
+        11263.1
+      ],
+      "notes": "Alta densidad Muka/Peco; mats desierto.",
+      "maps_top_drops": [
+        {
+          "map": "moc_fild01",
+          "tier": "easy",
+          "avg_level": 22.06,
+          "avg_hp": 328,
+          "combat_amount": 329,
+          "top_mobs": [
+            {
+              "aegis": "MUKA",
+              "amount": 202,
+              "level": 23,
+              "hp": 337
+            },
+            {
+              "aegis": "PECOPECO",
+              "amount": 93,
+              "level": 25,
+              "hp": 354
+            },
+            {
+              "aegis": "PECOPECO_EGG",
+              "amount": 31,
+              "level": 7,
+              "hp": 70
+            },
+            {
+              "aegis": "C3_MUKA",
+              "amount": 3,
+              "level": 23,
+              "hp": 1685
+            }
+          ],
+          "top_offer": [
+            {
+              "item_id": 952,
+              "name": "Cactus Needle",
+              "type": "Etc",
+              "p": 0.6231003,
+              "atlantis_avg": 1677,
+              "latam_median": 900,
+              "ev_at": 1044.94
+            },
+            {
+              "item_id": 1002,
+              "name": "Iron Ore",
+              "type": "Etc",
+              "p": 0.0412234,
+              "atlantis_avg": 13612,
+              "latam_median": 11000,
+              "ev_at": 561.13
+            },
+            {
+              "item_id": 507,
+              "name": "Red Herb",
+              "type": "Healing",
+              "p": 0.35379939,
+              "atlantis_avg": 1239,
+              "latam_median": 1399,
+              "ev_at": 438.36
+            },
+            {
+              "item_id": 582,
+              "name": "Orange",
+              "type": "Healing",
+              "p": 0.14133739,
+              "atlantis_avg": 941,
+              "latam_median": 29998,
+              "ev_at": 133.0
+            },
+            {
+              "item_id": 925,
+              "name": "Bill of Birds",
+              "type": "Etc",
+              "p": 0.28267477,
+              "atlantis_avg": 462,
+              "latam_median": null,
+              "ev_at": 130.6
+            },
+            {
+              "item_id": 511,
+              "name": "Green Herb",
+              "type": "Healing",
+              "p": 0.13191489,
+              "atlantis_avg": 525,
+              "latam_median": 1499,
+              "ev_at": 69.26
+            },
+            {
+              "item_id": 935,
+              "name": "Shell",
+              "type": "Etc",
+              "p": 0.03533435,
+              "atlantis_avg": 805,
+              "latam_median": 3500,
+              "ev_at": 28.44
+            },
+            {
+              "item_id": 993,
+              "name": "Green Live",
+              "type": "Etc",
+              "p": 0.01154255,
+              "atlantis_avg": 1641,
+              "latam_median": 3198,
+              "ev_at": 18.94
+            }
+          ],
+          "top_cards": [
+            {
+              "item_id": 4031,
+              "name": "Peco Peco Card",
+              "p": 0.00282675,
+              "atlantis_avg": 2879251,
+              "ev_at": 8138.92
+            },
+            {
+              "item_id": 4007,
+              "name": "Peco Peco Egg Card",
+              "p": 0.00094225,
+              "atlantis_avg": 3315660,
+              "ev_at": 3124.18
+            },
+            {
+              "item_id": 4036,
+              "name": "Muka Card",
+              "p": 0.00659574,
+              "atlantis_avg": null,
+              "ev_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "04_ant_hell",
+      "label": "Ant Hell",
+      "tier_target": "easy",
+      "loot_policy": "full",
+      "maps": [
+        "anthell01"
+      ],
+      "map_tiers": [
+        "easy"
+      ],
+      "map_avg_levels": [
+        29.81
+      ],
+      "offer_item_count": 22,
+      "ev_atlantis_per_kill_by_map": [
+        3262.41
+      ],
+      "ev_latam_per_kill_by_map": [
+        8249.37
+      ],
+      "ev_atlantis_all_by_map": [
+        8193.39
+      ],
+      "ev_atlantis_cards_by_map": [
+        4634.52
+      ],
+      "notes": "Dungeon fácil; huevos/hormigas.",
+      "maps_top_drops": [
+        {
+          "map": "anthell01",
+          "tier": "easy",
+          "avg_level": 29.81,
+          "avg_hp": 504,
+          "combat_amount": 226,
+          "top_mobs": [
+            {
+              "aegis": "ANT_EGG",
+              "amount": 87,
+              "level": 28,
+              "hp": 469
+            },
+            {
+              "aegis": "PIERE",
+              "amount": 50,
+              "level": 32,
+              "hp": 508
+            },
+            {
+              "aegis": "DENIRO",
+              "amount": 40,
+              "level": 31,
+              "hp": 480
+            },
+            {
+              "aegis": "FARMILIAR",
+              "amount": 20,
+              "level": 24,
+              "hp": 330
+            },
+            {
+              "aegis": "ANDRE",
+              "amount": 15,
+              "level": 33,
+              "hp": 537
+            }
+          ],
+          "top_offer": [
+            {
+              "item_id": 1002,
+              "name": "Iron Ore",
+              "type": "Etc",
+              "p": 0.07455752,
+              "atlantis_avg": 13612,
+              "latam_median": 11000,
+              "ev_at": 1014.88
+            },
+            {
+              "item_id": 938,
+              "name": "Sticky Mucus",
+              "type": "Etc",
+              "p": 0.17040929,
+              "atlantis_avg": 5113,
+              "latam_median": 2000,
+              "ev_at": 871.3
+            },
+            {
+              "item_id": 913,
+              "name": "Tooth of Bat",
+              "type": "Etc",
+              "p": 0.08849558,
+              "atlantis_avg": 9435,
+              "latam_median": 14960,
+              "ev_at": 834.96
+            },
+            {
+              "item_id": 935,
+              "name": "Shell",
+              "type": "Etc",
+              "p": 0.19247788,
+              "atlantis_avg": 805,
+              "latam_median": 3500,
+              "ev_at": 154.94
+            },
+            {
+              "item_id": 955,
+              "name": "Worm Peeling",
+              "type": "Etc",
+              "p": 0.52212389,
+              "atlantis_avg": 251,
+              "latam_median": 4999,
+              "ev_at": 131.05
+            },
+            {
+              "item_id": 909,
+              "name": "Jellopy",
+              "type": "Etc",
+              "p": 0.19247788,
+              "atlantis_avg": 445,
+              "latam_median": 2099,
+              "ev_at": 85.65
+            },
+            {
+              "item_id": 507,
+              "name": "Red Herb",
+              "type": "Healing",
+              "p": 0.03097345,
+              "atlantis_avg": 1239,
+              "latam_median": 1399,
+              "ev_at": 38.38
+            },
+            {
+              "item_id": 514,
+              "name": "Grape",
+              "type": "Healing",
+              "p": 0.00442478,
+              "atlantis_avg": 6489,
+              "latam_median": null,
+              "ev_at": 28.71
+            }
+          ],
+          "top_cards": [
+            {
+              "item_id": 4043,
+              "name": "Andre Card",
+              "p": 0.00530973,
+              "atlantis_avg": 756994,
+              "ev_at": 4019.44
+            },
+            {
+              "item_id": 4013,
+              "name": "Andre Egg Card",
+              "p": 0.00384956,
+              "atlantis_avg": 128224,
+              "ev_at": 493.61
+            },
+            {
+              "item_id": 4087,
+              "name": "Giearth Card",
+              "p": 4.425e-05,
+              "atlantis_avg": 2745305,
+              "ev_at": 121.47
+            },
+            {
+              "item_id": 4020,
+              "name": "Familiar Card",
+              "p": 0.00088496,
+              "atlantis_avg": null,
+              "ev_at": null
+            },
+            {
+              "item_id": 4053,
+              "name": "Vitata Card",
+              "p": 0.00044248,
+              "atlantis_avg": null,
+              "ev_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "05_pay_bigfoot",
+      "label": "Payon Bigfoot",
+      "tier_target": "easy",
+      "loot_policy": "full",
+      "maps": [
+        "pay_fild07"
+      ],
+      "map_tiers": [
+        "easy"
+      ],
+      "map_avg_levels": [
+        27.04
+      ],
+      "offer_item_count": 12,
+      "ev_atlantis_per_kill_by_map": [
+        3992.59
+      ],
+      "ev_latam_per_kill_by_map": [
+        6293.04
+      ],
+      "ev_atlantis_all_by_map": [
+        28135.25
+      ],
+      "ev_atlantis_cards_by_map": [
+        11489.19
+      ],
+      "notes": "Campo mid-bajo; Bigfoot/Caramel.",
+      "maps_top_drops": [
+        {
+          "map": "pay_fild07",
+          "tier": "easy",
+          "avg_level": 27.04,
+          "avg_hp": 439,
+          "combat_amount": 268,
+          "top_mobs": [
+            {
+              "aegis": "BIGFOOT",
+              "amount": 174,
+              "level": 29,
+              "hp": 506
+            },
+            {
+              "aegis": "CARAMEL",
+              "amount": 40,
+              "level": 25,
+              "hp": 319
+            },
+            {
+              "aegis": "STAINER",
+              "amount": 26,
+              "level": 21,
+              "hp": 212
+            },
+            {
+              "aegis": "CREAMY",
+              "amount": 26,
+              "level": 23,
+              "hp": 247
+            },
+            {
+              "aegis": "C3_BIGFOOT",
+              "amount": 2,
+              "level": 29,
+              "hp": 2530
+            }
+          ],
+          "top_offer": [
+            {
+              "item_id": 919,
+              "name": "Animal Skin",
+              "type": "Etc",
+              "p": 0.80597015,
+              "atlantis_avg": 2849,
+              "latam_median": 999,
+              "ev_at": 2296.21
+            },
+            {
+              "item_id": 948,
+              "name": "Bear's Footskin",
+              "type": "Etc",
+              "p": 0.65671642,
+              "atlantis_avg": 1281,
+              "latam_median": 3499,
+              "ev_at": 841.25
+            },
+            {
+              "item_id": 518,
+              "name": "Honey",
+              "type": "Healing",
+              "p": 0.17294776,
+              "atlantis_avg": 1761,
+              "latam_median": 2690,
+              "ev_at": 304.56
+            },
+            {
+              "item_id": 1027,
+              "name": "Porcupine Quill",
+              "type": "Etc",
+              "p": 0.14925373,
+              "atlantis_avg": 1999,
+              "latam_median": 9900,
+              "ev_at": 298.36
+            },
+            {
+              "item_id": 1013,
+              "name": "Rainbow Shell",
+              "type": "Etc",
+              "p": 0.09701493,
+              "atlantis_avg": 1024,
+              "latam_median": 10000,
+              "ev_at": 99.34
+            },
+            {
+              "item_id": 1002,
+              "name": "Iron Ore",
+              "type": "Etc",
+              "p": 0.00727612,
+              "atlantis_avg": 13612,
+              "latam_median": 11000,
+              "ev_at": 99.04
+            },
+            {
+              "item_id": 756,
+              "name": "Rough Oridecon",
+              "type": "Etc",
+              "p": 0.00755224,
+              "atlantis_avg": 4006,
+              "latam_median": 8490,
+              "ev_at": 30.25
+            },
+            {
+              "item_id": 992,
+              "name": "Wind of Verdure",
+              "type": "Etc",
+              "p": 0.00169776,
+              "atlantis_avg": 4972,
+              "latam_median": 2899,
+              "ev_at": 8.44
+            }
+          ],
+          "top_cards": [
+            {
+              "item_id": 4074,
+              "name": "Bigfoot Card",
+              "p": 0.00686567,
+              "atlantis_avg": 653149,
+              "ev_at": 4484.31
+            },
+            {
+              "item_id": 4040,
+              "name": "Creamy Card",
+              "p": 0.00097015,
+              "atlantis_avg": 4146494,
+              "ev_at": 4022.72
+            },
+            {
+              "item_id": 4063,
+              "name": "Caramel Card",
+              "p": 0.00149254,
+              "atlantis_avg": 1998047,
+              "ev_at": 2982.16
+            },
+            {
+              "item_id": 4039,
+              "name": "Stainer Card",
+              "p": 0.00097015,
+              "atlantis_avg": null,
+              "ev_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "06_orc_village",
+      "label": "Aldea Orco",
+      "tier_target": "mid",
+      "loot_policy": "full",
+      "maps": [
+        "gef_fild10",
+        "orcsdun01"
+      ],
+      "map_tiers": [
+        "mid",
+        "mid"
+      ],
+      "map_avg_levels": [
+        44.11,
+        47.43
+      ],
+      "offer_item_count": 22,
+      "ev_atlantis_per_kill_by_map": [
+        1703.55,
+        4385.14
+      ],
+      "ev_latam_per_kill_by_map": [
+        578.23,
+        4981.58
+      ],
+      "ev_atlantis_all_by_map": [
+        9705.49,
+        6920.96
+      ],
+      "ev_atlantis_cards_by_map": [
+        6831.88,
+        2113.11
+      ],
+      "notes": "Dos mapas tema orco (campo + dungeon).",
+      "maps_top_drops": [
+        {
+          "map": "gef_fild10",
+          "tier": "mid",
+          "avg_level": 44.11,
+          "avg_hp": 1084,
+          "combat_amount": 263,
+          "top_mobs": [
+            {
+              "aegis": "ORK_WARRIOR",
+              "amount": 179,
+              "level": 44,
+              "hp": 1047
+            },
+            {
+              "aegis": "ORC_LADY",
+              "amount": 55,
+              "level": 45,
+              "hp": 1145
+            },
+            {
+              "aegis": "ORC_BABY",
+              "amount": 27,
+              "level": 43,
+              "hp": 904
+            },
+            {
+              "aegis": "C4_ORK_WARRIOR",
+              "amount": 2,
+              "level": 44,
+              "hp": 5235
+            }
+          ],
+          "top_offer": [
+            {
+              "item_id": 7053,
+              "name": "Cyfar",
+              "type": "Etc",
+              "p": 0.20912548,
+              "atlantis_avg": 4398,
+              "latam_median": 1000,
+              "ev_at": 919.73
+            },
+            {
+              "item_id": 931,
+              "name": "Orcish Voucher",
+              "type": "Etc",
+              "p": 0.68821293,
+              "atlantis_avg": 987,
+              "latam_median": 300,
+              "ev_at": 679.27
+            },
+            {
+              "item_id": 519,
+              "name": "Milk",
+              "type": "Healing",
+              "p": 0.1026616,
+              "atlantis_avg": 738,
+              "latam_median": 990,
+              "ev_at": 75.76
+            },
+            {
+              "item_id": 756,
+              "name": "Rough Oridecon",
+              "type": "Etc",
+              "p": 0.00718631,
+              "atlantis_avg": 4006,
+              "latam_median": 8490,
+              "ev_at": 28.79
+            }
+          ],
+          "top_cards": [
+            {
+              "item_id": 4066,
+              "name": "Orc Warrior Card",
+              "p": 0.00718631,
+              "atlantis_avg": 634421,
+              "ev_at": 4559.15
+            },
+            {
+              "item_id": 4375,
+              "name": "Orc Baby Card",
+              "p": 0.00102662,
+              "atlantis_avg": 1224486,
+              "ev_at": 1257.08
+            },
+            {
+              "item_id": 4255,
+              "name": "Orc Lady Card",
+              "p": 0.00209125,
+              "atlantis_avg": 485665,
+              "ev_at": 1015.65
+            }
+          ]
+        },
+        {
+          "map": "orcsdun01",
+          "tier": "mid",
+          "avg_level": 47.43,
+          "avg_hp": 1479,
+          "combat_amount": 122,
+          "top_mobs": [
+            {
+              "aegis": "ORC_ZOMBIE",
+              "amount": 80,
+              "level": 51,
+              "hp": 1586
+            },
+            {
+              "aegis": "FARMILIAR",
+              "amount": 15,
+              "level": 24,
+              "hp": 330
+            },
+            {
+              "aegis": "STEEL_CHONCHON",
+              "amount": 10,
+              "level": 48,
+              "hp": 985
+            },
+            {
+              "aegis": "ORC_SKELETON",
+              "amount": 10,
+              "level": 53,
+              "hp": 1699
+            },
+            {
+              "aegis": "DRAINLIAR",
+              "amount": 5,
+              "level": 47,
+              "hp": 1182
+            }
+          ],
+          "top_offer": [
+            {
+              "item_id": 938,
+              "name": "Sticky Mucus",
+              "type": "Etc",
+              "p": 0.50819672,
+              "atlantis_avg": 5113,
+              "latam_median": 2000,
+              "ev_at": 2598.41
+            },
+            {
+              "item_id": 913,
+              "name": "Tooth of Bat",
+              "type": "Etc",
+              "p": 0.15368852,
+              "atlantis_avg": 9435,
+              "latam_median": 14960,
+              "ev_at": 1450.05
+            },
+            {
+              "item_id": 507,
+              "name": "Red Herb",
+              "type": "Healing",
+              "p": 0.08196721,
+              "atlantis_avg": 1239,
+              "latam_median": 1399,
+              "ev_at": 101.56
+            },
+            {
+              "item_id": 935,
+              "name": "Shell",
+              "type": "Etc",
+              "p": 0.08196721,
+              "atlantis_avg": 805,
+              "latam_median": 3500,
+              "ev_at": 65.98
+            },
+            {
+              "item_id": 714,
+              "name": "Emperium",
+              "type": "Etc",
+              "p": 0.00036885,
+              "atlantis_avg": 122109,
+              "latam_median": 169999,
+              "ev_at": 45.04
+            },
+            {
+              "item_id": 932,
+              "name": "Skel-Bone",
+              "type": "Etc",
+              "p": 0.07172131,
+              "atlantis_avg": 588,
+              "latam_median": 222,
+              "ev_at": 42.17
+            },
+            {
+              "item_id": 514,
+              "name": "Grape",
+              "type": "Healing",
+              "p": 0.00614754,
+              "atlantis_avg": 6489,
+              "latam_median": null,
+              "ev_at": 39.89
+            },
+            {
+              "item_id": 943,
+              "name": "Solid Shell",
+              "type": "Etc",
+              "p": 0.00061475,
+              "atlantis_avg": 19779,
+              "latam_median": 1000,
+              "ev_at": 12.16
+            }
+          ],
+          "top_cards": [
+            {
+              "item_id": 4071,
+              "name": "Orc Zombie Card",
+              "p": 0.00737705,
+              "atlantis_avg": 194309,
+              "ev_at": 1433.43
+            },
+            {
+              "item_id": 4085,
+              "name": "Orc Skeleton Card",
+              "p": 0.00081967,
+              "atlantis_avg": 829206,
+              "ev_at": 679.68
+            },
+            {
+              "item_id": 4020,
+              "name": "Familiar Card",
+              "p": 0.00122951,
+              "atlantis_avg": null,
+              "ev_at": null
+            },
+            {
+              "item_id": 4042,
+              "name": "Steel Chonchon Card",
+              "p": 0.00081967,
+              "atlantis_avg": null,
+              "ev_at": null
+            },
+            {
+              "item_id": 4069,
+              "name": "Drainliar Card",
+              "p": 0.00040984,
+              "atlantis_avg": null,
+              "ev_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "07_mjolnir_spider",
+      "label": "Mjolnir Argiope",
+      "tier_target": "mid",
+      "loot_policy": "full",
+      "maps": [
+        "mjolnir_11"
+      ],
+      "map_tiers": [
+        "mid"
+      ],
+      "map_avg_levels": [
+        67.44
+      ],
+      "offer_item_count": 12,
+      "ev_atlantis_per_kill_by_map": [
+        1773.43
+      ],
+      "ev_latam_per_kill_by_map": [
+        4245.06
+      ],
+      "ev_atlantis_all_by_map": [
+        22252.67
+      ],
+      "ev_atlantis_cards_by_map": [
+        20471.55
+      ],
+      "notes": "Spiders densas; buen mix etc/card potencial.",
+      "maps_top_drops": [
+        {
+          "map": "mjolnir_11",
+          "tier": "mid",
+          "avg_level": 67.44,
+          "avg_hp": 3030,
+          "combat_amount": 262,
+          "top_mobs": [
+            {
+              "aegis": "ARGIOPE",
+              "amount": 170,
+              "level": 75,
+              "hp": 3570
+            },
+            {
+              "aegis": "ARGOS",
+              "amount": 45,
+              "level": 47,
+              "hp": 1300
+            },
+            {
+              "aegis": "FLORA",
+              "amount": 45,
+              "level": 59,
+              "hp": 2065
+            },
+            {
+              "aegis": "C5_ARGIOPE",
+              "amount": 2,
+              "level": 75,
+              "hp": 17850
+            }
+          ],
+          "top_offer": [
+            {
+              "item_id": 1025,
+              "name": "Cobweb",
+              "type": "Etc",
+              "p": 0.17175573,
+              "atlantis_avg": 4496,
+              "latam_median": null,
+              "ev_at": 772.21
+            },
+            {
+              "item_id": 1032,
+              "name": "Maneater Blossom",
+              "type": "Etc",
+              "p": 0.17175573,
+              "atlantis_avg": 2123,
+              "latam_median": 399,
+              "ev_at": 364.64
+            },
+            {
+              "item_id": 511,
+              "name": "Green Herb",
+              "type": "Healing",
+              "p": 0.55181298,
+              "atlantis_avg": 525,
+              "latam_median": 1499,
+              "ev_at": 289.7
+            },
+            {
+              "item_id": 757,
+              "name": "Rough Elunium",
+              "type": "Etc",
+              "p": 0.03289122,
+              "atlantis_avg": 3688,
+              "latam_median": 1000,
+              "ev_at": 121.3
+            },
+            {
+              "item_id": 905,
+              "name": "Stem",
+              "type": "Etc",
+              "p": 0.08587786,
+              "atlantis_avg": 1198,
+              "latam_median": 1190,
+              "ev_at": 102.88
+            },
+            {
+              "item_id": 719,
+              "name": "Amethyst",
+              "type": "Etc",
+              "p": 0.00171756,
+              "atlantis_avg": 31201,
+              "latam_median": 3500,
+              "ev_at": 53.59
+            },
+            {
+              "item_id": 912,
+              "name": "Zargon",
+              "type": "Etc",
+              "p": 0.20229008,
+              "atlantis_avg": 224,
+              "latam_median": 1790,
+              "ev_at": 45.31
+            },
+            {
+              "item_id": 911,
+              "name": "Scell",
+              "type": "Etc",
+              "p": 0.05152672,
+              "atlantis_avg": 277,
+              "latam_median": 2500,
+              "ev_at": 14.27
+            }
+          ],
+          "top_cards": [
+            {
+              "item_id": 4114,
+              "name": "Argiope Card",
+              "p": 0.00687023,
+              "atlantis_avg": 2979748,
+              "ev_at": 20471.55
+            },
+            {
+              "item_id": 4075,
+              "name": "Argos Card",
+              "p": 0.00171756,
+              "atlantis_avg": null,
+              "ev_at": null
+            },
+            {
+              "item_id": 4080,
+              "name": "Flora Card",
+              "p": 0.00171756,
+              "atlantis_avg": null,
+              "ev_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "08_izlude_dungeon",
+      "label": "Byalan / Izlude Dun",
+      "tier_target": "mid",
+      "loot_policy": "full",
+      "maps": [
+        "iz_dun01"
+      ],
+      "map_tiers": [
+        "mid"
+      ],
+      "map_avg_levels": [
+        42.09
+      ],
+      "offer_item_count": 22,
+      "ev_atlantis_per_kill_by_map": [
+        4677.09
+      ],
+      "ev_latam_per_kill_by_map": [
+        5227.5
+      ],
+      "ev_atlantis_all_by_map": [
+        17220.75
+      ],
+      "ev_atlantis_cards_by_map": [
+        12497.43
+      ],
+      "notes": "Dungeon acuático clásico.",
+      "maps_top_drops": [
+        {
+          "map": "iz_dun01",
+          "tier": "mid",
+          "avg_level": 42.09,
+          "avg_hp": 1088,
+          "combat_amount": 182,
+          "top_mobs": [
+            {
+              "aegis": "VADON",
+              "amount": 60,
+              "level": 45,
+              "hp": 1091
+            },
+            {
+              "aegis": "KUKRE",
+              "amount": 50,
+              "level": 42,
+              "hp": 962
+            },
+            {
+              "aegis": "HYDRA",
+              "amount": 30,
+              "level": 34,
+              "hp": 661
+            },
+            {
+              "aegis": "MARINA",
+              "amount": 15,
+              "level": 42,
+              "hp": 1010
+            },
+            {
+              "aegis": "CORNUTUS",
+              "amount": 15,
+              "level": 48,
+              "hp": 1229
+            }
+          ],
+          "top_offer": [
+            {
+              "item_id": 1052,
+              "name": "Single Cell",
+              "type": "Etc",
+              "p": 0.13736264,
+              "atlantis_avg": 16171,
+              "latam_median": 999,
+              "ev_at": 2221.29
+            },
+            {
+              "item_id": 623,
+              "name": "Earthworm the Dude",
+              "type": "Usable",
+              "p": 0.00274725,
+              "atlantis_avg": 317478,
+              "latam_median": 50000,
+              "ev_at": 872.19
+            },
+            {
+              "item_id": 943,
+              "name": "Solid Shell",
+              "type": "Etc",
+              "p": 0.03021978,
+              "atlantis_avg": 19779,
+              "latam_median": 1000,
+              "ev_at": 597.72
+            },
+            {
+              "item_id": 938,
+              "name": "Sticky Mucus",
+              "type": "Etc",
+              "p": 0.10233516,
+              "atlantis_avg": 5113,
+              "latam_median": 2000,
+              "ev_at": 523.24
+            },
+            {
+              "item_id": 960,
+              "name": "Nipper",
+              "type": "Etc",
+              "p": 0.34065934,
+              "atlantis_avg": 603,
+              "latam_median": 1999,
+              "ev_at": 205.42
+            },
+            {
+              "item_id": 962,
+              "name": "Tentacle",
+              "type": "Etc",
+              "p": 0.16483516,
+              "atlantis_avg": 566,
+              "latam_median": 650,
+              "ev_at": 93.3
+            },
+            {
+              "item_id": 955,
+              "name": "Worm Peeling",
+              "type": "Etc",
+              "p": 0.27472527,
+              "atlantis_avg": 251,
+              "latam_median": 4999,
+              "ev_at": 68.96
+            },
+            {
+              "item_id": 517,
+              "name": "Meat",
+              "type": "Healing",
+              "p": 0.05769231,
+              "atlantis_avg": 532,
+              "latam_median": 29000,
+              "ev_at": 30.69
+            }
+          ],
+          "top_cards": [
+            {
+              "item_id": 4049,
+              "name": "Vadon Card",
+              "p": 0.00384615,
+              "atlantis_avg": 1975345,
+              "ev_at": 7597.48
+            },
+            {
+              "item_id": 4035,
+              "name": "Hydra Card",
+              "p": 0.00164835,
+              "atlantis_avg": 1803083,
+              "ev_at": 2972.11
+            },
+            {
+              "item_id": 4055,
+              "name": "Marina Card",
+              "p": 0.00082418,
+              "atlantis_avg": 1944278,
+              "ev_at": 1602.43
+            },
+            {
+              "item_id": 4061,
+              "name": "Cornutus Card",
+              "p": 0.00082418,
+              "atlantis_avg": 394830,
+              "ev_at": 325.41
+            },
+            {
+              "item_id": 4027,
+              "name": "Kukre Card",
+              "p": 0.00274725,
+              "atlantis_avg": null,
+              "ev_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "09_comodo_gator",
+      "label": "Comodo Alligator",
+      "tier_target": "mid",
+      "loot_policy": "full",
+      "maps": [
+        "cmd_fild03"
+      ],
+      "map_tiers": [
+        "mid"
+      ],
+      "map_avg_levels": [
+        57.52
+      ],
+      "offer_item_count": 18,
+      "ev_atlantis_per_kill_by_map": [
+        2128.94
+      ],
+      "ev_latam_per_kill_by_map": [
+        879.89
+      ],
+      "ev_atlantis_all_by_map": [
+        4580.33
+      ],
+      "ev_atlantis_cards_by_map": [
+        1366.04
+      ],
+      "notes": "Alligator/Anolian skin zona; alto volumen Atlantis histórico.",
+      "maps_top_drops": [
+        {
+          "map": "cmd_fild03",
+          "tier": "mid",
+          "avg_level": 57.52,
+          "avg_hp": 3073,
+          "combat_amount": 267,
+          "top_mobs": [
+            {
+              "aegis": "ALLIGATOR",
+              "amount": 194,
+              "level": 57,
+              "hp": 1939
+            },
+            {
+              "aegis": "FLORA",
+              "amount": 64,
+              "level": 59,
+              "hp": 2065
+            },
+            {
+              "aegis": "MUTANT_DRAGON",
+              "amount": 5,
+              "level": 65,
+              "hp": 50706
+            },
+            {
+              "aegis": "C2_ALLIGATOR",
+              "amount": 3,
+              "level": 57,
+              "hp": 19390
+            },
+            {
+              "aegis": "TOAD",
+              "amount": 1,
+              "level": 27,
+              "hp": 660
+            }
+          ],
+          "top_offer": [
+            {
+              "item_id": 7003,
+              "name": "Anolian Skin",
+              "type": "Etc",
+              "p": 0.37453184,
+              "atlantis_avg": 3150,
+              "latam_median": null,
+              "ev_at": 1179.78
+            },
+            {
+              "item_id": 1032,
+              "name": "Maneater Blossom",
+              "type": "Etc",
+              "p": 0.23970037,
+              "atlantis_avg": 2123,
+              "latam_median": 399,
+              "ev_at": 508.88
+            },
+            {
+              "item_id": 905,
+              "name": "Stem",
+              "type": "Etc",
+              "p": 0.11985019,
+              "atlantis_avg": 1198,
+              "latam_median": 1190,
+              "ev_at": 143.58
+            },
+            {
+              "item_id": 756,
+              "name": "Rough Oridecon",
+              "type": "Etc",
+              "p": 0.02544007,
+              "atlantis_avg": 4006,
+              "latam_median": 8490,
+              "ev_at": 101.91
+            },
+            {
+              "item_id": 608,
+              "name": "Yggdrasil Seed",
+              "type": "Healing",
+              "p": 0.00078277,
+              "atlantis_avg": 81328,
+              "latam_median": 43000,
+              "ev_at": 63.66
+            },
+            {
+              "item_id": 7054,
+              "name": "Brigan",
+              "type": "Etc",
+              "p": 0.01872659,
+              "atlantis_avg": 2943,
+              "latam_median": 387,
+              "ev_at": 55.11
+            },
+            {
+              "item_id": 912,
+              "name": "Zargon",
+              "type": "Etc",
+              "p": 0.1928839,
+              "atlantis_avg": 224,
+              "latam_median": 1790,
+              "ev_at": 43.21
+            },
+            {
+              "item_id": 521,
+              "name": "Aloe Leaflet",
+              "type": "Healing",
+              "p": 0.00599251,
+              "atlantis_avg": 1497,
+              "latam_median": null,
+              "ev_at": 8.97
+            }
+          ],
+          "top_cards": [
+            {
+              "item_id": 4252,
+              "name": "Alligator Card",
+              "p": 0.00782772,
+              "atlantis_avg": 102261,
+              "ev_at": 800.47
+            },
+            {
+              "item_id": 4203,
+              "name": "Mutant Dragonoid Card",
+              "p": 0.00018727,
+              "atlantis_avg": 2939410,
+              "ev_at": 550.45
+            },
+            {
+              "item_id": 4306,
+              "name": "Toad Card",
+              "p": 3.745e-05,
+              "atlantis_avg": 403677,
+              "ev_at": 15.12
+            },
+            {
+              "item_id": 4080,
+              "name": "Flora Card",
+              "p": 0.002397,
+              "atlantis_avg": null,
+              "ev_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10_sewers_anolian",
+      "label": "Glast Heim Sewers (restringido)",
+      "tier_target": "expert",
+      "loot_policy": "restricted",
+      "maps": [
+        "gl_sew04"
+      ],
+      "map_tiers": [
+        "expert"
+      ],
+      "map_avg_levels": [
+        103.13
+      ],
+      "offer_item_count": 5,
+      "ev_atlantis_per_kill_by_map": [
+        3335.92
+      ],
+      "ev_latam_per_kill_by_map": [
+        775.29
+      ],
+      "ev_atlantis_all_by_map": [
+        23733.61
+      ],
+      "ev_atlantis_cards_by_map": [
+        2066.37
+      ],
+      "notes": "Hard/expert: solo mats/etc con mercado; sin equip raro ni cards como oferta masiva. Ejemplo de política restrictiva.",
+      "maps_top_drops": [
+        {
+          "map": "gl_sew04",
+          "tier": "expert",
+          "avg_level": 103.13,
+          "avg_hp": 15179,
+          "combat_amount": 165,
+          "top_mobs": [
+            {
+              "aegis": "ANOLIAN",
+              "amount": 126,
+              "level": 109,
+              "hp": 16615
+            },
+            {
+              "aegis": "GARGOYLE",
+              "amount": 25,
+              "level": 100,
+              "hp": 9233
+            },
+            {
+              "aegis": "DRAINLIAR",
+              "amount": 12,
+              "level": 47,
+              "hp": 1182
+            },
+            {
+              "aegis": "C4_ANOLIAN",
+              "amount": 2,
+              "level": 109,
+              "hp": 83075
+            }
+          ],
+          "top_offer": [
+            {
+              "item_id": 7003,
+              "name": "Anolian Skin",
+              "type": "Etc",
+              "p": 0.77575758,
+              "atlantis_avg": 3150,
+              "latam_median": null,
+              "ev_at": 2443.64
+            },
+            {
+              "item_id": 984,
+              "name": "Oridecon",
+              "type": "Etc",
+              "p": 0.02761212,
+              "atlantis_avg": 29813,
+              "latam_median": 18000,
+              "ev_at": 823.2
+            },
+            {
+              "item_id": 757,
+              "name": "Rough Elunium",
+              "type": "Etc",
+              "p": 0.00901515,
+              "atlantis_avg": 3688,
+              "latam_median": 1000,
+              "ev_at": 33.25
+            },
+            {
+              "item_id": 912,
+              "name": "Zargon",
+              "type": "Etc",
+              "p": 0.1469697,
+              "atlantis_avg": 224,
+              "latam_median": 1790,
+              "ev_at": 32.92
+            },
+            {
+              "item_id": 756,
+              "name": "Rough Oridecon",
+              "type": "Etc",
+              "p": 0.00072727,
+              "atlantis_avg": 4006,
+              "latam_median": 8490,
+              "ev_at": 2.91
+            }
+          ],
+          "top_cards": [
+            {
+              "item_id": 4234,
+              "name": "Anolian Card",
+              "p": 0.00824242,
+              "atlantis_avg": 250699,
+              "ev_at": 2066.37
+            },
+            {
+              "item_id": 4149,
+              "name": "Gargoyle Card",
+              "p": 0.00151515,
+              "atlantis_avg": null,
+              "ev_at": null
+            },
+            {
+              "item_id": 4069,
+              "name": "Drainliar Card",
+              "p": 0.00072727,
+              "atlantis_avg": null,
+              "ev_at": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

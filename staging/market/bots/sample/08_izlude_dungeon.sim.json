@@ -1,0 +1,1138 @@
+{
+  "id": "08_izlude_dungeon",
+  "label": "Byalan / Izlude Dun",
+  "tier_target": "mid",
+  "notes": "Dungeon acuático clásico.",
+  "maps": [
+    "iz_dun01"
+  ],
+  "map_profiles": [
+    {
+      "map": "iz_dun01",
+      "tier": "mid",
+      "avg_level": 42.09,
+      "max_level": 48,
+      "avg_hp": 1088,
+      "combat_amount": 182,
+      "hours_share": 1.0,
+      "kills": {
+        "t_kill_sec": 7.943,
+        "uptime": 1.0,
+        "kills_per_hour_combat": 453.2,
+        "dead_time_frac": 0.2,
+        "kills_per_hour": 362.6
+      },
+      "costs": {
+        "zeny_cost_per_hour": 4141.76,
+        "zeny_cost_per_kill": 11.4224
+      },
+      "kills_per_day": 1269.1,
+      "mobs": [
+        {
+          "aegis": "VADON",
+          "amount": 60,
+          "level": 45,
+          "hp": 1091,
+          "weight": 0.3297
+        },
+        {
+          "aegis": "KUKRE",
+          "amount": 50,
+          "level": 42,
+          "hp": 962,
+          "weight": 0.2747
+        },
+        {
+          "aegis": "HYDRA",
+          "amount": 30,
+          "level": 34,
+          "hp": 661,
+          "weight": 0.1648
+        },
+        {
+          "aegis": "MARINA",
+          "amount": 15,
+          "level": 42,
+          "hp": 1010,
+          "weight": 0.0824
+        },
+        {
+          "aegis": "CORNUTUS",
+          "amount": 15,
+          "level": 48,
+          "hp": 1229,
+          "weight": 0.0824
+        },
+        {
+          "aegis": "PLANKTON",
+          "amount": 10,
+          "level": 40,
+          "hp": 933,
+          "weight": 0.0549
+        },
+        {
+          "aegis": "C2_VADON",
+          "amount": 2,
+          "level": 45,
+          "hp": 10910,
+          "weight": 0.011
+        }
+      ],
+      "drop_types_count": 32,
+      "ev_mats_offer_per_kill": 759.59,
+      "ev_mats_offer_per_day": 963993.78,
+      "offer": {
+        "mats_for_sale": [
+          {
+            "item_id": 517,
+            "aegis": "Meat",
+            "name": "Meat",
+            "type": "Healing",
+            "p_per_map_kill": 0.00576923,
+            "latam_price": 29000,
+            "latam_total_sold": 1056,
+            "has_offers": true,
+            "qty_per_day": 7.3217,
+            "score": 427868.77
+          },
+          {
+            "item_id": 955,
+            "aegis": "Worm_Peelings",
+            "name": "Worm Peeling",
+            "type": "Etc",
+            "p_per_map_kill": 0.07554945,
+            "latam_price": 4999,
+            "latam_total_sold": 364,
+            "has_offers": true,
+            "qty_per_day": 95.8798,
+            "score": 134888.07
+          },
+          {
+            "item_id": 991,
+            "aegis": "Crystal_Blue",
+            "name": "Crystal Blue",
+            "type": "Etc",
+            "p_per_map_kill": 0.00156044,
+            "latam_price": 8746,
+            "latam_total_sold": 21433,
+            "has_offers": true,
+            "qty_per_day": 1.9804,
+            "score": 95249.59
+          },
+          {
+            "item_id": 910,
+            "aegis": "Garlet",
+            "name": "Garlet",
+            "type": "Etc",
+            "p_per_map_kill": 0.06401099,
+            "latam_price": 2500,
+            "latam_total_sold": 828,
+            "has_offers": true,
+            "qty_per_day": 81.2363,
+            "score": 74083.66
+          },
+          {
+            "item_id": 938,
+            "aegis": "Sticky_Mucus",
+            "name": "Sticky Mucus",
+            "type": "Etc",
+            "p_per_map_kill": 0.02046703,
+            "latam_price": 2000,
+            "latam_total_sold": 15416,
+            "has_offers": true,
+            "qty_per_day": 25.9747,
+            "score": 63546.92
+          }
+        ],
+        "mats_discarded_count": 10,
+        "mats_discarded_top10": [
+          {
+            "item_id": 960,
+            "name": "Nipper",
+            "price": 1999,
+            "qty_per_day": 202.2192,
+            "score": 46551.39
+          },
+          {
+            "item_id": 911,
+            "name": "Scell",
+            "price": 2500,
+            "qty_per_day": 4.1838,
+            "score": 32354.75
+          },
+          {
+            "item_id": 962,
+            "name": "Tentacle",
+            "price": 650,
+            "qty_per_day": 57.5279,
+            "score": 17711.57
+          },
+          {
+            "item_id": 943,
+            "name": "Solid Shell",
+            "price": 1000,
+            "qty_per_day": 7.6704,
+            "score": 13640.63
+          },
+          {
+            "item_id": 757,
+            "name": "Rough Elunium",
+            "price": 1000,
+            "qty_per_day": 1.2586,
+            "score": 5756.81
+          },
+          {
+            "item_id": 1011,
+            "name": "Emveretarcon",
+            "price": 4852,
+            "qty_per_day": 0.272,
+            "score": 5069.98
+          },
+          {
+            "item_id": 525,
+            "name": "Panacea",
+            "price": 5000,
+            "qty_per_day": 0.0628,
+            "score": 2568.2
+          },
+          {
+            "item_id": 645,
+            "name": "Concentration Potion",
+            "price": 1050,
+            "qty_per_day": 0.1743,
+            "score": 1415.47
+          },
+          {
+            "item_id": 971,
+            "name": "Detrimindexta",
+            "price": 1000,
+            "qty_per_day": 0.2092,
+            "score": 1221.99
+          },
+          {
+            "item_id": 970,
+            "name": "Alcohol",
+            "price": 664,
+            "qty_per_day": 0.0139,
+            "score": 73.2
+          }
+        ],
+        "cards": [
+          {
+            "item_id": 4049,
+            "aegis": "Vadon_Card",
+            "name": "Vadon Card",
+            "type": "Card",
+            "p_per_map_kill": 3.846e-05,
+            "latam_price": 1999999,
+            "latam_total_sold": 29,
+            "has_offers": true,
+            "drop_per_day": 0.0488,
+            "sellable_per_day": 0.0244,
+            "ev_latam_per_day_if_sold": 48809.56
+          },
+          {
+            "item_id": 4035,
+            "aegis": "Hydra_Card",
+            "name": "Hydra Card",
+            "type": "Card",
+            "p_per_map_kill": 1.648e-05,
+            "latam_price": 1399999,
+            "latam_total_sold": 50,
+            "has_offers": true,
+            "drop_per_day": 0.0209,
+            "sellable_per_day": 0.0105,
+            "ev_latam_per_day_if_sold": 14640.33
+          },
+          {
+            "item_id": 4055,
+            "aegis": "Marina_Card",
+            "name": "Marina Card",
+            "type": "Card",
+            "p_per_map_kill": 8.24e-06,
+            "latam_price": 2400000,
+            "latam_total_sold": 2,
+            "has_offers": true,
+            "drop_per_day": 0.0105,
+            "sellable_per_day": 0.0052,
+            "ev_latam_per_day_if_sold": 12548.86
+          },
+          {
+            "item_id": 4061,
+            "aegis": "Cornutus_Card",
+            "name": "Cornutus Card",
+            "type": "Card",
+            "p_per_map_kill": 8.24e-06,
+            "latam_price": 800000,
+            "latam_total_sold": 3,
+            "has_offers": true,
+            "drop_per_day": 0.0105,
+            "sellable_per_day": 0.0052,
+            "ev_latam_per_day_if_sold": 4182.95
+          }
+        ],
+        "cards_junk_discarded": [],
+        "card_min_price": 0,
+        "card_policy": {
+          "sell_fraction": 0.5,
+          "shop_slots": 1,
+          "min_price": 0,
+          "note": "acumula sellable; shop máx 1 carta; junk bajo min_price descartado"
+        }
+      },
+      "projection": {
+        "1": {
+          "days": 1,
+          "kills": 1269.1,
+          "hours": 3.5,
+          "mats_stock": [
+            {
+              "item_id": 517,
+              "name": "Meat",
+              "qty": 7.32,
+              "price": 29000,
+              "stock_value": 212330.16
+            },
+            {
+              "item_id": 955,
+              "name": "Worm Peeling",
+              "qty": 95.88,
+              "price": 4999,
+              "stock_value": 479303.16
+            },
+            {
+              "item_id": 991,
+              "name": "Crystal Blue",
+              "qty": 1.98,
+              "price": 8746,
+              "stock_value": 17320.18
+            },
+            {
+              "item_id": 910,
+              "name": "Garlet",
+              "qty": 81.24,
+              "price": 2500,
+              "stock_value": 203090.87
+            },
+            {
+              "item_id": 938,
+              "name": "Sticky Mucus",
+              "qty": 25.97,
+              "price": 2000,
+              "stock_value": 51949.42
+            }
+          ],
+          "mats_stock_value_latam": 963993.78,
+          "cards": [
+            {
+              "item_id": 4049,
+              "name": "Vadon Card",
+              "dropped": 0.049,
+              "sellable": 0.024,
+              "shop_listed_cap": 1,
+              "expected_listed": 0.024,
+              "price": 1999999,
+              "pipeline_value": 48809.56
+            },
+            {
+              "item_id": 4035,
+              "name": "Hydra Card",
+              "dropped": 0.021,
+              "sellable": 0.01,
+              "shop_listed_cap": 1,
+              "expected_listed": 0.01,
+              "price": 1399999,
+              "pipeline_value": 14640.33
+            },
+            {
+              "item_id": 4055,
+              "name": "Marina Card",
+              "dropped": 0.01,
+              "sellable": 0.005,
+              "shop_listed_cap": 1,
+              "expected_listed": 0.005,
+              "price": 2400000,
+              "pipeline_value": 12548.86
+            },
+            {
+              "item_id": 4061,
+              "name": "Cornutus Card",
+              "dropped": 0.01,
+              "sellable": 0.005,
+              "shop_listed_cap": 1,
+              "expected_listed": 0.005,
+              "price": 800000,
+              "pipeline_value": 4182.95
+            }
+          ],
+          "cards_sellable_total": 0.044,
+          "cards_pipeline_value": 80181.7,
+          "lot_expected_value": 1044175.49,
+          "zeny_spent": 14496.16,
+          "net_if_sold_at_latam": 1029679.33,
+          "gates": {
+            "pause_grind_until_sold_z": 417670.19,
+            "keep_shop_until_sold_z": 626505.29,
+            "pause_frac": 0.4,
+            "shop_keep_frac": 0.6
+          }
+        },
+        "3": {
+          "days": 3,
+          "kills": 3807.3,
+          "hours": 10.5,
+          "mats_stock": [
+            {
+              "item_id": 517,
+              "name": "Meat",
+              "qty": 21.97,
+              "price": 29000,
+              "stock_value": 636990.49
+            },
+            {
+              "item_id": 955,
+              "name": "Worm Peeling",
+              "qty": 287.64,
+              "price": 4999,
+              "stock_value": 1437909.47
+            },
+            {
+              "item_id": 991,
+              "name": "Crystal Blue",
+              "qty": 5.94,
+              "price": 8746,
+              "stock_value": 51960.54
+            },
+            {
+              "item_id": 910,
+              "name": "Garlet",
+              "qty": 243.71,
+              "price": 2500,
+              "stock_value": 609272.61
+            },
+            {
+              "item_id": 938,
+              "name": "Sticky Mucus",
+              "qty": 77.92,
+              "price": 2000,
+              "stock_value": 155848.25
+            }
+          ],
+          "mats_stock_value_latam": 2891981.35,
+          "cards": [
+            {
+              "item_id": 4049,
+              "name": "Vadon Card",
+              "dropped": 0.146,
+              "sellable": 0.073,
+              "shop_listed_cap": 1,
+              "expected_listed": 0.073,
+              "price": 1999999,
+              "pipeline_value": 146428.68
+            },
+            {
+              "item_id": 4035,
+              "name": "Hydra Card",
+              "dropped": 0.063,
+              "sellable": 0.031,
+              "shop_listed_cap": 1,
+              "expected_listed": 0.031,
+              "price": 1399999,
+              "pipeline_value": 43920.98
+            },
+            {
+              "item_id": 4055,
+              "name": "Marina Card",
+              "dropped": 0.031,
+              "sellable": 0.016,
+              "shop_listed_cap": 1,
+              "expected_listed": 0.016,
+              "price": 2400000,
+              "pipeline_value": 37646.58
+            },
+            {
+              "item_id": 4061,
+              "name": "Cornutus Card",
+              "dropped": 0.031,
+              "sellable": 0.016,
+              "shop_listed_cap": 1,
+              "expected_listed": 0.016,
+              "price": 800000,
+              "pipeline_value": 12548.86
+            }
+          ],
+          "cards_sellable_total": 0.136,
+          "cards_pipeline_value": 240545.11,
+          "lot_expected_value": 3132526.46,
+          "zeny_spent": 43488.48,
+          "net_if_sold_at_latam": 3089037.98,
+          "gates": {
+            "pause_grind_until_sold_z": 1253010.58,
+            "keep_shop_until_sold_z": 1879515.87,
+            "pause_frac": 0.4,
+            "shop_keep_frac": 0.6
+          }
+        },
+        "7": {
+          "days": 7,
+          "kills": 8883.7,
+          "hours": 24.5,
+          "mats_stock": [
+            {
+              "item_id": 517,
+              "name": "Meat",
+              "qty": 51.25,
+              "price": 29000,
+              "stock_value": 1486311.15
+            },
+            {
+              "item_id": 955,
+              "name": "Worm Peeling",
+              "qty": 671.16,
+              "price": 4999,
+              "stock_value": 3355122.09
+            },
+            {
+              "item_id": 991,
+              "name": "Crystal Blue",
+              "qty": 13.86,
+              "price": 8746,
+              "stock_value": 121241.26
+            },
+            {
+              "item_id": 910,
+              "name": "Garlet",
+              "qty": 568.65,
+              "price": 2500,
+              "stock_value": 1421636.08
+            },
+            {
+              "item_id": 938,
+              "name": "Sticky Mucus",
+              "qty": 181.82,
+              "price": 2000,
+              "stock_value": 363645.91
+            }
+          ],
+          "mats_stock_value_latam": 6747956.48,
+          "cards": [
+            {
+              "item_id": 4049,
+              "name": "Vadon Card",
+              "dropped": 0.342,
+              "sellable": 0.171,
+              "shop_listed_cap": 1,
+              "expected_listed": 0.171,
+              "price": 1999999,
+              "pipeline_value": 341666.93
+            },
+            {
+              "item_id": 4035,
+              "name": "Hydra Card",
+              "dropped": 0.146,
+              "sellable": 0.073,
+              "shop_listed_cap": 1,
+              "expected_listed": 0.073,
+              "price": 1399999,
+              "pipeline_value": 102482.29
+            },
+            {
+              "item_id": 4055,
+              "name": "Marina Card",
+              "dropped": 0.073,
+              "sellable": 0.037,
+              "shop_listed_cap": 1,
+              "expected_listed": 0.037,
+              "price": 2400000,
+              "pipeline_value": 87842.03
+            },
+            {
+              "item_id": 4061,
+              "name": "Cornutus Card",
+              "dropped": 0.073,
+              "sellable": 0.037,
+              "shop_listed_cap": 1,
+              "expected_listed": 0.037,
+              "price": 800000,
+              "pipeline_value": 29280.68
+            }
+          ],
+          "cards_sellable_total": 0.318,
+          "cards_pipeline_value": 561271.92,
+          "lot_expected_value": 7309228.4,
+          "zeny_spent": 101473.12,
+          "net_if_sold_at_latam": 7207755.28,
+          "gates": {
+            "pause_grind_until_sold_z": 2923691.36,
+            "keep_shop_until_sold_z": 4385537.04,
+            "pause_frac": 0.4,
+            "shop_keep_frac": 0.6
+          }
+        },
+        "10": {
+          "days": 10,
+          "kills": 12691.0,
+          "hours": 35.0,
+          "mats_stock": [
+            {
+              "item_id": 517,
+              "name": "Meat",
+              "qty": 73.22,
+              "price": 29000,
+              "stock_value": 2123301.64
+            },
+            {
+              "item_id": 955,
+              "name": "Worm Peeling",
+              "qty": 958.8,
+              "price": 4999,
+              "stock_value": 4793031.55
+            },
+            {
+              "item_id": 991,
+              "name": "Crystal Blue",
+              "qty": 19.8,
+              "price": 8746,
+              "stock_value": 173201.8
+            },
+            {
+              "item_id": 910,
+              "name": "Garlet",
+              "qty": 812.36,
+              "price": 2500,
+              "stock_value": 2030908.69
+            },
+            {
+              "item_id": 938,
+              "name": "Sticky Mucus",
+              "qty": 259.75,
+              "price": 2000,
+              "stock_value": 519494.16
+            }
+          ],
+          "mats_stock_value_latam": 9639937.83,
+          "cards": [
+            {
+              "item_id": 4049,
+              "name": "Vadon Card",
+              "dropped": 0.488,
+              "sellable": 0.244,
+              "shop_listed_cap": 1,
+              "expected_listed": 0.244,
+              "price": 1999999,
+              "pipeline_value": 488095.62
+            },
+            {
+              "item_id": 4035,
+              "name": "Hydra Card",
+              "dropped": 0.209,
+              "sellable": 0.105,
+              "shop_listed_cap": 1,
+              "expected_listed": 0.105,
+              "price": 1399999,
+              "pipeline_value": 146403.27
+            },
+            {
+              "item_id": 4055,
+              "name": "Marina Card",
+              "dropped": 0.105,
+              "sellable": 0.052,
+              "shop_listed_cap": 1,
+              "expected_listed": 0.052,
+              "price": 2400000,
+              "pipeline_value": 125488.61
+            },
+            {
+              "item_id": 4061,
+              "name": "Cornutus Card",
+              "dropped": 0.105,
+              "sellable": 0.052,
+              "shop_listed_cap": 1,
+              "expected_listed": 0.052,
+              "price": 800000,
+              "pipeline_value": 41829.54
+            }
+          ],
+          "cards_sellable_total": 0.453,
+          "cards_pipeline_value": 801817.03,
+          "lot_expected_value": 10441754.86,
+          "zeny_spent": 144961.6,
+          "net_if_sold_at_latam": 10296793.26,
+          "gates": {
+            "pause_grind_until_sold_z": 4176701.94,
+            "keep_shop_until_sold_z": 6265052.92,
+            "pause_frac": 0.4,
+            "shop_keep_frac": 0.6
+          }
+        }
+      }
+    }
+  ],
+  "projection_merged": {
+    "1": {
+      "days": 1,
+      "kills": 1269.1,
+      "mats_stock": [
+        {
+          "item_id": 955,
+          "name": "Worm Peeling",
+          "qty": 95.88,
+          "price": 4999,
+          "stock_value": 479303.16
+        },
+        {
+          "item_id": 517,
+          "name": "Meat",
+          "qty": 7.32,
+          "price": 29000,
+          "stock_value": 212330.16
+        },
+        {
+          "item_id": 910,
+          "name": "Garlet",
+          "qty": 81.24,
+          "price": 2500,
+          "stock_value": 203090.87
+        },
+        {
+          "item_id": 938,
+          "name": "Sticky Mucus",
+          "qty": 25.97,
+          "price": 2000,
+          "stock_value": 51949.42
+        },
+        {
+          "item_id": 991,
+          "name": "Crystal Blue",
+          "qty": 1.98,
+          "price": 8746,
+          "stock_value": 17320.18
+        }
+      ],
+      "mats_stock_value_latam": 963993.78,
+      "cards": [
+        {
+          "item_id": 4049,
+          "name": "Vadon Card",
+          "dropped": 0.049,
+          "sellable": 0.024,
+          "shop_listed_cap": 1,
+          "expected_listed": 0.024,
+          "price": 1999999,
+          "pipeline_value": 48809.56
+        },
+        {
+          "item_id": 4035,
+          "name": "Hydra Card",
+          "dropped": 0.021,
+          "sellable": 0.01,
+          "shop_listed_cap": 1,
+          "expected_listed": 0.01,
+          "price": 1399999,
+          "pipeline_value": 14640.33
+        },
+        {
+          "item_id": 4055,
+          "name": "Marina Card",
+          "dropped": 0.01,
+          "sellable": 0.005,
+          "shop_listed_cap": 1,
+          "expected_listed": 0.005,
+          "price": 2400000,
+          "pipeline_value": 12548.86
+        },
+        {
+          "item_id": 4061,
+          "name": "Cornutus Card",
+          "dropped": 0.01,
+          "sellable": 0.005,
+          "shop_listed_cap": 1,
+          "expected_listed": 0.005,
+          "price": 800000,
+          "pipeline_value": 4182.95
+        }
+      ],
+      "cards_sellable_total": 0.044,
+      "cards_pipeline_value": 80181.7,
+      "lot_expected_value": 1044175.48,
+      "zeny_spent": 14496.16,
+      "net_if_sold_at_latam": 1029679.32,
+      "gates": {
+        "pause_grind_until_sold_z": 417670.19,
+        "keep_shop_until_sold_z": 626505.29
+      }
+    },
+    "3": {
+      "days": 3,
+      "kills": 3807.3,
+      "mats_stock": [
+        {
+          "item_id": 955,
+          "name": "Worm Peeling",
+          "qty": 287.64,
+          "price": 4999,
+          "stock_value": 1437909.47
+        },
+        {
+          "item_id": 517,
+          "name": "Meat",
+          "qty": 21.97,
+          "price": 29000,
+          "stock_value": 636990.49
+        },
+        {
+          "item_id": 910,
+          "name": "Garlet",
+          "qty": 243.71,
+          "price": 2500,
+          "stock_value": 609272.61
+        },
+        {
+          "item_id": 938,
+          "name": "Sticky Mucus",
+          "qty": 77.92,
+          "price": 2000,
+          "stock_value": 155848.25
+        },
+        {
+          "item_id": 991,
+          "name": "Crystal Blue",
+          "qty": 5.94,
+          "price": 8746,
+          "stock_value": 51960.54
+        }
+      ],
+      "mats_stock_value_latam": 2891981.35,
+      "cards": [
+        {
+          "item_id": 4049,
+          "name": "Vadon Card",
+          "dropped": 0.146,
+          "sellable": 0.073,
+          "shop_listed_cap": 1,
+          "expected_listed": 0.073,
+          "price": 1999999,
+          "pipeline_value": 146428.68
+        },
+        {
+          "item_id": 4035,
+          "name": "Hydra Card",
+          "dropped": 0.063,
+          "sellable": 0.031,
+          "shop_listed_cap": 1,
+          "expected_listed": 0.031,
+          "price": 1399999,
+          "pipeline_value": 43920.98
+        },
+        {
+          "item_id": 4055,
+          "name": "Marina Card",
+          "dropped": 0.031,
+          "sellable": 0.016,
+          "shop_listed_cap": 1,
+          "expected_listed": 0.016,
+          "price": 2400000,
+          "pipeline_value": 37646.58
+        },
+        {
+          "item_id": 4061,
+          "name": "Cornutus Card",
+          "dropped": 0.031,
+          "sellable": 0.016,
+          "shop_listed_cap": 1,
+          "expected_listed": 0.016,
+          "price": 800000,
+          "pipeline_value": 12548.86
+        }
+      ],
+      "cards_sellable_total": 0.136,
+      "cards_pipeline_value": 240545.11,
+      "lot_expected_value": 3132526.46,
+      "zeny_spent": 43488.48,
+      "net_if_sold_at_latam": 3089037.98,
+      "gates": {
+        "pause_grind_until_sold_z": 1253010.58,
+        "keep_shop_until_sold_z": 1879515.88
+      }
+    },
+    "7": {
+      "days": 7,
+      "kills": 8883.7,
+      "mats_stock": [
+        {
+          "item_id": 955,
+          "name": "Worm Peeling",
+          "qty": 671.16,
+          "price": 4999,
+          "stock_value": 3355122.09
+        },
+        {
+          "item_id": 517,
+          "name": "Meat",
+          "qty": 51.25,
+          "price": 29000,
+          "stock_value": 1486311.15
+        },
+        {
+          "item_id": 910,
+          "name": "Garlet",
+          "qty": 568.65,
+          "price": 2500,
+          "stock_value": 1421636.08
+        },
+        {
+          "item_id": 938,
+          "name": "Sticky Mucus",
+          "qty": 181.82,
+          "price": 2000,
+          "stock_value": 363645.91
+        },
+        {
+          "item_id": 991,
+          "name": "Crystal Blue",
+          "qty": 13.86,
+          "price": 8746,
+          "stock_value": 121241.26
+        }
+      ],
+      "mats_stock_value_latam": 6747956.48,
+      "cards": [
+        {
+          "item_id": 4049,
+          "name": "Vadon Card",
+          "dropped": 0.342,
+          "sellable": 0.171,
+          "shop_listed_cap": 1,
+          "expected_listed": 0.171,
+          "price": 1999999,
+          "pipeline_value": 341666.93
+        },
+        {
+          "item_id": 4035,
+          "name": "Hydra Card",
+          "dropped": 0.146,
+          "sellable": 0.073,
+          "shop_listed_cap": 1,
+          "expected_listed": 0.073,
+          "price": 1399999,
+          "pipeline_value": 102482.29
+        },
+        {
+          "item_id": 4055,
+          "name": "Marina Card",
+          "dropped": 0.073,
+          "sellable": 0.037,
+          "shop_listed_cap": 1,
+          "expected_listed": 0.037,
+          "price": 2400000,
+          "pipeline_value": 87842.03
+        },
+        {
+          "item_id": 4061,
+          "name": "Cornutus Card",
+          "dropped": 0.073,
+          "sellable": 0.037,
+          "shop_listed_cap": 1,
+          "expected_listed": 0.037,
+          "price": 800000,
+          "pipeline_value": 29280.68
+        }
+      ],
+      "cards_sellable_total": 0.318,
+      "cards_pipeline_value": 561271.92,
+      "lot_expected_value": 7309228.4,
+      "zeny_spent": 101473.12,
+      "net_if_sold_at_latam": 7207755.28,
+      "gates": {
+        "pause_grind_until_sold_z": 2923691.36,
+        "keep_shop_until_sold_z": 4385537.04
+      }
+    },
+    "10": {
+      "days": 10,
+      "kills": 12691.0,
+      "mats_stock": [
+        {
+          "item_id": 955,
+          "name": "Worm Peeling",
+          "qty": 958.8,
+          "price": 4999,
+          "stock_value": 4793031.55
+        },
+        {
+          "item_id": 517,
+          "name": "Meat",
+          "qty": 73.22,
+          "price": 29000,
+          "stock_value": 2123301.64
+        },
+        {
+          "item_id": 910,
+          "name": "Garlet",
+          "qty": 812.36,
+          "price": 2500,
+          "stock_value": 2030908.69
+        },
+        {
+          "item_id": 938,
+          "name": "Sticky Mucus",
+          "qty": 259.75,
+          "price": 2000,
+          "stock_value": 519494.16
+        },
+        {
+          "item_id": 991,
+          "name": "Crystal Blue",
+          "qty": 19.8,
+          "price": 8746,
+          "stock_value": 173201.8
+        }
+      ],
+      "mats_stock_value_latam": 9639937.83,
+      "cards": [
+        {
+          "item_id": 4049,
+          "name": "Vadon Card",
+          "dropped": 0.488,
+          "sellable": 0.244,
+          "shop_listed_cap": 1,
+          "expected_listed": 0.244,
+          "price": 1999999,
+          "pipeline_value": 488095.62
+        },
+        {
+          "item_id": 4035,
+          "name": "Hydra Card",
+          "dropped": 0.209,
+          "sellable": 0.105,
+          "shop_listed_cap": 1,
+          "expected_listed": 0.105,
+          "price": 1399999,
+          "pipeline_value": 146403.27
+        },
+        {
+          "item_id": 4055,
+          "name": "Marina Card",
+          "dropped": 0.105,
+          "sellable": 0.052,
+          "shop_listed_cap": 1,
+          "expected_listed": 0.052,
+          "price": 2400000,
+          "pipeline_value": 125488.61
+        },
+        {
+          "item_id": 4061,
+          "name": "Cornutus Card",
+          "dropped": 0.105,
+          "sellable": 0.052,
+          "shop_listed_cap": 1,
+          "expected_listed": 0.052,
+          "price": 800000,
+          "pipeline_value": 41829.54
+        }
+      ],
+      "cards_sellable_total": 0.453,
+      "cards_pipeline_value": 801817.03,
+      "lot_expected_value": 10441754.86,
+      "zeny_spent": 144961.6,
+      "net_if_sold_at_latam": 10296793.26,
+      "gates": {
+        "pause_grind_until_sold_z": 4176701.94,
+        "keep_shop_until_sold_z": 6265052.92
+      }
+    }
+  },
+  "day10": {
+    "days": 10,
+    "kills": 12691.0,
+    "mats_stock": [
+      {
+        "item_id": 955,
+        "name": "Worm Peeling",
+        "qty": 958.8,
+        "price": 4999,
+        "stock_value": 4793031.55
+      },
+      {
+        "item_id": 517,
+        "name": "Meat",
+        "qty": 73.22,
+        "price": 29000,
+        "stock_value": 2123301.64
+      },
+      {
+        "item_id": 910,
+        "name": "Garlet",
+        "qty": 812.36,
+        "price": 2500,
+        "stock_value": 2030908.69
+      },
+      {
+        "item_id": 938,
+        "name": "Sticky Mucus",
+        "qty": 259.75,
+        "price": 2000,
+        "stock_value": 519494.16
+      },
+      {
+        "item_id": 991,
+        "name": "Crystal Blue",
+        "qty": 19.8,
+        "price": 8746,
+        "stock_value": 173201.8
+      }
+    ],
+    "mats_stock_value_latam": 9639937.83,
+    "cards": [
+      {
+        "item_id": 4049,
+        "name": "Vadon Card",
+        "dropped": 0.488,
+        "sellable": 0.244,
+        "shop_listed_cap": 1,
+        "expected_listed": 0.244,
+        "price": 1999999,
+        "pipeline_value": 488095.62
+      },
+      {
+        "item_id": 4035,
+        "name": "Hydra Card",
+        "dropped": 0.209,
+        "sellable": 0.105,
+        "shop_listed_cap": 1,
+        "expected_listed": 0.105,
+        "price": 1399999,
+        "pipeline_value": 146403.27
+      },
+      {
+        "item_id": 4055,
+        "name": "Marina Card",
+        "dropped": 0.105,
+        "sellable": 0.052,
+        "shop_listed_cap": 1,
+        "expected_listed": 0.052,
+        "price": 2400000,
+        "pipeline_value": 125488.61
+      },
+      {
+        "item_id": 4061,
+        "name": "Cornutus Card",
+        "dropped": 0.105,
+        "sellable": 0.052,
+        "shop_listed_cap": 1,
+        "expected_listed": 0.052,
+        "price": 800000,
+        "pipeline_value": 41829.54
+      }
+    ],
+    "cards_sellable_total": 0.453,
+    "cards_pipeline_value": 801817.03,
+    "lot_expected_value": 10441754.86,
+    "zeny_spent": 144961.6,
+    "net_if_sold_at_latam": 10296793.26,
+    "gates": {
+      "pause_grind_until_sold_z": 4176701.94,
+      "keep_shop_until_sold_z": 6265052.92
+    }
+  }
+}

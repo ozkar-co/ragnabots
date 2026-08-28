@@ -33,6 +33,7 @@ Decisiones **intencionalmente aplazadas** hasta tener datos reales. Actualizar e
 | # | Pregunta | Contexto |
 |---|----------|----------|
 | 12 | ¿Resolución temporal del sandbox (1h, 1d)? | Decidir en M2 |
+| 18 | ¿Activity-gate por jugadores online? | Ver [08](08-activity-gated-bots.md) |
 | 13 | ¿Provider de IA para auditoría? | OpenAI, local, o solo métricas — M3 |
 | 14 | ¿Umbral de "economía sana" antes de ir a producción? | Definir tras primeras simulaciones |
 
@@ -60,6 +61,16 @@ Decisiones **intencionalmente aplazadas** hasta tener datos reales. Actualizar e
 **Respuesta:** Dump pendiente hasta tener tienda autotrade en OzRo.
 **Fecha:** 2026-08-27
 **Etapa:** M1
+
+### #12 — Resolución temporal
+**Respuesta:** Batch **1×/día**. Pregen por hora; runtime acredita 3~4h si hubo ≥1 login real ese día. Percepción = solo tiendas. Ver [08](08-activity-gated-bots.md).
+**Fecha:** 2026-08-28
+**Etapa:** diseño M2
+
+### #18 — Activity-gate
+**Respuesta:** Aceptado simplificado: `COUNT` logins del día (no poll). Tiers altos tras X días activos. Compras a jugadores = job nocturno, zeny acotado + rango LATAM/NPC.
+**Fecha:** 2026-08-28
+**Etapa:** diseño M2
 
 <!-- Formato para respuestas:
 ### #N — Título

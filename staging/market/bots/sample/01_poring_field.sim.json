@@ -1,0 +1,822 @@
+{
+  "id": "01_poring_field",
+  "label": "Campo Prontera (newbie)",
+  "tier_target": "novice",
+  "notes": "Loot denso clásico; referencia de volumen bajo valor.",
+  "maps": [
+    "prt_fild08"
+  ],
+  "map_profiles": [
+    {
+      "map": "prt_fild08",
+      "tier": "novice",
+      "avg_level": 3.08,
+      "max_level": 6,
+      "avg_hp": 55,
+      "combat_amount": 616,
+      "hours_share": 1.0,
+      "kills": {
+        "t_kill_sec": 2.775,
+        "uptime": 1.0,
+        "kills_per_hour_combat": 1200.0,
+        "dead_time_frac": 0.2,
+        "kills_per_hour": 960.0
+      },
+      "costs": {
+        "zeny_cost_per_hour": 2488.04,
+        "zeny_cost_per_kill": 2.5917
+      },
+      "kills_per_day": 3360.0,
+      "mobs": [
+        {
+          "aegis": "PORING",
+          "amount": 197,
+          "level": 1,
+          "hp": 55,
+          "weight": 0.3198
+        },
+        {
+          "aegis": "FABRE",
+          "amount": 177,
+          "level": 6,
+          "hp": 59,
+          "weight": 0.2873
+        },
+        {
+          "aegis": "LUNATIC",
+          "amount": 167,
+          "level": 3,
+          "hp": 48,
+          "weight": 0.2711
+        },
+        {
+          "aegis": "LITTLE_PORING",
+          "amount": 50,
+          "level": 1,
+          "hp": 40,
+          "weight": 0.0812
+        },
+        {
+          "aegis": "PUPA",
+          "amount": 20,
+          "level": 4,
+          "hp": 51,
+          "weight": 0.0325
+        },
+        {
+          "aegis": "C2_LUNATIC",
+          "amount": 1,
+          "level": 3,
+          "hp": 480,
+          "weight": 0.0016
+        },
+        {
+          "aegis": "C3_PORING",
+          "amount": 1,
+          "level": 1,
+          "hp": 275,
+          "weight": 0.0016
+        },
+        {
+          "aegis": "C4_PORING",
+          "amount": 1,
+          "level": 1,
+          "hp": 275,
+          "weight": 0.0016
+        }
+      ],
+      "drop_types_count": 27,
+      "ev_mats_offer_per_kill": 2256.79,
+      "ev_mats_offer_per_day": 7582812.31,
+      "offer": {
+        "mats_for_sale": [
+          {
+            "item_id": 1010,
+            "aegis": "Phracon",
+            "name": "Phracon",
+            "type": "Etc",
+            "p_per_map_kill": 0.00194805,
+            "latam_price": 45666,
+            "latam_total_sold": 1111,
+            "has_offers": true,
+            "qty_per_day": 6.5454,
+            "score": 647303.39
+          },
+          {
+            "item_id": 949,
+            "aegis": "Feather",
+            "name": "Feather",
+            "type": "Etc",
+            "p_per_map_kill": 0.11168831,
+            "latam_price": 10000,
+            "latam_total_sold": 5876,
+            "has_offers": true,
+            "qty_per_day": 375.2727,
+            "score": 514680.21
+          },
+          {
+            "item_id": 1002,
+            "aegis": "Iron_Ore",
+            "name": "Iron Ore",
+            "type": "Etc",
+            "p_per_map_kill": 0.00162338,
+            "latam_price": 11000,
+            "latam_total_sold": 3451,
+            "has_offers": true,
+            "qty_per_day": 5.4546,
+            "score": 167110.59
+          },
+          {
+            "item_id": 909,
+            "aegis": "Jellopy",
+            "name": "Jellopy",
+            "type": "Etc",
+            "p_per_map_kill": 0.30340909,
+            "latam_price": 2099,
+            "latam_total_sold": 36936,
+            "has_offers": true,
+            "qty_per_day": 1019.4545,
+            "score": 152936.49
+          },
+          {
+            "item_id": 705,
+            "aegis": "Clover",
+            "name": "Clover",
+            "type": "Etc",
+            "p_per_map_kill": 0.22012987,
+            "latam_price": 1800,
+            "latam_total_sold": 13781,
+            "has_offers": true,
+            "qty_per_day": 739.6364,
+            "score": 113358.53
+          }
+        ],
+        "mats_discarded_count": 5,
+        "mats_discarded_top10": [
+          {
+            "item_id": 914,
+            "name": "Fluff",
+            "price": 1700,
+            "qty_per_day": 675.8182,
+            "score": 96915.27
+          },
+          {
+            "item_id": 511,
+            "name": "Green Herb",
+            "price": 1499,
+            "qty_per_day": 289.6364,
+            "score": 89103.06
+          },
+          {
+            "item_id": 938,
+            "name": "Sticky Mucus",
+            "price": 2000,
+            "qty_per_day": 82.2545,
+            "score": 85282.82
+          },
+          {
+            "item_id": 507,
+            "name": "Red Herb",
+            "price": 1399,
+            "qty_per_day": 54.5455,
+            "score": 71599.18
+          },
+          {
+            "item_id": 935,
+            "name": "Shell",
+            "price": 3500,
+            "qty_per_day": 10.9091,
+            "score": 65344.45
+          }
+        ],
+        "cards": [
+          {
+            "item_id": 4003,
+            "aegis": "Pupa_Card",
+            "name": "Pupa Card",
+            "type": "Card",
+            "p_per_map_kill": 3.25e-06,
+            "latam_price": 1899998,
+            "latam_total_sold": 19,
+            "has_offers": true,
+            "drop_per_day": 0.0109,
+            "sellable_per_day": 0.0055,
+            "ev_latam_per_day_if_sold": 10373.99
+          }
+        ],
+        "cards_junk_discarded": [
+          {
+            "item_id": 4001,
+            "name": "Poring Card",
+            "price": 99999
+          },
+          {
+            "item_id": 4002,
+            "name": "Fabre Card",
+            "price": 200000
+          },
+          {
+            "item_id": 4006,
+            "name": "Lunatic Card",
+            "price": 199999
+          },
+          {
+            "item_id": 4545,
+            "name": "Novice Poring Card",
+            "price": 900000
+          }
+        ],
+        "card_min_price": 1000000,
+        "card_policy": {
+          "sell_fraction": 0.5,
+          "shop_slots": 1,
+          "min_price": 1000000,
+          "note": "acumula sellable; shop máx 1 carta; junk bajo min_price descartado"
+        }
+      },
+      "projection": {
+        "1": {
+          "days": 1,
+          "kills": 3360.0,
+          "hours": 3.5,
+          "mats_stock": [
+            {
+              "item_id": 1010,
+              "name": "Phracon",
+              "qty": 6.55,
+              "price": 45666,
+              "stock_value": 298904.43
+            },
+            {
+              "item_id": 949,
+              "name": "Feather",
+              "qty": 375.27,
+              "price": 10000,
+              "stock_value": 3752727.22
+            },
+            {
+              "item_id": 1002,
+              "name": "Iron Ore",
+              "qty": 5.45,
+              "price": 11000,
+              "stock_value": 60000.12
+            },
+            {
+              "item_id": 909,
+              "name": "Jellopy",
+              "qty": 1019.45,
+              "price": 2099,
+              "stock_value": 2139835.08
+            },
+            {
+              "item_id": 705,
+              "name": "Clover",
+              "qty": 739.64,
+              "price": 1800,
+              "stock_value": 1331345.45
+            }
+          ],
+          "mats_stock_value_latam": 7582812.31,
+          "cards": [
+            {
+              "item_id": 4003,
+              "name": "Pupa Card",
+              "dropped": 0.011,
+              "sellable": 0.005,
+              "shop_listed_cap": 1,
+              "expected_listed": 0.005,
+              "price": 1899998,
+              "pipeline_value": 10373.99
+            }
+          ],
+          "cards_sellable_total": 0.005,
+          "cards_pipeline_value": 10373.99,
+          "lot_expected_value": 7593186.3,
+          "zeny_spent": 8708.14,
+          "net_if_sold_at_latam": 7584478.16,
+          "gates": {
+            "pause_grind_until_sold_z": 3037274.52,
+            "keep_shop_until_sold_z": 4555911.78,
+            "pause_frac": 0.4,
+            "shop_keep_frac": 0.6
+          }
+        },
+        "3": {
+          "days": 3,
+          "kills": 10080.0,
+          "hours": 10.5,
+          "mats_stock": [
+            {
+              "item_id": 1010,
+              "name": "Phracon",
+              "qty": 19.64,
+              "price": 45666,
+              "stock_value": 896713.29
+            },
+            {
+              "item_id": 949,
+              "name": "Feather",
+              "qty": 1125.82,
+              "price": 10000,
+              "stock_value": 11258181.65
+            },
+            {
+              "item_id": 1002,
+              "name": "Iron Ore",
+              "qty": 16.36,
+              "price": 11000,
+              "stock_value": 180000.37
+            },
+            {
+              "item_id": 909,
+              "name": "Jellopy",
+              "qty": 3058.36,
+              "price": 2099,
+              "stock_value": 6419505.25
+            },
+            {
+              "item_id": 705,
+              "name": "Clover",
+              "qty": 2218.91,
+              "price": 1800,
+              "stock_value": 3994036.36
+            }
+          ],
+          "mats_stock_value_latam": 22748436.92,
+          "cards": [
+            {
+              "item_id": 4003,
+              "name": "Pupa Card",
+              "dropped": 0.033,
+              "sellable": 0.016,
+              "shop_listed_cap": 1,
+              "expected_listed": 0.016,
+              "price": 1899998,
+              "pipeline_value": 31121.97
+            }
+          ],
+          "cards_sellable_total": 0.016,
+          "cards_pipeline_value": 31121.97,
+          "lot_expected_value": 22779558.89,
+          "zeny_spent": 26124.42,
+          "net_if_sold_at_latam": 22753434.47,
+          "gates": {
+            "pause_grind_until_sold_z": 9111823.56,
+            "keep_shop_until_sold_z": 13667735.33,
+            "pause_frac": 0.4,
+            "shop_keep_frac": 0.6
+          }
+        },
+        "7": {
+          "days": 7,
+          "kills": 23520.0,
+          "hours": 24.5,
+          "mats_stock": [
+            {
+              "item_id": 1010,
+              "name": "Phracon",
+              "qty": 45.82,
+              "price": 45666,
+              "stock_value": 2092331.0
+            },
+            {
+              "item_id": 949,
+              "name": "Feather",
+              "qty": 2626.91,
+              "price": 10000,
+              "stock_value": 26269090.51
+            },
+            {
+              "item_id": 1002,
+              "name": "Iron Ore",
+              "qty": 38.18,
+              "price": 11000,
+              "stock_value": 420000.87
+            },
+            {
+              "item_id": 909,
+              "name": "Jellopy",
+              "qty": 7136.18,
+              "price": 2099,
+              "stock_value": 14978845.59
+            },
+            {
+              "item_id": 705,
+              "name": "Clover",
+              "qty": 5177.45,
+              "price": 1800,
+              "stock_value": 9319418.18
+            }
+          ],
+          "mats_stock_value_latam": 53079686.15,
+          "cards": [
+            {
+              "item_id": 4003,
+              "name": "Pupa Card",
+              "dropped": 0.076,
+              "sellable": 0.038,
+              "shop_listed_cap": 1,
+              "expected_listed": 0.038,
+              "price": 1899998,
+              "pipeline_value": 72617.92
+            }
+          ],
+          "cards_sellable_total": 0.038,
+          "cards_pipeline_value": 72617.92,
+          "lot_expected_value": 53152304.08,
+          "zeny_spent": 60956.98,
+          "net_if_sold_at_latam": 53091347.1,
+          "gates": {
+            "pause_grind_until_sold_z": 21260921.63,
+            "keep_shop_until_sold_z": 31891382.45,
+            "pause_frac": 0.4,
+            "shop_keep_frac": 0.6
+          }
+        },
+        "10": {
+          "days": 10,
+          "kills": 33600.0,
+          "hours": 35.0,
+          "mats_stock": [
+            {
+              "item_id": 1010,
+              "name": "Phracon",
+              "qty": 65.45,
+              "price": 45666,
+              "stock_value": 2989044.28
+            },
+            {
+              "item_id": 949,
+              "name": "Feather",
+              "qty": 3752.73,
+              "price": 10000,
+              "stock_value": 37527272.16
+            },
+            {
+              "item_id": 1002,
+              "name": "Iron Ore",
+              "qty": 54.55,
+              "price": 11000,
+              "stock_value": 600001.25
+            },
+            {
+              "item_id": 909,
+              "name": "Jellopy",
+              "qty": 10194.55,
+              "price": 2099,
+              "stock_value": 21398350.84
+            },
+            {
+              "item_id": 705,
+              "name": "Clover",
+              "qty": 7396.36,
+              "price": 1800,
+              "stock_value": 13313454.54
+            }
+          ],
+          "mats_stock_value_latam": 75828123.07,
+          "cards": [
+            {
+              "item_id": 4003,
+              "name": "Pupa Card",
+              "dropped": 0.109,
+              "sellable": 0.055,
+              "shop_listed_cap": 1,
+              "expected_listed": 0.055,
+              "price": 1899998,
+              "pipeline_value": 103739.89
+            }
+          ],
+          "cards_sellable_total": 0.055,
+          "cards_pipeline_value": 103739.89,
+          "lot_expected_value": 75931862.97,
+          "zeny_spent": 87081.4,
+          "net_if_sold_at_latam": 75844781.57,
+          "gates": {
+            "pause_grind_until_sold_z": 30372745.19,
+            "keep_shop_until_sold_z": 45559117.78,
+            "pause_frac": 0.4,
+            "shop_keep_frac": 0.6
+          }
+        }
+      }
+    }
+  ],
+  "projection_merged": {
+    "1": {
+      "days": 1,
+      "kills": 3360.0,
+      "mats_stock": [
+        {
+          "item_id": 949,
+          "name": "Feather",
+          "qty": 375.27,
+          "price": 10000,
+          "stock_value": 3752727.22
+        },
+        {
+          "item_id": 909,
+          "name": "Jellopy",
+          "qty": 1019.45,
+          "price": 2099,
+          "stock_value": 2139835.08
+        },
+        {
+          "item_id": 705,
+          "name": "Clover",
+          "qty": 739.64,
+          "price": 1800,
+          "stock_value": 1331345.45
+        },
+        {
+          "item_id": 1010,
+          "name": "Phracon",
+          "qty": 6.55,
+          "price": 45666,
+          "stock_value": 298904.43
+        },
+        {
+          "item_id": 1002,
+          "name": "Iron Ore",
+          "qty": 5.45,
+          "price": 11000,
+          "stock_value": 60000.12
+        }
+      ],
+      "mats_stock_value_latam": 7582812.31,
+      "cards": [
+        {
+          "item_id": 4003,
+          "name": "Pupa Card",
+          "dropped": 0.011,
+          "sellable": 0.005,
+          "shop_listed_cap": 1,
+          "expected_listed": 0.005,
+          "price": 1899998,
+          "pipeline_value": 10373.99
+        }
+      ],
+      "cards_sellable_total": 0.005,
+      "cards_pipeline_value": 10373.99,
+      "lot_expected_value": 7593186.3,
+      "zeny_spent": 8708.14,
+      "net_if_sold_at_latam": 7584478.16,
+      "gates": {
+        "pause_grind_until_sold_z": 3037274.52,
+        "keep_shop_until_sold_z": 4555911.78
+      }
+    },
+    "3": {
+      "days": 3,
+      "kills": 10080.0,
+      "mats_stock": [
+        {
+          "item_id": 949,
+          "name": "Feather",
+          "qty": 1125.82,
+          "price": 10000,
+          "stock_value": 11258181.65
+        },
+        {
+          "item_id": 909,
+          "name": "Jellopy",
+          "qty": 3058.36,
+          "price": 2099,
+          "stock_value": 6419505.25
+        },
+        {
+          "item_id": 705,
+          "name": "Clover",
+          "qty": 2218.91,
+          "price": 1800,
+          "stock_value": 3994036.36
+        },
+        {
+          "item_id": 1010,
+          "name": "Phracon",
+          "qty": 19.64,
+          "price": 45666,
+          "stock_value": 896713.29
+        },
+        {
+          "item_id": 1002,
+          "name": "Iron Ore",
+          "qty": 16.36,
+          "price": 11000,
+          "stock_value": 180000.37
+        }
+      ],
+      "mats_stock_value_latam": 22748436.92,
+      "cards": [
+        {
+          "item_id": 4003,
+          "name": "Pupa Card",
+          "dropped": 0.033,
+          "sellable": 0.016,
+          "shop_listed_cap": 1,
+          "expected_listed": 0.016,
+          "price": 1899998,
+          "pipeline_value": 31121.97
+        }
+      ],
+      "cards_sellable_total": 0.016,
+      "cards_pipeline_value": 31121.97,
+      "lot_expected_value": 22779558.89,
+      "zeny_spent": 26124.42,
+      "net_if_sold_at_latam": 22753434.47,
+      "gates": {
+        "pause_grind_until_sold_z": 9111823.56,
+        "keep_shop_until_sold_z": 13667735.33
+      }
+    },
+    "7": {
+      "days": 7,
+      "kills": 23520.0,
+      "mats_stock": [
+        {
+          "item_id": 949,
+          "name": "Feather",
+          "qty": 2626.91,
+          "price": 10000,
+          "stock_value": 26269090.51
+        },
+        {
+          "item_id": 909,
+          "name": "Jellopy",
+          "qty": 7136.18,
+          "price": 2099,
+          "stock_value": 14978845.59
+        },
+        {
+          "item_id": 705,
+          "name": "Clover",
+          "qty": 5177.45,
+          "price": 1800,
+          "stock_value": 9319418.18
+        },
+        {
+          "item_id": 1010,
+          "name": "Phracon",
+          "qty": 45.82,
+          "price": 45666,
+          "stock_value": 2092331.0
+        },
+        {
+          "item_id": 1002,
+          "name": "Iron Ore",
+          "qty": 38.18,
+          "price": 11000,
+          "stock_value": 420000.87
+        }
+      ],
+      "mats_stock_value_latam": 53079686.15,
+      "cards": [
+        {
+          "item_id": 4003,
+          "name": "Pupa Card",
+          "dropped": 0.076,
+          "sellable": 0.038,
+          "shop_listed_cap": 1,
+          "expected_listed": 0.038,
+          "price": 1899998,
+          "pipeline_value": 72617.92
+        }
+      ],
+      "cards_sellable_total": 0.038,
+      "cards_pipeline_value": 72617.92,
+      "lot_expected_value": 53152304.07,
+      "zeny_spent": 60956.98,
+      "net_if_sold_at_latam": 53091347.09,
+      "gates": {
+        "pause_grind_until_sold_z": 21260921.63,
+        "keep_shop_until_sold_z": 31891382.44
+      }
+    },
+    "10": {
+      "days": 10,
+      "kills": 33600.0,
+      "mats_stock": [
+        {
+          "item_id": 949,
+          "name": "Feather",
+          "qty": 3752.73,
+          "price": 10000,
+          "stock_value": 37527272.16
+        },
+        {
+          "item_id": 909,
+          "name": "Jellopy",
+          "qty": 10194.55,
+          "price": 2099,
+          "stock_value": 21398350.84
+        },
+        {
+          "item_id": 705,
+          "name": "Clover",
+          "qty": 7396.36,
+          "price": 1800,
+          "stock_value": 13313454.54
+        },
+        {
+          "item_id": 1010,
+          "name": "Phracon",
+          "qty": 65.45,
+          "price": 45666,
+          "stock_value": 2989044.28
+        },
+        {
+          "item_id": 1002,
+          "name": "Iron Ore",
+          "qty": 54.55,
+          "price": 11000,
+          "stock_value": 600001.25
+        }
+      ],
+      "mats_stock_value_latam": 75828123.07,
+      "cards": [
+        {
+          "item_id": 4003,
+          "name": "Pupa Card",
+          "dropped": 0.109,
+          "sellable": 0.055,
+          "shop_listed_cap": 1,
+          "expected_listed": 0.055,
+          "price": 1899998,
+          "pipeline_value": 103739.89
+        }
+      ],
+      "cards_sellable_total": 0.055,
+      "cards_pipeline_value": 103739.89,
+      "lot_expected_value": 75931862.96,
+      "zeny_spent": 87081.4,
+      "net_if_sold_at_latam": 75844781.56,
+      "gates": {
+        "pause_grind_until_sold_z": 30372745.18,
+        "keep_shop_until_sold_z": 45559117.78
+      }
+    }
+  },
+  "day10": {
+    "days": 10,
+    "kills": 33600.0,
+    "mats_stock": [
+      {
+        "item_id": 949,
+        "name": "Feather",
+        "qty": 3752.73,
+        "price": 10000,
+        "stock_value": 37527272.16
+      },
+      {
+        "item_id": 909,
+        "name": "Jellopy",
+        "qty": 10194.55,
+        "price": 2099,
+        "stock_value": 21398350.84
+      },
+      {
+        "item_id": 705,
+        "name": "Clover",
+        "qty": 7396.36,
+        "price": 1800,
+        "stock_value": 13313454.54
+      },
+      {
+        "item_id": 1010,
+        "name": "Phracon",
+        "qty": 65.45,
+        "price": 45666,
+        "stock_value": 2989044.28
+      },
+      {
+        "item_id": 1002,
+        "name": "Iron Ore",
+        "qty": 54.55,
+        "price": 11000,
+        "stock_value": 600001.25
+      }
+    ],
+    "mats_stock_value_latam": 75828123.07,
+    "cards": [
+      {
+        "item_id": 4003,
+        "name": "Pupa Card",
+        "dropped": 0.109,
+        "sellable": 0.055,
+        "shop_listed_cap": 1,
+        "expected_listed": 0.055,
+        "price": 1899998,
+        "pipeline_value": 103739.89
+      }
+    ],
+    "cards_sellable_total": 0.055,
+    "cards_pipeline_value": 103739.89,
+    "lot_expected_value": 75931862.96,
+    "zeny_spent": 87081.4,
+    "net_if_sold_at_latam": 75844781.56,
+    "gates": {
+      "pause_grind_until_sold_z": 30372745.18,
+      "keep_shop_until_sold_z": 45559117.78
+    }
+  }
+}

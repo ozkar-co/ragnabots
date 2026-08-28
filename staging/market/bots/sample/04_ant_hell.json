@@ -1,0 +1,3637 @@
+{
+  "id": "04_ant_hell",
+  "label": "Ant Hell",
+  "tier_target": "easy",
+  "loot_policy": "full",
+  "notes": "Dungeon fácil; huevos/hormigas.",
+  "maps": [
+    "anthell01"
+  ],
+  "map_tiers": [
+    "easy"
+  ],
+  "map_avg_levels": [
+    29.81
+  ],
+  "offer_item_count": 22,
+  "ev_atlantis_per_kill_by_map": [
+    3262.41
+  ],
+  "ev_latam_per_kill_by_map": [
+    8249.37
+  ],
+  "map_profiles": [
+    {
+      "map": "anthell01",
+      "spawn_total_raw": 226,
+      "combat_total_amount": 226,
+      "plants_excluded_amount": 0,
+      "plants_excluded": [],
+      "missing_mob_ids": [],
+      "avg_level": 29.81,
+      "max_level": 42,
+      "avg_hp": 504,
+      "tier": "easy",
+      "mobs": [
+        {
+          "mob_id": 1097,
+          "aegis": "ANT_EGG",
+          "name": "Ant Egg",
+          "amount": 87,
+          "weight": 0.385,
+          "level": 28,
+          "hp": 469,
+          "race": "Formless",
+          "element": "Neutral",
+          "drop_count": 6,
+          "drops": [
+            {
+              "item_id": 935,
+              "aegis": "Shell",
+              "name": "Shell",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 1000,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.5
+            },
+            {
+              "item_id": 909,
+              "aegis": "Jellopy",
+              "name": "Jellopy",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 1000,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.5
+            },
+            {
+              "item_id": 938,
+              "aegis": "Sticky_Mucus",
+              "name": "Sticky Mucus",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 325,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.1625
+            },
+            {
+              "item_id": 1010,
+              "aegis": "Phracon",
+              "name": "Phracon",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 160,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.08
+            },
+            {
+              "item_id": 1002,
+              "aegis": "Iron_Ore",
+              "name": "Iron Ore",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 100,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.05
+            },
+            {
+              "item_id": 4013,
+              "aegis": "Andre_Egg_Card",
+              "name": "Andre Egg Card",
+              "type": "Card",
+              "bucket": "card",
+              "rate_raw": 1,
+              "rate_mult": 100.0,
+              "p_per_kill_this_mob": 0.01
+            }
+          ]
+        },
+        {
+          "mob_id": 1160,
+          "aegis": "PIERE",
+          "name": "Piere",
+          "amount": 50,
+          "weight": 0.2212,
+          "level": 32,
+          "hp": 508,
+          "race": "Insect",
+          "element": "Earth",
+          "drop_count": 8,
+          "drops": [
+            {
+              "item_id": 955,
+              "aegis": "Worm_Peelings",
+              "name": "Worm Peeling",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 4500,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 1.0
+            },
+            {
+              "item_id": 910,
+              "aegis": "Garlet",
+              "name": "Garlet",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 550,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.275
+            },
+            {
+              "item_id": 601,
+              "aegis": "Wing_Of_Fly",
+              "name": "Fly Wing",
+              "type": "DelayConsume",
+              "bucket": "common",
+              "rate_raw": 500,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.25
+            },
+            {
+              "item_id": 938,
+              "aegis": "Sticky_Mucus",
+              "name": "Sticky Mucus",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 300,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.15
+            },
+            {
+              "item_id": 1002,
+              "aegis": "Iron_Ore",
+              "name": "Iron Ore",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 200,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.1
+            },
+            {
+              "item_id": 4043,
+              "aegis": "Andre_Card",
+              "name": "Andre Card",
+              "type": "Card",
+              "bucket": "card",
+              "rate_raw": 1,
+              "rate_mult": 100.0,
+              "p_per_kill_this_mob": 0.01
+            },
+            {
+              "item_id": 757,
+              "aegis": "Elunium_Stone",
+              "name": "Rough Elunium",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 16,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.008
+            },
+            {
+              "item_id": 992,
+              "aegis": "Wind_Of_Verdure",
+              "name": "Wind of Verdure",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 15,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.0075
+            }
+          ]
+        },
+        {
+          "mob_id": 1105,
+          "aegis": "DENIRO",
+          "name": "Deniro",
+          "amount": 40,
+          "weight": 0.177,
+          "level": 31,
+          "hp": 480,
+          "race": "Insect",
+          "element": "Earth",
+          "drop_count": 8,
+          "drops": [
+            {
+              "item_id": 955,
+              "aegis": "Worm_Peelings",
+              "name": "Worm Peeling",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 4500,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 1.0
+            },
+            {
+              "item_id": 910,
+              "aegis": "Garlet",
+              "name": "Garlet",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 1500,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.75
+            },
+            {
+              "item_id": 938,
+              "aegis": "Sticky_Mucus",
+              "name": "Sticky Mucus",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 600,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.3
+            },
+            {
+              "item_id": 601,
+              "aegis": "Wing_Of_Fly",
+              "name": "Fly Wing",
+              "type": "DelayConsume",
+              "bucket": "common",
+              "rate_raw": 500,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.25
+            },
+            {
+              "item_id": 1002,
+              "aegis": "Iron_Ore",
+              "name": "Iron Ore",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 225,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.1125
+            },
+            {
+              "item_id": 990,
+              "aegis": "Boody_Red",
+              "name": "Red Blood",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 25,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.0125
+            },
+            {
+              "item_id": 4043,
+              "aegis": "Andre_Card",
+              "name": "Andre Card",
+              "type": "Card",
+              "bucket": "card",
+              "rate_raw": 1,
+              "rate_mult": 100.0,
+              "p_per_kill_this_mob": 0.01
+            },
+            {
+              "item_id": 757,
+              "aegis": "Elunium_Stone",
+              "name": "Rough Elunium",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 17,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.0085
+            }
+          ]
+        },
+        {
+          "mob_id": 1005,
+          "aegis": "FARMILIAR",
+          "name": "Familiar",
+          "amount": 20,
+          "weight": 0.0885,
+          "level": 24,
+          "hp": 330,
+          "race": "Brute",
+          "element": "Dark",
+          "drop_count": 8,
+          "drops": [
+            {
+              "item_id": 913,
+              "aegis": "Tooth_Of_Bat",
+              "name": "Tooth of Bat",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 2750,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 1.0
+            },
+            {
+              "item_id": 507,
+              "aegis": "Red_Herb",
+              "name": "Red Herb",
+              "type": "Healing",
+              "bucket": "heal",
+              "rate_raw": 350,
+              "rate_mult": 10.0,
+              "p_per_kill_this_mob": 0.35
+            },
+            {
+              "item_id": 601,
+              "aegis": "Wing_Of_Fly",
+              "name": "Fly Wing",
+              "type": "DelayConsume",
+              "bucket": "common",
+              "rate_raw": 500,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.25
+            },
+            {
+              "item_id": 514,
+              "aegis": "Grape",
+              "name": "Grape",
+              "type": "Healing",
+              "bucket": "heal",
+              "rate_raw": 50,
+              "rate_mult": 10.0,
+              "p_per_kill_this_mob": 0.05
+            },
+            {
+              "item_id": 645,
+              "aegis": "Center_Potion",
+              "name": "Concentration Potion",
+              "type": "Usable",
+              "bucket": "use",
+              "rate_raw": 25,
+              "rate_mult": 10.0,
+              "p_per_kill_this_mob": 0.025
+            },
+            {
+              "item_id": 1105,
+              "aegis": "Falchion_",
+              "name": "Falchion",
+              "type": "Weapon",
+              "bucket": "equip",
+              "rate_raw": 10,
+              "rate_mult": 15.0,
+              "p_per_kill_this_mob": 0.015
+            },
+            {
+              "item_id": 2209,
+              "aegis": "Ribbon_",
+              "name": "Ribbon",
+              "type": "Armor",
+              "bucket": "equip",
+              "rate_raw": 8,
+              "rate_mult": 15.0,
+              "p_per_kill_this_mob": 0.012
+            },
+            {
+              "item_id": 4020,
+              "aegis": "Farmiliar_Card",
+              "name": "Familiar Card",
+              "type": "Card",
+              "bucket": "card",
+              "rate_raw": 1,
+              "rate_mult": 100.0,
+              "p_per_kill_this_mob": 0.01
+            }
+          ]
+        },
+        {
+          "mob_id": 1095,
+          "aegis": "ANDRE",
+          "name": "Andre",
+          "amount": 15,
+          "weight": 0.0664,
+          "level": 33,
+          "hp": 537,
+          "race": "Insect",
+          "element": "Earth",
+          "drop_count": 8,
+          "drops": [
+            {
+              "item_id": 955,
+              "aegis": "Worm_Peelings",
+              "name": "Worm Peeling",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 4500,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 1.0
+            },
+            {
+              "item_id": 910,
+              "aegis": "Garlet",
+              "name": "Garlet",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 500,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.25
+            },
+            {
+              "item_id": 601,
+              "aegis": "Wing_Of_Fly",
+              "name": "Fly Wing",
+              "type": "DelayConsume",
+              "bucket": "common",
+              "rate_raw": 500,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.25
+            },
+            {
+              "item_id": 938,
+              "aegis": "Sticky_Mucus",
+              "name": "Sticky Mucus",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 250,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.125
+            },
+            {
+              "item_id": 1002,
+              "aegis": "Iron_Ore",
+              "name": "Iron Ore",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 175,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.0875
+            },
+            {
+              "item_id": 993,
+              "aegis": "Yellow_Live",
+              "name": "Green Live",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 25,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.0125
+            },
+            {
+              "item_id": 4043,
+              "aegis": "Andre_Card",
+              "name": "Andre Card",
+              "type": "Card",
+              "bucket": "card",
+              "rate_raw": 1,
+              "rate_mult": 100.0,
+              "p_per_kill_this_mob": 0.01
+            },
+            {
+              "item_id": 757,
+              "aegis": "Elunium_Stone",
+              "name": "Rough Elunium",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 14,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.007
+            }
+          ]
+        },
+        {
+          "mob_id": 1176,
+          "aegis": "VITATA",
+          "name": "Vitata",
+          "amount": 10,
+          "weight": 0.0442,
+          "level": 35,
+          "hp": 597,
+          "race": "Insect",
+          "element": "Earth",
+          "drop_count": 8,
+          "drops": [
+            {
+              "item_id": 955,
+              "aegis": "Worm_Peelings",
+              "name": "Worm Peeling",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 2500,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 1.0
+            },
+            {
+              "item_id": 601,
+              "aegis": "Wing_Of_Fly",
+              "name": "Fly Wing",
+              "type": "DelayConsume",
+              "bucket": "common",
+              "rate_raw": 500,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.25
+            },
+            {
+              "item_id": 518,
+              "aegis": "Honey",
+              "name": "Honey",
+              "type": "Healing",
+              "bucket": "heal",
+              "rate_raw": 175,
+              "rate_mult": 10.0,
+              "p_per_kill_this_mob": 0.175
+            },
+            {
+              "item_id": 526,
+              "aegis": "Royal_Jelly",
+              "name": "Royal Jelly",
+              "type": "Healing",
+              "bucket": "heal",
+              "rate_raw": 100,
+              "rate_mult": 10.0,
+              "p_per_kill_this_mob": 0.1
+            },
+            {
+              "item_id": 911,
+              "aegis": "Scell",
+              "name": "Scell",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 100,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.05
+            },
+            {
+              "item_id": 993,
+              "aegis": "Yellow_Live",
+              "name": "Green Live",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 45,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.0225
+            },
+            {
+              "item_id": 4053,
+              "aegis": "Vitata_Card",
+              "name": "Vitata Card",
+              "type": "Card",
+              "bucket": "card",
+              "rate_raw": 1,
+              "rate_mult": 100.0,
+              "p_per_kill_this_mob": 0.01
+            },
+            {
+              "item_id": 756,
+              "aegis": "Oridecon_Stone",
+              "name": "Rough Oridecon",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 13,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.0065
+            }
+          ]
+        },
+        {
+          "mob_id": 2857,
+          "aegis": "C5_DENIRO",
+          "name": "Elusive Deniro",
+          "amount": 3,
+          "weight": 0.0133,
+          "level": 31,
+          "hp": 2400,
+          "race": "Insect",
+          "element": "Earth",
+          "drop_count": 8,
+          "drops": [
+            {
+              "item_id": 955,
+              "aegis": "Worm_Peelings",
+              "name": "Worm Peeling",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 10000,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 1.0
+            },
+            {
+              "item_id": 910,
+              "aegis": "Garlet",
+              "name": "Garlet",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 7500,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 1.0
+            },
+            {
+              "item_id": 938,
+              "aegis": "Sticky_Mucus",
+              "name": "Sticky Mucus",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 3000,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 1.0
+            },
+            {
+              "item_id": 601,
+              "aegis": "Wing_Of_Fly",
+              "name": "Fly Wing",
+              "type": "DelayConsume",
+              "bucket": "common",
+              "rate_raw": 2500,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 1.0
+            },
+            {
+              "item_id": 1002,
+              "aegis": "Iron_Ore",
+              "name": "Iron Ore",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 1125,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.5625
+            },
+            {
+              "item_id": 990,
+              "aegis": "Boody_Red",
+              "name": "Red Blood",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 125,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.0625
+            },
+            {
+              "item_id": 4043,
+              "aegis": "Andre_Card",
+              "name": "Andre Card",
+              "type": "Card",
+              "bucket": "card",
+              "rate_raw": 5,
+              "rate_mult": 100.0,
+              "p_per_kill_this_mob": 0.05
+            },
+            {
+              "item_id": 757,
+              "aegis": "Elunium_Stone",
+              "name": "Rough Elunium",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 85,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.0425
+            }
+          ]
+        },
+        {
+          "mob_id": 1121,
+          "aegis": "GIEARTH",
+          "name": "Giearth",
+          "amount": 1,
+          "weight": 0.0044,
+          "level": 42,
+          "hp": 866,
+          "race": "Demon",
+          "element": "Earth",
+          "drop_count": 8,
+          "drops": [
+            {
+              "item_id": 1040,
+              "aegis": "Elder_Pixie's_Beard",
+              "name": "Elder Pixie's Moustache",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 2750,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 1.0
+            },
+            {
+              "item_id": 601,
+              "aegis": "Wing_Of_Fly",
+              "name": "Fly Wing",
+              "type": "DelayConsume",
+              "bucket": "common",
+              "rate_raw": 500,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.25
+            },
+            {
+              "item_id": 1003,
+              "aegis": "Coal",
+              "name": "Coal",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 75,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.0375
+            },
+            {
+              "item_id": 1001,
+              "aegis": "Sparkling_Dust",
+              "name": "Star Dust",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 50,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.025
+            },
+            {
+              "item_id": 4087,
+              "aegis": "Giearth_Card",
+              "name": "Giearth Card",
+              "type": "Card",
+              "bucket": "card",
+              "rate_raw": 1,
+              "rate_mult": 100.0,
+              "p_per_kill_this_mob": 0.01
+            },
+            {
+              "item_id": 997,
+              "aegis": "Great_Nature",
+              "name": "Great Nature",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 15,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.0075
+            },
+            {
+              "item_id": 2227,
+              "aegis": "Cap_",
+              "name": "Cap",
+              "type": "Armor",
+              "bucket": "equip",
+              "rate_raw": 5,
+              "rate_mult": 15.0,
+              "p_per_kill_this_mob": 0.0075
+            },
+            {
+              "item_id": 2286,
+              "aegis": "Elven_Ears",
+              "name": "Elven Ears",
+              "type": "Armor",
+              "bucket": "equip",
+              "rate_raw": 1,
+              "rate_mult": 15.0,
+              "p_per_kill_this_mob": 0.0015
+            }
+          ]
+        }
+      ],
+      "drop_count": 33,
+      "drop_priced_count": 30,
+      "ev_atlantis_per_kill": 8193.39,
+      "ev_latam_per_kill": 38510.87,
+      "drops": [
+        {
+          "item_id": 4043,
+          "aegis": "Andre_Card",
+          "name": "Andre Card",
+          "type": "Card",
+          "bucket": "card",
+          "npc_buy": 20,
+          "p_per_map_kill": 0.00530973,
+          "contributors": [
+            {
+              "mob_id": 1160,
+              "aegis": "PIERE",
+              "amount": 50,
+              "weight": 0.2212,
+              "rate_raw": 1,
+              "p_mob": 0.01,
+              "p_contrib": 0.002212
+            },
+            {
+              "mob_id": 1105,
+              "aegis": "DENIRO",
+              "amount": 40,
+              "weight": 0.177,
+              "rate_raw": 1,
+              "p_mob": 0.01,
+              "p_contrib": 0.00177
+            },
+            {
+              "mob_id": 1095,
+              "aegis": "ANDRE",
+              "amount": 15,
+              "weight": 0.0664,
+              "rate_raw": 1,
+              "p_mob": 0.01,
+              "p_contrib": 0.000664
+            },
+            {
+              "mob_id": 2857,
+              "aegis": "C5_DENIRO",
+              "amount": 3,
+              "weight": 0.0133,
+              "rate_raw": 5,
+              "p_mob": 0.05,
+              "p_contrib": 0.000664
+            }
+          ],
+          "atlantis_avg": 756994,
+          "atlantis_total_sold": 609,
+          "latam_offers_median": 4900000,
+          "ev_atlantis_per_kill": 4019.44,
+          "ev_latam_per_kill": 26017.7,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 1002,
+          "aegis": "Iron_Ore",
+          "name": "Iron Ore",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 50,
+          "p_per_map_kill": 0.07455752,
+          "contributors": [
+            {
+              "mob_id": 1097,
+              "aegis": "ANT_EGG",
+              "amount": 87,
+              "weight": 0.385,
+              "rate_raw": 100,
+              "p_mob": 0.05,
+              "p_contrib": 0.019248
+            },
+            {
+              "mob_id": 1160,
+              "aegis": "PIERE",
+              "amount": 50,
+              "weight": 0.2212,
+              "rate_raw": 200,
+              "p_mob": 0.1,
+              "p_contrib": 0.022124
+            },
+            {
+              "mob_id": 1105,
+              "aegis": "DENIRO",
+              "amount": 40,
+              "weight": 0.177,
+              "rate_raw": 225,
+              "p_mob": 0.1125,
+              "p_contrib": 0.019912
+            },
+            {
+              "mob_id": 1095,
+              "aegis": "ANDRE",
+              "amount": 15,
+              "weight": 0.0664,
+              "rate_raw": 175,
+              "p_mob": 0.0875,
+              "p_contrib": 0.005808
+            },
+            {
+              "mob_id": 2857,
+              "aegis": "C5_DENIRO",
+              "amount": 3,
+              "weight": 0.0133,
+              "rate_raw": 1125,
+              "p_mob": 0.5625,
+              "p_contrib": 0.007467
+            }
+          ],
+          "atlantis_avg": 13612,
+          "atlantis_total_sold": 6863,
+          "latam_offers_median": 11000,
+          "ev_atlantis_per_kill": 1014.88,
+          "ev_latam_per_kill": 820.13,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 938,
+          "aegis": "Sticky_Mucus",
+          "name": "Sticky Mucus",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 70,
+          "p_per_map_kill": 0.17040929,
+          "contributors": [
+            {
+              "mob_id": 1097,
+              "aegis": "ANT_EGG",
+              "amount": 87,
+              "weight": 0.385,
+              "rate_raw": 325,
+              "p_mob": 0.1625,
+              "p_contrib": 0.062555
+            },
+            {
+              "mob_id": 1160,
+              "aegis": "PIERE",
+              "amount": 50,
+              "weight": 0.2212,
+              "rate_raw": 300,
+              "p_mob": 0.15,
+              "p_contrib": 0.033186
+            },
+            {
+              "mob_id": 1105,
+              "aegis": "DENIRO",
+              "amount": 40,
+              "weight": 0.177,
+              "rate_raw": 600,
+              "p_mob": 0.3,
+              "p_contrib": 0.053097
+            },
+            {
+              "mob_id": 1095,
+              "aegis": "ANDRE",
+              "amount": 15,
+              "weight": 0.0664,
+              "rate_raw": 250,
+              "p_mob": 0.125,
+              "p_contrib": 0.008296
+            },
+            {
+              "mob_id": 2857,
+              "aegis": "C5_DENIRO",
+              "amount": 3,
+              "weight": 0.0133,
+              "rate_raw": 3000,
+              "p_mob": 1.0,
+              "p_contrib": 0.013274
+            }
+          ],
+          "atlantis_avg": 5113,
+          "atlantis_total_sold": 22391,
+          "latam_offers_median": 2000,
+          "ev_atlantis_per_kill": 871.3,
+          "ev_latam_per_kill": 340.82,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 913,
+          "aegis": "Tooth_Of_Bat",
+          "name": "Tooth of Bat",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 34,
+          "p_per_map_kill": 0.08849558,
+          "contributors": [
+            {
+              "mob_id": 1005,
+              "aegis": "FARMILIAR",
+              "amount": 20,
+              "weight": 0.0885,
+              "rate_raw": 2750,
+              "p_mob": 1.0,
+              "p_contrib": 0.088496
+            }
+          ],
+          "atlantis_avg": 9435,
+          "atlantis_total_sold": 108,
+          "latam_offers_median": 14960,
+          "ev_atlantis_per_kill": 834.96,
+          "ev_latam_per_kill": 1323.89,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 4013,
+          "aegis": "Andre_Egg_Card",
+          "name": "Andre Egg Card",
+          "type": "Card",
+          "bucket": "card",
+          "npc_buy": 20,
+          "p_per_map_kill": 0.00384956,
+          "contributors": [
+            {
+              "mob_id": 1097,
+              "aegis": "ANT_EGG",
+              "amount": 87,
+              "weight": 0.385,
+              "rate_raw": 1,
+              "p_mob": 0.01,
+              "p_contrib": 0.00385
+            }
+          ],
+          "atlantis_avg": 128224,
+          "atlantis_total_sold": 1348,
+          "latam_offers_median": 999999,
+          "ev_atlantis_per_kill": 493.61,
+          "ev_latam_per_kill": 3849.55,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 2209,
+          "aegis": "Ribbon_",
+          "name": "Ribbon",
+          "type": "Armor",
+          "bucket": "equip",
+          "npc_buy": 800,
+          "p_per_map_kill": 0.00106195,
+          "contributors": [
+            {
+              "mob_id": 1005,
+              "aegis": "FARMILIAR",
+              "amount": 20,
+              "weight": 0.0885,
+              "rate_raw": 8,
+              "p_mob": 0.012,
+              "p_contrib": 0.001062
+            }
+          ],
+          "atlantis_avg": 226774,
+          "atlantis_total_sold": 717,
+          "latam_offers_median": 200000,
+          "ev_atlantis_per_kill": 240.82,
+          "ev_latam_per_kill": 212.39,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 935,
+          "aegis": "Shell",
+          "name": "Shell",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 14,
+          "p_per_map_kill": 0.19247788,
+          "contributors": [
+            {
+              "mob_id": 1097,
+              "aegis": "ANT_EGG",
+              "amount": 87,
+              "weight": 0.385,
+              "rate_raw": 1000,
+              "p_mob": 0.5,
+              "p_contrib": 0.192478
+            }
+          ],
+          "atlantis_avg": 805,
+          "atlantis_total_sold": 36374,
+          "latam_offers_median": 3500,
+          "ev_atlantis_per_kill": 154.94,
+          "ev_latam_per_kill": 673.67,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 955,
+          "aegis": "Worm_Peelings",
+          "name": "Worm Peeling",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 52,
+          "p_per_map_kill": 0.52212389,
+          "contributors": [
+            {
+              "mob_id": 1160,
+              "aegis": "PIERE",
+              "amount": 50,
+              "weight": 0.2212,
+              "rate_raw": 4500,
+              "p_mob": 1.0,
+              "p_contrib": 0.221239
+            },
+            {
+              "mob_id": 1105,
+              "aegis": "DENIRO",
+              "amount": 40,
+              "weight": 0.177,
+              "rate_raw": 4500,
+              "p_mob": 1.0,
+              "p_contrib": 0.176991
+            },
+            {
+              "mob_id": 1095,
+              "aegis": "ANDRE",
+              "amount": 15,
+              "weight": 0.0664,
+              "rate_raw": 4500,
+              "p_mob": 1.0,
+              "p_contrib": 0.066372
+            },
+            {
+              "mob_id": 1176,
+              "aegis": "VITATA",
+              "amount": 10,
+              "weight": 0.0442,
+              "rate_raw": 2500,
+              "p_mob": 1.0,
+              "p_contrib": 0.044248
+            },
+            {
+              "mob_id": 2857,
+              "aegis": "C5_DENIRO",
+              "amount": 3,
+              "weight": 0.0133,
+              "rate_raw": 10000,
+              "p_mob": 1.0,
+              "p_contrib": 0.013274
+            }
+          ],
+          "atlantis_avg": 251,
+          "atlantis_total_sold": 1712,
+          "latam_offers_median": 4999,
+          "ev_atlantis_per_kill": 131.05,
+          "ev_latam_per_kill": 2610.1,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 4087,
+          "aegis": "Giearth_Card",
+          "name": "Giearth Card",
+          "type": "Card",
+          "bucket": "card",
+          "npc_buy": 20,
+          "p_per_map_kill": 4.425e-05,
+          "contributors": [
+            {
+              "mob_id": 1121,
+              "aegis": "GIEARTH",
+              "amount": 1,
+              "weight": 0.0044,
+              "rate_raw": 1,
+              "p_mob": 0.01,
+              "p_contrib": 4.4e-05
+            }
+          ],
+          "atlantis_avg": 2745305,
+          "atlantis_total_sold": 332,
+          "latam_offers_median": 1500000,
+          "ev_atlantis_per_kill": 121.47,
+          "ev_latam_per_kill": 66.37,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 909,
+          "aegis": "Jellopy",
+          "name": "Jellopy",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 6,
+          "p_per_map_kill": 0.19247788,
+          "contributors": [
+            {
+              "mob_id": 1097,
+              "aegis": "ANT_EGG",
+              "amount": 87,
+              "weight": 0.385,
+              "rate_raw": 1000,
+              "p_mob": 0.5,
+              "p_contrib": 0.192478
+            }
+          ],
+          "atlantis_avg": 445,
+          "atlantis_total_sold": 2406372,
+          "latam_offers_median": 2099,
+          "ev_atlantis_per_kill": 85.65,
+          "ev_latam_per_kill": 404.01,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 507,
+          "aegis": "Red_Herb",
+          "name": "Red Herb",
+          "type": "Healing",
+          "bucket": "heal",
+          "npc_buy": 18,
+          "p_per_map_kill": 0.03097345,
+          "contributors": [
+            {
+              "mob_id": 1005,
+              "aegis": "FARMILIAR",
+              "amount": 20,
+              "weight": 0.0885,
+              "rate_raw": 350,
+              "p_mob": 0.35,
+              "p_contrib": 0.030973
+            }
+          ],
+          "atlantis_avg": 1239,
+          "atlantis_total_sold": 159474,
+          "latam_offers_median": 1399,
+          "ev_atlantis_per_kill": 38.38,
+          "ev_latam_per_kill": 43.33,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 601,
+          "aegis": "Wing_Of_Fly",
+          "name": "Fly Wing",
+          "type": "DelayConsume",
+          "bucket": "common",
+          "npc_buy": 250,
+          "p_per_map_kill": 0.16371681,
+          "contributors": [
+            {
+              "mob_id": 1160,
+              "aegis": "PIERE",
+              "amount": 50,
+              "weight": 0.2212,
+              "rate_raw": 500,
+              "p_mob": 0.25,
+              "p_contrib": 0.05531
+            },
+            {
+              "mob_id": 1105,
+              "aegis": "DENIRO",
+              "amount": 40,
+              "weight": 0.177,
+              "rate_raw": 500,
+              "p_mob": 0.25,
+              "p_contrib": 0.044248
+            },
+            {
+              "mob_id": 1005,
+              "aegis": "FARMILIAR",
+              "amount": 20,
+              "weight": 0.0885,
+              "rate_raw": 500,
+              "p_mob": 0.25,
+              "p_contrib": 0.022124
+            },
+            {
+              "mob_id": 1095,
+              "aegis": "ANDRE",
+              "amount": 15,
+              "weight": 0.0664,
+              "rate_raw": 500,
+              "p_mob": 0.25,
+              "p_contrib": 0.016593
+            },
+            {
+              "mob_id": 1176,
+              "aegis": "VITATA",
+              "amount": 10,
+              "weight": 0.0442,
+              "rate_raw": 500,
+              "p_mob": 0.25,
+              "p_contrib": 0.011062
+            },
+            {
+              "mob_id": 2857,
+              "aegis": "C5_DENIRO",
+              "amount": 3,
+              "weight": 0.0133,
+              "rate_raw": 2500,
+              "p_mob": 1.0,
+              "p_contrib": 0.013274
+            },
+            {
+              "mob_id": 1121,
+              "aegis": "GIEARTH",
+              "amount": 1,
+              "weight": 0.0044,
+              "rate_raw": 500,
+              "p_mob": 0.25,
+              "p_contrib": 0.001106
+            }
+          ],
+          "atlantis_avg": 179,
+          "atlantis_total_sold": 1994437,
+          "latam_offers_median": 300,
+          "ev_atlantis_per_kill": 29.31,
+          "ev_latam_per_kill": 49.12,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 514,
+          "aegis": "Grape",
+          "name": "Grape",
+          "type": "Healing",
+          "bucket": "heal",
+          "npc_buy": 200,
+          "p_per_map_kill": 0.00442478,
+          "contributors": [
+            {
+              "mob_id": 1005,
+              "aegis": "FARMILIAR",
+              "amount": 20,
+              "weight": 0.0885,
+              "rate_raw": 50,
+              "p_mob": 0.05,
+              "p_contrib": 0.004425
+            }
+          ],
+          "atlantis_avg": 6489,
+          "atlantis_total_sold": 139299,
+          "latam_offers_median": null,
+          "ev_atlantis_per_kill": 28.71,
+          "ev_latam_per_kill": null,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 2286,
+          "aegis": "Elven_Ears",
+          "name": "Elven Ears",
+          "type": "Armor",
+          "bucket": "equip",
+          "npc_buy": 20,
+          "p_per_map_kill": 6.64e-06,
+          "contributors": [
+            {
+              "mob_id": 1121,
+              "aegis": "GIEARTH",
+              "amount": 1,
+              "weight": 0.0044,
+              "rate_raw": 1,
+              "p_mob": 0.0015,
+              "p_contrib": 7e-06
+            }
+          ],
+          "atlantis_avg": 3967597,
+          "atlantis_total_sold": 808,
+          "latam_offers_median": 10000000,
+          "ev_atlantis_per_kill": 26.33,
+          "ev_latam_per_kill": 66.37,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 526,
+          "aegis": "Royal_Jelly",
+          "name": "Royal Jelly",
+          "type": "Healing",
+          "bucket": "heal",
+          "npc_buy": 7000,
+          "p_per_map_kill": 0.00442478,
+          "contributors": [
+            {
+              "mob_id": 1176,
+              "aegis": "VITATA",
+              "amount": 10,
+              "weight": 0.0442,
+              "rate_raw": 100,
+              "p_mob": 0.1,
+              "p_contrib": 0.004425
+            }
+          ],
+          "atlantis_avg": 4575,
+          "atlantis_total_sold": 1921721,
+          "latam_offers_median": null,
+          "ev_atlantis_per_kill": 20.24,
+          "ev_latam_per_kill": null,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 910,
+          "aegis": "Garlet",
+          "name": "Garlet",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 30,
+          "p_per_map_kill": 0.22345133,
+          "contributors": [
+            {
+              "mob_id": 1160,
+              "aegis": "PIERE",
+              "amount": 50,
+              "weight": 0.2212,
+              "rate_raw": 550,
+              "p_mob": 0.275,
+              "p_contrib": 0.060841
+            },
+            {
+              "mob_id": 1105,
+              "aegis": "DENIRO",
+              "amount": 40,
+              "weight": 0.177,
+              "rate_raw": 1500,
+              "p_mob": 0.75,
+              "p_contrib": 0.132743
+            },
+            {
+              "mob_id": 1095,
+              "aegis": "ANDRE",
+              "amount": 15,
+              "weight": 0.0664,
+              "rate_raw": 500,
+              "p_mob": 0.25,
+              "p_contrib": 0.016593
+            },
+            {
+              "mob_id": 2857,
+              "aegis": "C5_DENIRO",
+              "amount": 3,
+              "weight": 0.0133,
+              "rate_raw": 7500,
+              "p_mob": 1.0,
+              "p_contrib": 0.013274
+            }
+          ],
+          "atlantis_avg": 75,
+          "atlantis_total_sold": 1063,
+          "latam_offers_median": 2500,
+          "ev_atlantis_per_kill": 16.76,
+          "ev_latam_per_kill": 558.63,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 757,
+          "aegis": "Elunium_Stone",
+          "name": "Rough Elunium",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 650,
+          "p_per_map_kill": 0.0043031,
+          "contributors": [
+            {
+              "mob_id": 1160,
+              "aegis": "PIERE",
+              "amount": 50,
+              "weight": 0.2212,
+              "rate_raw": 16,
+              "p_mob": 0.008,
+              "p_contrib": 0.00177
+            },
+            {
+              "mob_id": 1105,
+              "aegis": "DENIRO",
+              "amount": 40,
+              "weight": 0.177,
+              "rate_raw": 17,
+              "p_mob": 0.0085,
+              "p_contrib": 0.001504
+            },
+            {
+              "mob_id": 1095,
+              "aegis": "ANDRE",
+              "amount": 15,
+              "weight": 0.0664,
+              "rate_raw": 14,
+              "p_mob": 0.007,
+              "p_contrib": 0.000465
+            },
+            {
+              "mob_id": 2857,
+              "aegis": "C5_DENIRO",
+              "amount": 3,
+              "weight": 0.0133,
+              "rate_raw": 85,
+              "p_mob": 0.0425,
+              "p_contrib": 0.000564
+            }
+          ],
+          "atlantis_avg": 3688,
+          "atlantis_total_sold": 17213,
+          "latam_offers_median": 1000,
+          "ev_atlantis_per_kill": 15.87,
+          "ev_latam_per_kill": 4.3,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 1010,
+          "aegis": "Phracon",
+          "name": "Phracon",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 200,
+          "p_per_map_kill": 0.03079646,
+          "contributors": [
+            {
+              "mob_id": 1097,
+              "aegis": "ANT_EGG",
+              "amount": 87,
+              "weight": 0.385,
+              "rate_raw": 160,
+              "p_mob": 0.08,
+              "p_contrib": 0.030796
+            }
+          ],
+          "atlantis_avg": 464,
+          "atlantis_total_sold": 1240,
+          "latam_offers_median": 45666,
+          "ev_atlantis_per_kill": 14.29,
+          "ev_latam_per_kill": 1406.35,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 518,
+          "aegis": "Honey",
+          "name": "Honey",
+          "type": "Healing",
+          "bucket": "heal",
+          "npc_buy": 500,
+          "p_per_map_kill": 0.00774336,
+          "contributors": [
+            {
+              "mob_id": 1176,
+              "aegis": "VITATA",
+              "amount": 10,
+              "weight": 0.0442,
+              "rate_raw": 175,
+              "p_mob": 0.175,
+              "p_contrib": 0.007743
+            }
+          ],
+          "atlantis_avg": 1761,
+          "atlantis_total_sold": 1242713,
+          "latam_offers_median": 2690,
+          "ev_atlantis_per_kill": 13.64,
+          "ev_latam_per_kill": 20.83,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 992,
+          "aegis": "Wind_Of_Verdure",
+          "name": "Wind of Verdure",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 1000,
+          "p_per_map_kill": 0.00165929,
+          "contributors": [
+            {
+              "mob_id": 1160,
+              "aegis": "PIERE",
+              "amount": 50,
+              "weight": 0.2212,
+              "rate_raw": 15,
+              "p_mob": 0.0075,
+              "p_contrib": 0.001659
+            }
+          ],
+          "atlantis_avg": 4972,
+          "atlantis_total_sold": 106026,
+          "latam_offers_median": 2899,
+          "ev_atlantis_per_kill": 8.25,
+          "ev_latam_per_kill": 4.81,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 990,
+          "aegis": "Boody_Red",
+          "name": "Red Blood",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 1000,
+          "p_per_map_kill": 0.00304204,
+          "contributors": [
+            {
+              "mob_id": 1105,
+              "aegis": "DENIRO",
+              "amount": 40,
+              "weight": 0.177,
+              "rate_raw": 25,
+              "p_mob": 0.0125,
+              "p_contrib": 0.002212
+            },
+            {
+              "mob_id": 2857,
+              "aegis": "C5_DENIRO",
+              "amount": 3,
+              "weight": 0.0133,
+              "rate_raw": 125,
+              "p_mob": 0.0625,
+              "p_contrib": 0.00083
+            }
+          ],
+          "atlantis_avg": 2017,
+          "atlantis_total_sold": 163683,
+          "latam_offers_median": 4950,
+          "ev_atlantis_per_kill": 6.14,
+          "ev_latam_per_kill": 15.06,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 993,
+          "aegis": "Yellow_Live",
+          "name": "Green Live",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 1000,
+          "p_per_map_kill": 0.00182522,
+          "contributors": [
+            {
+              "mob_id": 1095,
+              "aegis": "ANDRE",
+              "amount": 15,
+              "weight": 0.0664,
+              "rate_raw": 25,
+              "p_mob": 0.0125,
+              "p_contrib": 0.00083
+            },
+            {
+              "mob_id": 1176,
+              "aegis": "VITATA",
+              "amount": 10,
+              "weight": 0.0442,
+              "rate_raw": 45,
+              "p_mob": 0.0225,
+              "p_contrib": 0.000996
+            }
+          ],
+          "atlantis_avg": 1641,
+          "atlantis_total_sold": 25359,
+          "latam_offers_median": 3198,
+          "ev_atlantis_per_kill": 3.0,
+          "ev_latam_per_kill": 5.84,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 645,
+          "aegis": "Center_Potion",
+          "name": "Concentration Potion",
+          "type": "Usable",
+          "bucket": "use",
+          "npc_buy": 1200,
+          "p_per_map_kill": 0.00221239,
+          "contributors": [
+            {
+              "mob_id": 1005,
+              "aegis": "FARMILIAR",
+              "amount": 20,
+              "weight": 0.0885,
+              "rate_raw": 25,
+              "p_mob": 0.025,
+              "p_contrib": 0.002212
+            }
+          ],
+          "atlantis_avg": 731,
+          "atlantis_total_sold": 5765,
+          "latam_offers_median": 1050,
+          "ev_atlantis_per_kill": 1.62,
+          "ev_latam_per_kill": 2.32,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 756,
+          "aegis": "Oridecon_Stone",
+          "name": "Rough Oridecon",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 550,
+          "p_per_map_kill": 0.00028761,
+          "contributors": [
+            {
+              "mob_id": 1176,
+              "aegis": "VITATA",
+              "amount": 10,
+              "weight": 0.0442,
+              "rate_raw": 13,
+              "p_mob": 0.0065,
+              "p_contrib": 0.000288
+            }
+          ],
+          "atlantis_avg": 4006,
+          "atlantis_total_sold": 65283,
+          "latam_offers_median": 8490,
+          "ev_atlantis_per_kill": 1.15,
+          "ev_latam_per_kill": 2.44,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 1003,
+          "aegis": "Coal",
+          "name": "Coal",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 500,
+          "p_per_map_kill": 0.00016593,
+          "contributors": [
+            {
+              "mob_id": 1121,
+              "aegis": "GIEARTH",
+              "amount": 1,
+              "weight": 0.0044,
+              "rate_raw": 75,
+              "p_mob": 0.0375,
+              "p_contrib": 0.000166
+            }
+          ],
+          "atlantis_avg": 4122,
+          "atlantis_total_sold": 61290,
+          "latam_offers_median": 6399,
+          "ev_atlantis_per_kill": 0.68,
+          "ev_latam_per_kill": 1.06,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 911,
+          "aegis": "Scell",
+          "name": "Scell",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 120,
+          "p_per_map_kill": 0.00221239,
+          "contributors": [
+            {
+              "mob_id": 1176,
+              "aegis": "VITATA",
+              "amount": 10,
+              "weight": 0.0442,
+              "rate_raw": 100,
+              "p_mob": 0.05,
+              "p_contrib": 0.002212
+            }
+          ],
+          "atlantis_avg": 277,
+          "atlantis_total_sold": 5963,
+          "latam_offers_median": 2500,
+          "ev_atlantis_per_kill": 0.61,
+          "ev_latam_per_kill": 5.53,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 1001,
+          "aegis": "Sparkling_Dust",
+          "name": "Star Dust",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 1500,
+          "p_per_map_kill": 0.00011062,
+          "contributors": [
+            {
+              "mob_id": 1121,
+              "aegis": "GIEARTH",
+              "amount": 1,
+              "weight": 0.0044,
+              "rate_raw": 50,
+              "p_mob": 0.025,
+              "p_contrib": 0.000111
+            }
+          ],
+          "atlantis_avg": 1351,
+          "atlantis_total_sold": 5325,
+          "latam_offers_median": 55000,
+          "ev_atlantis_per_kill": 0.15,
+          "ev_latam_per_kill": 6.08,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 997,
+          "aegis": "Great_Nature",
+          "name": "Great Nature",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 3000,
+          "p_per_map_kill": 3.319e-05,
+          "contributors": [
+            {
+              "mob_id": 1121,
+              "aegis": "GIEARTH",
+              "amount": 1,
+              "weight": 0.0044,
+              "rate_raw": 15,
+              "p_mob": 0.0075,
+              "p_contrib": 3.3e-05
+            }
+          ],
+          "atlantis_avg": 4207,
+          "atlantis_total_sold": 29748,
+          "latam_offers_median": 5000,
+          "ev_atlantis_per_kill": 0.14,
+          "ev_latam_per_kill": 0.17,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 1040,
+          "aegis": "Elder_Pixie's_Beard",
+          "name": "Elder Pixie's Moustache",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 232,
+          "p_per_map_kill": 0.00442478,
+          "contributors": [
+            {
+              "mob_id": 1121,
+              "aegis": "GIEARTH",
+              "amount": 1,
+              "weight": 0.0044,
+              "rate_raw": 2750,
+              "p_mob": 1.0,
+              "p_contrib": 0.004425
+            }
+          ],
+          "atlantis_avg": null,
+          "atlantis_total_sold": null,
+          "latam_offers_median": null,
+          "ev_atlantis_per_kill": null,
+          "ev_latam_per_kill": null,
+          "in_atlantis": false,
+          "in_latam": false,
+          "in_grindable": false
+        },
+        {
+          "item_id": 1105,
+          "aegis": "Falchion_",
+          "name": "Falchion",
+          "type": "Weapon",
+          "bucket": "equip",
+          "npc_buy": 1500,
+          "p_per_map_kill": 0.00132743,
+          "contributors": [
+            {
+              "mob_id": 1005,
+              "aegis": "FARMILIAR",
+              "amount": 20,
+              "weight": 0.0885,
+              "rate_raw": 10,
+              "p_mob": 0.015,
+              "p_contrib": 0.001327
+            }
+          ],
+          "atlantis_avg": null,
+          "atlantis_total_sold": null,
+          "latam_offers_median": null,
+          "ev_atlantis_per_kill": null,
+          "ev_latam_per_kill": null,
+          "in_atlantis": false,
+          "in_latam": false,
+          "in_grindable": false
+        },
+        {
+          "item_id": 4020,
+          "aegis": "Farmiliar_Card",
+          "name": "Familiar Card",
+          "type": "Card",
+          "bucket": "card",
+          "npc_buy": 20,
+          "p_per_map_kill": 0.00088496,
+          "contributors": [
+            {
+              "mob_id": 1005,
+              "aegis": "FARMILIAR",
+              "amount": 20,
+              "weight": 0.0885,
+              "rate_raw": 1,
+              "p_mob": 0.01,
+              "p_contrib": 0.000885
+            }
+          ],
+          "atlantis_avg": null,
+          "atlantis_total_sold": null,
+          "latam_offers_median": null,
+          "ev_atlantis_per_kill": null,
+          "ev_latam_per_kill": null,
+          "in_atlantis": false,
+          "in_latam": true,
+          "in_grindable": false
+        },
+        {
+          "item_id": 4053,
+          "aegis": "Vitata_Card",
+          "name": "Vitata Card",
+          "type": "Card",
+          "bucket": "card",
+          "npc_buy": 20,
+          "p_per_map_kill": 0.00044248,
+          "contributors": [
+            {
+              "mob_id": 1176,
+              "aegis": "VITATA",
+              "amount": 10,
+              "weight": 0.0442,
+              "rate_raw": 1,
+              "p_mob": 0.01,
+              "p_contrib": 0.000442
+            }
+          ],
+          "atlantis_avg": null,
+          "atlantis_total_sold": null,
+          "latam_offers_median": null,
+          "ev_atlantis_per_kill": null,
+          "ev_latam_per_kill": null,
+          "in_atlantis": false,
+          "in_latam": true,
+          "in_grindable": false
+        },
+        {
+          "item_id": 2227,
+          "aegis": "Cap_",
+          "name": "Cap",
+          "type": "Armor",
+          "bucket": "equip",
+          "npc_buy": 12000,
+          "p_per_map_kill": 3.319e-05,
+          "contributors": [
+            {
+              "mob_id": 1121,
+              "aegis": "GIEARTH",
+              "amount": 1,
+              "weight": 0.0044,
+              "rate_raw": 5,
+              "p_mob": 0.0075,
+              "p_contrib": 3.3e-05
+            }
+          ],
+          "atlantis_avg": null,
+          "atlantis_total_sold": null,
+          "latam_offers_median": null,
+          "ev_atlantis_per_kill": null,
+          "ev_latam_per_kill": null,
+          "in_atlantis": false,
+          "in_latam": false,
+          "in_grindable": false
+        }
+      ],
+      "drops_top20": [
+        {
+          "item_id": 4043,
+          "aegis": "Andre_Card",
+          "name": "Andre Card",
+          "type": "Card",
+          "bucket": "card",
+          "npc_buy": 20,
+          "p_per_map_kill": 0.00530973,
+          "contributors": [
+            {
+              "mob_id": 1160,
+              "aegis": "PIERE",
+              "amount": 50,
+              "weight": 0.2212,
+              "rate_raw": 1,
+              "p_mob": 0.01,
+              "p_contrib": 0.002212
+            },
+            {
+              "mob_id": 1105,
+              "aegis": "DENIRO",
+              "amount": 40,
+              "weight": 0.177,
+              "rate_raw": 1,
+              "p_mob": 0.01,
+              "p_contrib": 0.00177
+            },
+            {
+              "mob_id": 1095,
+              "aegis": "ANDRE",
+              "amount": 15,
+              "weight": 0.0664,
+              "rate_raw": 1,
+              "p_mob": 0.01,
+              "p_contrib": 0.000664
+            },
+            {
+              "mob_id": 2857,
+              "aegis": "C5_DENIRO",
+              "amount": 3,
+              "weight": 0.0133,
+              "rate_raw": 5,
+              "p_mob": 0.05,
+              "p_contrib": 0.000664
+            }
+          ],
+          "atlantis_avg": 756994,
+          "atlantis_total_sold": 609,
+          "latam_offers_median": 4900000,
+          "ev_atlantis_per_kill": 4019.44,
+          "ev_latam_per_kill": 26017.7,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 1002,
+          "aegis": "Iron_Ore",
+          "name": "Iron Ore",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 50,
+          "p_per_map_kill": 0.07455752,
+          "contributors": [
+            {
+              "mob_id": 1097,
+              "aegis": "ANT_EGG",
+              "amount": 87,
+              "weight": 0.385,
+              "rate_raw": 100,
+              "p_mob": 0.05,
+              "p_contrib": 0.019248
+            },
+            {
+              "mob_id": 1160,
+              "aegis": "PIERE",
+              "amount": 50,
+              "weight": 0.2212,
+              "rate_raw": 200,
+              "p_mob": 0.1,
+              "p_contrib": 0.022124
+            },
+            {
+              "mob_id": 1105,
+              "aegis": "DENIRO",
+              "amount": 40,
+              "weight": 0.177,
+              "rate_raw": 225,
+              "p_mob": 0.1125,
+              "p_contrib": 0.019912
+            },
+            {
+              "mob_id": 1095,
+              "aegis": "ANDRE",
+              "amount": 15,
+              "weight": 0.0664,
+              "rate_raw": 175,
+              "p_mob": 0.0875,
+              "p_contrib": 0.005808
+            },
+            {
+              "mob_id": 2857,
+              "aegis": "C5_DENIRO",
+              "amount": 3,
+              "weight": 0.0133,
+              "rate_raw": 1125,
+              "p_mob": 0.5625,
+              "p_contrib": 0.007467
+            }
+          ],
+          "atlantis_avg": 13612,
+          "atlantis_total_sold": 6863,
+          "latam_offers_median": 11000,
+          "ev_atlantis_per_kill": 1014.88,
+          "ev_latam_per_kill": 820.13,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 938,
+          "aegis": "Sticky_Mucus",
+          "name": "Sticky Mucus",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 70,
+          "p_per_map_kill": 0.17040929,
+          "contributors": [
+            {
+              "mob_id": 1097,
+              "aegis": "ANT_EGG",
+              "amount": 87,
+              "weight": 0.385,
+              "rate_raw": 325,
+              "p_mob": 0.1625,
+              "p_contrib": 0.062555
+            },
+            {
+              "mob_id": 1160,
+              "aegis": "PIERE",
+              "amount": 50,
+              "weight": 0.2212,
+              "rate_raw": 300,
+              "p_mob": 0.15,
+              "p_contrib": 0.033186
+            },
+            {
+              "mob_id": 1105,
+              "aegis": "DENIRO",
+              "amount": 40,
+              "weight": 0.177,
+              "rate_raw": 600,
+              "p_mob": 0.3,
+              "p_contrib": 0.053097
+            },
+            {
+              "mob_id": 1095,
+              "aegis": "ANDRE",
+              "amount": 15,
+              "weight": 0.0664,
+              "rate_raw": 250,
+              "p_mob": 0.125,
+              "p_contrib": 0.008296
+            },
+            {
+              "mob_id": 2857,
+              "aegis": "C5_DENIRO",
+              "amount": 3,
+              "weight": 0.0133,
+              "rate_raw": 3000,
+              "p_mob": 1.0,
+              "p_contrib": 0.013274
+            }
+          ],
+          "atlantis_avg": 5113,
+          "atlantis_total_sold": 22391,
+          "latam_offers_median": 2000,
+          "ev_atlantis_per_kill": 871.3,
+          "ev_latam_per_kill": 340.82,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 913,
+          "aegis": "Tooth_Of_Bat",
+          "name": "Tooth of Bat",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 34,
+          "p_per_map_kill": 0.08849558,
+          "contributors": [
+            {
+              "mob_id": 1005,
+              "aegis": "FARMILIAR",
+              "amount": 20,
+              "weight": 0.0885,
+              "rate_raw": 2750,
+              "p_mob": 1.0,
+              "p_contrib": 0.088496
+            }
+          ],
+          "atlantis_avg": 9435,
+          "atlantis_total_sold": 108,
+          "latam_offers_median": 14960,
+          "ev_atlantis_per_kill": 834.96,
+          "ev_latam_per_kill": 1323.89,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 4013,
+          "aegis": "Andre_Egg_Card",
+          "name": "Andre Egg Card",
+          "type": "Card",
+          "bucket": "card",
+          "npc_buy": 20,
+          "p_per_map_kill": 0.00384956,
+          "contributors": [
+            {
+              "mob_id": 1097,
+              "aegis": "ANT_EGG",
+              "amount": 87,
+              "weight": 0.385,
+              "rate_raw": 1,
+              "p_mob": 0.01,
+              "p_contrib": 0.00385
+            }
+          ],
+          "atlantis_avg": 128224,
+          "atlantis_total_sold": 1348,
+          "latam_offers_median": 999999,
+          "ev_atlantis_per_kill": 493.61,
+          "ev_latam_per_kill": 3849.55,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 2209,
+          "aegis": "Ribbon_",
+          "name": "Ribbon",
+          "type": "Armor",
+          "bucket": "equip",
+          "npc_buy": 800,
+          "p_per_map_kill": 0.00106195,
+          "contributors": [
+            {
+              "mob_id": 1005,
+              "aegis": "FARMILIAR",
+              "amount": 20,
+              "weight": 0.0885,
+              "rate_raw": 8,
+              "p_mob": 0.012,
+              "p_contrib": 0.001062
+            }
+          ],
+          "atlantis_avg": 226774,
+          "atlantis_total_sold": 717,
+          "latam_offers_median": 200000,
+          "ev_atlantis_per_kill": 240.82,
+          "ev_latam_per_kill": 212.39,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 935,
+          "aegis": "Shell",
+          "name": "Shell",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 14,
+          "p_per_map_kill": 0.19247788,
+          "contributors": [
+            {
+              "mob_id": 1097,
+              "aegis": "ANT_EGG",
+              "amount": 87,
+              "weight": 0.385,
+              "rate_raw": 1000,
+              "p_mob": 0.5,
+              "p_contrib": 0.192478
+            }
+          ],
+          "atlantis_avg": 805,
+          "atlantis_total_sold": 36374,
+          "latam_offers_median": 3500,
+          "ev_atlantis_per_kill": 154.94,
+          "ev_latam_per_kill": 673.67,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 955,
+          "aegis": "Worm_Peelings",
+          "name": "Worm Peeling",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 52,
+          "p_per_map_kill": 0.52212389,
+          "contributors": [
+            {
+              "mob_id": 1160,
+              "aegis": "PIERE",
+              "amount": 50,
+              "weight": 0.2212,
+              "rate_raw": 4500,
+              "p_mob": 1.0,
+              "p_contrib": 0.221239
+            },
+            {
+              "mob_id": 1105,
+              "aegis": "DENIRO",
+              "amount": 40,
+              "weight": 0.177,
+              "rate_raw": 4500,
+              "p_mob": 1.0,
+              "p_contrib": 0.176991
+            },
+            {
+              "mob_id": 1095,
+              "aegis": "ANDRE",
+              "amount": 15,
+              "weight": 0.0664,
+              "rate_raw": 4500,
+              "p_mob": 1.0,
+              "p_contrib": 0.066372
+            },
+            {
+              "mob_id": 1176,
+              "aegis": "VITATA",
+              "amount": 10,
+              "weight": 0.0442,
+              "rate_raw": 2500,
+              "p_mob": 1.0,
+              "p_contrib": 0.044248
+            },
+            {
+              "mob_id": 2857,
+              "aegis": "C5_DENIRO",
+              "amount": 3,
+              "weight": 0.0133,
+              "rate_raw": 10000,
+              "p_mob": 1.0,
+              "p_contrib": 0.013274
+            }
+          ],
+          "atlantis_avg": 251,
+          "atlantis_total_sold": 1712,
+          "latam_offers_median": 4999,
+          "ev_atlantis_per_kill": 131.05,
+          "ev_latam_per_kill": 2610.1,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 4087,
+          "aegis": "Giearth_Card",
+          "name": "Giearth Card",
+          "type": "Card",
+          "bucket": "card",
+          "npc_buy": 20,
+          "p_per_map_kill": 4.425e-05,
+          "contributors": [
+            {
+              "mob_id": 1121,
+              "aegis": "GIEARTH",
+              "amount": 1,
+              "weight": 0.0044,
+              "rate_raw": 1,
+              "p_mob": 0.01,
+              "p_contrib": 4.4e-05
+            }
+          ],
+          "atlantis_avg": 2745305,
+          "atlantis_total_sold": 332,
+          "latam_offers_median": 1500000,
+          "ev_atlantis_per_kill": 121.47,
+          "ev_latam_per_kill": 66.37,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 909,
+          "aegis": "Jellopy",
+          "name": "Jellopy",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 6,
+          "p_per_map_kill": 0.19247788,
+          "contributors": [
+            {
+              "mob_id": 1097,
+              "aegis": "ANT_EGG",
+              "amount": 87,
+              "weight": 0.385,
+              "rate_raw": 1000,
+              "p_mob": 0.5,
+              "p_contrib": 0.192478
+            }
+          ],
+          "atlantis_avg": 445,
+          "atlantis_total_sold": 2406372,
+          "latam_offers_median": 2099,
+          "ev_atlantis_per_kill": 85.65,
+          "ev_latam_per_kill": 404.01,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 507,
+          "aegis": "Red_Herb",
+          "name": "Red Herb",
+          "type": "Healing",
+          "bucket": "heal",
+          "npc_buy": 18,
+          "p_per_map_kill": 0.03097345,
+          "contributors": [
+            {
+              "mob_id": 1005,
+              "aegis": "FARMILIAR",
+              "amount": 20,
+              "weight": 0.0885,
+              "rate_raw": 350,
+              "p_mob": 0.35,
+              "p_contrib": 0.030973
+            }
+          ],
+          "atlantis_avg": 1239,
+          "atlantis_total_sold": 159474,
+          "latam_offers_median": 1399,
+          "ev_atlantis_per_kill": 38.38,
+          "ev_latam_per_kill": 43.33,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 601,
+          "aegis": "Wing_Of_Fly",
+          "name": "Fly Wing",
+          "type": "DelayConsume",
+          "bucket": "common",
+          "npc_buy": 250,
+          "p_per_map_kill": 0.16371681,
+          "contributors": [
+            {
+              "mob_id": 1160,
+              "aegis": "PIERE",
+              "amount": 50,
+              "weight": 0.2212,
+              "rate_raw": 500,
+              "p_mob": 0.25,
+              "p_contrib": 0.05531
+            },
+            {
+              "mob_id": 1105,
+              "aegis": "DENIRO",
+              "amount": 40,
+              "weight": 0.177,
+              "rate_raw": 500,
+              "p_mob": 0.25,
+              "p_contrib": 0.044248
+            },
+            {
+              "mob_id": 1005,
+              "aegis": "FARMILIAR",
+              "amount": 20,
+              "weight": 0.0885,
+              "rate_raw": 500,
+              "p_mob": 0.25,
+              "p_contrib": 0.022124
+            },
+            {
+              "mob_id": 1095,
+              "aegis": "ANDRE",
+              "amount": 15,
+              "weight": 0.0664,
+              "rate_raw": 500,
+              "p_mob": 0.25,
+              "p_contrib": 0.016593
+            },
+            {
+              "mob_id": 1176,
+              "aegis": "VITATA",
+              "amount": 10,
+              "weight": 0.0442,
+              "rate_raw": 500,
+              "p_mob": 0.25,
+              "p_contrib": 0.011062
+            },
+            {
+              "mob_id": 2857,
+              "aegis": "C5_DENIRO",
+              "amount": 3,
+              "weight": 0.0133,
+              "rate_raw": 2500,
+              "p_mob": 1.0,
+              "p_contrib": 0.013274
+            },
+            {
+              "mob_id": 1121,
+              "aegis": "GIEARTH",
+              "amount": 1,
+              "weight": 0.0044,
+              "rate_raw": 500,
+              "p_mob": 0.25,
+              "p_contrib": 0.001106
+            }
+          ],
+          "atlantis_avg": 179,
+          "atlantis_total_sold": 1994437,
+          "latam_offers_median": 300,
+          "ev_atlantis_per_kill": 29.31,
+          "ev_latam_per_kill": 49.12,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 514,
+          "aegis": "Grape",
+          "name": "Grape",
+          "type": "Healing",
+          "bucket": "heal",
+          "npc_buy": 200,
+          "p_per_map_kill": 0.00442478,
+          "contributors": [
+            {
+              "mob_id": 1005,
+              "aegis": "FARMILIAR",
+              "amount": 20,
+              "weight": 0.0885,
+              "rate_raw": 50,
+              "p_mob": 0.05,
+              "p_contrib": 0.004425
+            }
+          ],
+          "atlantis_avg": 6489,
+          "atlantis_total_sold": 139299,
+          "latam_offers_median": null,
+          "ev_atlantis_per_kill": 28.71,
+          "ev_latam_per_kill": null,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 2286,
+          "aegis": "Elven_Ears",
+          "name": "Elven Ears",
+          "type": "Armor",
+          "bucket": "equip",
+          "npc_buy": 20,
+          "p_per_map_kill": 6.64e-06,
+          "contributors": [
+            {
+              "mob_id": 1121,
+              "aegis": "GIEARTH",
+              "amount": 1,
+              "weight": 0.0044,
+              "rate_raw": 1,
+              "p_mob": 0.0015,
+              "p_contrib": 7e-06
+            }
+          ],
+          "atlantis_avg": 3967597,
+          "atlantis_total_sold": 808,
+          "latam_offers_median": 10000000,
+          "ev_atlantis_per_kill": 26.33,
+          "ev_latam_per_kill": 66.37,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 526,
+          "aegis": "Royal_Jelly",
+          "name": "Royal Jelly",
+          "type": "Healing",
+          "bucket": "heal",
+          "npc_buy": 7000,
+          "p_per_map_kill": 0.00442478,
+          "contributors": [
+            {
+              "mob_id": 1176,
+              "aegis": "VITATA",
+              "amount": 10,
+              "weight": 0.0442,
+              "rate_raw": 100,
+              "p_mob": 0.1,
+              "p_contrib": 0.004425
+            }
+          ],
+          "atlantis_avg": 4575,
+          "atlantis_total_sold": 1921721,
+          "latam_offers_median": null,
+          "ev_atlantis_per_kill": 20.24,
+          "ev_latam_per_kill": null,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 910,
+          "aegis": "Garlet",
+          "name": "Garlet",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 30,
+          "p_per_map_kill": 0.22345133,
+          "contributors": [
+            {
+              "mob_id": 1160,
+              "aegis": "PIERE",
+              "amount": 50,
+              "weight": 0.2212,
+              "rate_raw": 550,
+              "p_mob": 0.275,
+              "p_contrib": 0.060841
+            },
+            {
+              "mob_id": 1105,
+              "aegis": "DENIRO",
+              "amount": 40,
+              "weight": 0.177,
+              "rate_raw": 1500,
+              "p_mob": 0.75,
+              "p_contrib": 0.132743
+            },
+            {
+              "mob_id": 1095,
+              "aegis": "ANDRE",
+              "amount": 15,
+              "weight": 0.0664,
+              "rate_raw": 500,
+              "p_mob": 0.25,
+              "p_contrib": 0.016593
+            },
+            {
+              "mob_id": 2857,
+              "aegis": "C5_DENIRO",
+              "amount": 3,
+              "weight": 0.0133,
+              "rate_raw": 7500,
+              "p_mob": 1.0,
+              "p_contrib": 0.013274
+            }
+          ],
+          "atlantis_avg": 75,
+          "atlantis_total_sold": 1063,
+          "latam_offers_median": 2500,
+          "ev_atlantis_per_kill": 16.76,
+          "ev_latam_per_kill": 558.63,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 757,
+          "aegis": "Elunium_Stone",
+          "name": "Rough Elunium",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 650,
+          "p_per_map_kill": 0.0043031,
+          "contributors": [
+            {
+              "mob_id": 1160,
+              "aegis": "PIERE",
+              "amount": 50,
+              "weight": 0.2212,
+              "rate_raw": 16,
+              "p_mob": 0.008,
+              "p_contrib": 0.00177
+            },
+            {
+              "mob_id": 1105,
+              "aegis": "DENIRO",
+              "amount": 40,
+              "weight": 0.177,
+              "rate_raw": 17,
+              "p_mob": 0.0085,
+              "p_contrib": 0.001504
+            },
+            {
+              "mob_id": 1095,
+              "aegis": "ANDRE",
+              "amount": 15,
+              "weight": 0.0664,
+              "rate_raw": 14,
+              "p_mob": 0.007,
+              "p_contrib": 0.000465
+            },
+            {
+              "mob_id": 2857,
+              "aegis": "C5_DENIRO",
+              "amount": 3,
+              "weight": 0.0133,
+              "rate_raw": 85,
+              "p_mob": 0.0425,
+              "p_contrib": 0.000564
+            }
+          ],
+          "atlantis_avg": 3688,
+          "atlantis_total_sold": 17213,
+          "latam_offers_median": 1000,
+          "ev_atlantis_per_kill": 15.87,
+          "ev_latam_per_kill": 4.3,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 1010,
+          "aegis": "Phracon",
+          "name": "Phracon",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 200,
+          "p_per_map_kill": 0.03079646,
+          "contributors": [
+            {
+              "mob_id": 1097,
+              "aegis": "ANT_EGG",
+              "amount": 87,
+              "weight": 0.385,
+              "rate_raw": 160,
+              "p_mob": 0.08,
+              "p_contrib": 0.030796
+            }
+          ],
+          "atlantis_avg": 464,
+          "atlantis_total_sold": 1240,
+          "latam_offers_median": 45666,
+          "ev_atlantis_per_kill": 14.29,
+          "ev_latam_per_kill": 1406.35,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 518,
+          "aegis": "Honey",
+          "name": "Honey",
+          "type": "Healing",
+          "bucket": "heal",
+          "npc_buy": 500,
+          "p_per_map_kill": 0.00774336,
+          "contributors": [
+            {
+              "mob_id": 1176,
+              "aegis": "VITATA",
+              "amount": 10,
+              "weight": 0.0442,
+              "rate_raw": 175,
+              "p_mob": 0.175,
+              "p_contrib": 0.007743
+            }
+          ],
+          "atlantis_avg": 1761,
+          "atlantis_total_sold": 1242713,
+          "latam_offers_median": 2690,
+          "ev_atlantis_per_kill": 13.64,
+          "ev_latam_per_kill": 20.83,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 992,
+          "aegis": "Wind_Of_Verdure",
+          "name": "Wind of Verdure",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 1000,
+          "p_per_map_kill": 0.00165929,
+          "contributors": [
+            {
+              "mob_id": 1160,
+              "aegis": "PIERE",
+              "amount": 50,
+              "weight": 0.2212,
+              "rate_raw": 15,
+              "p_mob": 0.0075,
+              "p_contrib": 0.001659
+            }
+          ],
+          "atlantis_avg": 4972,
+          "atlantis_total_sold": 106026,
+          "latam_offers_median": 2899,
+          "ev_atlantis_per_kill": 8.25,
+          "ev_latam_per_kill": 4.81,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        }
+      ],
+      "loot": {
+        "policy": "full",
+        "policy_reason": "oferta bot = mats/consumibles con precio; cards/equip quedan fuera del stock masivo (ver drops completos)",
+        "offer_drop_count": 22,
+        "ev_atlantis_per_kill_offer": 3262.41,
+        "ev_latam_per_kill_offer": 8249.37,
+        "ev_atlantis_per_kill_all_drops": 8193.39,
+        "ev_atlantis_per_kill_mats_only": 3262.41,
+        "card_count": 5,
+        "ev_atlantis_cards": 4634.52,
+        "offer_drops_top30": [
+          {
+            "item_id": 1002,
+            "aegis": "Iron_Ore",
+            "name": "Iron Ore",
+            "type": "Etc",
+            "bucket": "common",
+            "npc_buy": 50,
+            "p_per_map_kill": 0.07455752,
+            "contributors": [
+              {
+                "mob_id": 1097,
+                "aegis": "ANT_EGG",
+                "amount": 87,
+                "weight": 0.385,
+                "rate_raw": 100,
+                "p_mob": 0.05,
+                "p_contrib": 0.019248
+              },
+              {
+                "mob_id": 1160,
+                "aegis": "PIERE",
+                "amount": 50,
+                "weight": 0.2212,
+                "rate_raw": 200,
+                "p_mob": 0.1,
+                "p_contrib": 0.022124
+              },
+              {
+                "mob_id": 1105,
+                "aegis": "DENIRO",
+                "amount": 40,
+                "weight": 0.177,
+                "rate_raw": 225,
+                "p_mob": 0.1125,
+                "p_contrib": 0.019912
+              },
+              {
+                "mob_id": 1095,
+                "aegis": "ANDRE",
+                "amount": 15,
+                "weight": 0.0664,
+                "rate_raw": 175,
+                "p_mob": 0.0875,
+                "p_contrib": 0.005808
+              },
+              {
+                "mob_id": 2857,
+                "aegis": "C5_DENIRO",
+                "amount": 3,
+                "weight": 0.0133,
+                "rate_raw": 1125,
+                "p_mob": 0.5625,
+                "p_contrib": 0.007467
+              }
+            ],
+            "atlantis_avg": 13612,
+            "atlantis_total_sold": 6863,
+            "latam_offers_median": 11000,
+            "ev_atlantis_per_kill": 1014.88,
+            "ev_latam_per_kill": 820.13,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          },
+          {
+            "item_id": 938,
+            "aegis": "Sticky_Mucus",
+            "name": "Sticky Mucus",
+            "type": "Etc",
+            "bucket": "common",
+            "npc_buy": 70,
+            "p_per_map_kill": 0.17040929,
+            "contributors": [
+              {
+                "mob_id": 1097,
+                "aegis": "ANT_EGG",
+                "amount": 87,
+                "weight": 0.385,
+                "rate_raw": 325,
+                "p_mob": 0.1625,
+                "p_contrib": 0.062555
+              },
+              {
+                "mob_id": 1160,
+                "aegis": "PIERE",
+                "amount": 50,
+                "weight": 0.2212,
+                "rate_raw": 300,
+                "p_mob": 0.15,
+                "p_contrib": 0.033186
+              },
+              {
+                "mob_id": 1105,
+                "aegis": "DENIRO",
+                "amount": 40,
+                "weight": 0.177,
+                "rate_raw": 600,
+                "p_mob": 0.3,
+                "p_contrib": 0.053097
+              },
+              {
+                "mob_id": 1095,
+                "aegis": "ANDRE",
+                "amount": 15,
+                "weight": 0.0664,
+                "rate_raw": 250,
+                "p_mob": 0.125,
+                "p_contrib": 0.008296
+              },
+              {
+                "mob_id": 2857,
+                "aegis": "C5_DENIRO",
+                "amount": 3,
+                "weight": 0.0133,
+                "rate_raw": 3000,
+                "p_mob": 1.0,
+                "p_contrib": 0.013274
+              }
+            ],
+            "atlantis_avg": 5113,
+            "atlantis_total_sold": 22391,
+            "latam_offers_median": 2000,
+            "ev_atlantis_per_kill": 871.3,
+            "ev_latam_per_kill": 340.82,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          },
+          {
+            "item_id": 913,
+            "aegis": "Tooth_Of_Bat",
+            "name": "Tooth of Bat",
+            "type": "Etc",
+            "bucket": "common",
+            "npc_buy": 34,
+            "p_per_map_kill": 0.08849558,
+            "contributors": [
+              {
+                "mob_id": 1005,
+                "aegis": "FARMILIAR",
+                "amount": 20,
+                "weight": 0.0885,
+                "rate_raw": 2750,
+                "p_mob": 1.0,
+                "p_contrib": 0.088496
+              }
+            ],
+            "atlantis_avg": 9435,
+            "atlantis_total_sold": 108,
+            "latam_offers_median": 14960,
+            "ev_atlantis_per_kill": 834.96,
+            "ev_latam_per_kill": 1323.89,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          },
+          {
+            "item_id": 935,
+            "aegis": "Shell",
+            "name": "Shell",
+            "type": "Etc",
+            "bucket": "common",
+            "npc_buy": 14,
+            "p_per_map_kill": 0.19247788,
+            "contributors": [
+              {
+                "mob_id": 1097,
+                "aegis": "ANT_EGG",
+                "amount": 87,
+                "weight": 0.385,
+                "rate_raw": 1000,
+                "p_mob": 0.5,
+                "p_contrib": 0.192478
+              }
+            ],
+            "atlantis_avg": 805,
+            "atlantis_total_sold": 36374,
+            "latam_offers_median": 3500,
+            "ev_atlantis_per_kill": 154.94,
+            "ev_latam_per_kill": 673.67,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          },
+          {
+            "item_id": 955,
+            "aegis": "Worm_Peelings",
+            "name": "Worm Peeling",
+            "type": "Etc",
+            "bucket": "common",
+            "npc_buy": 52,
+            "p_per_map_kill": 0.52212389,
+            "contributors": [
+              {
+                "mob_id": 1160,
+                "aegis": "PIERE",
+                "amount": 50,
+                "weight": 0.2212,
+                "rate_raw": 4500,
+                "p_mob": 1.0,
+                "p_contrib": 0.221239
+              },
+              {
+                "mob_id": 1105,
+                "aegis": "DENIRO",
+                "amount": 40,
+                "weight": 0.177,
+                "rate_raw": 4500,
+                "p_mob": 1.0,
+                "p_contrib": 0.176991
+              },
+              {
+                "mob_id": 1095,
+                "aegis": "ANDRE",
+                "amount": 15,
+                "weight": 0.0664,
+                "rate_raw": 4500,
+                "p_mob": 1.0,
+                "p_contrib": 0.066372
+              },
+              {
+                "mob_id": 1176,
+                "aegis": "VITATA",
+                "amount": 10,
+                "weight": 0.0442,
+                "rate_raw": 2500,
+                "p_mob": 1.0,
+                "p_contrib": 0.044248
+              },
+              {
+                "mob_id": 2857,
+                "aegis": "C5_DENIRO",
+                "amount": 3,
+                "weight": 0.0133,
+                "rate_raw": 10000,
+                "p_mob": 1.0,
+                "p_contrib": 0.013274
+              }
+            ],
+            "atlantis_avg": 251,
+            "atlantis_total_sold": 1712,
+            "latam_offers_median": 4999,
+            "ev_atlantis_per_kill": 131.05,
+            "ev_latam_per_kill": 2610.1,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          },
+          {
+            "item_id": 909,
+            "aegis": "Jellopy",
+            "name": "Jellopy",
+            "type": "Etc",
+            "bucket": "common",
+            "npc_buy": 6,
+            "p_per_map_kill": 0.19247788,
+            "contributors": [
+              {
+                "mob_id": 1097,
+                "aegis": "ANT_EGG",
+                "amount": 87,
+                "weight": 0.385,
+                "rate_raw": 1000,
+                "p_mob": 0.5,
+                "p_contrib": 0.192478
+              }
+            ],
+            "atlantis_avg": 445,
+            "atlantis_total_sold": 2406372,
+            "latam_offers_median": 2099,
+            "ev_atlantis_per_kill": 85.65,
+            "ev_latam_per_kill": 404.01,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          },
+          {
+            "item_id": 507,
+            "aegis": "Red_Herb",
+            "name": "Red Herb",
+            "type": "Healing",
+            "bucket": "heal",
+            "npc_buy": 18,
+            "p_per_map_kill": 0.03097345,
+            "contributors": [
+              {
+                "mob_id": 1005,
+                "aegis": "FARMILIAR",
+                "amount": 20,
+                "weight": 0.0885,
+                "rate_raw": 350,
+                "p_mob": 0.35,
+                "p_contrib": 0.030973
+              }
+            ],
+            "atlantis_avg": 1239,
+            "atlantis_total_sold": 159474,
+            "latam_offers_median": 1399,
+            "ev_atlantis_per_kill": 38.38,
+            "ev_latam_per_kill": 43.33,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          },
+          {
+            "item_id": 514,
+            "aegis": "Grape",
+            "name": "Grape",
+            "type": "Healing",
+            "bucket": "heal",
+            "npc_buy": 200,
+            "p_per_map_kill": 0.00442478,
+            "contributors": [
+              {
+                "mob_id": 1005,
+                "aegis": "FARMILIAR",
+                "amount": 20,
+                "weight": 0.0885,
+                "rate_raw": 50,
+                "p_mob": 0.05,
+                "p_contrib": 0.004425
+              }
+            ],
+            "atlantis_avg": 6489,
+            "atlantis_total_sold": 139299,
+            "latam_offers_median": null,
+            "ev_atlantis_per_kill": 28.71,
+            "ev_latam_per_kill": null,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          },
+          {
+            "item_id": 526,
+            "aegis": "Royal_Jelly",
+            "name": "Royal Jelly",
+            "type": "Healing",
+            "bucket": "heal",
+            "npc_buy": 7000,
+            "p_per_map_kill": 0.00442478,
+            "contributors": [
+              {
+                "mob_id": 1176,
+                "aegis": "VITATA",
+                "amount": 10,
+                "weight": 0.0442,
+                "rate_raw": 100,
+                "p_mob": 0.1,
+                "p_contrib": 0.004425
+              }
+            ],
+            "atlantis_avg": 4575,
+            "atlantis_total_sold": 1921721,
+            "latam_offers_median": null,
+            "ev_atlantis_per_kill": 20.24,
+            "ev_latam_per_kill": null,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          },
+          {
+            "item_id": 910,
+            "aegis": "Garlet",
+            "name": "Garlet",
+            "type": "Etc",
+            "bucket": "common",
+            "npc_buy": 30,
+            "p_per_map_kill": 0.22345133,
+            "contributors": [
+              {
+                "mob_id": 1160,
+                "aegis": "PIERE",
+                "amount": 50,
+                "weight": 0.2212,
+                "rate_raw": 550,
+                "p_mob": 0.275,
+                "p_contrib": 0.060841
+              },
+              {
+                "mob_id": 1105,
+                "aegis": "DENIRO",
+                "amount": 40,
+                "weight": 0.177,
+                "rate_raw": 1500,
+                "p_mob": 0.75,
+                "p_contrib": 0.132743
+              },
+              {
+                "mob_id": 1095,
+                "aegis": "ANDRE",
+                "amount": 15,
+                "weight": 0.0664,
+                "rate_raw": 500,
+                "p_mob": 0.25,
+                "p_contrib": 0.016593
+              },
+              {
+                "mob_id": 2857,
+                "aegis": "C5_DENIRO",
+                "amount": 3,
+                "weight": 0.0133,
+                "rate_raw": 7500,
+                "p_mob": 1.0,
+                "p_contrib": 0.013274
+              }
+            ],
+            "atlantis_avg": 75,
+            "atlantis_total_sold": 1063,
+            "latam_offers_median": 2500,
+            "ev_atlantis_per_kill": 16.76,
+            "ev_latam_per_kill": 558.63,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          },
+          {
+            "item_id": 757,
+            "aegis": "Elunium_Stone",
+            "name": "Rough Elunium",
+            "type": "Etc",
+            "bucket": "common",
+            "npc_buy": 650,
+            "p_per_map_kill": 0.0043031,
+            "contributors": [
+              {
+                "mob_id": 1160,
+                "aegis": "PIERE",
+                "amount": 50,
+                "weight": 0.2212,
+                "rate_raw": 16,
+                "p_mob": 0.008,
+                "p_contrib": 0.00177
+              },
+              {
+                "mob_id": 1105,
+                "aegis": "DENIRO",
+                "amount": 40,
+                "weight": 0.177,
+                "rate_raw": 17,
+                "p_mob": 0.0085,
+                "p_contrib": 0.001504
+              },
+              {
+                "mob_id": 1095,
+                "aegis": "ANDRE",
+                "amount": 15,
+                "weight": 0.0664,
+                "rate_raw": 14,
+                "p_mob": 0.007,
+                "p_contrib": 0.000465
+              },
+              {
+                "mob_id": 2857,
+                "aegis": "C5_DENIRO",
+                "amount": 3,
+                "weight": 0.0133,
+                "rate_raw": 85,
+                "p_mob": 0.0425,
+                "p_contrib": 0.000564
+              }
+            ],
+            "atlantis_avg": 3688,
+            "atlantis_total_sold": 17213,
+            "latam_offers_median": 1000,
+            "ev_atlantis_per_kill": 15.87,
+            "ev_latam_per_kill": 4.3,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          },
+          {
+            "item_id": 1010,
+            "aegis": "Phracon",
+            "name": "Phracon",
+            "type": "Etc",
+            "bucket": "common",
+            "npc_buy": 200,
+            "p_per_map_kill": 0.03079646,
+            "contributors": [
+              {
+                "mob_id": 1097,
+                "aegis": "ANT_EGG",
+                "amount": 87,
+                "weight": 0.385,
+                "rate_raw": 160,
+                "p_mob": 0.08,
+                "p_contrib": 0.030796
+              }
+            ],
+            "atlantis_avg": 464,
+            "atlantis_total_sold": 1240,
+            "latam_offers_median": 45666,
+            "ev_atlantis_per_kill": 14.29,
+            "ev_latam_per_kill": 1406.35,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          },
+          {
+            "item_id": 518,
+            "aegis": "Honey",
+            "name": "Honey",
+            "type": "Healing",
+            "bucket": "heal",
+            "npc_buy": 500,
+            "p_per_map_kill": 0.00774336,
+            "contributors": [
+              {
+                "mob_id": 1176,
+                "aegis": "VITATA",
+                "amount": 10,
+                "weight": 0.0442,
+                "rate_raw": 175,
+                "p_mob": 0.175,
+                "p_contrib": 0.007743
+              }
+            ],
+            "atlantis_avg": 1761,
+            "atlantis_total_sold": 1242713,
+            "latam_offers_median": 2690,
+            "ev_atlantis_per_kill": 13.64,
+            "ev_latam_per_kill": 20.83,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          },
+          {
+            "item_id": 992,
+            "aegis": "Wind_Of_Verdure",
+            "name": "Wind of Verdure",
+            "type": "Etc",
+            "bucket": "common",
+            "npc_buy": 1000,
+            "p_per_map_kill": 0.00165929,
+            "contributors": [
+              {
+                "mob_id": 1160,
+                "aegis": "PIERE",
+                "amount": 50,
+                "weight": 0.2212,
+                "rate_raw": 15,
+                "p_mob": 0.0075,
+                "p_contrib": 0.001659
+              }
+            ],
+            "atlantis_avg": 4972,
+            "atlantis_total_sold": 106026,
+            "latam_offers_median": 2899,
+            "ev_atlantis_per_kill": 8.25,
+            "ev_latam_per_kill": 4.81,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          },
+          {
+            "item_id": 990,
+            "aegis": "Boody_Red",
+            "name": "Red Blood",
+            "type": "Etc",
+            "bucket": "common",
+            "npc_buy": 1000,
+            "p_per_map_kill": 0.00304204,
+            "contributors": [
+              {
+                "mob_id": 1105,
+                "aegis": "DENIRO",
+                "amount": 40,
+                "weight": 0.177,
+                "rate_raw": 25,
+                "p_mob": 0.0125,
+                "p_contrib": 0.002212
+              },
+              {
+                "mob_id": 2857,
+                "aegis": "C5_DENIRO",
+                "amount": 3,
+                "weight": 0.0133,
+                "rate_raw": 125,
+                "p_mob": 0.0625,
+                "p_contrib": 0.00083
+              }
+            ],
+            "atlantis_avg": 2017,
+            "atlantis_total_sold": 163683,
+            "latam_offers_median": 4950,
+            "ev_atlantis_per_kill": 6.14,
+            "ev_latam_per_kill": 15.06,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          },
+          {
+            "item_id": 993,
+            "aegis": "Yellow_Live",
+            "name": "Green Live",
+            "type": "Etc",
+            "bucket": "common",
+            "npc_buy": 1000,
+            "p_per_map_kill": 0.00182522,
+            "contributors": [
+              {
+                "mob_id": 1095,
+                "aegis": "ANDRE",
+                "amount": 15,
+                "weight": 0.0664,
+                "rate_raw": 25,
+                "p_mob": 0.0125,
+                "p_contrib": 0.00083
+              },
+              {
+                "mob_id": 1176,
+                "aegis": "VITATA",
+                "amount": 10,
+                "weight": 0.0442,
+                "rate_raw": 45,
+                "p_mob": 0.0225,
+                "p_contrib": 0.000996
+              }
+            ],
+            "atlantis_avg": 1641,
+            "atlantis_total_sold": 25359,
+            "latam_offers_median": 3198,
+            "ev_atlantis_per_kill": 3.0,
+            "ev_latam_per_kill": 5.84,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          },
+          {
+            "item_id": 645,
+            "aegis": "Center_Potion",
+            "name": "Concentration Potion",
+            "type": "Usable",
+            "bucket": "use",
+            "npc_buy": 1200,
+            "p_per_map_kill": 0.00221239,
+            "contributors": [
+              {
+                "mob_id": 1005,
+                "aegis": "FARMILIAR",
+                "amount": 20,
+                "weight": 0.0885,
+                "rate_raw": 25,
+                "p_mob": 0.025,
+                "p_contrib": 0.002212
+              }
+            ],
+            "atlantis_avg": 731,
+            "atlantis_total_sold": 5765,
+            "latam_offers_median": 1050,
+            "ev_atlantis_per_kill": 1.62,
+            "ev_latam_per_kill": 2.32,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          },
+          {
+            "item_id": 756,
+            "aegis": "Oridecon_Stone",
+            "name": "Rough Oridecon",
+            "type": "Etc",
+            "bucket": "common",
+            "npc_buy": 550,
+            "p_per_map_kill": 0.00028761,
+            "contributors": [
+              {
+                "mob_id": 1176,
+                "aegis": "VITATA",
+                "amount": 10,
+                "weight": 0.0442,
+                "rate_raw": 13,
+                "p_mob": 0.0065,
+                "p_contrib": 0.000288
+              }
+            ],
+            "atlantis_avg": 4006,
+            "atlantis_total_sold": 65283,
+            "latam_offers_median": 8490,
+            "ev_atlantis_per_kill": 1.15,
+            "ev_latam_per_kill": 2.44,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          },
+          {
+            "item_id": 1003,
+            "aegis": "Coal",
+            "name": "Coal",
+            "type": "Etc",
+            "bucket": "common",
+            "npc_buy": 500,
+            "p_per_map_kill": 0.00016593,
+            "contributors": [
+              {
+                "mob_id": 1121,
+                "aegis": "GIEARTH",
+                "amount": 1,
+                "weight": 0.0044,
+                "rate_raw": 75,
+                "p_mob": 0.0375,
+                "p_contrib": 0.000166
+              }
+            ],
+            "atlantis_avg": 4122,
+            "atlantis_total_sold": 61290,
+            "latam_offers_median": 6399,
+            "ev_atlantis_per_kill": 0.68,
+            "ev_latam_per_kill": 1.06,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          },
+          {
+            "item_id": 911,
+            "aegis": "Scell",
+            "name": "Scell",
+            "type": "Etc",
+            "bucket": "common",
+            "npc_buy": 120,
+            "p_per_map_kill": 0.00221239,
+            "contributors": [
+              {
+                "mob_id": 1176,
+                "aegis": "VITATA",
+                "amount": 10,
+                "weight": 0.0442,
+                "rate_raw": 100,
+                "p_mob": 0.05,
+                "p_contrib": 0.002212
+              }
+            ],
+            "atlantis_avg": 277,
+            "atlantis_total_sold": 5963,
+            "latam_offers_median": 2500,
+            "ev_atlantis_per_kill": 0.61,
+            "ev_latam_per_kill": 5.53,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          },
+          {
+            "item_id": 1001,
+            "aegis": "Sparkling_Dust",
+            "name": "Star Dust",
+            "type": "Etc",
+            "bucket": "common",
+            "npc_buy": 1500,
+            "p_per_map_kill": 0.00011062,
+            "contributors": [
+              {
+                "mob_id": 1121,
+                "aegis": "GIEARTH",
+                "amount": 1,
+                "weight": 0.0044,
+                "rate_raw": 50,
+                "p_mob": 0.025,
+                "p_contrib": 0.000111
+              }
+            ],
+            "atlantis_avg": 1351,
+            "atlantis_total_sold": 5325,
+            "latam_offers_median": 55000,
+            "ev_atlantis_per_kill": 0.15,
+            "ev_latam_per_kill": 6.08,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          },
+          {
+            "item_id": 997,
+            "aegis": "Great_Nature",
+            "name": "Great Nature",
+            "type": "Etc",
+            "bucket": "common",
+            "npc_buy": 3000,
+            "p_per_map_kill": 3.319e-05,
+            "contributors": [
+              {
+                "mob_id": 1121,
+                "aegis": "GIEARTH",
+                "amount": 1,
+                "weight": 0.0044,
+                "rate_raw": 15,
+                "p_mob": 0.0075,
+                "p_contrib": 3.3e-05
+              }
+            ],
+            "atlantis_avg": 4207,
+            "atlantis_total_sold": 29748,
+            "latam_offers_median": 5000,
+            "ev_atlantis_per_kill": 0.14,
+            "ev_latam_per_kill": 0.17,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          }
+        ],
+        "offer_item_ids": [
+          1002,
+          938,
+          913,
+          935,
+          955,
+          909,
+          507,
+          514,
+          526,
+          910,
+          757,
+          1010,
+          518,
+          992,
+          990,
+          993,
+          645,
+          756,
+          1003,
+          911,
+          1001,
+          997
+        ],
+        "top_cards": [
+          {
+            "item_id": 4043,
+            "name": "Andre Card",
+            "p": 0.00530973,
+            "atlantis_avg": 756994,
+            "ev_at": 4019.44
+          },
+          {
+            "item_id": 4013,
+            "name": "Andre Egg Card",
+            "p": 0.00384956,
+            "atlantis_avg": 128224,
+            "ev_at": 493.61
+          },
+          {
+            "item_id": 4087,
+            "name": "Giearth Card",
+            "p": 4.425e-05,
+            "atlantis_avg": 2745305,
+            "ev_at": 121.47
+          },
+          {
+            "item_id": 4020,
+            "name": "Familiar Card",
+            "p": 0.00088496,
+            "atlantis_avg": null,
+            "ev_at": null
+          },
+          {
+            "item_id": 4053,
+            "name": "Vitata Card",
+            "p": 0.00044248,
+            "atlantis_avg": null,
+            "ev_at": null
+          }
+        ]
+      }
+    }
+  ]
+}

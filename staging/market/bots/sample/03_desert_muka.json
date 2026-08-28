@@ -1,0 +1,2024 @@
+{
+  "id": "03_desert_muka",
+  "label": "Desierto Muka",
+  "tier_target": "easy",
+  "loot_policy": "full",
+  "notes": "Alta densidad Muka/Peco; mats desierto.",
+  "maps": [
+    "moc_fild01"
+  ],
+  "map_tiers": [
+    "easy"
+  ],
+  "map_avg_levels": [
+    22.06
+  ],
+  "offer_item_count": 10,
+  "ev_atlantis_per_kill_by_map": [
+    2440.57
+  ],
+  "ev_latam_per_kill_by_map": [
+    6414.44
+  ],
+  "map_profiles": [
+    {
+      "map": "moc_fild01",
+      "spawn_total_raw": 339,
+      "combat_total_amount": 329,
+      "plants_excluded_amount": 10,
+      "plants_excluded": [
+        {
+          "aegis": "YELLOW_PLANT",
+          "amount": 10
+        }
+      ],
+      "missing_mob_ids": [],
+      "avg_level": 22.06,
+      "max_level": 25,
+      "avg_hp": 328,
+      "tier": "easy",
+      "mobs": [
+        {
+          "mob_id": 1055,
+          "aegis": "MUKA",
+          "name": "Muka",
+          "amount": 202,
+          "weight": 0.614,
+          "level": 23,
+          "hp": 337,
+          "race": "Plant",
+          "element": "Earth",
+          "drop_count": 8,
+          "drops": [
+            {
+              "item_id": 952,
+              "aegis": "Cactus_Needle",
+              "name": "Cactus Needle",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 4500,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 1.0
+            },
+            {
+              "item_id": 507,
+              "aegis": "Red_Herb",
+              "name": "Red Herb",
+              "type": "Healing",
+              "bucket": "heal",
+              "rate_raw": 500,
+              "rate_mult": 10.0,
+              "p_per_kill_this_mob": 0.5
+            },
+            {
+              "item_id": 601,
+              "aegis": "Wing_Of_Fly",
+              "name": "Fly Wing",
+              "type": "DelayConsume",
+              "bucket": "common",
+              "rate_raw": 500,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.25
+            },
+            {
+              "item_id": 511,
+              "aegis": "Green_Herb",
+              "name": "Green Herb",
+              "type": "Healing",
+              "bucket": "heal",
+              "rate_raw": 200,
+              "rate_mult": 10.0,
+              "p_per_kill_this_mob": 0.2
+            },
+            {
+              "item_id": 1002,
+              "aegis": "Iron_Ore",
+              "name": "Iron Ore",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 125,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.0625
+            },
+            {
+              "item_id": 1451,
+              "aegis": "Guisarme",
+              "name": "Guisarme",
+              "type": "Weapon",
+              "bucket": "equip",
+              "rate_raw": 25,
+              "rate_mult": 15.0,
+              "p_per_kill_this_mob": 0.0375
+            },
+            {
+              "item_id": 993,
+              "aegis": "Yellow_Live",
+              "name": "Green Live",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 35,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.0175
+            },
+            {
+              "item_id": 4036,
+              "aegis": "Muka_Card",
+              "name": "Muka Card",
+              "type": "Card",
+              "bucket": "card",
+              "rate_raw": 1,
+              "rate_mult": 100.0,
+              "p_per_kill_this_mob": 0.01
+            }
+          ]
+        },
+        {
+          "mob_id": 1019,
+          "aegis": "PECOPECO",
+          "name": "Peco Peco",
+          "amount": 93,
+          "weight": 0.2827,
+          "level": 25,
+          "hp": 354,
+          "race": "Brute",
+          "element": "Fire",
+          "drop_count": 7,
+          "drops": [
+            {
+              "item_id": 925,
+              "aegis": "Bill_Of_Birds",
+              "name": "Bill of Birds",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 4500,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 1.0
+            },
+            {
+              "item_id": 582,
+              "aegis": "Orange",
+              "name": "Orange",
+              "type": "Healing",
+              "bucket": "heal",
+              "rate_raw": 500,
+              "rate_mult": 10.0,
+              "p_per_kill_this_mob": 0.5
+            },
+            {
+              "item_id": 601,
+              "aegis": "Wing_Of_Fly",
+              "name": "Fly Wing",
+              "type": "DelayConsume",
+              "bucket": "common",
+              "rate_raw": 500,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.25
+            },
+            {
+              "item_id": 508,
+              "aegis": "Yellow_Herb",
+              "name": "Yellow Herb",
+              "type": "Healing",
+              "bucket": "heal",
+              "rate_raw": 100,
+              "rate_mult": 10.0,
+              "p_per_kill_this_mob": 0.1
+            },
+            {
+              "item_id": 1604,
+              "aegis": "Wand",
+              "name": "Wand",
+              "type": "Weapon",
+              "bucket": "equip",
+              "rate_raw": 50,
+              "rate_mult": 15.0,
+              "p_per_kill_this_mob": 0.075
+            },
+            {
+              "item_id": 2402,
+              "aegis": "Sandals_",
+              "name": "Sandals",
+              "type": "Armor",
+              "bucket": "equip",
+              "rate_raw": 10,
+              "rate_mult": 15.0,
+              "p_per_kill_this_mob": 0.015
+            },
+            {
+              "item_id": 4031,
+              "aegis": "Pecopeco_Card",
+              "name": "Peco Peco Card",
+              "type": "Card",
+              "bucket": "card",
+              "rate_raw": 1,
+              "rate_mult": 100.0,
+              "p_per_kill_this_mob": 0.01
+            }
+          ]
+        },
+        {
+          "mob_id": 1047,
+          "aegis": "PECOPECO_EGG",
+          "name": "Peco Peco Egg",
+          "amount": 31,
+          "weight": 0.0942,
+          "level": 7,
+          "hp": 70,
+          "race": "Formless",
+          "element": "Neutral",
+          "drop_count": 6,
+          "drops": [
+            {
+              "item_id": 507,
+              "aegis": "Red_Herb",
+              "name": "Red Herb",
+              "type": "Healing",
+              "bucket": "heal",
+              "rate_raw": 400,
+              "rate_mult": 10.0,
+              "p_per_kill_this_mob": 0.4
+            },
+            {
+              "item_id": 935,
+              "aegis": "Shell",
+              "name": "Shell",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 750,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.375
+            },
+            {
+              "item_id": 1010,
+              "aegis": "Phracon",
+              "name": "Phracon",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 125,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.0625
+            },
+            {
+              "item_id": 4007,
+              "aegis": "Pecopeco_Egg_Card",
+              "name": "Peco Peco Egg Card",
+              "type": "Card",
+              "bucket": "card",
+              "rate_raw": 1,
+              "rate_mult": 100.0,
+              "p_per_kill_this_mob": 0.01
+            },
+            {
+              "item_id": 736,
+              "aegis": "White_Platter",
+              "name": "China",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 5,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.0025
+            },
+            {
+              "item_id": 2102,
+              "aegis": "Guard_",
+              "name": "Guard",
+              "type": "Armor",
+              "bucket": "equip",
+              "rate_raw": 1,
+              "rate_mult": 15.0,
+              "p_per_kill_this_mob": 0.0015
+            }
+          ]
+        },
+        {
+          "mob_id": 2741,
+          "aegis": "C3_MUKA",
+          "name": "Muka Ringleader",
+          "amount": 3,
+          "weight": 0.0091,
+          "level": 23,
+          "hp": 1685,
+          "race": "Plant",
+          "element": "Earth",
+          "drop_count": 8,
+          "drops": [
+            {
+              "item_id": 952,
+              "aegis": "Cactus_Needle",
+              "name": "Cactus Needle",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 10000,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 1.0
+            },
+            {
+              "item_id": 601,
+              "aegis": "Wing_Of_Fly",
+              "name": "Fly Wing",
+              "type": "DelayConsume",
+              "bucket": "common",
+              "rate_raw": 2500,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 1.0
+            },
+            {
+              "item_id": 511,
+              "aegis": "Green_Herb",
+              "name": "Green Herb",
+              "type": "Healing",
+              "bucket": "heal",
+              "rate_raw": 1000,
+              "rate_mult": 10.0,
+              "p_per_kill_this_mob": 1.0
+            },
+            {
+              "item_id": 507,
+              "aegis": "Red_Herb",
+              "name": "Red Herb",
+              "type": "Healing",
+              "bucket": "heal",
+              "rate_raw": 2500,
+              "rate_mult": 10.0,
+              "p_per_kill_this_mob": 1.0
+            },
+            {
+              "item_id": 1002,
+              "aegis": "Iron_Ore",
+              "name": "Iron Ore",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 625,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.3125
+            },
+            {
+              "item_id": 1451,
+              "aegis": "Guisarme",
+              "name": "Guisarme",
+              "type": "Weapon",
+              "bucket": "equip",
+              "rate_raw": 125,
+              "rate_mult": 15.0,
+              "p_per_kill_this_mob": 0.1875
+            },
+            {
+              "item_id": 993,
+              "aegis": "Yellow_Live",
+              "name": "Green Live",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 175,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.0875
+            },
+            {
+              "item_id": 4036,
+              "aegis": "Muka_Card",
+              "name": "Muka Card",
+              "type": "Card",
+              "bucket": "card",
+              "rate_raw": 5,
+              "rate_mult": 100.0,
+              "p_per_kill_this_mob": 0.05
+            }
+          ]
+        }
+      ],
+      "drop_count": 19,
+      "drop_priced_count": 18,
+      "ev_atlantis_per_kill": 14289.84,
+      "ev_latam_per_kill": 16083.56,
+      "drops": [
+        {
+          "item_id": 4031,
+          "aegis": "Pecopeco_Card",
+          "name": "Peco Peco Card",
+          "type": "Card",
+          "bucket": "card",
+          "npc_buy": 20,
+          "p_per_map_kill": 0.00282675,
+          "contributors": [
+            {
+              "mob_id": 1019,
+              "aegis": "PECOPECO",
+              "amount": 93,
+              "weight": 0.2827,
+              "rate_raw": 1,
+              "p_mob": 0.01,
+              "p_contrib": 0.002827
+            }
+          ],
+          "atlantis_avg": 2879251,
+          "atlantis_total_sold": 1327,
+          "latam_offers_median": 2499999,
+          "ev_atlantis_per_kill": 8138.92,
+          "ev_latam_per_kill": 7066.87,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 4007,
+          "aegis": "Pecopeco_Egg_Card",
+          "name": "Peco Peco Egg Card",
+          "type": "Card",
+          "bucket": "card",
+          "npc_buy": 20,
+          "p_per_map_kill": 0.00094225,
+          "contributors": [
+            {
+              "mob_id": 1047,
+              "aegis": "PECOPECO_EGG",
+              "amount": 31,
+              "weight": 0.0942,
+              "rate_raw": 1,
+              "p_mob": 0.01,
+              "p_contrib": 0.000942
+            }
+          ],
+          "atlantis_avg": 3315660,
+          "atlantis_total_sold": 861,
+          "latam_offers_median": 1899999,
+          "ev_atlantis_per_kill": 3124.18,
+          "ev_latam_per_kill": 1790.27,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 952,
+          "aegis": "Cactus_Needle",
+          "name": "Cactus Needle",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 82,
+          "p_per_map_kill": 0.6231003,
+          "contributors": [
+            {
+              "mob_id": 1055,
+              "aegis": "MUKA",
+              "amount": 202,
+              "weight": 0.614,
+              "rate_raw": 4500,
+              "p_mob": 1.0,
+              "p_contrib": 0.613982
+            },
+            {
+              "mob_id": 2741,
+              "aegis": "C3_MUKA",
+              "amount": 3,
+              "weight": 0.0091,
+              "rate_raw": 10000,
+              "p_mob": 1.0,
+              "p_contrib": 0.009119
+            }
+          ],
+          "atlantis_avg": 1677,
+          "atlantis_total_sold": 758297,
+          "latam_offers_median": 900,
+          "ev_atlantis_per_kill": 1044.94,
+          "ev_latam_per_kill": 560.79,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 1002,
+          "aegis": "Iron_Ore",
+          "name": "Iron Ore",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 50,
+          "p_per_map_kill": 0.0412234,
+          "contributors": [
+            {
+              "mob_id": 1055,
+              "aegis": "MUKA",
+              "amount": 202,
+              "weight": 0.614,
+              "rate_raw": 125,
+              "p_mob": 0.0625,
+              "p_contrib": 0.038374
+            },
+            {
+              "mob_id": 2741,
+              "aegis": "C3_MUKA",
+              "amount": 3,
+              "weight": 0.0091,
+              "rate_raw": 625,
+              "p_mob": 0.3125,
+              "p_contrib": 0.00285
+            }
+          ],
+          "atlantis_avg": 13612,
+          "atlantis_total_sold": 6863,
+          "latam_offers_median": 11000,
+          "ev_atlantis_per_kill": 561.13,
+          "ev_latam_per_kill": 453.46,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 1604,
+          "aegis": "Wand",
+          "name": "Wand",
+          "type": "Weapon",
+          "bucket": "equip",
+          "npc_buy": 2500,
+          "p_per_map_kill": 0.02120061,
+          "contributors": [
+            {
+              "mob_id": 1019,
+              "aegis": "PECOPECO",
+              "amount": 93,
+              "weight": 0.2827,
+              "rate_raw": 50,
+              "p_mob": 0.075,
+              "p_contrib": 0.021201
+            }
+          ],
+          "atlantis_avg": 25679,
+          "atlantis_total_sold": 159,
+          "latam_offers_median": 34999,
+          "ev_atlantis_per_kill": 544.41,
+          "ev_latam_per_kill": 742.0,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 507,
+          "aegis": "Red_Herb",
+          "name": "Red Herb",
+          "type": "Healing",
+          "bucket": "heal",
+          "npc_buy": 18,
+          "p_per_map_kill": 0.35379939,
+          "contributors": [
+            {
+              "mob_id": 1055,
+              "aegis": "MUKA",
+              "amount": 202,
+              "weight": 0.614,
+              "rate_raw": 500,
+              "p_mob": 0.5,
+              "p_contrib": 0.306991
+            },
+            {
+              "mob_id": 1047,
+              "aegis": "PECOPECO_EGG",
+              "amount": 31,
+              "weight": 0.0942,
+              "rate_raw": 400,
+              "p_mob": 0.4,
+              "p_contrib": 0.03769
+            },
+            {
+              "mob_id": 2741,
+              "aegis": "C3_MUKA",
+              "amount": 3,
+              "weight": 0.0091,
+              "rate_raw": 2500,
+              "p_mob": 1.0,
+              "p_contrib": 0.009119
+            }
+          ],
+          "atlantis_avg": 1239,
+          "atlantis_total_sold": 159474,
+          "latam_offers_median": 1399,
+          "ev_atlantis_per_kill": 438.36,
+          "ev_latam_per_kill": 494.97,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 582,
+          "aegis": "Orange",
+          "name": "Orange",
+          "type": "Healing",
+          "bucket": "heal",
+          "npc_buy": 300,
+          "p_per_map_kill": 0.14133739,
+          "contributors": [
+            {
+              "mob_id": 1019,
+              "aegis": "PECOPECO",
+              "amount": 93,
+              "weight": 0.2827,
+              "rate_raw": 500,
+              "p_mob": 0.5,
+              "p_contrib": 0.141337
+            }
+          ],
+          "atlantis_avg": 941,
+          "atlantis_total_sold": 113207,
+          "latam_offers_median": 29998,
+          "ev_atlantis_per_kill": 133.0,
+          "ev_latam_per_kill": 4239.84,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 925,
+          "aegis": "Bill_Of_Birds",
+          "name": "Bill of Birds",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 48,
+          "p_per_map_kill": 0.28267477,
+          "contributors": [
+            {
+              "mob_id": 1019,
+              "aegis": "PECOPECO",
+              "amount": 93,
+              "weight": 0.2827,
+              "rate_raw": 4500,
+              "p_mob": 1.0,
+              "p_contrib": 0.282675
+            }
+          ],
+          "atlantis_avg": 462,
+          "atlantis_total_sold": 180818,
+          "latam_offers_median": null,
+          "ev_atlantis_per_kill": 130.6,
+          "ev_latam_per_kill": null,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 511,
+          "aegis": "Green_Herb",
+          "name": "Green Herb",
+          "type": "Healing",
+          "bucket": "heal",
+          "npc_buy": 10,
+          "p_per_map_kill": 0.13191489,
+          "contributors": [
+            {
+              "mob_id": 1055,
+              "aegis": "MUKA",
+              "amount": 202,
+              "weight": 0.614,
+              "rate_raw": 200,
+              "p_mob": 0.2,
+              "p_contrib": 0.122796
+            },
+            {
+              "mob_id": 2741,
+              "aegis": "C3_MUKA",
+              "amount": 3,
+              "weight": 0.0091,
+              "rate_raw": 1000,
+              "p_mob": 1.0,
+              "p_contrib": 0.009119
+            }
+          ],
+          "atlantis_avg": 525,
+          "atlantis_total_sold": 3373812,
+          "latam_offers_median": 1499,
+          "ev_atlantis_per_kill": 69.26,
+          "ev_latam_per_kill": 197.74,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 601,
+          "aegis": "Wing_Of_Fly",
+          "name": "Fly Wing",
+          "type": "DelayConsume",
+          "bucket": "common",
+          "npc_buy": 250,
+          "p_per_map_kill": 0.23328267,
+          "contributors": [
+            {
+              "mob_id": 1055,
+              "aegis": "MUKA",
+              "amount": 202,
+              "weight": 0.614,
+              "rate_raw": 500,
+              "p_mob": 0.25,
+              "p_contrib": 0.153495
+            },
+            {
+              "mob_id": 1019,
+              "aegis": "PECOPECO",
+              "amount": 93,
+              "weight": 0.2827,
+              "rate_raw": 500,
+              "p_mob": 0.25,
+              "p_contrib": 0.070669
+            },
+            {
+              "mob_id": 2741,
+              "aegis": "C3_MUKA",
+              "amount": 3,
+              "weight": 0.0091,
+              "rate_raw": 2500,
+              "p_mob": 1.0,
+              "p_contrib": 0.009119
+            }
+          ],
+          "atlantis_avg": 179,
+          "atlantis_total_sold": 1994437,
+          "latam_offers_median": 300,
+          "ev_atlantis_per_kill": 41.76,
+          "ev_latam_per_kill": 69.98,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 935,
+          "aegis": "Shell",
+          "name": "Shell",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 14,
+          "p_per_map_kill": 0.03533435,
+          "contributors": [
+            {
+              "mob_id": 1047,
+              "aegis": "PECOPECO_EGG",
+              "amount": 31,
+              "weight": 0.0942,
+              "rate_raw": 750,
+              "p_mob": 0.375,
+              "p_contrib": 0.035334
+            }
+          ],
+          "atlantis_avg": 805,
+          "atlantis_total_sold": 36374,
+          "latam_offers_median": 3500,
+          "ev_atlantis_per_kill": 28.44,
+          "ev_latam_per_kill": 123.67,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 993,
+          "aegis": "Yellow_Live",
+          "name": "Green Live",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 1000,
+          "p_per_map_kill": 0.01154255,
+          "contributors": [
+            {
+              "mob_id": 1055,
+              "aegis": "MUKA",
+              "amount": 202,
+              "weight": 0.614,
+              "rate_raw": 35,
+              "p_mob": 0.0175,
+              "p_contrib": 0.010745
+            },
+            {
+              "mob_id": 2741,
+              "aegis": "C3_MUKA",
+              "amount": 3,
+              "weight": 0.0091,
+              "rate_raw": 175,
+              "p_mob": 0.0875,
+              "p_contrib": 0.000798
+            }
+          ],
+          "atlantis_avg": 1641,
+          "atlantis_total_sold": 25359,
+          "latam_offers_median": 3198,
+          "ev_atlantis_per_kill": 18.94,
+          "ev_latam_per_kill": 36.91,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 508,
+          "aegis": "Yellow_Herb",
+          "name": "Yellow Herb",
+          "type": "Healing",
+          "bucket": "heal",
+          "npc_buy": 40,
+          "p_per_map_kill": 0.02826748,
+          "contributors": [
+            {
+              "mob_id": 1019,
+              "aegis": "PECOPECO",
+              "amount": 93,
+              "weight": 0.2827,
+              "rate_raw": 100,
+              "p_mob": 0.1,
+              "p_contrib": 0.028267
+            }
+          ],
+          "atlantis_avg": 466,
+          "atlantis_total_sold": 147963,
+          "latam_offers_median": 1349,
+          "ev_atlantis_per_kill": 13.17,
+          "ev_latam_per_kill": 38.13,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 1010,
+          "aegis": "Phracon",
+          "name": "Phracon",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 200,
+          "p_per_map_kill": 0.00588906,
+          "contributors": [
+            {
+              "mob_id": 1047,
+              "aegis": "PECOPECO_EGG",
+              "amount": 31,
+              "weight": 0.0942,
+              "rate_raw": 125,
+              "p_mob": 0.0625,
+              "p_contrib": 0.005889
+            }
+          ],
+          "atlantis_avg": 464,
+          "atlantis_total_sold": 1240,
+          "latam_offers_median": 45666,
+          "ev_atlantis_per_kill": 2.73,
+          "ev_latam_per_kill": 268.93,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 1451,
+          "aegis": "Guisarme",
+          "name": "Guisarme",
+          "type": "Weapon",
+          "bucket": "equip",
+          "npc_buy": 13000,
+          "p_per_map_kill": 0.02473404,
+          "contributors": [
+            {
+              "mob_id": 1055,
+              "aegis": "MUKA",
+              "amount": 202,
+              "weight": 0.614,
+              "rate_raw": 25,
+              "p_mob": 0.0375,
+              "p_contrib": 0.023024
+            },
+            {
+              "mob_id": 2741,
+              "aegis": "C3_MUKA",
+              "amount": 3,
+              "weight": 0.0091,
+              "rate_raw": 125,
+              "p_mob": 0.1875,
+              "p_contrib": 0.00171
+            }
+          ],
+          "atlantis_avg": null,
+          "atlantis_total_sold": null,
+          "latam_offers_median": null,
+          "ev_atlantis_per_kill": null,
+          "ev_latam_per_kill": null,
+          "in_atlantis": false,
+          "in_latam": true,
+          "in_grindable": false
+        },
+        {
+          "item_id": 4036,
+          "aegis": "Muka_Card",
+          "name": "Muka Card",
+          "type": "Card",
+          "bucket": "card",
+          "npc_buy": 20,
+          "p_per_map_kill": 0.00659574,
+          "contributors": [
+            {
+              "mob_id": 1055,
+              "aegis": "MUKA",
+              "amount": 202,
+              "weight": 0.614,
+              "rate_raw": 1,
+              "p_mob": 0.01,
+              "p_contrib": 0.00614
+            },
+            {
+              "mob_id": 2741,
+              "aegis": "C3_MUKA",
+              "amount": 3,
+              "weight": 0.0091,
+              "rate_raw": 5,
+              "p_mob": 0.05,
+              "p_contrib": 0.000456
+            }
+          ],
+          "atlantis_avg": null,
+          "atlantis_total_sold": null,
+          "latam_offers_median": null,
+          "ev_atlantis_per_kill": null,
+          "ev_latam_per_kill": null,
+          "in_atlantis": false,
+          "in_latam": true,
+          "in_grindable": false
+        },
+        {
+          "item_id": 2402,
+          "aegis": "Sandals_",
+          "name": "Sandals",
+          "type": "Armor",
+          "bucket": "equip",
+          "npc_buy": 400,
+          "p_per_map_kill": 0.00424012,
+          "contributors": [
+            {
+              "mob_id": 1019,
+              "aegis": "PECOPECO",
+              "amount": 93,
+              "weight": 0.2827,
+              "rate_raw": 10,
+              "p_mob": 0.015,
+              "p_contrib": 0.00424
+            }
+          ],
+          "atlantis_avg": null,
+          "atlantis_total_sold": null,
+          "latam_offers_median": null,
+          "ev_atlantis_per_kill": null,
+          "ev_latam_per_kill": null,
+          "in_atlantis": false,
+          "in_latam": true,
+          "in_grindable": false
+        },
+        {
+          "item_id": 736,
+          "aegis": "White_Platter",
+          "name": "China",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 750,
+          "p_per_map_kill": 0.00023556,
+          "contributors": [
+            {
+              "mob_id": 1047,
+              "aegis": "PECOPECO_EGG",
+              "amount": 31,
+              "weight": 0.0942,
+              "rate_raw": 5,
+              "p_mob": 0.0025,
+              "p_contrib": 0.000236
+            }
+          ],
+          "atlantis_avg": null,
+          "atlantis_total_sold": null,
+          "latam_offers_median": null,
+          "ev_atlantis_per_kill": null,
+          "ev_latam_per_kill": null,
+          "in_atlantis": false,
+          "in_latam": false,
+          "in_grindable": false
+        },
+        {
+          "item_id": 2102,
+          "aegis": "Guard_",
+          "name": "Guard",
+          "type": "Armor",
+          "bucket": "equip",
+          "npc_buy": 500,
+          "p_per_map_kill": 0.00014134,
+          "contributors": [
+            {
+              "mob_id": 1047,
+              "aegis": "PECOPECO_EGG",
+              "amount": 31,
+              "weight": 0.0942,
+              "rate_raw": 1,
+              "p_mob": 0.0015,
+              "p_contrib": 0.000141
+            }
+          ],
+          "atlantis_avg": null,
+          "atlantis_total_sold": null,
+          "latam_offers_median": null,
+          "ev_atlantis_per_kill": null,
+          "ev_latam_per_kill": null,
+          "in_atlantis": false,
+          "in_latam": true,
+          "in_grindable": false
+        }
+      ],
+      "drops_top20": [
+        {
+          "item_id": 4031,
+          "aegis": "Pecopeco_Card",
+          "name": "Peco Peco Card",
+          "type": "Card",
+          "bucket": "card",
+          "npc_buy": 20,
+          "p_per_map_kill": 0.00282675,
+          "contributors": [
+            {
+              "mob_id": 1019,
+              "aegis": "PECOPECO",
+              "amount": 93,
+              "weight": 0.2827,
+              "rate_raw": 1,
+              "p_mob": 0.01,
+              "p_contrib": 0.002827
+            }
+          ],
+          "atlantis_avg": 2879251,
+          "atlantis_total_sold": 1327,
+          "latam_offers_median": 2499999,
+          "ev_atlantis_per_kill": 8138.92,
+          "ev_latam_per_kill": 7066.87,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 4007,
+          "aegis": "Pecopeco_Egg_Card",
+          "name": "Peco Peco Egg Card",
+          "type": "Card",
+          "bucket": "card",
+          "npc_buy": 20,
+          "p_per_map_kill": 0.00094225,
+          "contributors": [
+            {
+              "mob_id": 1047,
+              "aegis": "PECOPECO_EGG",
+              "amount": 31,
+              "weight": 0.0942,
+              "rate_raw": 1,
+              "p_mob": 0.01,
+              "p_contrib": 0.000942
+            }
+          ],
+          "atlantis_avg": 3315660,
+          "atlantis_total_sold": 861,
+          "latam_offers_median": 1899999,
+          "ev_atlantis_per_kill": 3124.18,
+          "ev_latam_per_kill": 1790.27,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 952,
+          "aegis": "Cactus_Needle",
+          "name": "Cactus Needle",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 82,
+          "p_per_map_kill": 0.6231003,
+          "contributors": [
+            {
+              "mob_id": 1055,
+              "aegis": "MUKA",
+              "amount": 202,
+              "weight": 0.614,
+              "rate_raw": 4500,
+              "p_mob": 1.0,
+              "p_contrib": 0.613982
+            },
+            {
+              "mob_id": 2741,
+              "aegis": "C3_MUKA",
+              "amount": 3,
+              "weight": 0.0091,
+              "rate_raw": 10000,
+              "p_mob": 1.0,
+              "p_contrib": 0.009119
+            }
+          ],
+          "atlantis_avg": 1677,
+          "atlantis_total_sold": 758297,
+          "latam_offers_median": 900,
+          "ev_atlantis_per_kill": 1044.94,
+          "ev_latam_per_kill": 560.79,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 1002,
+          "aegis": "Iron_Ore",
+          "name": "Iron Ore",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 50,
+          "p_per_map_kill": 0.0412234,
+          "contributors": [
+            {
+              "mob_id": 1055,
+              "aegis": "MUKA",
+              "amount": 202,
+              "weight": 0.614,
+              "rate_raw": 125,
+              "p_mob": 0.0625,
+              "p_contrib": 0.038374
+            },
+            {
+              "mob_id": 2741,
+              "aegis": "C3_MUKA",
+              "amount": 3,
+              "weight": 0.0091,
+              "rate_raw": 625,
+              "p_mob": 0.3125,
+              "p_contrib": 0.00285
+            }
+          ],
+          "atlantis_avg": 13612,
+          "atlantis_total_sold": 6863,
+          "latam_offers_median": 11000,
+          "ev_atlantis_per_kill": 561.13,
+          "ev_latam_per_kill": 453.46,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 1604,
+          "aegis": "Wand",
+          "name": "Wand",
+          "type": "Weapon",
+          "bucket": "equip",
+          "npc_buy": 2500,
+          "p_per_map_kill": 0.02120061,
+          "contributors": [
+            {
+              "mob_id": 1019,
+              "aegis": "PECOPECO",
+              "amount": 93,
+              "weight": 0.2827,
+              "rate_raw": 50,
+              "p_mob": 0.075,
+              "p_contrib": 0.021201
+            }
+          ],
+          "atlantis_avg": 25679,
+          "atlantis_total_sold": 159,
+          "latam_offers_median": 34999,
+          "ev_atlantis_per_kill": 544.41,
+          "ev_latam_per_kill": 742.0,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 507,
+          "aegis": "Red_Herb",
+          "name": "Red Herb",
+          "type": "Healing",
+          "bucket": "heal",
+          "npc_buy": 18,
+          "p_per_map_kill": 0.35379939,
+          "contributors": [
+            {
+              "mob_id": 1055,
+              "aegis": "MUKA",
+              "amount": 202,
+              "weight": 0.614,
+              "rate_raw": 500,
+              "p_mob": 0.5,
+              "p_contrib": 0.306991
+            },
+            {
+              "mob_id": 1047,
+              "aegis": "PECOPECO_EGG",
+              "amount": 31,
+              "weight": 0.0942,
+              "rate_raw": 400,
+              "p_mob": 0.4,
+              "p_contrib": 0.03769
+            },
+            {
+              "mob_id": 2741,
+              "aegis": "C3_MUKA",
+              "amount": 3,
+              "weight": 0.0091,
+              "rate_raw": 2500,
+              "p_mob": 1.0,
+              "p_contrib": 0.009119
+            }
+          ],
+          "atlantis_avg": 1239,
+          "atlantis_total_sold": 159474,
+          "latam_offers_median": 1399,
+          "ev_atlantis_per_kill": 438.36,
+          "ev_latam_per_kill": 494.97,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 582,
+          "aegis": "Orange",
+          "name": "Orange",
+          "type": "Healing",
+          "bucket": "heal",
+          "npc_buy": 300,
+          "p_per_map_kill": 0.14133739,
+          "contributors": [
+            {
+              "mob_id": 1019,
+              "aegis": "PECOPECO",
+              "amount": 93,
+              "weight": 0.2827,
+              "rate_raw": 500,
+              "p_mob": 0.5,
+              "p_contrib": 0.141337
+            }
+          ],
+          "atlantis_avg": 941,
+          "atlantis_total_sold": 113207,
+          "latam_offers_median": 29998,
+          "ev_atlantis_per_kill": 133.0,
+          "ev_latam_per_kill": 4239.84,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 925,
+          "aegis": "Bill_Of_Birds",
+          "name": "Bill of Birds",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 48,
+          "p_per_map_kill": 0.28267477,
+          "contributors": [
+            {
+              "mob_id": 1019,
+              "aegis": "PECOPECO",
+              "amount": 93,
+              "weight": 0.2827,
+              "rate_raw": 4500,
+              "p_mob": 1.0,
+              "p_contrib": 0.282675
+            }
+          ],
+          "atlantis_avg": 462,
+          "atlantis_total_sold": 180818,
+          "latam_offers_median": null,
+          "ev_atlantis_per_kill": 130.6,
+          "ev_latam_per_kill": null,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 511,
+          "aegis": "Green_Herb",
+          "name": "Green Herb",
+          "type": "Healing",
+          "bucket": "heal",
+          "npc_buy": 10,
+          "p_per_map_kill": 0.13191489,
+          "contributors": [
+            {
+              "mob_id": 1055,
+              "aegis": "MUKA",
+              "amount": 202,
+              "weight": 0.614,
+              "rate_raw": 200,
+              "p_mob": 0.2,
+              "p_contrib": 0.122796
+            },
+            {
+              "mob_id": 2741,
+              "aegis": "C3_MUKA",
+              "amount": 3,
+              "weight": 0.0091,
+              "rate_raw": 1000,
+              "p_mob": 1.0,
+              "p_contrib": 0.009119
+            }
+          ],
+          "atlantis_avg": 525,
+          "atlantis_total_sold": 3373812,
+          "latam_offers_median": 1499,
+          "ev_atlantis_per_kill": 69.26,
+          "ev_latam_per_kill": 197.74,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 601,
+          "aegis": "Wing_Of_Fly",
+          "name": "Fly Wing",
+          "type": "DelayConsume",
+          "bucket": "common",
+          "npc_buy": 250,
+          "p_per_map_kill": 0.23328267,
+          "contributors": [
+            {
+              "mob_id": 1055,
+              "aegis": "MUKA",
+              "amount": 202,
+              "weight": 0.614,
+              "rate_raw": 500,
+              "p_mob": 0.25,
+              "p_contrib": 0.153495
+            },
+            {
+              "mob_id": 1019,
+              "aegis": "PECOPECO",
+              "amount": 93,
+              "weight": 0.2827,
+              "rate_raw": 500,
+              "p_mob": 0.25,
+              "p_contrib": 0.070669
+            },
+            {
+              "mob_id": 2741,
+              "aegis": "C3_MUKA",
+              "amount": 3,
+              "weight": 0.0091,
+              "rate_raw": 2500,
+              "p_mob": 1.0,
+              "p_contrib": 0.009119
+            }
+          ],
+          "atlantis_avg": 179,
+          "atlantis_total_sold": 1994437,
+          "latam_offers_median": 300,
+          "ev_atlantis_per_kill": 41.76,
+          "ev_latam_per_kill": 69.98,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 935,
+          "aegis": "Shell",
+          "name": "Shell",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 14,
+          "p_per_map_kill": 0.03533435,
+          "contributors": [
+            {
+              "mob_id": 1047,
+              "aegis": "PECOPECO_EGG",
+              "amount": 31,
+              "weight": 0.0942,
+              "rate_raw": 750,
+              "p_mob": 0.375,
+              "p_contrib": 0.035334
+            }
+          ],
+          "atlantis_avg": 805,
+          "atlantis_total_sold": 36374,
+          "latam_offers_median": 3500,
+          "ev_atlantis_per_kill": 28.44,
+          "ev_latam_per_kill": 123.67,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 993,
+          "aegis": "Yellow_Live",
+          "name": "Green Live",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 1000,
+          "p_per_map_kill": 0.01154255,
+          "contributors": [
+            {
+              "mob_id": 1055,
+              "aegis": "MUKA",
+              "amount": 202,
+              "weight": 0.614,
+              "rate_raw": 35,
+              "p_mob": 0.0175,
+              "p_contrib": 0.010745
+            },
+            {
+              "mob_id": 2741,
+              "aegis": "C3_MUKA",
+              "amount": 3,
+              "weight": 0.0091,
+              "rate_raw": 175,
+              "p_mob": 0.0875,
+              "p_contrib": 0.000798
+            }
+          ],
+          "atlantis_avg": 1641,
+          "atlantis_total_sold": 25359,
+          "latam_offers_median": 3198,
+          "ev_atlantis_per_kill": 18.94,
+          "ev_latam_per_kill": 36.91,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 508,
+          "aegis": "Yellow_Herb",
+          "name": "Yellow Herb",
+          "type": "Healing",
+          "bucket": "heal",
+          "npc_buy": 40,
+          "p_per_map_kill": 0.02826748,
+          "contributors": [
+            {
+              "mob_id": 1019,
+              "aegis": "PECOPECO",
+              "amount": 93,
+              "weight": 0.2827,
+              "rate_raw": 100,
+              "p_mob": 0.1,
+              "p_contrib": 0.028267
+            }
+          ],
+          "atlantis_avg": 466,
+          "atlantis_total_sold": 147963,
+          "latam_offers_median": 1349,
+          "ev_atlantis_per_kill": 13.17,
+          "ev_latam_per_kill": 38.13,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 1010,
+          "aegis": "Phracon",
+          "name": "Phracon",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 200,
+          "p_per_map_kill": 0.00588906,
+          "contributors": [
+            {
+              "mob_id": 1047,
+              "aegis": "PECOPECO_EGG",
+              "amount": 31,
+              "weight": 0.0942,
+              "rate_raw": 125,
+              "p_mob": 0.0625,
+              "p_contrib": 0.005889
+            }
+          ],
+          "atlantis_avg": 464,
+          "atlantis_total_sold": 1240,
+          "latam_offers_median": 45666,
+          "ev_atlantis_per_kill": 2.73,
+          "ev_latam_per_kill": 268.93,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 1451,
+          "aegis": "Guisarme",
+          "name": "Guisarme",
+          "type": "Weapon",
+          "bucket": "equip",
+          "npc_buy": 13000,
+          "p_per_map_kill": 0.02473404,
+          "contributors": [
+            {
+              "mob_id": 1055,
+              "aegis": "MUKA",
+              "amount": 202,
+              "weight": 0.614,
+              "rate_raw": 25,
+              "p_mob": 0.0375,
+              "p_contrib": 0.023024
+            },
+            {
+              "mob_id": 2741,
+              "aegis": "C3_MUKA",
+              "amount": 3,
+              "weight": 0.0091,
+              "rate_raw": 125,
+              "p_mob": 0.1875,
+              "p_contrib": 0.00171
+            }
+          ],
+          "atlantis_avg": null,
+          "atlantis_total_sold": null,
+          "latam_offers_median": null,
+          "ev_atlantis_per_kill": null,
+          "ev_latam_per_kill": null,
+          "in_atlantis": false,
+          "in_latam": true,
+          "in_grindable": false
+        },
+        {
+          "item_id": 4036,
+          "aegis": "Muka_Card",
+          "name": "Muka Card",
+          "type": "Card",
+          "bucket": "card",
+          "npc_buy": 20,
+          "p_per_map_kill": 0.00659574,
+          "contributors": [
+            {
+              "mob_id": 1055,
+              "aegis": "MUKA",
+              "amount": 202,
+              "weight": 0.614,
+              "rate_raw": 1,
+              "p_mob": 0.01,
+              "p_contrib": 0.00614
+            },
+            {
+              "mob_id": 2741,
+              "aegis": "C3_MUKA",
+              "amount": 3,
+              "weight": 0.0091,
+              "rate_raw": 5,
+              "p_mob": 0.05,
+              "p_contrib": 0.000456
+            }
+          ],
+          "atlantis_avg": null,
+          "atlantis_total_sold": null,
+          "latam_offers_median": null,
+          "ev_atlantis_per_kill": null,
+          "ev_latam_per_kill": null,
+          "in_atlantis": false,
+          "in_latam": true,
+          "in_grindable": false
+        },
+        {
+          "item_id": 2402,
+          "aegis": "Sandals_",
+          "name": "Sandals",
+          "type": "Armor",
+          "bucket": "equip",
+          "npc_buy": 400,
+          "p_per_map_kill": 0.00424012,
+          "contributors": [
+            {
+              "mob_id": 1019,
+              "aegis": "PECOPECO",
+              "amount": 93,
+              "weight": 0.2827,
+              "rate_raw": 10,
+              "p_mob": 0.015,
+              "p_contrib": 0.00424
+            }
+          ],
+          "atlantis_avg": null,
+          "atlantis_total_sold": null,
+          "latam_offers_median": null,
+          "ev_atlantis_per_kill": null,
+          "ev_latam_per_kill": null,
+          "in_atlantis": false,
+          "in_latam": true,
+          "in_grindable": false
+        },
+        {
+          "item_id": 736,
+          "aegis": "White_Platter",
+          "name": "China",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 750,
+          "p_per_map_kill": 0.00023556,
+          "contributors": [
+            {
+              "mob_id": 1047,
+              "aegis": "PECOPECO_EGG",
+              "amount": 31,
+              "weight": 0.0942,
+              "rate_raw": 5,
+              "p_mob": 0.0025,
+              "p_contrib": 0.000236
+            }
+          ],
+          "atlantis_avg": null,
+          "atlantis_total_sold": null,
+          "latam_offers_median": null,
+          "ev_atlantis_per_kill": null,
+          "ev_latam_per_kill": null,
+          "in_atlantis": false,
+          "in_latam": false,
+          "in_grindable": false
+        },
+        {
+          "item_id": 2102,
+          "aegis": "Guard_",
+          "name": "Guard",
+          "type": "Armor",
+          "bucket": "equip",
+          "npc_buy": 500,
+          "p_per_map_kill": 0.00014134,
+          "contributors": [
+            {
+              "mob_id": 1047,
+              "aegis": "PECOPECO_EGG",
+              "amount": 31,
+              "weight": 0.0942,
+              "rate_raw": 1,
+              "p_mob": 0.0015,
+              "p_contrib": 0.000141
+            }
+          ],
+          "atlantis_avg": null,
+          "atlantis_total_sold": null,
+          "latam_offers_median": null,
+          "ev_atlantis_per_kill": null,
+          "ev_latam_per_kill": null,
+          "in_atlantis": false,
+          "in_latam": true,
+          "in_grindable": false
+        }
+      ],
+      "loot": {
+        "policy": "full",
+        "policy_reason": "oferta bot = mats/consumibles con precio; cards/equip quedan fuera del stock masivo (ver drops completos)",
+        "offer_drop_count": 10,
+        "ev_atlantis_per_kill_offer": 2440.57,
+        "ev_latam_per_kill_offer": 6414.44,
+        "ev_atlantis_per_kill_all_drops": 14289.84,
+        "ev_atlantis_per_kill_mats_only": 2440.57,
+        "card_count": 3,
+        "ev_atlantis_cards": 11263.1,
+        "offer_drops_top30": [
+          {
+            "item_id": 952,
+            "aegis": "Cactus_Needle",
+            "name": "Cactus Needle",
+            "type": "Etc",
+            "bucket": "common",
+            "npc_buy": 82,
+            "p_per_map_kill": 0.6231003,
+            "contributors": [
+              {
+                "mob_id": 1055,
+                "aegis": "MUKA",
+                "amount": 202,
+                "weight": 0.614,
+                "rate_raw": 4500,
+                "p_mob": 1.0,
+                "p_contrib": 0.613982
+              },
+              {
+                "mob_id": 2741,
+                "aegis": "C3_MUKA",
+                "amount": 3,
+                "weight": 0.0091,
+                "rate_raw": 10000,
+                "p_mob": 1.0,
+                "p_contrib": 0.009119
+              }
+            ],
+            "atlantis_avg": 1677,
+            "atlantis_total_sold": 758297,
+            "latam_offers_median": 900,
+            "ev_atlantis_per_kill": 1044.94,
+            "ev_latam_per_kill": 560.79,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          },
+          {
+            "item_id": 1002,
+            "aegis": "Iron_Ore",
+            "name": "Iron Ore",
+            "type": "Etc",
+            "bucket": "common",
+            "npc_buy": 50,
+            "p_per_map_kill": 0.0412234,
+            "contributors": [
+              {
+                "mob_id": 1055,
+                "aegis": "MUKA",
+                "amount": 202,
+                "weight": 0.614,
+                "rate_raw": 125,
+                "p_mob": 0.0625,
+                "p_contrib": 0.038374
+              },
+              {
+                "mob_id": 2741,
+                "aegis": "C3_MUKA",
+                "amount": 3,
+                "weight": 0.0091,
+                "rate_raw": 625,
+                "p_mob": 0.3125,
+                "p_contrib": 0.00285
+              }
+            ],
+            "atlantis_avg": 13612,
+            "atlantis_total_sold": 6863,
+            "latam_offers_median": 11000,
+            "ev_atlantis_per_kill": 561.13,
+            "ev_latam_per_kill": 453.46,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          },
+          {
+            "item_id": 507,
+            "aegis": "Red_Herb",
+            "name": "Red Herb",
+            "type": "Healing",
+            "bucket": "heal",
+            "npc_buy": 18,
+            "p_per_map_kill": 0.35379939,
+            "contributors": [
+              {
+                "mob_id": 1055,
+                "aegis": "MUKA",
+                "amount": 202,
+                "weight": 0.614,
+                "rate_raw": 500,
+                "p_mob": 0.5,
+                "p_contrib": 0.306991
+              },
+              {
+                "mob_id": 1047,
+                "aegis": "PECOPECO_EGG",
+                "amount": 31,
+                "weight": 0.0942,
+                "rate_raw": 400,
+                "p_mob": 0.4,
+                "p_contrib": 0.03769
+              },
+              {
+                "mob_id": 2741,
+                "aegis": "C3_MUKA",
+                "amount": 3,
+                "weight": 0.0091,
+                "rate_raw": 2500,
+                "p_mob": 1.0,
+                "p_contrib": 0.009119
+              }
+            ],
+            "atlantis_avg": 1239,
+            "atlantis_total_sold": 159474,
+            "latam_offers_median": 1399,
+            "ev_atlantis_per_kill": 438.36,
+            "ev_latam_per_kill": 494.97,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          },
+          {
+            "item_id": 582,
+            "aegis": "Orange",
+            "name": "Orange",
+            "type": "Healing",
+            "bucket": "heal",
+            "npc_buy": 300,
+            "p_per_map_kill": 0.14133739,
+            "contributors": [
+              {
+                "mob_id": 1019,
+                "aegis": "PECOPECO",
+                "amount": 93,
+                "weight": 0.2827,
+                "rate_raw": 500,
+                "p_mob": 0.5,
+                "p_contrib": 0.141337
+              }
+            ],
+            "atlantis_avg": 941,
+            "atlantis_total_sold": 113207,
+            "latam_offers_median": 29998,
+            "ev_atlantis_per_kill": 133.0,
+            "ev_latam_per_kill": 4239.84,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          },
+          {
+            "item_id": 925,
+            "aegis": "Bill_Of_Birds",
+            "name": "Bill of Birds",
+            "type": "Etc",
+            "bucket": "common",
+            "npc_buy": 48,
+            "p_per_map_kill": 0.28267477,
+            "contributors": [
+              {
+                "mob_id": 1019,
+                "aegis": "PECOPECO",
+                "amount": 93,
+                "weight": 0.2827,
+                "rate_raw": 4500,
+                "p_mob": 1.0,
+                "p_contrib": 0.282675
+              }
+            ],
+            "atlantis_avg": 462,
+            "atlantis_total_sold": 180818,
+            "latam_offers_median": null,
+            "ev_atlantis_per_kill": 130.6,
+            "ev_latam_per_kill": null,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          },
+          {
+            "item_id": 511,
+            "aegis": "Green_Herb",
+            "name": "Green Herb",
+            "type": "Healing",
+            "bucket": "heal",
+            "npc_buy": 10,
+            "p_per_map_kill": 0.13191489,
+            "contributors": [
+              {
+                "mob_id": 1055,
+                "aegis": "MUKA",
+                "amount": 202,
+                "weight": 0.614,
+                "rate_raw": 200,
+                "p_mob": 0.2,
+                "p_contrib": 0.122796
+              },
+              {
+                "mob_id": 2741,
+                "aegis": "C3_MUKA",
+                "amount": 3,
+                "weight": 0.0091,
+                "rate_raw": 1000,
+                "p_mob": 1.0,
+                "p_contrib": 0.009119
+              }
+            ],
+            "atlantis_avg": 525,
+            "atlantis_total_sold": 3373812,
+            "latam_offers_median": 1499,
+            "ev_atlantis_per_kill": 69.26,
+            "ev_latam_per_kill": 197.74,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          },
+          {
+            "item_id": 935,
+            "aegis": "Shell",
+            "name": "Shell",
+            "type": "Etc",
+            "bucket": "common",
+            "npc_buy": 14,
+            "p_per_map_kill": 0.03533435,
+            "contributors": [
+              {
+                "mob_id": 1047,
+                "aegis": "PECOPECO_EGG",
+                "amount": 31,
+                "weight": 0.0942,
+                "rate_raw": 750,
+                "p_mob": 0.375,
+                "p_contrib": 0.035334
+              }
+            ],
+            "atlantis_avg": 805,
+            "atlantis_total_sold": 36374,
+            "latam_offers_median": 3500,
+            "ev_atlantis_per_kill": 28.44,
+            "ev_latam_per_kill": 123.67,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          },
+          {
+            "item_id": 993,
+            "aegis": "Yellow_Live",
+            "name": "Green Live",
+            "type": "Etc",
+            "bucket": "common",
+            "npc_buy": 1000,
+            "p_per_map_kill": 0.01154255,
+            "contributors": [
+              {
+                "mob_id": 1055,
+                "aegis": "MUKA",
+                "amount": 202,
+                "weight": 0.614,
+                "rate_raw": 35,
+                "p_mob": 0.0175,
+                "p_contrib": 0.010745
+              },
+              {
+                "mob_id": 2741,
+                "aegis": "C3_MUKA",
+                "amount": 3,
+                "weight": 0.0091,
+                "rate_raw": 175,
+                "p_mob": 0.0875,
+                "p_contrib": 0.000798
+              }
+            ],
+            "atlantis_avg": 1641,
+            "atlantis_total_sold": 25359,
+            "latam_offers_median": 3198,
+            "ev_atlantis_per_kill": 18.94,
+            "ev_latam_per_kill": 36.91,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          },
+          {
+            "item_id": 508,
+            "aegis": "Yellow_Herb",
+            "name": "Yellow Herb",
+            "type": "Healing",
+            "bucket": "heal",
+            "npc_buy": 40,
+            "p_per_map_kill": 0.02826748,
+            "contributors": [
+              {
+                "mob_id": 1019,
+                "aegis": "PECOPECO",
+                "amount": 93,
+                "weight": 0.2827,
+                "rate_raw": 100,
+                "p_mob": 0.1,
+                "p_contrib": 0.028267
+              }
+            ],
+            "atlantis_avg": 466,
+            "atlantis_total_sold": 147963,
+            "latam_offers_median": 1349,
+            "ev_atlantis_per_kill": 13.17,
+            "ev_latam_per_kill": 38.13,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          },
+          {
+            "item_id": 1010,
+            "aegis": "Phracon",
+            "name": "Phracon",
+            "type": "Etc",
+            "bucket": "common",
+            "npc_buy": 200,
+            "p_per_map_kill": 0.00588906,
+            "contributors": [
+              {
+                "mob_id": 1047,
+                "aegis": "PECOPECO_EGG",
+                "amount": 31,
+                "weight": 0.0942,
+                "rate_raw": 125,
+                "p_mob": 0.0625,
+                "p_contrib": 0.005889
+              }
+            ],
+            "atlantis_avg": 464,
+            "atlantis_total_sold": 1240,
+            "latam_offers_median": 45666,
+            "ev_atlantis_per_kill": 2.73,
+            "ev_latam_per_kill": 268.93,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          }
+        ],
+        "offer_item_ids": [
+          952,
+          1002,
+          507,
+          582,
+          925,
+          511,
+          935,
+          993,
+          508,
+          1010
+        ],
+        "top_cards": [
+          {
+            "item_id": 4031,
+            "name": "Peco Peco Card",
+            "p": 0.00282675,
+            "atlantis_avg": 2879251,
+            "ev_at": 8138.92
+          },
+          {
+            "item_id": 4007,
+            "name": "Peco Peco Egg Card",
+            "p": 0.00094225,
+            "atlantis_avg": 3315660,
+            "ev_at": 3124.18
+          },
+          {
+            "item_id": 4036,
+            "name": "Muka Card",
+            "p": 0.00659574,
+            "atlantis_avg": null,
+            "ev_at": null
+          }
+        ]
+      }
+    }
+  ]
+}

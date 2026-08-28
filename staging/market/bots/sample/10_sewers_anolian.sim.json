@@ -1,0 +1,773 @@
+{
+  "id": "10_sewers_anolian",
+  "label": "Glast Heim Sewers (restringido)",
+  "tier_target": "expert",
+  "notes": "Hard/expert: solo mats/etc con mercado; sin equip raro ni cards como oferta masiva. Ejemplo de política restrictiva.",
+  "maps": [
+    "gl_sew04"
+  ],
+  "map_profiles": [
+    {
+      "map": "gl_sew04",
+      "tier": "expert",
+      "avg_level": 103.13,
+      "max_level": 109,
+      "avg_hp": 15179,
+      "combat_amount": 165,
+      "hours_share": 1.0,
+      "kills": {
+        "t_kill_sec": 78.398,
+        "uptime": 1.0,
+        "kills_per_hour_combat": 45.9,
+        "dead_time_frac": 0.2,
+        "kills_per_hour": 36.7
+      },
+      "costs": {
+        "zeny_cost_per_hour": 26687.51,
+        "zeny_cost_per_kill": 727.18
+      },
+      "kills_per_day": 128.5,
+      "mobs": [
+        {
+          "aegis": "ANOLIAN",
+          "amount": 126,
+          "level": 109,
+          "hp": 16615,
+          "weight": 0.7636
+        },
+        {
+          "aegis": "GARGOYLE",
+          "amount": 25,
+          "level": 100,
+          "hp": 9233,
+          "weight": 0.1515
+        },
+        {
+          "aegis": "DRAINLIAR",
+          "amount": 12,
+          "level": 47,
+          "hp": 1182,
+          "weight": 0.0727
+        },
+        {
+          "aegis": "C4_ANOLIAN",
+          "amount": 2,
+          "level": 109,
+          "hp": 83075,
+          "weight": 0.0121
+        }
+      ],
+      "drop_types_count": 22,
+      "ev_mats_offer_per_kill": 1045.66,
+      "ev_mats_offer_per_day": 134314.7,
+      "offer": {
+        "mats_for_sale": [
+          {
+            "item_id": 984,
+            "aegis": "Oridecon",
+            "name": "Oridecon",
+            "type": "Etc",
+            "p_per_map_kill": 0.00552242,
+            "latam_price": 18000,
+            "latam_total_sold": 86375,
+            "has_offers": true,
+            "qty_per_day": 0.7094,
+            "score": 109687.39
+          },
+          {
+            "item_id": 7003,
+            "aegis": "Anolian_Skin",
+            "name": "Anolian Skin",
+            "type": "Etc",
+            "p_per_map_kill": 0.19730303,
+            "latam_price": 3552,
+            "latam_total_sold": 6254,
+            "has_offers": false,
+            "qty_per_day": 25.3436,
+            "score": 101566.66
+          },
+          {
+            "item_id": 913,
+            "aegis": "Tooth_Of_Bat",
+            "name": "Tooth of Bat",
+            "type": "Etc",
+            "p_per_map_kill": 0.01090909,
+            "latam_price": 14960,
+            "latam_total_sold": 1729,
+            "has_offers": true,
+            "qty_per_day": 1.4013,
+            "score": 97708.84
+          },
+          {
+            "item_id": 912,
+            "aegis": "Zargon",
+            "name": "Zargon",
+            "type": "Etc",
+            "p_per_map_kill": 0.02939394,
+            "latam_price": 1790,
+            "latam_total_sold": 5315,
+            "has_offers": true,
+            "qty_per_day": 3.7757,
+            "score": 24008.75
+          },
+          {
+            "item_id": 12012,
+            "aegis": "Crystal_Arrow_Container",
+            "name": "Crystal Arrow Quiver",
+            "type": "Usable",
+            "p_per_map_kill": 0.00310303,
+            "latam_price": 9545,
+            "latam_total_sold": 257,
+            "has_offers": false,
+            "qty_per_day": 0.3986,
+            "score": 17780.41
+          }
+        ],
+        "mats_discarded_count": 5,
+        "mats_discarded_top10": [
+          {
+            "item_id": 1039,
+            "name": "Little Evil Wing",
+            "price": 6142,
+            "qty_per_day": 0.4866,
+            "score": 15899.51
+          },
+          {
+            "item_id": 507,
+            "name": "Red Herb",
+            "price": 1399,
+            "qty_per_day": 0.8875,
+            "score": 11321.95
+          },
+          {
+            "item_id": 526,
+            "name": "Royal Jelly",
+            "price": 9831,
+            "qty_per_day": 0.0318,
+            "score": 2077.04
+          },
+          {
+            "item_id": 757,
+            "name": "Rough Elunium",
+            "price": 1000,
+            "qty_per_day": 0.2316,
+            "score": 1471.86
+          },
+          {
+            "item_id": 756,
+            "name": "Rough Oridecon",
+            "price": 8490,
+            "qty_per_day": 0.0187,
+            "score": 1205.52
+          }
+        ],
+        "cards": [
+          {
+            "item_id": 4234,
+            "aegis": "Anolian_Card",
+            "name": "Anolian Card",
+            "type": "Card",
+            "p_per_map_kill": 8.242e-05,
+            "latam_price": 600000,
+            "latam_total_sold": 1,
+            "has_offers": true,
+            "drop_per_day": 0.0106,
+            "sellable_per_day": 0.0053,
+            "ev_latam_per_day_if_sold": 3176.05
+          }
+        ],
+        "cards_junk_discarded": [],
+        "card_min_price": 0,
+        "card_policy": {
+          "sell_fraction": 0.5,
+          "shop_slots": 1,
+          "min_price": 0,
+          "note": "acumula sellable; shop máx 1 carta; junk bajo min_price descartado"
+        }
+      },
+      "projection": {
+        "1": {
+          "days": 1,
+          "kills": 128.5,
+          "hours": 3.5,
+          "mats_stock": [
+            {
+              "item_id": 984,
+              "name": "Oridecon",
+              "qty": 0.71,
+              "price": 18000,
+              "stock_value": 12768.39
+            },
+            {
+              "item_id": 7003,
+              "name": "Anolian Skin",
+              "qty": 25.34,
+              "price": 3552,
+              "stock_value": 90020.38
+            },
+            {
+              "item_id": 913,
+              "name": "Tooth of Bat",
+              "qty": 1.4,
+              "price": 14960,
+              "stock_value": 20963.04
+            },
+            {
+              "item_id": 912,
+              "name": "Zargon",
+              "qty": 3.78,
+              "price": 1790,
+              "stock_value": 6758.42
+            },
+            {
+              "item_id": 12012,
+              "name": "Crystal Arrow Quiver",
+              "qty": 0.4,
+              "price": 9545,
+              "stock_value": 3804.49
+            }
+          ],
+          "mats_stock_value_latam": 134314.7,
+          "cards": [
+            {
+              "item_id": 4234,
+              "name": "Anolian Card",
+              "dropped": 0.011,
+              "sellable": 0.005,
+              "shop_listed_cap": 1,
+              "expected_listed": 0.005,
+              "price": 600000,
+              "pipeline_value": 3176.05
+            }
+          ],
+          "cards_sellable_total": 0.005,
+          "cards_pipeline_value": 3176.05,
+          "lot_expected_value": 137490.76,
+          "zeny_spent": 93406.28,
+          "net_if_sold_at_latam": 44084.47,
+          "gates": {
+            "pause_grind_until_sold_z": 54996.3,
+            "keep_shop_until_sold_z": 82494.46,
+            "pause_frac": 0.4,
+            "shop_keep_frac": 0.6
+          }
+        },
+        "3": {
+          "days": 3,
+          "kills": 385.4,
+          "hours": 10.5,
+          "mats_stock": [
+            {
+              "item_id": 984,
+              "name": "Oridecon",
+              "qty": 2.13,
+              "price": 18000,
+              "stock_value": 38305.16
+            },
+            {
+              "item_id": 7003,
+              "name": "Anolian Skin",
+              "qty": 76.03,
+              "price": 3552,
+              "stock_value": 270061.13
+            },
+            {
+              "item_id": 913,
+              "name": "Tooth of Bat",
+              "qty": 4.2,
+              "price": 14960,
+              "stock_value": 62889.11
+            },
+            {
+              "item_id": 912,
+              "name": "Zargon",
+              "qty": 11.33,
+              "price": 1790,
+              "stock_value": 20275.25
+            },
+            {
+              "item_id": 12012,
+              "name": "Crystal Arrow Quiver",
+              "qty": 1.2,
+              "price": 9545,
+              "stock_value": 11413.46
+            }
+          ],
+          "mats_stock_value_latam": 402944.11,
+          "cards": [
+            {
+              "item_id": 4234,
+              "name": "Anolian Card",
+              "dropped": 0.032,
+              "sellable": 0.016,
+              "shop_listed_cap": 1,
+              "expected_listed": 0.016,
+              "price": 600000,
+              "pipeline_value": 9528.16
+            }
+          ],
+          "cards_sellable_total": 0.016,
+          "cards_pipeline_value": 9528.16,
+          "lot_expected_value": 412472.28,
+          "zeny_spent": 280218.85,
+          "net_if_sold_at_latam": 132253.42,
+          "gates": {
+            "pause_grind_until_sold_z": 164988.91,
+            "keep_shop_until_sold_z": 247483.37,
+            "pause_frac": 0.4,
+            "shop_keep_frac": 0.6
+          }
+        },
+        "7": {
+          "days": 7,
+          "kills": 899.2,
+          "hours": 24.5,
+          "mats_stock": [
+            {
+              "item_id": 984,
+              "name": "Oridecon",
+              "qty": 4.97,
+              "price": 18000,
+              "stock_value": 89378.71
+            },
+            {
+              "item_id": 7003,
+              "name": "Anolian Skin",
+              "qty": 177.41,
+              "price": 3552,
+              "stock_value": 630142.63
+            },
+            {
+              "item_id": 913,
+              "name": "Tooth of Bat",
+              "qty": 9.81,
+              "price": 14960,
+              "stock_value": 146741.27
+            },
+            {
+              "item_id": 912,
+              "name": "Zargon",
+              "qty": 26.43,
+              "price": 1790,
+              "stock_value": 47308.91
+            },
+            {
+              "item_id": 12012,
+              "name": "Crystal Arrow Quiver",
+              "qty": 2.79,
+              "price": 9545,
+              "stock_value": 26631.4
+            }
+          ],
+          "mats_stock_value_latam": 940202.93,
+          "cards": [
+            {
+              "item_id": 4234,
+              "name": "Anolian Card",
+              "dropped": 0.074,
+              "sellable": 0.037,
+              "shop_listed_cap": 1,
+              "expected_listed": 0.037,
+              "price": 600000,
+              "pipeline_value": 22232.38
+            }
+          ],
+          "cards_sellable_total": 0.037,
+          "cards_pipeline_value": 22232.38,
+          "lot_expected_value": 962435.31,
+          "zeny_spent": 653843.99,
+          "net_if_sold_at_latam": 308591.31,
+          "gates": {
+            "pause_grind_until_sold_z": 384974.12,
+            "keep_shop_until_sold_z": 577461.19,
+            "pause_frac": 0.4,
+            "shop_keep_frac": 0.6
+          }
+        },
+        "10": {
+          "days": 10,
+          "kills": 1284.5,
+          "hours": 35.0,
+          "mats_stock": [
+            {
+              "item_id": 984,
+              "name": "Oridecon",
+              "qty": 7.09,
+              "price": 18000,
+              "stock_value": 127683.87
+            },
+            {
+              "item_id": 7003,
+              "name": "Anolian Skin",
+              "qty": 253.44,
+              "price": 3552,
+              "stock_value": 900203.76
+            },
+            {
+              "item_id": 913,
+              "name": "Tooth of Bat",
+              "qty": 14.01,
+              "price": 14960,
+              "stock_value": 209630.38
+            },
+            {
+              "item_id": 912,
+              "name": "Zargon",
+              "qty": 37.76,
+              "price": 1790,
+              "stock_value": 67584.16
+            },
+            {
+              "item_id": 12012,
+              "name": "Crystal Arrow Quiver",
+              "qty": 3.99,
+              "price": 9545,
+              "stock_value": 38044.86
+            }
+          ],
+          "mats_stock_value_latam": 1343147.04,
+          "cards": [
+            {
+              "item_id": 4234,
+              "name": "Anolian Card",
+              "dropped": 0.106,
+              "sellable": 0.053,
+              "shop_listed_cap": 1,
+              "expected_listed": 0.053,
+              "price": 600000,
+              "pipeline_value": 31760.55
+            }
+          ],
+          "cards_sellable_total": 0.053,
+          "cards_pipeline_value": 31760.55,
+          "lot_expected_value": 1374907.58,
+          "zeny_spent": 934062.85,
+          "net_if_sold_at_latam": 440844.73,
+          "gates": {
+            "pause_grind_until_sold_z": 549963.03,
+            "keep_shop_until_sold_z": 824944.55,
+            "pause_frac": 0.4,
+            "shop_keep_frac": 0.6
+          }
+        }
+      }
+    }
+  ],
+  "projection_merged": {
+    "1": {
+      "days": 1,
+      "kills": 128.5,
+      "mats_stock": [
+        {
+          "item_id": 7003,
+          "name": "Anolian Skin",
+          "qty": 25.34,
+          "price": 3552,
+          "stock_value": 90020.38
+        },
+        {
+          "item_id": 913,
+          "name": "Tooth of Bat",
+          "qty": 1.4,
+          "price": 14960,
+          "stock_value": 20963.04
+        },
+        {
+          "item_id": 984,
+          "name": "Oridecon",
+          "qty": 0.71,
+          "price": 18000,
+          "stock_value": 12768.39
+        },
+        {
+          "item_id": 912,
+          "name": "Zargon",
+          "qty": 3.78,
+          "price": 1790,
+          "stock_value": 6758.42
+        },
+        {
+          "item_id": 12012,
+          "name": "Crystal Arrow Quiver",
+          "qty": 0.4,
+          "price": 9545,
+          "stock_value": 3804.49
+        }
+      ],
+      "mats_stock_value_latam": 134314.7,
+      "cards": [
+        {
+          "item_id": 4234,
+          "name": "Anolian Card",
+          "dropped": 0.011,
+          "sellable": 0.005,
+          "shop_listed_cap": 1,
+          "expected_listed": 0.005,
+          "price": 600000,
+          "pipeline_value": 3176.05
+        }
+      ],
+      "cards_sellable_total": 0.005,
+      "cards_pipeline_value": 3176.05,
+      "lot_expected_value": 137490.75,
+      "zeny_spent": 93406.28,
+      "net_if_sold_at_latam": 44084.47,
+      "gates": {
+        "pause_grind_until_sold_z": 54996.3,
+        "keep_shop_until_sold_z": 82494.45
+      }
+    },
+    "3": {
+      "days": 3,
+      "kills": 385.4,
+      "mats_stock": [
+        {
+          "item_id": 7003,
+          "name": "Anolian Skin",
+          "qty": 76.03,
+          "price": 3552,
+          "stock_value": 270061.13
+        },
+        {
+          "item_id": 913,
+          "name": "Tooth of Bat",
+          "qty": 4.2,
+          "price": 14960,
+          "stock_value": 62889.11
+        },
+        {
+          "item_id": 984,
+          "name": "Oridecon",
+          "qty": 2.13,
+          "price": 18000,
+          "stock_value": 38305.16
+        },
+        {
+          "item_id": 912,
+          "name": "Zargon",
+          "qty": 11.33,
+          "price": 1790,
+          "stock_value": 20275.25
+        },
+        {
+          "item_id": 12012,
+          "name": "Crystal Arrow Quiver",
+          "qty": 1.2,
+          "price": 9545,
+          "stock_value": 11413.46
+        }
+      ],
+      "mats_stock_value_latam": 402944.11,
+      "cards": [
+        {
+          "item_id": 4234,
+          "name": "Anolian Card",
+          "dropped": 0.032,
+          "sellable": 0.016,
+          "shop_listed_cap": 1,
+          "expected_listed": 0.016,
+          "price": 600000,
+          "pipeline_value": 9528.16
+        }
+      ],
+      "cards_sellable_total": 0.016,
+      "cards_pipeline_value": 9528.16,
+      "lot_expected_value": 412472.27,
+      "zeny_spent": 280218.85,
+      "net_if_sold_at_latam": 132253.42,
+      "gates": {
+        "pause_grind_until_sold_z": 164988.91,
+        "keep_shop_until_sold_z": 247483.36
+      }
+    },
+    "7": {
+      "days": 7,
+      "kills": 899.2,
+      "mats_stock": [
+        {
+          "item_id": 7003,
+          "name": "Anolian Skin",
+          "qty": 177.41,
+          "price": 3552,
+          "stock_value": 630142.63
+        },
+        {
+          "item_id": 913,
+          "name": "Tooth of Bat",
+          "qty": 9.81,
+          "price": 14960,
+          "stock_value": 146741.27
+        },
+        {
+          "item_id": 984,
+          "name": "Oridecon",
+          "qty": 4.97,
+          "price": 18000,
+          "stock_value": 89378.71
+        },
+        {
+          "item_id": 912,
+          "name": "Zargon",
+          "qty": 26.43,
+          "price": 1790,
+          "stock_value": 47308.91
+        },
+        {
+          "item_id": 12012,
+          "name": "Crystal Arrow Quiver",
+          "qty": 2.79,
+          "price": 9545,
+          "stock_value": 26631.4
+        }
+      ],
+      "mats_stock_value_latam": 940202.93,
+      "cards": [
+        {
+          "item_id": 4234,
+          "name": "Anolian Card",
+          "dropped": 0.074,
+          "sellable": 0.037,
+          "shop_listed_cap": 1,
+          "expected_listed": 0.037,
+          "price": 600000,
+          "pipeline_value": 22232.38
+        }
+      ],
+      "cards_sellable_total": 0.037,
+      "cards_pipeline_value": 22232.38,
+      "lot_expected_value": 962435.31,
+      "zeny_spent": 653843.99,
+      "net_if_sold_at_latam": 308591.32,
+      "gates": {
+        "pause_grind_until_sold_z": 384974.12,
+        "keep_shop_until_sold_z": 577461.19
+      }
+    },
+    "10": {
+      "days": 10,
+      "kills": 1284.5,
+      "mats_stock": [
+        {
+          "item_id": 7003,
+          "name": "Anolian Skin",
+          "qty": 253.44,
+          "price": 3552,
+          "stock_value": 900203.76
+        },
+        {
+          "item_id": 913,
+          "name": "Tooth of Bat",
+          "qty": 14.01,
+          "price": 14960,
+          "stock_value": 209630.38
+        },
+        {
+          "item_id": 984,
+          "name": "Oridecon",
+          "qty": 7.09,
+          "price": 18000,
+          "stock_value": 127683.87
+        },
+        {
+          "item_id": 912,
+          "name": "Zargon",
+          "qty": 37.76,
+          "price": 1790,
+          "stock_value": 67584.16
+        },
+        {
+          "item_id": 12012,
+          "name": "Crystal Arrow Quiver",
+          "qty": 3.99,
+          "price": 9545,
+          "stock_value": 38044.86
+        }
+      ],
+      "mats_stock_value_latam": 1343147.04,
+      "cards": [
+        {
+          "item_id": 4234,
+          "name": "Anolian Card",
+          "dropped": 0.106,
+          "sellable": 0.053,
+          "shop_listed_cap": 1,
+          "expected_listed": 0.053,
+          "price": 600000,
+          "pipeline_value": 31760.55
+        }
+      ],
+      "cards_sellable_total": 0.053,
+      "cards_pipeline_value": 31760.55,
+      "lot_expected_value": 1374907.59,
+      "zeny_spent": 934062.85,
+      "net_if_sold_at_latam": 440844.74,
+      "gates": {
+        "pause_grind_until_sold_z": 549963.04,
+        "keep_shop_until_sold_z": 824944.55
+      }
+    }
+  },
+  "day10": {
+    "days": 10,
+    "kills": 1284.5,
+    "mats_stock": [
+      {
+        "item_id": 7003,
+        "name": "Anolian Skin",
+        "qty": 253.44,
+        "price": 3552,
+        "stock_value": 900203.76
+      },
+      {
+        "item_id": 913,
+        "name": "Tooth of Bat",
+        "qty": 14.01,
+        "price": 14960,
+        "stock_value": 209630.38
+      },
+      {
+        "item_id": 984,
+        "name": "Oridecon",
+        "qty": 7.09,
+        "price": 18000,
+        "stock_value": 127683.87
+      },
+      {
+        "item_id": 912,
+        "name": "Zargon",
+        "qty": 37.76,
+        "price": 1790,
+        "stock_value": 67584.16
+      },
+      {
+        "item_id": 12012,
+        "name": "Crystal Arrow Quiver",
+        "qty": 3.99,
+        "price": 9545,
+        "stock_value": 38044.86
+      }
+    ],
+    "mats_stock_value_latam": 1343147.04,
+    "cards": [
+      {
+        "item_id": 4234,
+        "name": "Anolian Card",
+        "dropped": 0.106,
+        "sellable": 0.053,
+        "shop_listed_cap": 1,
+        "expected_listed": 0.053,
+        "price": 600000,
+        "pipeline_value": 31760.55
+      }
+    ],
+    "cards_sellable_total": 0.053,
+    "cards_pipeline_value": 31760.55,
+    "lot_expected_value": 1374907.59,
+    "zeny_spent": 934062.85,
+    "net_if_sold_at_latam": 440844.74,
+    "gates": {
+      "pause_grind_until_sold_z": 549963.04,
+      "keep_shop_until_sold_z": 824944.55
+    }
+  }
+}

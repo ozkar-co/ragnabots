@@ -1,0 +1,780 @@
+{
+  "id": "07_mjolnir_spider",
+  "label": "Mjolnir Argiope",
+  "tier_target": "mid",
+  "notes": "Spiders densas; buen mix etc/card potencial.",
+  "maps": [
+    "mjolnir_11"
+  ],
+  "map_profiles": [
+    {
+      "map": "mjolnir_11",
+      "tier": "mid",
+      "avg_level": 67.44,
+      "max_level": 75,
+      "avg_hp": 3030,
+      "combat_amount": 262,
+      "hours_share": 1.0,
+      "kills": {
+        "t_kill_sec": 17.653,
+        "uptime": 1.0,
+        "kills_per_hour_combat": 203.9,
+        "dead_time_frac": 0.2,
+        "kills_per_hour": 163.1
+      },
+      "costs": {
+        "zeny_cost_per_hour": 7249.01,
+        "zeny_cost_per_kill": 44.4452
+      },
+      "kills_per_day": 570.9,
+      "mobs": [
+        {
+          "aegis": "ARGIOPE",
+          "amount": 170,
+          "level": 75,
+          "hp": 3570,
+          "weight": 0.6489
+        },
+        {
+          "aegis": "ARGOS",
+          "amount": 45,
+          "level": 47,
+          "hp": 1300,
+          "weight": 0.1718
+        },
+        {
+          "aegis": "FLORA",
+          "amount": 45,
+          "level": 59,
+          "hp": 2065,
+          "weight": 0.1718
+        },
+        {
+          "aegis": "C5_ARGIOPE",
+          "amount": 2,
+          "level": 75,
+          "hp": 17850,
+          "weight": 0.0076
+        }
+      ],
+      "drop_types_count": 20,
+      "ev_mats_offer_per_kill": 1397.76,
+      "ev_mats_offer_per_day": 797912.72,
+      "offer": {
+        "mats_for_sale": [
+          {
+            "item_id": 1025,
+            "aegis": "Spiderweb",
+            "name": "Cobweb",
+            "type": "Etc",
+            "p_per_map_kill": 0.07729008,
+            "latam_price": 6114,
+            "latam_total_sold": 1009,
+            "has_offers": false,
+            "qty_per_day": 44.121,
+            "score": 161115.84
+          },
+          {
+            "item_id": 1042,
+            "aegis": "Short_Leg",
+            "name": "Bug Leg",
+            "type": "Etc",
+            "p_per_map_kill": 0.18504198,
+            "latam_price": 3998,
+            "latam_total_sold": 2703,
+            "has_offers": true,
+            "qty_per_day": 105.6312,
+            "score": 147524.95
+          },
+          {
+            "item_id": 511,
+            "aegis": "Green_Herb",
+            "name": "Green Herb",
+            "type": "Healing",
+            "p_per_map_kill": 0.05728053,
+            "latam_price": 1499,
+            "latam_total_sold": 35585,
+            "has_offers": true,
+            "qty_per_day": 32.6986,
+            "score": 55256.0
+          },
+          {
+            "item_id": 912,
+            "aegis": "Zargon",
+            "name": "Zargon",
+            "type": "Etc",
+            "p_per_map_kill": 0.04122137,
+            "latam_price": 1790,
+            "latam_total_sold": 5315,
+            "has_offers": true,
+            "qty_per_day": 23.5312,
+            "score": 49136.69
+          },
+          {
+            "item_id": 911,
+            "aegis": "Scell",
+            "name": "Scell",
+            "type": "Etc",
+            "p_per_map_kill": 0.01030534,
+            "latam_price": 2500,
+            "latam_total_sold": 2603,
+            "has_offers": true,
+            "qty_per_day": 5.8828,
+            "score": 37928.53
+          }
+        ],
+        "mats_discarded_count": 6,
+        "mats_discarded_top10": [
+          {
+            "item_id": 905,
+            "name": "Stem",
+            "price": 1190,
+            "qty_per_day": 9.8047,
+            "score": 23009.85
+          },
+          {
+            "item_id": 1032,
+            "name": "Maneater Blossom",
+            "price": 399,
+            "qty_per_day": 44.121,
+            "score": 19388.03
+          },
+          {
+            "item_id": 757,
+            "name": "Rough Elunium",
+            "price": 1000,
+            "qty_per_day": 3.7552,
+            "score": 11016.96
+          },
+          {
+            "item_id": 719,
+            "name": "Amethyst",
+            "price": 3500,
+            "qty_per_day": 0.1961,
+            "score": 5624.96
+          },
+          {
+            "item_id": 748,
+            "name": "Witherless Rose",
+            "price": 79999,
+            "qty_per_day": 0.0098,
+            "score": 5262.62
+          },
+          {
+            "item_id": 521,
+            "name": "Aloe Leaflet",
+            "price": 755,
+            "qty_per_day": 0.2451,
+            "score": 1463.9
+          }
+        ],
+        "cards": [
+          {
+            "item_id": 4114,
+            "aegis": "Argiope_Card",
+            "name": "Argiope Card",
+            "type": "Card",
+            "p_per_map_kill": 6.87e-05,
+            "latam_price": 999999,
+            "latam_total_sold": 6,
+            "has_offers": true,
+            "drop_per_day": 0.0392,
+            "sellable_per_day": 0.0196,
+            "ev_latam_per_day_if_sold": 19608.68
+          }
+        ],
+        "cards_junk_discarded": [],
+        "card_min_price": 0,
+        "card_policy": {
+          "sell_fraction": 0.5,
+          "shop_slots": 1,
+          "min_price": 0,
+          "note": "acumula sellable; shop máx 1 carta; junk bajo min_price descartado"
+        }
+      },
+      "projection": {
+        "1": {
+          "days": 1,
+          "kills": 570.9,
+          "hours": 3.5,
+          "mats_stock": [
+            {
+              "item_id": 1025,
+              "name": "Cobweb",
+              "qty": 44.12,
+              "price": 6114,
+              "stock_value": 269756.05
+            },
+            {
+              "item_id": 1042,
+              "name": "Bug Leg",
+              "qty": 105.63,
+              "price": 3998,
+              "stock_value": 422313.59
+            },
+            {
+              "item_id": 511,
+              "name": "Green Herb",
+              "qty": 32.7,
+              "price": 1499,
+              "stock_value": 49015.19
+            },
+            {
+              "item_id": 912,
+              "name": "Zargon",
+              "qty": 23.53,
+              "price": 1790,
+              "stock_value": 42120.88
+            },
+            {
+              "item_id": 911,
+              "name": "Scell",
+              "qty": 5.88,
+              "price": 2500,
+              "stock_value": 14707.01
+            }
+          ],
+          "mats_stock_value_latam": 797912.72,
+          "cards": [
+            {
+              "item_id": 4114,
+              "name": "Argiope Card",
+              "dropped": 0.039,
+              "sellable": 0.02,
+              "shop_listed_cap": 1,
+              "expected_listed": 0.02,
+              "price": 999999,
+              "pipeline_value": 19608.68
+            }
+          ],
+          "cards_sellable_total": 0.02,
+          "cards_pipeline_value": 19608.68,
+          "lot_expected_value": 817521.4,
+          "zeny_spent": 25371.53,
+          "net_if_sold_at_latam": 792149.87,
+          "gates": {
+            "pause_grind_until_sold_z": 327008.56,
+            "keep_shop_until_sold_z": 490512.84,
+            "pause_frac": 0.4,
+            "shop_keep_frac": 0.6
+          }
+        },
+        "3": {
+          "days": 3,
+          "kills": 1712.6,
+          "hours": 10.5,
+          "mats_stock": [
+            {
+              "item_id": 1025,
+              "name": "Cobweb",
+              "qty": 132.36,
+              "price": 6114,
+              "stock_value": 809268.16
+            },
+            {
+              "item_id": 1042,
+              "name": "Bug Leg",
+              "qty": 316.89,
+              "price": 3998,
+              "stock_value": 1266940.78
+            },
+            {
+              "item_id": 511,
+              "name": "Green Herb",
+              "qty": 98.1,
+              "price": 1499,
+              "stock_value": 147045.56
+            },
+            {
+              "item_id": 912,
+              "name": "Zargon",
+              "qty": 70.59,
+              "price": 1790,
+              "stock_value": 126362.65
+            },
+            {
+              "item_id": 911,
+              "name": "Scell",
+              "qty": 17.65,
+              "price": 2500,
+              "stock_value": 44121.03
+            }
+          ],
+          "mats_stock_value_latam": 2393738.17,
+          "cards": [
+            {
+              "item_id": 4114,
+              "name": "Argiope Card",
+              "dropped": 0.118,
+              "sellable": 0.059,
+              "shop_listed_cap": 1,
+              "expected_listed": 0.059,
+              "price": 999999,
+              "pipeline_value": 58826.03
+            }
+          ],
+          "cards_sellable_total": 0.059,
+          "cards_pipeline_value": 58826.03,
+          "lot_expected_value": 2452564.21,
+          "zeny_spent": 76114.6,
+          "net_if_sold_at_latam": 2376449.6,
+          "gates": {
+            "pause_grind_until_sold_z": 981025.68,
+            "keep_shop_until_sold_z": 1471538.52,
+            "pause_frac": 0.4,
+            "shop_keep_frac": 0.6
+          }
+        },
+        "7": {
+          "days": 7,
+          "kills": 3996.0,
+          "hours": 24.5,
+          "mats_stock": [
+            {
+              "item_id": 1025,
+              "name": "Cobweb",
+              "qty": 308.85,
+              "price": 6114,
+              "stock_value": 1888292.36
+            },
+            {
+              "item_id": 1042,
+              "name": "Bug Leg",
+              "qty": 739.42,
+              "price": 3998,
+              "stock_value": 2956195.16
+            },
+            {
+              "item_id": 511,
+              "name": "Green Herb",
+              "qty": 228.89,
+              "price": 1499,
+              "stock_value": 343106.31
+            },
+            {
+              "item_id": 912,
+              "name": "Zargon",
+              "qty": 164.72,
+              "price": 1790,
+              "stock_value": 294846.17
+            },
+            {
+              "item_id": 911,
+              "name": "Scell",
+              "qty": 41.18,
+              "price": 2500,
+              "stock_value": 102949.06
+            }
+          ],
+          "mats_stock_value_latam": 5585389.07,
+          "cards": [
+            {
+              "item_id": 4114,
+              "name": "Argiope Card",
+              "dropped": 0.275,
+              "sellable": 0.137,
+              "shop_listed_cap": 1,
+              "expected_listed": 0.137,
+              "price": 999999,
+              "pipeline_value": 137260.75
+            }
+          ],
+          "cards_sellable_total": 0.137,
+          "cards_pipeline_value": 137260.75,
+          "lot_expected_value": 5722649.81,
+          "zeny_spent": 177600.74,
+          "net_if_sold_at_latam": 5545049.07,
+          "gates": {
+            "pause_grind_until_sold_z": 2289059.93,
+            "keep_shop_until_sold_z": 3433589.89,
+            "pause_frac": 0.4,
+            "shop_keep_frac": 0.6
+          }
+        },
+        "10": {
+          "days": 10,
+          "kills": 5708.5,
+          "hours": 35.0,
+          "mats_stock": [
+            {
+              "item_id": 1025,
+              "name": "Cobweb",
+              "qty": 441.21,
+              "price": 6114,
+              "stock_value": 2697560.52
+            },
+            {
+              "item_id": 1042,
+              "name": "Bug Leg",
+              "qty": 1056.31,
+              "price": 3998,
+              "stock_value": 4223135.95
+            },
+            {
+              "item_id": 511,
+              "name": "Green Herb",
+              "qty": 326.99,
+              "price": 1499,
+              "stock_value": 490151.87
+            },
+            {
+              "item_id": 912,
+              "name": "Zargon",
+              "qty": 235.31,
+              "price": 1790,
+              "stock_value": 421208.82
+            },
+            {
+              "item_id": 911,
+              "name": "Scell",
+              "qty": 58.83,
+              "price": 2500,
+              "stock_value": 147070.08
+            }
+          ],
+          "mats_stock_value_latam": 7979127.24,
+          "cards": [
+            {
+              "item_id": 4114,
+              "name": "Argiope Card",
+              "dropped": 0.392,
+              "sellable": 0.196,
+              "shop_listed_cap": 1,
+              "expected_listed": 0.196,
+              "price": 999999,
+              "pipeline_value": 196086.78
+            }
+          ],
+          "cards_sellable_total": 0.196,
+          "cards_pipeline_value": 196086.78,
+          "lot_expected_value": 8175214.02,
+          "zeny_spent": 253715.35,
+          "net_if_sold_at_latam": 7921498.67,
+          "gates": {
+            "pause_grind_until_sold_z": 3270085.61,
+            "keep_shop_until_sold_z": 4905128.41,
+            "pause_frac": 0.4,
+            "shop_keep_frac": 0.6
+          }
+        }
+      }
+    }
+  ],
+  "projection_merged": {
+    "1": {
+      "days": 1,
+      "kills": 570.9,
+      "mats_stock": [
+        {
+          "item_id": 1042,
+          "name": "Bug Leg",
+          "qty": 105.63,
+          "price": 3998,
+          "stock_value": 422313.59
+        },
+        {
+          "item_id": 1025,
+          "name": "Cobweb",
+          "qty": 44.12,
+          "price": 6114,
+          "stock_value": 269756.05
+        },
+        {
+          "item_id": 511,
+          "name": "Green Herb",
+          "qty": 32.7,
+          "price": 1499,
+          "stock_value": 49015.19
+        },
+        {
+          "item_id": 912,
+          "name": "Zargon",
+          "qty": 23.53,
+          "price": 1790,
+          "stock_value": 42120.88
+        },
+        {
+          "item_id": 911,
+          "name": "Scell",
+          "qty": 5.88,
+          "price": 2500,
+          "stock_value": 14707.01
+        }
+      ],
+      "mats_stock_value_latam": 797912.72,
+      "cards": [
+        {
+          "item_id": 4114,
+          "name": "Argiope Card",
+          "dropped": 0.039,
+          "sellable": 0.02,
+          "shop_listed_cap": 1,
+          "expected_listed": 0.02,
+          "price": 999999,
+          "pipeline_value": 19608.68
+        }
+      ],
+      "cards_sellable_total": 0.02,
+      "cards_pipeline_value": 19608.68,
+      "lot_expected_value": 817521.4,
+      "zeny_spent": 25371.53,
+      "net_if_sold_at_latam": 792149.87,
+      "gates": {
+        "pause_grind_until_sold_z": 327008.56,
+        "keep_shop_until_sold_z": 490512.84
+      }
+    },
+    "3": {
+      "days": 3,
+      "kills": 1712.6,
+      "mats_stock": [
+        {
+          "item_id": 1042,
+          "name": "Bug Leg",
+          "qty": 316.89,
+          "price": 3998,
+          "stock_value": 1266940.78
+        },
+        {
+          "item_id": 1025,
+          "name": "Cobweb",
+          "qty": 132.36,
+          "price": 6114,
+          "stock_value": 809268.16
+        },
+        {
+          "item_id": 511,
+          "name": "Green Herb",
+          "qty": 98.1,
+          "price": 1499,
+          "stock_value": 147045.56
+        },
+        {
+          "item_id": 912,
+          "name": "Zargon",
+          "qty": 70.59,
+          "price": 1790,
+          "stock_value": 126362.65
+        },
+        {
+          "item_id": 911,
+          "name": "Scell",
+          "qty": 17.65,
+          "price": 2500,
+          "stock_value": 44121.03
+        }
+      ],
+      "mats_stock_value_latam": 2393738.17,
+      "cards": [
+        {
+          "item_id": 4114,
+          "name": "Argiope Card",
+          "dropped": 0.118,
+          "sellable": 0.059,
+          "shop_listed_cap": 1,
+          "expected_listed": 0.059,
+          "price": 999999,
+          "pipeline_value": 58826.03
+        }
+      ],
+      "cards_sellable_total": 0.059,
+      "cards_pipeline_value": 58826.03,
+      "lot_expected_value": 2452564.2,
+      "zeny_spent": 76114.6,
+      "net_if_sold_at_latam": 2376449.6,
+      "gates": {
+        "pause_grind_until_sold_z": 981025.68,
+        "keep_shop_until_sold_z": 1471538.52
+      }
+    },
+    "7": {
+      "days": 7,
+      "kills": 3996.0,
+      "mats_stock": [
+        {
+          "item_id": 1042,
+          "name": "Bug Leg",
+          "qty": 739.42,
+          "price": 3998,
+          "stock_value": 2956195.16
+        },
+        {
+          "item_id": 1025,
+          "name": "Cobweb",
+          "qty": 308.85,
+          "price": 6114,
+          "stock_value": 1888292.36
+        },
+        {
+          "item_id": 511,
+          "name": "Green Herb",
+          "qty": 228.89,
+          "price": 1499,
+          "stock_value": 343106.31
+        },
+        {
+          "item_id": 912,
+          "name": "Zargon",
+          "qty": 164.72,
+          "price": 1790,
+          "stock_value": 294846.17
+        },
+        {
+          "item_id": 911,
+          "name": "Scell",
+          "qty": 41.18,
+          "price": 2500,
+          "stock_value": 102949.06
+        }
+      ],
+      "mats_stock_value_latam": 5585389.07,
+      "cards": [
+        {
+          "item_id": 4114,
+          "name": "Argiope Card",
+          "dropped": 0.275,
+          "sellable": 0.137,
+          "shop_listed_cap": 1,
+          "expected_listed": 0.137,
+          "price": 999999,
+          "pipeline_value": 137260.75
+        }
+      ],
+      "cards_sellable_total": 0.137,
+      "cards_pipeline_value": 137260.75,
+      "lot_expected_value": 5722649.82,
+      "zeny_spent": 177600.74,
+      "net_if_sold_at_latam": 5545049.08,
+      "gates": {
+        "pause_grind_until_sold_z": 2289059.93,
+        "keep_shop_until_sold_z": 3433589.89
+      }
+    },
+    "10": {
+      "days": 10,
+      "kills": 5708.5,
+      "mats_stock": [
+        {
+          "item_id": 1042,
+          "name": "Bug Leg",
+          "qty": 1056.31,
+          "price": 3998,
+          "stock_value": 4223135.95
+        },
+        {
+          "item_id": 1025,
+          "name": "Cobweb",
+          "qty": 441.21,
+          "price": 6114,
+          "stock_value": 2697560.52
+        },
+        {
+          "item_id": 511,
+          "name": "Green Herb",
+          "qty": 326.99,
+          "price": 1499,
+          "stock_value": 490151.87
+        },
+        {
+          "item_id": 912,
+          "name": "Zargon",
+          "qty": 235.31,
+          "price": 1790,
+          "stock_value": 421208.82
+        },
+        {
+          "item_id": 911,
+          "name": "Scell",
+          "qty": 58.83,
+          "price": 2500,
+          "stock_value": 147070.08
+        }
+      ],
+      "mats_stock_value_latam": 7979127.24,
+      "cards": [
+        {
+          "item_id": 4114,
+          "name": "Argiope Card",
+          "dropped": 0.392,
+          "sellable": 0.196,
+          "shop_listed_cap": 1,
+          "expected_listed": 0.196,
+          "price": 999999,
+          "pipeline_value": 196086.78
+        }
+      ],
+      "cards_sellable_total": 0.196,
+      "cards_pipeline_value": 196086.78,
+      "lot_expected_value": 8175214.02,
+      "zeny_spent": 253715.35,
+      "net_if_sold_at_latam": 7921498.67,
+      "gates": {
+        "pause_grind_until_sold_z": 3270085.61,
+        "keep_shop_until_sold_z": 4905128.41
+      }
+    }
+  },
+  "day10": {
+    "days": 10,
+    "kills": 5708.5,
+    "mats_stock": [
+      {
+        "item_id": 1042,
+        "name": "Bug Leg",
+        "qty": 1056.31,
+        "price": 3998,
+        "stock_value": 4223135.95
+      },
+      {
+        "item_id": 1025,
+        "name": "Cobweb",
+        "qty": 441.21,
+        "price": 6114,
+        "stock_value": 2697560.52
+      },
+      {
+        "item_id": 511,
+        "name": "Green Herb",
+        "qty": 326.99,
+        "price": 1499,
+        "stock_value": 490151.87
+      },
+      {
+        "item_id": 912,
+        "name": "Zargon",
+        "qty": 235.31,
+        "price": 1790,
+        "stock_value": 421208.82
+      },
+      {
+        "item_id": 911,
+        "name": "Scell",
+        "qty": 58.83,
+        "price": 2500,
+        "stock_value": 147070.08
+      }
+    ],
+    "mats_stock_value_latam": 7979127.24,
+    "cards": [
+      {
+        "item_id": 4114,
+        "name": "Argiope Card",
+        "dropped": 0.392,
+        "sellable": 0.196,
+        "shop_listed_cap": 1,
+        "expected_listed": 0.196,
+        "price": 999999,
+        "pipeline_value": 196086.78
+      }
+    ],
+    "cards_sellable_total": 0.196,
+    "cards_pipeline_value": 196086.78,
+    "lot_expected_value": 8175214.02,
+    "zeny_spent": 253715.35,
+    "net_if_sold_at_latam": 7921498.67,
+    "gates": {
+      "pause_grind_until_sold_z": 3270085.61,
+      "keep_shop_until_sold_z": 4905128.41
+    }
+  }
+}

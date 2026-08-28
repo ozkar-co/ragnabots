@@ -1,0 +1,993 @@
+{
+  "id": "05_pay_bigfoot",
+  "label": "Payon Bigfoot",
+  "tier_target": "easy",
+  "notes": "Campo mid-bajo; Bigfoot/Caramel.",
+  "maps": [
+    "pay_fild07"
+  ],
+  "map_profiles": [
+    {
+      "map": "pay_fild07",
+      "tier": "easy",
+      "avg_level": 27.04,
+      "max_level": 29,
+      "avg_hp": 439,
+      "combat_amount": 268,
+      "hours_share": 1.0,
+      "kills": {
+        "t_kill_sec": 4.698,
+        "uptime": 1.0,
+        "kills_per_hour_combat": 766.3,
+        "dead_time_frac": 0.2,
+        "kills_per_hour": 613.1
+      },
+      "costs": {
+        "zeny_cost_per_hour": 3103.27,
+        "zeny_cost_per_kill": 5.0616
+      },
+      "kills_per_day": 2145.8,
+      "mobs": [
+        {
+          "aegis": "BIGFOOT",
+          "amount": 174,
+          "level": 29,
+          "hp": 506,
+          "weight": 0.6493
+        },
+        {
+          "aegis": "CARAMEL",
+          "amount": 40,
+          "level": 25,
+          "hp": 319,
+          "weight": 0.1493
+        },
+        {
+          "aegis": "STAINER",
+          "amount": 26,
+          "level": 21,
+          "hp": 212,
+          "weight": 0.097
+        },
+        {
+          "aegis": "CREAMY",
+          "amount": 26,
+          "level": 23,
+          "hp": 247,
+          "weight": 0.097
+        },
+        {
+          "aegis": "C3_BIGFOOT",
+          "amount": 2,
+          "level": 29,
+          "hp": 2530,
+          "weight": 0.0075
+        }
+      ],
+      "drop_types_count": 27,
+      "ev_mats_offer_per_kill": 2212.67,
+      "ev_mats_offer_per_day": 4748054.27,
+      "offer": {
+        "mats_for_sale": [
+          {
+            "item_id": 948,
+            "aegis": "Bear's_Foot",
+            "name": "Bear's Footskin",
+            "type": "Etc",
+            "p_per_map_kill": 0.29962687,
+            "latam_price": 3499,
+            "latam_total_sold": 17652,
+            "has_offers": true,
+            "qty_per_day": 642.9543,
+            "score": 221293.34
+          },
+          {
+            "item_id": 1027,
+            "aegis": "Porcupine_Spike",
+            "name": "Porcupine Quill",
+            "type": "Etc",
+            "p_per_map_kill": 0.06716418,
+            "latam_price": 9900,
+            "latam_total_sold": 54,
+            "has_offers": true,
+            "qty_per_day": 144.1243,
+            "score": 197473.94
+          },
+          {
+            "item_id": 1013,
+            "aegis": "Colorful_Shell",
+            "name": "Rainbow Shell",
+            "type": "Etc",
+            "p_per_map_kill": 0.04365672,
+            "latam_price": 10000,
+            "latam_total_sold": 71,
+            "has_offers": true,
+            "qty_per_day": 93.6808,
+            "score": 194610.16
+          },
+          {
+            "item_id": 1002,
+            "aegis": "Iron_Ore",
+            "name": "Iron Ore",
+            "type": "Etc",
+            "p_per_map_kill": 0.00145522,
+            "latam_price": 11000,
+            "latam_total_sold": 3451,
+            "has_offers": true,
+            "qty_per_day": 3.1227,
+            "score": 126938.34
+          },
+          {
+            "item_id": 518,
+            "aegis": "Honey",
+            "name": "Honey",
+            "type": "Healing",
+            "p_per_map_kill": 0.01738806,
+            "latam_price": 2690,
+            "latam_total_sold": 33581,
+            "has_offers": true,
+            "qty_per_day": 37.3122,
+            "score": 102207.25
+          }
+        ],
+        "mats_discarded_count": 6,
+        "mats_discarded_top10": [
+          {
+            "item_id": 756,
+            "name": "Rough Oridecon",
+            "price": 8490,
+            "qty_per_day": 3.2412,
+            "score": 94096.89
+          },
+          {
+            "item_id": 910,
+            "name": "Garlet",
+            "price": 2500,
+            "qty_per_day": 21.8589,
+            "score": 52574.61
+          },
+          {
+            "item_id": 919,
+            "name": "Animal Skin",
+            "price": 999,
+            "qty_per_day": 452.39,
+            "score": 41498.68
+          },
+          {
+            "item_id": 992,
+            "name": "Wind of Verdure",
+            "price": 2899,
+            "qty_per_day": 0.7286,
+            "score": 17504.07
+          },
+          {
+            "item_id": 1011,
+            "name": "Emveretarcon",
+            "price": 4852,
+            "qty_per_day": 0.3123,
+            "score": 5727.53
+          },
+          {
+            "item_id": 757,
+            "name": "Rough Elunium",
+            "price": 1000,
+            "qty_per_day": 0.2706,
+            "score": 1692.33
+          }
+        ],
+        "cards": [
+          {
+            "item_id": 4074,
+            "aegis": "BigFoot_Card",
+            "name": "Bigfoot Card",
+            "type": "Card",
+            "p_per_map_kill": 6.866e-05,
+            "latam_price": 1000000,
+            "latam_total_sold": 36,
+            "has_offers": true,
+            "drop_per_day": 0.1473,
+            "sellable_per_day": 0.0737,
+            "ev_latam_per_day_if_sold": 73667.03
+          },
+          {
+            "item_id": 4063,
+            "aegis": "Caramel_Card",
+            "name": "Caramel Card",
+            "type": "Card",
+            "p_per_map_kill": 1.493e-05,
+            "latam_price": 3200000,
+            "latam_total_sold": 13,
+            "has_offers": true,
+            "drop_per_day": 0.032,
+            "sellable_per_day": 0.016,
+            "ev_latam_per_day_if_sold": 51260.06
+          },
+          {
+            "item_id": 4040,
+            "aegis": "Creamy_Card",
+            "name": "Creamy Card",
+            "type": "Card",
+            "p_per_map_kill": 9.7e-06,
+            "latam_price": 2969999,
+            "latam_total_sold": 869,
+            "has_offers": true,
+            "drop_per_day": 0.0208,
+            "sellable_per_day": 0.0104,
+            "ev_latam_per_day_if_sold": 30909.89
+          }
+        ],
+        "cards_junk_discarded": [],
+        "card_min_price": 0,
+        "card_policy": {
+          "sell_fraction": 0.5,
+          "shop_slots": 1,
+          "min_price": 0,
+          "note": "acumula sellable; shop máx 1 carta; junk bajo min_price descartado"
+        }
+      },
+      "projection": {
+        "1": {
+          "days": 1,
+          "kills": 2145.8,
+          "hours": 3.5,
+          "mats_stock": [
+            {
+              "item_id": 948,
+              "name": "Bear's Footskin",
+              "qty": 642.95,
+              "price": 3499,
+              "stock_value": 2249697.16
+            },
+            {
+              "item_id": 1027,
+              "name": "Porcupine Quill",
+              "qty": 144.12,
+              "price": 9900,
+              "stock_value": 1426830.13
+            },
+            {
+              "item_id": 1013,
+              "name": "Rainbow Shell",
+              "qty": 93.68,
+              "price": 10000,
+              "stock_value": 936807.73
+            },
+            {
+              "item_id": 1002,
+              "name": "Iron Ore",
+              "qty": 3.12,
+              "price": 11000,
+              "stock_value": 34349.52
+            },
+            {
+              "item_id": 518,
+              "name": "Honey",
+              "qty": 37.31,
+              "price": 2690,
+              "stock_value": 100369.73
+            }
+          ],
+          "mats_stock_value_latam": 4748054.27,
+          "cards": [
+            {
+              "item_id": 4074,
+              "name": "Bigfoot Card",
+              "dropped": 0.147,
+              "sellable": 0.074,
+              "shop_listed_cap": 1,
+              "expected_listed": 0.074,
+              "price": 1000000,
+              "pipeline_value": 73667.03
+            },
+            {
+              "item_id": 4063,
+              "name": "Caramel Card",
+              "dropped": 0.032,
+              "sellable": 0.016,
+              "shop_listed_cap": 1,
+              "expected_listed": 0.016,
+              "price": 3200000,
+              "pipeline_value": 51260.06
+            },
+            {
+              "item_id": 4040,
+              "name": "Creamy Card",
+              "dropped": 0.021,
+              "sellable": 0.01,
+              "shop_listed_cap": 1,
+              "expected_listed": 0.01,
+              "price": 2969999,
+              "pipeline_value": 30909.89
+            }
+          ],
+          "cards_sellable_total": 0.1,
+          "cards_pipeline_value": 155836.98,
+          "lot_expected_value": 4903891.26,
+          "zeny_spent": 10861.44,
+          "net_if_sold_at_latam": 4893029.81,
+          "gates": {
+            "pause_grind_until_sold_z": 1961556.5,
+            "keep_shop_until_sold_z": 2942334.75,
+            "pause_frac": 0.4,
+            "shop_keep_frac": 0.6
+          }
+        },
+        "3": {
+          "days": 3,
+          "kills": 6437.5,
+          "hours": 10.5,
+          "mats_stock": [
+            {
+              "item_id": 948,
+              "name": "Bear's Footskin",
+              "qty": 1928.86,
+              "price": 3499,
+              "stock_value": 6749091.49
+            },
+            {
+              "item_id": 1027,
+              "name": "Porcupine Quill",
+              "qty": 432.37,
+              "price": 9900,
+              "stock_value": 4280490.39
+            },
+            {
+              "item_id": 1013,
+              "name": "Rainbow Shell",
+              "qty": 281.04,
+              "price": 10000,
+              "stock_value": 2810423.18
+            },
+            {
+              "item_id": 1002,
+              "name": "Iron Ore",
+              "qty": 9.37,
+              "price": 11000,
+              "stock_value": 103048.57
+            },
+            {
+              "item_id": 518,
+              "name": "Honey",
+              "qty": 111.94,
+              "price": 2690,
+              "stock_value": 301109.2
+            }
+          ],
+          "mats_stock_value_latam": 14244162.82,
+          "cards": [
+            {
+              "item_id": 4074,
+              "name": "Bigfoot Card",
+              "dropped": 0.442,
+              "sellable": 0.221,
+              "shop_listed_cap": 1,
+              "expected_listed": 0.221,
+              "price": 1000000,
+              "pipeline_value": 221001.09
+            },
+            {
+              "item_id": 4063,
+              "name": "Caramel Card",
+              "dropped": 0.096,
+              "sellable": 0.048,
+              "shop_listed_cap": 1,
+              "expected_listed": 0.048,
+              "price": 3200000,
+              "pipeline_value": 153780.19
+            },
+            {
+              "item_id": 4040,
+              "name": "Creamy Card",
+              "dropped": 0.062,
+              "sellable": 0.031,
+              "shop_listed_cap": 1,
+              "expected_listed": 0.031,
+              "price": 2969999,
+              "pipeline_value": 92729.66
+            }
+          ],
+          "cards_sellable_total": 0.3,
+          "cards_pipeline_value": 467510.94,
+          "lot_expected_value": 14711673.77,
+          "zeny_spent": 32584.33,
+          "net_if_sold_at_latam": 14679089.43,
+          "gates": {
+            "pause_grind_until_sold_z": 5884669.51,
+            "keep_shop_until_sold_z": 8827004.26,
+            "pause_frac": 0.4,
+            "shop_keep_frac": 0.6
+          }
+        },
+        "7": {
+          "days": 7,
+          "kills": 15020.9,
+          "hours": 24.5,
+          "mats_stock": [
+            {
+              "item_id": 948,
+              "name": "Bear's Footskin",
+              "qty": 4500.68,
+              "price": 3499,
+              "stock_value": 15747880.14
+            },
+            {
+              "item_id": 1027,
+              "name": "Porcupine Quill",
+              "qty": 1008.87,
+              "price": 9900,
+              "stock_value": 9987810.92
+            },
+            {
+              "item_id": 1013,
+              "name": "Rainbow Shell",
+              "qty": 655.77,
+              "price": 10000,
+              "stock_value": 6557654.08
+            },
+            {
+              "item_id": 1002,
+              "name": "Iron Ore",
+              "qty": 21.86,
+              "price": 11000,
+              "stock_value": 240446.66
+            },
+            {
+              "item_id": 518,
+              "name": "Honey",
+              "qty": 261.19,
+              "price": 2690,
+              "stock_value": 702588.13
+            }
+          ],
+          "mats_stock_value_latam": 33236379.92,
+          "cards": [
+            {
+              "item_id": 4074,
+              "name": "Bigfoot Card",
+              "dropped": 1.031,
+              "sellable": 0.516,
+              "shop_listed_cap": 1,
+              "expected_listed": 0.516,
+              "price": 1000000,
+              "pipeline_value": 515669.21
+            },
+            {
+              "item_id": 4063,
+              "name": "Caramel Card",
+              "dropped": 0.224,
+              "sellable": 0.112,
+              "shop_listed_cap": 1,
+              "expected_listed": 0.112,
+              "price": 3200000,
+              "pipeline_value": 358820.45
+            },
+            {
+              "item_id": 4040,
+              "name": "Creamy Card",
+              "dropped": 0.146,
+              "sellable": 0.073,
+              "shop_listed_cap": 1,
+              "expected_listed": 0.073,
+              "price": 2969999,
+              "pipeline_value": 216369.2
+            }
+          ],
+          "cards_sellable_total": 0.701,
+          "cards_pipeline_value": 1090858.87,
+          "lot_expected_value": 34327238.79,
+          "zeny_spent": 76030.11,
+          "net_if_sold_at_latam": 34251208.68,
+          "gates": {
+            "pause_grind_until_sold_z": 13730895.52,
+            "keep_shop_until_sold_z": 20596343.28,
+            "pause_frac": 0.4,
+            "shop_keep_frac": 0.6
+          }
+        },
+        "10": {
+          "days": 10,
+          "kills": 21458.5,
+          "hours": 35.0,
+          "mats_stock": [
+            {
+              "item_id": 948,
+              "name": "Bear's Footskin",
+              "qty": 6429.54,
+              "price": 3499,
+              "stock_value": 22496971.62
+            },
+            {
+              "item_id": 1027,
+              "name": "Porcupine Quill",
+              "qty": 1441.24,
+              "price": 9900,
+              "stock_value": 14268301.31
+            },
+            {
+              "item_id": 1013,
+              "name": "Rainbow Shell",
+              "qty": 936.81,
+              "price": 10000,
+              "stock_value": 9368077.26
+            },
+            {
+              "item_id": 1002,
+              "name": "Iron Ore",
+              "qty": 31.23,
+              "price": 11000,
+              "stock_value": 343495.22
+            },
+            {
+              "item_id": 518,
+              "name": "Honey",
+              "qty": 373.12,
+              "price": 2690,
+              "stock_value": 1003697.33
+            }
+          ],
+          "mats_stock_value_latam": 47480542.75,
+          "cards": [
+            {
+              "item_id": 4074,
+              "name": "Bigfoot Card",
+              "dropped": 1.473,
+              "sellable": 0.737,
+              "shop_listed_cap": 1,
+              "expected_listed": 0.737,
+              "price": 1000000,
+              "pipeline_value": 736670.3
+            },
+            {
+              "item_id": 4063,
+              "name": "Caramel Card",
+              "dropped": 0.32,
+              "sellable": 0.16,
+              "shop_listed_cap": 1,
+              "expected_listed": 0.16,
+              "price": 3200000,
+              "pipeline_value": 512600.65
+            },
+            {
+              "item_id": 4040,
+              "name": "Creamy Card",
+              "dropped": 0.208,
+              "sellable": 0.104,
+              "shop_listed_cap": 1,
+              "expected_listed": 0.104,
+              "price": 2969999,
+              "pipeline_value": 309098.86
+            }
+          ],
+          "cards_sellable_total": 1.001,
+          "cards_pipeline_value": 1558369.81,
+          "lot_expected_value": 49038912.56,
+          "zeny_spent": 108614.45,
+          "net_if_sold_at_latam": 48930298.11,
+          "gates": {
+            "pause_grind_until_sold_z": 19615565.02,
+            "keep_shop_until_sold_z": 29423347.54,
+            "pause_frac": 0.4,
+            "shop_keep_frac": 0.6
+          }
+        }
+      }
+    }
+  ],
+  "projection_merged": {
+    "1": {
+      "days": 1,
+      "kills": 2145.8,
+      "mats_stock": [
+        {
+          "item_id": 948,
+          "name": "Bear's Footskin",
+          "qty": 642.95,
+          "price": 3499,
+          "stock_value": 2249697.16
+        },
+        {
+          "item_id": 1027,
+          "name": "Porcupine Quill",
+          "qty": 144.12,
+          "price": 9900,
+          "stock_value": 1426830.13
+        },
+        {
+          "item_id": 1013,
+          "name": "Rainbow Shell",
+          "qty": 93.68,
+          "price": 10000,
+          "stock_value": 936807.73
+        },
+        {
+          "item_id": 518,
+          "name": "Honey",
+          "qty": 37.31,
+          "price": 2690,
+          "stock_value": 100369.73
+        },
+        {
+          "item_id": 1002,
+          "name": "Iron Ore",
+          "qty": 3.12,
+          "price": 11000,
+          "stock_value": 34349.52
+        }
+      ],
+      "mats_stock_value_latam": 4748054.27,
+      "cards": [
+        {
+          "item_id": 4074,
+          "name": "Bigfoot Card",
+          "dropped": 0.147,
+          "sellable": 0.074,
+          "shop_listed_cap": 1,
+          "expected_listed": 0.074,
+          "price": 1000000,
+          "pipeline_value": 73667.03
+        },
+        {
+          "item_id": 4063,
+          "name": "Caramel Card",
+          "dropped": 0.032,
+          "sellable": 0.016,
+          "shop_listed_cap": 1,
+          "expected_listed": 0.016,
+          "price": 3200000,
+          "pipeline_value": 51260.06
+        },
+        {
+          "item_id": 4040,
+          "name": "Creamy Card",
+          "dropped": 0.021,
+          "sellable": 0.01,
+          "shop_listed_cap": 1,
+          "expected_listed": 0.01,
+          "price": 2969999,
+          "pipeline_value": 30909.89
+        }
+      ],
+      "cards_sellable_total": 0.1,
+      "cards_pipeline_value": 155836.98,
+      "lot_expected_value": 4903891.25,
+      "zeny_spent": 10861.44,
+      "net_if_sold_at_latam": 4893029.81,
+      "gates": {
+        "pause_grind_until_sold_z": 1961556.5,
+        "keep_shop_until_sold_z": 2942334.75
+      }
+    },
+    "3": {
+      "days": 3,
+      "kills": 6437.5,
+      "mats_stock": [
+        {
+          "item_id": 948,
+          "name": "Bear's Footskin",
+          "qty": 1928.86,
+          "price": 3499,
+          "stock_value": 6749091.49
+        },
+        {
+          "item_id": 1027,
+          "name": "Porcupine Quill",
+          "qty": 432.37,
+          "price": 9900,
+          "stock_value": 4280490.39
+        },
+        {
+          "item_id": 1013,
+          "name": "Rainbow Shell",
+          "qty": 281.04,
+          "price": 10000,
+          "stock_value": 2810423.18
+        },
+        {
+          "item_id": 518,
+          "name": "Honey",
+          "qty": 111.94,
+          "price": 2690,
+          "stock_value": 301109.2
+        },
+        {
+          "item_id": 1002,
+          "name": "Iron Ore",
+          "qty": 9.37,
+          "price": 11000,
+          "stock_value": 103048.57
+        }
+      ],
+      "mats_stock_value_latam": 14244162.82,
+      "cards": [
+        {
+          "item_id": 4074,
+          "name": "Bigfoot Card",
+          "dropped": 0.442,
+          "sellable": 0.221,
+          "shop_listed_cap": 1,
+          "expected_listed": 0.221,
+          "price": 1000000,
+          "pipeline_value": 221001.09
+        },
+        {
+          "item_id": 4063,
+          "name": "Caramel Card",
+          "dropped": 0.096,
+          "sellable": 0.048,
+          "shop_listed_cap": 1,
+          "expected_listed": 0.048,
+          "price": 3200000,
+          "pipeline_value": 153780.19
+        },
+        {
+          "item_id": 4040,
+          "name": "Creamy Card",
+          "dropped": 0.062,
+          "sellable": 0.031,
+          "shop_listed_cap": 1,
+          "expected_listed": 0.031,
+          "price": 2969999,
+          "pipeline_value": 92729.66
+        }
+      ],
+      "cards_sellable_total": 0.3,
+      "cards_pipeline_value": 467510.94,
+      "lot_expected_value": 14711673.76,
+      "zeny_spent": 32584.33,
+      "net_if_sold_at_latam": 14679089.43,
+      "gates": {
+        "pause_grind_until_sold_z": 5884669.5,
+        "keep_shop_until_sold_z": 8827004.26
+      }
+    },
+    "7": {
+      "days": 7,
+      "kills": 15020.9,
+      "mats_stock": [
+        {
+          "item_id": 948,
+          "name": "Bear's Footskin",
+          "qty": 4500.68,
+          "price": 3499,
+          "stock_value": 15747880.14
+        },
+        {
+          "item_id": 1027,
+          "name": "Porcupine Quill",
+          "qty": 1008.87,
+          "price": 9900,
+          "stock_value": 9987810.92
+        },
+        {
+          "item_id": 1013,
+          "name": "Rainbow Shell",
+          "qty": 655.77,
+          "price": 10000,
+          "stock_value": 6557654.08
+        },
+        {
+          "item_id": 518,
+          "name": "Honey",
+          "qty": 261.19,
+          "price": 2690,
+          "stock_value": 702588.13
+        },
+        {
+          "item_id": 1002,
+          "name": "Iron Ore",
+          "qty": 21.86,
+          "price": 11000,
+          "stock_value": 240446.66
+        }
+      ],
+      "mats_stock_value_latam": 33236379.92,
+      "cards": [
+        {
+          "item_id": 4074,
+          "name": "Bigfoot Card",
+          "dropped": 1.031,
+          "sellable": 0.516,
+          "shop_listed_cap": 1,
+          "expected_listed": 0.516,
+          "price": 1000000,
+          "pipeline_value": 515669.21
+        },
+        {
+          "item_id": 4063,
+          "name": "Caramel Card",
+          "dropped": 0.224,
+          "sellable": 0.112,
+          "shop_listed_cap": 1,
+          "expected_listed": 0.112,
+          "price": 3200000,
+          "pipeline_value": 358820.45
+        },
+        {
+          "item_id": 4040,
+          "name": "Creamy Card",
+          "dropped": 0.146,
+          "sellable": 0.073,
+          "shop_listed_cap": 1,
+          "expected_listed": 0.073,
+          "price": 2969999,
+          "pipeline_value": 216369.2
+        }
+      ],
+      "cards_sellable_total": 0.701,
+      "cards_pipeline_value": 1090858.87,
+      "lot_expected_value": 34327238.79,
+      "zeny_spent": 76030.11,
+      "net_if_sold_at_latam": 34251208.68,
+      "gates": {
+        "pause_grind_until_sold_z": 13730895.52,
+        "keep_shop_until_sold_z": 20596343.27
+      }
+    },
+    "10": {
+      "days": 10,
+      "kills": 21458.5,
+      "mats_stock": [
+        {
+          "item_id": 948,
+          "name": "Bear's Footskin",
+          "qty": 6429.54,
+          "price": 3499,
+          "stock_value": 22496971.62
+        },
+        {
+          "item_id": 1027,
+          "name": "Porcupine Quill",
+          "qty": 1441.24,
+          "price": 9900,
+          "stock_value": 14268301.31
+        },
+        {
+          "item_id": 1013,
+          "name": "Rainbow Shell",
+          "qty": 936.81,
+          "price": 10000,
+          "stock_value": 9368077.26
+        },
+        {
+          "item_id": 518,
+          "name": "Honey",
+          "qty": 373.12,
+          "price": 2690,
+          "stock_value": 1003697.33
+        },
+        {
+          "item_id": 1002,
+          "name": "Iron Ore",
+          "qty": 31.23,
+          "price": 11000,
+          "stock_value": 343495.22
+        }
+      ],
+      "mats_stock_value_latam": 47480542.75,
+      "cards": [
+        {
+          "item_id": 4074,
+          "name": "Bigfoot Card",
+          "dropped": 1.473,
+          "sellable": 0.737,
+          "shop_listed_cap": 1,
+          "expected_listed": 0.737,
+          "price": 1000000,
+          "pipeline_value": 736670.3
+        },
+        {
+          "item_id": 4063,
+          "name": "Caramel Card",
+          "dropped": 0.32,
+          "sellable": 0.16,
+          "shop_listed_cap": 1,
+          "expected_listed": 0.16,
+          "price": 3200000,
+          "pipeline_value": 512600.65
+        },
+        {
+          "item_id": 4040,
+          "name": "Creamy Card",
+          "dropped": 0.208,
+          "sellable": 0.104,
+          "shop_listed_cap": 1,
+          "expected_listed": 0.104,
+          "price": 2969999,
+          "pipeline_value": 309098.86
+        }
+      ],
+      "cards_sellable_total": 1.001,
+      "cards_pipeline_value": 1558369.81,
+      "lot_expected_value": 49038912.56,
+      "zeny_spent": 108614.45,
+      "net_if_sold_at_latam": 48930298.11,
+      "gates": {
+        "pause_grind_until_sold_z": 19615565.02,
+        "keep_shop_until_sold_z": 29423347.54
+      }
+    }
+  },
+  "day10": {
+    "days": 10,
+    "kills": 21458.5,
+    "mats_stock": [
+      {
+        "item_id": 948,
+        "name": "Bear's Footskin",
+        "qty": 6429.54,
+        "price": 3499,
+        "stock_value": 22496971.62
+      },
+      {
+        "item_id": 1027,
+        "name": "Porcupine Quill",
+        "qty": 1441.24,
+        "price": 9900,
+        "stock_value": 14268301.31
+      },
+      {
+        "item_id": 1013,
+        "name": "Rainbow Shell",
+        "qty": 936.81,
+        "price": 10000,
+        "stock_value": 9368077.26
+      },
+      {
+        "item_id": 518,
+        "name": "Honey",
+        "qty": 373.12,
+        "price": 2690,
+        "stock_value": 1003697.33
+      },
+      {
+        "item_id": 1002,
+        "name": "Iron Ore",
+        "qty": 31.23,
+        "price": 11000,
+        "stock_value": 343495.22
+      }
+    ],
+    "mats_stock_value_latam": 47480542.75,
+    "cards": [
+      {
+        "item_id": 4074,
+        "name": "Bigfoot Card",
+        "dropped": 1.473,
+        "sellable": 0.737,
+        "shop_listed_cap": 1,
+        "expected_listed": 0.737,
+        "price": 1000000,
+        "pipeline_value": 736670.3
+      },
+      {
+        "item_id": 4063,
+        "name": "Caramel Card",
+        "dropped": 0.32,
+        "sellable": 0.16,
+        "shop_listed_cap": 1,
+        "expected_listed": 0.16,
+        "price": 3200000,
+        "pipeline_value": 512600.65
+      },
+      {
+        "item_id": 4040,
+        "name": "Creamy Card",
+        "dropped": 0.208,
+        "sellable": 0.104,
+        "shop_listed_cap": 1,
+        "expected_listed": 0.104,
+        "price": 2969999,
+        "pipeline_value": 309098.86
+      }
+    ],
+    "cards_sellable_total": 1.001,
+    "cards_pipeline_value": 1558369.81,
+    "lot_expected_value": 49038912.56,
+    "zeny_spent": 108614.45,
+    "net_if_sold_at_latam": 48930298.11,
+    "gates": {
+      "pause_grind_until_sold_z": 19615565.02,
+      "keep_shop_until_sold_z": 29423347.54
+    }
+  }
+}

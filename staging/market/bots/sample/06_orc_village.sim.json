@@ -1,0 +1,1410 @@
+{
+  "id": "06_orc_village",
+  "label": "Aldea Orco",
+  "tier_target": "mid",
+  "notes": "Dos mapas tema orco (campo + dungeon).",
+  "maps": [
+    "gef_fild10",
+    "orcsdun01"
+  ],
+  "map_profiles": [
+    {
+      "map": "gef_fild10",
+      "tier": "mid",
+      "avg_level": 44.11,
+      "max_level": 45,
+      "avg_hp": 1084,
+      "combat_amount": 263,
+      "hours_share": 0.5,
+      "kills": {
+        "t_kill_sec": 7.923,
+        "uptime": 1.0,
+        "kills_per_hour_combat": 454.4,
+        "dead_time_frac": 0.2,
+        "kills_per_hour": 363.5
+      },
+      "costs": {
+        "zeny_cost_per_hour": 4135.46,
+        "zeny_cost_per_kill": 11.3768
+      },
+      "kills_per_day": 636.1,
+      "mobs": [
+        {
+          "aegis": "ORK_WARRIOR",
+          "amount": 179,
+          "level": 44,
+          "hp": 1047,
+          "weight": 0.6806
+        },
+        {
+          "aegis": "ORC_LADY",
+          "amount": 55,
+          "level": 45,
+          "hp": 1145,
+          "weight": 0.2091
+        },
+        {
+          "aegis": "ORC_BABY",
+          "amount": 27,
+          "level": 43,
+          "hp": 904,
+          "weight": 0.1027
+        },
+        {
+          "aegis": "C4_ORK_WARRIOR",
+          "amount": 2,
+          "level": 44,
+          "hp": 5235,
+          "weight": 0.0076
+        }
+      ],
+      "drop_types_count": 22,
+      "ev_mats_offer_per_kill": 180.46,
+      "ev_mats_offer_per_day": 114794.48,
+      "offer": {
+        "mats_for_sale": [
+          {
+            "item_id": 756,
+            "aegis": "Oridecon_Stone",
+            "name": "Rough Oridecon",
+            "type": "Etc",
+            "p_per_map_kill": 0.00143726,
+            "latam_price": 8490,
+            "latam_total_sold": 2144,
+            "has_offers": true,
+            "qty_per_day": 0.9143,
+            "score": 42288.85
+          },
+          {
+            "item_id": 519,
+            "aegis": "Milk",
+            "name": "Milk",
+            "type": "Healing",
+            "p_per_map_kill": 0.0256654,
+            "latam_price": 990,
+            "latam_total_sold": 1223,
+            "has_offers": true,
+            "qty_per_day": 16.3264,
+            "score": 20076.23
+          },
+          {
+            "item_id": 7053,
+            "aegis": "Cyfar",
+            "name": "Cyfar",
+            "type": "Etc",
+            "p_per_map_kill": 0.04868441,
+            "latam_price": 1000,
+            "latam_total_sold": 240,
+            "has_offers": true,
+            "qty_per_day": 30.9694,
+            "score": 19003.61
+          },
+          {
+            "item_id": 931,
+            "aegis": "Orcish_Voucher",
+            "name": "Orcish Voucher",
+            "type": "Etc",
+            "p_per_map_kill": 0.31387833,
+            "latam_price": 300,
+            "latam_total_sold": 10840,
+            "has_offers": true,
+            "qty_per_day": 199.6659,
+            "score": 14777.41
+          }
+        ],
+        "mats_discarded_count": 0,
+        "mats_discarded_top10": [],
+        "cards": [
+          {
+            "item_id": 4066,
+            "aegis": "Orc_Warrior_Card",
+            "name": "Orc Warrior Card",
+            "type": "Card",
+            "p_per_map_kill": 7.186e-05,
+            "latam_price": 1950000,
+            "latam_total_sold": 72,
+            "has_offers": true,
+            "drop_per_day": 0.0457,
+            "sellable_per_day": 0.0229,
+            "ev_latam_per_day_if_sold": 44569.14
+          }
+        ],
+        "cards_junk_discarded": [],
+        "card_min_price": 0,
+        "card_policy": {
+          "sell_fraction": 0.5,
+          "shop_slots": 1,
+          "min_price": 0,
+          "note": "acumula sellable; shop máx 1 carta; junk bajo min_price descartado"
+        }
+      },
+      "projection": {
+        "1": {
+          "days": 1,
+          "kills": 636.1,
+          "hours": 3.5,
+          "mats_stock": [
+            {
+              "item_id": 756,
+              "name": "Rough Oridecon",
+              "qty": 0.91,
+              "price": 8490,
+              "stock_value": 7762.21
+            },
+            {
+              "item_id": 519,
+              "name": "Milk",
+              "qty": 16.33,
+              "price": 990,
+              "stock_value": 16163.14
+            },
+            {
+              "item_id": 7053,
+              "name": "Cyfar",
+              "qty": 30.97,
+              "price": 1000,
+              "stock_value": 30969.37
+            },
+            {
+              "item_id": 931,
+              "name": "Orcish Voucher",
+              "qty": 199.67,
+              "price": 300,
+              "stock_value": 59899.76
+            }
+          ],
+          "mats_stock_value_latam": 114794.48,
+          "cards": [
+            {
+              "item_id": 4066,
+              "name": "Orc Warrior Card",
+              "dropped": 0.046,
+              "sellable": 0.023,
+              "shop_listed_cap": 1,
+              "expected_listed": 0.023,
+              "price": 1950000,
+              "pipeline_value": 44569.14
+            }
+          ],
+          "cards_sellable_total": 0.023,
+          "cards_pipeline_value": 44569.14,
+          "lot_expected_value": 159363.62,
+          "zeny_spent": 7237.06,
+          "net_if_sold_at_latam": 152126.57,
+          "gates": {
+            "pause_grind_until_sold_z": 63745.45,
+            "keep_shop_until_sold_z": 95618.17,
+            "pause_frac": 0.4,
+            "shop_keep_frac": 0.6
+          }
+        },
+        "3": {
+          "days": 3,
+          "kills": 1908.4,
+          "hours": 10.5,
+          "mats_stock": [
+            {
+              "item_id": 756,
+              "name": "Rough Oridecon",
+              "qty": 2.74,
+              "price": 8490,
+              "stock_value": 23286.64
+            },
+            {
+              "item_id": 519,
+              "name": "Milk",
+              "qty": 48.98,
+              "price": 990,
+              "stock_value": 48489.42
+            },
+            {
+              "item_id": 7053,
+              "name": "Cyfar",
+              "qty": 92.91,
+              "price": 1000,
+              "stock_value": 92908.11
+            },
+            {
+              "item_id": 931,
+              "name": "Orcish Voucher",
+              "qty": 599.0,
+              "price": 300,
+              "stock_value": 179699.27
+            }
+          ],
+          "mats_stock_value_latam": 344383.43,
+          "cards": [
+            {
+              "item_id": 4066,
+              "name": "Orc Warrior Card",
+              "dropped": 0.137,
+              "sellable": 0.069,
+              "shop_listed_cap": 1,
+              "expected_listed": 0.069,
+              "price": 1950000,
+              "pipeline_value": 133707.43
+            }
+          ],
+          "cards_sellable_total": 0.069,
+          "cards_pipeline_value": 133707.43,
+          "lot_expected_value": 478090.86,
+          "zeny_spent": 21711.17,
+          "net_if_sold_at_latam": 456379.7,
+          "gates": {
+            "pause_grind_until_sold_z": 191236.34,
+            "keep_shop_until_sold_z": 286854.52,
+            "pause_frac": 0.4,
+            "shop_keep_frac": 0.6
+          }
+        },
+        "7": {
+          "days": 7,
+          "kills": 4452.9,
+          "hours": 24.5,
+          "mats_stock": [
+            {
+              "item_id": 756,
+              "name": "Rough Oridecon",
+              "qty": 6.4,
+              "price": 8490,
+              "stock_value": 54335.48
+            },
+            {
+              "item_id": 519,
+              "name": "Milk",
+              "qty": 114.28,
+              "price": 990,
+              "stock_value": 113141.97
+            },
+            {
+              "item_id": 7053,
+              "name": "Cyfar",
+              "qty": 216.79,
+              "price": 1000,
+              "stock_value": 216785.59
+            },
+            {
+              "item_id": 931,
+              "name": "Orcish Voucher",
+              "qty": 1397.66,
+              "price": 300,
+              "stock_value": 419298.29
+            }
+          ],
+          "mats_stock_value_latam": 803561.34,
+          "cards": [
+            {
+              "item_id": 4066,
+              "name": "Orc Warrior Card",
+              "dropped": 0.32,
+              "sellable": 0.16,
+              "shop_listed_cap": 1,
+              "expected_listed": 0.16,
+              "price": 1950000,
+              "pipeline_value": 311984.01
+            }
+          ],
+          "cards_sellable_total": 0.16,
+          "cards_pipeline_value": 311984.01,
+          "lot_expected_value": 1115545.34,
+          "zeny_spent": 50659.39,
+          "net_if_sold_at_latam": 1064885.96,
+          "gates": {
+            "pause_grind_until_sold_z": 446218.14,
+            "keep_shop_until_sold_z": 669327.21,
+            "pause_frac": 0.4,
+            "shop_keep_frac": 0.6
+          }
+        },
+        "10": {
+          "days": 10,
+          "kills": 6361.2,
+          "hours": 35.0,
+          "mats_stock": [
+            {
+              "item_id": 756,
+              "name": "Rough Oridecon",
+              "qty": 9.14,
+              "price": 8490,
+              "stock_value": 77622.12
+            },
+            {
+              "item_id": 519,
+              "name": "Milk",
+              "qty": 163.26,
+              "price": 990,
+              "stock_value": 161631.39
+            },
+            {
+              "item_id": 7053,
+              "name": "Cyfar",
+              "qty": 309.69,
+              "price": 1000,
+              "stock_value": 309693.7
+            },
+            {
+              "item_id": 931,
+              "name": "Orcish Voucher",
+              "qty": 1996.66,
+              "price": 300,
+              "stock_value": 598997.56
+            }
+          ],
+          "mats_stock_value_latam": 1147944.77,
+          "cards": [
+            {
+              "item_id": 4066,
+              "name": "Orc Warrior Card",
+              "dropped": 0.457,
+              "sellable": 0.229,
+              "shop_listed_cap": 1,
+              "expected_listed": 0.229,
+              "price": 1950000,
+              "pipeline_value": 445691.44
+            }
+          ],
+          "cards_sellable_total": 0.229,
+          "cards_pipeline_value": 445691.44,
+          "lot_expected_value": 1593636.2,
+          "zeny_spent": 72370.55,
+          "net_if_sold_at_latam": 1521265.65,
+          "gates": {
+            "pause_grind_until_sold_z": 637454.48,
+            "keep_shop_until_sold_z": 956181.72,
+            "pause_frac": 0.4,
+            "shop_keep_frac": 0.6
+          }
+        }
+      }
+    },
+    {
+      "map": "orcsdun01",
+      "tier": "mid",
+      "avg_level": 47.43,
+      "max_level": 53,
+      "avg_hp": 1479,
+      "combat_amount": 122,
+      "hours_share": 0.5,
+      "kills": {
+        "t_kill_sec": 9.895,
+        "uptime": 1.0,
+        "kills_per_hour_combat": 363.8,
+        "dead_time_frac": 0.2,
+        "kills_per_hour": 291.1
+      },
+      "costs": {
+        "zeny_cost_per_hour": 4766.43,
+        "zeny_cost_per_kill": 16.3738
+      },
+      "kills_per_day": 509.4,
+      "mobs": [
+        {
+          "aegis": "ORC_ZOMBIE",
+          "amount": 80,
+          "level": 51,
+          "hp": 1586,
+          "weight": 0.6557
+        },
+        {
+          "aegis": "FARMILIAR",
+          "amount": 15,
+          "level": 24,
+          "hp": 330,
+          "weight": 0.123
+        },
+        {
+          "aegis": "STEEL_CHONCHON",
+          "amount": 10,
+          "level": 48,
+          "hp": 985,
+          "weight": 0.082
+        },
+        {
+          "aegis": "ORC_SKELETON",
+          "amount": 10,
+          "level": 53,
+          "hp": 1699,
+          "weight": 0.082
+        },
+        {
+          "aegis": "DRAINLIAR",
+          "amount": 5,
+          "level": 47,
+          "hp": 1182,
+          "weight": 0.041
+        },
+        {
+          "aegis": "C5_ORC_ZOMBIE",
+          "amount": 2,
+          "level": 51,
+          "hp": 7930,
+          "weight": 0.0164
+        }
+      ],
+      "drop_types_count": 30,
+      "ev_mats_offer_per_kill": 1243.28,
+      "ev_mats_offer_per_day": 633357.28,
+      "offer": {
+        "mats_for_sale": [
+          {
+            "item_id": 913,
+            "aegis": "Tooth_Of_Bat",
+            "name": "Tooth of Bat",
+            "type": "Etc",
+            "p_per_map_kill": 0.03995902,
+            "latam_price": 14960,
+            "latam_total_sold": 1729,
+            "has_offers": true,
+            "qty_per_day": 20.3561,
+            "score": 341461.44
+          },
+          {
+            "item_id": 935,
+            "aegis": "Shell",
+            "name": "Shell",
+            "type": "Etc",
+            "p_per_map_kill": 0.03688525,
+            "latam_price": 3500,
+            "latam_total_sold": 1874,
+            "has_offers": true,
+            "qty_per_day": 18.7903,
+            "score": 78741.18
+          },
+          {
+            "item_id": 938,
+            "aegis": "Sticky_Mucus",
+            "name": "Sticky Mucus",
+            "type": "Etc",
+            "p_per_map_kill": 0.11065574,
+            "latam_price": 2000,
+            "latam_total_sold": 15416,
+            "has_offers": true,
+            "qty_per_day": 56.3708,
+            "score": 78101.17
+          },
+          {
+            "item_id": 1043,
+            "aegis": "Nail_Of_Orc",
+            "name": "Orc Claw",
+            "type": "Etc",
+            "p_per_map_kill": 0.19672131,
+            "latam_price": 1500,
+            "latam_total_sold": 214,
+            "has_offers": true,
+            "qty_per_day": 100.2148,
+            "score": 37196.32
+          }
+        ],
+        "mats_discarded_count": 11,
+        "mats_discarded_top10": [
+          {
+            "item_id": 910,
+            "name": "Garlet",
+            "price": 2500,
+            "qty_per_day": 5.0107,
+            "score": 30132.59
+          },
+          {
+            "item_id": 507,
+            "name": "Red Herb",
+            "price": 1399,
+            "qty_per_day": 4.1756,
+            "score": 29300.51
+          },
+          {
+            "item_id": 998,
+            "name": "Iron",
+            "price": 8200,
+            "qty_per_day": 0.4176,
+            "score": 27230.91
+          },
+          {
+            "item_id": 922,
+            "name": "Orc's Fang",
+            "price": 1276,
+            "qty_per_day": 11.4829,
+            "score": 19613.34
+          },
+          {
+            "item_id": 992,
+            "name": "Wind of Verdure",
+            "price": 2899,
+            "qty_per_day": 0.1879,
+            "score": 5506.77
+          },
+          {
+            "item_id": 999,
+            "name": "Steel",
+            "price": 6000,
+            "qty_per_day": 0.0626,
+            "score": 3779.52
+          },
+          {
+            "item_id": 756,
+            "name": "Rough Oridecon",
+            "price": 8490,
+            "qty_per_day": 0.0418,
+            "score": 2664.25
+          },
+          {
+            "item_id": 511,
+            "name": "Green Herb",
+            "price": 1499,
+            "qty_per_day": 0.1044,
+            "score": 1559.82
+          },
+          {
+            "item_id": 645,
+            "name": "Concentration Potion",
+            "price": 1050,
+            "qty_per_day": 0.1566,
+            "score": 1281.42
+          },
+          {
+            "item_id": 757,
+            "name": "Rough Elunium",
+            "price": 1000,
+            "qty_per_day": 0.167,
+            "score": 1091.34
+          }
+        ],
+        "cards": [
+          {
+            "item_id": 4071,
+            "aegis": "Orc_Zombie_Card",
+            "name": "Orc Zombie Card",
+            "type": "Card",
+            "p_per_map_kill": 7.377e-05,
+            "latam_price": 500000,
+            "latam_total_sold": 17,
+            "has_offers": true,
+            "drop_per_day": 0.0376,
+            "sellable_per_day": 0.0188,
+            "ev_latam_per_day_if_sold": 9395.07
+          },
+          {
+            "item_id": 4085,
+            "aegis": "Orc_Skeleton_Card",
+            "name": "Orc Skeleton Card",
+            "type": "Card",
+            "p_per_map_kill": 8.2e-06,
+            "latam_price": 750000,
+            "latam_total_sold": 7,
+            "has_offers": true,
+            "drop_per_day": 0.0042,
+            "sellable_per_day": 0.0021,
+            "ev_latam_per_day_if_sold": 1566.48
+          }
+        ],
+        "cards_junk_discarded": [],
+        "card_min_price": 0,
+        "card_policy": {
+          "sell_fraction": 0.5,
+          "shop_slots": 1,
+          "min_price": 0,
+          "note": "acumula sellable; shop máx 1 carta; junk bajo min_price descartado"
+        }
+      },
+      "projection": {
+        "1": {
+          "days": 1,
+          "kills": 509.4,
+          "hours": 3.5,
+          "mats_stock": [
+            {
+              "item_id": 913,
+              "name": "Tooth of Bat",
+              "qty": 20.36,
+              "price": 14960,
+              "stock_value": 304527.61
+            },
+            {
+              "item_id": 935,
+              "name": "Shell",
+              "qty": 18.79,
+              "price": 3500,
+              "stock_value": 65765.94
+            },
+            {
+              "item_id": 938,
+              "name": "Sticky Mucus",
+              "qty": 56.37,
+              "price": 2000,
+              "stock_value": 112741.6
+            },
+            {
+              "item_id": 1043,
+              "name": "Orc Claw",
+              "qty": 100.21,
+              "price": 1500,
+              "stock_value": 150322.13
+            }
+          ],
+          "mats_stock_value_latam": 633357.28,
+          "cards": [
+            {
+              "item_id": 4071,
+              "name": "Orc Zombie Card",
+              "dropped": 0.038,
+              "sellable": 0.019,
+              "shop_listed_cap": 1,
+              "expected_listed": 0.019,
+              "price": 500000,
+              "pipeline_value": 9395.07
+            },
+            {
+              "item_id": 4085,
+              "name": "Orc Skeleton Card",
+              "dropped": 0.004,
+              "sellable": 0.002,
+              "shop_listed_cap": 1,
+              "expected_listed": 0.002,
+              "price": 750000,
+              "pipeline_value": 1566.48
+            }
+          ],
+          "cards_sellable_total": 0.021,
+          "cards_pipeline_value": 10961.55,
+          "lot_expected_value": 644318.83,
+          "zeny_spent": 8341.25,
+          "net_if_sold_at_latam": 635977.58,
+          "gates": {
+            "pause_grind_until_sold_z": 257727.53,
+            "keep_shop_until_sold_z": 386591.3,
+            "pause_frac": 0.4,
+            "shop_keep_frac": 0.6
+          }
+        },
+        "3": {
+          "days": 3,
+          "kills": 1528.3,
+          "hours": 10.5,
+          "mats_stock": [
+            {
+              "item_id": 913,
+              "name": "Tooth of Bat",
+              "qty": 61.07,
+              "price": 14960,
+              "stock_value": 913582.83
+            },
+            {
+              "item_id": 935,
+              "name": "Shell",
+              "qty": 56.37,
+              "price": 3500,
+              "stock_value": 197297.82
+            },
+            {
+              "item_id": 938,
+              "name": "Sticky Mucus",
+              "qty": 169.11,
+              "price": 2000,
+              "stock_value": 338224.8
+            },
+            {
+              "item_id": 1043,
+              "name": "Orc Claw",
+              "qty": 300.64,
+              "price": 1500,
+              "stock_value": 450966.39
+            }
+          ],
+          "mats_stock_value_latam": 1900071.85,
+          "cards": [
+            {
+              "item_id": 4071,
+              "name": "Orc Zombie Card",
+              "dropped": 0.113,
+              "sellable": 0.056,
+              "shop_listed_cap": 1,
+              "expected_listed": 0.056,
+              "price": 500000,
+              "pipeline_value": 28185.21
+            },
+            {
+              "item_id": 4085,
+              "name": "Orc Skeleton Card",
+              "dropped": 0.013,
+              "sellable": 0.006,
+              "shop_listed_cap": 1,
+              "expected_listed": 0.006,
+              "price": 750000,
+              "pipeline_value": 4699.45
+            }
+          ],
+          "cards_sellable_total": 0.062,
+          "cards_pipeline_value": 32884.66,
+          "lot_expected_value": 1932956.5,
+          "zeny_spent": 25023.76,
+          "net_if_sold_at_latam": 1907932.75,
+          "gates": {
+            "pause_grind_until_sold_z": 773182.6,
+            "keep_shop_until_sold_z": 1159773.9,
+            "pause_frac": 0.4,
+            "shop_keep_frac": 0.6
+          }
+        },
+        "7": {
+          "days": 7,
+          "kills": 3566.0,
+          "hours": 24.5,
+          "mats_stock": [
+            {
+              "item_id": 913,
+              "name": "Tooth of Bat",
+              "qty": 142.49,
+              "price": 14960,
+              "stock_value": 2131693.28
+            },
+            {
+              "item_id": 935,
+              "name": "Shell",
+              "qty": 131.53,
+              "price": 3500,
+              "stock_value": 460361.58
+            },
+            {
+              "item_id": 938,
+              "name": "Sticky Mucus",
+              "qty": 394.6,
+              "price": 2000,
+              "stock_value": 789191.2
+            },
+            {
+              "item_id": 1043,
+              "name": "Orc Claw",
+              "qty": 701.5,
+              "price": 1500,
+              "stock_value": 1052254.91
+            }
+          ],
+          "mats_stock_value_latam": 4433500.97,
+          "cards": [
+            {
+              "item_id": 4071,
+              "name": "Orc Zombie Card",
+              "dropped": 0.263,
+              "sellable": 0.132,
+              "shop_listed_cap": 1,
+              "expected_listed": 0.132,
+              "price": 500000,
+              "pipeline_value": 65765.49
+            },
+            {
+              "item_id": 4085,
+              "name": "Orc Skeleton Card",
+              "dropped": 0.029,
+              "sellable": 0.015,
+              "shop_listed_cap": 1,
+              "expected_listed": 0.015,
+              "price": 750000,
+              "pipeline_value": 10965.37
+            }
+          ],
+          "cards_sellable_total": 0.147,
+          "cards_pipeline_value": 76730.87,
+          "lot_expected_value": 4510231.84,
+          "zeny_spent": 58388.77,
+          "net_if_sold_at_latam": 4451843.07,
+          "gates": {
+            "pause_grind_until_sold_z": 1804092.74,
+            "keep_shop_until_sold_z": 2706139.1,
+            "pause_frac": 0.4,
+            "shop_keep_frac": 0.6
+          }
+        },
+        "10": {
+          "days": 10,
+          "kills": 5094.3,
+          "hours": 35.0,
+          "mats_stock": [
+            {
+              "item_id": 913,
+              "name": "Tooth of Bat",
+              "qty": 203.56,
+              "price": 14960,
+              "stock_value": 3045276.12
+            },
+            {
+              "item_id": 935,
+              "name": "Shell",
+              "qty": 187.9,
+              "price": 3500,
+              "stock_value": 657659.4
+            },
+            {
+              "item_id": 938,
+              "name": "Sticky Mucus",
+              "qty": 563.71,
+              "price": 2000,
+              "stock_value": 1127416.01
+            },
+            {
+              "item_id": 1043,
+              "name": "Orc Claw",
+              "qty": 1002.15,
+              "price": 1500,
+              "stock_value": 1503221.3
+            }
+          ],
+          "mats_stock_value_latam": 6333572.82,
+          "cards": [
+            {
+              "item_id": 4071,
+              "name": "Orc Zombie Card",
+              "dropped": 0.376,
+              "sellable": 0.188,
+              "shop_listed_cap": 1,
+              "expected_listed": 0.188,
+              "price": 500000,
+              "pipeline_value": 93950.71
+            },
+            {
+              "item_id": 4085,
+              "name": "Orc Skeleton Card",
+              "dropped": 0.042,
+              "sellable": 0.021,
+              "shop_listed_cap": 1,
+              "expected_listed": 0.021,
+              "price": 750000,
+              "pipeline_value": 15664.82
+            }
+          ],
+          "cards_sellable_total": 0.209,
+          "cards_pipeline_value": 109615.52,
+          "lot_expected_value": 6443188.34,
+          "zeny_spent": 83412.53,
+          "net_if_sold_at_latam": 6359775.82,
+          "gates": {
+            "pause_grind_until_sold_z": 2577275.34,
+            "keep_shop_until_sold_z": 3865913.01,
+            "pause_frac": 0.4,
+            "shop_keep_frac": 0.6
+          }
+        }
+      }
+    }
+  ],
+  "projection_merged": {
+    "1": {
+      "days": 1,
+      "kills": 1145.5,
+      "mats_stock": [
+        {
+          "item_id": 913,
+          "name": "Tooth of Bat",
+          "qty": 20.36,
+          "price": 14960,
+          "stock_value": 304527.61
+        },
+        {
+          "item_id": 1043,
+          "name": "Orc Claw",
+          "qty": 100.21,
+          "price": 1500,
+          "stock_value": 150322.13
+        },
+        {
+          "item_id": 938,
+          "name": "Sticky Mucus",
+          "qty": 56.37,
+          "price": 2000,
+          "stock_value": 112741.6
+        },
+        {
+          "item_id": 935,
+          "name": "Shell",
+          "qty": 18.79,
+          "price": 3500,
+          "stock_value": 65765.94
+        },
+        {
+          "item_id": 931,
+          "name": "Orcish Voucher",
+          "qty": 199.67,
+          "price": 300,
+          "stock_value": 59899.76
+        },
+        {
+          "item_id": 7053,
+          "name": "Cyfar",
+          "qty": 30.97,
+          "price": 1000,
+          "stock_value": 30969.37
+        },
+        {
+          "item_id": 519,
+          "name": "Milk",
+          "qty": 16.33,
+          "price": 990,
+          "stock_value": 16163.14
+        },
+        {
+          "item_id": 756,
+          "name": "Rough Oridecon",
+          "qty": 0.91,
+          "price": 8490,
+          "stock_value": 7762.21
+        }
+      ],
+      "mats_stock_value_latam": 748151.76,
+      "cards": [
+        {
+          "item_id": 4066,
+          "name": "Orc Warrior Card",
+          "dropped": 0.046,
+          "sellable": 0.023,
+          "shop_listed_cap": 1,
+          "expected_listed": 0.023,
+          "price": 1950000,
+          "pipeline_value": 44569.14
+        },
+        {
+          "item_id": 4071,
+          "name": "Orc Zombie Card",
+          "dropped": 0.038,
+          "sellable": 0.019,
+          "shop_listed_cap": 1,
+          "expected_listed": 0.019,
+          "price": 500000,
+          "pipeline_value": 9395.07
+        },
+        {
+          "item_id": 4085,
+          "name": "Orc Skeleton Card",
+          "dropped": 0.004,
+          "sellable": 0.002,
+          "shop_listed_cap": 1,
+          "expected_listed": 0.002,
+          "price": 750000,
+          "pipeline_value": 1566.48
+        }
+      ],
+      "cards_sellable_total": 0.044,
+      "cards_pipeline_value": 55530.69,
+      "lot_expected_value": 803682.45,
+      "zeny_spent": 15578.31,
+      "net_if_sold_at_latam": 788104.14,
+      "gates": {
+        "pause_grind_until_sold_z": 321472.98,
+        "keep_shop_until_sold_z": 482209.47
+      }
+    },
+    "3": {
+      "days": 3,
+      "kills": 3436.7,
+      "mats_stock": [
+        {
+          "item_id": 913,
+          "name": "Tooth of Bat",
+          "qty": 61.07,
+          "price": 14960,
+          "stock_value": 913582.83
+        },
+        {
+          "item_id": 1043,
+          "name": "Orc Claw",
+          "qty": 300.64,
+          "price": 1500,
+          "stock_value": 450966.39
+        },
+        {
+          "item_id": 938,
+          "name": "Sticky Mucus",
+          "qty": 169.11,
+          "price": 2000,
+          "stock_value": 338224.8
+        },
+        {
+          "item_id": 935,
+          "name": "Shell",
+          "qty": 56.37,
+          "price": 3500,
+          "stock_value": 197297.82
+        },
+        {
+          "item_id": 931,
+          "name": "Orcish Voucher",
+          "qty": 599.0,
+          "price": 300,
+          "stock_value": 179699.27
+        },
+        {
+          "item_id": 7053,
+          "name": "Cyfar",
+          "qty": 92.91,
+          "price": 1000,
+          "stock_value": 92908.11
+        },
+        {
+          "item_id": 519,
+          "name": "Milk",
+          "qty": 48.98,
+          "price": 990,
+          "stock_value": 48489.42
+        },
+        {
+          "item_id": 756,
+          "name": "Rough Oridecon",
+          "qty": 2.74,
+          "price": 8490,
+          "stock_value": 23286.64
+        }
+      ],
+      "mats_stock_value_latam": 2244455.28,
+      "cards": [
+        {
+          "item_id": 4066,
+          "name": "Orc Warrior Card",
+          "dropped": 0.137,
+          "sellable": 0.069,
+          "shop_listed_cap": 1,
+          "expected_listed": 0.069,
+          "price": 1950000,
+          "pipeline_value": 133707.43
+        },
+        {
+          "item_id": 4071,
+          "name": "Orc Zombie Card",
+          "dropped": 0.113,
+          "sellable": 0.056,
+          "shop_listed_cap": 1,
+          "expected_listed": 0.056,
+          "price": 500000,
+          "pipeline_value": 28185.21
+        },
+        {
+          "item_id": 4085,
+          "name": "Orc Skeleton Card",
+          "dropped": 0.013,
+          "sellable": 0.006,
+          "shop_listed_cap": 1,
+          "expected_listed": 0.006,
+          "price": 750000,
+          "pipeline_value": 4699.45
+        }
+      ],
+      "cards_sellable_total": 0.131,
+      "cards_pipeline_value": 166592.09,
+      "lot_expected_value": 2411047.37,
+      "zeny_spent": 46734.93,
+      "net_if_sold_at_latam": 2364312.44,
+      "gates": {
+        "pause_grind_until_sold_z": 964418.95,
+        "keep_shop_until_sold_z": 1446628.42
+      }
+    },
+    "7": {
+      "days": 7,
+      "kills": 8018.9,
+      "mats_stock": [
+        {
+          "item_id": 913,
+          "name": "Tooth of Bat",
+          "qty": 142.49,
+          "price": 14960,
+          "stock_value": 2131693.28
+        },
+        {
+          "item_id": 1043,
+          "name": "Orc Claw",
+          "qty": 701.5,
+          "price": 1500,
+          "stock_value": 1052254.91
+        },
+        {
+          "item_id": 938,
+          "name": "Sticky Mucus",
+          "qty": 394.6,
+          "price": 2000,
+          "stock_value": 789191.2
+        },
+        {
+          "item_id": 935,
+          "name": "Shell",
+          "qty": 131.53,
+          "price": 3500,
+          "stock_value": 460361.58
+        },
+        {
+          "item_id": 931,
+          "name": "Orcish Voucher",
+          "qty": 1397.66,
+          "price": 300,
+          "stock_value": 419298.29
+        },
+        {
+          "item_id": 7053,
+          "name": "Cyfar",
+          "qty": 216.79,
+          "price": 1000,
+          "stock_value": 216785.59
+        },
+        {
+          "item_id": 519,
+          "name": "Milk",
+          "qty": 114.28,
+          "price": 990,
+          "stock_value": 113141.97
+        },
+        {
+          "item_id": 756,
+          "name": "Rough Oridecon",
+          "qty": 6.4,
+          "price": 8490,
+          "stock_value": 54335.48
+        }
+      ],
+      "mats_stock_value_latam": 5237062.31,
+      "cards": [
+        {
+          "item_id": 4066,
+          "name": "Orc Warrior Card",
+          "dropped": 0.32,
+          "sellable": 0.16,
+          "shop_listed_cap": 1,
+          "expected_listed": 0.16,
+          "price": 1950000,
+          "pipeline_value": 311984.01
+        },
+        {
+          "item_id": 4071,
+          "name": "Orc Zombie Card",
+          "dropped": 0.263,
+          "sellable": 0.132,
+          "shop_listed_cap": 1,
+          "expected_listed": 0.132,
+          "price": 500000,
+          "pipeline_value": 65765.49
+        },
+        {
+          "item_id": 4085,
+          "name": "Orc Skeleton Card",
+          "dropped": 0.029,
+          "sellable": 0.015,
+          "shop_listed_cap": 1,
+          "expected_listed": 0.015,
+          "price": 750000,
+          "pipeline_value": 10965.37
+        }
+      ],
+      "cards_sellable_total": 0.307,
+      "cards_pipeline_value": 388714.88,
+      "lot_expected_value": 5625777.19,
+      "zeny_spent": 109048.16,
+      "net_if_sold_at_latam": 5516729.03,
+      "gates": {
+        "pause_grind_until_sold_z": 2250310.88,
+        "keep_shop_until_sold_z": 3375466.31
+      }
+    },
+    "10": {
+      "days": 10,
+      "kills": 11455.5,
+      "mats_stock": [
+        {
+          "item_id": 913,
+          "name": "Tooth of Bat",
+          "qty": 203.56,
+          "price": 14960,
+          "stock_value": 3045276.12
+        },
+        {
+          "item_id": 1043,
+          "name": "Orc Claw",
+          "qty": 1002.15,
+          "price": 1500,
+          "stock_value": 1503221.3
+        },
+        {
+          "item_id": 938,
+          "name": "Sticky Mucus",
+          "qty": 563.71,
+          "price": 2000,
+          "stock_value": 1127416.01
+        },
+        {
+          "item_id": 935,
+          "name": "Shell",
+          "qty": 187.9,
+          "price": 3500,
+          "stock_value": 657659.4
+        },
+        {
+          "item_id": 931,
+          "name": "Orcish Voucher",
+          "qty": 1996.66,
+          "price": 300,
+          "stock_value": 598997.56
+        },
+        {
+          "item_id": 7053,
+          "name": "Cyfar",
+          "qty": 309.69,
+          "price": 1000,
+          "stock_value": 309693.7
+        },
+        {
+          "item_id": 519,
+          "name": "Milk",
+          "qty": 163.26,
+          "price": 990,
+          "stock_value": 161631.39
+        },
+        {
+          "item_id": 756,
+          "name": "Rough Oridecon",
+          "qty": 9.14,
+          "price": 8490,
+          "stock_value": 77622.12
+        }
+      ],
+      "mats_stock_value_latam": 7481517.59,
+      "cards": [
+        {
+          "item_id": 4066,
+          "name": "Orc Warrior Card",
+          "dropped": 0.457,
+          "sellable": 0.229,
+          "shop_listed_cap": 1,
+          "expected_listed": 0.229,
+          "price": 1950000,
+          "pipeline_value": 445691.44
+        },
+        {
+          "item_id": 4071,
+          "name": "Orc Zombie Card",
+          "dropped": 0.376,
+          "sellable": 0.188,
+          "shop_listed_cap": 1,
+          "expected_listed": 0.188,
+          "price": 500000,
+          "pipeline_value": 93950.71
+        },
+        {
+          "item_id": 4085,
+          "name": "Orc Skeleton Card",
+          "dropped": 0.042,
+          "sellable": 0.021,
+          "shop_listed_cap": 1,
+          "expected_listed": 0.021,
+          "price": 750000,
+          "pipeline_value": 15664.82
+        }
+      ],
+      "cards_sellable_total": 0.438,
+      "cards_pipeline_value": 555306.96,
+      "lot_expected_value": 8036824.55,
+      "zeny_spent": 155783.08,
+      "net_if_sold_at_latam": 7881041.47,
+      "gates": {
+        "pause_grind_until_sold_z": 3214729.82,
+        "keep_shop_until_sold_z": 4822094.73
+      }
+    }
+  },
+  "day10": {
+    "days": 10,
+    "kills": 11455.5,
+    "mats_stock": [
+      {
+        "item_id": 913,
+        "name": "Tooth of Bat",
+        "qty": 203.56,
+        "price": 14960,
+        "stock_value": 3045276.12
+      },
+      {
+        "item_id": 1043,
+        "name": "Orc Claw",
+        "qty": 1002.15,
+        "price": 1500,
+        "stock_value": 1503221.3
+      },
+      {
+        "item_id": 938,
+        "name": "Sticky Mucus",
+        "qty": 563.71,
+        "price": 2000,
+        "stock_value": 1127416.01
+      },
+      {
+        "item_id": 935,
+        "name": "Shell",
+        "qty": 187.9,
+        "price": 3500,
+        "stock_value": 657659.4
+      },
+      {
+        "item_id": 931,
+        "name": "Orcish Voucher",
+        "qty": 1996.66,
+        "price": 300,
+        "stock_value": 598997.56
+      },
+      {
+        "item_id": 7053,
+        "name": "Cyfar",
+        "qty": 309.69,
+        "price": 1000,
+        "stock_value": 309693.7
+      },
+      {
+        "item_id": 519,
+        "name": "Milk",
+        "qty": 163.26,
+        "price": 990,
+        "stock_value": 161631.39
+      },
+      {
+        "item_id": 756,
+        "name": "Rough Oridecon",
+        "qty": 9.14,
+        "price": 8490,
+        "stock_value": 77622.12
+      }
+    ],
+    "mats_stock_value_latam": 7481517.59,
+    "cards": [
+      {
+        "item_id": 4066,
+        "name": "Orc Warrior Card",
+        "dropped": 0.457,
+        "sellable": 0.229,
+        "shop_listed_cap": 1,
+        "expected_listed": 0.229,
+        "price": 1950000,
+        "pipeline_value": 445691.44
+      },
+      {
+        "item_id": 4071,
+        "name": "Orc Zombie Card",
+        "dropped": 0.376,
+        "sellable": 0.188,
+        "shop_listed_cap": 1,
+        "expected_listed": 0.188,
+        "price": 500000,
+        "pipeline_value": 93950.71
+      },
+      {
+        "item_id": 4085,
+        "name": "Orc Skeleton Card",
+        "dropped": 0.042,
+        "sellable": 0.021,
+        "shop_listed_cap": 1,
+        "expected_listed": 0.021,
+        "price": 750000,
+        "pipeline_value": 15664.82
+      }
+    ],
+    "cards_sellable_total": 0.438,
+    "cards_pipeline_value": 555306.96,
+    "lot_expected_value": 8036824.55,
+    "zeny_spent": 155783.08,
+    "net_if_sold_at_latam": 7881041.47,
+    "gates": {
+      "pause_grind_until_sold_z": 3214729.82,
+      "keep_shop_until_sold_z": 4822094.73
+    }
+  }
+}

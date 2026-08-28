@@ -1,0 +1,3386 @@
+{
+  "id": "08_izlude_dungeon",
+  "label": "Byalan / Izlude Dun",
+  "tier_target": "mid",
+  "loot_policy": "full",
+  "notes": "Dungeon acuático clásico.",
+  "maps": [
+    "iz_dun01"
+  ],
+  "map_tiers": [
+    "mid"
+  ],
+  "map_avg_levels": [
+    42.09
+  ],
+  "offer_item_count": 22,
+  "ev_atlantis_per_kill_by_map": [
+    4677.09
+  ],
+  "ev_latam_per_kill_by_map": [
+    5227.5
+  ],
+  "map_profiles": [
+    {
+      "map": "iz_dun01",
+      "spawn_total_raw": 192,
+      "combat_total_amount": 182,
+      "plants_excluded_amount": 10,
+      "plants_excluded": [
+        {
+          "aegis": "BLACK_MUSHROOM",
+          "amount": 10
+        }
+      ],
+      "missing_mob_ids": [],
+      "avg_level": 42.09,
+      "max_level": 48,
+      "avg_hp": 1088,
+      "tier": "mid",
+      "mobs": [
+        {
+          "mob_id": 1066,
+          "aegis": "VADON",
+          "name": "Vadon",
+          "amount": 60,
+          "weight": 0.3297,
+          "level": 45,
+          "hp": 1091,
+          "race": "Fish",
+          "element": "Water",
+          "drop_count": 8,
+          "drops": [
+            {
+              "item_id": 960,
+              "aegis": "Nipper",
+              "name": "Nipper",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 4500,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 1.0
+            },
+            {
+              "item_id": 910,
+              "aegis": "Garlet",
+              "name": "Garlet",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 1500,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.75
+            },
+            {
+              "item_id": 601,
+              "aegis": "Wing_Of_Fly",
+              "name": "Fly Wing",
+              "type": "DelayConsume",
+              "bucket": "common",
+              "rate_raw": 500,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.25
+            },
+            {
+              "item_id": 943,
+              "aegis": "Solid_Shell",
+              "name": "Solid Shell",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 50,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.025
+            },
+            {
+              "item_id": 991,
+              "aegis": "Crystal_Blue",
+              "name": "Crystal Blue",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 20,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.01
+            },
+            {
+              "item_id": 757,
+              "aegis": "Elunium_Stone",
+              "name": "Rough Elunium",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 20,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.01
+            },
+            {
+              "item_id": 4049,
+              "aegis": "Vadon_Card",
+              "name": "Vadon Card",
+              "type": "Card",
+              "bucket": "card",
+              "rate_raw": 1,
+              "rate_mult": 100.0,
+              "p_per_kill_this_mob": 0.01
+            },
+            {
+              "item_id": 2313,
+              "aegis": "Padded_Armor_",
+              "name": "Padded Armor",
+              "type": "Armor",
+              "bucket": "equip",
+              "rate_raw": 3,
+              "rate_mult": 15.0,
+              "p_per_kill_this_mob": 0.0045
+            }
+          ]
+        },
+        {
+          "mob_id": 1070,
+          "aegis": "KUKRE",
+          "name": "Kukre",
+          "amount": 50,
+          "weight": 0.2747,
+          "level": 42,
+          "hp": 962,
+          "race": "Fish",
+          "element": "Water",
+          "drop_count": 8,
+          "drops": [
+            {
+              "item_id": 955,
+              "aegis": "Worm_Peelings",
+              "name": "Worm Peeling",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 2750,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 1.0
+            },
+            {
+              "item_id": 528,
+              "aegis": "Monster's_Feed",
+              "name": "Monster's Feed",
+              "type": "Healing",
+              "bucket": "heal",
+              "rate_raw": 250,
+              "rate_mult": 10.0,
+              "p_per_kill_this_mob": 0.25
+            },
+            {
+              "item_id": 601,
+              "aegis": "Wing_Of_Fly",
+              "name": "Fly Wing",
+              "type": "DelayConsume",
+              "bucket": "common",
+              "rate_raw": 500,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.25
+            },
+            {
+              "item_id": 928,
+              "aegis": "Insect_Feeler",
+              "name": "Insect Feeler",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 225,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.1125
+            },
+            {
+              "item_id": 910,
+              "aegis": "Garlet",
+              "name": "Garlet",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 200,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.1
+            },
+            {
+              "item_id": 623,
+              "aegis": "Earthworm_The_Dude",
+              "name": "Earthworm the Dude",
+              "type": "Usable",
+              "bucket": "use",
+              "rate_raw": 10,
+              "rate_mult": 10.0,
+              "p_per_kill_this_mob": 0.01
+            },
+            {
+              "item_id": 4027,
+              "aegis": "Kukre_Card",
+              "name": "Kukre Card",
+              "type": "Card",
+              "bucket": "card",
+              "rate_raw": 1,
+              "rate_mult": 100.0,
+              "p_per_kill_this_mob": 0.01
+            },
+            {
+              "item_id": 991,
+              "aegis": "Crystal_Blue",
+              "name": "Crystal Blue",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 15,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.0075
+            }
+          ]
+        },
+        {
+          "mob_id": 1068,
+          "aegis": "HYDRA",
+          "name": "Hydra",
+          "amount": 30,
+          "weight": 0.1648,
+          "level": 34,
+          "hp": 661,
+          "race": "Plant",
+          "element": "Water",
+          "drop_count": 8,
+          "drops": [
+            {
+              "item_id": 962,
+              "aegis": "Tentacle",
+              "name": "Tentacle",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 2750,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 1.0
+            },
+            {
+              "item_id": 938,
+              "aegis": "Sticky_Mucus",
+              "name": "Sticky Mucus",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 750,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.375
+            },
+            {
+              "item_id": 517,
+              "aegis": "Meat",
+              "name": "Meat",
+              "type": "Healing",
+              "bucket": "heal",
+              "rate_raw": 350,
+              "rate_mult": 10.0,
+              "p_per_kill_this_mob": 0.35
+            },
+            {
+              "item_id": 601,
+              "aegis": "Wing_Of_Fly",
+              "name": "Fly Wing",
+              "type": "DelayConsume",
+              "bucket": "common",
+              "rate_raw": 500,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.25
+            },
+            {
+              "item_id": 4035,
+              "aegis": "Hydra_Card",
+              "name": "Hydra Card",
+              "type": "Card",
+              "bucket": "card",
+              "rate_raw": 1,
+              "rate_mult": 100.0,
+              "p_per_kill_this_mob": 0.01
+            },
+            {
+              "item_id": 1011,
+              "aegis": "Emveretarcon",
+              "name": "Emveretarcon",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 13,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.0065
+            },
+            {
+              "item_id": 971,
+              "aegis": "Detrimindexta",
+              "name": "Detrimindexta",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 10,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.005
+            },
+            {
+              "item_id": 525,
+              "aegis": "Panacea",
+              "name": "Panacea",
+              "type": "Healing",
+              "bucket": "heal",
+              "rate_raw": 3,
+              "rate_mult": 10.0,
+              "p_per_kill_this_mob": 0.003
+            }
+          ]
+        },
+        {
+          "mob_id": 1141,
+          "aegis": "MARINA",
+          "name": "Marina",
+          "amount": 15,
+          "weight": 0.0824,
+          "level": 42,
+          "hp": 1010,
+          "race": "Plant",
+          "element": "Water",
+          "drop_count": 7,
+          "drops": [
+            {
+              "item_id": 1052,
+              "aegis": "Single_Cell",
+              "name": "Single Cell",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 2500,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 1.0
+            },
+            {
+              "item_id": 938,
+              "aegis": "Sticky_Mucus",
+              "name": "Sticky Mucus",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 750,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.375
+            },
+            {
+              "item_id": 601,
+              "aegis": "Wing_Of_Fly",
+              "name": "Fly Wing",
+              "type": "DelayConsume",
+              "bucket": "common",
+              "rate_raw": 500,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.25
+            },
+            {
+              "item_id": 991,
+              "aegis": "Crystal_Blue",
+              "name": "Crystal Blue",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 23,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.0115
+            },
+            {
+              "item_id": 631,
+              "aegis": "Deadly_Noxious_Herb",
+              "name": "Deadly Noxious Herb",
+              "type": "Usable",
+              "bucket": "use",
+              "rate_raw": 10,
+              "rate_mult": 10.0,
+              "p_per_kill_this_mob": 0.01
+            },
+            {
+              "item_id": 4055,
+              "aegis": "Marina_Card",
+              "name": "Marina Card",
+              "type": "Card",
+              "bucket": "card",
+              "rate_raw": 1,
+              "rate_mult": 100.0,
+              "p_per_kill_this_mob": 0.01
+            },
+            {
+              "item_id": 995,
+              "aegis": "Mistic_Frozen",
+              "name": "Mystic Frozen",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 1,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.0005
+            }
+          ]
+        },
+        {
+          "mob_id": 1067,
+          "aegis": "CORNUTUS",
+          "name": "Cornutus",
+          "amount": 15,
+          "weight": 0.0824,
+          "level": 48,
+          "hp": 1229,
+          "race": "Fish",
+          "element": "Water",
+          "drop_count": 8,
+          "drops": [
+            {
+              "item_id": 961,
+              "aegis": "Conch",
+              "name": "Conch",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 2750,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 1.0
+            },
+            {
+              "item_id": 943,
+              "aegis": "Solid_Shell",
+              "name": "Solid Shell",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 500,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.25
+            },
+            {
+              "item_id": 601,
+              "aegis": "Wing_Of_Fly",
+              "name": "Fly Wing",
+              "type": "DelayConsume",
+              "bucket": "common",
+              "rate_raw": 500,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.25
+            },
+            {
+              "item_id": 911,
+              "aegis": "Scell",
+              "name": "Scell",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 400,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.2
+            },
+            {
+              "item_id": 757,
+              "aegis": "Elunium_Stone",
+              "name": "Rough Elunium",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 27,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.0135
+            },
+            {
+              "item_id": 991,
+              "aegis": "Crystal_Blue",
+              "name": "Crystal Blue",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 23,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.0115
+            },
+            {
+              "item_id": 4061,
+              "aegis": "Cornutus_Card",
+              "name": "Cornutus Card",
+              "type": "Card",
+              "bucket": "card",
+              "rate_raw": 1,
+              "rate_mult": 100.0,
+              "p_per_kill_this_mob": 0.01
+            },
+            {
+              "item_id": 2106,
+              "aegis": "Shield_",
+              "name": "Shield",
+              "type": "Armor",
+              "bucket": "equip",
+              "rate_raw": 3,
+              "rate_mult": 15.0,
+              "p_per_kill_this_mob": 0.0045
+            }
+          ]
+        },
+        {
+          "mob_id": 1161,
+          "aegis": "PLANKTON",
+          "name": "Plankton",
+          "amount": 10,
+          "weight": 0.0549,
+          "level": 40,
+          "hp": 933,
+          "race": "Plant",
+          "element": "Water",
+          "drop_count": 8,
+          "drops": [
+            {
+              "item_id": 1052,
+              "aegis": "Single_Cell",
+              "name": "Single Cell",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 4500,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 1.0
+            },
+            {
+              "item_id": 601,
+              "aegis": "Wing_Of_Fly",
+              "name": "Fly Wing",
+              "type": "DelayConsume",
+              "bucket": "common",
+              "rate_raw": 500,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.25
+            },
+            {
+              "item_id": 938,
+              "aegis": "Sticky_Mucus",
+              "name": "Sticky Mucus",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 350,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.175
+            },
+            {
+              "item_id": 910,
+              "aegis": "Garlet",
+              "name": "Garlet",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 150,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.075
+            },
+            {
+              "item_id": 645,
+              "aegis": "Center_Potion",
+              "name": "Concentration Potion",
+              "type": "Usable",
+              "bucket": "use",
+              "rate_raw": 25,
+              "rate_mult": 10.0,
+              "p_per_kill_this_mob": 0.025
+            },
+            {
+              "item_id": 630,
+              "aegis": "Dew_Laden_Moss",
+              "name": "Dew Laden Moss",
+              "type": "Usable",
+              "bucket": "use",
+              "rate_raw": 10,
+              "rate_mult": 10.0,
+              "p_per_kill_this_mob": 0.01
+            },
+            {
+              "item_id": 4024,
+              "aegis": "Plankton_Card",
+              "name": "Plankton Card",
+              "type": "Card",
+              "bucket": "card",
+              "rate_raw": 1,
+              "rate_mult": 100.0,
+              "p_per_kill_this_mob": 0.01
+            },
+            {
+              "item_id": 970,
+              "aegis": "Alchol",
+              "name": "Alcohol",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 2,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.001
+            }
+          ]
+        },
+        {
+          "mob_id": 2628,
+          "aegis": "C2_VADON",
+          "name": "Solid Vadon",
+          "amount": 2,
+          "weight": 0.011,
+          "level": 45,
+          "hp": 10910,
+          "race": "Fish",
+          "element": "Water",
+          "drop_count": 8,
+          "drops": [
+            {
+              "item_id": 960,
+              "aegis": "Nipper",
+              "name": "Nipper",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 10000,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 1.0
+            },
+            {
+              "item_id": 910,
+              "aegis": "Garlet",
+              "name": "Garlet",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 7500,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 1.0
+            },
+            {
+              "item_id": 601,
+              "aegis": "Wing_Of_Fly",
+              "name": "Fly Wing",
+              "type": "DelayConsume",
+              "bucket": "common",
+              "rate_raw": 2500,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 1.0
+            },
+            {
+              "item_id": 943,
+              "aegis": "Solid_Shell",
+              "name": "Solid Shell",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 250,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.125
+            },
+            {
+              "item_id": 991,
+              "aegis": "Crystal_Blue",
+              "name": "Crystal Blue",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 100,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.05
+            },
+            {
+              "item_id": 757,
+              "aegis": "Elunium_Stone",
+              "name": "Rough Elunium",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 100,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.05
+            },
+            {
+              "item_id": 4049,
+              "aegis": "Vadon_Card",
+              "name": "Vadon Card",
+              "type": "Card",
+              "bucket": "card",
+              "rate_raw": 5,
+              "rate_mult": 100.0,
+              "p_per_kill_this_mob": 0.05
+            },
+            {
+              "item_id": 2313,
+              "aegis": "Padded_Armor_",
+              "name": "Padded Armor",
+              "type": "Armor",
+              "bucket": "equip",
+              "rate_raw": 15,
+              "rate_mult": 15.0,
+              "p_per_kill_this_mob": 0.0225
+            }
+          ]
+        }
+      ],
+      "drop_count": 32,
+      "drop_priced_count": 29,
+      "ev_atlantis_per_kill": 17220.75,
+      "ev_latam_per_kill": 17942.32,
+      "drops": [
+        {
+          "item_id": 4049,
+          "aegis": "Vadon_Card",
+          "name": "Vadon Card",
+          "type": "Card",
+          "bucket": "card",
+          "npc_buy": 20,
+          "p_per_map_kill": 0.00384615,
+          "contributors": [
+            {
+              "mob_id": 1066,
+              "aegis": "VADON",
+              "amount": 60,
+              "weight": 0.3297,
+              "rate_raw": 1,
+              "p_mob": 0.01,
+              "p_contrib": 0.003297
+            },
+            {
+              "mob_id": 2628,
+              "aegis": "C2_VADON",
+              "amount": 2,
+              "weight": 0.011,
+              "rate_raw": 5,
+              "p_mob": 0.05,
+              "p_contrib": 0.000549
+            }
+          ],
+          "atlantis_avg": 1975345,
+          "atlantis_total_sold": 1224,
+          "latam_offers_median": 1999999,
+          "ev_atlantis_per_kill": 7597.48,
+          "ev_latam_per_kill": 7692.3,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 4035,
+          "aegis": "Hydra_Card",
+          "name": "Hydra Card",
+          "type": "Card",
+          "bucket": "card",
+          "npc_buy": 20,
+          "p_per_map_kill": 0.00164835,
+          "contributors": [
+            {
+              "mob_id": 1068,
+              "aegis": "HYDRA",
+              "amount": 30,
+              "weight": 0.1648,
+              "rate_raw": 1,
+              "p_mob": 0.01,
+              "p_contrib": 0.001648
+            }
+          ],
+          "atlantis_avg": 1803083,
+          "atlantis_total_sold": 4283,
+          "latam_offers_median": 1399999,
+          "ev_atlantis_per_kill": 2972.11,
+          "ev_latam_per_kill": 2307.69,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 1052,
+          "aegis": "Single_Cell",
+          "name": "Single Cell",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 46,
+          "p_per_map_kill": 0.13736264,
+          "contributors": [
+            {
+              "mob_id": 1141,
+              "aegis": "MARINA",
+              "amount": 15,
+              "weight": 0.0824,
+              "rate_raw": 2500,
+              "p_mob": 1.0,
+              "p_contrib": 0.082418
+            },
+            {
+              "mob_id": 1161,
+              "aegis": "PLANKTON",
+              "amount": 10,
+              "weight": 0.0549,
+              "rate_raw": 4500,
+              "p_mob": 1.0,
+              "p_contrib": 0.054945
+            }
+          ],
+          "atlantis_avg": 16171,
+          "atlantis_total_sold": 170,
+          "latam_offers_median": 999,
+          "ev_atlantis_per_kill": 2221.29,
+          "ev_latam_per_kill": 137.23,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 4055,
+          "aegis": "Marina_Card",
+          "name": "Marina Card",
+          "type": "Card",
+          "bucket": "card",
+          "npc_buy": 20,
+          "p_per_map_kill": 0.00082418,
+          "contributors": [
+            {
+              "mob_id": 1141,
+              "aegis": "MARINA",
+              "amount": 15,
+              "weight": 0.0824,
+              "rate_raw": 1,
+              "p_mob": 0.01,
+              "p_contrib": 0.000824
+            }
+          ],
+          "atlantis_avg": 1944278,
+          "atlantis_total_sold": 594,
+          "latam_offers_median": 2400000,
+          "ev_atlantis_per_kill": 1602.43,
+          "ev_latam_per_kill": 1978.02,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 623,
+          "aegis": "Earthworm_The_Dude",
+          "name": "Earthworm the Dude",
+          "type": "Usable",
+          "bucket": "use",
+          "npc_buy": 4000,
+          "p_per_map_kill": 0.00274725,
+          "contributors": [
+            {
+              "mob_id": 1070,
+              "aegis": "KUKRE",
+              "amount": 50,
+              "weight": 0.2747,
+              "rate_raw": 10,
+              "p_mob": 0.01,
+              "p_contrib": 0.002747
+            }
+          ],
+          "atlantis_avg": 317478,
+          "atlantis_total_sold": 351,
+          "latam_offers_median": 50000,
+          "ev_atlantis_per_kill": 872.19,
+          "ev_latam_per_kill": 137.36,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 943,
+          "aegis": "Solid_Shell",
+          "name": "Solid Shell",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 448,
+          "p_per_map_kill": 0.03021978,
+          "contributors": [
+            {
+              "mob_id": 1066,
+              "aegis": "VADON",
+              "amount": 60,
+              "weight": 0.3297,
+              "rate_raw": 50,
+              "p_mob": 0.025,
+              "p_contrib": 0.008242
+            },
+            {
+              "mob_id": 1067,
+              "aegis": "CORNUTUS",
+              "amount": 15,
+              "weight": 0.0824,
+              "rate_raw": 500,
+              "p_mob": 0.25,
+              "p_contrib": 0.020604
+            },
+            {
+              "mob_id": 2628,
+              "aegis": "C2_VADON",
+              "amount": 2,
+              "weight": 0.011,
+              "rate_raw": 250,
+              "p_mob": 0.125,
+              "p_contrib": 0.001374
+            }
+          ],
+          "atlantis_avg": 19779,
+          "atlantis_total_sold": 691,
+          "latam_offers_median": 1000,
+          "ev_atlantis_per_kill": 597.72,
+          "ev_latam_per_kill": 30.22,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 938,
+          "aegis": "Sticky_Mucus",
+          "name": "Sticky Mucus",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 70,
+          "p_per_map_kill": 0.10233516,
+          "contributors": [
+            {
+              "mob_id": 1068,
+              "aegis": "HYDRA",
+              "amount": 30,
+              "weight": 0.1648,
+              "rate_raw": 750,
+              "p_mob": 0.375,
+              "p_contrib": 0.061813
+            },
+            {
+              "mob_id": 1141,
+              "aegis": "MARINA",
+              "amount": 15,
+              "weight": 0.0824,
+              "rate_raw": 750,
+              "p_mob": 0.375,
+              "p_contrib": 0.030907
+            },
+            {
+              "mob_id": 1161,
+              "aegis": "PLANKTON",
+              "amount": 10,
+              "weight": 0.0549,
+              "rate_raw": 350,
+              "p_mob": 0.175,
+              "p_contrib": 0.009615
+            }
+          ],
+          "atlantis_avg": 5113,
+          "atlantis_total_sold": 22391,
+          "latam_offers_median": 2000,
+          "ev_atlantis_per_kill": 523.24,
+          "ev_latam_per_kill": 204.67,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 4061,
+          "aegis": "Cornutus_Card",
+          "name": "Cornutus Card",
+          "type": "Card",
+          "bucket": "card",
+          "npc_buy": 20,
+          "p_per_map_kill": 0.00082418,
+          "contributors": [
+            {
+              "mob_id": 1067,
+              "aegis": "CORNUTUS",
+              "amount": 15,
+              "weight": 0.0824,
+              "rate_raw": 1,
+              "p_mob": 0.01,
+              "p_contrib": 0.000824
+            }
+          ],
+          "atlantis_avg": 394830,
+          "atlantis_total_sold": 125,
+          "latam_offers_median": 800000,
+          "ev_atlantis_per_kill": 325.41,
+          "ev_latam_per_kill": 659.34,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 960,
+          "aegis": "Nipper",
+          "name": "Nipper",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 114,
+          "p_per_map_kill": 0.34065934,
+          "contributors": [
+            {
+              "mob_id": 1066,
+              "aegis": "VADON",
+              "amount": 60,
+              "weight": 0.3297,
+              "rate_raw": 4500,
+              "p_mob": 1.0,
+              "p_contrib": 0.32967
+            },
+            {
+              "mob_id": 2628,
+              "aegis": "C2_VADON",
+              "amount": 2,
+              "weight": 0.011,
+              "rate_raw": 10000,
+              "p_mob": 1.0,
+              "p_contrib": 0.010989
+            }
+          ],
+          "atlantis_avg": 603,
+          "atlantis_total_sold": 74,
+          "latam_offers_median": 1999,
+          "ev_atlantis_per_kill": 205.42,
+          "ev_latam_per_kill": 680.98,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 962,
+          "aegis": "Tentacle",
+          "name": "Tentacle",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 70,
+          "p_per_map_kill": 0.16483516,
+          "contributors": [
+            {
+              "mob_id": 1068,
+              "aegis": "HYDRA",
+              "amount": 30,
+              "weight": 0.1648,
+              "rate_raw": 2750,
+              "p_mob": 1.0,
+              "p_contrib": 0.164835
+            }
+          ],
+          "atlantis_avg": 566,
+          "atlantis_total_sold": 1914,
+          "latam_offers_median": 650,
+          "ev_atlantis_per_kill": 93.3,
+          "ev_latam_per_kill": 107.14,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 955,
+          "aegis": "Worm_Peelings",
+          "name": "Worm Peeling",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 52,
+          "p_per_map_kill": 0.27472527,
+          "contributors": [
+            {
+              "mob_id": 1070,
+              "aegis": "KUKRE",
+              "amount": 50,
+              "weight": 0.2747,
+              "rate_raw": 2750,
+              "p_mob": 1.0,
+              "p_contrib": 0.274725
+            }
+          ],
+          "atlantis_avg": 251,
+          "atlantis_total_sold": 1712,
+          "latam_offers_median": 4999,
+          "ev_atlantis_per_kill": 68.96,
+          "ev_latam_per_kill": 1373.35,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 601,
+          "aegis": "Wing_Of_Fly",
+          "name": "Fly Wing",
+          "type": "DelayConsume",
+          "bucket": "common",
+          "npc_buy": 250,
+          "p_per_map_kill": 0.25824176,
+          "contributors": [
+            {
+              "mob_id": 1066,
+              "aegis": "VADON",
+              "amount": 60,
+              "weight": 0.3297,
+              "rate_raw": 500,
+              "p_mob": 0.25,
+              "p_contrib": 0.082418
+            },
+            {
+              "mob_id": 1070,
+              "aegis": "KUKRE",
+              "amount": 50,
+              "weight": 0.2747,
+              "rate_raw": 500,
+              "p_mob": 0.25,
+              "p_contrib": 0.068681
+            },
+            {
+              "mob_id": 1068,
+              "aegis": "HYDRA",
+              "amount": 30,
+              "weight": 0.1648,
+              "rate_raw": 500,
+              "p_mob": 0.25,
+              "p_contrib": 0.041209
+            },
+            {
+              "mob_id": 1141,
+              "aegis": "MARINA",
+              "amount": 15,
+              "weight": 0.0824,
+              "rate_raw": 500,
+              "p_mob": 0.25,
+              "p_contrib": 0.020604
+            },
+            {
+              "mob_id": 1067,
+              "aegis": "CORNUTUS",
+              "amount": 15,
+              "weight": 0.0824,
+              "rate_raw": 500,
+              "p_mob": 0.25,
+              "p_contrib": 0.020604
+            },
+            {
+              "mob_id": 1161,
+              "aegis": "PLANKTON",
+              "amount": 10,
+              "weight": 0.0549,
+              "rate_raw": 500,
+              "p_mob": 0.25,
+              "p_contrib": 0.013736
+            },
+            {
+              "mob_id": 2628,
+              "aegis": "C2_VADON",
+              "amount": 2,
+              "weight": 0.011,
+              "rate_raw": 2500,
+              "p_mob": 1.0,
+              "p_contrib": 0.010989
+            }
+          ],
+          "atlantis_avg": 179,
+          "atlantis_total_sold": 1994437,
+          "latam_offers_median": 300,
+          "ev_atlantis_per_kill": 46.23,
+          "ev_latam_per_kill": 77.47,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 517,
+          "aegis": "Meat",
+          "name": "Meat",
+          "type": "Healing",
+          "bucket": "heal",
+          "npc_buy": 50,
+          "p_per_map_kill": 0.05769231,
+          "contributors": [
+            {
+              "mob_id": 1068,
+              "aegis": "HYDRA",
+              "amount": 30,
+              "weight": 0.1648,
+              "rate_raw": 350,
+              "p_mob": 0.35,
+              "p_contrib": 0.057692
+            }
+          ],
+          "atlantis_avg": 532,
+          "atlantis_total_sold": 7224,
+          "latam_offers_median": 29000,
+          "ev_atlantis_per_kill": 30.69,
+          "ev_latam_per_kill": 1673.08,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 910,
+          "aegis": "Garlet",
+          "name": "Garlet",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 30,
+          "p_per_map_kill": 0.28983516,
+          "contributors": [
+            {
+              "mob_id": 1066,
+              "aegis": "VADON",
+              "amount": 60,
+              "weight": 0.3297,
+              "rate_raw": 1500,
+              "p_mob": 0.75,
+              "p_contrib": 0.247253
+            },
+            {
+              "mob_id": 1070,
+              "aegis": "KUKRE",
+              "amount": 50,
+              "weight": 0.2747,
+              "rate_raw": 200,
+              "p_mob": 0.1,
+              "p_contrib": 0.027473
+            },
+            {
+              "mob_id": 1161,
+              "aegis": "PLANKTON",
+              "amount": 10,
+              "weight": 0.0549,
+              "rate_raw": 150,
+              "p_mob": 0.075,
+              "p_contrib": 0.004121
+            },
+            {
+              "mob_id": 2628,
+              "aegis": "C2_VADON",
+              "amount": 2,
+              "weight": 0.011,
+              "rate_raw": 7500,
+              "p_mob": 1.0,
+              "p_contrib": 0.010989
+            }
+          ],
+          "atlantis_avg": 75,
+          "atlantis_total_sold": 1063,
+          "latam_offers_median": 2500,
+          "ev_atlantis_per_kill": 21.74,
+          "ev_latam_per_kill": 724.59,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 757,
+          "aegis": "Elunium_Stone",
+          "name": "Rough Elunium",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 650,
+          "p_per_map_kill": 0.00495879,
+          "contributors": [
+            {
+              "mob_id": 1066,
+              "aegis": "VADON",
+              "amount": 60,
+              "weight": 0.3297,
+              "rate_raw": 20,
+              "p_mob": 0.01,
+              "p_contrib": 0.003297
+            },
+            {
+              "mob_id": 1067,
+              "aegis": "CORNUTUS",
+              "amount": 15,
+              "weight": 0.0824,
+              "rate_raw": 27,
+              "p_mob": 0.0135,
+              "p_contrib": 0.001113
+            },
+            {
+              "mob_id": 2628,
+              "aegis": "C2_VADON",
+              "amount": 2,
+              "weight": 0.011,
+              "rate_raw": 100,
+              "p_mob": 0.05,
+              "p_contrib": 0.000549
+            }
+          ],
+          "atlantis_avg": 3688,
+          "atlantis_total_sold": 17213,
+          "latam_offers_median": 1000,
+          "ev_atlantis_per_kill": 18.29,
+          "ev_latam_per_kill": 4.96,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 991,
+          "aegis": "Crystal_Blue",
+          "name": "Crystal Blue",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 1000,
+          "p_per_map_kill": 0.0078022,
+          "contributors": [
+            {
+              "mob_id": 1066,
+              "aegis": "VADON",
+              "amount": 60,
+              "weight": 0.3297,
+              "rate_raw": 20,
+              "p_mob": 0.01,
+              "p_contrib": 0.003297
+            },
+            {
+              "mob_id": 1070,
+              "aegis": "KUKRE",
+              "amount": 50,
+              "weight": 0.2747,
+              "rate_raw": 15,
+              "p_mob": 0.0075,
+              "p_contrib": 0.00206
+            },
+            {
+              "mob_id": 1141,
+              "aegis": "MARINA",
+              "amount": 15,
+              "weight": 0.0824,
+              "rate_raw": 23,
+              "p_mob": 0.0115,
+              "p_contrib": 0.000948
+            },
+            {
+              "mob_id": 1067,
+              "aegis": "CORNUTUS",
+              "amount": 15,
+              "weight": 0.0824,
+              "rate_raw": 23,
+              "p_mob": 0.0115,
+              "p_contrib": 0.000948
+            },
+            {
+              "mob_id": 2628,
+              "aegis": "C2_VADON",
+              "amount": 2,
+              "weight": 0.011,
+              "rate_raw": 100,
+              "p_mob": 0.05,
+              "p_contrib": 0.000549
+            }
+          ],
+          "atlantis_avg": 1513,
+          "atlantis_total_sold": 56942,
+          "latam_offers_median": 8746,
+          "ev_atlantis_per_kill": 11.8,
+          "ev_latam_per_kill": 68.24,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 911,
+          "aegis": "Scell",
+          "name": "Scell",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 120,
+          "p_per_map_kill": 0.01648352,
+          "contributors": [
+            {
+              "mob_id": 1067,
+              "aegis": "CORNUTUS",
+              "amount": 15,
+              "weight": 0.0824,
+              "rate_raw": 400,
+              "p_mob": 0.2,
+              "p_contrib": 0.016484
+            }
+          ],
+          "atlantis_avg": 277,
+          "atlantis_total_sold": 5963,
+          "latam_offers_median": 2500,
+          "ev_atlantis_per_kill": 4.57,
+          "ev_latam_per_kill": 41.21,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 1011,
+          "aegis": "Emveretarcon",
+          "name": "Emveretarcon",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 1000,
+          "p_per_map_kill": 0.00107143,
+          "contributors": [
+            {
+              "mob_id": 1068,
+              "aegis": "HYDRA",
+              "amount": 30,
+              "weight": 0.1648,
+              "rate_raw": 13,
+              "p_mob": 0.0065,
+              "p_contrib": 0.001071
+            }
+          ],
+          "atlantis_avg": 2349,
+          "atlantis_total_sold": 36379,
+          "latam_offers_median": null,
+          "ev_atlantis_per_kill": 2.52,
+          "ev_latam_per_kill": null,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 971,
+          "aegis": "Detrimindexta",
+          "name": "Detrimindexta",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 400,
+          "p_per_map_kill": 0.00082418,
+          "contributors": [
+            {
+              "mob_id": 1068,
+              "aegis": "HYDRA",
+              "amount": 30,
+              "weight": 0.1648,
+              "rate_raw": 10,
+              "p_mob": 0.005,
+              "p_contrib": 0.000824
+            }
+          ],
+          "atlantis_avg": 1418,
+          "atlantis_total_sold": 39338,
+          "latam_offers_median": 1000,
+          "ev_atlantis_per_kill": 1.17,
+          "ev_latam_per_kill": 0.82,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 630,
+          "aegis": "Dew_Laden_Moss",
+          "name": "Dew Laden Moss",
+          "type": "Usable",
+          "bucket": "use",
+          "npc_buy": 10,
+          "p_per_map_kill": 0.00054945,
+          "contributors": [
+            {
+              "mob_id": 1161,
+              "aegis": "PLANKTON",
+              "amount": 10,
+              "weight": 0.0549,
+              "rate_raw": 10,
+              "p_mob": 0.01,
+              "p_contrib": 0.000549
+            }
+          ],
+          "atlantis_avg": 1879,
+          "atlantis_total_sold": 333,
+          "latam_offers_median": 25000,
+          "ev_atlantis_per_kill": 1.03,
+          "ev_latam_per_kill": 13.74,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 645,
+          "aegis": "Center_Potion",
+          "name": "Concentration Potion",
+          "type": "Usable",
+          "bucket": "use",
+          "npc_buy": 1200,
+          "p_per_map_kill": 0.00137363,
+          "contributors": [
+            {
+              "mob_id": 1161,
+              "aegis": "PLANKTON",
+              "amount": 10,
+              "weight": 0.0549,
+              "rate_raw": 25,
+              "p_mob": 0.025,
+              "p_contrib": 0.001374
+            }
+          ],
+          "atlantis_avg": 731,
+          "atlantis_total_sold": 5765,
+          "latam_offers_median": 1050,
+          "ev_atlantis_per_kill": 1.0,
+          "ev_latam_per_kill": 1.44,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 970,
+          "aegis": "Alchol",
+          "name": "Alcohol",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 400,
+          "p_per_map_kill": 5.495e-05,
+          "contributors": [
+            {
+              "mob_id": 1161,
+              "aegis": "PLANKTON",
+              "amount": 10,
+              "weight": 0.0549,
+              "rate_raw": 2,
+              "p_mob": 0.001,
+              "p_contrib": 5.5e-05
+            }
+          ],
+          "atlantis_avg": 10713,
+          "atlantis_total_sold": 2328239,
+          "latam_offers_median": 664,
+          "ev_atlantis_per_kill": 0.59,
+          "ev_latam_per_kill": 0.04,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 631,
+          "aegis": "Deadly_Noxious_Herb",
+          "name": "Deadly Noxious Herb",
+          "type": "Usable",
+          "bucket": "use",
+          "npc_buy": 20,
+          "p_per_map_kill": 0.00082418,
+          "contributors": [
+            {
+              "mob_id": 1141,
+              "aegis": "MARINA",
+              "amount": 15,
+              "weight": 0.0824,
+              "rate_raw": 10,
+              "p_mob": 0.01,
+              "p_contrib": 0.000824
+            }
+          ],
+          "atlantis_avg": 700,
+          "atlantis_total_sold": 49,
+          "latam_offers_median": 25999,
+          "ev_atlantis_per_kill": 0.58,
+          "ev_latam_per_kill": 21.43,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 525,
+          "aegis": "Panacea",
+          "name": "Panacea",
+          "type": "Healing",
+          "bucket": "heal",
+          "npc_buy": 500,
+          "p_per_map_kill": 0.00049451,
+          "contributors": [
+            {
+              "mob_id": 1068,
+              "aegis": "HYDRA",
+              "amount": 30,
+              "weight": 0.1648,
+              "rate_raw": 3,
+              "p_mob": 0.003,
+              "p_contrib": 0.000495
+            }
+          ],
+          "atlantis_avg": 1157,
+          "atlantis_total_sold": 368431,
+          "latam_offers_median": 5000,
+          "ev_atlantis_per_kill": 0.57,
+          "ev_latam_per_kill": 2.47,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 995,
+          "aegis": "Mistic_Frozen",
+          "name": "Mystic Frozen",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 3000,
+          "p_per_map_kill": 4.121e-05,
+          "contributors": [
+            {
+              "mob_id": 1141,
+              "aegis": "MARINA",
+              "amount": 15,
+              "weight": 0.0824,
+              "rate_raw": 1,
+              "p_mob": 0.0005,
+              "p_contrib": 4.1e-05
+            }
+          ],
+          "atlantis_avg": 10243,
+          "atlantis_total_sold": 2888,
+          "latam_offers_median": 110000,
+          "ev_atlantis_per_kill": 0.42,
+          "ev_latam_per_kill": 4.53,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 961,
+          "aegis": "Conch",
+          "name": "Conch",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 158,
+          "p_per_map_kill": 0.08241758,
+          "contributors": [
+            {
+              "mob_id": 1067,
+              "aegis": "CORNUTUS",
+              "amount": 15,
+              "weight": 0.0824,
+              "rate_raw": 2750,
+              "p_mob": 1.0,
+              "p_contrib": 0.082418
+            }
+          ],
+          "atlantis_avg": null,
+          "atlantis_total_sold": null,
+          "latam_offers_median": null,
+          "ev_atlantis_per_kill": null,
+          "ev_latam_per_kill": null,
+          "in_atlantis": false,
+          "in_latam": true,
+          "in_grindable": false
+        },
+        {
+          "item_id": 528,
+          "aegis": "Monster's_Feed",
+          "name": "Monster's Feed",
+          "type": "Healing",
+          "bucket": "heal",
+          "npc_buy": 60,
+          "p_per_map_kill": 0.06868132,
+          "contributors": [
+            {
+              "mob_id": 1070,
+              "aegis": "KUKRE",
+              "amount": 50,
+              "weight": 0.2747,
+              "rate_raw": 250,
+              "p_mob": 0.25,
+              "p_contrib": 0.068681
+            }
+          ],
+          "atlantis_avg": null,
+          "atlantis_total_sold": null,
+          "latam_offers_median": null,
+          "ev_atlantis_per_kill": null,
+          "ev_latam_per_kill": null,
+          "in_atlantis": false,
+          "in_latam": false,
+          "in_grindable": false
+        },
+        {
+          "item_id": 928,
+          "aegis": "Insect_Feeler",
+          "name": "Insect Feeler",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 114,
+          "p_per_map_kill": 0.03090659,
+          "contributors": [
+            {
+              "mob_id": 1070,
+              "aegis": "KUKRE",
+              "amount": 50,
+              "weight": 0.2747,
+              "rate_raw": 225,
+              "p_mob": 0.1125,
+              "p_contrib": 0.030907
+            }
+          ],
+          "atlantis_avg": null,
+          "atlantis_total_sold": null,
+          "latam_offers_median": null,
+          "ev_atlantis_per_kill": null,
+          "ev_latam_per_kill": null,
+          "in_atlantis": false,
+          "in_latam": true,
+          "in_grindable": false
+        },
+        {
+          "item_id": 4027,
+          "aegis": "Kukre_Card",
+          "name": "Kukre Card",
+          "type": "Card",
+          "bucket": "card",
+          "npc_buy": 20,
+          "p_per_map_kill": 0.00274725,
+          "contributors": [
+            {
+              "mob_id": 1070,
+              "aegis": "KUKRE",
+              "amount": 50,
+              "weight": 0.2747,
+              "rate_raw": 1,
+              "p_mob": 0.01,
+              "p_contrib": 0.002747
+            }
+          ],
+          "atlantis_avg": null,
+          "atlantis_total_sold": null,
+          "latam_offers_median": null,
+          "ev_atlantis_per_kill": null,
+          "ev_latam_per_kill": null,
+          "in_atlantis": false,
+          "in_latam": true,
+          "in_grindable": false
+        },
+        {
+          "item_id": 2313,
+          "aegis": "Padded_Armor_",
+          "name": "Padded Armor",
+          "type": "Armor",
+          "bucket": "equip",
+          "npc_buy": 48000,
+          "p_per_map_kill": 0.00173077,
+          "contributors": [
+            {
+              "mob_id": 1066,
+              "aegis": "VADON",
+              "amount": 60,
+              "weight": 0.3297,
+              "rate_raw": 3,
+              "p_mob": 0.0045,
+              "p_contrib": 0.001484
+            },
+            {
+              "mob_id": 2628,
+              "aegis": "C2_VADON",
+              "amount": 2,
+              "weight": 0.011,
+              "rate_raw": 15,
+              "p_mob": 0.0225,
+              "p_contrib": 0.000247
+            }
+          ],
+          "atlantis_avg": null,
+          "atlantis_total_sold": null,
+          "latam_offers_median": null,
+          "ev_atlantis_per_kill": null,
+          "ev_latam_per_kill": null,
+          "in_atlantis": false,
+          "in_latam": false,
+          "in_grindable": false
+        },
+        {
+          "item_id": 4024,
+          "aegis": "Plankton_Card",
+          "name": "Plankton Card",
+          "type": "Card",
+          "bucket": "card",
+          "npc_buy": 20,
+          "p_per_map_kill": 0.00054945,
+          "contributors": [
+            {
+              "mob_id": 1161,
+              "aegis": "PLANKTON",
+              "amount": 10,
+              "weight": 0.0549,
+              "rate_raw": 1,
+              "p_mob": 0.01,
+              "p_contrib": 0.000549
+            }
+          ],
+          "atlantis_avg": null,
+          "atlantis_total_sold": null,
+          "latam_offers_median": null,
+          "ev_atlantis_per_kill": null,
+          "ev_latam_per_kill": null,
+          "in_atlantis": false,
+          "in_latam": false,
+          "in_grindable": false
+        },
+        {
+          "item_id": 2106,
+          "aegis": "Shield_",
+          "name": "Shield",
+          "type": "Armor",
+          "bucket": "equip",
+          "npc_buy": 56000,
+          "p_per_map_kill": 0.00037088,
+          "contributors": [
+            {
+              "mob_id": 1067,
+              "aegis": "CORNUTUS",
+              "amount": 15,
+              "weight": 0.0824,
+              "rate_raw": 3,
+              "p_mob": 0.0045,
+              "p_contrib": 0.000371
+            }
+          ],
+          "atlantis_avg": null,
+          "atlantis_total_sold": null,
+          "latam_offers_median": null,
+          "ev_atlantis_per_kill": null,
+          "ev_latam_per_kill": null,
+          "in_atlantis": false,
+          "in_latam": true,
+          "in_grindable": false
+        }
+      ],
+      "drops_top20": [
+        {
+          "item_id": 4049,
+          "aegis": "Vadon_Card",
+          "name": "Vadon Card",
+          "type": "Card",
+          "bucket": "card",
+          "npc_buy": 20,
+          "p_per_map_kill": 0.00384615,
+          "contributors": [
+            {
+              "mob_id": 1066,
+              "aegis": "VADON",
+              "amount": 60,
+              "weight": 0.3297,
+              "rate_raw": 1,
+              "p_mob": 0.01,
+              "p_contrib": 0.003297
+            },
+            {
+              "mob_id": 2628,
+              "aegis": "C2_VADON",
+              "amount": 2,
+              "weight": 0.011,
+              "rate_raw": 5,
+              "p_mob": 0.05,
+              "p_contrib": 0.000549
+            }
+          ],
+          "atlantis_avg": 1975345,
+          "atlantis_total_sold": 1224,
+          "latam_offers_median": 1999999,
+          "ev_atlantis_per_kill": 7597.48,
+          "ev_latam_per_kill": 7692.3,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 4035,
+          "aegis": "Hydra_Card",
+          "name": "Hydra Card",
+          "type": "Card",
+          "bucket": "card",
+          "npc_buy": 20,
+          "p_per_map_kill": 0.00164835,
+          "contributors": [
+            {
+              "mob_id": 1068,
+              "aegis": "HYDRA",
+              "amount": 30,
+              "weight": 0.1648,
+              "rate_raw": 1,
+              "p_mob": 0.01,
+              "p_contrib": 0.001648
+            }
+          ],
+          "atlantis_avg": 1803083,
+          "atlantis_total_sold": 4283,
+          "latam_offers_median": 1399999,
+          "ev_atlantis_per_kill": 2972.11,
+          "ev_latam_per_kill": 2307.69,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 1052,
+          "aegis": "Single_Cell",
+          "name": "Single Cell",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 46,
+          "p_per_map_kill": 0.13736264,
+          "contributors": [
+            {
+              "mob_id": 1141,
+              "aegis": "MARINA",
+              "amount": 15,
+              "weight": 0.0824,
+              "rate_raw": 2500,
+              "p_mob": 1.0,
+              "p_contrib": 0.082418
+            },
+            {
+              "mob_id": 1161,
+              "aegis": "PLANKTON",
+              "amount": 10,
+              "weight": 0.0549,
+              "rate_raw": 4500,
+              "p_mob": 1.0,
+              "p_contrib": 0.054945
+            }
+          ],
+          "atlantis_avg": 16171,
+          "atlantis_total_sold": 170,
+          "latam_offers_median": 999,
+          "ev_atlantis_per_kill": 2221.29,
+          "ev_latam_per_kill": 137.23,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 4055,
+          "aegis": "Marina_Card",
+          "name": "Marina Card",
+          "type": "Card",
+          "bucket": "card",
+          "npc_buy": 20,
+          "p_per_map_kill": 0.00082418,
+          "contributors": [
+            {
+              "mob_id": 1141,
+              "aegis": "MARINA",
+              "amount": 15,
+              "weight": 0.0824,
+              "rate_raw": 1,
+              "p_mob": 0.01,
+              "p_contrib": 0.000824
+            }
+          ],
+          "atlantis_avg": 1944278,
+          "atlantis_total_sold": 594,
+          "latam_offers_median": 2400000,
+          "ev_atlantis_per_kill": 1602.43,
+          "ev_latam_per_kill": 1978.02,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 623,
+          "aegis": "Earthworm_The_Dude",
+          "name": "Earthworm the Dude",
+          "type": "Usable",
+          "bucket": "use",
+          "npc_buy": 4000,
+          "p_per_map_kill": 0.00274725,
+          "contributors": [
+            {
+              "mob_id": 1070,
+              "aegis": "KUKRE",
+              "amount": 50,
+              "weight": 0.2747,
+              "rate_raw": 10,
+              "p_mob": 0.01,
+              "p_contrib": 0.002747
+            }
+          ],
+          "atlantis_avg": 317478,
+          "atlantis_total_sold": 351,
+          "latam_offers_median": 50000,
+          "ev_atlantis_per_kill": 872.19,
+          "ev_latam_per_kill": 137.36,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 943,
+          "aegis": "Solid_Shell",
+          "name": "Solid Shell",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 448,
+          "p_per_map_kill": 0.03021978,
+          "contributors": [
+            {
+              "mob_id": 1066,
+              "aegis": "VADON",
+              "amount": 60,
+              "weight": 0.3297,
+              "rate_raw": 50,
+              "p_mob": 0.025,
+              "p_contrib": 0.008242
+            },
+            {
+              "mob_id": 1067,
+              "aegis": "CORNUTUS",
+              "amount": 15,
+              "weight": 0.0824,
+              "rate_raw": 500,
+              "p_mob": 0.25,
+              "p_contrib": 0.020604
+            },
+            {
+              "mob_id": 2628,
+              "aegis": "C2_VADON",
+              "amount": 2,
+              "weight": 0.011,
+              "rate_raw": 250,
+              "p_mob": 0.125,
+              "p_contrib": 0.001374
+            }
+          ],
+          "atlantis_avg": 19779,
+          "atlantis_total_sold": 691,
+          "latam_offers_median": 1000,
+          "ev_atlantis_per_kill": 597.72,
+          "ev_latam_per_kill": 30.22,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 938,
+          "aegis": "Sticky_Mucus",
+          "name": "Sticky Mucus",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 70,
+          "p_per_map_kill": 0.10233516,
+          "contributors": [
+            {
+              "mob_id": 1068,
+              "aegis": "HYDRA",
+              "amount": 30,
+              "weight": 0.1648,
+              "rate_raw": 750,
+              "p_mob": 0.375,
+              "p_contrib": 0.061813
+            },
+            {
+              "mob_id": 1141,
+              "aegis": "MARINA",
+              "amount": 15,
+              "weight": 0.0824,
+              "rate_raw": 750,
+              "p_mob": 0.375,
+              "p_contrib": 0.030907
+            },
+            {
+              "mob_id": 1161,
+              "aegis": "PLANKTON",
+              "amount": 10,
+              "weight": 0.0549,
+              "rate_raw": 350,
+              "p_mob": 0.175,
+              "p_contrib": 0.009615
+            }
+          ],
+          "atlantis_avg": 5113,
+          "atlantis_total_sold": 22391,
+          "latam_offers_median": 2000,
+          "ev_atlantis_per_kill": 523.24,
+          "ev_latam_per_kill": 204.67,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 4061,
+          "aegis": "Cornutus_Card",
+          "name": "Cornutus Card",
+          "type": "Card",
+          "bucket": "card",
+          "npc_buy": 20,
+          "p_per_map_kill": 0.00082418,
+          "contributors": [
+            {
+              "mob_id": 1067,
+              "aegis": "CORNUTUS",
+              "amount": 15,
+              "weight": 0.0824,
+              "rate_raw": 1,
+              "p_mob": 0.01,
+              "p_contrib": 0.000824
+            }
+          ],
+          "atlantis_avg": 394830,
+          "atlantis_total_sold": 125,
+          "latam_offers_median": 800000,
+          "ev_atlantis_per_kill": 325.41,
+          "ev_latam_per_kill": 659.34,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 960,
+          "aegis": "Nipper",
+          "name": "Nipper",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 114,
+          "p_per_map_kill": 0.34065934,
+          "contributors": [
+            {
+              "mob_id": 1066,
+              "aegis": "VADON",
+              "amount": 60,
+              "weight": 0.3297,
+              "rate_raw": 4500,
+              "p_mob": 1.0,
+              "p_contrib": 0.32967
+            },
+            {
+              "mob_id": 2628,
+              "aegis": "C2_VADON",
+              "amount": 2,
+              "weight": 0.011,
+              "rate_raw": 10000,
+              "p_mob": 1.0,
+              "p_contrib": 0.010989
+            }
+          ],
+          "atlantis_avg": 603,
+          "atlantis_total_sold": 74,
+          "latam_offers_median": 1999,
+          "ev_atlantis_per_kill": 205.42,
+          "ev_latam_per_kill": 680.98,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 962,
+          "aegis": "Tentacle",
+          "name": "Tentacle",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 70,
+          "p_per_map_kill": 0.16483516,
+          "contributors": [
+            {
+              "mob_id": 1068,
+              "aegis": "HYDRA",
+              "amount": 30,
+              "weight": 0.1648,
+              "rate_raw": 2750,
+              "p_mob": 1.0,
+              "p_contrib": 0.164835
+            }
+          ],
+          "atlantis_avg": 566,
+          "atlantis_total_sold": 1914,
+          "latam_offers_median": 650,
+          "ev_atlantis_per_kill": 93.3,
+          "ev_latam_per_kill": 107.14,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 955,
+          "aegis": "Worm_Peelings",
+          "name": "Worm Peeling",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 52,
+          "p_per_map_kill": 0.27472527,
+          "contributors": [
+            {
+              "mob_id": 1070,
+              "aegis": "KUKRE",
+              "amount": 50,
+              "weight": 0.2747,
+              "rate_raw": 2750,
+              "p_mob": 1.0,
+              "p_contrib": 0.274725
+            }
+          ],
+          "atlantis_avg": 251,
+          "atlantis_total_sold": 1712,
+          "latam_offers_median": 4999,
+          "ev_atlantis_per_kill": 68.96,
+          "ev_latam_per_kill": 1373.35,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 601,
+          "aegis": "Wing_Of_Fly",
+          "name": "Fly Wing",
+          "type": "DelayConsume",
+          "bucket": "common",
+          "npc_buy": 250,
+          "p_per_map_kill": 0.25824176,
+          "contributors": [
+            {
+              "mob_id": 1066,
+              "aegis": "VADON",
+              "amount": 60,
+              "weight": 0.3297,
+              "rate_raw": 500,
+              "p_mob": 0.25,
+              "p_contrib": 0.082418
+            },
+            {
+              "mob_id": 1070,
+              "aegis": "KUKRE",
+              "amount": 50,
+              "weight": 0.2747,
+              "rate_raw": 500,
+              "p_mob": 0.25,
+              "p_contrib": 0.068681
+            },
+            {
+              "mob_id": 1068,
+              "aegis": "HYDRA",
+              "amount": 30,
+              "weight": 0.1648,
+              "rate_raw": 500,
+              "p_mob": 0.25,
+              "p_contrib": 0.041209
+            },
+            {
+              "mob_id": 1141,
+              "aegis": "MARINA",
+              "amount": 15,
+              "weight": 0.0824,
+              "rate_raw": 500,
+              "p_mob": 0.25,
+              "p_contrib": 0.020604
+            },
+            {
+              "mob_id": 1067,
+              "aegis": "CORNUTUS",
+              "amount": 15,
+              "weight": 0.0824,
+              "rate_raw": 500,
+              "p_mob": 0.25,
+              "p_contrib": 0.020604
+            },
+            {
+              "mob_id": 1161,
+              "aegis": "PLANKTON",
+              "amount": 10,
+              "weight": 0.0549,
+              "rate_raw": 500,
+              "p_mob": 0.25,
+              "p_contrib": 0.013736
+            },
+            {
+              "mob_id": 2628,
+              "aegis": "C2_VADON",
+              "amount": 2,
+              "weight": 0.011,
+              "rate_raw": 2500,
+              "p_mob": 1.0,
+              "p_contrib": 0.010989
+            }
+          ],
+          "atlantis_avg": 179,
+          "atlantis_total_sold": 1994437,
+          "latam_offers_median": 300,
+          "ev_atlantis_per_kill": 46.23,
+          "ev_latam_per_kill": 77.47,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 517,
+          "aegis": "Meat",
+          "name": "Meat",
+          "type": "Healing",
+          "bucket": "heal",
+          "npc_buy": 50,
+          "p_per_map_kill": 0.05769231,
+          "contributors": [
+            {
+              "mob_id": 1068,
+              "aegis": "HYDRA",
+              "amount": 30,
+              "weight": 0.1648,
+              "rate_raw": 350,
+              "p_mob": 0.35,
+              "p_contrib": 0.057692
+            }
+          ],
+          "atlantis_avg": 532,
+          "atlantis_total_sold": 7224,
+          "latam_offers_median": 29000,
+          "ev_atlantis_per_kill": 30.69,
+          "ev_latam_per_kill": 1673.08,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 910,
+          "aegis": "Garlet",
+          "name": "Garlet",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 30,
+          "p_per_map_kill": 0.28983516,
+          "contributors": [
+            {
+              "mob_id": 1066,
+              "aegis": "VADON",
+              "amount": 60,
+              "weight": 0.3297,
+              "rate_raw": 1500,
+              "p_mob": 0.75,
+              "p_contrib": 0.247253
+            },
+            {
+              "mob_id": 1070,
+              "aegis": "KUKRE",
+              "amount": 50,
+              "weight": 0.2747,
+              "rate_raw": 200,
+              "p_mob": 0.1,
+              "p_contrib": 0.027473
+            },
+            {
+              "mob_id": 1161,
+              "aegis": "PLANKTON",
+              "amount": 10,
+              "weight": 0.0549,
+              "rate_raw": 150,
+              "p_mob": 0.075,
+              "p_contrib": 0.004121
+            },
+            {
+              "mob_id": 2628,
+              "aegis": "C2_VADON",
+              "amount": 2,
+              "weight": 0.011,
+              "rate_raw": 7500,
+              "p_mob": 1.0,
+              "p_contrib": 0.010989
+            }
+          ],
+          "atlantis_avg": 75,
+          "atlantis_total_sold": 1063,
+          "latam_offers_median": 2500,
+          "ev_atlantis_per_kill": 21.74,
+          "ev_latam_per_kill": 724.59,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 757,
+          "aegis": "Elunium_Stone",
+          "name": "Rough Elunium",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 650,
+          "p_per_map_kill": 0.00495879,
+          "contributors": [
+            {
+              "mob_id": 1066,
+              "aegis": "VADON",
+              "amount": 60,
+              "weight": 0.3297,
+              "rate_raw": 20,
+              "p_mob": 0.01,
+              "p_contrib": 0.003297
+            },
+            {
+              "mob_id": 1067,
+              "aegis": "CORNUTUS",
+              "amount": 15,
+              "weight": 0.0824,
+              "rate_raw": 27,
+              "p_mob": 0.0135,
+              "p_contrib": 0.001113
+            },
+            {
+              "mob_id": 2628,
+              "aegis": "C2_VADON",
+              "amount": 2,
+              "weight": 0.011,
+              "rate_raw": 100,
+              "p_mob": 0.05,
+              "p_contrib": 0.000549
+            }
+          ],
+          "atlantis_avg": 3688,
+          "atlantis_total_sold": 17213,
+          "latam_offers_median": 1000,
+          "ev_atlantis_per_kill": 18.29,
+          "ev_latam_per_kill": 4.96,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 991,
+          "aegis": "Crystal_Blue",
+          "name": "Crystal Blue",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 1000,
+          "p_per_map_kill": 0.0078022,
+          "contributors": [
+            {
+              "mob_id": 1066,
+              "aegis": "VADON",
+              "amount": 60,
+              "weight": 0.3297,
+              "rate_raw": 20,
+              "p_mob": 0.01,
+              "p_contrib": 0.003297
+            },
+            {
+              "mob_id": 1070,
+              "aegis": "KUKRE",
+              "amount": 50,
+              "weight": 0.2747,
+              "rate_raw": 15,
+              "p_mob": 0.0075,
+              "p_contrib": 0.00206
+            },
+            {
+              "mob_id": 1141,
+              "aegis": "MARINA",
+              "amount": 15,
+              "weight": 0.0824,
+              "rate_raw": 23,
+              "p_mob": 0.0115,
+              "p_contrib": 0.000948
+            },
+            {
+              "mob_id": 1067,
+              "aegis": "CORNUTUS",
+              "amount": 15,
+              "weight": 0.0824,
+              "rate_raw": 23,
+              "p_mob": 0.0115,
+              "p_contrib": 0.000948
+            },
+            {
+              "mob_id": 2628,
+              "aegis": "C2_VADON",
+              "amount": 2,
+              "weight": 0.011,
+              "rate_raw": 100,
+              "p_mob": 0.05,
+              "p_contrib": 0.000549
+            }
+          ],
+          "atlantis_avg": 1513,
+          "atlantis_total_sold": 56942,
+          "latam_offers_median": 8746,
+          "ev_atlantis_per_kill": 11.8,
+          "ev_latam_per_kill": 68.24,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 911,
+          "aegis": "Scell",
+          "name": "Scell",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 120,
+          "p_per_map_kill": 0.01648352,
+          "contributors": [
+            {
+              "mob_id": 1067,
+              "aegis": "CORNUTUS",
+              "amount": 15,
+              "weight": 0.0824,
+              "rate_raw": 400,
+              "p_mob": 0.2,
+              "p_contrib": 0.016484
+            }
+          ],
+          "atlantis_avg": 277,
+          "atlantis_total_sold": 5963,
+          "latam_offers_median": 2500,
+          "ev_atlantis_per_kill": 4.57,
+          "ev_latam_per_kill": 41.21,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 1011,
+          "aegis": "Emveretarcon",
+          "name": "Emveretarcon",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 1000,
+          "p_per_map_kill": 0.00107143,
+          "contributors": [
+            {
+              "mob_id": 1068,
+              "aegis": "HYDRA",
+              "amount": 30,
+              "weight": 0.1648,
+              "rate_raw": 13,
+              "p_mob": 0.0065,
+              "p_contrib": 0.001071
+            }
+          ],
+          "atlantis_avg": 2349,
+          "atlantis_total_sold": 36379,
+          "latam_offers_median": null,
+          "ev_atlantis_per_kill": 2.52,
+          "ev_latam_per_kill": null,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 971,
+          "aegis": "Detrimindexta",
+          "name": "Detrimindexta",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 400,
+          "p_per_map_kill": 0.00082418,
+          "contributors": [
+            {
+              "mob_id": 1068,
+              "aegis": "HYDRA",
+              "amount": 30,
+              "weight": 0.1648,
+              "rate_raw": 10,
+              "p_mob": 0.005,
+              "p_contrib": 0.000824
+            }
+          ],
+          "atlantis_avg": 1418,
+          "atlantis_total_sold": 39338,
+          "latam_offers_median": 1000,
+          "ev_atlantis_per_kill": 1.17,
+          "ev_latam_per_kill": 0.82,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 630,
+          "aegis": "Dew_Laden_Moss",
+          "name": "Dew Laden Moss",
+          "type": "Usable",
+          "bucket": "use",
+          "npc_buy": 10,
+          "p_per_map_kill": 0.00054945,
+          "contributors": [
+            {
+              "mob_id": 1161,
+              "aegis": "PLANKTON",
+              "amount": 10,
+              "weight": 0.0549,
+              "rate_raw": 10,
+              "p_mob": 0.01,
+              "p_contrib": 0.000549
+            }
+          ],
+          "atlantis_avg": 1879,
+          "atlantis_total_sold": 333,
+          "latam_offers_median": 25000,
+          "ev_atlantis_per_kill": 1.03,
+          "ev_latam_per_kill": 13.74,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        }
+      ],
+      "loot": {
+        "policy": "full",
+        "policy_reason": "oferta bot = mats/consumibles con precio; cards/equip quedan fuera del stock masivo (ver drops completos)",
+        "offer_drop_count": 22,
+        "ev_atlantis_per_kill_offer": 4677.09,
+        "ev_latam_per_kill_offer": 5227.5,
+        "ev_atlantis_per_kill_all_drops": 17220.75,
+        "ev_atlantis_per_kill_mats_only": 4677.09,
+        "card_count": 6,
+        "ev_atlantis_cards": 12497.43,
+        "offer_drops_top30": [
+          {
+            "item_id": 1052,
+            "aegis": "Single_Cell",
+            "name": "Single Cell",
+            "type": "Etc",
+            "bucket": "common",
+            "npc_buy": 46,
+            "p_per_map_kill": 0.13736264,
+            "contributors": [
+              {
+                "mob_id": 1141,
+                "aegis": "MARINA",
+                "amount": 15,
+                "weight": 0.0824,
+                "rate_raw": 2500,
+                "p_mob": 1.0,
+                "p_contrib": 0.082418
+              },
+              {
+                "mob_id": 1161,
+                "aegis": "PLANKTON",
+                "amount": 10,
+                "weight": 0.0549,
+                "rate_raw": 4500,
+                "p_mob": 1.0,
+                "p_contrib": 0.054945
+              }
+            ],
+            "atlantis_avg": 16171,
+            "atlantis_total_sold": 170,
+            "latam_offers_median": 999,
+            "ev_atlantis_per_kill": 2221.29,
+            "ev_latam_per_kill": 137.23,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          },
+          {
+            "item_id": 623,
+            "aegis": "Earthworm_The_Dude",
+            "name": "Earthworm the Dude",
+            "type": "Usable",
+            "bucket": "use",
+            "npc_buy": 4000,
+            "p_per_map_kill": 0.00274725,
+            "contributors": [
+              {
+                "mob_id": 1070,
+                "aegis": "KUKRE",
+                "amount": 50,
+                "weight": 0.2747,
+                "rate_raw": 10,
+                "p_mob": 0.01,
+                "p_contrib": 0.002747
+              }
+            ],
+            "atlantis_avg": 317478,
+            "atlantis_total_sold": 351,
+            "latam_offers_median": 50000,
+            "ev_atlantis_per_kill": 872.19,
+            "ev_latam_per_kill": 137.36,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          },
+          {
+            "item_id": 943,
+            "aegis": "Solid_Shell",
+            "name": "Solid Shell",
+            "type": "Etc",
+            "bucket": "common",
+            "npc_buy": 448,
+            "p_per_map_kill": 0.03021978,
+            "contributors": [
+              {
+                "mob_id": 1066,
+                "aegis": "VADON",
+                "amount": 60,
+                "weight": 0.3297,
+                "rate_raw": 50,
+                "p_mob": 0.025,
+                "p_contrib": 0.008242
+              },
+              {
+                "mob_id": 1067,
+                "aegis": "CORNUTUS",
+                "amount": 15,
+                "weight": 0.0824,
+                "rate_raw": 500,
+                "p_mob": 0.25,
+                "p_contrib": 0.020604
+              },
+              {
+                "mob_id": 2628,
+                "aegis": "C2_VADON",
+                "amount": 2,
+                "weight": 0.011,
+                "rate_raw": 250,
+                "p_mob": 0.125,
+                "p_contrib": 0.001374
+              }
+            ],
+            "atlantis_avg": 19779,
+            "atlantis_total_sold": 691,
+            "latam_offers_median": 1000,
+            "ev_atlantis_per_kill": 597.72,
+            "ev_latam_per_kill": 30.22,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          },
+          {
+            "item_id": 938,
+            "aegis": "Sticky_Mucus",
+            "name": "Sticky Mucus",
+            "type": "Etc",
+            "bucket": "common",
+            "npc_buy": 70,
+            "p_per_map_kill": 0.10233516,
+            "contributors": [
+              {
+                "mob_id": 1068,
+                "aegis": "HYDRA",
+                "amount": 30,
+                "weight": 0.1648,
+                "rate_raw": 750,
+                "p_mob": 0.375,
+                "p_contrib": 0.061813
+              },
+              {
+                "mob_id": 1141,
+                "aegis": "MARINA",
+                "amount": 15,
+                "weight": 0.0824,
+                "rate_raw": 750,
+                "p_mob": 0.375,
+                "p_contrib": 0.030907
+              },
+              {
+                "mob_id": 1161,
+                "aegis": "PLANKTON",
+                "amount": 10,
+                "weight": 0.0549,
+                "rate_raw": 350,
+                "p_mob": 0.175,
+                "p_contrib": 0.009615
+              }
+            ],
+            "atlantis_avg": 5113,
+            "atlantis_total_sold": 22391,
+            "latam_offers_median": 2000,
+            "ev_atlantis_per_kill": 523.24,
+            "ev_latam_per_kill": 204.67,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          },
+          {
+            "item_id": 960,
+            "aegis": "Nipper",
+            "name": "Nipper",
+            "type": "Etc",
+            "bucket": "common",
+            "npc_buy": 114,
+            "p_per_map_kill": 0.34065934,
+            "contributors": [
+              {
+                "mob_id": 1066,
+                "aegis": "VADON",
+                "amount": 60,
+                "weight": 0.3297,
+                "rate_raw": 4500,
+                "p_mob": 1.0,
+                "p_contrib": 0.32967
+              },
+              {
+                "mob_id": 2628,
+                "aegis": "C2_VADON",
+                "amount": 2,
+                "weight": 0.011,
+                "rate_raw": 10000,
+                "p_mob": 1.0,
+                "p_contrib": 0.010989
+              }
+            ],
+            "atlantis_avg": 603,
+            "atlantis_total_sold": 74,
+            "latam_offers_median": 1999,
+            "ev_atlantis_per_kill": 205.42,
+            "ev_latam_per_kill": 680.98,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          },
+          {
+            "item_id": 962,
+            "aegis": "Tentacle",
+            "name": "Tentacle",
+            "type": "Etc",
+            "bucket": "common",
+            "npc_buy": 70,
+            "p_per_map_kill": 0.16483516,
+            "contributors": [
+              {
+                "mob_id": 1068,
+                "aegis": "HYDRA",
+                "amount": 30,
+                "weight": 0.1648,
+                "rate_raw": 2750,
+                "p_mob": 1.0,
+                "p_contrib": 0.164835
+              }
+            ],
+            "atlantis_avg": 566,
+            "atlantis_total_sold": 1914,
+            "latam_offers_median": 650,
+            "ev_atlantis_per_kill": 93.3,
+            "ev_latam_per_kill": 107.14,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          },
+          {
+            "item_id": 955,
+            "aegis": "Worm_Peelings",
+            "name": "Worm Peeling",
+            "type": "Etc",
+            "bucket": "common",
+            "npc_buy": 52,
+            "p_per_map_kill": 0.27472527,
+            "contributors": [
+              {
+                "mob_id": 1070,
+                "aegis": "KUKRE",
+                "amount": 50,
+                "weight": 0.2747,
+                "rate_raw": 2750,
+                "p_mob": 1.0,
+                "p_contrib": 0.274725
+              }
+            ],
+            "atlantis_avg": 251,
+            "atlantis_total_sold": 1712,
+            "latam_offers_median": 4999,
+            "ev_atlantis_per_kill": 68.96,
+            "ev_latam_per_kill": 1373.35,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          },
+          {
+            "item_id": 517,
+            "aegis": "Meat",
+            "name": "Meat",
+            "type": "Healing",
+            "bucket": "heal",
+            "npc_buy": 50,
+            "p_per_map_kill": 0.05769231,
+            "contributors": [
+              {
+                "mob_id": 1068,
+                "aegis": "HYDRA",
+                "amount": 30,
+                "weight": 0.1648,
+                "rate_raw": 350,
+                "p_mob": 0.35,
+                "p_contrib": 0.057692
+              }
+            ],
+            "atlantis_avg": 532,
+            "atlantis_total_sold": 7224,
+            "latam_offers_median": 29000,
+            "ev_atlantis_per_kill": 30.69,
+            "ev_latam_per_kill": 1673.08,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          },
+          {
+            "item_id": 910,
+            "aegis": "Garlet",
+            "name": "Garlet",
+            "type": "Etc",
+            "bucket": "common",
+            "npc_buy": 30,
+            "p_per_map_kill": 0.28983516,
+            "contributors": [
+              {
+                "mob_id": 1066,
+                "aegis": "VADON",
+                "amount": 60,
+                "weight": 0.3297,
+                "rate_raw": 1500,
+                "p_mob": 0.75,
+                "p_contrib": 0.247253
+              },
+              {
+                "mob_id": 1070,
+                "aegis": "KUKRE",
+                "amount": 50,
+                "weight": 0.2747,
+                "rate_raw": 200,
+                "p_mob": 0.1,
+                "p_contrib": 0.027473
+              },
+              {
+                "mob_id": 1161,
+                "aegis": "PLANKTON",
+                "amount": 10,
+                "weight": 0.0549,
+                "rate_raw": 150,
+                "p_mob": 0.075,
+                "p_contrib": 0.004121
+              },
+              {
+                "mob_id": 2628,
+                "aegis": "C2_VADON",
+                "amount": 2,
+                "weight": 0.011,
+                "rate_raw": 7500,
+                "p_mob": 1.0,
+                "p_contrib": 0.010989
+              }
+            ],
+            "atlantis_avg": 75,
+            "atlantis_total_sold": 1063,
+            "latam_offers_median": 2500,
+            "ev_atlantis_per_kill": 21.74,
+            "ev_latam_per_kill": 724.59,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          },
+          {
+            "item_id": 757,
+            "aegis": "Elunium_Stone",
+            "name": "Rough Elunium",
+            "type": "Etc",
+            "bucket": "common",
+            "npc_buy": 650,
+            "p_per_map_kill": 0.00495879,
+            "contributors": [
+              {
+                "mob_id": 1066,
+                "aegis": "VADON",
+                "amount": 60,
+                "weight": 0.3297,
+                "rate_raw": 20,
+                "p_mob": 0.01,
+                "p_contrib": 0.003297
+              },
+              {
+                "mob_id": 1067,
+                "aegis": "CORNUTUS",
+                "amount": 15,
+                "weight": 0.0824,
+                "rate_raw": 27,
+                "p_mob": 0.0135,
+                "p_contrib": 0.001113
+              },
+              {
+                "mob_id": 2628,
+                "aegis": "C2_VADON",
+                "amount": 2,
+                "weight": 0.011,
+                "rate_raw": 100,
+                "p_mob": 0.05,
+                "p_contrib": 0.000549
+              }
+            ],
+            "atlantis_avg": 3688,
+            "atlantis_total_sold": 17213,
+            "latam_offers_median": 1000,
+            "ev_atlantis_per_kill": 18.29,
+            "ev_latam_per_kill": 4.96,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          },
+          {
+            "item_id": 991,
+            "aegis": "Crystal_Blue",
+            "name": "Crystal Blue",
+            "type": "Etc",
+            "bucket": "common",
+            "npc_buy": 1000,
+            "p_per_map_kill": 0.0078022,
+            "contributors": [
+              {
+                "mob_id": 1066,
+                "aegis": "VADON",
+                "amount": 60,
+                "weight": 0.3297,
+                "rate_raw": 20,
+                "p_mob": 0.01,
+                "p_contrib": 0.003297
+              },
+              {
+                "mob_id": 1070,
+                "aegis": "KUKRE",
+                "amount": 50,
+                "weight": 0.2747,
+                "rate_raw": 15,
+                "p_mob": 0.0075,
+                "p_contrib": 0.00206
+              },
+              {
+                "mob_id": 1141,
+                "aegis": "MARINA",
+                "amount": 15,
+                "weight": 0.0824,
+                "rate_raw": 23,
+                "p_mob": 0.0115,
+                "p_contrib": 0.000948
+              },
+              {
+                "mob_id": 1067,
+                "aegis": "CORNUTUS",
+                "amount": 15,
+                "weight": 0.0824,
+                "rate_raw": 23,
+                "p_mob": 0.0115,
+                "p_contrib": 0.000948
+              },
+              {
+                "mob_id": 2628,
+                "aegis": "C2_VADON",
+                "amount": 2,
+                "weight": 0.011,
+                "rate_raw": 100,
+                "p_mob": 0.05,
+                "p_contrib": 0.000549
+              }
+            ],
+            "atlantis_avg": 1513,
+            "atlantis_total_sold": 56942,
+            "latam_offers_median": 8746,
+            "ev_atlantis_per_kill": 11.8,
+            "ev_latam_per_kill": 68.24,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          },
+          {
+            "item_id": 911,
+            "aegis": "Scell",
+            "name": "Scell",
+            "type": "Etc",
+            "bucket": "common",
+            "npc_buy": 120,
+            "p_per_map_kill": 0.01648352,
+            "contributors": [
+              {
+                "mob_id": 1067,
+                "aegis": "CORNUTUS",
+                "amount": 15,
+                "weight": 0.0824,
+                "rate_raw": 400,
+                "p_mob": 0.2,
+                "p_contrib": 0.016484
+              }
+            ],
+            "atlantis_avg": 277,
+            "atlantis_total_sold": 5963,
+            "latam_offers_median": 2500,
+            "ev_atlantis_per_kill": 4.57,
+            "ev_latam_per_kill": 41.21,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          },
+          {
+            "item_id": 1011,
+            "aegis": "Emveretarcon",
+            "name": "Emveretarcon",
+            "type": "Etc",
+            "bucket": "common",
+            "npc_buy": 1000,
+            "p_per_map_kill": 0.00107143,
+            "contributors": [
+              {
+                "mob_id": 1068,
+                "aegis": "HYDRA",
+                "amount": 30,
+                "weight": 0.1648,
+                "rate_raw": 13,
+                "p_mob": 0.0065,
+                "p_contrib": 0.001071
+              }
+            ],
+            "atlantis_avg": 2349,
+            "atlantis_total_sold": 36379,
+            "latam_offers_median": null,
+            "ev_atlantis_per_kill": 2.52,
+            "ev_latam_per_kill": null,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          },
+          {
+            "item_id": 971,
+            "aegis": "Detrimindexta",
+            "name": "Detrimindexta",
+            "type": "Etc",
+            "bucket": "common",
+            "npc_buy": 400,
+            "p_per_map_kill": 0.00082418,
+            "contributors": [
+              {
+                "mob_id": 1068,
+                "aegis": "HYDRA",
+                "amount": 30,
+                "weight": 0.1648,
+                "rate_raw": 10,
+                "p_mob": 0.005,
+                "p_contrib": 0.000824
+              }
+            ],
+            "atlantis_avg": 1418,
+            "atlantis_total_sold": 39338,
+            "latam_offers_median": 1000,
+            "ev_atlantis_per_kill": 1.17,
+            "ev_latam_per_kill": 0.82,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          },
+          {
+            "item_id": 630,
+            "aegis": "Dew_Laden_Moss",
+            "name": "Dew Laden Moss",
+            "type": "Usable",
+            "bucket": "use",
+            "npc_buy": 10,
+            "p_per_map_kill": 0.00054945,
+            "contributors": [
+              {
+                "mob_id": 1161,
+                "aegis": "PLANKTON",
+                "amount": 10,
+                "weight": 0.0549,
+                "rate_raw": 10,
+                "p_mob": 0.01,
+                "p_contrib": 0.000549
+              }
+            ],
+            "atlantis_avg": 1879,
+            "atlantis_total_sold": 333,
+            "latam_offers_median": 25000,
+            "ev_atlantis_per_kill": 1.03,
+            "ev_latam_per_kill": 13.74,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          },
+          {
+            "item_id": 645,
+            "aegis": "Center_Potion",
+            "name": "Concentration Potion",
+            "type": "Usable",
+            "bucket": "use",
+            "npc_buy": 1200,
+            "p_per_map_kill": 0.00137363,
+            "contributors": [
+              {
+                "mob_id": 1161,
+                "aegis": "PLANKTON",
+                "amount": 10,
+                "weight": 0.0549,
+                "rate_raw": 25,
+                "p_mob": 0.025,
+                "p_contrib": 0.001374
+              }
+            ],
+            "atlantis_avg": 731,
+            "atlantis_total_sold": 5765,
+            "latam_offers_median": 1050,
+            "ev_atlantis_per_kill": 1.0,
+            "ev_latam_per_kill": 1.44,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          },
+          {
+            "item_id": 970,
+            "aegis": "Alchol",
+            "name": "Alcohol",
+            "type": "Etc",
+            "bucket": "common",
+            "npc_buy": 400,
+            "p_per_map_kill": 5.495e-05,
+            "contributors": [
+              {
+                "mob_id": 1161,
+                "aegis": "PLANKTON",
+                "amount": 10,
+                "weight": 0.0549,
+                "rate_raw": 2,
+                "p_mob": 0.001,
+                "p_contrib": 5.5e-05
+              }
+            ],
+            "atlantis_avg": 10713,
+            "atlantis_total_sold": 2328239,
+            "latam_offers_median": 664,
+            "ev_atlantis_per_kill": 0.59,
+            "ev_latam_per_kill": 0.04,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          },
+          {
+            "item_id": 631,
+            "aegis": "Deadly_Noxious_Herb",
+            "name": "Deadly Noxious Herb",
+            "type": "Usable",
+            "bucket": "use",
+            "npc_buy": 20,
+            "p_per_map_kill": 0.00082418,
+            "contributors": [
+              {
+                "mob_id": 1141,
+                "aegis": "MARINA",
+                "amount": 15,
+                "weight": 0.0824,
+                "rate_raw": 10,
+                "p_mob": 0.01,
+                "p_contrib": 0.000824
+              }
+            ],
+            "atlantis_avg": 700,
+            "atlantis_total_sold": 49,
+            "latam_offers_median": 25999,
+            "ev_atlantis_per_kill": 0.58,
+            "ev_latam_per_kill": 21.43,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          },
+          {
+            "item_id": 525,
+            "aegis": "Panacea",
+            "name": "Panacea",
+            "type": "Healing",
+            "bucket": "heal",
+            "npc_buy": 500,
+            "p_per_map_kill": 0.00049451,
+            "contributors": [
+              {
+                "mob_id": 1068,
+                "aegis": "HYDRA",
+                "amount": 30,
+                "weight": 0.1648,
+                "rate_raw": 3,
+                "p_mob": 0.003,
+                "p_contrib": 0.000495
+              }
+            ],
+            "atlantis_avg": 1157,
+            "atlantis_total_sold": 368431,
+            "latam_offers_median": 5000,
+            "ev_atlantis_per_kill": 0.57,
+            "ev_latam_per_kill": 2.47,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          },
+          {
+            "item_id": 995,
+            "aegis": "Mistic_Frozen",
+            "name": "Mystic Frozen",
+            "type": "Etc",
+            "bucket": "common",
+            "npc_buy": 3000,
+            "p_per_map_kill": 4.121e-05,
+            "contributors": [
+              {
+                "mob_id": 1141,
+                "aegis": "MARINA",
+                "amount": 15,
+                "weight": 0.0824,
+                "rate_raw": 1,
+                "p_mob": 0.0005,
+                "p_contrib": 4.1e-05
+              }
+            ],
+            "atlantis_avg": 10243,
+            "atlantis_total_sold": 2888,
+            "latam_offers_median": 110000,
+            "ev_atlantis_per_kill": 0.42,
+            "ev_latam_per_kill": 4.53,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          },
+          {
+            "item_id": 961,
+            "aegis": "Conch",
+            "name": "Conch",
+            "type": "Etc",
+            "bucket": "common",
+            "npc_buy": 158,
+            "p_per_map_kill": 0.08241758,
+            "contributors": [
+              {
+                "mob_id": 1067,
+                "aegis": "CORNUTUS",
+                "amount": 15,
+                "weight": 0.0824,
+                "rate_raw": 2750,
+                "p_mob": 1.0,
+                "p_contrib": 0.082418
+              }
+            ],
+            "atlantis_avg": null,
+            "atlantis_total_sold": null,
+            "latam_offers_median": null,
+            "ev_atlantis_per_kill": null,
+            "ev_latam_per_kill": null,
+            "in_atlantis": false,
+            "in_latam": true,
+            "in_grindable": false
+          },
+          {
+            "item_id": 928,
+            "aegis": "Insect_Feeler",
+            "name": "Insect Feeler",
+            "type": "Etc",
+            "bucket": "common",
+            "npc_buy": 114,
+            "p_per_map_kill": 0.03090659,
+            "contributors": [
+              {
+                "mob_id": 1070,
+                "aegis": "KUKRE",
+                "amount": 50,
+                "weight": 0.2747,
+                "rate_raw": 225,
+                "p_mob": 0.1125,
+                "p_contrib": 0.030907
+              }
+            ],
+            "atlantis_avg": null,
+            "atlantis_total_sold": null,
+            "latam_offers_median": null,
+            "ev_atlantis_per_kill": null,
+            "ev_latam_per_kill": null,
+            "in_atlantis": false,
+            "in_latam": true,
+            "in_grindable": false
+          }
+        ],
+        "offer_item_ids": [
+          1052,
+          623,
+          943,
+          938,
+          960,
+          962,
+          955,
+          517,
+          910,
+          757,
+          991,
+          911,
+          1011,
+          971,
+          630,
+          645,
+          970,
+          631,
+          525,
+          995,
+          961,
+          928
+        ],
+        "top_cards": [
+          {
+            "item_id": 4049,
+            "name": "Vadon Card",
+            "p": 0.00384615,
+            "atlantis_avg": 1975345,
+            "ev_at": 7597.48
+          },
+          {
+            "item_id": 4035,
+            "name": "Hydra Card",
+            "p": 0.00164835,
+            "atlantis_avg": 1803083,
+            "ev_at": 2972.11
+          },
+          {
+            "item_id": 4055,
+            "name": "Marina Card",
+            "p": 0.00082418,
+            "atlantis_avg": 1944278,
+            "ev_at": 1602.43
+          },
+          {
+            "item_id": 4061,
+            "name": "Cornutus Card",
+            "p": 0.00082418,
+            "atlantis_avg": 394830,
+            "ev_at": 325.41
+          },
+          {
+            "item_id": 4027,
+            "name": "Kukre Card",
+            "p": 0.00274725,
+            "atlantis_avg": null,
+            "ev_at": null
+          }
+        ]
+      }
+    }
+  ]
+}

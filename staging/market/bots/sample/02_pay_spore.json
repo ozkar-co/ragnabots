@@ -1,0 +1,1876 @@
+{
+  "id": "02_pay_spore",
+  "label": "Campo Payon (spore)",
+  "tier_target": "novice",
+  "loot_policy": "full",
+  "notes": "Segundo newbie; Spore/etc de Payon.",
+  "maps": [
+    "pay_fild08"
+  ],
+  "map_tiers": [
+    "novice"
+  ],
+  "map_avg_levels": [
+    17.85
+  ],
+  "offer_item_count": 11,
+  "ev_atlantis_per_kill_by_map": [
+    3013.06
+  ],
+  "ev_latam_per_kill_by_map": [
+    3500.41
+  ],
+  "map_profiles": [
+    {
+      "map": "pay_fild08",
+      "spawn_total_raw": 221,
+      "combat_total_amount": 210,
+      "plants_excluded_amount": 11,
+      "plants_excluded": [
+        {
+          "aegis": "GREEN_PLANT",
+          "amount": 10
+        },
+        {
+          "aegis": "SHINING_PLANT",
+          "amount": 1
+        }
+      ],
+      "missing_mob_ids": [],
+      "avg_level": 17.85,
+      "max_level": 18,
+      "avg_hp": 214,
+      "tier": "novice",
+      "mobs": [
+        {
+          "mob_id": 1014,
+          "aegis": "SPORE",
+          "name": "Spore",
+          "amount": 148,
+          "weight": 0.7048,
+          "level": 18,
+          "hp": 223,
+          "race": "Plant",
+          "element": "Water",
+          "drop_count": 8,
+          "drops": [
+            {
+              "item_id": 921,
+              "aegis": "Mushroom_Spore",
+              "name": "Mushroom Spore",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 8000,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 1.0
+            },
+            {
+              "item_id": 507,
+              "aegis": "Red_Herb",
+              "name": "Red Herb",
+              "type": "Healing",
+              "bucket": "heal",
+              "rate_raw": 1000,
+              "rate_mult": 10.0,
+              "p_per_kill_this_mob": 1.0
+            },
+            {
+              "item_id": 578,
+              "aegis": "Strawberry",
+              "name": "Strawberry",
+              "type": "Healing",
+              "bucket": "heal",
+              "rate_raw": 600,
+              "rate_mult": 10.0,
+              "p_per_kill_this_mob": 0.6
+            },
+            {
+              "item_id": 601,
+              "aegis": "Wing_Of_Fly",
+              "name": "Fly Wing",
+              "type": "DelayConsume",
+              "bucket": "common",
+              "rate_raw": 500,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.25
+            },
+            {
+              "item_id": 4022,
+              "aegis": "Spore_Card",
+              "name": "Spore Card",
+              "type": "Card",
+              "bucket": "card",
+              "rate_raw": 10,
+              "rate_mult": 100.0,
+              "p_per_kill_this_mob": 0.1
+            },
+            {
+              "item_id": 2220,
+              "aegis": "Hat",
+              "name": "Hat",
+              "type": "Armor",
+              "bucket": "equip",
+              "rate_raw": 30,
+              "rate_mult": 15.0,
+              "p_per_kill_this_mob": 0.045
+            },
+            {
+              "item_id": 743,
+              "aegis": "Spore_Doll",
+              "name": "Spore Doll",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 10,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.005
+            },
+            {
+              "item_id": 7033,
+              "aegis": "Poison_Spore",
+              "name": "Poison Spore",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 10,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.005
+            }
+          ]
+        },
+        {
+          "mob_id": 1024,
+          "aegis": "WORM_TAIL",
+          "name": "Wormtail",
+          "amount": 31,
+          "weight": 0.1476,
+          "level": 17,
+          "hp": 186,
+          "race": "Plant",
+          "element": "Earth",
+          "drop_count": 8,
+          "drops": [
+            {
+              "item_id": 906,
+              "aegis": "Pointed_Scale",
+              "name": "Pointed Scale",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 2750,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 1.0
+            },
+            {
+              "item_id": 601,
+              "aegis": "Wing_Of_Fly",
+              "name": "Fly Wing",
+              "type": "DelayConsume",
+              "bucket": "common",
+              "rate_raw": 500,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.25
+            },
+            {
+              "item_id": 10015,
+              "aegis": "Green_Lace",
+              "name": "Green Lace",
+              "type": "Petarmor",
+              "bucket": "equip",
+              "rate_raw": 50,
+              "rate_mult": 15.0,
+              "p_per_kill_this_mob": 0.075
+            },
+            {
+              "item_id": 508,
+              "aegis": "Yellow_Herb",
+              "name": "Yellow Herb",
+              "type": "Healing",
+              "bucket": "heal",
+              "rate_raw": 35,
+              "rate_mult": 10.0,
+              "p_per_kill_this_mob": 0.035
+            },
+            {
+              "item_id": 1408,
+              "aegis": "Pike_",
+              "name": "Pike",
+              "type": "Weapon",
+              "bucket": "equip",
+              "rate_raw": 15,
+              "rate_mult": 15.0,
+              "p_per_kill_this_mob": 0.0225
+            },
+            {
+              "item_id": 993,
+              "aegis": "Yellow_Live",
+              "name": "Green Live",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 30,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.015
+            },
+            {
+              "item_id": 4034,
+              "aegis": "Worm_Tail_Card",
+              "name": "Wormtail Card",
+              "type": "Card",
+              "bucket": "card",
+              "rate_raw": 1,
+              "rate_mult": 100.0,
+              "p_per_kill_this_mob": 0.01
+            },
+            {
+              "item_id": 1011,
+              "aegis": "Emveretarcon",
+              "name": "Emveretarcon",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 13,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.0065
+            }
+          ]
+        },
+        {
+          "mob_id": 1025,
+          "aegis": "SNAKE",
+          "name": "Boa",
+          "amount": 31,
+          "weight": 0.1476,
+          "level": 18,
+          "hp": 203,
+          "race": "Brute",
+          "element": "Earth",
+          "drop_count": 8,
+          "drops": [
+            {
+              "item_id": 926,
+              "aegis": "Scale_Of_Snakes",
+              "name": "Snake Scale",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 8000,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 1.0
+            },
+            {
+              "item_id": 578,
+              "aegis": "Strawberry",
+              "name": "Strawberry",
+              "type": "Healing",
+              "bucket": "heal",
+              "rate_raw": 3000,
+              "rate_mult": 10.0,
+              "p_per_kill_this_mob": 1.0
+            },
+            {
+              "item_id": 507,
+              "aegis": "Red_Herb",
+              "name": "Red Herb",
+              "type": "Healing",
+              "bucket": "heal",
+              "rate_raw": 800,
+              "rate_mult": 10.0,
+              "p_per_kill_this_mob": 0.8
+            },
+            {
+              "item_id": 937,
+              "aegis": "Posionous_Canine",
+              "name": "Venom Canine",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 800,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.4
+            },
+            {
+              "item_id": 601,
+              "aegis": "Wing_Of_Fly",
+              "name": "Fly Wing",
+              "type": "DelayConsume",
+              "bucket": "common",
+              "rate_raw": 500,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.25
+            },
+            {
+              "item_id": 4037,
+              "aegis": "Snake_Card",
+              "name": "Snake Card",
+              "type": "Card",
+              "bucket": "card",
+              "rate_raw": 10,
+              "rate_mult": 100.0,
+              "p_per_kill_this_mob": 0.1
+            },
+            {
+              "item_id": 1011,
+              "aegis": "Emveretarcon",
+              "name": "Emveretarcon",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 100,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.05
+            },
+            {
+              "item_id": 1117,
+              "aegis": "Katana_",
+              "name": "Katana",
+              "type": "Weapon",
+              "bucket": "equip",
+              "rate_raw": 20,
+              "rate_mult": 15.0,
+              "p_per_kill_this_mob": 0.03
+            }
+          ]
+        }
+      ],
+      "drop_count": 19,
+      "drop_priced_count": 18,
+      "ev_atlantis_per_kill": 38310.78,
+      "ev_latam_per_kill": 78586.18,
+      "drops": [
+        {
+          "item_id": 4022,
+          "aegis": "Spore_Card",
+          "name": "Spore Card",
+          "type": "Card",
+          "bucket": "card",
+          "npc_buy": 20,
+          "p_per_map_kill": 0.07047619,
+          "contributors": [
+            {
+              "mob_id": 1014,
+              "aegis": "SPORE",
+              "amount": 148,
+              "weight": 0.7048,
+              "rate_raw": 10,
+              "p_mob": 0.1,
+              "p_contrib": 0.070476
+            }
+          ],
+          "atlantis_avg": 277985,
+          "atlantis_total_sold": 861,
+          "latam_offers_median": 50000,
+          "ev_atlantis_per_kill": 19591.32,
+          "ev_latam_per_kill": 3523.81,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 1408,
+          "aegis": "Pike_",
+          "name": "Pike",
+          "type": "Weapon",
+          "bucket": "equip",
+          "npc_buy": 3450,
+          "p_per_map_kill": 0.00332143,
+          "contributors": [
+            {
+              "mob_id": 1024,
+              "aegis": "WORM_TAIL",
+              "amount": 31,
+              "weight": 0.1476,
+              "rate_raw": 15,
+              "p_mob": 0.0225,
+              "p_contrib": 0.003321
+            }
+          ],
+          "atlantis_avg": 2358618,
+          "atlantis_total_sold": 660,
+          "latam_offers_median": 19999999,
+          "ev_atlantis_per_kill": 7833.98,
+          "ev_latam_per_kill": 66428.57,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 1117,
+          "aegis": "Katana_",
+          "name": "Katana",
+          "type": "Weapon",
+          "bucket": "equip",
+          "npc_buy": 2000,
+          "p_per_map_kill": 0.00442857,
+          "contributors": [
+            {
+              "mob_id": 1025,
+              "aegis": "SNAKE",
+              "amount": 31,
+              "weight": 0.1476,
+              "rate_raw": 20,
+              "p_mob": 0.03,
+              "p_contrib": 0.004429
+            }
+          ],
+          "atlantis_avg": 838030,
+          "atlantis_total_sold": 1340,
+          "latam_offers_median": 198888,
+          "ev_atlantis_per_kill": 3711.28,
+          "ev_latam_per_kill": 880.79,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 4037,
+          "aegis": "Snake_Card",
+          "name": "Snake Card",
+          "type": "Card",
+          "bucket": "card",
+          "npc_buy": 20,
+          "p_per_map_kill": 0.0147619,
+          "contributors": [
+            {
+              "mob_id": 1025,
+              "aegis": "SNAKE",
+              "amount": 31,
+              "weight": 0.1476,
+              "rate_raw": 10,
+              "p_mob": 0.1,
+              "p_contrib": 0.014762
+            }
+          ],
+          "atlantis_avg": 174068,
+          "atlantis_total_sold": 222,
+          "latam_offers_median": 180000,
+          "ev_atlantis_per_kill": 2569.58,
+          "ev_latam_per_kill": 2657.14,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 4034,
+          "aegis": "Worm_Tail_Card",
+          "name": "Wormtail Card",
+          "type": "Card",
+          "bucket": "card",
+          "npc_buy": 20,
+          "p_per_map_kill": 0.00147619,
+          "contributors": [
+            {
+              "mob_id": 1024,
+              "aegis": "WORM_TAIL",
+              "amount": 31,
+              "weight": 0.1476,
+              "rate_raw": 1,
+              "p_mob": 0.01,
+              "p_contrib": 0.001476
+            }
+          ],
+          "atlantis_avg": 1047837,
+          "atlantis_total_sold": 325,
+          "latam_offers_median": 1000000,
+          "ev_atlantis_per_kill": 1546.81,
+          "ev_latam_per_kill": 1476.19,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 507,
+          "aegis": "Red_Herb",
+          "name": "Red Herb",
+          "type": "Healing",
+          "bucket": "heal",
+          "npc_buy": 18,
+          "p_per_map_kill": 0.82285714,
+          "contributors": [
+            {
+              "mob_id": 1014,
+              "aegis": "SPORE",
+              "amount": 148,
+              "weight": 0.7048,
+              "rate_raw": 1000,
+              "p_mob": 1.0,
+              "p_contrib": 0.704762
+            },
+            {
+              "mob_id": 1025,
+              "aegis": "SNAKE",
+              "amount": 31,
+              "weight": 0.1476,
+              "rate_raw": 800,
+              "p_mob": 0.8,
+              "p_contrib": 0.118095
+            }
+          ],
+          "atlantis_avg": 1239,
+          "atlantis_total_sold": 159474,
+          "latam_offers_median": 1399,
+          "ev_atlantis_per_kill": 1019.52,
+          "ev_latam_per_kill": 1151.18,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 578,
+          "aegis": "Strawberry",
+          "name": "Strawberry",
+          "type": "Healing",
+          "bucket": "heal",
+          "npc_buy": 200,
+          "p_per_map_kill": 0.57047619,
+          "contributors": [
+            {
+              "mob_id": 1014,
+              "aegis": "SPORE",
+              "amount": 148,
+              "weight": 0.7048,
+              "rate_raw": 600,
+              "p_mob": 0.6,
+              "p_contrib": 0.422857
+            },
+            {
+              "mob_id": 1025,
+              "aegis": "SNAKE",
+              "amount": 31,
+              "weight": 0.1476,
+              "rate_raw": 3000,
+              "p_mob": 1.0,
+              "p_contrib": 0.147619
+            }
+          ],
+          "atlantis_avg": 1369,
+          "atlantis_total_sold": 1515598,
+          "latam_offers_median": 1299,
+          "ev_atlantis_per_kill": 780.98,
+          "ev_latam_per_kill": 741.05,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 743,
+          "aegis": "Spore_Doll",
+          "name": "Spore Doll",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 5500,
+          "p_per_map_kill": 0.00352381,
+          "contributors": [
+            {
+              "mob_id": 1014,
+              "aegis": "SPORE",
+              "amount": 148,
+              "weight": 0.7048,
+              "rate_raw": 10,
+              "p_mob": 0.005,
+              "p_contrib": 0.003524
+            }
+          ],
+          "atlantis_avg": 167585,
+          "atlantis_total_sold": 99,
+          "latam_offers_median": 19999,
+          "ev_atlantis_per_kill": 590.54,
+          "ev_latam_per_kill": 70.47,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 921,
+          "aegis": "Mushroom_Spore",
+          "name": "Mushroom Spore",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 36,
+          "p_per_map_kill": 0.7047619,
+          "contributors": [
+            {
+              "mob_id": 1014,
+              "aegis": "SPORE",
+              "amount": 148,
+              "weight": 0.7048,
+              "rate_raw": 8000,
+              "p_mob": 1.0,
+              "p_contrib": 0.704762
+            }
+          ],
+          "atlantis_avg": 363,
+          "atlantis_total_sold": 716355,
+          "latam_offers_median": 900,
+          "ev_atlantis_per_kill": 255.83,
+          "ev_latam_per_kill": 634.29,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 937,
+          "aegis": "Posionous_Canine",
+          "name": "Venom Canine",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 148,
+          "p_per_map_kill": 0.05904762,
+          "contributors": [
+            {
+              "mob_id": 1025,
+              "aegis": "SNAKE",
+              "amount": 31,
+              "weight": 0.1476,
+              "rate_raw": 800,
+              "p_mob": 0.4,
+              "p_contrib": 0.059048
+            }
+          ],
+          "atlantis_avg": 2808,
+          "atlantis_total_sold": 569218,
+          "latam_offers_median": 1288,
+          "ev_atlantis_per_kill": 165.81,
+          "ev_latam_per_kill": 76.05,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 926,
+          "aegis": "Scale_Of_Snakes",
+          "name": "Snake Scale",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 82,
+          "p_per_map_kill": 0.14761905,
+          "contributors": [
+            {
+              "mob_id": 1025,
+              "aegis": "SNAKE",
+              "amount": 31,
+              "weight": 0.1476,
+              "rate_raw": 8000,
+              "p_mob": 1.0,
+              "p_contrib": 0.147619
+            }
+          ],
+          "atlantis_avg": 686,
+          "atlantis_total_sold": 297,
+          "latam_offers_median": 500,
+          "ev_atlantis_per_kill": 101.27,
+          "ev_latam_per_kill": 73.81,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 906,
+          "aegis": "Pointed_Scale",
+          "name": "Pointed Scale",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 68,
+          "p_per_map_kill": 0.14761905,
+          "contributors": [
+            {
+              "mob_id": 1024,
+              "aegis": "WORM_TAIL",
+              "amount": 31,
+              "weight": 0.1476,
+              "rate_raw": 2750,
+              "p_mob": 1.0,
+              "p_contrib": 0.147619
+            }
+          ],
+          "atlantis_avg": 487,
+          "atlantis_total_sold": 342,
+          "latam_offers_median": 5000,
+          "ev_atlantis_per_kill": 71.89,
+          "ev_latam_per_kill": 738.1,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 601,
+          "aegis": "Wing_Of_Fly",
+          "name": "Fly Wing",
+          "type": "DelayConsume",
+          "bucket": "common",
+          "npc_buy": 250,
+          "p_per_map_kill": 0.25,
+          "contributors": [
+            {
+              "mob_id": 1014,
+              "aegis": "SPORE",
+              "amount": 148,
+              "weight": 0.7048,
+              "rate_raw": 500,
+              "p_mob": 0.25,
+              "p_contrib": 0.17619
+            },
+            {
+              "mob_id": 1024,
+              "aegis": "WORM_TAIL",
+              "amount": 31,
+              "weight": 0.1476,
+              "rate_raw": 500,
+              "p_mob": 0.25,
+              "p_contrib": 0.036905
+            },
+            {
+              "mob_id": 1025,
+              "aegis": "SNAKE",
+              "amount": 31,
+              "weight": 0.1476,
+              "rate_raw": 500,
+              "p_mob": 0.25,
+              "p_contrib": 0.036905
+            }
+          ],
+          "atlantis_avg": 179,
+          "atlantis_total_sold": 1994437,
+          "latam_offers_median": 300,
+          "ev_atlantis_per_kill": 44.75,
+          "ev_latam_per_kill": 75.0,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 1011,
+          "aegis": "Emveretarcon",
+          "name": "Emveretarcon",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 1000,
+          "p_per_map_kill": 0.00834048,
+          "contributors": [
+            {
+              "mob_id": 1024,
+              "aegis": "WORM_TAIL",
+              "amount": 31,
+              "weight": 0.1476,
+              "rate_raw": 13,
+              "p_mob": 0.0065,
+              "p_contrib": 0.00096
+            },
+            {
+              "mob_id": 1025,
+              "aegis": "SNAKE",
+              "amount": 31,
+              "weight": 0.1476,
+              "rate_raw": 100,
+              "p_mob": 0.05,
+              "p_contrib": 0.007381
+            }
+          ],
+          "atlantis_avg": 2349,
+          "atlantis_total_sold": 36379,
+          "latam_offers_median": null,
+          "ev_atlantis_per_kill": 19.59,
+          "ev_latam_per_kill": null,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 993,
+          "aegis": "Yellow_Live",
+          "name": "Green Live",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 1000,
+          "p_per_map_kill": 0.00221429,
+          "contributors": [
+            {
+              "mob_id": 1024,
+              "aegis": "WORM_TAIL",
+              "amount": 31,
+              "weight": 0.1476,
+              "rate_raw": 30,
+              "p_mob": 0.015,
+              "p_contrib": 0.002214
+            }
+          ],
+          "atlantis_avg": 1641,
+          "atlantis_total_sold": 25359,
+          "latam_offers_median": 3198,
+          "ev_atlantis_per_kill": 3.63,
+          "ev_latam_per_kill": 7.08,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 508,
+          "aegis": "Yellow_Herb",
+          "name": "Yellow Herb",
+          "type": "Healing",
+          "bucket": "heal",
+          "npc_buy": 40,
+          "p_per_map_kill": 0.00516667,
+          "contributors": [
+            {
+              "mob_id": 1024,
+              "aegis": "WORM_TAIL",
+              "amount": 31,
+              "weight": 0.1476,
+              "rate_raw": 35,
+              "p_mob": 0.035,
+              "p_contrib": 0.005167
+            }
+          ],
+          "atlantis_avg": 466,
+          "atlantis_total_sold": 147963,
+          "latam_offers_median": 1349,
+          "ev_atlantis_per_kill": 2.41,
+          "ev_latam_per_kill": 6.97,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 7033,
+          "aegis": "Poison_Spore",
+          "name": "Poison Spore",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 114,
+          "p_per_map_kill": 0.00352381,
+          "contributors": [
+            {
+              "mob_id": 1014,
+              "aegis": "SPORE",
+              "amount": 148,
+              "weight": 0.7048,
+              "rate_raw": 10,
+              "p_mob": 0.005,
+              "p_contrib": 0.003524
+            }
+          ],
+          "atlantis_avg": 451,
+          "atlantis_total_sold": 10541049,
+          "latam_offers_median": 400,
+          "ev_atlantis_per_kill": 1.59,
+          "ev_latam_per_kill": 1.41,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 2220,
+          "aegis": "Hat",
+          "name": "Hat",
+          "type": "Armor",
+          "bucket": "equip",
+          "npc_buy": 1000,
+          "p_per_map_kill": 0.03171429,
+          "contributors": [
+            {
+              "mob_id": 1014,
+              "aegis": "SPORE",
+              "amount": 148,
+              "weight": 0.7048,
+              "rate_raw": 30,
+              "p_mob": 0.045,
+              "p_contrib": 0.031714
+            }
+          ],
+          "atlantis_avg": null,
+          "atlantis_total_sold": null,
+          "latam_offers_median": null,
+          "ev_atlantis_per_kill": null,
+          "ev_latam_per_kill": null,
+          "in_atlantis": false,
+          "in_latam": false,
+          "in_grindable": false
+        },
+        {
+          "item_id": 10015,
+          "aegis": "Green_Lace",
+          "name": "Green Lace",
+          "type": "Petarmor",
+          "bucket": "equip",
+          "npc_buy": 20,
+          "p_per_map_kill": 0.01107143,
+          "contributors": [
+            {
+              "mob_id": 1024,
+              "aegis": "WORM_TAIL",
+              "amount": 31,
+              "weight": 0.1476,
+              "rate_raw": 50,
+              "p_mob": 0.075,
+              "p_contrib": 0.011071
+            }
+          ],
+          "atlantis_avg": null,
+          "atlantis_total_sold": null,
+          "latam_offers_median": 3999,
+          "ev_atlantis_per_kill": null,
+          "ev_latam_per_kill": 44.27,
+          "in_atlantis": false,
+          "in_latam": true,
+          "in_grindable": false
+        }
+      ],
+      "drops_top20": [
+        {
+          "item_id": 4022,
+          "aegis": "Spore_Card",
+          "name": "Spore Card",
+          "type": "Card",
+          "bucket": "card",
+          "npc_buy": 20,
+          "p_per_map_kill": 0.07047619,
+          "contributors": [
+            {
+              "mob_id": 1014,
+              "aegis": "SPORE",
+              "amount": 148,
+              "weight": 0.7048,
+              "rate_raw": 10,
+              "p_mob": 0.1,
+              "p_contrib": 0.070476
+            }
+          ],
+          "atlantis_avg": 277985,
+          "atlantis_total_sold": 861,
+          "latam_offers_median": 50000,
+          "ev_atlantis_per_kill": 19591.32,
+          "ev_latam_per_kill": 3523.81,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 1408,
+          "aegis": "Pike_",
+          "name": "Pike",
+          "type": "Weapon",
+          "bucket": "equip",
+          "npc_buy": 3450,
+          "p_per_map_kill": 0.00332143,
+          "contributors": [
+            {
+              "mob_id": 1024,
+              "aegis": "WORM_TAIL",
+              "amount": 31,
+              "weight": 0.1476,
+              "rate_raw": 15,
+              "p_mob": 0.0225,
+              "p_contrib": 0.003321
+            }
+          ],
+          "atlantis_avg": 2358618,
+          "atlantis_total_sold": 660,
+          "latam_offers_median": 19999999,
+          "ev_atlantis_per_kill": 7833.98,
+          "ev_latam_per_kill": 66428.57,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 1117,
+          "aegis": "Katana_",
+          "name": "Katana",
+          "type": "Weapon",
+          "bucket": "equip",
+          "npc_buy": 2000,
+          "p_per_map_kill": 0.00442857,
+          "contributors": [
+            {
+              "mob_id": 1025,
+              "aegis": "SNAKE",
+              "amount": 31,
+              "weight": 0.1476,
+              "rate_raw": 20,
+              "p_mob": 0.03,
+              "p_contrib": 0.004429
+            }
+          ],
+          "atlantis_avg": 838030,
+          "atlantis_total_sold": 1340,
+          "latam_offers_median": 198888,
+          "ev_atlantis_per_kill": 3711.28,
+          "ev_latam_per_kill": 880.79,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 4037,
+          "aegis": "Snake_Card",
+          "name": "Snake Card",
+          "type": "Card",
+          "bucket": "card",
+          "npc_buy": 20,
+          "p_per_map_kill": 0.0147619,
+          "contributors": [
+            {
+              "mob_id": 1025,
+              "aegis": "SNAKE",
+              "amount": 31,
+              "weight": 0.1476,
+              "rate_raw": 10,
+              "p_mob": 0.1,
+              "p_contrib": 0.014762
+            }
+          ],
+          "atlantis_avg": 174068,
+          "atlantis_total_sold": 222,
+          "latam_offers_median": 180000,
+          "ev_atlantis_per_kill": 2569.58,
+          "ev_latam_per_kill": 2657.14,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 4034,
+          "aegis": "Worm_Tail_Card",
+          "name": "Wormtail Card",
+          "type": "Card",
+          "bucket": "card",
+          "npc_buy": 20,
+          "p_per_map_kill": 0.00147619,
+          "contributors": [
+            {
+              "mob_id": 1024,
+              "aegis": "WORM_TAIL",
+              "amount": 31,
+              "weight": 0.1476,
+              "rate_raw": 1,
+              "p_mob": 0.01,
+              "p_contrib": 0.001476
+            }
+          ],
+          "atlantis_avg": 1047837,
+          "atlantis_total_sold": 325,
+          "latam_offers_median": 1000000,
+          "ev_atlantis_per_kill": 1546.81,
+          "ev_latam_per_kill": 1476.19,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 507,
+          "aegis": "Red_Herb",
+          "name": "Red Herb",
+          "type": "Healing",
+          "bucket": "heal",
+          "npc_buy": 18,
+          "p_per_map_kill": 0.82285714,
+          "contributors": [
+            {
+              "mob_id": 1014,
+              "aegis": "SPORE",
+              "amount": 148,
+              "weight": 0.7048,
+              "rate_raw": 1000,
+              "p_mob": 1.0,
+              "p_contrib": 0.704762
+            },
+            {
+              "mob_id": 1025,
+              "aegis": "SNAKE",
+              "amount": 31,
+              "weight": 0.1476,
+              "rate_raw": 800,
+              "p_mob": 0.8,
+              "p_contrib": 0.118095
+            }
+          ],
+          "atlantis_avg": 1239,
+          "atlantis_total_sold": 159474,
+          "latam_offers_median": 1399,
+          "ev_atlantis_per_kill": 1019.52,
+          "ev_latam_per_kill": 1151.18,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 578,
+          "aegis": "Strawberry",
+          "name": "Strawberry",
+          "type": "Healing",
+          "bucket": "heal",
+          "npc_buy": 200,
+          "p_per_map_kill": 0.57047619,
+          "contributors": [
+            {
+              "mob_id": 1014,
+              "aegis": "SPORE",
+              "amount": 148,
+              "weight": 0.7048,
+              "rate_raw": 600,
+              "p_mob": 0.6,
+              "p_contrib": 0.422857
+            },
+            {
+              "mob_id": 1025,
+              "aegis": "SNAKE",
+              "amount": 31,
+              "weight": 0.1476,
+              "rate_raw": 3000,
+              "p_mob": 1.0,
+              "p_contrib": 0.147619
+            }
+          ],
+          "atlantis_avg": 1369,
+          "atlantis_total_sold": 1515598,
+          "latam_offers_median": 1299,
+          "ev_atlantis_per_kill": 780.98,
+          "ev_latam_per_kill": 741.05,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 743,
+          "aegis": "Spore_Doll",
+          "name": "Spore Doll",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 5500,
+          "p_per_map_kill": 0.00352381,
+          "contributors": [
+            {
+              "mob_id": 1014,
+              "aegis": "SPORE",
+              "amount": 148,
+              "weight": 0.7048,
+              "rate_raw": 10,
+              "p_mob": 0.005,
+              "p_contrib": 0.003524
+            }
+          ],
+          "atlantis_avg": 167585,
+          "atlantis_total_sold": 99,
+          "latam_offers_median": 19999,
+          "ev_atlantis_per_kill": 590.54,
+          "ev_latam_per_kill": 70.47,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 921,
+          "aegis": "Mushroom_Spore",
+          "name": "Mushroom Spore",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 36,
+          "p_per_map_kill": 0.7047619,
+          "contributors": [
+            {
+              "mob_id": 1014,
+              "aegis": "SPORE",
+              "amount": 148,
+              "weight": 0.7048,
+              "rate_raw": 8000,
+              "p_mob": 1.0,
+              "p_contrib": 0.704762
+            }
+          ],
+          "atlantis_avg": 363,
+          "atlantis_total_sold": 716355,
+          "latam_offers_median": 900,
+          "ev_atlantis_per_kill": 255.83,
+          "ev_latam_per_kill": 634.29,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 937,
+          "aegis": "Posionous_Canine",
+          "name": "Venom Canine",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 148,
+          "p_per_map_kill": 0.05904762,
+          "contributors": [
+            {
+              "mob_id": 1025,
+              "aegis": "SNAKE",
+              "amount": 31,
+              "weight": 0.1476,
+              "rate_raw": 800,
+              "p_mob": 0.4,
+              "p_contrib": 0.059048
+            }
+          ],
+          "atlantis_avg": 2808,
+          "atlantis_total_sold": 569218,
+          "latam_offers_median": 1288,
+          "ev_atlantis_per_kill": 165.81,
+          "ev_latam_per_kill": 76.05,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 926,
+          "aegis": "Scale_Of_Snakes",
+          "name": "Snake Scale",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 82,
+          "p_per_map_kill": 0.14761905,
+          "contributors": [
+            {
+              "mob_id": 1025,
+              "aegis": "SNAKE",
+              "amount": 31,
+              "weight": 0.1476,
+              "rate_raw": 8000,
+              "p_mob": 1.0,
+              "p_contrib": 0.147619
+            }
+          ],
+          "atlantis_avg": 686,
+          "atlantis_total_sold": 297,
+          "latam_offers_median": 500,
+          "ev_atlantis_per_kill": 101.27,
+          "ev_latam_per_kill": 73.81,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 906,
+          "aegis": "Pointed_Scale",
+          "name": "Pointed Scale",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 68,
+          "p_per_map_kill": 0.14761905,
+          "contributors": [
+            {
+              "mob_id": 1024,
+              "aegis": "WORM_TAIL",
+              "amount": 31,
+              "weight": 0.1476,
+              "rate_raw": 2750,
+              "p_mob": 1.0,
+              "p_contrib": 0.147619
+            }
+          ],
+          "atlantis_avg": 487,
+          "atlantis_total_sold": 342,
+          "latam_offers_median": 5000,
+          "ev_atlantis_per_kill": 71.89,
+          "ev_latam_per_kill": 738.1,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 601,
+          "aegis": "Wing_Of_Fly",
+          "name": "Fly Wing",
+          "type": "DelayConsume",
+          "bucket": "common",
+          "npc_buy": 250,
+          "p_per_map_kill": 0.25,
+          "contributors": [
+            {
+              "mob_id": 1014,
+              "aegis": "SPORE",
+              "amount": 148,
+              "weight": 0.7048,
+              "rate_raw": 500,
+              "p_mob": 0.25,
+              "p_contrib": 0.17619
+            },
+            {
+              "mob_id": 1024,
+              "aegis": "WORM_TAIL",
+              "amount": 31,
+              "weight": 0.1476,
+              "rate_raw": 500,
+              "p_mob": 0.25,
+              "p_contrib": 0.036905
+            },
+            {
+              "mob_id": 1025,
+              "aegis": "SNAKE",
+              "amount": 31,
+              "weight": 0.1476,
+              "rate_raw": 500,
+              "p_mob": 0.25,
+              "p_contrib": 0.036905
+            }
+          ],
+          "atlantis_avg": 179,
+          "atlantis_total_sold": 1994437,
+          "latam_offers_median": 300,
+          "ev_atlantis_per_kill": 44.75,
+          "ev_latam_per_kill": 75.0,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 1011,
+          "aegis": "Emveretarcon",
+          "name": "Emveretarcon",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 1000,
+          "p_per_map_kill": 0.00834048,
+          "contributors": [
+            {
+              "mob_id": 1024,
+              "aegis": "WORM_TAIL",
+              "amount": 31,
+              "weight": 0.1476,
+              "rate_raw": 13,
+              "p_mob": 0.0065,
+              "p_contrib": 0.00096
+            },
+            {
+              "mob_id": 1025,
+              "aegis": "SNAKE",
+              "amount": 31,
+              "weight": 0.1476,
+              "rate_raw": 100,
+              "p_mob": 0.05,
+              "p_contrib": 0.007381
+            }
+          ],
+          "atlantis_avg": 2349,
+          "atlantis_total_sold": 36379,
+          "latam_offers_median": null,
+          "ev_atlantis_per_kill": 19.59,
+          "ev_latam_per_kill": null,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 993,
+          "aegis": "Yellow_Live",
+          "name": "Green Live",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 1000,
+          "p_per_map_kill": 0.00221429,
+          "contributors": [
+            {
+              "mob_id": 1024,
+              "aegis": "WORM_TAIL",
+              "amount": 31,
+              "weight": 0.1476,
+              "rate_raw": 30,
+              "p_mob": 0.015,
+              "p_contrib": 0.002214
+            }
+          ],
+          "atlantis_avg": 1641,
+          "atlantis_total_sold": 25359,
+          "latam_offers_median": 3198,
+          "ev_atlantis_per_kill": 3.63,
+          "ev_latam_per_kill": 7.08,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 508,
+          "aegis": "Yellow_Herb",
+          "name": "Yellow Herb",
+          "type": "Healing",
+          "bucket": "heal",
+          "npc_buy": 40,
+          "p_per_map_kill": 0.00516667,
+          "contributors": [
+            {
+              "mob_id": 1024,
+              "aegis": "WORM_TAIL",
+              "amount": 31,
+              "weight": 0.1476,
+              "rate_raw": 35,
+              "p_mob": 0.035,
+              "p_contrib": 0.005167
+            }
+          ],
+          "atlantis_avg": 466,
+          "atlantis_total_sold": 147963,
+          "latam_offers_median": 1349,
+          "ev_atlantis_per_kill": 2.41,
+          "ev_latam_per_kill": 6.97,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 7033,
+          "aegis": "Poison_Spore",
+          "name": "Poison Spore",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 114,
+          "p_per_map_kill": 0.00352381,
+          "contributors": [
+            {
+              "mob_id": 1014,
+              "aegis": "SPORE",
+              "amount": 148,
+              "weight": 0.7048,
+              "rate_raw": 10,
+              "p_mob": 0.005,
+              "p_contrib": 0.003524
+            }
+          ],
+          "atlantis_avg": 451,
+          "atlantis_total_sold": 10541049,
+          "latam_offers_median": 400,
+          "ev_atlantis_per_kill": 1.59,
+          "ev_latam_per_kill": 1.41,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 2220,
+          "aegis": "Hat",
+          "name": "Hat",
+          "type": "Armor",
+          "bucket": "equip",
+          "npc_buy": 1000,
+          "p_per_map_kill": 0.03171429,
+          "contributors": [
+            {
+              "mob_id": 1014,
+              "aegis": "SPORE",
+              "amount": 148,
+              "weight": 0.7048,
+              "rate_raw": 30,
+              "p_mob": 0.045,
+              "p_contrib": 0.031714
+            }
+          ],
+          "atlantis_avg": null,
+          "atlantis_total_sold": null,
+          "latam_offers_median": null,
+          "ev_atlantis_per_kill": null,
+          "ev_latam_per_kill": null,
+          "in_atlantis": false,
+          "in_latam": false,
+          "in_grindable": false
+        },
+        {
+          "item_id": 10015,
+          "aegis": "Green_Lace",
+          "name": "Green Lace",
+          "type": "Petarmor",
+          "bucket": "equip",
+          "npc_buy": 20,
+          "p_per_map_kill": 0.01107143,
+          "contributors": [
+            {
+              "mob_id": 1024,
+              "aegis": "WORM_TAIL",
+              "amount": 31,
+              "weight": 0.1476,
+              "rate_raw": 50,
+              "p_mob": 0.075,
+              "p_contrib": 0.011071
+            }
+          ],
+          "atlantis_avg": null,
+          "atlantis_total_sold": null,
+          "latam_offers_median": 3999,
+          "ev_atlantis_per_kill": null,
+          "ev_latam_per_kill": 44.27,
+          "in_atlantis": false,
+          "in_latam": true,
+          "in_grindable": false
+        }
+      ],
+      "loot": {
+        "policy": "full",
+        "policy_reason": "oferta bot = mats/consumibles con precio; cards/equip quedan fuera del stock masivo (ver drops completos)",
+        "offer_drop_count": 11,
+        "ev_atlantis_per_kill_offer": 3013.06,
+        "ev_latam_per_kill_offer": 3500.41,
+        "ev_atlantis_per_kill_all_drops": 38310.78,
+        "ev_atlantis_per_kill_mats_only": 3013.06,
+        "card_count": 3,
+        "ev_atlantis_cards": 23707.71,
+        "offer_drops_top30": [
+          {
+            "item_id": 507,
+            "aegis": "Red_Herb",
+            "name": "Red Herb",
+            "type": "Healing",
+            "bucket": "heal",
+            "npc_buy": 18,
+            "p_per_map_kill": 0.82285714,
+            "contributors": [
+              {
+                "mob_id": 1014,
+                "aegis": "SPORE",
+                "amount": 148,
+                "weight": 0.7048,
+                "rate_raw": 1000,
+                "p_mob": 1.0,
+                "p_contrib": 0.704762
+              },
+              {
+                "mob_id": 1025,
+                "aegis": "SNAKE",
+                "amount": 31,
+                "weight": 0.1476,
+                "rate_raw": 800,
+                "p_mob": 0.8,
+                "p_contrib": 0.118095
+              }
+            ],
+            "atlantis_avg": 1239,
+            "atlantis_total_sold": 159474,
+            "latam_offers_median": 1399,
+            "ev_atlantis_per_kill": 1019.52,
+            "ev_latam_per_kill": 1151.18,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          },
+          {
+            "item_id": 578,
+            "aegis": "Strawberry",
+            "name": "Strawberry",
+            "type": "Healing",
+            "bucket": "heal",
+            "npc_buy": 200,
+            "p_per_map_kill": 0.57047619,
+            "contributors": [
+              {
+                "mob_id": 1014,
+                "aegis": "SPORE",
+                "amount": 148,
+                "weight": 0.7048,
+                "rate_raw": 600,
+                "p_mob": 0.6,
+                "p_contrib": 0.422857
+              },
+              {
+                "mob_id": 1025,
+                "aegis": "SNAKE",
+                "amount": 31,
+                "weight": 0.1476,
+                "rate_raw": 3000,
+                "p_mob": 1.0,
+                "p_contrib": 0.147619
+              }
+            ],
+            "atlantis_avg": 1369,
+            "atlantis_total_sold": 1515598,
+            "latam_offers_median": 1299,
+            "ev_atlantis_per_kill": 780.98,
+            "ev_latam_per_kill": 741.05,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          },
+          {
+            "item_id": 743,
+            "aegis": "Spore_Doll",
+            "name": "Spore Doll",
+            "type": "Etc",
+            "bucket": "common",
+            "npc_buy": 5500,
+            "p_per_map_kill": 0.00352381,
+            "contributors": [
+              {
+                "mob_id": 1014,
+                "aegis": "SPORE",
+                "amount": 148,
+                "weight": 0.7048,
+                "rate_raw": 10,
+                "p_mob": 0.005,
+                "p_contrib": 0.003524
+              }
+            ],
+            "atlantis_avg": 167585,
+            "atlantis_total_sold": 99,
+            "latam_offers_median": 19999,
+            "ev_atlantis_per_kill": 590.54,
+            "ev_latam_per_kill": 70.47,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          },
+          {
+            "item_id": 921,
+            "aegis": "Mushroom_Spore",
+            "name": "Mushroom Spore",
+            "type": "Etc",
+            "bucket": "common",
+            "npc_buy": 36,
+            "p_per_map_kill": 0.7047619,
+            "contributors": [
+              {
+                "mob_id": 1014,
+                "aegis": "SPORE",
+                "amount": 148,
+                "weight": 0.7048,
+                "rate_raw": 8000,
+                "p_mob": 1.0,
+                "p_contrib": 0.704762
+              }
+            ],
+            "atlantis_avg": 363,
+            "atlantis_total_sold": 716355,
+            "latam_offers_median": 900,
+            "ev_atlantis_per_kill": 255.83,
+            "ev_latam_per_kill": 634.29,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          },
+          {
+            "item_id": 937,
+            "aegis": "Posionous_Canine",
+            "name": "Venom Canine",
+            "type": "Etc",
+            "bucket": "common",
+            "npc_buy": 148,
+            "p_per_map_kill": 0.05904762,
+            "contributors": [
+              {
+                "mob_id": 1025,
+                "aegis": "SNAKE",
+                "amount": 31,
+                "weight": 0.1476,
+                "rate_raw": 800,
+                "p_mob": 0.4,
+                "p_contrib": 0.059048
+              }
+            ],
+            "atlantis_avg": 2808,
+            "atlantis_total_sold": 569218,
+            "latam_offers_median": 1288,
+            "ev_atlantis_per_kill": 165.81,
+            "ev_latam_per_kill": 76.05,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          },
+          {
+            "item_id": 926,
+            "aegis": "Scale_Of_Snakes",
+            "name": "Snake Scale",
+            "type": "Etc",
+            "bucket": "common",
+            "npc_buy": 82,
+            "p_per_map_kill": 0.14761905,
+            "contributors": [
+              {
+                "mob_id": 1025,
+                "aegis": "SNAKE",
+                "amount": 31,
+                "weight": 0.1476,
+                "rate_raw": 8000,
+                "p_mob": 1.0,
+                "p_contrib": 0.147619
+              }
+            ],
+            "atlantis_avg": 686,
+            "atlantis_total_sold": 297,
+            "latam_offers_median": 500,
+            "ev_atlantis_per_kill": 101.27,
+            "ev_latam_per_kill": 73.81,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          },
+          {
+            "item_id": 906,
+            "aegis": "Pointed_Scale",
+            "name": "Pointed Scale",
+            "type": "Etc",
+            "bucket": "common",
+            "npc_buy": 68,
+            "p_per_map_kill": 0.14761905,
+            "contributors": [
+              {
+                "mob_id": 1024,
+                "aegis": "WORM_TAIL",
+                "amount": 31,
+                "weight": 0.1476,
+                "rate_raw": 2750,
+                "p_mob": 1.0,
+                "p_contrib": 0.147619
+              }
+            ],
+            "atlantis_avg": 487,
+            "atlantis_total_sold": 342,
+            "latam_offers_median": 5000,
+            "ev_atlantis_per_kill": 71.89,
+            "ev_latam_per_kill": 738.1,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          },
+          {
+            "item_id": 1011,
+            "aegis": "Emveretarcon",
+            "name": "Emveretarcon",
+            "type": "Etc",
+            "bucket": "common",
+            "npc_buy": 1000,
+            "p_per_map_kill": 0.00834048,
+            "contributors": [
+              {
+                "mob_id": 1024,
+                "aegis": "WORM_TAIL",
+                "amount": 31,
+                "weight": 0.1476,
+                "rate_raw": 13,
+                "p_mob": 0.0065,
+                "p_contrib": 0.00096
+              },
+              {
+                "mob_id": 1025,
+                "aegis": "SNAKE",
+                "amount": 31,
+                "weight": 0.1476,
+                "rate_raw": 100,
+                "p_mob": 0.05,
+                "p_contrib": 0.007381
+              }
+            ],
+            "atlantis_avg": 2349,
+            "atlantis_total_sold": 36379,
+            "latam_offers_median": null,
+            "ev_atlantis_per_kill": 19.59,
+            "ev_latam_per_kill": null,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          },
+          {
+            "item_id": 993,
+            "aegis": "Yellow_Live",
+            "name": "Green Live",
+            "type": "Etc",
+            "bucket": "common",
+            "npc_buy": 1000,
+            "p_per_map_kill": 0.00221429,
+            "contributors": [
+              {
+                "mob_id": 1024,
+                "aegis": "WORM_TAIL",
+                "amount": 31,
+                "weight": 0.1476,
+                "rate_raw": 30,
+                "p_mob": 0.015,
+                "p_contrib": 0.002214
+              }
+            ],
+            "atlantis_avg": 1641,
+            "atlantis_total_sold": 25359,
+            "latam_offers_median": 3198,
+            "ev_atlantis_per_kill": 3.63,
+            "ev_latam_per_kill": 7.08,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          },
+          {
+            "item_id": 508,
+            "aegis": "Yellow_Herb",
+            "name": "Yellow Herb",
+            "type": "Healing",
+            "bucket": "heal",
+            "npc_buy": 40,
+            "p_per_map_kill": 0.00516667,
+            "contributors": [
+              {
+                "mob_id": 1024,
+                "aegis": "WORM_TAIL",
+                "amount": 31,
+                "weight": 0.1476,
+                "rate_raw": 35,
+                "p_mob": 0.035,
+                "p_contrib": 0.005167
+              }
+            ],
+            "atlantis_avg": 466,
+            "atlantis_total_sold": 147963,
+            "latam_offers_median": 1349,
+            "ev_atlantis_per_kill": 2.41,
+            "ev_latam_per_kill": 6.97,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          },
+          {
+            "item_id": 7033,
+            "aegis": "Poison_Spore",
+            "name": "Poison Spore",
+            "type": "Etc",
+            "bucket": "common",
+            "npc_buy": 114,
+            "p_per_map_kill": 0.00352381,
+            "contributors": [
+              {
+                "mob_id": 1014,
+                "aegis": "SPORE",
+                "amount": 148,
+                "weight": 0.7048,
+                "rate_raw": 10,
+                "p_mob": 0.005,
+                "p_contrib": 0.003524
+              }
+            ],
+            "atlantis_avg": 451,
+            "atlantis_total_sold": 10541049,
+            "latam_offers_median": 400,
+            "ev_atlantis_per_kill": 1.59,
+            "ev_latam_per_kill": 1.41,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          }
+        ],
+        "offer_item_ids": [
+          507,
+          578,
+          743,
+          921,
+          937,
+          926,
+          906,
+          1011,
+          993,
+          508,
+          7033
+        ],
+        "top_cards": [
+          {
+            "item_id": 4022,
+            "name": "Spore Card",
+            "p": 0.07047619,
+            "atlantis_avg": 277985,
+            "ev_at": 19591.32
+          },
+          {
+            "item_id": 4037,
+            "name": "Snake Card",
+            "p": 0.0147619,
+            "atlantis_avg": 174068,
+            "ev_at": 2569.58
+          },
+          {
+            "item_id": 4034,
+            "name": "Wormtail Card",
+            "p": 0.00147619,
+            "atlantis_avg": 1047837,
+            "ev_at": 1546.81
+          }
+        ]
+      }
+    }
+  ]
+}

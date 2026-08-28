@@ -1,0 +1,1021 @@
+{
+  "id": "09_comodo_gator",
+  "label": "Comodo Alligator",
+  "tier_target": "mid",
+  "notes": "Alligator/Anolian skin zona; alto volumen Atlantis histórico.",
+  "maps": [
+    "cmd_fild03"
+  ],
+  "map_profiles": [
+    {
+      "map": "cmd_fild03",
+      "tier": "mid",
+      "avg_level": 57.52,
+      "max_level": 65,
+      "avg_hp": 3073,
+      "combat_amount": 267,
+      "hours_share": 1.0,
+      "kills": {
+        "t_kill_sec": 17.869,
+        "uptime": 1.0,
+        "kills_per_hour_combat": 201.5,
+        "dead_time_frac": 0.2,
+        "kills_per_hour": 161.2
+      },
+      "costs": {
+        "zeny_cost_per_hour": 7317.97,
+        "zeny_cost_per_kill": 45.3968
+      },
+      "kills_per_day": 564.2,
+      "mobs": [
+        {
+          "aegis": "ALLIGATOR",
+          "amount": 194,
+          "level": 57,
+          "hp": 1939,
+          "weight": 0.7266
+        },
+        {
+          "aegis": "FLORA",
+          "amount": 64,
+          "level": 59,
+          "hp": 2065,
+          "weight": 0.2397
+        },
+        {
+          "aegis": "MUTANT_DRAGON",
+          "amount": 5,
+          "level": 65,
+          "hp": 50706,
+          "weight": 0.0187
+        },
+        {
+          "aegis": "C2_ALLIGATOR",
+          "amount": 3,
+          "level": 57,
+          "hp": 19390,
+          "weight": 0.0112
+        },
+        {
+          "aegis": "TOAD",
+          "amount": 1,
+          "level": 27,
+          "hp": 660,
+          "weight": 0.0037
+        }
+      ],
+      "drop_types_count": 30,
+      "ev_mats_offer_per_kill": 462.86,
+      "ev_mats_offer_per_day": 261144.62,
+      "offer": {
+        "mats_for_sale": [
+          {
+            "item_id": 7003,
+            "aegis": "Anolian_Skin",
+            "name": "Anolian Skin",
+            "type": "Etc",
+            "p_per_map_kill": 0.07827715,
+            "latam_price": 3552,
+            "latam_total_sold": 6254,
+            "has_offers": false,
+            "qty_per_day": 44.164,
+            "score": 118304.15
+          },
+          {
+            "item_id": 756,
+            "aegis": "Oridecon_Stone",
+            "name": "Rough Oridecon",
+            "type": "Etc",
+            "p_per_map_kill": 0.00508801,
+            "latam_price": 8490,
+            "latam_total_sold": 2144,
+            "has_offers": true,
+            "qty_per_day": 2.8707,
+            "score": 88142.94
+          },
+          {
+            "item_id": 912,
+            "aegis": "Zargon",
+            "name": "Zargon",
+            "type": "Etc",
+            "p_per_map_kill": 0.03913858,
+            "latam_price": 1790,
+            "latam_total_sold": 5315,
+            "has_offers": true,
+            "qty_per_day": 22.082,
+            "score": 48201.64
+          },
+          {
+            "item_id": 905,
+            "aegis": "Stem",
+            "name": "Stem",
+            "type": "Etc",
+            "p_per_map_kill": 0.02397004,
+            "latam_price": 1190,
+            "latam_total_sold": 3375,
+            "has_offers": true,
+            "qty_per_day": 13.5239,
+            "score": 25869.83
+          },
+          {
+            "item_id": 1032,
+            "aegis": "Blossom_Of_Maneater",
+            "name": "Maneater Blossom",
+            "type": "Etc",
+            "p_per_map_kill": 0.10786517,
+            "latam_price": 399,
+            "latam_total_sold": 346578,
+            "has_offers": true,
+            "qty_per_day": 60.8575,
+            "score": 20993.72
+          }
+        ],
+        "mats_discarded_count": 10,
+        "mats_discarded_top10": [
+          {
+            "item_id": 608,
+            "name": "Yggdrasil Seed",
+            "price": 43000,
+            "qty_per_day": 0.0442,
+            "score": 19992.04
+          },
+          {
+            "item_id": 1036,
+            "name": "Dragon Scale",
+            "price": 6000,
+            "qty_per_day": 0.2641,
+            "score": 11332.69
+          },
+          {
+            "item_id": 748,
+            "name": "Witherless Rose",
+            "price": 79999,
+            "qty_per_day": 0.0135,
+            "score": 7243.67
+          },
+          {
+            "item_id": 7938,
+            "name": "Light Granule",
+            "price": 9990,
+            "qty_per_day": 0.0528,
+            "score": 5811.77
+          },
+          {
+            "item_id": 518,
+            "name": "Honey",
+            "price": 2690,
+            "qty_per_day": 0.2113,
+            "score": 5374.28
+          },
+          {
+            "item_id": 7054,
+            "name": "Brigan",
+            "price": 387,
+            "qty_per_day": 2.5621,
+            "score": 3971.88
+          },
+          {
+            "item_id": 521,
+            "name": "Aloe Leaflet",
+            "price": 755,
+            "qty_per_day": 0.3381,
+            "score": 1944.8
+          },
+          {
+            "item_id": 1035,
+            "name": "Dragon Canine",
+            "price": 400,
+            "qty_per_day": 0.2641,
+            "score": 803.59
+          },
+          {
+            "item_id": 971,
+            "name": "Detrimindexta",
+            "price": 1000,
+            "qty_per_day": 0.0106,
+            "score": 67.62
+          },
+          {
+            "item_id": 970,
+            "name": "Alcohol",
+            "price": 664,
+            "qty_per_day": 0.0106,
+            "score": 55.56
+          }
+        ],
+        "cards": [
+          {
+            "item_id": 4252,
+            "aegis": "Alligator_Card",
+            "name": "Alligator Card",
+            "type": "Card",
+            "p_per_map_kill": 7.828e-05,
+            "latam_price": 2222222,
+            "latam_total_sold": 17,
+            "has_offers": true,
+            "drop_per_day": 0.0442,
+            "sellable_per_day": 0.0221,
+            "ev_latam_per_day_if_sold": 49072.86
+          },
+          {
+            "item_id": 4203,
+            "aegis": "Mutant_Dragon_Card",
+            "name": "Mutant Dragonoid Card",
+            "type": "Card",
+            "p_per_map_kill": 1.87e-06,
+            "latam_price": 850000,
+            "latam_total_sold": 80,
+            "has_offers": true,
+            "drop_per_day": 0.0011,
+            "sellable_per_day": 0.0005,
+            "ev_latam_per_day_if_sold": 448.4
+          },
+          {
+            "item_id": 4306,
+            "aegis": "Toad_Card",
+            "name": "Toad Card",
+            "type": "Card",
+            "p_per_map_kill": 3.7e-07,
+            "latam_price": 499999,
+            "latam_total_sold": 8,
+            "has_offers": true,
+            "drop_per_day": 0.0002,
+            "sellable_per_day": 0.0001,
+            "ev_latam_per_day_if_sold": 52.19
+          }
+        ],
+        "cards_junk_discarded": [],
+        "card_min_price": 0,
+        "card_policy": {
+          "sell_fraction": 0.5,
+          "shop_slots": 1,
+          "min_price": 0,
+          "note": "acumula sellable; shop máx 1 carta; junk bajo min_price descartado"
+        }
+      },
+      "projection": {
+        "1": {
+          "days": 1,
+          "kills": 564.2,
+          "hours": 3.5,
+          "mats_stock": [
+            {
+              "item_id": 7003,
+              "name": "Anolian Skin",
+              "qty": 44.16,
+              "price": 3552,
+              "stock_value": 156870.41
+            },
+            {
+              "item_id": 756,
+              "name": "Rough Oridecon",
+              "qty": 2.87,
+              "price": 8490,
+              "stock_value": 24371.86
+            },
+            {
+              "item_id": 912,
+              "name": "Zargon",
+              "qty": 22.08,
+              "price": 1790,
+              "stock_value": 39526.76
+            },
+            {
+              "item_id": 905,
+              "name": "Stem",
+              "qty": 13.52,
+              "price": 1190,
+              "stock_value": 16093.44
+            },
+            {
+              "item_id": 1032,
+              "name": "Maneater Blossom",
+              "qty": 60.86,
+              "price": 399,
+              "stock_value": 24282.15
+            }
+          ],
+          "mats_stock_value_latam": 261144.62,
+          "cards": [
+            {
+              "item_id": 4252,
+              "name": "Alligator Card",
+              "dropped": 0.044,
+              "sellable": 0.022,
+              "shop_listed_cap": 1,
+              "expected_listed": 0.022,
+              "price": 2222222,
+              "pipeline_value": 49072.86
+            },
+            {
+              "item_id": 4203,
+              "name": "Mutant Dragonoid Card",
+              "dropped": 0.001,
+              "sellable": 0.001,
+              "shop_listed_cap": 1,
+              "expected_listed": 0.001,
+              "price": 850000,
+              "pipeline_value": 448.4
+            },
+            {
+              "item_id": 4306,
+              "name": "Toad Card",
+              "dropped": 0.0,
+              "sellable": 0.0,
+              "shop_listed_cap": 1,
+              "expected_listed": 0.0,
+              "price": 499999,
+              "pipeline_value": 52.19
+            }
+          ],
+          "cards_sellable_total": 0.023,
+          "cards_pipeline_value": 49573.44,
+          "lot_expected_value": 310718.07,
+          "zeny_spent": 25612.9,
+          "net_if_sold_at_latam": 285105.17,
+          "gates": {
+            "pause_grind_until_sold_z": 124287.23,
+            "keep_shop_until_sold_z": 186430.84,
+            "pause_frac": 0.4,
+            "shop_keep_frac": 0.6
+          }
+        },
+        "3": {
+          "days": 3,
+          "kills": 1692.6,
+          "hours": 10.5,
+          "mats_stock": [
+            {
+              "item_id": 7003,
+              "name": "Anolian Skin",
+              "qty": 132.49,
+              "price": 3552,
+              "stock_value": 470611.24
+            },
+            {
+              "item_id": 756,
+              "name": "Rough Oridecon",
+              "qty": 8.61,
+              "price": 8490,
+              "stock_value": 73115.59
+            },
+            {
+              "item_id": 912,
+              "name": "Zargon",
+              "qty": 66.25,
+              "price": 1790,
+              "stock_value": 118580.27
+            },
+            {
+              "item_id": 905,
+              "name": "Stem",
+              "qty": 40.57,
+              "price": 1190,
+              "stock_value": 48280.31
+            },
+            {
+              "item_id": 1032,
+              "name": "Maneater Blossom",
+              "qty": 182.57,
+              "price": 399,
+              "stock_value": 72846.46
+            }
+          ],
+          "mats_stock_value_latam": 783433.87,
+          "cards": [
+            {
+              "item_id": 4252,
+              "name": "Alligator Card",
+              "dropped": 0.132,
+              "sellable": 0.066,
+              "shop_listed_cap": 1,
+              "expected_listed": 0.066,
+              "price": 2222222,
+              "pipeline_value": 147218.57
+            },
+            {
+              "item_id": 4203,
+              "name": "Mutant Dragonoid Card",
+              "dropped": 0.003,
+              "sellable": 0.002,
+              "shop_listed_cap": 1,
+              "expected_listed": 0.002,
+              "price": 850000,
+              "pipeline_value": 1345.19
+            },
+            {
+              "item_id": 4306,
+              "name": "Toad Card",
+              "dropped": 0.001,
+              "sellable": 0.0,
+              "shop_listed_cap": 1,
+              "expected_listed": 0.0,
+              "price": 499999,
+              "pipeline_value": 156.57
+            }
+          ],
+          "cards_sellable_total": 0.068,
+          "cards_pipeline_value": 148720.33,
+          "lot_expected_value": 932154.21,
+          "zeny_spent": 76838.68,
+          "net_if_sold_at_latam": 855315.52,
+          "gates": {
+            "pause_grind_until_sold_z": 372861.68,
+            "keep_shop_until_sold_z": 559292.52,
+            "pause_frac": 0.4,
+            "shop_keep_frac": 0.6
+          }
+        },
+        "7": {
+          "days": 7,
+          "kills": 3949.4,
+          "hours": 24.5,
+          "mats_stock": [
+            {
+              "item_id": 7003,
+              "name": "Anolian Skin",
+              "qty": 309.15,
+              "price": 3552,
+              "stock_value": 1098092.9
+            },
+            {
+              "item_id": 756,
+              "name": "Rough Oridecon",
+              "qty": 20.09,
+              "price": 8490,
+              "stock_value": 170603.04
+            },
+            {
+              "item_id": 912,
+              "name": "Zargon",
+              "qty": 154.57,
+              "price": 1790,
+              "stock_value": 276687.3
+            },
+            {
+              "item_id": 905,
+              "name": "Stem",
+              "qty": 94.67,
+              "price": 1190,
+              "stock_value": 112654.06
+            },
+            {
+              "item_id": 1032,
+              "name": "Maneater Blossom",
+              "qty": 426.0,
+              "price": 399,
+              "stock_value": 169975.08
+            }
+          ],
+          "mats_stock_value_latam": 1828012.37,
+          "cards": [
+            {
+              "item_id": 4252,
+              "name": "Alligator Card",
+              "dropped": 0.309,
+              "sellable": 0.155,
+              "shop_listed_cap": 1,
+              "expected_listed": 0.155,
+              "price": 2222222,
+              "pipeline_value": 343510.0
+            },
+            {
+              "item_id": 4203,
+              "name": "Mutant Dragonoid Card",
+              "dropped": 0.007,
+              "sellable": 0.004,
+              "shop_listed_cap": 1,
+              "expected_listed": 0.004,
+              "price": 850000,
+              "pipeline_value": 3138.79
+            },
+            {
+              "item_id": 4306,
+              "name": "Toad Card",
+              "dropped": 0.001,
+              "sellable": 0.001,
+              "shop_listed_cap": 1,
+              "expected_listed": 0.001,
+              "price": 499999,
+              "pipeline_value": 365.32
+            }
+          ],
+          "cards_sellable_total": 0.16,
+          "cards_pipeline_value": 347014.11,
+          "lot_expected_value": 2175026.48,
+          "zeny_spent": 179290.27,
+          "net_if_sold_at_latam": 1995736.21,
+          "gates": {
+            "pause_grind_until_sold_z": 870010.59,
+            "keep_shop_until_sold_z": 1305015.89,
+            "pause_frac": 0.4,
+            "shop_keep_frac": 0.6
+          }
+        },
+        "10": {
+          "days": 10,
+          "kills": 5642.0,
+          "hours": 35.0,
+          "mats_stock": [
+            {
+              "item_id": 7003,
+              "name": "Anolian Skin",
+              "qty": 441.64,
+              "price": 3552,
+              "stock_value": 1568704.14
+            },
+            {
+              "item_id": 756,
+              "name": "Rough Oridecon",
+              "qty": 28.71,
+              "price": 8490,
+              "stock_value": 243718.63
+            },
+            {
+              "item_id": 912,
+              "name": "Zargon",
+              "qty": 220.82,
+              "price": 1790,
+              "stock_value": 395267.56
+            },
+            {
+              "item_id": 905,
+              "name": "Stem",
+              "qty": 135.24,
+              "price": 1190,
+              "stock_value": 160934.37
+            },
+            {
+              "item_id": 1032,
+              "name": "Maneater Blossom",
+              "qty": 608.58,
+              "price": 399,
+              "stock_value": 242821.54
+            }
+          ],
+          "mats_stock_value_latam": 2611446.25,
+          "cards": [
+            {
+              "item_id": 4252,
+              "name": "Alligator Card",
+              "dropped": 0.442,
+              "sellable": 0.221,
+              "shop_listed_cap": 1,
+              "expected_listed": 0.221,
+              "price": 2222222,
+              "pipeline_value": 490728.57
+            },
+            {
+              "item_id": 4203,
+              "name": "Mutant Dragonoid Card",
+              "dropped": 0.011,
+              "sellable": 0.005,
+              "shop_listed_cap": 1,
+              "expected_listed": 0.005,
+              "price": 850000,
+              "pipeline_value": 4483.98
+            },
+            {
+              "item_id": 4306,
+              "name": "Toad Card",
+              "dropped": 0.002,
+              "sellable": 0.001,
+              "shop_listed_cap": 1,
+              "expected_listed": 0.001,
+              "price": 499999,
+              "pipeline_value": 521.88
+            }
+          ],
+          "cards_sellable_total": 0.227,
+          "cards_pipeline_value": 495734.44,
+          "lot_expected_value": 3107180.68,
+          "zeny_spent": 256128.95,
+          "net_if_sold_at_latam": 2851051.73,
+          "gates": {
+            "pause_grind_until_sold_z": 1242872.27,
+            "keep_shop_until_sold_z": 1864308.41,
+            "pause_frac": 0.4,
+            "shop_keep_frac": 0.6
+          }
+        }
+      }
+    }
+  ],
+  "projection_merged": {
+    "1": {
+      "days": 1,
+      "kills": 564.2,
+      "mats_stock": [
+        {
+          "item_id": 7003,
+          "name": "Anolian Skin",
+          "qty": 44.16,
+          "price": 3552,
+          "stock_value": 156870.41
+        },
+        {
+          "item_id": 912,
+          "name": "Zargon",
+          "qty": 22.08,
+          "price": 1790,
+          "stock_value": 39526.76
+        },
+        {
+          "item_id": 756,
+          "name": "Rough Oridecon",
+          "qty": 2.87,
+          "price": 8490,
+          "stock_value": 24371.86
+        },
+        {
+          "item_id": 1032,
+          "name": "Maneater Blossom",
+          "qty": 60.86,
+          "price": 399,
+          "stock_value": 24282.15
+        },
+        {
+          "item_id": 905,
+          "name": "Stem",
+          "qty": 13.52,
+          "price": 1190,
+          "stock_value": 16093.44
+        }
+      ],
+      "mats_stock_value_latam": 261144.62,
+      "cards": [
+        {
+          "item_id": 4252,
+          "name": "Alligator Card",
+          "dropped": 0.044,
+          "sellable": 0.022,
+          "shop_listed_cap": 1,
+          "expected_listed": 0.022,
+          "price": 2222222,
+          "pipeline_value": 49072.86
+        },
+        {
+          "item_id": 4203,
+          "name": "Mutant Dragonoid Card",
+          "dropped": 0.001,
+          "sellable": 0.001,
+          "shop_listed_cap": 1,
+          "expected_listed": 0.001,
+          "price": 850000,
+          "pipeline_value": 448.4
+        },
+        {
+          "item_id": 4306,
+          "name": "Toad Card",
+          "dropped": 0.0,
+          "sellable": 0.0,
+          "shop_listed_cap": 1,
+          "expected_listed": 0.0,
+          "price": 499999,
+          "pipeline_value": 52.19
+        }
+      ],
+      "cards_sellable_total": 0.023,
+      "cards_pipeline_value": 49573.44,
+      "lot_expected_value": 310718.06,
+      "zeny_spent": 25612.9,
+      "net_if_sold_at_latam": 285105.16,
+      "gates": {
+        "pause_grind_until_sold_z": 124287.22,
+        "keep_shop_until_sold_z": 186430.84
+      }
+    },
+    "3": {
+      "days": 3,
+      "kills": 1692.6,
+      "mats_stock": [
+        {
+          "item_id": 7003,
+          "name": "Anolian Skin",
+          "qty": 132.49,
+          "price": 3552,
+          "stock_value": 470611.24
+        },
+        {
+          "item_id": 912,
+          "name": "Zargon",
+          "qty": 66.25,
+          "price": 1790,
+          "stock_value": 118580.27
+        },
+        {
+          "item_id": 756,
+          "name": "Rough Oridecon",
+          "qty": 8.61,
+          "price": 8490,
+          "stock_value": 73115.59
+        },
+        {
+          "item_id": 1032,
+          "name": "Maneater Blossom",
+          "qty": 182.57,
+          "price": 399,
+          "stock_value": 72846.46
+        },
+        {
+          "item_id": 905,
+          "name": "Stem",
+          "qty": 40.57,
+          "price": 1190,
+          "stock_value": 48280.31
+        }
+      ],
+      "mats_stock_value_latam": 783433.87,
+      "cards": [
+        {
+          "item_id": 4252,
+          "name": "Alligator Card",
+          "dropped": 0.132,
+          "sellable": 0.066,
+          "shop_listed_cap": 1,
+          "expected_listed": 0.066,
+          "price": 2222222,
+          "pipeline_value": 147218.57
+        },
+        {
+          "item_id": 4203,
+          "name": "Mutant Dragonoid Card",
+          "dropped": 0.003,
+          "sellable": 0.002,
+          "shop_listed_cap": 1,
+          "expected_listed": 0.002,
+          "price": 850000,
+          "pipeline_value": 1345.19
+        },
+        {
+          "item_id": 4306,
+          "name": "Toad Card",
+          "dropped": 0.001,
+          "sellable": 0.0,
+          "shop_listed_cap": 1,
+          "expected_listed": 0.0,
+          "price": 499999,
+          "pipeline_value": 156.57
+        }
+      ],
+      "cards_sellable_total": 0.068,
+      "cards_pipeline_value": 148720.33,
+      "lot_expected_value": 932154.2,
+      "zeny_spent": 76838.68,
+      "net_if_sold_at_latam": 855315.52,
+      "gates": {
+        "pause_grind_until_sold_z": 372861.68,
+        "keep_shop_until_sold_z": 559292.52
+      }
+    },
+    "7": {
+      "days": 7,
+      "kills": 3949.4,
+      "mats_stock": [
+        {
+          "item_id": 7003,
+          "name": "Anolian Skin",
+          "qty": 309.15,
+          "price": 3552,
+          "stock_value": 1098092.9
+        },
+        {
+          "item_id": 912,
+          "name": "Zargon",
+          "qty": 154.57,
+          "price": 1790,
+          "stock_value": 276687.3
+        },
+        {
+          "item_id": 756,
+          "name": "Rough Oridecon",
+          "qty": 20.09,
+          "price": 8490,
+          "stock_value": 170603.04
+        },
+        {
+          "item_id": 1032,
+          "name": "Maneater Blossom",
+          "qty": 426.0,
+          "price": 399,
+          "stock_value": 169975.08
+        },
+        {
+          "item_id": 905,
+          "name": "Stem",
+          "qty": 94.67,
+          "price": 1190,
+          "stock_value": 112654.06
+        }
+      ],
+      "mats_stock_value_latam": 1828012.37,
+      "cards": [
+        {
+          "item_id": 4252,
+          "name": "Alligator Card",
+          "dropped": 0.309,
+          "sellable": 0.155,
+          "shop_listed_cap": 1,
+          "expected_listed": 0.155,
+          "price": 2222222,
+          "pipeline_value": 343510.0
+        },
+        {
+          "item_id": 4203,
+          "name": "Mutant Dragonoid Card",
+          "dropped": 0.007,
+          "sellable": 0.004,
+          "shop_listed_cap": 1,
+          "expected_listed": 0.004,
+          "price": 850000,
+          "pipeline_value": 3138.79
+        },
+        {
+          "item_id": 4306,
+          "name": "Toad Card",
+          "dropped": 0.001,
+          "sellable": 0.001,
+          "shop_listed_cap": 1,
+          "expected_listed": 0.001,
+          "price": 499999,
+          "pipeline_value": 365.32
+        }
+      ],
+      "cards_sellable_total": 0.16,
+      "cards_pipeline_value": 347014.11,
+      "lot_expected_value": 2175026.48,
+      "zeny_spent": 179290.27,
+      "net_if_sold_at_latam": 1995736.21,
+      "gates": {
+        "pause_grind_until_sold_z": 870010.59,
+        "keep_shop_until_sold_z": 1305015.89
+      }
+    },
+    "10": {
+      "days": 10,
+      "kills": 5642.0,
+      "mats_stock": [
+        {
+          "item_id": 7003,
+          "name": "Anolian Skin",
+          "qty": 441.64,
+          "price": 3552,
+          "stock_value": 1568704.14
+        },
+        {
+          "item_id": 912,
+          "name": "Zargon",
+          "qty": 220.82,
+          "price": 1790,
+          "stock_value": 395267.56
+        },
+        {
+          "item_id": 756,
+          "name": "Rough Oridecon",
+          "qty": 28.71,
+          "price": 8490,
+          "stock_value": 243718.63
+        },
+        {
+          "item_id": 1032,
+          "name": "Maneater Blossom",
+          "qty": 608.58,
+          "price": 399,
+          "stock_value": 242821.54
+        },
+        {
+          "item_id": 905,
+          "name": "Stem",
+          "qty": 135.24,
+          "price": 1190,
+          "stock_value": 160934.37
+        }
+      ],
+      "mats_stock_value_latam": 2611446.25,
+      "cards": [
+        {
+          "item_id": 4252,
+          "name": "Alligator Card",
+          "dropped": 0.442,
+          "sellable": 0.221,
+          "shop_listed_cap": 1,
+          "expected_listed": 0.221,
+          "price": 2222222,
+          "pipeline_value": 490728.57
+        },
+        {
+          "item_id": 4203,
+          "name": "Mutant Dragonoid Card",
+          "dropped": 0.011,
+          "sellable": 0.005,
+          "shop_listed_cap": 1,
+          "expected_listed": 0.005,
+          "price": 850000,
+          "pipeline_value": 4483.98
+        },
+        {
+          "item_id": 4306,
+          "name": "Toad Card",
+          "dropped": 0.002,
+          "sellable": 0.001,
+          "shop_listed_cap": 1,
+          "expected_listed": 0.001,
+          "price": 499999,
+          "pipeline_value": 521.88
+        }
+      ],
+      "cards_sellable_total": 0.227,
+      "cards_pipeline_value": 495734.44,
+      "lot_expected_value": 3107180.69,
+      "zeny_spent": 256128.95,
+      "net_if_sold_at_latam": 2851051.74,
+      "gates": {
+        "pause_grind_until_sold_z": 1242872.28,
+        "keep_shop_until_sold_z": 1864308.41
+      }
+    }
+  },
+  "day10": {
+    "days": 10,
+    "kills": 5642.0,
+    "mats_stock": [
+      {
+        "item_id": 7003,
+        "name": "Anolian Skin",
+        "qty": 441.64,
+        "price": 3552,
+        "stock_value": 1568704.14
+      },
+      {
+        "item_id": 912,
+        "name": "Zargon",
+        "qty": 220.82,
+        "price": 1790,
+        "stock_value": 395267.56
+      },
+      {
+        "item_id": 756,
+        "name": "Rough Oridecon",
+        "qty": 28.71,
+        "price": 8490,
+        "stock_value": 243718.63
+      },
+      {
+        "item_id": 1032,
+        "name": "Maneater Blossom",
+        "qty": 608.58,
+        "price": 399,
+        "stock_value": 242821.54
+      },
+      {
+        "item_id": 905,
+        "name": "Stem",
+        "qty": 135.24,
+        "price": 1190,
+        "stock_value": 160934.37
+      }
+    ],
+    "mats_stock_value_latam": 2611446.25,
+    "cards": [
+      {
+        "item_id": 4252,
+        "name": "Alligator Card",
+        "dropped": 0.442,
+        "sellable": 0.221,
+        "shop_listed_cap": 1,
+        "expected_listed": 0.221,
+        "price": 2222222,
+        "pipeline_value": 490728.57
+      },
+      {
+        "item_id": 4203,
+        "name": "Mutant Dragonoid Card",
+        "dropped": 0.011,
+        "sellable": 0.005,
+        "shop_listed_cap": 1,
+        "expected_listed": 0.005,
+        "price": 850000,
+        "pipeline_value": 4483.98
+      },
+      {
+        "item_id": 4306,
+        "name": "Toad Card",
+        "dropped": 0.002,
+        "sellable": 0.001,
+        "shop_listed_cap": 1,
+        "expected_listed": 0.001,
+        "price": 499999,
+        "pipeline_value": 521.88
+      }
+    ],
+    "cards_sellable_total": 0.227,
+    "cards_pipeline_value": 495734.44,
+    "lot_expected_value": 3107180.69,
+    "zeny_spent": 256128.95,
+    "net_if_sold_at_latam": 2851051.74,
+    "gates": {
+      "pause_grind_until_sold_z": 1242872.28,
+      "keep_shop_until_sold_z": 1864308.41
+    }
+  }
+}

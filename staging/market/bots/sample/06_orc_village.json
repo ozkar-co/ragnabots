@@ -1,0 +1,4643 @@
+{
+  "id": "06_orc_village",
+  "label": "Aldea Orco",
+  "tier_target": "mid",
+  "loot_policy": "full",
+  "notes": "Dos mapas tema orco (campo + dungeon).",
+  "maps": [
+    "gef_fild10",
+    "orcsdun01"
+  ],
+  "map_tiers": [
+    "mid",
+    "mid"
+  ],
+  "map_avg_levels": [
+    44.11,
+    47.43
+  ],
+  "offer_item_count": 22,
+  "ev_atlantis_per_kill_by_map": [
+    1703.55,
+    4385.14
+  ],
+  "ev_latam_per_kill_by_map": [
+    578.23,
+    4981.58
+  ],
+  "map_profiles": [
+    {
+      "map": "gef_fild10",
+      "spawn_total_raw": 272,
+      "combat_total_amount": 263,
+      "plants_excluded_amount": 9,
+      "plants_excluded": [
+        {
+          "aegis": "BLUE_PLANT",
+          "amount": 6
+        },
+        {
+          "aegis": "GREEN_PLANT",
+          "amount": 3
+        }
+      ],
+      "missing_mob_ids": [],
+      "avg_level": 44.11,
+      "max_level": 45,
+      "avg_hp": 1084,
+      "tier": "mid",
+      "mobs": [
+        {
+          "mob_id": 1023,
+          "aegis": "ORK_WARRIOR",
+          "name": "Orc Warrior",
+          "amount": 179,
+          "weight": 0.6806,
+          "level": 44,
+          "hp": 1047,
+          "race": "Demihuman",
+          "element": "Earth",
+          "drop_count": 8,
+          "drops": [
+            {
+              "item_id": 931,
+              "aegis": "Orcish_Voucher",
+              "name": "Orcish Voucher",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 4500,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 1.0
+            },
+            {
+              "item_id": 601,
+              "aegis": "Wing_Of_Fly",
+              "name": "Fly Wing",
+              "type": "DelayConsume",
+              "bucket": "common",
+              "rate_raw": 500,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.25
+            },
+            {
+              "item_id": 756,
+              "aegis": "Oridecon_Stone",
+              "name": "Rough Oridecon",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 20,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.01
+            },
+            {
+              "item_id": 4066,
+              "aegis": "Orc_Warrior_Card",
+              "name": "Orc Warrior Card",
+              "type": "Card",
+              "bucket": "card",
+              "rate_raw": 1,
+              "rate_mult": 100.0,
+              "p_per_kill_this_mob": 0.01
+            },
+            {
+              "item_id": 1352,
+              "aegis": "Battle_Axe_",
+              "name": "Battle Axe",
+              "type": "Weapon",
+              "bucket": "equip",
+              "rate_raw": 5,
+              "rate_mult": 15.0,
+              "p_per_kill_this_mob": 0.0075
+            },
+            {
+              "item_id": 1304,
+              "aegis": "Orcish_Axe",
+              "name": "Orcish Axe",
+              "type": "Weapon",
+              "bucket": "equip",
+              "rate_raw": 3,
+              "rate_mult": 15.0,
+              "p_per_kill_this_mob": 0.0045
+            },
+            {
+              "item_id": 2267,
+              "aegis": "Cigar",
+              "name": "Cigarette",
+              "type": "Armor",
+              "bucket": "equip",
+              "rate_raw": 2,
+              "rate_mult": 15.0,
+              "p_per_kill_this_mob": 0.003
+            },
+            {
+              "item_id": 2147,
+              "aegis": "Round_Buckler",
+              "name": "Round Buckleer",
+              "type": "Armor",
+              "bucket": "equip",
+              "rate_raw": 2,
+              "rate_mult": 15.0,
+              "p_per_kill_this_mob": 0.003
+            }
+          ]
+        },
+        {
+          "mob_id": 1273,
+          "aegis": "ORC_LADY",
+          "name": "Orc Lady",
+          "amount": 55,
+          "weight": 0.2091,
+          "level": 45,
+          "hp": 1145,
+          "race": "Demihuman",
+          "element": "Earth",
+          "drop_count": 8,
+          "drops": [
+            {
+              "item_id": 7053,
+              "aegis": "Cyfar",
+              "name": "Cyfar",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 2328,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 1.0
+            },
+            {
+              "item_id": 601,
+              "aegis": "Wing_Of_Fly",
+              "name": "Fly Wing",
+              "type": "DelayConsume",
+              "bucket": "common",
+              "rate_raw": 500,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.25
+            },
+            {
+              "item_id": 4255,
+              "aegis": "Orc_Lady_Card",
+              "name": "Orc Lady Card",
+              "type": "Card",
+              "bucket": "card",
+              "rate_raw": 1,
+              "rate_mult": 100.0,
+              "p_per_kill_this_mob": 0.01
+            },
+            {
+              "item_id": 15012,
+              "aegis": "Puente_Robe",
+              "name": "Puente Robe",
+              "type": "Armor",
+              "bucket": "equip",
+              "rate_raw": 2,
+              "rate_mult": 15.0,
+              "p_per_kill_this_mob": 0.003
+            },
+            {
+              "item_id": 2602,
+              "aegis": "Earring",
+              "name": "Earring",
+              "type": "Armor",
+              "bucket": "equip",
+              "rate_raw": 1,
+              "rate_mult": 15.0,
+              "p_per_kill_this_mob": 0.0015
+            },
+            {
+              "item_id": 2206,
+              "aegis": "Wedding_Veil",
+              "name": "Wedding Veil",
+              "type": "Armor",
+              "bucket": "equip",
+              "rate_raw": 1,
+              "rate_mult": 15.0,
+              "p_per_kill_this_mob": 0.0015
+            },
+            {
+              "item_id": 2338,
+              "aegis": "Wedding_Dress",
+              "name": "Wedding Dress",
+              "type": "Armor",
+              "bucket": "equip",
+              "rate_raw": 1,
+              "rate_mult": 15.0,
+              "p_per_kill_this_mob": 0.0015
+            },
+            {
+              "item_id": 7477,
+              "aegis": "Cookbook06",
+              "name": "Level 6 Cookbook",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 2,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.001
+            }
+          ]
+        },
+        {
+          "mob_id": 1686,
+          "aegis": "ORC_BABY",
+          "name": "Orc Baby",
+          "amount": 27,
+          "weight": 0.1027,
+          "level": 43,
+          "hp": 904,
+          "race": "Demihuman",
+          "element": "Earth",
+          "drop_count": 8,
+          "drops": [
+            {
+              "item_id": 519,
+              "aegis": "Milk",
+              "name": "Milk",
+              "type": "Healing",
+              "bucket": "heal",
+              "rate_raw": 2500,
+              "rate_mult": 10.0,
+              "p_per_kill_this_mob": 1.0
+            },
+            {
+              "item_id": 7126,
+              "aegis": "Large_Jellopy",
+              "name": "Large Jellopy",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 500,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.25
+            },
+            {
+              "item_id": 601,
+              "aegis": "Wing_Of_Fly",
+              "name": "Fly Wing",
+              "type": "DelayConsume",
+              "bucket": "common",
+              "rate_raw": 500,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.25
+            },
+            {
+              "item_id": 10004,
+              "aegis": "Pacifier",
+              "name": "Pacifier",
+              "type": "Petarmor",
+              "bucket": "equip",
+              "rate_raw": 50,
+              "rate_mult": 15.0,
+              "p_per_kill_this_mob": 0.075
+            },
+            {
+              "item_id": 7270,
+              "aegis": "Milk_Bottle",
+              "name": "Nursing Bottle",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 100,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.05
+            },
+            {
+              "item_id": 7269,
+              "aegis": "Bib",
+              "name": "Pinafore",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 50,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.025
+            },
+            {
+              "item_id": 4375,
+              "aegis": "Orc_Baby_Card_Card",
+              "name": "Orc Baby Card",
+              "type": "Card",
+              "bucket": "card",
+              "rate_raw": 1,
+              "rate_mult": 100.0,
+              "p_per_kill_this_mob": 0.01
+            },
+            {
+              "item_id": 2299,
+              "aegis": "Viking_Helm",
+              "name": "Orc Helm",
+              "type": "Armor",
+              "bucket": "equip",
+              "rate_raw": 1,
+              "rate_mult": 15.0,
+              "p_per_kill_this_mob": 0.0015
+            }
+          ]
+        },
+        {
+          "mob_id": 2722,
+          "aegis": "C4_ORK_WARRIOR",
+          "name": "Furious Orc Warrior",
+          "amount": 2,
+          "weight": 0.0076,
+          "level": 44,
+          "hp": 5235,
+          "race": "Demihuman",
+          "element": "Earth",
+          "drop_count": 8,
+          "drops": [
+            {
+              "item_id": 601,
+              "aegis": "Wing_Of_Fly",
+              "name": "Fly Wing",
+              "type": "DelayConsume",
+              "bucket": "common",
+              "rate_raw": 2500,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 1.0
+            },
+            {
+              "item_id": 931,
+              "aegis": "Orcish_Voucher",
+              "name": "Orcish Voucher",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 10000,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 1.0
+            },
+            {
+              "item_id": 756,
+              "aegis": "Oridecon_Stone",
+              "name": "Rough Oridecon",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 100,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.05
+            },
+            {
+              "item_id": 4066,
+              "aegis": "Orc_Warrior_Card",
+              "name": "Orc Warrior Card",
+              "type": "Card",
+              "bucket": "card",
+              "rate_raw": 5,
+              "rate_mult": 100.0,
+              "p_per_kill_this_mob": 0.05
+            },
+            {
+              "item_id": 1352,
+              "aegis": "Battle_Axe_",
+              "name": "Battle Axe",
+              "type": "Weapon",
+              "bucket": "equip",
+              "rate_raw": 25,
+              "rate_mult": 15.0,
+              "p_per_kill_this_mob": 0.0375
+            },
+            {
+              "item_id": 1304,
+              "aegis": "Orcish_Axe",
+              "name": "Orcish Axe",
+              "type": "Weapon",
+              "bucket": "equip",
+              "rate_raw": 15,
+              "rate_mult": 15.0,
+              "p_per_kill_this_mob": 0.0225
+            },
+            {
+              "item_id": 2267,
+              "aegis": "Cigar",
+              "name": "Cigarette",
+              "type": "Armor",
+              "bucket": "equip",
+              "rate_raw": 10,
+              "rate_mult": 15.0,
+              "p_per_kill_this_mob": 0.015
+            },
+            {
+              "item_id": 2147,
+              "aegis": "Round_Buckler",
+              "name": "Round Buckleer",
+              "type": "Armor",
+              "bucket": "equip",
+              "rate_raw": 10,
+              "rate_mult": 15.0,
+              "p_per_kill_this_mob": 0.015
+            }
+          ]
+        }
+      ],
+      "drop_count": 22,
+      "drop_priced_count": 17,
+      "ev_atlantis_per_kill": 9705.49,
+      "ev_latam_per_kill": 43884.0,
+      "drops": [
+        {
+          "item_id": 4066,
+          "aegis": "Orc_Warrior_Card",
+          "name": "Orc Warrior Card",
+          "type": "Card",
+          "bucket": "card",
+          "npc_buy": 20,
+          "p_per_map_kill": 0.00718631,
+          "contributors": [
+            {
+              "mob_id": 1023,
+              "aegis": "ORK_WARRIOR",
+              "amount": 179,
+              "weight": 0.6806,
+              "rate_raw": 1,
+              "p_mob": 0.01,
+              "p_contrib": 0.006806
+            },
+            {
+              "mob_id": 2722,
+              "aegis": "C4_ORK_WARRIOR",
+              "amount": 2,
+              "weight": 0.0076,
+              "rate_raw": 5,
+              "p_mob": 0.05,
+              "p_contrib": 0.00038
+            }
+          ],
+          "atlantis_avg": 634421,
+          "atlantis_total_sold": 698,
+          "latam_offers_median": 1950000,
+          "ev_atlantis_per_kill": 4559.15,
+          "ev_latam_per_kill": 14013.31,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 4375,
+          "aegis": "Orc_Baby_Card_Card",
+          "name": "Orc Baby Card",
+          "type": "Card",
+          "bucket": "card",
+          "npc_buy": 20,
+          "p_per_map_kill": 0.00102662,
+          "contributors": [
+            {
+              "mob_id": 1686,
+              "aegis": "ORC_BABY",
+              "amount": 27,
+              "weight": 0.1027,
+              "rate_raw": 1,
+              "p_mob": 0.01,
+              "p_contrib": 0.001027
+            }
+          ],
+          "atlantis_avg": 1224486,
+          "atlantis_total_sold": 142,
+          "latam_offers_median": 10000000,
+          "ev_atlantis_per_kill": 1257.08,
+          "ev_latam_per_kill": 10266.16,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 4255,
+          "aegis": "Orc_Lady_Card",
+          "name": "Orc Lady Card",
+          "type": "Card",
+          "bucket": "card",
+          "npc_buy": 20,
+          "p_per_map_kill": 0.00209125,
+          "contributors": [
+            {
+              "mob_id": 1273,
+              "aegis": "ORC_LADY",
+              "amount": 55,
+              "weight": 0.2091,
+              "rate_raw": 1,
+              "p_mob": 0.01,
+              "p_contrib": 0.002091
+            }
+          ],
+          "atlantis_avg": 485665,
+          "atlantis_total_sold": 524,
+          "latam_offers_median": 7000000,
+          "ev_atlantis_per_kill": 1015.65,
+          "ev_latam_per_kill": 14638.78,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 7053,
+          "aegis": "Cyfar",
+          "name": "Cyfar",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 772,
+          "p_per_map_kill": 0.20912548,
+          "contributors": [
+            {
+              "mob_id": 1273,
+              "aegis": "ORC_LADY",
+              "amount": 55,
+              "weight": 0.2091,
+              "rate_raw": 2328,
+              "p_mob": 1.0,
+              "p_contrib": 0.209125
+            }
+          ],
+          "atlantis_avg": 4398,
+          "atlantis_total_sold": 26206,
+          "latam_offers_median": 1000,
+          "ev_atlantis_per_kill": 919.73,
+          "ev_latam_per_kill": 209.13,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 931,
+          "aegis": "Orcish_Voucher",
+          "name": "Orcish Voucher",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 142,
+          "p_per_map_kill": 0.68821293,
+          "contributors": [
+            {
+              "mob_id": 1023,
+              "aegis": "ORK_WARRIOR",
+              "amount": 179,
+              "weight": 0.6806,
+              "rate_raw": 4500,
+              "p_mob": 1.0,
+              "p_contrib": 0.680608
+            },
+            {
+              "mob_id": 2722,
+              "aegis": "C4_ORK_WARRIOR",
+              "amount": 2,
+              "weight": 0.0076,
+              "rate_raw": 10000,
+              "p_mob": 1.0,
+              "p_contrib": 0.007605
+            }
+          ],
+          "atlantis_avg": 987,
+          "atlantis_total_sold": 152267,
+          "latam_offers_median": 300,
+          "ev_atlantis_per_kill": 679.27,
+          "ev_latam_per_kill": 206.46,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 2267,
+          "aegis": "Cigar",
+          "name": "Cigarette",
+          "type": "Armor",
+          "bucket": "equip",
+          "npc_buy": 20,
+          "p_per_map_kill": 0.00215589,
+          "contributors": [
+            {
+              "mob_id": 1023,
+              "aegis": "ORK_WARRIOR",
+              "amount": 179,
+              "weight": 0.6806,
+              "rate_raw": 2,
+              "p_mob": 0.003,
+              "p_contrib": 0.002042
+            },
+            {
+              "mob_id": 2722,
+              "aegis": "C4_ORK_WARRIOR",
+              "amount": 2,
+              "weight": 0.0076,
+              "rate_raw": 10,
+              "p_mob": 0.015,
+              "p_contrib": 0.000114
+            }
+          ],
+          "atlantis_avg": 308876,
+          "atlantis_total_sold": 911,
+          "latam_offers_median": 760000,
+          "ev_atlantis_per_kill": 665.9,
+          "ev_latam_per_kill": 1638.48,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 1304,
+          "aegis": "Orcish_Axe",
+          "name": "Orcish Axe",
+          "type": "Weapon",
+          "bucket": "equip",
+          "npc_buy": 20,
+          "p_per_map_kill": 0.00323384,
+          "contributors": [
+            {
+              "mob_id": 1023,
+              "aegis": "ORK_WARRIOR",
+              "amount": 179,
+              "weight": 0.6806,
+              "rate_raw": 3,
+              "p_mob": 0.0045,
+              "p_contrib": 0.003063
+            },
+            {
+              "mob_id": 2722,
+              "aegis": "C4_ORK_WARRIOR",
+              "amount": 2,
+              "weight": 0.0076,
+              "rate_raw": 15,
+              "p_mob": 0.0225,
+              "p_contrib": 0.000171
+            }
+          ],
+          "atlantis_avg": 138189,
+          "atlantis_total_sold": 611,
+          "latam_offers_median": 99999,
+          "ev_atlantis_per_kill": 446.88,
+          "ev_latam_per_kill": 323.38,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 519,
+          "aegis": "Milk",
+          "name": "Milk",
+          "type": "Healing",
+          "bucket": "heal",
+          "npc_buy": 25,
+          "p_per_map_kill": 0.1026616,
+          "contributors": [
+            {
+              "mob_id": 1686,
+              "aegis": "ORC_BABY",
+              "amount": 27,
+              "weight": 0.1027,
+              "rate_raw": 2500,
+              "p_mob": 1.0,
+              "p_contrib": 0.102662
+            }
+          ],
+          "atlantis_avg": 738,
+          "atlantis_total_sold": 25147,
+          "latam_offers_median": 990,
+          "ev_atlantis_per_kill": 75.76,
+          "ev_latam_per_kill": 101.63,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 601,
+          "aegis": "Wing_Of_Fly",
+          "name": "Fly Wing",
+          "type": "DelayConsume",
+          "bucket": "common",
+          "npc_buy": 250,
+          "p_per_map_kill": 0.25570342,
+          "contributors": [
+            {
+              "mob_id": 1023,
+              "aegis": "ORK_WARRIOR",
+              "amount": 179,
+              "weight": 0.6806,
+              "rate_raw": 500,
+              "p_mob": 0.25,
+              "p_contrib": 0.170152
+            },
+            {
+              "mob_id": 1273,
+              "aegis": "ORC_LADY",
+              "amount": 55,
+              "weight": 0.2091,
+              "rate_raw": 500,
+              "p_mob": 0.25,
+              "p_contrib": 0.052281
+            },
+            {
+              "mob_id": 1686,
+              "aegis": "ORC_BABY",
+              "amount": 27,
+              "weight": 0.1027,
+              "rate_raw": 500,
+              "p_mob": 0.25,
+              "p_contrib": 0.025665
+            },
+            {
+              "mob_id": 2722,
+              "aegis": "C4_ORK_WARRIOR",
+              "amount": 2,
+              "weight": 0.0076,
+              "rate_raw": 2500,
+              "p_mob": 1.0,
+              "p_contrib": 0.007605
+            }
+          ],
+          "atlantis_avg": 179,
+          "atlantis_total_sold": 1994437,
+          "latam_offers_median": 300,
+          "ev_atlantis_per_kill": 45.77,
+          "ev_latam_per_kill": 76.71,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 756,
+          "aegis": "Oridecon_Stone",
+          "name": "Rough Oridecon",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 550,
+          "p_per_map_kill": 0.00718631,
+          "contributors": [
+            {
+              "mob_id": 1023,
+              "aegis": "ORK_WARRIOR",
+              "amount": 179,
+              "weight": 0.6806,
+              "rate_raw": 20,
+              "p_mob": 0.01,
+              "p_contrib": 0.006806
+            },
+            {
+              "mob_id": 2722,
+              "aegis": "C4_ORK_WARRIOR",
+              "amount": 2,
+              "weight": 0.0076,
+              "rate_raw": 100,
+              "p_mob": 0.05,
+              "p_contrib": 0.00038
+            }
+          ],
+          "atlantis_avg": 4006,
+          "atlantis_total_sold": 65283,
+          "latam_offers_median": 8490,
+          "ev_atlantis_per_kill": 28.79,
+          "ev_latam_per_kill": 61.01,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 2299,
+          "aegis": "Viking_Helm",
+          "name": "Orc Helm",
+          "type": "Armor",
+          "bucket": "equip",
+          "npc_buy": 20,
+          "p_per_map_kill": 0.00015399,
+          "contributors": [
+            {
+              "mob_id": 1686,
+              "aegis": "ORC_BABY",
+              "amount": 27,
+              "weight": 0.1027,
+              "rate_raw": 1,
+              "p_mob": 0.0015,
+              "p_contrib": 0.000154
+            }
+          ],
+          "atlantis_avg": 74739,
+          "atlantis_total_sold": 398,
+          "latam_offers_median": 99999,
+          "ev_atlantis_per_kill": 11.51,
+          "ev_latam_per_kill": 15.4,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 7126,
+          "aegis": "Large_Jellopy",
+          "name": "Large Jellopy",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 840,
+          "p_per_map_kill": 0.0256654,
+          "contributors": [
+            {
+              "mob_id": 1686,
+              "aegis": "ORC_BABY",
+              "amount": 27,
+              "weight": 0.1027,
+              "rate_raw": 500,
+              "p_mob": 0.25,
+              "p_contrib": 0.025665
+            }
+          ],
+          "atlantis_avg": null,
+          "atlantis_total_sold": null,
+          "latam_offers_median": null,
+          "ev_atlantis_per_kill": null,
+          "ev_latam_per_kill": null,
+          "in_atlantis": false,
+          "in_latam": false,
+          "in_grindable": false
+        },
+        {
+          "item_id": 10004,
+          "aegis": "Pacifier",
+          "name": "Pacifier",
+          "type": "Petarmor",
+          "bucket": "equip",
+          "npc_buy": 20,
+          "p_per_map_kill": 0.00769962,
+          "contributors": [
+            {
+              "mob_id": 1686,
+              "aegis": "ORC_BABY",
+              "amount": 27,
+              "weight": 0.1027,
+              "rate_raw": 50,
+              "p_mob": 0.075,
+              "p_contrib": 0.0077
+            }
+          ],
+          "atlantis_avg": null,
+          "atlantis_total_sold": null,
+          "latam_offers_median": 298999,
+          "ev_atlantis_per_kill": null,
+          "ev_latam_per_kill": 2302.18,
+          "in_atlantis": false,
+          "in_latam": true,
+          "in_grindable": false
+        },
+        {
+          "item_id": 1352,
+          "aegis": "Battle_Axe_",
+          "name": "Battle Axe",
+          "type": "Weapon",
+          "bucket": "equip",
+          "npc_buy": 5400,
+          "p_per_map_kill": 0.00538973,
+          "contributors": [
+            {
+              "mob_id": 1023,
+              "aegis": "ORK_WARRIOR",
+              "amount": 179,
+              "weight": 0.6806,
+              "rate_raw": 5,
+              "p_mob": 0.0075,
+              "p_contrib": 0.005105
+            },
+            {
+              "mob_id": 2722,
+              "aegis": "C4_ORK_WARRIOR",
+              "amount": 2,
+              "weight": 0.0076,
+              "rate_raw": 25,
+              "p_mob": 0.0375,
+              "p_contrib": 0.000285
+            }
+          ],
+          "atlantis_avg": null,
+          "atlantis_total_sold": null,
+          "latam_offers_median": null,
+          "ev_atlantis_per_kill": null,
+          "ev_latam_per_kill": null,
+          "in_atlantis": false,
+          "in_latam": true,
+          "in_grindable": false
+        },
+        {
+          "item_id": 7270,
+          "aegis": "Milk_Bottle",
+          "name": "Nursing Bottle",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 1100,
+          "p_per_map_kill": 0.00513308,
+          "contributors": [
+            {
+              "mob_id": 1686,
+              "aegis": "ORC_BABY",
+              "amount": 27,
+              "weight": 0.1027,
+              "rate_raw": 100,
+              "p_mob": 0.05,
+              "p_contrib": 0.005133
+            }
+          ],
+          "atlantis_avg": null,
+          "atlantis_total_sold": null,
+          "latam_offers_median": null,
+          "ev_atlantis_per_kill": null,
+          "ev_latam_per_kill": null,
+          "in_atlantis": false,
+          "in_latam": false,
+          "in_grindable": false
+        },
+        {
+          "item_id": 7269,
+          "aegis": "Bib",
+          "name": "Pinafore",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 960,
+          "p_per_map_kill": 0.00256654,
+          "contributors": [
+            {
+              "mob_id": 1686,
+              "aegis": "ORC_BABY",
+              "amount": 27,
+              "weight": 0.1027,
+              "rate_raw": 50,
+              "p_mob": 0.025,
+              "p_contrib": 0.002567
+            }
+          ],
+          "atlantis_avg": null,
+          "atlantis_total_sold": null,
+          "latam_offers_median": null,
+          "ev_atlantis_per_kill": null,
+          "ev_latam_per_kill": null,
+          "in_atlantis": false,
+          "in_latam": false,
+          "in_grindable": false
+        },
+        {
+          "item_id": 2147,
+          "aegis": "Round_Buckler",
+          "name": "Round Buckleer",
+          "type": "Armor",
+          "bucket": "equip",
+          "npc_buy": 24000,
+          "p_per_map_kill": 0.00215589,
+          "contributors": [
+            {
+              "mob_id": 1023,
+              "aegis": "ORK_WARRIOR",
+              "amount": 179,
+              "weight": 0.6806,
+              "rate_raw": 2,
+              "p_mob": 0.003,
+              "p_contrib": 0.002042
+            },
+            {
+              "mob_id": 2722,
+              "aegis": "C4_ORK_WARRIOR",
+              "amount": 2,
+              "weight": 0.0076,
+              "rate_raw": 10,
+              "p_mob": 0.015,
+              "p_contrib": 0.000114
+            }
+          ],
+          "atlantis_avg": null,
+          "atlantis_total_sold": null,
+          "latam_offers_median": null,
+          "ev_atlantis_per_kill": null,
+          "ev_latam_per_kill": null,
+          "in_atlantis": false,
+          "in_latam": true,
+          "in_grindable": false
+        },
+        {
+          "item_id": 15012,
+          "aegis": "Puente_Robe",
+          "name": "Puente Robe",
+          "type": "Armor",
+          "bucket": "equip",
+          "npc_buy": 12000,
+          "p_per_map_kill": 0.00062738,
+          "contributors": [
+            {
+              "mob_id": 1273,
+              "aegis": "ORC_LADY",
+              "amount": 55,
+              "weight": 0.2091,
+              "rate_raw": 2,
+              "p_mob": 0.003,
+              "p_contrib": 0.000627
+            }
+          ],
+          "atlantis_avg": null,
+          "atlantis_total_sold": null,
+          "latam_offers_median": 50000,
+          "ev_atlantis_per_kill": null,
+          "ev_latam_per_kill": 31.37,
+          "in_atlantis": false,
+          "in_latam": true,
+          "in_grindable": false
+        },
+        {
+          "item_id": 2602,
+          "aegis": "Earring",
+          "name": "Earring",
+          "type": "Armor",
+          "bucket": "equip",
+          "npc_buy": 30000,
+          "p_per_map_kill": 0.00031369,
+          "contributors": [
+            {
+              "mob_id": 1273,
+              "aegis": "ORC_LADY",
+              "amount": 55,
+              "weight": 0.2091,
+              "rate_raw": 1,
+              "p_mob": 0.0015,
+              "p_contrib": 0.000314
+            }
+          ],
+          "atlantis_avg": null,
+          "atlantis_total_sold": null,
+          "latam_offers_median": null,
+          "ev_atlantis_per_kill": null,
+          "ev_latam_per_kill": null,
+          "in_atlantis": false,
+          "in_latam": true,
+          "in_grindable": false
+        },
+        {
+          "item_id": 2206,
+          "aegis": "Wedding_Veil",
+          "name": "Wedding Veil",
+          "type": "Armor",
+          "bucket": "equip",
+          "npc_buy": 23000,
+          "p_per_map_kill": 0.00031369,
+          "contributors": [
+            {
+              "mob_id": 1273,
+              "aegis": "ORC_LADY",
+              "amount": 55,
+              "weight": 0.2091,
+              "rate_raw": 1,
+              "p_mob": 0.0015,
+              "p_contrib": 0.000314
+            }
+          ],
+          "atlantis_avg": null,
+          "atlantis_total_sold": null,
+          "latam_offers_median": null,
+          "ev_atlantis_per_kill": null,
+          "ev_latam_per_kill": null,
+          "in_atlantis": false,
+          "in_latam": false,
+          "in_grindable": false
+        },
+        {
+          "item_id": 2338,
+          "aegis": "Wedding_Dress",
+          "name": "Wedding Dress",
+          "type": "Armor",
+          "bucket": "equip",
+          "npc_buy": 43000,
+          "p_per_map_kill": 0.00031369,
+          "contributors": [
+            {
+              "mob_id": 1273,
+              "aegis": "ORC_LADY",
+              "amount": 55,
+              "weight": 0.2091,
+              "rate_raw": 1,
+              "p_mob": 0.0015,
+              "p_contrib": 0.000314
+            }
+          ],
+          "atlantis_avg": null,
+          "atlantis_total_sold": null,
+          "latam_offers_median": null,
+          "ev_atlantis_per_kill": null,
+          "ev_latam_per_kill": null,
+          "in_atlantis": false,
+          "in_latam": true,
+          "in_grindable": false
+        },
+        {
+          "item_id": 7477,
+          "aegis": "Cookbook06",
+          "name": "Level 6 Cookbook",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 1000,
+          "p_per_map_kill": 0.00020913,
+          "contributors": [
+            {
+              "mob_id": 1273,
+              "aegis": "ORC_LADY",
+              "amount": 55,
+              "weight": 0.2091,
+              "rate_raw": 2,
+              "p_mob": 0.001,
+              "p_contrib": 0.000209
+            }
+          ],
+          "atlantis_avg": null,
+          "atlantis_total_sold": null,
+          "latam_offers_median": null,
+          "ev_atlantis_per_kill": null,
+          "ev_latam_per_kill": null,
+          "in_atlantis": false,
+          "in_latam": false,
+          "in_grindable": false
+        }
+      ],
+      "drops_top20": [
+        {
+          "item_id": 4066,
+          "aegis": "Orc_Warrior_Card",
+          "name": "Orc Warrior Card",
+          "type": "Card",
+          "bucket": "card",
+          "npc_buy": 20,
+          "p_per_map_kill": 0.00718631,
+          "contributors": [
+            {
+              "mob_id": 1023,
+              "aegis": "ORK_WARRIOR",
+              "amount": 179,
+              "weight": 0.6806,
+              "rate_raw": 1,
+              "p_mob": 0.01,
+              "p_contrib": 0.006806
+            },
+            {
+              "mob_id": 2722,
+              "aegis": "C4_ORK_WARRIOR",
+              "amount": 2,
+              "weight": 0.0076,
+              "rate_raw": 5,
+              "p_mob": 0.05,
+              "p_contrib": 0.00038
+            }
+          ],
+          "atlantis_avg": 634421,
+          "atlantis_total_sold": 698,
+          "latam_offers_median": 1950000,
+          "ev_atlantis_per_kill": 4559.15,
+          "ev_latam_per_kill": 14013.31,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 4375,
+          "aegis": "Orc_Baby_Card_Card",
+          "name": "Orc Baby Card",
+          "type": "Card",
+          "bucket": "card",
+          "npc_buy": 20,
+          "p_per_map_kill": 0.00102662,
+          "contributors": [
+            {
+              "mob_id": 1686,
+              "aegis": "ORC_BABY",
+              "amount": 27,
+              "weight": 0.1027,
+              "rate_raw": 1,
+              "p_mob": 0.01,
+              "p_contrib": 0.001027
+            }
+          ],
+          "atlantis_avg": 1224486,
+          "atlantis_total_sold": 142,
+          "latam_offers_median": 10000000,
+          "ev_atlantis_per_kill": 1257.08,
+          "ev_latam_per_kill": 10266.16,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 4255,
+          "aegis": "Orc_Lady_Card",
+          "name": "Orc Lady Card",
+          "type": "Card",
+          "bucket": "card",
+          "npc_buy": 20,
+          "p_per_map_kill": 0.00209125,
+          "contributors": [
+            {
+              "mob_id": 1273,
+              "aegis": "ORC_LADY",
+              "amount": 55,
+              "weight": 0.2091,
+              "rate_raw": 1,
+              "p_mob": 0.01,
+              "p_contrib": 0.002091
+            }
+          ],
+          "atlantis_avg": 485665,
+          "atlantis_total_sold": 524,
+          "latam_offers_median": 7000000,
+          "ev_atlantis_per_kill": 1015.65,
+          "ev_latam_per_kill": 14638.78,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 7053,
+          "aegis": "Cyfar",
+          "name": "Cyfar",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 772,
+          "p_per_map_kill": 0.20912548,
+          "contributors": [
+            {
+              "mob_id": 1273,
+              "aegis": "ORC_LADY",
+              "amount": 55,
+              "weight": 0.2091,
+              "rate_raw": 2328,
+              "p_mob": 1.0,
+              "p_contrib": 0.209125
+            }
+          ],
+          "atlantis_avg": 4398,
+          "atlantis_total_sold": 26206,
+          "latam_offers_median": 1000,
+          "ev_atlantis_per_kill": 919.73,
+          "ev_latam_per_kill": 209.13,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 931,
+          "aegis": "Orcish_Voucher",
+          "name": "Orcish Voucher",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 142,
+          "p_per_map_kill": 0.68821293,
+          "contributors": [
+            {
+              "mob_id": 1023,
+              "aegis": "ORK_WARRIOR",
+              "amount": 179,
+              "weight": 0.6806,
+              "rate_raw": 4500,
+              "p_mob": 1.0,
+              "p_contrib": 0.680608
+            },
+            {
+              "mob_id": 2722,
+              "aegis": "C4_ORK_WARRIOR",
+              "amount": 2,
+              "weight": 0.0076,
+              "rate_raw": 10000,
+              "p_mob": 1.0,
+              "p_contrib": 0.007605
+            }
+          ],
+          "atlantis_avg": 987,
+          "atlantis_total_sold": 152267,
+          "latam_offers_median": 300,
+          "ev_atlantis_per_kill": 679.27,
+          "ev_latam_per_kill": 206.46,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 2267,
+          "aegis": "Cigar",
+          "name": "Cigarette",
+          "type": "Armor",
+          "bucket": "equip",
+          "npc_buy": 20,
+          "p_per_map_kill": 0.00215589,
+          "contributors": [
+            {
+              "mob_id": 1023,
+              "aegis": "ORK_WARRIOR",
+              "amount": 179,
+              "weight": 0.6806,
+              "rate_raw": 2,
+              "p_mob": 0.003,
+              "p_contrib": 0.002042
+            },
+            {
+              "mob_id": 2722,
+              "aegis": "C4_ORK_WARRIOR",
+              "amount": 2,
+              "weight": 0.0076,
+              "rate_raw": 10,
+              "p_mob": 0.015,
+              "p_contrib": 0.000114
+            }
+          ],
+          "atlantis_avg": 308876,
+          "atlantis_total_sold": 911,
+          "latam_offers_median": 760000,
+          "ev_atlantis_per_kill": 665.9,
+          "ev_latam_per_kill": 1638.48,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 1304,
+          "aegis": "Orcish_Axe",
+          "name": "Orcish Axe",
+          "type": "Weapon",
+          "bucket": "equip",
+          "npc_buy": 20,
+          "p_per_map_kill": 0.00323384,
+          "contributors": [
+            {
+              "mob_id": 1023,
+              "aegis": "ORK_WARRIOR",
+              "amount": 179,
+              "weight": 0.6806,
+              "rate_raw": 3,
+              "p_mob": 0.0045,
+              "p_contrib": 0.003063
+            },
+            {
+              "mob_id": 2722,
+              "aegis": "C4_ORK_WARRIOR",
+              "amount": 2,
+              "weight": 0.0076,
+              "rate_raw": 15,
+              "p_mob": 0.0225,
+              "p_contrib": 0.000171
+            }
+          ],
+          "atlantis_avg": 138189,
+          "atlantis_total_sold": 611,
+          "latam_offers_median": 99999,
+          "ev_atlantis_per_kill": 446.88,
+          "ev_latam_per_kill": 323.38,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 519,
+          "aegis": "Milk",
+          "name": "Milk",
+          "type": "Healing",
+          "bucket": "heal",
+          "npc_buy": 25,
+          "p_per_map_kill": 0.1026616,
+          "contributors": [
+            {
+              "mob_id": 1686,
+              "aegis": "ORC_BABY",
+              "amount": 27,
+              "weight": 0.1027,
+              "rate_raw": 2500,
+              "p_mob": 1.0,
+              "p_contrib": 0.102662
+            }
+          ],
+          "atlantis_avg": 738,
+          "atlantis_total_sold": 25147,
+          "latam_offers_median": 990,
+          "ev_atlantis_per_kill": 75.76,
+          "ev_latam_per_kill": 101.63,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 601,
+          "aegis": "Wing_Of_Fly",
+          "name": "Fly Wing",
+          "type": "DelayConsume",
+          "bucket": "common",
+          "npc_buy": 250,
+          "p_per_map_kill": 0.25570342,
+          "contributors": [
+            {
+              "mob_id": 1023,
+              "aegis": "ORK_WARRIOR",
+              "amount": 179,
+              "weight": 0.6806,
+              "rate_raw": 500,
+              "p_mob": 0.25,
+              "p_contrib": 0.170152
+            },
+            {
+              "mob_id": 1273,
+              "aegis": "ORC_LADY",
+              "amount": 55,
+              "weight": 0.2091,
+              "rate_raw": 500,
+              "p_mob": 0.25,
+              "p_contrib": 0.052281
+            },
+            {
+              "mob_id": 1686,
+              "aegis": "ORC_BABY",
+              "amount": 27,
+              "weight": 0.1027,
+              "rate_raw": 500,
+              "p_mob": 0.25,
+              "p_contrib": 0.025665
+            },
+            {
+              "mob_id": 2722,
+              "aegis": "C4_ORK_WARRIOR",
+              "amount": 2,
+              "weight": 0.0076,
+              "rate_raw": 2500,
+              "p_mob": 1.0,
+              "p_contrib": 0.007605
+            }
+          ],
+          "atlantis_avg": 179,
+          "atlantis_total_sold": 1994437,
+          "latam_offers_median": 300,
+          "ev_atlantis_per_kill": 45.77,
+          "ev_latam_per_kill": 76.71,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 756,
+          "aegis": "Oridecon_Stone",
+          "name": "Rough Oridecon",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 550,
+          "p_per_map_kill": 0.00718631,
+          "contributors": [
+            {
+              "mob_id": 1023,
+              "aegis": "ORK_WARRIOR",
+              "amount": 179,
+              "weight": 0.6806,
+              "rate_raw": 20,
+              "p_mob": 0.01,
+              "p_contrib": 0.006806
+            },
+            {
+              "mob_id": 2722,
+              "aegis": "C4_ORK_WARRIOR",
+              "amount": 2,
+              "weight": 0.0076,
+              "rate_raw": 100,
+              "p_mob": 0.05,
+              "p_contrib": 0.00038
+            }
+          ],
+          "atlantis_avg": 4006,
+          "atlantis_total_sold": 65283,
+          "latam_offers_median": 8490,
+          "ev_atlantis_per_kill": 28.79,
+          "ev_latam_per_kill": 61.01,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 2299,
+          "aegis": "Viking_Helm",
+          "name": "Orc Helm",
+          "type": "Armor",
+          "bucket": "equip",
+          "npc_buy": 20,
+          "p_per_map_kill": 0.00015399,
+          "contributors": [
+            {
+              "mob_id": 1686,
+              "aegis": "ORC_BABY",
+              "amount": 27,
+              "weight": 0.1027,
+              "rate_raw": 1,
+              "p_mob": 0.0015,
+              "p_contrib": 0.000154
+            }
+          ],
+          "atlantis_avg": 74739,
+          "atlantis_total_sold": 398,
+          "latam_offers_median": 99999,
+          "ev_atlantis_per_kill": 11.51,
+          "ev_latam_per_kill": 15.4,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 7126,
+          "aegis": "Large_Jellopy",
+          "name": "Large Jellopy",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 840,
+          "p_per_map_kill": 0.0256654,
+          "contributors": [
+            {
+              "mob_id": 1686,
+              "aegis": "ORC_BABY",
+              "amount": 27,
+              "weight": 0.1027,
+              "rate_raw": 500,
+              "p_mob": 0.25,
+              "p_contrib": 0.025665
+            }
+          ],
+          "atlantis_avg": null,
+          "atlantis_total_sold": null,
+          "latam_offers_median": null,
+          "ev_atlantis_per_kill": null,
+          "ev_latam_per_kill": null,
+          "in_atlantis": false,
+          "in_latam": false,
+          "in_grindable": false
+        },
+        {
+          "item_id": 10004,
+          "aegis": "Pacifier",
+          "name": "Pacifier",
+          "type": "Petarmor",
+          "bucket": "equip",
+          "npc_buy": 20,
+          "p_per_map_kill": 0.00769962,
+          "contributors": [
+            {
+              "mob_id": 1686,
+              "aegis": "ORC_BABY",
+              "amount": 27,
+              "weight": 0.1027,
+              "rate_raw": 50,
+              "p_mob": 0.075,
+              "p_contrib": 0.0077
+            }
+          ],
+          "atlantis_avg": null,
+          "atlantis_total_sold": null,
+          "latam_offers_median": 298999,
+          "ev_atlantis_per_kill": null,
+          "ev_latam_per_kill": 2302.18,
+          "in_atlantis": false,
+          "in_latam": true,
+          "in_grindable": false
+        },
+        {
+          "item_id": 1352,
+          "aegis": "Battle_Axe_",
+          "name": "Battle Axe",
+          "type": "Weapon",
+          "bucket": "equip",
+          "npc_buy": 5400,
+          "p_per_map_kill": 0.00538973,
+          "contributors": [
+            {
+              "mob_id": 1023,
+              "aegis": "ORK_WARRIOR",
+              "amount": 179,
+              "weight": 0.6806,
+              "rate_raw": 5,
+              "p_mob": 0.0075,
+              "p_contrib": 0.005105
+            },
+            {
+              "mob_id": 2722,
+              "aegis": "C4_ORK_WARRIOR",
+              "amount": 2,
+              "weight": 0.0076,
+              "rate_raw": 25,
+              "p_mob": 0.0375,
+              "p_contrib": 0.000285
+            }
+          ],
+          "atlantis_avg": null,
+          "atlantis_total_sold": null,
+          "latam_offers_median": null,
+          "ev_atlantis_per_kill": null,
+          "ev_latam_per_kill": null,
+          "in_atlantis": false,
+          "in_latam": true,
+          "in_grindable": false
+        },
+        {
+          "item_id": 7270,
+          "aegis": "Milk_Bottle",
+          "name": "Nursing Bottle",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 1100,
+          "p_per_map_kill": 0.00513308,
+          "contributors": [
+            {
+              "mob_id": 1686,
+              "aegis": "ORC_BABY",
+              "amount": 27,
+              "weight": 0.1027,
+              "rate_raw": 100,
+              "p_mob": 0.05,
+              "p_contrib": 0.005133
+            }
+          ],
+          "atlantis_avg": null,
+          "atlantis_total_sold": null,
+          "latam_offers_median": null,
+          "ev_atlantis_per_kill": null,
+          "ev_latam_per_kill": null,
+          "in_atlantis": false,
+          "in_latam": false,
+          "in_grindable": false
+        },
+        {
+          "item_id": 7269,
+          "aegis": "Bib",
+          "name": "Pinafore",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 960,
+          "p_per_map_kill": 0.00256654,
+          "contributors": [
+            {
+              "mob_id": 1686,
+              "aegis": "ORC_BABY",
+              "amount": 27,
+              "weight": 0.1027,
+              "rate_raw": 50,
+              "p_mob": 0.025,
+              "p_contrib": 0.002567
+            }
+          ],
+          "atlantis_avg": null,
+          "atlantis_total_sold": null,
+          "latam_offers_median": null,
+          "ev_atlantis_per_kill": null,
+          "ev_latam_per_kill": null,
+          "in_atlantis": false,
+          "in_latam": false,
+          "in_grindable": false
+        },
+        {
+          "item_id": 2147,
+          "aegis": "Round_Buckler",
+          "name": "Round Buckleer",
+          "type": "Armor",
+          "bucket": "equip",
+          "npc_buy": 24000,
+          "p_per_map_kill": 0.00215589,
+          "contributors": [
+            {
+              "mob_id": 1023,
+              "aegis": "ORK_WARRIOR",
+              "amount": 179,
+              "weight": 0.6806,
+              "rate_raw": 2,
+              "p_mob": 0.003,
+              "p_contrib": 0.002042
+            },
+            {
+              "mob_id": 2722,
+              "aegis": "C4_ORK_WARRIOR",
+              "amount": 2,
+              "weight": 0.0076,
+              "rate_raw": 10,
+              "p_mob": 0.015,
+              "p_contrib": 0.000114
+            }
+          ],
+          "atlantis_avg": null,
+          "atlantis_total_sold": null,
+          "latam_offers_median": null,
+          "ev_atlantis_per_kill": null,
+          "ev_latam_per_kill": null,
+          "in_atlantis": false,
+          "in_latam": true,
+          "in_grindable": false
+        },
+        {
+          "item_id": 15012,
+          "aegis": "Puente_Robe",
+          "name": "Puente Robe",
+          "type": "Armor",
+          "bucket": "equip",
+          "npc_buy": 12000,
+          "p_per_map_kill": 0.00062738,
+          "contributors": [
+            {
+              "mob_id": 1273,
+              "aegis": "ORC_LADY",
+              "amount": 55,
+              "weight": 0.2091,
+              "rate_raw": 2,
+              "p_mob": 0.003,
+              "p_contrib": 0.000627
+            }
+          ],
+          "atlantis_avg": null,
+          "atlantis_total_sold": null,
+          "latam_offers_median": 50000,
+          "ev_atlantis_per_kill": null,
+          "ev_latam_per_kill": 31.37,
+          "in_atlantis": false,
+          "in_latam": true,
+          "in_grindable": false
+        },
+        {
+          "item_id": 2602,
+          "aegis": "Earring",
+          "name": "Earring",
+          "type": "Armor",
+          "bucket": "equip",
+          "npc_buy": 30000,
+          "p_per_map_kill": 0.00031369,
+          "contributors": [
+            {
+              "mob_id": 1273,
+              "aegis": "ORC_LADY",
+              "amount": 55,
+              "weight": 0.2091,
+              "rate_raw": 1,
+              "p_mob": 0.0015,
+              "p_contrib": 0.000314
+            }
+          ],
+          "atlantis_avg": null,
+          "atlantis_total_sold": null,
+          "latam_offers_median": null,
+          "ev_atlantis_per_kill": null,
+          "ev_latam_per_kill": null,
+          "in_atlantis": false,
+          "in_latam": true,
+          "in_grindable": false
+        },
+        {
+          "item_id": 2206,
+          "aegis": "Wedding_Veil",
+          "name": "Wedding Veil",
+          "type": "Armor",
+          "bucket": "equip",
+          "npc_buy": 23000,
+          "p_per_map_kill": 0.00031369,
+          "contributors": [
+            {
+              "mob_id": 1273,
+              "aegis": "ORC_LADY",
+              "amount": 55,
+              "weight": 0.2091,
+              "rate_raw": 1,
+              "p_mob": 0.0015,
+              "p_contrib": 0.000314
+            }
+          ],
+          "atlantis_avg": null,
+          "atlantis_total_sold": null,
+          "latam_offers_median": null,
+          "ev_atlantis_per_kill": null,
+          "ev_latam_per_kill": null,
+          "in_atlantis": false,
+          "in_latam": false,
+          "in_grindable": false
+        }
+      ],
+      "loot": {
+        "policy": "full",
+        "policy_reason": "oferta bot = mats/consumibles con precio; cards/equip quedan fuera del stock masivo (ver drops completos)",
+        "offer_drop_count": 4,
+        "ev_atlantis_per_kill_offer": 1703.55,
+        "ev_latam_per_kill_offer": 578.23,
+        "ev_atlantis_per_kill_all_drops": 9705.49,
+        "ev_atlantis_per_kill_mats_only": 1703.55,
+        "card_count": 3,
+        "ev_atlantis_cards": 6831.88,
+        "offer_drops_top30": [
+          {
+            "item_id": 7053,
+            "aegis": "Cyfar",
+            "name": "Cyfar",
+            "type": "Etc",
+            "bucket": "common",
+            "npc_buy": 772,
+            "p_per_map_kill": 0.20912548,
+            "contributors": [
+              {
+                "mob_id": 1273,
+                "aegis": "ORC_LADY",
+                "amount": 55,
+                "weight": 0.2091,
+                "rate_raw": 2328,
+                "p_mob": 1.0,
+                "p_contrib": 0.209125
+              }
+            ],
+            "atlantis_avg": 4398,
+            "atlantis_total_sold": 26206,
+            "latam_offers_median": 1000,
+            "ev_atlantis_per_kill": 919.73,
+            "ev_latam_per_kill": 209.13,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          },
+          {
+            "item_id": 931,
+            "aegis": "Orcish_Voucher",
+            "name": "Orcish Voucher",
+            "type": "Etc",
+            "bucket": "common",
+            "npc_buy": 142,
+            "p_per_map_kill": 0.68821293,
+            "contributors": [
+              {
+                "mob_id": 1023,
+                "aegis": "ORK_WARRIOR",
+                "amount": 179,
+                "weight": 0.6806,
+                "rate_raw": 4500,
+                "p_mob": 1.0,
+                "p_contrib": 0.680608
+              },
+              {
+                "mob_id": 2722,
+                "aegis": "C4_ORK_WARRIOR",
+                "amount": 2,
+                "weight": 0.0076,
+                "rate_raw": 10000,
+                "p_mob": 1.0,
+                "p_contrib": 0.007605
+              }
+            ],
+            "atlantis_avg": 987,
+            "atlantis_total_sold": 152267,
+            "latam_offers_median": 300,
+            "ev_atlantis_per_kill": 679.27,
+            "ev_latam_per_kill": 206.46,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          },
+          {
+            "item_id": 519,
+            "aegis": "Milk",
+            "name": "Milk",
+            "type": "Healing",
+            "bucket": "heal",
+            "npc_buy": 25,
+            "p_per_map_kill": 0.1026616,
+            "contributors": [
+              {
+                "mob_id": 1686,
+                "aegis": "ORC_BABY",
+                "amount": 27,
+                "weight": 0.1027,
+                "rate_raw": 2500,
+                "p_mob": 1.0,
+                "p_contrib": 0.102662
+              }
+            ],
+            "atlantis_avg": 738,
+            "atlantis_total_sold": 25147,
+            "latam_offers_median": 990,
+            "ev_atlantis_per_kill": 75.76,
+            "ev_latam_per_kill": 101.63,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          },
+          {
+            "item_id": 756,
+            "aegis": "Oridecon_Stone",
+            "name": "Rough Oridecon",
+            "type": "Etc",
+            "bucket": "common",
+            "npc_buy": 550,
+            "p_per_map_kill": 0.00718631,
+            "contributors": [
+              {
+                "mob_id": 1023,
+                "aegis": "ORK_WARRIOR",
+                "amount": 179,
+                "weight": 0.6806,
+                "rate_raw": 20,
+                "p_mob": 0.01,
+                "p_contrib": 0.006806
+              },
+              {
+                "mob_id": 2722,
+                "aegis": "C4_ORK_WARRIOR",
+                "amount": 2,
+                "weight": 0.0076,
+                "rate_raw": 100,
+                "p_mob": 0.05,
+                "p_contrib": 0.00038
+              }
+            ],
+            "atlantis_avg": 4006,
+            "atlantis_total_sold": 65283,
+            "latam_offers_median": 8490,
+            "ev_atlantis_per_kill": 28.79,
+            "ev_latam_per_kill": 61.01,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          }
+        ],
+        "offer_item_ids": [
+          7053,
+          931,
+          519,
+          756
+        ],
+        "top_cards": [
+          {
+            "item_id": 4066,
+            "name": "Orc Warrior Card",
+            "p": 0.00718631,
+            "atlantis_avg": 634421,
+            "ev_at": 4559.15
+          },
+          {
+            "item_id": 4375,
+            "name": "Orc Baby Card",
+            "p": 0.00102662,
+            "atlantis_avg": 1224486,
+            "ev_at": 1257.08
+          },
+          {
+            "item_id": 4255,
+            "name": "Orc Lady Card",
+            "p": 0.00209125,
+            "atlantis_avg": 485665,
+            "ev_at": 1015.65
+          }
+        ]
+      }
+    },
+    {
+      "map": "orcsdun01",
+      "spawn_total_raw": 137,
+      "combat_total_amount": 122,
+      "plants_excluded_amount": 15,
+      "plants_excluded": [
+        {
+          "aegis": "BLACK_MUSHROOM",
+          "amount": 10
+        },
+        {
+          "aegis": "WHITE_PLANT",
+          "amount": 5
+        }
+      ],
+      "missing_mob_ids": [],
+      "avg_level": 47.43,
+      "max_level": 53,
+      "avg_hp": 1479,
+      "tier": "mid",
+      "mobs": [
+        {
+          "mob_id": 1153,
+          "aegis": "ORC_ZOMBIE",
+          "name": "Orc Zombie",
+          "amount": 80,
+          "weight": 0.6557,
+          "level": 51,
+          "hp": 1586,
+          "race": "Undead",
+          "element": "Undead",
+          "drop_count": 4,
+          "drops": [
+            {
+              "item_id": 1043,
+              "aegis": "Nail_Of_Orc",
+              "name": "Orc Claw",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 2750,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 1.0
+            },
+            {
+              "item_id": 938,
+              "aegis": "Sticky_Mucus",
+              "name": "Sticky Mucus",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 1500,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.75
+            },
+            {
+              "item_id": 4071,
+              "aegis": "Orc_Zombie_Card",
+              "name": "Orc Zombie Card",
+              "type": "Card",
+              "bucket": "card",
+              "rate_raw": 1,
+              "rate_mult": 100.0,
+              "p_per_kill_this_mob": 0.01
+            },
+            {
+              "item_id": 714,
+              "aegis": "Emperium",
+              "name": "Emperium",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 1,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.0005
+            }
+          ]
+        },
+        {
+          "mob_id": 1005,
+          "aegis": "FARMILIAR",
+          "name": "Familiar",
+          "amount": 15,
+          "weight": 0.123,
+          "level": 24,
+          "hp": 330,
+          "race": "Brute",
+          "element": "Dark",
+          "drop_count": 8,
+          "drops": [
+            {
+              "item_id": 913,
+              "aegis": "Tooth_Of_Bat",
+              "name": "Tooth of Bat",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 2750,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 1.0
+            },
+            {
+              "item_id": 507,
+              "aegis": "Red_Herb",
+              "name": "Red Herb",
+              "type": "Healing",
+              "bucket": "heal",
+              "rate_raw": 350,
+              "rate_mult": 10.0,
+              "p_per_kill_this_mob": 0.35
+            },
+            {
+              "item_id": 601,
+              "aegis": "Wing_Of_Fly",
+              "name": "Fly Wing",
+              "type": "DelayConsume",
+              "bucket": "common",
+              "rate_raw": 500,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.25
+            },
+            {
+              "item_id": 514,
+              "aegis": "Grape",
+              "name": "Grape",
+              "type": "Healing",
+              "bucket": "heal",
+              "rate_raw": 50,
+              "rate_mult": 10.0,
+              "p_per_kill_this_mob": 0.05
+            },
+            {
+              "item_id": 645,
+              "aegis": "Center_Potion",
+              "name": "Concentration Potion",
+              "type": "Usable",
+              "bucket": "use",
+              "rate_raw": 25,
+              "rate_mult": 10.0,
+              "p_per_kill_this_mob": 0.025
+            },
+            {
+              "item_id": 1105,
+              "aegis": "Falchion_",
+              "name": "Falchion",
+              "type": "Weapon",
+              "bucket": "equip",
+              "rate_raw": 10,
+              "rate_mult": 15.0,
+              "p_per_kill_this_mob": 0.015
+            },
+            {
+              "item_id": 2209,
+              "aegis": "Ribbon_",
+              "name": "Ribbon",
+              "type": "Armor",
+              "bucket": "equip",
+              "rate_raw": 8,
+              "rate_mult": 15.0,
+              "p_per_kill_this_mob": 0.012
+            },
+            {
+              "item_id": 4020,
+              "aegis": "Farmiliar_Card",
+              "name": "Familiar Card",
+              "type": "Card",
+              "bucket": "card",
+              "rate_raw": 1,
+              "rate_mult": 100.0,
+              "p_per_kill_this_mob": 0.01
+            }
+          ]
+        },
+        {
+          "mob_id": 1042,
+          "aegis": "STEEL_CHONCHON",
+          "name": "Steel Chonchon",
+          "amount": 10,
+          "weight": 0.082,
+          "level": 48,
+          "hp": 985,
+          "race": "Insect",
+          "element": "Wind",
+          "drop_count": 8,
+          "drops": [
+            {
+              "item_id": 935,
+              "aegis": "Shell",
+              "name": "Shell",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 4500,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 1.0
+            },
+            {
+              "item_id": 910,
+              "aegis": "Garlet",
+              "name": "Garlet",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 1200,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.6
+            },
+            {
+              "item_id": 601,
+              "aegis": "Wing_Of_Fly",
+              "name": "Fly Wing",
+              "type": "DelayConsume",
+              "bucket": "common",
+              "rate_raw": 500,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.25
+            },
+            {
+              "item_id": 998,
+              "aegis": "Iron",
+              "name": "Iron",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 100,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.05
+            },
+            {
+              "item_id": 992,
+              "aegis": "Wind_Of_Verdure",
+              "name": "Wind of Verdure",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 45,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.0225
+            },
+            {
+              "item_id": 4042,
+              "aegis": "Steel_Chonchon_Card",
+              "name": "Steel Chonchon Card",
+              "type": "Card",
+              "bucket": "card",
+              "rate_raw": 1,
+              "rate_mult": 100.0,
+              "p_per_kill_this_mob": 0.01
+            },
+            {
+              "item_id": 999,
+              "aegis": "Steel",
+              "name": "Steel",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 15,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.0075
+            },
+            {
+              "item_id": 943,
+              "aegis": "Solid_Shell",
+              "name": "Solid Shell",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 15,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.0075
+            }
+          ]
+        },
+        {
+          "mob_id": 1152,
+          "aegis": "ORC_SKELETON",
+          "name": "Orc Skeleton",
+          "amount": 10,
+          "weight": 0.082,
+          "level": 53,
+          "hp": 1699,
+          "race": "Undead",
+          "element": "Undead",
+          "drop_count": 7,
+          "drops": [
+            {
+              "item_id": 922,
+              "aegis": "Orcish_Cuspid",
+              "name": "Orc's Fang",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 2750,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 1.0
+            },
+            {
+              "item_id": 932,
+              "aegis": "Skel_Bone",
+              "name": "Skel-Bone",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 1750,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.875
+            },
+            {
+              "item_id": 511,
+              "aegis": "Green_Herb",
+              "name": "Green Herb",
+              "type": "Healing",
+              "bucket": "heal",
+              "rate_raw": 25,
+              "rate_mult": 10.0,
+              "p_per_kill_this_mob": 0.025
+            },
+            {
+              "item_id": 757,
+              "aegis": "Elunium_Stone",
+              "name": "Rough Elunium",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 40,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.02
+            },
+            {
+              "item_id": 4085,
+              "aegis": "Orc_Skeleton_Card",
+              "name": "Orc Skeleton Card",
+              "type": "Card",
+              "bucket": "card",
+              "rate_raw": 1,
+              "rate_mult": 100.0,
+              "p_per_kill_this_mob": 0.01
+            },
+            {
+              "item_id": 1358,
+              "aegis": "Buster_",
+              "name": "Buster",
+              "type": "Weapon",
+              "bucket": "equip",
+              "rate_raw": 5,
+              "rate_mult": 15.0,
+              "p_per_kill_this_mob": 0.0075
+            },
+            {
+              "item_id": 2299,
+              "aegis": "Viking_Helm",
+              "name": "Orc Helm",
+              "type": "Armor",
+              "bucket": "equip",
+              "rate_raw": 1,
+              "rate_mult": 15.0,
+              "p_per_kill_this_mob": 0.0015
+            }
+          ]
+        },
+        {
+          "mob_id": 1111,
+          "aegis": "DRAINLIAR",
+          "name": "Drainliar",
+          "amount": 5,
+          "weight": 0.041,
+          "level": 47,
+          "hp": 1182,
+          "race": "Brute",
+          "element": "Dark",
+          "drop_count": 7,
+          "drops": [
+            {
+              "item_id": 7006,
+              "aegis": "Wing_Of_Red_Bat",
+              "name": "Wing of Red Bat",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 2750,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 1.0
+            },
+            {
+              "item_id": 507,
+              "aegis": "Red_Herb",
+              "name": "Red Herb",
+              "type": "Healing",
+              "bucket": "heal",
+              "rate_raw": 950,
+              "rate_mult": 10.0,
+              "p_per_kill_this_mob": 0.95
+            },
+            {
+              "item_id": 913,
+              "aegis": "Tooth_Of_Bat",
+              "name": "Tooth of Bat",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 1500,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.75
+            },
+            {
+              "item_id": 601,
+              "aegis": "Wing_Of_Fly",
+              "name": "Fly Wing",
+              "type": "DelayConsume",
+              "bucket": "common",
+              "rate_raw": 500,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.25
+            },
+            {
+              "item_id": 756,
+              "aegis": "Oridecon_Stone",
+              "name": "Rough Oridecon",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 20,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.01
+            },
+            {
+              "item_id": 4069,
+              "aegis": "Drainliar_Card",
+              "name": "Drainliar Card",
+              "type": "Card",
+              "bucket": "card",
+              "rate_raw": 1,
+              "rate_mult": 100.0,
+              "p_per_kill_this_mob": 0.01
+            },
+            {
+              "item_id": 725,
+              "aegis": "Red_Jewel",
+              "name": "Sardonyx",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 10,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.005
+            }
+          ]
+        },
+        {
+          "mob_id": 2723,
+          "aegis": "C5_ORC_ZOMBIE",
+          "name": "Elusive Orc Zombie",
+          "amount": 2,
+          "weight": 0.0164,
+          "level": 51,
+          "hp": 7930,
+          "race": "Undead",
+          "element": "Undead",
+          "drop_count": 4,
+          "drops": [
+            {
+              "item_id": 1043,
+              "aegis": "Nail_Of_Orc",
+              "name": "Orc Claw",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 10000,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 1.0
+            },
+            {
+              "item_id": 938,
+              "aegis": "Sticky_Mucus",
+              "name": "Sticky Mucus",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 7500,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 1.0
+            },
+            {
+              "item_id": 4071,
+              "aegis": "Orc_Zombie_Card",
+              "name": "Orc Zombie Card",
+              "type": "Card",
+              "bucket": "card",
+              "rate_raw": 5,
+              "rate_mult": 100.0,
+              "p_per_kill_this_mob": 0.05
+            },
+            {
+              "item_id": 714,
+              "aegis": "Emperium",
+              "name": "Emperium",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 5,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.0025
+            }
+          ]
+        }
+      ],
+      "drop_count": 30,
+      "drop_priced_count": 27,
+      "ev_atlantis_per_kill": 6920.96,
+      "ev_latam_per_kill": 9702.26,
+      "drops": [
+        {
+          "item_id": 938,
+          "aegis": "Sticky_Mucus",
+          "name": "Sticky Mucus",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 70,
+          "p_per_map_kill": 0.50819672,
+          "contributors": [
+            {
+              "mob_id": 1153,
+              "aegis": "ORC_ZOMBIE",
+              "amount": 80,
+              "weight": 0.6557,
+              "rate_raw": 1500,
+              "p_mob": 0.75,
+              "p_contrib": 0.491803
+            },
+            {
+              "mob_id": 2723,
+              "aegis": "C5_ORC_ZOMBIE",
+              "amount": 2,
+              "weight": 0.0164,
+              "rate_raw": 7500,
+              "p_mob": 1.0,
+              "p_contrib": 0.016393
+            }
+          ],
+          "atlantis_avg": 5113,
+          "atlantis_total_sold": 22391,
+          "latam_offers_median": 2000,
+          "ev_atlantis_per_kill": 2598.41,
+          "ev_latam_per_kill": 1016.39,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 913,
+          "aegis": "Tooth_Of_Bat",
+          "name": "Tooth of Bat",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 34,
+          "p_per_map_kill": 0.15368852,
+          "contributors": [
+            {
+              "mob_id": 1005,
+              "aegis": "FARMILIAR",
+              "amount": 15,
+              "weight": 0.123,
+              "rate_raw": 2750,
+              "p_mob": 1.0,
+              "p_contrib": 0.122951
+            },
+            {
+              "mob_id": 1111,
+              "aegis": "DRAINLIAR",
+              "amount": 5,
+              "weight": 0.041,
+              "rate_raw": 1500,
+              "p_mob": 0.75,
+              "p_contrib": 0.030738
+            }
+          ],
+          "atlantis_avg": 9435,
+          "atlantis_total_sold": 108,
+          "latam_offers_median": 14960,
+          "ev_atlantis_per_kill": 1450.05,
+          "ev_latam_per_kill": 2299.18,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 4071,
+          "aegis": "Orc_Zombie_Card",
+          "name": "Orc Zombie Card",
+          "type": "Card",
+          "bucket": "card",
+          "npc_buy": 20,
+          "p_per_map_kill": 0.00737705,
+          "contributors": [
+            {
+              "mob_id": 1153,
+              "aegis": "ORC_ZOMBIE",
+              "amount": 80,
+              "weight": 0.6557,
+              "rate_raw": 1,
+              "p_mob": 0.01,
+              "p_contrib": 0.006557
+            },
+            {
+              "mob_id": 2723,
+              "aegis": "C5_ORC_ZOMBIE",
+              "amount": 2,
+              "weight": 0.0164,
+              "rate_raw": 5,
+              "p_mob": 0.05,
+              "p_contrib": 0.00082
+            }
+          ],
+          "atlantis_avg": 194309,
+          "atlantis_total_sold": 961,
+          "latam_offers_median": 500000,
+          "ev_atlantis_per_kill": 1433.43,
+          "ev_latam_per_kill": 3688.52,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 4085,
+          "aegis": "Orc_Skeleton_Card",
+          "name": "Orc Skeleton Card",
+          "type": "Card",
+          "bucket": "card",
+          "npc_buy": 20,
+          "p_per_map_kill": 0.00081967,
+          "contributors": [
+            {
+              "mob_id": 1152,
+              "aegis": "ORC_SKELETON",
+              "amount": 10,
+              "weight": 0.082,
+              "rate_raw": 1,
+              "p_mob": 0.01,
+              "p_contrib": 0.00082
+            }
+          ],
+          "atlantis_avg": 829206,
+          "atlantis_total_sold": 951,
+          "latam_offers_median": 750000,
+          "ev_atlantis_per_kill": 679.68,
+          "ev_latam_per_kill": 614.75,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 2209,
+          "aegis": "Ribbon_",
+          "name": "Ribbon",
+          "type": "Armor",
+          "bucket": "equip",
+          "npc_buy": 800,
+          "p_per_map_kill": 0.00147541,
+          "contributors": [
+            {
+              "mob_id": 1005,
+              "aegis": "FARMILIAR",
+              "amount": 15,
+              "weight": 0.123,
+              "rate_raw": 8,
+              "p_mob": 0.012,
+              "p_contrib": 0.001475
+            }
+          ],
+          "atlantis_avg": 226774,
+          "atlantis_total_sold": 717,
+          "latam_offers_median": 200000,
+          "ev_atlantis_per_kill": 334.58,
+          "ev_latam_per_kill": 295.08,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 507,
+          "aegis": "Red_Herb",
+          "name": "Red Herb",
+          "type": "Healing",
+          "bucket": "heal",
+          "npc_buy": 18,
+          "p_per_map_kill": 0.08196721,
+          "contributors": [
+            {
+              "mob_id": 1005,
+              "aegis": "FARMILIAR",
+              "amount": 15,
+              "weight": 0.123,
+              "rate_raw": 350,
+              "p_mob": 0.35,
+              "p_contrib": 0.043033
+            },
+            {
+              "mob_id": 1111,
+              "aegis": "DRAINLIAR",
+              "amount": 5,
+              "weight": 0.041,
+              "rate_raw": 950,
+              "p_mob": 0.95,
+              "p_contrib": 0.038934
+            }
+          ],
+          "atlantis_avg": 1239,
+          "atlantis_total_sold": 159474,
+          "latam_offers_median": 1399,
+          "ev_atlantis_per_kill": 101.56,
+          "ev_latam_per_kill": 114.67,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 1358,
+          "aegis": "Buster_",
+          "name": "Buster",
+          "type": "Weapon",
+          "bucket": "equip",
+          "npc_buy": 34000,
+          "p_per_map_kill": 0.00061475,
+          "contributors": [
+            {
+              "mob_id": 1152,
+              "aegis": "ORC_SKELETON",
+              "amount": 10,
+              "weight": 0.082,
+              "rate_raw": 5,
+              "p_mob": 0.0075,
+              "p_contrib": 0.000615
+            }
+          ],
+          "atlantis_avg": 110522,
+          "atlantis_total_sold": 273,
+          "latam_offers_median": 149000,
+          "ev_atlantis_per_kill": 67.94,
+          "ev_latam_per_kill": 91.6,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 935,
+          "aegis": "Shell",
+          "name": "Shell",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 14,
+          "p_per_map_kill": 0.08196721,
+          "contributors": [
+            {
+              "mob_id": 1042,
+              "aegis": "STEEL_CHONCHON",
+              "amount": 10,
+              "weight": 0.082,
+              "rate_raw": 4500,
+              "p_mob": 1.0,
+              "p_contrib": 0.081967
+            }
+          ],
+          "atlantis_avg": 805,
+          "atlantis_total_sold": 36374,
+          "latam_offers_median": 3500,
+          "ev_atlantis_per_kill": 65.98,
+          "ev_latam_per_kill": 286.89,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 714,
+          "aegis": "Emperium",
+          "name": "Emperium",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 2,
+          "p_per_map_kill": 0.00036885,
+          "contributors": [
+            {
+              "mob_id": 1153,
+              "aegis": "ORC_ZOMBIE",
+              "amount": 80,
+              "weight": 0.6557,
+              "rate_raw": 1,
+              "p_mob": 0.0005,
+              "p_contrib": 0.000328
+            },
+            {
+              "mob_id": 2723,
+              "aegis": "C5_ORC_ZOMBIE",
+              "amount": 2,
+              "weight": 0.0164,
+              "rate_raw": 5,
+              "p_mob": 0.0025,
+              "p_contrib": 4.1e-05
+            }
+          ],
+          "atlantis_avg": 122109,
+          "atlantis_total_sold": 9939,
+          "latam_offers_median": 169999,
+          "ev_atlantis_per_kill": 45.04,
+          "ev_latam_per_kill": 62.7,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 932,
+          "aegis": "Skel_Bone",
+          "name": "Skel-Bone",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 232,
+          "p_per_map_kill": 0.07172131,
+          "contributors": [
+            {
+              "mob_id": 1152,
+              "aegis": "ORC_SKELETON",
+              "amount": 10,
+              "weight": 0.082,
+              "rate_raw": 1750,
+              "p_mob": 0.875,
+              "p_contrib": 0.071721
+            }
+          ],
+          "atlantis_avg": 588,
+          "atlantis_total_sold": 197156,
+          "latam_offers_median": 222,
+          "ev_atlantis_per_kill": 42.17,
+          "ev_latam_per_kill": 15.92,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 514,
+          "aegis": "Grape",
+          "name": "Grape",
+          "type": "Healing",
+          "bucket": "heal",
+          "npc_buy": 200,
+          "p_per_map_kill": 0.00614754,
+          "contributors": [
+            {
+              "mob_id": 1005,
+              "aegis": "FARMILIAR",
+              "amount": 15,
+              "weight": 0.123,
+              "rate_raw": 50,
+              "p_mob": 0.05,
+              "p_contrib": 0.006148
+            }
+          ],
+          "atlantis_avg": 6489,
+          "atlantis_total_sold": 139299,
+          "latam_offers_median": null,
+          "ev_atlantis_per_kill": 39.89,
+          "ev_latam_per_kill": null,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 943,
+          "aegis": "Solid_Shell",
+          "name": "Solid Shell",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 448,
+          "p_per_map_kill": 0.00061475,
+          "contributors": [
+            {
+              "mob_id": 1042,
+              "aegis": "STEEL_CHONCHON",
+              "amount": 10,
+              "weight": 0.082,
+              "rate_raw": 15,
+              "p_mob": 0.0075,
+              "p_contrib": 0.000615
+            }
+          ],
+          "atlantis_avg": 19779,
+          "atlantis_total_sold": 691,
+          "latam_offers_median": 1000,
+          "ev_atlantis_per_kill": 12.16,
+          "ev_latam_per_kill": 0.61,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 601,
+          "aegis": "Wing_Of_Fly",
+          "name": "Fly Wing",
+          "type": "DelayConsume",
+          "bucket": "common",
+          "npc_buy": 250,
+          "p_per_map_kill": 0.06147541,
+          "contributors": [
+            {
+              "mob_id": 1005,
+              "aegis": "FARMILIAR",
+              "amount": 15,
+              "weight": 0.123,
+              "rate_raw": 500,
+              "p_mob": 0.25,
+              "p_contrib": 0.030738
+            },
+            {
+              "mob_id": 1042,
+              "aegis": "STEEL_CHONCHON",
+              "amount": 10,
+              "weight": 0.082,
+              "rate_raw": 500,
+              "p_mob": 0.25,
+              "p_contrib": 0.020492
+            },
+            {
+              "mob_id": 1111,
+              "aegis": "DRAINLIAR",
+              "amount": 5,
+              "weight": 0.041,
+              "rate_raw": 500,
+              "p_mob": 0.25,
+              "p_contrib": 0.010246
+            }
+          ],
+          "atlantis_avg": 179,
+          "atlantis_total_sold": 1994437,
+          "latam_offers_median": 300,
+          "ev_atlantis_per_kill": 11.0,
+          "ev_latam_per_kill": 18.44,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 2299,
+          "aegis": "Viking_Helm",
+          "name": "Orc Helm",
+          "type": "Armor",
+          "bucket": "equip",
+          "npc_buy": 20,
+          "p_per_map_kill": 0.00012295,
+          "contributors": [
+            {
+              "mob_id": 1152,
+              "aegis": "ORC_SKELETON",
+              "amount": 10,
+              "weight": 0.082,
+              "rate_raw": 1,
+              "p_mob": 0.0015,
+              "p_contrib": 0.000123
+            }
+          ],
+          "atlantis_avg": 74739,
+          "atlantis_total_sold": 398,
+          "latam_offers_median": 99999,
+          "ev_atlantis_per_kill": 9.19,
+          "ev_latam_per_kill": 12.29,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 992,
+          "aegis": "Wind_Of_Verdure",
+          "name": "Wind of Verdure",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 1000,
+          "p_per_map_kill": 0.00184426,
+          "contributors": [
+            {
+              "mob_id": 1042,
+              "aegis": "STEEL_CHONCHON",
+              "amount": 10,
+              "weight": 0.082,
+              "rate_raw": 45,
+              "p_mob": 0.0225,
+              "p_contrib": 0.001844
+            }
+          ],
+          "atlantis_avg": 4972,
+          "atlantis_total_sold": 106026,
+          "latam_offers_median": 2899,
+          "ev_atlantis_per_kill": 9.17,
+          "ev_latam_per_kill": 5.35,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 757,
+          "aegis": "Elunium_Stone",
+          "name": "Rough Elunium",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 650,
+          "p_per_map_kill": 0.00163934,
+          "contributors": [
+            {
+              "mob_id": 1152,
+              "aegis": "ORC_SKELETON",
+              "amount": 10,
+              "weight": 0.082,
+              "rate_raw": 40,
+              "p_mob": 0.02,
+              "p_contrib": 0.001639
+            }
+          ],
+          "atlantis_avg": 3688,
+          "atlantis_total_sold": 17213,
+          "latam_offers_median": 1000,
+          "ev_atlantis_per_kill": 6.05,
+          "ev_latam_per_kill": 1.64,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 910,
+          "aegis": "Garlet",
+          "name": "Garlet",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 30,
+          "p_per_map_kill": 0.04918033,
+          "contributors": [
+            {
+              "mob_id": 1042,
+              "aegis": "STEEL_CHONCHON",
+              "amount": 10,
+              "weight": 0.082,
+              "rate_raw": 1200,
+              "p_mob": 0.6,
+              "p_contrib": 0.04918
+            }
+          ],
+          "atlantis_avg": 75,
+          "atlantis_total_sold": 1063,
+          "latam_offers_median": 2500,
+          "ev_atlantis_per_kill": 3.69,
+          "ev_latam_per_kill": 122.95,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 999,
+          "aegis": "Steel",
+          "name": "Steel",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 1000,
+          "p_per_map_kill": 0.00061475,
+          "contributors": [
+            {
+              "mob_id": 1042,
+              "aegis": "STEEL_CHONCHON",
+              "amount": 10,
+              "weight": 0.082,
+              "rate_raw": 15,
+              "p_mob": 0.0075,
+              "p_contrib": 0.000615
+            }
+          ],
+          "atlantis_avg": 5614,
+          "atlantis_total_sold": 574173,
+          "latam_offers_median": 6000,
+          "ev_atlantis_per_kill": 3.45,
+          "ev_latam_per_kill": 3.69,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 998,
+          "aegis": "Iron",
+          "name": "Iron",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 100,
+          "p_per_map_kill": 0.00409836,
+          "contributors": [
+            {
+              "mob_id": 1042,
+              "aegis": "STEEL_CHONCHON",
+              "amount": 10,
+              "weight": 0.082,
+              "rate_raw": 100,
+              "p_mob": 0.05,
+              "p_contrib": 0.004098
+            }
+          ],
+          "atlantis_avg": 622,
+          "atlantis_total_sold": 65827,
+          "latam_offers_median": 8200,
+          "ev_atlantis_per_kill": 2.55,
+          "ev_latam_per_kill": 33.61,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 645,
+          "aegis": "Center_Potion",
+          "name": "Concentration Potion",
+          "type": "Usable",
+          "bucket": "use",
+          "npc_buy": 1200,
+          "p_per_map_kill": 0.00307377,
+          "contributors": [
+            {
+              "mob_id": 1005,
+              "aegis": "FARMILIAR",
+              "amount": 15,
+              "weight": 0.123,
+              "rate_raw": 25,
+              "p_mob": 0.025,
+              "p_contrib": 0.003074
+            }
+          ],
+          "atlantis_avg": 731,
+          "atlantis_total_sold": 5765,
+          "latam_offers_median": 1050,
+          "ev_atlantis_per_kill": 2.25,
+          "ev_latam_per_kill": 3.23,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 756,
+          "aegis": "Oridecon_Stone",
+          "name": "Rough Oridecon",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 550,
+          "p_per_map_kill": 0.00040984,
+          "contributors": [
+            {
+              "mob_id": 1111,
+              "aegis": "DRAINLIAR",
+              "amount": 5,
+              "weight": 0.041,
+              "rate_raw": 20,
+              "p_mob": 0.01,
+              "p_contrib": 0.00041
+            }
+          ],
+          "atlantis_avg": 4006,
+          "atlantis_total_sold": 65283,
+          "latam_offers_median": 8490,
+          "ev_atlantis_per_kill": 1.64,
+          "ev_latam_per_kill": 3.48,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 511,
+          "aegis": "Green_Herb",
+          "name": "Green Herb",
+          "type": "Healing",
+          "bucket": "heal",
+          "npc_buy": 10,
+          "p_per_map_kill": 0.00204918,
+          "contributors": [
+            {
+              "mob_id": 1152,
+              "aegis": "ORC_SKELETON",
+              "amount": 10,
+              "weight": 0.082,
+              "rate_raw": 25,
+              "p_mob": 0.025,
+              "p_contrib": 0.002049
+            }
+          ],
+          "atlantis_avg": 525,
+          "atlantis_total_sold": 3373812,
+          "latam_offers_median": 1499,
+          "ev_atlantis_per_kill": 1.08,
+          "ev_latam_per_kill": 3.07,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 1043,
+          "aegis": "Nail_Of_Orc",
+          "name": "Orc Claw",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 168,
+          "p_per_map_kill": 0.67213115,
+          "contributors": [
+            {
+              "mob_id": 1153,
+              "aegis": "ORC_ZOMBIE",
+              "amount": 80,
+              "weight": 0.6557,
+              "rate_raw": 2750,
+              "p_mob": 1.0,
+              "p_contrib": 0.655738
+            },
+            {
+              "mob_id": 2723,
+              "aegis": "C5_ORC_ZOMBIE",
+              "amount": 2,
+              "weight": 0.0164,
+              "rate_raw": 10000,
+              "p_mob": 1.0,
+              "p_contrib": 0.016393
+            }
+          ],
+          "atlantis_avg": null,
+          "atlantis_total_sold": null,
+          "latam_offers_median": 1500,
+          "ev_atlantis_per_kill": null,
+          "ev_latam_per_kill": 1008.2,
+          "in_atlantis": false,
+          "in_latam": true,
+          "in_grindable": false
+        },
+        {
+          "item_id": 922,
+          "aegis": "Orcish_Cuspid",
+          "name": "Orc's Fang",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 220,
+          "p_per_map_kill": 0.08196721,
+          "contributors": [
+            {
+              "mob_id": 1152,
+              "aegis": "ORC_SKELETON",
+              "amount": 10,
+              "weight": 0.082,
+              "rate_raw": 2750,
+              "p_mob": 1.0,
+              "p_contrib": 0.081967
+            }
+          ],
+          "atlantis_avg": null,
+          "atlantis_total_sold": null,
+          "latam_offers_median": null,
+          "ev_atlantis_per_kill": null,
+          "ev_latam_per_kill": null,
+          "in_atlantis": false,
+          "in_latam": true,
+          "in_grindable": false
+        },
+        {
+          "item_id": 7006,
+          "aegis": "Wing_Of_Red_Bat",
+          "name": "Wing of Red Bat",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 168,
+          "p_per_map_kill": 0.04098361,
+          "contributors": [
+            {
+              "mob_id": 1111,
+              "aegis": "DRAINLIAR",
+              "amount": 5,
+              "weight": 0.041,
+              "rate_raw": 2750,
+              "p_mob": 1.0,
+              "p_contrib": 0.040984
+            }
+          ],
+          "atlantis_avg": null,
+          "atlantis_total_sold": null,
+          "latam_offers_median": null,
+          "ev_atlantis_per_kill": null,
+          "ev_latam_per_kill": null,
+          "in_atlantis": false,
+          "in_latam": false,
+          "in_grindable": false
+        },
+        {
+          "item_id": 1105,
+          "aegis": "Falchion_",
+          "name": "Falchion",
+          "type": "Weapon",
+          "bucket": "equip",
+          "npc_buy": 1500,
+          "p_per_map_kill": 0.00184426,
+          "contributors": [
+            {
+              "mob_id": 1005,
+              "aegis": "FARMILIAR",
+              "amount": 15,
+              "weight": 0.123,
+              "rate_raw": 10,
+              "p_mob": 0.015,
+              "p_contrib": 0.001844
+            }
+          ],
+          "atlantis_avg": null,
+          "atlantis_total_sold": null,
+          "latam_offers_median": null,
+          "ev_atlantis_per_kill": null,
+          "ev_latam_per_kill": null,
+          "in_atlantis": false,
+          "in_latam": false,
+          "in_grindable": false
+        },
+        {
+          "item_id": 4020,
+          "aegis": "Farmiliar_Card",
+          "name": "Familiar Card",
+          "type": "Card",
+          "bucket": "card",
+          "npc_buy": 20,
+          "p_per_map_kill": 0.00122951,
+          "contributors": [
+            {
+              "mob_id": 1005,
+              "aegis": "FARMILIAR",
+              "amount": 15,
+              "weight": 0.123,
+              "rate_raw": 1,
+              "p_mob": 0.01,
+              "p_contrib": 0.00123
+            }
+          ],
+          "atlantis_avg": null,
+          "atlantis_total_sold": null,
+          "latam_offers_median": null,
+          "ev_atlantis_per_kill": null,
+          "ev_latam_per_kill": null,
+          "in_atlantis": false,
+          "in_latam": true,
+          "in_grindable": false
+        },
+        {
+          "item_id": 4042,
+          "aegis": "Steel_Chonchon_Card",
+          "name": "Steel Chonchon Card",
+          "type": "Card",
+          "bucket": "card",
+          "npc_buy": 20,
+          "p_per_map_kill": 0.00081967,
+          "contributors": [
+            {
+              "mob_id": 1042,
+              "aegis": "STEEL_CHONCHON",
+              "amount": 10,
+              "weight": 0.082,
+              "rate_raw": 1,
+              "p_mob": 0.01,
+              "p_contrib": 0.00082
+            }
+          ],
+          "atlantis_avg": null,
+          "atlantis_total_sold": null,
+          "latam_offers_median": null,
+          "ev_atlantis_per_kill": null,
+          "ev_latam_per_kill": null,
+          "in_atlantis": false,
+          "in_latam": false,
+          "in_grindable": false
+        },
+        {
+          "item_id": 4069,
+          "aegis": "Drainliar_Card",
+          "name": "Drainliar Card",
+          "type": "Card",
+          "bucket": "card",
+          "npc_buy": 20,
+          "p_per_map_kill": 0.00040984,
+          "contributors": [
+            {
+              "mob_id": 1111,
+              "aegis": "DRAINLIAR",
+              "amount": 5,
+              "weight": 0.041,
+              "rate_raw": 1,
+              "p_mob": 0.01,
+              "p_contrib": 0.00041
+            }
+          ],
+          "atlantis_avg": null,
+          "atlantis_total_sold": null,
+          "latam_offers_median": null,
+          "ev_atlantis_per_kill": null,
+          "ev_latam_per_kill": null,
+          "in_atlantis": false,
+          "in_latam": true,
+          "in_grindable": false
+        },
+        {
+          "item_id": 725,
+          "aegis": "Red_Jewel",
+          "name": "Sardonyx",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 6000,
+          "p_per_map_kill": 0.00020492,
+          "contributors": [
+            {
+              "mob_id": 1111,
+              "aegis": "DRAINLIAR",
+              "amount": 5,
+              "weight": 0.041,
+              "rate_raw": 10,
+              "p_mob": 0.005,
+              "p_contrib": 0.000205
+            }
+          ],
+          "atlantis_avg": null,
+          "atlantis_total_sold": null,
+          "latam_offers_median": null,
+          "ev_atlantis_per_kill": null,
+          "ev_latam_per_kill": null,
+          "in_atlantis": false,
+          "in_latam": true,
+          "in_grindable": false
+        }
+      ],
+      "drops_top20": [
+        {
+          "item_id": 938,
+          "aegis": "Sticky_Mucus",
+          "name": "Sticky Mucus",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 70,
+          "p_per_map_kill": 0.50819672,
+          "contributors": [
+            {
+              "mob_id": 1153,
+              "aegis": "ORC_ZOMBIE",
+              "amount": 80,
+              "weight": 0.6557,
+              "rate_raw": 1500,
+              "p_mob": 0.75,
+              "p_contrib": 0.491803
+            },
+            {
+              "mob_id": 2723,
+              "aegis": "C5_ORC_ZOMBIE",
+              "amount": 2,
+              "weight": 0.0164,
+              "rate_raw": 7500,
+              "p_mob": 1.0,
+              "p_contrib": 0.016393
+            }
+          ],
+          "atlantis_avg": 5113,
+          "atlantis_total_sold": 22391,
+          "latam_offers_median": 2000,
+          "ev_atlantis_per_kill": 2598.41,
+          "ev_latam_per_kill": 1016.39,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 913,
+          "aegis": "Tooth_Of_Bat",
+          "name": "Tooth of Bat",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 34,
+          "p_per_map_kill": 0.15368852,
+          "contributors": [
+            {
+              "mob_id": 1005,
+              "aegis": "FARMILIAR",
+              "amount": 15,
+              "weight": 0.123,
+              "rate_raw": 2750,
+              "p_mob": 1.0,
+              "p_contrib": 0.122951
+            },
+            {
+              "mob_id": 1111,
+              "aegis": "DRAINLIAR",
+              "amount": 5,
+              "weight": 0.041,
+              "rate_raw": 1500,
+              "p_mob": 0.75,
+              "p_contrib": 0.030738
+            }
+          ],
+          "atlantis_avg": 9435,
+          "atlantis_total_sold": 108,
+          "latam_offers_median": 14960,
+          "ev_atlantis_per_kill": 1450.05,
+          "ev_latam_per_kill": 2299.18,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 4071,
+          "aegis": "Orc_Zombie_Card",
+          "name": "Orc Zombie Card",
+          "type": "Card",
+          "bucket": "card",
+          "npc_buy": 20,
+          "p_per_map_kill": 0.00737705,
+          "contributors": [
+            {
+              "mob_id": 1153,
+              "aegis": "ORC_ZOMBIE",
+              "amount": 80,
+              "weight": 0.6557,
+              "rate_raw": 1,
+              "p_mob": 0.01,
+              "p_contrib": 0.006557
+            },
+            {
+              "mob_id": 2723,
+              "aegis": "C5_ORC_ZOMBIE",
+              "amount": 2,
+              "weight": 0.0164,
+              "rate_raw": 5,
+              "p_mob": 0.05,
+              "p_contrib": 0.00082
+            }
+          ],
+          "atlantis_avg": 194309,
+          "atlantis_total_sold": 961,
+          "latam_offers_median": 500000,
+          "ev_atlantis_per_kill": 1433.43,
+          "ev_latam_per_kill": 3688.52,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 4085,
+          "aegis": "Orc_Skeleton_Card",
+          "name": "Orc Skeleton Card",
+          "type": "Card",
+          "bucket": "card",
+          "npc_buy": 20,
+          "p_per_map_kill": 0.00081967,
+          "contributors": [
+            {
+              "mob_id": 1152,
+              "aegis": "ORC_SKELETON",
+              "amount": 10,
+              "weight": 0.082,
+              "rate_raw": 1,
+              "p_mob": 0.01,
+              "p_contrib": 0.00082
+            }
+          ],
+          "atlantis_avg": 829206,
+          "atlantis_total_sold": 951,
+          "latam_offers_median": 750000,
+          "ev_atlantis_per_kill": 679.68,
+          "ev_latam_per_kill": 614.75,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 2209,
+          "aegis": "Ribbon_",
+          "name": "Ribbon",
+          "type": "Armor",
+          "bucket": "equip",
+          "npc_buy": 800,
+          "p_per_map_kill": 0.00147541,
+          "contributors": [
+            {
+              "mob_id": 1005,
+              "aegis": "FARMILIAR",
+              "amount": 15,
+              "weight": 0.123,
+              "rate_raw": 8,
+              "p_mob": 0.012,
+              "p_contrib": 0.001475
+            }
+          ],
+          "atlantis_avg": 226774,
+          "atlantis_total_sold": 717,
+          "latam_offers_median": 200000,
+          "ev_atlantis_per_kill": 334.58,
+          "ev_latam_per_kill": 295.08,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 507,
+          "aegis": "Red_Herb",
+          "name": "Red Herb",
+          "type": "Healing",
+          "bucket": "heal",
+          "npc_buy": 18,
+          "p_per_map_kill": 0.08196721,
+          "contributors": [
+            {
+              "mob_id": 1005,
+              "aegis": "FARMILIAR",
+              "amount": 15,
+              "weight": 0.123,
+              "rate_raw": 350,
+              "p_mob": 0.35,
+              "p_contrib": 0.043033
+            },
+            {
+              "mob_id": 1111,
+              "aegis": "DRAINLIAR",
+              "amount": 5,
+              "weight": 0.041,
+              "rate_raw": 950,
+              "p_mob": 0.95,
+              "p_contrib": 0.038934
+            }
+          ],
+          "atlantis_avg": 1239,
+          "atlantis_total_sold": 159474,
+          "latam_offers_median": 1399,
+          "ev_atlantis_per_kill": 101.56,
+          "ev_latam_per_kill": 114.67,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 1358,
+          "aegis": "Buster_",
+          "name": "Buster",
+          "type": "Weapon",
+          "bucket": "equip",
+          "npc_buy": 34000,
+          "p_per_map_kill": 0.00061475,
+          "contributors": [
+            {
+              "mob_id": 1152,
+              "aegis": "ORC_SKELETON",
+              "amount": 10,
+              "weight": 0.082,
+              "rate_raw": 5,
+              "p_mob": 0.0075,
+              "p_contrib": 0.000615
+            }
+          ],
+          "atlantis_avg": 110522,
+          "atlantis_total_sold": 273,
+          "latam_offers_median": 149000,
+          "ev_atlantis_per_kill": 67.94,
+          "ev_latam_per_kill": 91.6,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 935,
+          "aegis": "Shell",
+          "name": "Shell",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 14,
+          "p_per_map_kill": 0.08196721,
+          "contributors": [
+            {
+              "mob_id": 1042,
+              "aegis": "STEEL_CHONCHON",
+              "amount": 10,
+              "weight": 0.082,
+              "rate_raw": 4500,
+              "p_mob": 1.0,
+              "p_contrib": 0.081967
+            }
+          ],
+          "atlantis_avg": 805,
+          "atlantis_total_sold": 36374,
+          "latam_offers_median": 3500,
+          "ev_atlantis_per_kill": 65.98,
+          "ev_latam_per_kill": 286.89,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 714,
+          "aegis": "Emperium",
+          "name": "Emperium",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 2,
+          "p_per_map_kill": 0.00036885,
+          "contributors": [
+            {
+              "mob_id": 1153,
+              "aegis": "ORC_ZOMBIE",
+              "amount": 80,
+              "weight": 0.6557,
+              "rate_raw": 1,
+              "p_mob": 0.0005,
+              "p_contrib": 0.000328
+            },
+            {
+              "mob_id": 2723,
+              "aegis": "C5_ORC_ZOMBIE",
+              "amount": 2,
+              "weight": 0.0164,
+              "rate_raw": 5,
+              "p_mob": 0.0025,
+              "p_contrib": 4.1e-05
+            }
+          ],
+          "atlantis_avg": 122109,
+          "atlantis_total_sold": 9939,
+          "latam_offers_median": 169999,
+          "ev_atlantis_per_kill": 45.04,
+          "ev_latam_per_kill": 62.7,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 932,
+          "aegis": "Skel_Bone",
+          "name": "Skel-Bone",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 232,
+          "p_per_map_kill": 0.07172131,
+          "contributors": [
+            {
+              "mob_id": 1152,
+              "aegis": "ORC_SKELETON",
+              "amount": 10,
+              "weight": 0.082,
+              "rate_raw": 1750,
+              "p_mob": 0.875,
+              "p_contrib": 0.071721
+            }
+          ],
+          "atlantis_avg": 588,
+          "atlantis_total_sold": 197156,
+          "latam_offers_median": 222,
+          "ev_atlantis_per_kill": 42.17,
+          "ev_latam_per_kill": 15.92,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 514,
+          "aegis": "Grape",
+          "name": "Grape",
+          "type": "Healing",
+          "bucket": "heal",
+          "npc_buy": 200,
+          "p_per_map_kill": 0.00614754,
+          "contributors": [
+            {
+              "mob_id": 1005,
+              "aegis": "FARMILIAR",
+              "amount": 15,
+              "weight": 0.123,
+              "rate_raw": 50,
+              "p_mob": 0.05,
+              "p_contrib": 0.006148
+            }
+          ],
+          "atlantis_avg": 6489,
+          "atlantis_total_sold": 139299,
+          "latam_offers_median": null,
+          "ev_atlantis_per_kill": 39.89,
+          "ev_latam_per_kill": null,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 943,
+          "aegis": "Solid_Shell",
+          "name": "Solid Shell",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 448,
+          "p_per_map_kill": 0.00061475,
+          "contributors": [
+            {
+              "mob_id": 1042,
+              "aegis": "STEEL_CHONCHON",
+              "amount": 10,
+              "weight": 0.082,
+              "rate_raw": 15,
+              "p_mob": 0.0075,
+              "p_contrib": 0.000615
+            }
+          ],
+          "atlantis_avg": 19779,
+          "atlantis_total_sold": 691,
+          "latam_offers_median": 1000,
+          "ev_atlantis_per_kill": 12.16,
+          "ev_latam_per_kill": 0.61,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 601,
+          "aegis": "Wing_Of_Fly",
+          "name": "Fly Wing",
+          "type": "DelayConsume",
+          "bucket": "common",
+          "npc_buy": 250,
+          "p_per_map_kill": 0.06147541,
+          "contributors": [
+            {
+              "mob_id": 1005,
+              "aegis": "FARMILIAR",
+              "amount": 15,
+              "weight": 0.123,
+              "rate_raw": 500,
+              "p_mob": 0.25,
+              "p_contrib": 0.030738
+            },
+            {
+              "mob_id": 1042,
+              "aegis": "STEEL_CHONCHON",
+              "amount": 10,
+              "weight": 0.082,
+              "rate_raw": 500,
+              "p_mob": 0.25,
+              "p_contrib": 0.020492
+            },
+            {
+              "mob_id": 1111,
+              "aegis": "DRAINLIAR",
+              "amount": 5,
+              "weight": 0.041,
+              "rate_raw": 500,
+              "p_mob": 0.25,
+              "p_contrib": 0.010246
+            }
+          ],
+          "atlantis_avg": 179,
+          "atlantis_total_sold": 1994437,
+          "latam_offers_median": 300,
+          "ev_atlantis_per_kill": 11.0,
+          "ev_latam_per_kill": 18.44,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 2299,
+          "aegis": "Viking_Helm",
+          "name": "Orc Helm",
+          "type": "Armor",
+          "bucket": "equip",
+          "npc_buy": 20,
+          "p_per_map_kill": 0.00012295,
+          "contributors": [
+            {
+              "mob_id": 1152,
+              "aegis": "ORC_SKELETON",
+              "amount": 10,
+              "weight": 0.082,
+              "rate_raw": 1,
+              "p_mob": 0.0015,
+              "p_contrib": 0.000123
+            }
+          ],
+          "atlantis_avg": 74739,
+          "atlantis_total_sold": 398,
+          "latam_offers_median": 99999,
+          "ev_atlantis_per_kill": 9.19,
+          "ev_latam_per_kill": 12.29,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 992,
+          "aegis": "Wind_Of_Verdure",
+          "name": "Wind of Verdure",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 1000,
+          "p_per_map_kill": 0.00184426,
+          "contributors": [
+            {
+              "mob_id": 1042,
+              "aegis": "STEEL_CHONCHON",
+              "amount": 10,
+              "weight": 0.082,
+              "rate_raw": 45,
+              "p_mob": 0.0225,
+              "p_contrib": 0.001844
+            }
+          ],
+          "atlantis_avg": 4972,
+          "atlantis_total_sold": 106026,
+          "latam_offers_median": 2899,
+          "ev_atlantis_per_kill": 9.17,
+          "ev_latam_per_kill": 5.35,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 757,
+          "aegis": "Elunium_Stone",
+          "name": "Rough Elunium",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 650,
+          "p_per_map_kill": 0.00163934,
+          "contributors": [
+            {
+              "mob_id": 1152,
+              "aegis": "ORC_SKELETON",
+              "amount": 10,
+              "weight": 0.082,
+              "rate_raw": 40,
+              "p_mob": 0.02,
+              "p_contrib": 0.001639
+            }
+          ],
+          "atlantis_avg": 3688,
+          "atlantis_total_sold": 17213,
+          "latam_offers_median": 1000,
+          "ev_atlantis_per_kill": 6.05,
+          "ev_latam_per_kill": 1.64,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 910,
+          "aegis": "Garlet",
+          "name": "Garlet",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 30,
+          "p_per_map_kill": 0.04918033,
+          "contributors": [
+            {
+              "mob_id": 1042,
+              "aegis": "STEEL_CHONCHON",
+              "amount": 10,
+              "weight": 0.082,
+              "rate_raw": 1200,
+              "p_mob": 0.6,
+              "p_contrib": 0.04918
+            }
+          ],
+          "atlantis_avg": 75,
+          "atlantis_total_sold": 1063,
+          "latam_offers_median": 2500,
+          "ev_atlantis_per_kill": 3.69,
+          "ev_latam_per_kill": 122.95,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 999,
+          "aegis": "Steel",
+          "name": "Steel",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 1000,
+          "p_per_map_kill": 0.00061475,
+          "contributors": [
+            {
+              "mob_id": 1042,
+              "aegis": "STEEL_CHONCHON",
+              "amount": 10,
+              "weight": 0.082,
+              "rate_raw": 15,
+              "p_mob": 0.0075,
+              "p_contrib": 0.000615
+            }
+          ],
+          "atlantis_avg": 5614,
+          "atlantis_total_sold": 574173,
+          "latam_offers_median": 6000,
+          "ev_atlantis_per_kill": 3.45,
+          "ev_latam_per_kill": 3.69,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 998,
+          "aegis": "Iron",
+          "name": "Iron",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 100,
+          "p_per_map_kill": 0.00409836,
+          "contributors": [
+            {
+              "mob_id": 1042,
+              "aegis": "STEEL_CHONCHON",
+              "amount": 10,
+              "weight": 0.082,
+              "rate_raw": 100,
+              "p_mob": 0.05,
+              "p_contrib": 0.004098
+            }
+          ],
+          "atlantis_avg": 622,
+          "atlantis_total_sold": 65827,
+          "latam_offers_median": 8200,
+          "ev_atlantis_per_kill": 2.55,
+          "ev_latam_per_kill": 33.61,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 645,
+          "aegis": "Center_Potion",
+          "name": "Concentration Potion",
+          "type": "Usable",
+          "bucket": "use",
+          "npc_buy": 1200,
+          "p_per_map_kill": 0.00307377,
+          "contributors": [
+            {
+              "mob_id": 1005,
+              "aegis": "FARMILIAR",
+              "amount": 15,
+              "weight": 0.123,
+              "rate_raw": 25,
+              "p_mob": 0.025,
+              "p_contrib": 0.003074
+            }
+          ],
+          "atlantis_avg": 731,
+          "atlantis_total_sold": 5765,
+          "latam_offers_median": 1050,
+          "ev_atlantis_per_kill": 2.25,
+          "ev_latam_per_kill": 3.23,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        }
+      ],
+      "loot": {
+        "policy": "full",
+        "policy_reason": "oferta bot = mats/consumibles con precio; cards/equip quedan fuera del stock masivo (ver drops completos)",
+        "offer_drop_count": 19,
+        "ev_atlantis_per_kill_offer": 4385.14,
+        "ev_latam_per_kill_offer": 4981.58,
+        "ev_atlantis_per_kill_all_drops": 6920.96,
+        "ev_atlantis_per_kill_mats_only": 4385.14,
+        "card_count": 5,
+        "ev_atlantis_cards": 2113.11,
+        "offer_drops_top30": [
+          {
+            "item_id": 938,
+            "aegis": "Sticky_Mucus",
+            "name": "Sticky Mucus",
+            "type": "Etc",
+            "bucket": "common",
+            "npc_buy": 70,
+            "p_per_map_kill": 0.50819672,
+            "contributors": [
+              {
+                "mob_id": 1153,
+                "aegis": "ORC_ZOMBIE",
+                "amount": 80,
+                "weight": 0.6557,
+                "rate_raw": 1500,
+                "p_mob": 0.75,
+                "p_contrib": 0.491803
+              },
+              {
+                "mob_id": 2723,
+                "aegis": "C5_ORC_ZOMBIE",
+                "amount": 2,
+                "weight": 0.0164,
+                "rate_raw": 7500,
+                "p_mob": 1.0,
+                "p_contrib": 0.016393
+              }
+            ],
+            "atlantis_avg": 5113,
+            "atlantis_total_sold": 22391,
+            "latam_offers_median": 2000,
+            "ev_atlantis_per_kill": 2598.41,
+            "ev_latam_per_kill": 1016.39,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          },
+          {
+            "item_id": 913,
+            "aegis": "Tooth_Of_Bat",
+            "name": "Tooth of Bat",
+            "type": "Etc",
+            "bucket": "common",
+            "npc_buy": 34,
+            "p_per_map_kill": 0.15368852,
+            "contributors": [
+              {
+                "mob_id": 1005,
+                "aegis": "FARMILIAR",
+                "amount": 15,
+                "weight": 0.123,
+                "rate_raw": 2750,
+                "p_mob": 1.0,
+                "p_contrib": 0.122951
+              },
+              {
+                "mob_id": 1111,
+                "aegis": "DRAINLIAR",
+                "amount": 5,
+                "weight": 0.041,
+                "rate_raw": 1500,
+                "p_mob": 0.75,
+                "p_contrib": 0.030738
+              }
+            ],
+            "atlantis_avg": 9435,
+            "atlantis_total_sold": 108,
+            "latam_offers_median": 14960,
+            "ev_atlantis_per_kill": 1450.05,
+            "ev_latam_per_kill": 2299.18,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          },
+          {
+            "item_id": 507,
+            "aegis": "Red_Herb",
+            "name": "Red Herb",
+            "type": "Healing",
+            "bucket": "heal",
+            "npc_buy": 18,
+            "p_per_map_kill": 0.08196721,
+            "contributors": [
+              {
+                "mob_id": 1005,
+                "aegis": "FARMILIAR",
+                "amount": 15,
+                "weight": 0.123,
+                "rate_raw": 350,
+                "p_mob": 0.35,
+                "p_contrib": 0.043033
+              },
+              {
+                "mob_id": 1111,
+                "aegis": "DRAINLIAR",
+                "amount": 5,
+                "weight": 0.041,
+                "rate_raw": 950,
+                "p_mob": 0.95,
+                "p_contrib": 0.038934
+              }
+            ],
+            "atlantis_avg": 1239,
+            "atlantis_total_sold": 159474,
+            "latam_offers_median": 1399,
+            "ev_atlantis_per_kill": 101.56,
+            "ev_latam_per_kill": 114.67,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          },
+          {
+            "item_id": 935,
+            "aegis": "Shell",
+            "name": "Shell",
+            "type": "Etc",
+            "bucket": "common",
+            "npc_buy": 14,
+            "p_per_map_kill": 0.08196721,
+            "contributors": [
+              {
+                "mob_id": 1042,
+                "aegis": "STEEL_CHONCHON",
+                "amount": 10,
+                "weight": 0.082,
+                "rate_raw": 4500,
+                "p_mob": 1.0,
+                "p_contrib": 0.081967
+              }
+            ],
+            "atlantis_avg": 805,
+            "atlantis_total_sold": 36374,
+            "latam_offers_median": 3500,
+            "ev_atlantis_per_kill": 65.98,
+            "ev_latam_per_kill": 286.89,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          },
+          {
+            "item_id": 714,
+            "aegis": "Emperium",
+            "name": "Emperium",
+            "type": "Etc",
+            "bucket": "common",
+            "npc_buy": 2,
+            "p_per_map_kill": 0.00036885,
+            "contributors": [
+              {
+                "mob_id": 1153,
+                "aegis": "ORC_ZOMBIE",
+                "amount": 80,
+                "weight": 0.6557,
+                "rate_raw": 1,
+                "p_mob": 0.0005,
+                "p_contrib": 0.000328
+              },
+              {
+                "mob_id": 2723,
+                "aegis": "C5_ORC_ZOMBIE",
+                "amount": 2,
+                "weight": 0.0164,
+                "rate_raw": 5,
+                "p_mob": 0.0025,
+                "p_contrib": 4.1e-05
+              }
+            ],
+            "atlantis_avg": 122109,
+            "atlantis_total_sold": 9939,
+            "latam_offers_median": 169999,
+            "ev_atlantis_per_kill": 45.04,
+            "ev_latam_per_kill": 62.7,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          },
+          {
+            "item_id": 932,
+            "aegis": "Skel_Bone",
+            "name": "Skel-Bone",
+            "type": "Etc",
+            "bucket": "common",
+            "npc_buy": 232,
+            "p_per_map_kill": 0.07172131,
+            "contributors": [
+              {
+                "mob_id": 1152,
+                "aegis": "ORC_SKELETON",
+                "amount": 10,
+                "weight": 0.082,
+                "rate_raw": 1750,
+                "p_mob": 0.875,
+                "p_contrib": 0.071721
+              }
+            ],
+            "atlantis_avg": 588,
+            "atlantis_total_sold": 197156,
+            "latam_offers_median": 222,
+            "ev_atlantis_per_kill": 42.17,
+            "ev_latam_per_kill": 15.92,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          },
+          {
+            "item_id": 514,
+            "aegis": "Grape",
+            "name": "Grape",
+            "type": "Healing",
+            "bucket": "heal",
+            "npc_buy": 200,
+            "p_per_map_kill": 0.00614754,
+            "contributors": [
+              {
+                "mob_id": 1005,
+                "aegis": "FARMILIAR",
+                "amount": 15,
+                "weight": 0.123,
+                "rate_raw": 50,
+                "p_mob": 0.05,
+                "p_contrib": 0.006148
+              }
+            ],
+            "atlantis_avg": 6489,
+            "atlantis_total_sold": 139299,
+            "latam_offers_median": null,
+            "ev_atlantis_per_kill": 39.89,
+            "ev_latam_per_kill": null,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          },
+          {
+            "item_id": 943,
+            "aegis": "Solid_Shell",
+            "name": "Solid Shell",
+            "type": "Etc",
+            "bucket": "common",
+            "npc_buy": 448,
+            "p_per_map_kill": 0.00061475,
+            "contributors": [
+              {
+                "mob_id": 1042,
+                "aegis": "STEEL_CHONCHON",
+                "amount": 10,
+                "weight": 0.082,
+                "rate_raw": 15,
+                "p_mob": 0.0075,
+                "p_contrib": 0.000615
+              }
+            ],
+            "atlantis_avg": 19779,
+            "atlantis_total_sold": 691,
+            "latam_offers_median": 1000,
+            "ev_atlantis_per_kill": 12.16,
+            "ev_latam_per_kill": 0.61,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          },
+          {
+            "item_id": 992,
+            "aegis": "Wind_Of_Verdure",
+            "name": "Wind of Verdure",
+            "type": "Etc",
+            "bucket": "common",
+            "npc_buy": 1000,
+            "p_per_map_kill": 0.00184426,
+            "contributors": [
+              {
+                "mob_id": 1042,
+                "aegis": "STEEL_CHONCHON",
+                "amount": 10,
+                "weight": 0.082,
+                "rate_raw": 45,
+                "p_mob": 0.0225,
+                "p_contrib": 0.001844
+              }
+            ],
+            "atlantis_avg": 4972,
+            "atlantis_total_sold": 106026,
+            "latam_offers_median": 2899,
+            "ev_atlantis_per_kill": 9.17,
+            "ev_latam_per_kill": 5.35,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          },
+          {
+            "item_id": 757,
+            "aegis": "Elunium_Stone",
+            "name": "Rough Elunium",
+            "type": "Etc",
+            "bucket": "common",
+            "npc_buy": 650,
+            "p_per_map_kill": 0.00163934,
+            "contributors": [
+              {
+                "mob_id": 1152,
+                "aegis": "ORC_SKELETON",
+                "amount": 10,
+                "weight": 0.082,
+                "rate_raw": 40,
+                "p_mob": 0.02,
+                "p_contrib": 0.001639
+              }
+            ],
+            "atlantis_avg": 3688,
+            "atlantis_total_sold": 17213,
+            "latam_offers_median": 1000,
+            "ev_atlantis_per_kill": 6.05,
+            "ev_latam_per_kill": 1.64,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          },
+          {
+            "item_id": 910,
+            "aegis": "Garlet",
+            "name": "Garlet",
+            "type": "Etc",
+            "bucket": "common",
+            "npc_buy": 30,
+            "p_per_map_kill": 0.04918033,
+            "contributors": [
+              {
+                "mob_id": 1042,
+                "aegis": "STEEL_CHONCHON",
+                "amount": 10,
+                "weight": 0.082,
+                "rate_raw": 1200,
+                "p_mob": 0.6,
+                "p_contrib": 0.04918
+              }
+            ],
+            "atlantis_avg": 75,
+            "atlantis_total_sold": 1063,
+            "latam_offers_median": 2500,
+            "ev_atlantis_per_kill": 3.69,
+            "ev_latam_per_kill": 122.95,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          },
+          {
+            "item_id": 999,
+            "aegis": "Steel",
+            "name": "Steel",
+            "type": "Etc",
+            "bucket": "common",
+            "npc_buy": 1000,
+            "p_per_map_kill": 0.00061475,
+            "contributors": [
+              {
+                "mob_id": 1042,
+                "aegis": "STEEL_CHONCHON",
+                "amount": 10,
+                "weight": 0.082,
+                "rate_raw": 15,
+                "p_mob": 0.0075,
+                "p_contrib": 0.000615
+              }
+            ],
+            "atlantis_avg": 5614,
+            "atlantis_total_sold": 574173,
+            "latam_offers_median": 6000,
+            "ev_atlantis_per_kill": 3.45,
+            "ev_latam_per_kill": 3.69,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          },
+          {
+            "item_id": 998,
+            "aegis": "Iron",
+            "name": "Iron",
+            "type": "Etc",
+            "bucket": "common",
+            "npc_buy": 100,
+            "p_per_map_kill": 0.00409836,
+            "contributors": [
+              {
+                "mob_id": 1042,
+                "aegis": "STEEL_CHONCHON",
+                "amount": 10,
+                "weight": 0.082,
+                "rate_raw": 100,
+                "p_mob": 0.05,
+                "p_contrib": 0.004098
+              }
+            ],
+            "atlantis_avg": 622,
+            "atlantis_total_sold": 65827,
+            "latam_offers_median": 8200,
+            "ev_atlantis_per_kill": 2.55,
+            "ev_latam_per_kill": 33.61,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          },
+          {
+            "item_id": 645,
+            "aegis": "Center_Potion",
+            "name": "Concentration Potion",
+            "type": "Usable",
+            "bucket": "use",
+            "npc_buy": 1200,
+            "p_per_map_kill": 0.00307377,
+            "contributors": [
+              {
+                "mob_id": 1005,
+                "aegis": "FARMILIAR",
+                "amount": 15,
+                "weight": 0.123,
+                "rate_raw": 25,
+                "p_mob": 0.025,
+                "p_contrib": 0.003074
+              }
+            ],
+            "atlantis_avg": 731,
+            "atlantis_total_sold": 5765,
+            "latam_offers_median": 1050,
+            "ev_atlantis_per_kill": 2.25,
+            "ev_latam_per_kill": 3.23,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          },
+          {
+            "item_id": 756,
+            "aegis": "Oridecon_Stone",
+            "name": "Rough Oridecon",
+            "type": "Etc",
+            "bucket": "common",
+            "npc_buy": 550,
+            "p_per_map_kill": 0.00040984,
+            "contributors": [
+              {
+                "mob_id": 1111,
+                "aegis": "DRAINLIAR",
+                "amount": 5,
+                "weight": 0.041,
+                "rate_raw": 20,
+                "p_mob": 0.01,
+                "p_contrib": 0.00041
+              }
+            ],
+            "atlantis_avg": 4006,
+            "atlantis_total_sold": 65283,
+            "latam_offers_median": 8490,
+            "ev_atlantis_per_kill": 1.64,
+            "ev_latam_per_kill": 3.48,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          },
+          {
+            "item_id": 511,
+            "aegis": "Green_Herb",
+            "name": "Green Herb",
+            "type": "Healing",
+            "bucket": "heal",
+            "npc_buy": 10,
+            "p_per_map_kill": 0.00204918,
+            "contributors": [
+              {
+                "mob_id": 1152,
+                "aegis": "ORC_SKELETON",
+                "amount": 10,
+                "weight": 0.082,
+                "rate_raw": 25,
+                "p_mob": 0.025,
+                "p_contrib": 0.002049
+              }
+            ],
+            "atlantis_avg": 525,
+            "atlantis_total_sold": 3373812,
+            "latam_offers_median": 1499,
+            "ev_atlantis_per_kill": 1.08,
+            "ev_latam_per_kill": 3.07,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          },
+          {
+            "item_id": 1043,
+            "aegis": "Nail_Of_Orc",
+            "name": "Orc Claw",
+            "type": "Etc",
+            "bucket": "common",
+            "npc_buy": 168,
+            "p_per_map_kill": 0.67213115,
+            "contributors": [
+              {
+                "mob_id": 1153,
+                "aegis": "ORC_ZOMBIE",
+                "amount": 80,
+                "weight": 0.6557,
+                "rate_raw": 2750,
+                "p_mob": 1.0,
+                "p_contrib": 0.655738
+              },
+              {
+                "mob_id": 2723,
+                "aegis": "C5_ORC_ZOMBIE",
+                "amount": 2,
+                "weight": 0.0164,
+                "rate_raw": 10000,
+                "p_mob": 1.0,
+                "p_contrib": 0.016393
+              }
+            ],
+            "atlantis_avg": null,
+            "atlantis_total_sold": null,
+            "latam_offers_median": 1500,
+            "ev_atlantis_per_kill": null,
+            "ev_latam_per_kill": 1008.2,
+            "in_atlantis": false,
+            "in_latam": true,
+            "in_grindable": false
+          },
+          {
+            "item_id": 922,
+            "aegis": "Orcish_Cuspid",
+            "name": "Orc's Fang",
+            "type": "Etc",
+            "bucket": "common",
+            "npc_buy": 220,
+            "p_per_map_kill": 0.08196721,
+            "contributors": [
+              {
+                "mob_id": 1152,
+                "aegis": "ORC_SKELETON",
+                "amount": 10,
+                "weight": 0.082,
+                "rate_raw": 2750,
+                "p_mob": 1.0,
+                "p_contrib": 0.081967
+              }
+            ],
+            "atlantis_avg": null,
+            "atlantis_total_sold": null,
+            "latam_offers_median": null,
+            "ev_atlantis_per_kill": null,
+            "ev_latam_per_kill": null,
+            "in_atlantis": false,
+            "in_latam": true,
+            "in_grindable": false
+          },
+          {
+            "item_id": 725,
+            "aegis": "Red_Jewel",
+            "name": "Sardonyx",
+            "type": "Etc",
+            "bucket": "common",
+            "npc_buy": 6000,
+            "p_per_map_kill": 0.00020492,
+            "contributors": [
+              {
+                "mob_id": 1111,
+                "aegis": "DRAINLIAR",
+                "amount": 5,
+                "weight": 0.041,
+                "rate_raw": 10,
+                "p_mob": 0.005,
+                "p_contrib": 0.000205
+              }
+            ],
+            "atlantis_avg": null,
+            "atlantis_total_sold": null,
+            "latam_offers_median": null,
+            "ev_atlantis_per_kill": null,
+            "ev_latam_per_kill": null,
+            "in_atlantis": false,
+            "in_latam": true,
+            "in_grindable": false
+          }
+        ],
+        "offer_item_ids": [
+          938,
+          913,
+          507,
+          935,
+          714,
+          932,
+          514,
+          943,
+          992,
+          757,
+          910,
+          999,
+          998,
+          645,
+          756,
+          511,
+          1043,
+          922,
+          725
+        ],
+        "top_cards": [
+          {
+            "item_id": 4071,
+            "name": "Orc Zombie Card",
+            "p": 0.00737705,
+            "atlantis_avg": 194309,
+            "ev_at": 1433.43
+          },
+          {
+            "item_id": 4085,
+            "name": "Orc Skeleton Card",
+            "p": 0.00081967,
+            "atlantis_avg": 829206,
+            "ev_at": 679.68
+          },
+          {
+            "item_id": 4020,
+            "name": "Familiar Card",
+            "p": 0.00122951,
+            "atlantis_avg": null,
+            "ev_at": null
+          },
+          {
+            "item_id": 4042,
+            "name": "Steel Chonchon Card",
+            "p": 0.00081967,
+            "atlantis_avg": null,
+            "ev_at": null
+          },
+          {
+            "item_id": 4069,
+            "name": "Drainliar Card",
+            "p": 0.00040984,
+            "atlantis_avg": null,
+            "ev_at": null
+          }
+        ]
+      }
+    }
+  ]
+}

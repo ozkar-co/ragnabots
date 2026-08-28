@@ -1,5 +1,4 @@
 # RagnaBots — dependencias según se necesiten.
 # Instalar: pip install -r requirements.txt
-#
-# M0: vacío a propósito. Añadir paquetes en M1+ cuando los datos
-# dicten qué herramientas hacen falta.
+
+PyYAML>=6.0

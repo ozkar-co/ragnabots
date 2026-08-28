@@ -1,0 +1,965 @@
+{
+  "id": "02_pay_spore",
+  "label": "Campo Payon (spore)",
+  "tier_target": "novice",
+  "notes": "Segundo newbie; Spore/etc de Payon.",
+  "maps": [
+    "pay_fild08"
+  ],
+  "map_profiles": [
+    {
+      "map": "pay_fild08",
+      "tier": "novice",
+      "avg_level": 17.85,
+      "max_level": 18,
+      "avg_hp": 214,
+      "combat_amount": 210,
+      "hours_share": 1.0,
+      "kills": {
+        "t_kill_sec": 3.573,
+        "uptime": 1.0,
+        "kills_per_hour_combat": 1007.6,
+        "dead_time_frac": 0.2,
+        "kills_per_hour": 806.1
+      },
+      "costs": {
+        "zeny_cost_per_hour": 2743.34,
+        "zeny_cost_per_kill": 3.4032
+      },
+      "kills_per_day": 2821.3,
+      "mobs": [
+        {
+          "aegis": "SPORE",
+          "amount": 148,
+          "level": 18,
+          "hp": 223,
+          "weight": 0.7048
+        },
+        {
+          "aegis": "WORM_TAIL",
+          "amount": 31,
+          "level": 17,
+          "hp": 186,
+          "weight": 0.1476
+        },
+        {
+          "aegis": "SNAKE",
+          "amount": 31,
+          "level": 18,
+          "hp": 203,
+          "weight": 0.1476
+        }
+      ],
+      "drop_types_count": 19,
+      "ev_mats_offer_per_kill": 758.31,
+      "ev_mats_offer_per_day": 2139449.02,
+      "offer": {
+        "mats_for_sale": [
+          {
+            "item_id": 507,
+            "aegis": "Red_Herb",
+            "name": "Red Herb",
+            "type": "Healing",
+            "p_per_map_kill": 0.08228571,
+            "latam_price": 1399,
+            "latam_total_sold": 341095,
+            "has_offers": true,
+            "qty_per_day": 232.1568,
+            "score": 97166.65
+          },
+          {
+            "item_id": 578,
+            "aegis": "Strawberry",
+            "name": "Strawberry",
+            "type": "Healing",
+            "p_per_map_kill": 0.08657143,
+            "latam_price": 1299,
+            "latam_total_sold": 535834,
+            "has_offers": true,
+            "qty_per_day": 244.2483,
+            "score": 94286.17
+          },
+          {
+            "item_id": 921,
+            "aegis": "Mushroom_Spore",
+            "name": "Mushroom Spore",
+            "type": "Etc",
+            "p_per_map_kill": 0.56380952,
+            "latam_price": 900,
+            "latam_total_sold": 6653,
+            "has_offers": true,
+            "qty_per_day": 1590.704,
+            "score": 58410.41
+          },
+          {
+            "item_id": 937,
+            "aegis": "Posionous_Canine",
+            "name": "Venom Canine",
+            "type": "Etc",
+            "p_per_map_kill": 0.01180952,
+            "latam_price": 1288,
+            "latam_total_sold": 211174,
+            "has_offers": true,
+            "qty_per_day": 33.3188,
+            "score": 55833.72
+          },
+          {
+            "item_id": 1011,
+            "aegis": "Emveretarcon",
+            "name": "Emveretarcon",
+            "type": "Etc",
+            "p_per_map_kill": 0.0016681,
+            "latam_price": 4852,
+            "latam_total_sold": 76,
+            "has_offers": false,
+            "qty_per_day": 4.7063,
+            "score": 36705.57
+          }
+        ],
+        "mats_discarded_count": 4,
+        "mats_discarded_top10": [
+          {
+            "item_id": 993,
+            "name": "Green Live",
+            "price": 3198,
+            "qty_per_day": 1.2495,
+            "score": 25443.69
+          },
+          {
+            "item_id": 926,
+            "name": "Snake Scale",
+            "price": 500,
+            "qty_per_day": 333.188,
+            "score": 17791.06
+          },
+          {
+            "item_id": 508,
+            "name": "Yellow Herb",
+            "price": 1349,
+            "qty_per_day": 1.4577,
+            "score": 12656.99
+          },
+          {
+            "item_id": 7033,
+            "name": "Poison Spore",
+            "price": 400,
+            "qty_per_day": 1.9884,
+            "score": 5484.16
+          }
+        ],
+        "cards": [
+          {
+            "item_id": 4022,
+            "aegis": "Spore_Card",
+            "name": "Spore Card",
+            "type": "Card",
+            "p_per_map_kill": 0.00070476,
+            "latam_price": 50000,
+            "latam_total_sold": 27,
+            "has_offers": true,
+            "drop_per_day": 1.9884,
+            "sellable_per_day": 0.9942,
+            "ev_latam_per_day_if_sold": 49709.37
+          },
+          {
+            "item_id": 4037,
+            "aegis": "Snake_Card",
+            "name": "Snake Card",
+            "type": "Card",
+            "p_per_map_kill": 0.00014762,
+            "latam_price": 180000,
+            "latam_total_sold": 324,
+            "has_offers": true,
+            "drop_per_day": 0.4165,
+            "sellable_per_day": 0.2082,
+            "ev_latam_per_day_if_sold": 37483.89
+          },
+          {
+            "item_id": 4034,
+            "aegis": "Worm_Tail_Card",
+            "name": "Wormtail Card",
+            "type": "Card",
+            "p_per_map_kill": 1.476e-05,
+            "latam_price": 1000000,
+            "latam_total_sold": 4,
+            "has_offers": true,
+            "drop_per_day": 0.0416,
+            "sellable_per_day": 0.0208,
+            "ev_latam_per_day_if_sold": 20821.56
+          }
+        ],
+        "cards_junk_discarded": [],
+        "card_min_price": 0,
+        "card_policy": {
+          "sell_fraction": 0.5,
+          "shop_slots": 1,
+          "min_price": 0,
+          "note": "acumula sellable; shop máx 1 carta; junk bajo min_price descartado"
+        }
+      },
+      "projection": {
+        "1": {
+          "days": 1,
+          "kills": 2821.3,
+          "hours": 3.5,
+          "mats_stock": [
+            {
+              "item_id": 507,
+              "name": "Red Herb",
+              "qty": 232.16,
+              "price": 1399,
+              "stock_value": 324787.35
+            },
+            {
+              "item_id": 578,
+              "name": "Strawberry",
+              "qty": 244.25,
+              "price": 1299,
+              "stock_value": 317278.55
+            },
+            {
+              "item_id": 921,
+              "name": "Mushroom Spore",
+              "qty": 1590.7,
+              "price": 900,
+              "stock_value": 1431633.59
+            },
+            {
+              "item_id": 937,
+              "name": "Venom Canine",
+              "qty": 33.32,
+              "price": 1288,
+              "stock_value": 42914.6
+            },
+            {
+              "item_id": 1011,
+              "name": "Emveretarcon",
+              "qty": 4.71,
+              "price": 4852,
+              "stock_value": 22834.94
+            }
+          ],
+          "mats_stock_value_latam": 2139449.02,
+          "cards": [
+            {
+              "item_id": 4022,
+              "name": "Spore Card",
+              "dropped": 1.988,
+              "sellable": 0.994,
+              "shop_listed_cap": 1,
+              "expected_listed": 0.994,
+              "price": 50000,
+              "pipeline_value": 49709.37
+            },
+            {
+              "item_id": 4037,
+              "name": "Snake Card",
+              "dropped": 0.416,
+              "sellable": 0.208,
+              "shop_listed_cap": 1,
+              "expected_listed": 0.208,
+              "price": 180000,
+              "pipeline_value": 37483.89
+            },
+            {
+              "item_id": 4034,
+              "name": "Wormtail Card",
+              "dropped": 0.042,
+              "sellable": 0.021,
+              "shop_listed_cap": 1,
+              "expected_listed": 0.021,
+              "price": 1000000,
+              "pipeline_value": 20821.56
+            }
+          ],
+          "cards_sellable_total": 1.223,
+          "cards_pipeline_value": 108014.82,
+          "lot_expected_value": 2247463.84,
+          "zeny_spent": 9601.69,
+          "net_if_sold_at_latam": 2237862.15,
+          "gates": {
+            "pause_grind_until_sold_z": 898985.54,
+            "keep_shop_until_sold_z": 1348478.31,
+            "pause_frac": 0.4,
+            "shop_keep_frac": 0.6
+          }
+        },
+        "3": {
+          "days": 3,
+          "kills": 8464.0,
+          "hours": 10.5,
+          "mats_stock": [
+            {
+              "item_id": 507,
+              "name": "Red Herb",
+              "qty": 696.47,
+              "price": 1399,
+              "stock_value": 974362.04
+            },
+            {
+              "item_id": 578,
+              "name": "Strawberry",
+              "qty": 732.74,
+              "price": 1299,
+              "stock_value": 951835.64
+            },
+            {
+              "item_id": 921,
+              "name": "Mushroom Spore",
+              "qty": 4772.11,
+              "price": 900,
+              "stock_value": 4294900.77
+            },
+            {
+              "item_id": 937,
+              "name": "Venom Canine",
+              "qty": 99.96,
+              "price": 1288,
+              "stock_value": 128743.8
+            },
+            {
+              "item_id": 1011,
+              "name": "Emveretarcon",
+              "qty": 14.12,
+              "price": 4852,
+              "stock_value": 68504.81
+            }
+          ],
+          "mats_stock_value_latam": 6418347.07,
+          "cards": [
+            {
+              "item_id": 4022,
+              "name": "Spore Card",
+              "dropped": 5.965,
+              "sellable": 2.983,
+              "shop_listed_cap": 1,
+              "expected_listed": 1,
+              "price": 50000,
+              "pipeline_value": 149128.1
+            },
+            {
+              "item_id": 4037,
+              "name": "Snake Card",
+              "dropped": 1.249,
+              "sellable": 0.625,
+              "shop_listed_cap": 1,
+              "expected_listed": 0.625,
+              "price": 180000,
+              "pipeline_value": 112451.68
+            },
+            {
+              "item_id": 4034,
+              "name": "Wormtail Card",
+              "dropped": 0.125,
+              "sellable": 0.062,
+              "shop_listed_cap": 1,
+              "expected_listed": 0.062,
+              "price": 1000000,
+              "pipeline_value": 62464.69
+            }
+          ],
+          "cards_sellable_total": 3.67,
+          "cards_pipeline_value": 324044.46,
+          "lot_expected_value": 6742391.53,
+          "zeny_spent": 28805.07,
+          "net_if_sold_at_latam": 6713586.46,
+          "gates": {
+            "pause_grind_until_sold_z": 2696956.61,
+            "keep_shop_until_sold_z": 4045434.92,
+            "pause_frac": 0.4,
+            "shop_keep_frac": 0.6
+          }
+        },
+        "7": {
+          "days": 7,
+          "kills": 19749.5,
+          "hours": 24.5,
+          "mats_stock": [
+            {
+              "item_id": 507,
+              "name": "Red Herb",
+              "qty": 1625.1,
+              "price": 1399,
+              "stock_value": 2273511.42
+            },
+            {
+              "item_id": 578,
+              "name": "Strawberry",
+              "qty": 1709.74,
+              "price": 1299,
+              "stock_value": 2220949.83
+            },
+            {
+              "item_id": 921,
+              "name": "Mushroom Spore",
+              "qty": 11134.93,
+              "price": 900,
+              "stock_value": 10021435.13
+            },
+            {
+              "item_id": 937,
+              "name": "Venom Canine",
+              "qty": 233.23,
+              "price": 1288,
+              "stock_value": 300402.2
+            },
+            {
+              "item_id": 1011,
+              "name": "Emveretarcon",
+              "qty": 32.94,
+              "price": 4852,
+              "stock_value": 159844.57
+            }
+          ],
+          "mats_stock_value_latam": 14976143.16,
+          "cards": [
+            {
+              "item_id": 4022,
+              "name": "Spore Card",
+              "dropped": 13.919,
+              "sellable": 6.959,
+              "shop_listed_cap": 1,
+              "expected_listed": 1,
+              "price": 50000,
+              "pipeline_value": 347965.56
+            },
+            {
+              "item_id": 4037,
+              "name": "Snake Card",
+              "dropped": 2.915,
+              "sellable": 1.458,
+              "shop_listed_cap": 1,
+              "expected_listed": 1,
+              "price": 180000,
+              "pipeline_value": 262387.24
+            },
+            {
+              "item_id": 4034,
+              "name": "Wormtail Card",
+              "dropped": 0.292,
+              "sellable": 0.146,
+              "shop_listed_cap": 1,
+              "expected_listed": 0.146,
+              "price": 1000000,
+              "pipeline_value": 145750.94
+            }
+          ],
+          "cards_sellable_total": 8.563,
+          "cards_pipeline_value": 756103.74,
+          "lot_expected_value": 15732246.9,
+          "zeny_spent": 67211.83,
+          "net_if_sold_at_latam": 15665035.07,
+          "gates": {
+            "pause_grind_until_sold_z": 6292898.76,
+            "keep_shop_until_sold_z": 9439348.14,
+            "pause_frac": 0.4,
+            "shop_keep_frac": 0.6
+          }
+        },
+        "10": {
+          "days": 10,
+          "kills": 28213.5,
+          "hours": 35.0,
+          "mats_stock": [
+            {
+              "item_id": 507,
+              "name": "Red Herb",
+              "qty": 2321.57,
+              "price": 1399,
+              "stock_value": 3247873.46
+            },
+            {
+              "item_id": 578,
+              "name": "Strawberry",
+              "qty": 2442.48,
+              "price": 1299,
+              "stock_value": 3172785.47
+            },
+            {
+              "item_id": 921,
+              "name": "Mushroom Spore",
+              "qty": 15907.04,
+              "price": 900,
+              "stock_value": 14316335.9
+            },
+            {
+              "item_id": 937,
+              "name": "Venom Canine",
+              "qty": 333.19,
+              "price": 1288,
+              "stock_value": 429146.01
+            },
+            {
+              "item_id": 1011,
+              "name": "Emveretarcon",
+              "qty": 47.06,
+              "price": 4852,
+              "stock_value": 228349.38
+            }
+          ],
+          "mats_stock_value_latam": 21394490.22,
+          "cards": [
+            {
+              "item_id": 4022,
+              "name": "Spore Card",
+              "dropped": 19.884,
+              "sellable": 9.942,
+              "shop_listed_cap": 1,
+              "expected_listed": 1,
+              "price": 50000,
+              "pipeline_value": 497093.66
+            },
+            {
+              "item_id": 4037,
+              "name": "Snake Card",
+              "dropped": 4.165,
+              "sellable": 2.082,
+              "shop_listed_cap": 1,
+              "expected_listed": 1,
+              "price": 180000,
+              "pipeline_value": 374838.92
+            },
+            {
+              "item_id": 4034,
+              "name": "Wormtail Card",
+              "dropped": 0.416,
+              "sellable": 0.208,
+              "shop_listed_cap": 1,
+              "expected_listed": 0.208,
+              "price": 1000000,
+              "pipeline_value": 208215.63
+            }
+          ],
+          "cards_sellable_total": 12.232,
+          "cards_pipeline_value": 1080148.2,
+          "lot_expected_value": 22474638.43,
+          "zeny_spent": 96016.9,
+          "net_if_sold_at_latam": 22378621.53,
+          "gates": {
+            "pause_grind_until_sold_z": 8989855.37,
+            "keep_shop_until_sold_z": 13484783.06,
+            "pause_frac": 0.4,
+            "shop_keep_frac": 0.6
+          }
+        }
+      }
+    }
+  ],
+  "projection_merged": {
+    "1": {
+      "days": 1,
+      "kills": 2821.3,
+      "mats_stock": [
+        {
+          "item_id": 921,
+          "name": "Mushroom Spore",
+          "qty": 1590.7,
+          "price": 900,
+          "stock_value": 1431633.59
+        },
+        {
+          "item_id": 507,
+          "name": "Red Herb",
+          "qty": 232.16,
+          "price": 1399,
+          "stock_value": 324787.35
+        },
+        {
+          "item_id": 578,
+          "name": "Strawberry",
+          "qty": 244.25,
+          "price": 1299,
+          "stock_value": 317278.55
+        },
+        {
+          "item_id": 937,
+          "name": "Venom Canine",
+          "qty": 33.32,
+          "price": 1288,
+          "stock_value": 42914.6
+        },
+        {
+          "item_id": 1011,
+          "name": "Emveretarcon",
+          "qty": 4.71,
+          "price": 4852,
+          "stock_value": 22834.94
+        }
+      ],
+      "mats_stock_value_latam": 2139449.02,
+      "cards": [
+        {
+          "item_id": 4022,
+          "name": "Spore Card",
+          "dropped": 1.988,
+          "sellable": 0.994,
+          "shop_listed_cap": 1,
+          "expected_listed": 0.994,
+          "price": 50000,
+          "pipeline_value": 49709.37
+        },
+        {
+          "item_id": 4037,
+          "name": "Snake Card",
+          "dropped": 0.416,
+          "sellable": 0.208,
+          "shop_listed_cap": 1,
+          "expected_listed": 0.208,
+          "price": 180000,
+          "pipeline_value": 37483.89
+        },
+        {
+          "item_id": 4034,
+          "name": "Wormtail Card",
+          "dropped": 0.042,
+          "sellable": 0.021,
+          "shop_listed_cap": 1,
+          "expected_listed": 0.021,
+          "price": 1000000,
+          "pipeline_value": 20821.56
+        }
+      ],
+      "cards_sellable_total": 1.223,
+      "cards_pipeline_value": 108014.82,
+      "lot_expected_value": 2247463.84,
+      "zeny_spent": 9601.69,
+      "net_if_sold_at_latam": 2237862.15,
+      "gates": {
+        "pause_grind_until_sold_z": 898985.54,
+        "keep_shop_until_sold_z": 1348478.3
+      }
+    },
+    "3": {
+      "days": 3,
+      "kills": 8464.0,
+      "mats_stock": [
+        {
+          "item_id": 921,
+          "name": "Mushroom Spore",
+          "qty": 4772.11,
+          "price": 900,
+          "stock_value": 4294900.77
+        },
+        {
+          "item_id": 507,
+          "name": "Red Herb",
+          "qty": 696.47,
+          "price": 1399,
+          "stock_value": 974362.04
+        },
+        {
+          "item_id": 578,
+          "name": "Strawberry",
+          "qty": 732.74,
+          "price": 1299,
+          "stock_value": 951835.64
+        },
+        {
+          "item_id": 937,
+          "name": "Venom Canine",
+          "qty": 99.96,
+          "price": 1288,
+          "stock_value": 128743.8
+        },
+        {
+          "item_id": 1011,
+          "name": "Emveretarcon",
+          "qty": 14.12,
+          "price": 4852,
+          "stock_value": 68504.81
+        }
+      ],
+      "mats_stock_value_latam": 6418347.07,
+      "cards": [
+        {
+          "item_id": 4022,
+          "name": "Spore Card",
+          "dropped": 5.965,
+          "sellable": 2.983,
+          "shop_listed_cap": 1,
+          "expected_listed": 1,
+          "price": 50000,
+          "pipeline_value": 149128.1
+        },
+        {
+          "item_id": 4037,
+          "name": "Snake Card",
+          "dropped": 1.249,
+          "sellable": 0.625,
+          "shop_listed_cap": 1,
+          "expected_listed": 0.625,
+          "price": 180000,
+          "pipeline_value": 112451.68
+        },
+        {
+          "item_id": 4034,
+          "name": "Wormtail Card",
+          "dropped": 0.125,
+          "sellable": 0.062,
+          "shop_listed_cap": 1,
+          "expected_listed": 0.062,
+          "price": 1000000,
+          "pipeline_value": 62464.69
+        }
+      ],
+      "cards_sellable_total": 3.67,
+      "cards_pipeline_value": 324044.46,
+      "lot_expected_value": 6742391.53,
+      "zeny_spent": 28805.07,
+      "net_if_sold_at_latam": 6713586.46,
+      "gates": {
+        "pause_grind_until_sold_z": 2696956.61,
+        "keep_shop_until_sold_z": 4045434.92
+      }
+    },
+    "7": {
+      "days": 7,
+      "kills": 19749.5,
+      "mats_stock": [
+        {
+          "item_id": 921,
+          "name": "Mushroom Spore",
+          "qty": 11134.93,
+          "price": 900,
+          "stock_value": 10021435.13
+        },
+        {
+          "item_id": 507,
+          "name": "Red Herb",
+          "qty": 1625.1,
+          "price": 1399,
+          "stock_value": 2273511.42
+        },
+        {
+          "item_id": 578,
+          "name": "Strawberry",
+          "qty": 1709.74,
+          "price": 1299,
+          "stock_value": 2220949.83
+        },
+        {
+          "item_id": 937,
+          "name": "Venom Canine",
+          "qty": 233.23,
+          "price": 1288,
+          "stock_value": 300402.2
+        },
+        {
+          "item_id": 1011,
+          "name": "Emveretarcon",
+          "qty": 32.94,
+          "price": 4852,
+          "stock_value": 159844.57
+        }
+      ],
+      "mats_stock_value_latam": 14976143.16,
+      "cards": [
+        {
+          "item_id": 4022,
+          "name": "Spore Card",
+          "dropped": 13.919,
+          "sellable": 6.959,
+          "shop_listed_cap": 1,
+          "expected_listed": 1,
+          "price": 50000,
+          "pipeline_value": 347965.56
+        },
+        {
+          "item_id": 4037,
+          "name": "Snake Card",
+          "dropped": 2.915,
+          "sellable": 1.458,
+          "shop_listed_cap": 1,
+          "expected_listed": 1,
+          "price": 180000,
+          "pipeline_value": 262387.24
+        },
+        {
+          "item_id": 4034,
+          "name": "Wormtail Card",
+          "dropped": 0.292,
+          "sellable": 0.146,
+          "shop_listed_cap": 1,
+          "expected_listed": 0.146,
+          "price": 1000000,
+          "pipeline_value": 145750.94
+        }
+      ],
+      "cards_sellable_total": 8.563,
+      "cards_pipeline_value": 756103.74,
+      "lot_expected_value": 15732246.9,
+      "zeny_spent": 67211.83,
+      "net_if_sold_at_latam": 15665035.07,
+      "gates": {
+        "pause_grind_until_sold_z": 6292898.76,
+        "keep_shop_until_sold_z": 9439348.14
+      }
+    },
+    "10": {
+      "days": 10,
+      "kills": 28213.5,
+      "mats_stock": [
+        {
+          "item_id": 921,
+          "name": "Mushroom Spore",
+          "qty": 15907.04,
+          "price": 900,
+          "stock_value": 14316335.9
+        },
+        {
+          "item_id": 507,
+          "name": "Red Herb",
+          "qty": 2321.57,
+          "price": 1399,
+          "stock_value": 3247873.46
+        },
+        {
+          "item_id": 578,
+          "name": "Strawberry",
+          "qty": 2442.48,
+          "price": 1299,
+          "stock_value": 3172785.47
+        },
+        {
+          "item_id": 937,
+          "name": "Venom Canine",
+          "qty": 333.19,
+          "price": 1288,
+          "stock_value": 429146.01
+        },
+        {
+          "item_id": 1011,
+          "name": "Emveretarcon",
+          "qty": 47.06,
+          "price": 4852,
+          "stock_value": 228349.38
+        }
+      ],
+      "mats_stock_value_latam": 21394490.22,
+      "cards": [
+        {
+          "item_id": 4022,
+          "name": "Spore Card",
+          "dropped": 19.884,
+          "sellable": 9.942,
+          "shop_listed_cap": 1,
+          "expected_listed": 1,
+          "price": 50000,
+          "pipeline_value": 497093.66
+        },
+        {
+          "item_id": 4037,
+          "name": "Snake Card",
+          "dropped": 4.165,
+          "sellable": 2.082,
+          "shop_listed_cap": 1,
+          "expected_listed": 1,
+          "price": 180000,
+          "pipeline_value": 374838.92
+        },
+        {
+          "item_id": 4034,
+          "name": "Wormtail Card",
+          "dropped": 0.416,
+          "sellable": 0.208,
+          "shop_listed_cap": 1,
+          "expected_listed": 0.208,
+          "price": 1000000,
+          "pipeline_value": 208215.63
+        }
+      ],
+      "cards_sellable_total": 12.232,
+      "cards_pipeline_value": 1080148.2,
+      "lot_expected_value": 22474638.42,
+      "zeny_spent": 96016.9,
+      "net_if_sold_at_latam": 22378621.52,
+      "gates": {
+        "pause_grind_until_sold_z": 8989855.37,
+        "keep_shop_until_sold_z": 13484783.05
+      }
+    }
+  },
+  "day10": {
+    "days": 10,
+    "kills": 28213.5,
+    "mats_stock": [
+      {
+        "item_id": 921,
+        "name": "Mushroom Spore",
+        "qty": 15907.04,
+        "price": 900,
+        "stock_value": 14316335.9
+      },
+      {
+        "item_id": 507,
+        "name": "Red Herb",
+        "qty": 2321.57,
+        "price": 1399,
+        "stock_value": 3247873.46
+      },
+      {
+        "item_id": 578,
+        "name": "Strawberry",
+        "qty": 2442.48,
+        "price": 1299,
+        "stock_value": 3172785.47
+      },
+      {
+        "item_id": 937,
+        "name": "Venom Canine",
+        "qty": 333.19,
+        "price": 1288,
+        "stock_value": 429146.01
+      },
+      {
+        "item_id": 1011,
+        "name": "Emveretarcon",
+        "qty": 47.06,
+        "price": 4852,
+        "stock_value": 228349.38
+      }
+    ],
+    "mats_stock_value_latam": 21394490.22,
+    "cards": [
+      {
+        "item_id": 4022,
+        "name": "Spore Card",
+        "dropped": 19.884,
+        "sellable": 9.942,
+        "shop_listed_cap": 1,
+        "expected_listed": 1,
+        "price": 50000,
+        "pipeline_value": 497093.66
+      },
+      {
+        "item_id": 4037,
+        "name": "Snake Card",
+        "dropped": 4.165,
+        "sellable": 2.082,
+        "shop_listed_cap": 1,
+        "expected_listed": 1,
+        "price": 180000,
+        "pipeline_value": 374838.92
+      },
+      {
+        "item_id": 4034,
+        "name": "Wormtail Card",
+        "dropped": 0.416,
+        "sellable": 0.208,
+        "shop_listed_cap": 1,
+        "expected_listed": 0.208,
+        "price": 1000000,
+        "pipeline_value": 208215.63
+      }
+    ],
+    "cards_sellable_total": 12.232,
+    "cards_pipeline_value": 1080148.2,
+    "lot_expected_value": 22474638.42,
+    "zeny_spent": 96016.9,
+    "net_if_sold_at_latam": 22378621.52,
+    "gates": {
+      "pause_grind_until_sold_z": 8989855.37,
+      "keep_shop_until_sold_z": 13484783.05
+    }
+  }
+}

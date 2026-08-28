@@ -1,0 +1,1042 @@
+{
+  "id": "04_ant_hell",
+  "label": "Ant Hell",
+  "tier_target": "easy",
+  "notes": "Dungeon fácil; huevos/hormigas.",
+  "maps": [
+    "anthell01"
+  ],
+  "map_profiles": [
+    {
+      "map": "anthell01",
+      "tier": "easy",
+      "avg_level": 29.81,
+      "max_level": 42,
+      "avg_hp": 504,
+      "combat_amount": 226,
+      "hours_share": 1.0,
+      "kills": {
+        "t_kill_sec": 5.024,
+        "uptime": 1.0,
+        "kills_per_hour_combat": 716.5,
+        "dead_time_frac": 0.2,
+        "kills_per_hour": 573.2
+      },
+      "costs": {
+        "zeny_cost_per_hour": 3207.75,
+        "zeny_cost_per_kill": 5.5962
+      },
+      "kills_per_day": 2006.2,
+      "mobs": [
+        {
+          "aegis": "ANT_EGG",
+          "amount": 87,
+          "level": 28,
+          "hp": 469,
+          "weight": 0.385
+        },
+        {
+          "aegis": "PIERE",
+          "amount": 50,
+          "level": 32,
+          "hp": 508,
+          "weight": 0.2212
+        },
+        {
+          "aegis": "DENIRO",
+          "amount": 40,
+          "level": 31,
+          "hp": 480,
+          "weight": 0.177
+        },
+        {
+          "aegis": "FARMILIAR",
+          "amount": 20,
+          "level": 24,
+          "hp": 330,
+          "weight": 0.0885
+        },
+        {
+          "aegis": "ANDRE",
+          "amount": 15,
+          "level": 33,
+          "hp": 537,
+          "weight": 0.0664
+        },
+        {
+          "aegis": "VITATA",
+          "amount": 10,
+          "level": 35,
+          "hp": 597,
+          "weight": 0.0442
+        },
+        {
+          "aegis": "C5_DENIRO",
+          "amount": 3,
+          "level": 31,
+          "hp": 2400,
+          "weight": 0.0133
+        },
+        {
+          "aegis": "GIEARTH",
+          "amount": 1,
+          "level": 42,
+          "hp": 866,
+          "weight": 0.0044
+        }
+      ],
+      "drop_types_count": 33,
+      "ev_mats_offer_per_kill": 2110.9,
+      "ev_mats_offer_per_day": 4234895.42,
+      "offer": {
+        "mats_for_sale": [
+          {
+            "item_id": 1010,
+            "aegis": "Phracon",
+            "name": "Phracon",
+            "type": "Etc",
+            "p_per_map_kill": 0.00615929,
+            "latam_price": 45666,
+            "latam_total_sold": 1111,
+            "has_offers": true,
+            "qty_per_day": 12.3568,
+            "score": 830218.46
+          },
+          {
+            "item_id": 913,
+            "aegis": "Tooth_Of_Bat",
+            "name": "Tooth of Bat",
+            "type": "Etc",
+            "p_per_map_kill": 0.02433628,
+            "latam_price": 14960,
+            "latam_total_sold": 1729,
+            "has_offers": true,
+            "qty_per_day": 48.8234,
+            "score": 435952.16
+          },
+          {
+            "item_id": 1002,
+            "aegis": "Iron_Ore",
+            "name": "Iron Ore",
+            "type": "Etc",
+            "p_per_map_kill": 0.0149115,
+            "latam_price": 11000,
+            "latam_total_sold": 3451,
+            "has_offers": true,
+            "qty_per_day": 29.9155,
+            "score": 307487.9
+          },
+          {
+            "item_id": 955,
+            "aegis": "Worm_Peelings",
+            "name": "Worm Peeling",
+            "type": "Etc",
+            "p_per_map_kill": 0.23340708,
+            "latam_price": 4999,
+            "latam_total_sold": 364,
+            "has_offers": true,
+            "qty_per_day": 468.2613,
+            "score": 181419.76
+          },
+          {
+            "item_id": 935,
+            "aegis": "Shell",
+            "name": "Shell",
+            "type": "Etc",
+            "p_per_map_kill": 0.03849558,
+            "latam_price": 3500,
+            "latam_total_sold": 1874,
+            "has_offers": true,
+            "qty_per_day": 77.2298,
+            "score": 114995.71
+          }
+        ],
+        "mats_discarded_count": 16,
+        "mats_discarded_top10": [
+          {
+            "item_id": 909,
+            "name": "Jellopy",
+            "price": 2099,
+            "qty_per_day": 77.2298,
+            "score": 96239.81
+          },
+          {
+            "item_id": 938,
+            "name": "Sticky Mucus",
+            "price": 2000,
+            "qty_per_day": 71.0381,
+            "score": 82491.92
+          },
+          {
+            "item_id": 910,
+            "name": "Garlet",
+            "price": 2500,
+            "qty_per_day": 104.3046,
+            "score": 78237.77
+          },
+          {
+            "item_id": 526,
+            "name": "Royal Jelly",
+            "price": 9831,
+            "qty_per_day": 0.8877,
+            "score": 42205.38
+          },
+          {
+            "item_id": 990,
+            "name": "Red Blood",
+            "price": 4950,
+            "qty_per_day": 1.2206,
+            "score": 41934.84
+          },
+          {
+            "item_id": 507,
+            "name": "Red Herb",
+            "price": 1399,
+            "qty_per_day": 6.2139,
+            "score": 35218.72
+          },
+          {
+            "item_id": 518,
+            "name": "Honey",
+            "price": 2690,
+            "qty_per_day": 1.5535,
+            "score": 26281.15
+          },
+          {
+            "item_id": 1001,
+            "name": "Star Dust",
+            "price": 55000,
+            "qty_per_day": 0.0444,
+            "score": 17329.03
+          },
+          {
+            "item_id": 993,
+            "name": "Green Live",
+            "price": 3198,
+            "qty_per_day": 0.7323,
+            "score": 17245.37
+          },
+          {
+            "item_id": 992,
+            "name": "Wind of Verdure",
+            "price": 2899,
+            "qty_per_day": 0.6658,
+            "score": 16319.7
+          }
+        ],
+        "cards": [
+          {
+            "item_id": 4043,
+            "aegis": "Andre_Card",
+            "name": "Andre Card",
+            "type": "Card",
+            "p_per_map_kill": 5.31e-05,
+            "latam_price": 4900000,
+            "latam_total_sold": 24,
+            "has_offers": true,
+            "drop_per_day": 0.1065,
+            "sellable_per_day": 0.0533,
+            "ev_latam_per_day_if_sold": 260996.59
+          },
+          {
+            "item_id": 4013,
+            "aegis": "Andre_Egg_Card",
+            "name": "Andre Egg Card",
+            "type": "Card",
+            "p_per_map_kill": 3.85e-05,
+            "latam_price": 999999,
+            "latam_total_sold": 39,
+            "has_offers": true,
+            "drop_per_day": 0.0772,
+            "sellable_per_day": 0.0386,
+            "ev_latam_per_day_if_sold": 38619.31
+          },
+          {
+            "item_id": 4087,
+            "aegis": "Giearth_Card",
+            "name": "Giearth Card",
+            "type": "Card",
+            "p_per_map_kill": 4.4e-07,
+            "latam_price": 1500000,
+            "latam_total_sold": 1,
+            "has_offers": true,
+            "drop_per_day": 0.0009,
+            "sellable_per_day": 0.0004,
+            "ev_latam_per_day_if_sold": 662.05
+          }
+        ],
+        "cards_junk_discarded": [],
+        "card_min_price": 0,
+        "card_policy": {
+          "sell_fraction": 0.5,
+          "shop_slots": 1,
+          "min_price": 0,
+          "note": "acumula sellable; shop máx 1 carta; junk bajo min_price descartado"
+        }
+      },
+      "projection": {
+        "1": {
+          "days": 1,
+          "kills": 2006.2,
+          "hours": 3.5,
+          "mats_stock": [
+            {
+              "item_id": 1010,
+              "name": "Phracon",
+              "qty": 12.36,
+              "price": 45666,
+              "stock_value": 564284.15
+            },
+            {
+              "item_id": 913,
+              "name": "Tooth of Bat",
+              "qty": 48.82,
+              "price": 14960,
+              "stock_value": 730398.74
+            },
+            {
+              "item_id": 1002,
+              "name": "Iron Ore",
+              "qty": 29.92,
+              "price": 11000,
+              "stock_value": 329069.96
+            },
+            {
+              "item_id": 955,
+              "name": "Worm Peeling",
+              "qty": 468.26,
+              "price": 4999,
+              "stock_value": 2340838.16
+            },
+            {
+              "item_id": 935,
+              "name": "Shell",
+              "qty": 77.23,
+              "price": 3500,
+              "stock_value": 270304.41
+            }
+          ],
+          "mats_stock_value_latam": 4234895.42,
+          "cards": [
+            {
+              "item_id": 4043,
+              "name": "Andre Card",
+              "dropped": 0.107,
+              "sellable": 0.053,
+              "shop_listed_cap": 1,
+              "expected_listed": 0.053,
+              "price": 4900000,
+              "pipeline_value": 260996.59
+            },
+            {
+              "item_id": 4013,
+              "name": "Andre Egg Card",
+              "dropped": 0.077,
+              "sellable": 0.039,
+              "shop_listed_cap": 1,
+              "expected_listed": 0.039,
+              "price": 999999,
+              "pipeline_value": 38619.31
+            },
+            {
+              "item_id": 4087,
+              "name": "Giearth Card",
+              "dropped": 0.001,
+              "sellable": 0.0,
+              "shop_listed_cap": 1,
+              "expected_listed": 0.0,
+              "price": 1500000,
+              "pipeline_value": 662.05
+            }
+          ],
+          "cards_sellable_total": 0.092,
+          "cards_pipeline_value": 300277.95,
+          "lot_expected_value": 4535173.37,
+          "zeny_spent": 11227.12,
+          "net_if_sold_at_latam": 4523946.24,
+          "gates": {
+            "pause_grind_until_sold_z": 1814069.35,
+            "keep_shop_until_sold_z": 2721104.02,
+            "pause_frac": 0.4,
+            "shop_keep_frac": 0.6
+          }
+        },
+        "3": {
+          "days": 3,
+          "kills": 6018.6,
+          "hours": 10.5,
+          "mats_stock": [
+            {
+              "item_id": 1010,
+              "name": "Phracon",
+              "qty": 37.07,
+              "price": 45666,
+              "stock_value": 1692852.45
+            },
+            {
+              "item_id": 913,
+              "name": "Tooth of Bat",
+              "qty": 146.47,
+              "price": 14960,
+              "stock_value": 2191196.21
+            },
+            {
+              "item_id": 1002,
+              "name": "Iron Ore",
+              "qty": 89.75,
+              "price": 11000,
+              "stock_value": 987209.89
+            },
+            {
+              "item_id": 955,
+              "name": "Worm Peeling",
+              "qty": 1404.78,
+              "price": 4999,
+              "stock_value": 7022514.47
+            },
+            {
+              "item_id": 935,
+              "name": "Shell",
+              "qty": 231.69,
+              "price": 3500,
+              "stock_value": 810913.24
+            }
+          ],
+          "mats_stock_value_latam": 12704686.27,
+          "cards": [
+            {
+              "item_id": 4043,
+              "name": "Andre Card",
+              "dropped": 0.32,
+              "sellable": 0.16,
+              "shop_listed_cap": 1,
+              "expected_listed": 0.16,
+              "price": 4900000,
+              "pipeline_value": 782989.77
+            },
+            {
+              "item_id": 4013,
+              "name": "Andre Egg Card",
+              "dropped": 0.232,
+              "sellable": 0.116,
+              "shop_listed_cap": 1,
+              "expected_listed": 0.116,
+              "price": 999999,
+              "pipeline_value": 115857.93
+            },
+            {
+              "item_id": 4087,
+              "name": "Giearth Card",
+              "dropped": 0.003,
+              "sellable": 0.001,
+              "shop_listed_cap": 1,
+              "expected_listed": 0.001,
+              "price": 1500000,
+              "pipeline_value": 1986.14
+            }
+          ],
+          "cards_sellable_total": 0.277,
+          "cards_pipeline_value": 900833.84,
+          "lot_expected_value": 13605520.11,
+          "zeny_spent": 33681.38,
+          "net_if_sold_at_latam": 13571838.73,
+          "gates": {
+            "pause_grind_until_sold_z": 5442208.04,
+            "keep_shop_until_sold_z": 8163312.06,
+            "pause_frac": 0.4,
+            "shop_keep_frac": 0.6
+          }
+        },
+        "7": {
+          "days": 7,
+          "kills": 14043.4,
+          "hours": 24.5,
+          "mats_stock": [
+            {
+              "item_id": 1010,
+              "name": "Phracon",
+              "qty": 86.5,
+              "price": 45666,
+              "stock_value": 3949989.04
+            },
+            {
+              "item_id": 913,
+              "name": "Tooth of Bat",
+              "qty": 341.76,
+              "price": 14960,
+              "stock_value": 5112791.15
+            },
+            {
+              "item_id": 1002,
+              "name": "Iron Ore",
+              "qty": 209.41,
+              "price": 11000,
+              "stock_value": 2303489.75
+            },
+            {
+              "item_id": 955,
+              "name": "Worm Peeling",
+              "qty": 3277.83,
+              "price": 4999,
+              "stock_value": 16385867.11
+            },
+            {
+              "item_id": 935,
+              "name": "Shell",
+              "qty": 540.61,
+              "price": 3500,
+              "stock_value": 1892130.9
+            }
+          ],
+          "mats_stock_value_latam": 29644267.95,
+          "cards": [
+            {
+              "item_id": 4043,
+              "name": "Andre Card",
+              "dropped": 0.746,
+              "sellable": 0.373,
+              "shop_listed_cap": 1,
+              "expected_listed": 0.373,
+              "price": 4900000,
+              "pipeline_value": 1826976.12
+            },
+            {
+              "item_id": 4013,
+              "name": "Andre Egg Card",
+              "dropped": 0.541,
+              "sellable": 0.27,
+              "shop_listed_cap": 1,
+              "expected_listed": 0.27,
+              "price": 999999,
+              "pipeline_value": 270335.18
+            },
+            {
+              "item_id": 4087,
+              "name": "Giearth Card",
+              "dropped": 0.006,
+              "sellable": 0.003,
+              "shop_listed_cap": 1,
+              "expected_listed": 0.003,
+              "price": 1500000,
+              "pipeline_value": 4634.32
+            }
+          ],
+          "cards_sellable_total": 0.646,
+          "cards_pipeline_value": 2101945.62,
+          "lot_expected_value": 31746213.58,
+          "zeny_spent": 78589.88,
+          "net_if_sold_at_latam": 31667623.7,
+          "gates": {
+            "pause_grind_until_sold_z": 12698485.43,
+            "keep_shop_until_sold_z": 19047728.15,
+            "pause_frac": 0.4,
+            "shop_keep_frac": 0.6
+          }
+        },
+        "10": {
+          "days": 10,
+          "kills": 20062.0,
+          "hours": 35.0,
+          "mats_stock": [
+            {
+              "item_id": 1010,
+              "name": "Phracon",
+              "qty": 123.57,
+              "price": 45666,
+              "stock_value": 5642841.49
+            },
+            {
+              "item_id": 913,
+              "name": "Tooth of Bat",
+              "qty": 488.23,
+              "price": 14960,
+              "stock_value": 7303987.36
+            },
+            {
+              "item_id": 1002,
+              "name": "Iron Ore",
+              "qty": 299.15,
+              "price": 11000,
+              "stock_value": 3290699.64
+            },
+            {
+              "item_id": 955,
+              "name": "Worm Peeling",
+              "qty": 4682.61,
+              "price": 4999,
+              "stock_value": 23408381.58
+            },
+            {
+              "item_id": 935,
+              "name": "Shell",
+              "qty": 772.3,
+              "price": 3500,
+              "stock_value": 2703044.14
+            }
+          ],
+          "mats_stock_value_latam": 42348954.22,
+          "cards": [
+            {
+              "item_id": 4043,
+              "name": "Andre Card",
+              "dropped": 1.065,
+              "sellable": 0.533,
+              "shop_listed_cap": 1,
+              "expected_listed": 0.533,
+              "price": 4900000,
+              "pipeline_value": 2609965.89
+            },
+            {
+              "item_id": 4013,
+              "name": "Andre Egg Card",
+              "dropped": 0.772,
+              "sellable": 0.386,
+              "shop_listed_cap": 1,
+              "expected_listed": 0.386,
+              "price": 999999,
+              "pipeline_value": 386193.11
+            },
+            {
+              "item_id": 4087,
+              "name": "Giearth Card",
+              "dropped": 0.009,
+              "sellable": 0.004,
+              "shop_listed_cap": 1,
+              "expected_listed": 0.004,
+              "price": 1500000,
+              "pipeline_value": 6620.46
+            }
+          ],
+          "cards_sellable_total": 0.923,
+          "cards_pipeline_value": 3002779.46,
+          "lot_expected_value": 45351733.68,
+          "zeny_spent": 112271.25,
+          "net_if_sold_at_latam": 45239462.43,
+          "gates": {
+            "pause_grind_until_sold_z": 18140693.47,
+            "keep_shop_until_sold_z": 27211040.21,
+            "pause_frac": 0.4,
+            "shop_keep_frac": 0.6
+          }
+        }
+      }
+    }
+  ],
+  "projection_merged": {
+    "1": {
+      "days": 1,
+      "kills": 2006.2,
+      "mats_stock": [
+        {
+          "item_id": 955,
+          "name": "Worm Peeling",
+          "qty": 468.26,
+          "price": 4999,
+          "stock_value": 2340838.16
+        },
+        {
+          "item_id": 913,
+          "name": "Tooth of Bat",
+          "qty": 48.82,
+          "price": 14960,
+          "stock_value": 730398.74
+        },
+        {
+          "item_id": 1010,
+          "name": "Phracon",
+          "qty": 12.36,
+          "price": 45666,
+          "stock_value": 564284.15
+        },
+        {
+          "item_id": 1002,
+          "name": "Iron Ore",
+          "qty": 29.92,
+          "price": 11000,
+          "stock_value": 329069.96
+        },
+        {
+          "item_id": 935,
+          "name": "Shell",
+          "qty": 77.23,
+          "price": 3500,
+          "stock_value": 270304.41
+        }
+      ],
+      "mats_stock_value_latam": 4234895.42,
+      "cards": [
+        {
+          "item_id": 4043,
+          "name": "Andre Card",
+          "dropped": 0.107,
+          "sellable": 0.053,
+          "shop_listed_cap": 1,
+          "expected_listed": 0.053,
+          "price": 4900000,
+          "pipeline_value": 260996.59
+        },
+        {
+          "item_id": 4013,
+          "name": "Andre Egg Card",
+          "dropped": 0.077,
+          "sellable": 0.039,
+          "shop_listed_cap": 1,
+          "expected_listed": 0.039,
+          "price": 999999,
+          "pipeline_value": 38619.31
+        },
+        {
+          "item_id": 4087,
+          "name": "Giearth Card",
+          "dropped": 0.001,
+          "sellable": 0.0,
+          "shop_listed_cap": 1,
+          "expected_listed": 0.0,
+          "price": 1500000,
+          "pipeline_value": 662.05
+        }
+      ],
+      "cards_sellable_total": 0.092,
+      "cards_pipeline_value": 300277.95,
+      "lot_expected_value": 4535173.37,
+      "zeny_spent": 11227.12,
+      "net_if_sold_at_latam": 4523946.25,
+      "gates": {
+        "pause_grind_until_sold_z": 1814069.35,
+        "keep_shop_until_sold_z": 2721104.02
+      }
+    },
+    "3": {
+      "days": 3,
+      "kills": 6018.6,
+      "mats_stock": [
+        {
+          "item_id": 955,
+          "name": "Worm Peeling",
+          "qty": 1404.78,
+          "price": 4999,
+          "stock_value": 7022514.47
+        },
+        {
+          "item_id": 913,
+          "name": "Tooth of Bat",
+          "qty": 146.47,
+          "price": 14960,
+          "stock_value": 2191196.21
+        },
+        {
+          "item_id": 1010,
+          "name": "Phracon",
+          "qty": 37.07,
+          "price": 45666,
+          "stock_value": 1692852.45
+        },
+        {
+          "item_id": 1002,
+          "name": "Iron Ore",
+          "qty": 89.75,
+          "price": 11000,
+          "stock_value": 987209.89
+        },
+        {
+          "item_id": 935,
+          "name": "Shell",
+          "qty": 231.69,
+          "price": 3500,
+          "stock_value": 810913.24
+        }
+      ],
+      "mats_stock_value_latam": 12704686.27,
+      "cards": [
+        {
+          "item_id": 4043,
+          "name": "Andre Card",
+          "dropped": 0.32,
+          "sellable": 0.16,
+          "shop_listed_cap": 1,
+          "expected_listed": 0.16,
+          "price": 4900000,
+          "pipeline_value": 782989.77
+        },
+        {
+          "item_id": 4013,
+          "name": "Andre Egg Card",
+          "dropped": 0.232,
+          "sellable": 0.116,
+          "shop_listed_cap": 1,
+          "expected_listed": 0.116,
+          "price": 999999,
+          "pipeline_value": 115857.93
+        },
+        {
+          "item_id": 4087,
+          "name": "Giearth Card",
+          "dropped": 0.003,
+          "sellable": 0.001,
+          "shop_listed_cap": 1,
+          "expected_listed": 0.001,
+          "price": 1500000,
+          "pipeline_value": 1986.14
+        }
+      ],
+      "cards_sellable_total": 0.277,
+      "cards_pipeline_value": 900833.84,
+      "lot_expected_value": 13605520.11,
+      "zeny_spent": 33681.38,
+      "net_if_sold_at_latam": 13571838.73,
+      "gates": {
+        "pause_grind_until_sold_z": 5442208.04,
+        "keep_shop_until_sold_z": 8163312.07
+      }
+    },
+    "7": {
+      "days": 7,
+      "kills": 14043.4,
+      "mats_stock": [
+        {
+          "item_id": 955,
+          "name": "Worm Peeling",
+          "qty": 3277.83,
+          "price": 4999,
+          "stock_value": 16385867.11
+        },
+        {
+          "item_id": 913,
+          "name": "Tooth of Bat",
+          "qty": 341.76,
+          "price": 14960,
+          "stock_value": 5112791.15
+        },
+        {
+          "item_id": 1010,
+          "name": "Phracon",
+          "qty": 86.5,
+          "price": 45666,
+          "stock_value": 3949989.04
+        },
+        {
+          "item_id": 1002,
+          "name": "Iron Ore",
+          "qty": 209.41,
+          "price": 11000,
+          "stock_value": 2303489.75
+        },
+        {
+          "item_id": 935,
+          "name": "Shell",
+          "qty": 540.61,
+          "price": 3500,
+          "stock_value": 1892130.9
+        }
+      ],
+      "mats_stock_value_latam": 29644267.95,
+      "cards": [
+        {
+          "item_id": 4043,
+          "name": "Andre Card",
+          "dropped": 0.746,
+          "sellable": 0.373,
+          "shop_listed_cap": 1,
+          "expected_listed": 0.373,
+          "price": 4900000,
+          "pipeline_value": 1826976.12
+        },
+        {
+          "item_id": 4013,
+          "name": "Andre Egg Card",
+          "dropped": 0.541,
+          "sellable": 0.27,
+          "shop_listed_cap": 1,
+          "expected_listed": 0.27,
+          "price": 999999,
+          "pipeline_value": 270335.18
+        },
+        {
+          "item_id": 4087,
+          "name": "Giearth Card",
+          "dropped": 0.006,
+          "sellable": 0.003,
+          "shop_listed_cap": 1,
+          "expected_listed": 0.003,
+          "price": 1500000,
+          "pipeline_value": 4634.32
+        }
+      ],
+      "cards_sellable_total": 0.646,
+      "cards_pipeline_value": 2101945.62,
+      "lot_expected_value": 31746213.57,
+      "zeny_spent": 78589.88,
+      "net_if_sold_at_latam": 31667623.69,
+      "gates": {
+        "pause_grind_until_sold_z": 12698485.43,
+        "keep_shop_until_sold_z": 19047728.14
+      }
+    },
+    "10": {
+      "days": 10,
+      "kills": 20062.0,
+      "mats_stock": [
+        {
+          "item_id": 955,
+          "name": "Worm Peeling",
+          "qty": 4682.61,
+          "price": 4999,
+          "stock_value": 23408381.58
+        },
+        {
+          "item_id": 913,
+          "name": "Tooth of Bat",
+          "qty": 488.23,
+          "price": 14960,
+          "stock_value": 7303987.36
+        },
+        {
+          "item_id": 1010,
+          "name": "Phracon",
+          "qty": 123.57,
+          "price": 45666,
+          "stock_value": 5642841.49
+        },
+        {
+          "item_id": 1002,
+          "name": "Iron Ore",
+          "qty": 299.15,
+          "price": 11000,
+          "stock_value": 3290699.64
+        },
+        {
+          "item_id": 935,
+          "name": "Shell",
+          "qty": 772.3,
+          "price": 3500,
+          "stock_value": 2703044.14
+        }
+      ],
+      "mats_stock_value_latam": 42348954.22,
+      "cards": [
+        {
+          "item_id": 4043,
+          "name": "Andre Card",
+          "dropped": 1.065,
+          "sellable": 0.533,
+          "shop_listed_cap": 1,
+          "expected_listed": 0.533,
+          "price": 4900000,
+          "pipeline_value": 2609965.89
+        },
+        {
+          "item_id": 4013,
+          "name": "Andre Egg Card",
+          "dropped": 0.772,
+          "sellable": 0.386,
+          "shop_listed_cap": 1,
+          "expected_listed": 0.386,
+          "price": 999999,
+          "pipeline_value": 386193.11
+        },
+        {
+          "item_id": 4087,
+          "name": "Giearth Card",
+          "dropped": 0.009,
+          "sellable": 0.004,
+          "shop_listed_cap": 1,
+          "expected_listed": 0.004,
+          "price": 1500000,
+          "pipeline_value": 6620.46
+        }
+      ],
+      "cards_sellable_total": 0.923,
+      "cards_pipeline_value": 3002779.46,
+      "lot_expected_value": 45351733.68,
+      "zeny_spent": 112271.25,
+      "net_if_sold_at_latam": 45239462.43,
+      "gates": {
+        "pause_grind_until_sold_z": 18140693.47,
+        "keep_shop_until_sold_z": 27211040.21
+      }
+    }
+  },
+  "day10": {
+    "days": 10,
+    "kills": 20062.0,
+    "mats_stock": [
+      {
+        "item_id": 955,
+        "name": "Worm Peeling",
+        "qty": 4682.61,
+        "price": 4999,
+        "stock_value": 23408381.58
+      },
+      {
+        "item_id": 913,
+        "name": "Tooth of Bat",
+        "qty": 488.23,
+        "price": 14960,
+        "stock_value": 7303987.36
+      },
+      {
+        "item_id": 1010,
+        "name": "Phracon",
+        "qty": 123.57,
+        "price": 45666,
+        "stock_value": 5642841.49
+      },
+      {
+        "item_id": 1002,
+        "name": "Iron Ore",
+        "qty": 299.15,
+        "price": 11000,
+        "stock_value": 3290699.64
+      },
+      {
+        "item_id": 935,
+        "name": "Shell",
+        "qty": 772.3,
+        "price": 3500,
+        "stock_value": 2703044.14
+      }
+    ],
+    "mats_stock_value_latam": 42348954.22,
+    "cards": [
+      {
+        "item_id": 4043,
+        "name": "Andre Card",
+        "dropped": 1.065,
+        "sellable": 0.533,
+        "shop_listed_cap": 1,
+        "expected_listed": 0.533,
+        "price": 4900000,
+        "pipeline_value": 2609965.89
+      },
+      {
+        "item_id": 4013,
+        "name": "Andre Egg Card",
+        "dropped": 0.772,
+        "sellable": 0.386,
+        "shop_listed_cap": 1,
+        "expected_listed": 0.386,
+        "price": 999999,
+        "pipeline_value": 386193.11
+      },
+      {
+        "item_id": 4087,
+        "name": "Giearth Card",
+        "dropped": 0.009,
+        "sellable": 0.004,
+        "shop_listed_cap": 1,
+        "expected_listed": 0.004,
+        "price": 1500000,
+        "pipeline_value": 6620.46
+      }
+    ],
+    "cards_sellable_total": 0.923,
+    "cards_pipeline_value": 3002779.46,
+    "lot_expected_value": 45351733.68,
+    "zeny_spent": 112271.25,
+    "net_if_sold_at_latam": 45239462.43,
+    "gates": {
+      "pause_grind_until_sold_z": 18140693.47,
+      "keep_shop_until_sold_z": 27211040.21
+    }
+  }
+}

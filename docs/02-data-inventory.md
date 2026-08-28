@@ -20,7 +20,10 @@ Ruta base: `/home/oz/rathena` → `data/raw/rathena/`
 - [x] **Dropeables** — 1 115 (normal 1 107) — `droppable_*.json/txt`
 - [x] **Spawns renewal** — NPC `re/mobs` copiados; 1 132 mobs / 357 mapas
 - [x] **Grindable** — 926 ítems (drop + spawn normal) — `grindable_*`
-- [ ] Simulación de grind → oferta de bots
+- [x] **Diseño bots ×10** — mapas/dificultad/P(drop) — `staging/market/bots/`
+- [x] **Preview sim** — 1×, LATAM, dead time, gasto zeny, pause/shop gates, cards prt≥1M — [07](07-bot-design-sample.md)
+- [x] **Runtime diario** — 1×/día, solo tiendas visibles, 3~4h si hubo login, tiers progresivos, compras nocturnas — [08](08-activity-gated-bots.md)
+- [ ] Calibrar params + confirmar `vendings`/`loginlog` en MySQL vivo
 - [ ] Techo compra a jugadores (LATAM median)
 - [ ] _(más adelante)_ más fetch / Divine Pride / data/market/
 

@@ -1,0 +1,2593 @@
+{
+  "id": "09_comodo_gator",
+  "label": "Comodo Alligator",
+  "tier_target": "mid",
+  "loot_policy": "full",
+  "notes": "Alligator/Anolian skin zona; alto volumen Atlantis histórico.",
+  "maps": [
+    "cmd_fild03"
+  ],
+  "map_tiers": [
+    "mid"
+  ],
+  "map_avg_levels": [
+    57.52
+  ],
+  "offer_item_count": 18,
+  "ev_atlantis_per_kill_by_map": [
+    2128.94
+  ],
+  "ev_latam_per_kill_by_map": [
+    879.89
+  ],
+  "map_profiles": [
+    {
+      "map": "cmd_fild03",
+      "spawn_total_raw": 270,
+      "combat_total_amount": 267,
+      "plants_excluded_amount": 3,
+      "plants_excluded": [
+        {
+          "aegis": "SHINING_PLANT",
+          "amount": 3
+        }
+      ],
+      "missing_mob_ids": [],
+      "avg_level": 57.52,
+      "max_level": 65,
+      "avg_hp": 3073,
+      "tier": "mid",
+      "mobs": [
+        {
+          "mob_id": 1271,
+          "aegis": "ALLIGATOR",
+          "name": "Alligator",
+          "amount": 194,
+          "weight": 0.7266,
+          "level": 57,
+          "hp": 1939,
+          "race": "Brute",
+          "element": "Water",
+          "drop_count": 6,
+          "drops": [
+            {
+              "item_id": 7003,
+              "aegis": "Anolian_Skin",
+              "name": "Anolian Skin",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 1000,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.5
+            },
+            {
+              "item_id": 912,
+              "aegis": "Zargon",
+              "name": "Zargon",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 500,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.25
+            },
+            {
+              "item_id": 1099,
+              "aegis": "Worn_Out_Prison_Uniform",
+              "name": "Worn-out Prison Uniform",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 300,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.15
+            },
+            {
+              "item_id": 756,
+              "aegis": "Oridecon_Stone",
+              "name": "Rough Oridecon",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 65,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.0325
+            },
+            {
+              "item_id": 4252,
+              "aegis": "Alligator_Card",
+              "name": "Alligator Card",
+              "type": "Card",
+              "bucket": "card",
+              "rate_raw": 1,
+              "rate_mult": 100.0,
+              "p_per_kill_this_mob": 0.01
+            },
+            {
+              "item_id": 608,
+              "aegis": "Seed_Of_Yggdrasil",
+              "name": "Yggdrasil Seed",
+              "type": "Healing",
+              "bucket": "heal",
+              "rate_raw": 1,
+              "rate_mult": 10.0,
+              "p_per_kill_this_mob": 0.001
+            }
+          ]
+        },
+        {
+          "mob_id": 1118,
+          "aegis": "FLORA",
+          "name": "Flora",
+          "amount": 64,
+          "weight": 0.2397,
+          "level": 59,
+          "hp": 2065,
+          "race": "Plant",
+          "element": "Earth",
+          "drop_count": 8,
+          "drops": [
+            {
+              "item_id": 1032,
+              "aegis": "Blossom_Of_Maneater",
+              "name": "Maneater Blossom",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 4500,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 1.0
+            },
+            {
+              "item_id": 905,
+              "aegis": "Stem",
+              "name": "Stem",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 1000,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.5
+            },
+            {
+              "item_id": 521,
+              "aegis": "Leaflet_Of_Aloe",
+              "name": "Aloe Leaflet",
+              "type": "Healing",
+              "bucket": "heal",
+              "rate_raw": 25,
+              "rate_mult": 10.0,
+              "p_per_kill_this_mob": 0.025
+            },
+            {
+              "item_id": 629,
+              "aegis": "Singing_Flower",
+              "name": "Singing Flower",
+              "type": "Usable",
+              "bucket": "use",
+              "rate_raw": 10,
+              "rate_mult": 10.0,
+              "p_per_kill_this_mob": 0.01
+            },
+            {
+              "item_id": 4080,
+              "aegis": "Flora_Card",
+              "name": "Flora Card",
+              "type": "Card",
+              "bucket": "card",
+              "rate_raw": 1,
+              "rate_mult": 100.0,
+              "p_per_kill_this_mob": 0.01
+            },
+            {
+              "item_id": 2253,
+              "aegis": "Sunflower",
+              "name": "Sunflower",
+              "type": "Armor",
+              "bucket": "equip",
+              "rate_raw": 2,
+              "rate_mult": 15.0,
+              "p_per_kill_this_mob": 0.003
+            },
+            {
+              "item_id": 704,
+              "aegis": "Aloe",
+              "name": "Aloe",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 5,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.0025
+            },
+            {
+              "item_id": 748,
+              "aegis": "Witherless_Rose",
+              "name": "Witherless Rose",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 1,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.0005
+            }
+          ]
+        },
+        {
+          "mob_id": 1262,
+          "aegis": "MUTANT_DRAGON",
+          "name": "Mutant Dragonoid",
+          "amount": 5,
+          "weight": 0.0187,
+          "level": 65,
+          "hp": 50706,
+          "race": "Dragon",
+          "element": "Fire",
+          "drop_count": 8,
+          "drops": [
+            {
+              "item_id": 7054,
+              "aegis": "Brigan",
+              "name": "Brigan",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 2425,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 1.0
+            },
+            {
+              "item_id": 7296,
+              "aegis": "Pyroxene",
+              "name": "Pyroxene",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 750,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.375
+            },
+            {
+              "item_id": 1035,
+              "aegis": "Dragon_Canine",
+              "name": "Dragon Canine",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 250,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.125
+            },
+            {
+              "item_id": 1036,
+              "aegis": "Dragon_Scale",
+              "name": "Dragon Scale",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 250,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.125
+            },
+            {
+              "item_id": 930,
+              "aegis": "Rotten_Bandage",
+              "name": "Rotten Bandage",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 250,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.125
+            },
+            {
+              "item_id": 1559,
+              "aegis": "Legacy_Of_Dragon",
+              "name": "Legacy of Dragon",
+              "type": "Weapon",
+              "bucket": "equip",
+              "rate_raw": 50,
+              "rate_mult": 15.0,
+              "p_per_kill_this_mob": 0.075
+            },
+            {
+              "item_id": 2527,
+              "aegis": "Dragon_Breath",
+              "name": "Dragon Breath",
+              "type": "Armor",
+              "bucket": "equip",
+              "rate_raw": 25,
+              "rate_mult": 15.0,
+              "p_per_kill_this_mob": 0.0375
+            },
+            {
+              "item_id": 4203,
+              "aegis": "Mutant_Dragon_Card",
+              "name": "Mutant Dragonoid Card",
+              "type": "Card",
+              "bucket": "card",
+              "rate_raw": 1,
+              "rate_mult": 100.0,
+              "p_per_kill_this_mob": 0.01
+            }
+          ]
+        },
+        {
+          "mob_id": 2907,
+          "aegis": "C2_ALLIGATOR",
+          "name": "Solid Alligator",
+          "amount": 3,
+          "weight": 0.0112,
+          "level": 57,
+          "hp": 19390,
+          "race": "Brute",
+          "element": "Water",
+          "drop_count": 6,
+          "drops": [
+            {
+              "item_id": 912,
+              "aegis": "Zargon",
+              "name": "Zargon",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 2500,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 1.0
+            },
+            {
+              "item_id": 7003,
+              "aegis": "Anolian_Skin",
+              "name": "Anolian Skin",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 5000,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 1.0
+            },
+            {
+              "item_id": 1099,
+              "aegis": "Worn_Out_Prison_Uniform",
+              "name": "Worn-out Prison Uniform",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 1500,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.75
+            },
+            {
+              "item_id": 756,
+              "aegis": "Oridecon_Stone",
+              "name": "Rough Oridecon",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 325,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.1625
+            },
+            {
+              "item_id": 4252,
+              "aegis": "Alligator_Card",
+              "name": "Alligator Card",
+              "type": "Card",
+              "bucket": "card",
+              "rate_raw": 5,
+              "rate_mult": 100.0,
+              "p_per_kill_this_mob": 0.05
+            },
+            {
+              "item_id": 608,
+              "aegis": "Seed_Of_Yggdrasil",
+              "name": "Yggdrasil Seed",
+              "type": "Healing",
+              "bucket": "heal",
+              "rate_raw": 5,
+              "rate_mult": 10.0,
+              "p_per_kill_this_mob": 0.005
+            }
+          ]
+        },
+        {
+          "mob_id": 1089,
+          "aegis": "TOAD",
+          "name": "Toad",
+          "amount": 1,
+          "weight": 0.0037,
+          "level": 27,
+          "hp": 660,
+          "race": "Fish",
+          "element": "Water",
+          "drop_count": 8,
+          "drops": [
+            {
+              "item_id": 518,
+              "aegis": "Honey",
+              "name": "Honey",
+              "type": "Healing",
+              "bucket": "heal",
+              "rate_raw": 1000,
+              "rate_mult": 10.0,
+              "p_per_kill_this_mob": 1.0
+            },
+            {
+              "item_id": 5125,
+              "aegis": "Kiss_Of_Angel",
+              "name": "Angel's Kiss",
+              "type": "Armor",
+              "bucket": "equip",
+              "rate_raw": 500,
+              "rate_mult": 15.0,
+              "p_per_kill_this_mob": 0.75
+            },
+            {
+              "item_id": 729,
+              "aegis": "Bluish_Green_Jewel",
+              "name": "Zircon",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 500,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.25
+            },
+            {
+              "item_id": 7938,
+              "aegis": "Light_Granule",
+              "name": "Light Granule",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 250,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.125
+            },
+            {
+              "item_id": 2244,
+              "aegis": "Big_Sis'_Ribbon",
+              "name": "Big Ribbon",
+              "type": "Armor",
+              "bucket": "equip",
+              "rate_raw": 25,
+              "rate_mult": 15.0,
+              "p_per_kill_this_mob": 0.0375
+            },
+            {
+              "item_id": 970,
+              "aegis": "Alchol",
+              "name": "Alcohol",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 50,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.025
+            },
+            {
+              "item_id": 971,
+              "aegis": "Detrimindexta",
+              "name": "Detrimindexta",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 50,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.025
+            },
+            {
+              "item_id": 4306,
+              "aegis": "Toad_Card",
+              "name": "Toad Card",
+              "type": "Card",
+              "bucket": "card",
+              "rate_raw": 1,
+              "rate_mult": 100.0,
+              "p_per_kill_this_mob": 0.01
+            }
+          ]
+        }
+      ],
+      "drop_count": 30,
+      "drop_priced_count": 26,
+      "ev_atlantis_per_kill": 4580.33,
+      "ev_latam_per_kill": 45138.11,
+      "drops": [
+        {
+          "item_id": 7003,
+          "aegis": "Anolian_Skin",
+          "name": "Anolian Skin",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 968,
+          "p_per_map_kill": 0.37453184,
+          "contributors": [
+            {
+              "mob_id": 1271,
+              "aegis": "ALLIGATOR",
+              "amount": 194,
+              "weight": 0.7266,
+              "rate_raw": 1000,
+              "p_mob": 0.5,
+              "p_contrib": 0.363296
+            },
+            {
+              "mob_id": 2907,
+              "aegis": "C2_ALLIGATOR",
+              "amount": 3,
+              "weight": 0.0112,
+              "rate_raw": 5000,
+              "p_mob": 1.0,
+              "p_contrib": 0.011236
+            }
+          ],
+          "atlantis_avg": 3150,
+          "atlantis_total_sold": 35528334,
+          "latam_offers_median": null,
+          "ev_atlantis_per_kill": 1179.78,
+          "ev_latam_per_kill": null,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 4252,
+          "aegis": "Alligator_Card",
+          "name": "Alligator Card",
+          "type": "Card",
+          "bucket": "card",
+          "npc_buy": 20,
+          "p_per_map_kill": 0.00782772,
+          "contributors": [
+            {
+              "mob_id": 1271,
+              "aegis": "ALLIGATOR",
+              "amount": 194,
+              "weight": 0.7266,
+              "rate_raw": 1,
+              "p_mob": 0.01,
+              "p_contrib": 0.007266
+            },
+            {
+              "mob_id": 2907,
+              "aegis": "C2_ALLIGATOR",
+              "amount": 3,
+              "weight": 0.0112,
+              "rate_raw": 5,
+              "p_mob": 0.05,
+              "p_contrib": 0.000562
+            }
+          ],
+          "atlantis_avg": 102261,
+          "atlantis_total_sold": 4623,
+          "latam_offers_median": 2222222,
+          "ev_atlantis_per_kill": 800.47,
+          "ev_latam_per_kill": 17394.92,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 2527,
+          "aegis": "Dragon_Breath",
+          "name": "Dragon Breath",
+          "type": "Armor",
+          "bucket": "equip",
+          "npc_buy": 20,
+          "p_per_map_kill": 0.00070225,
+          "contributors": [
+            {
+              "mob_id": 1262,
+              "aegis": "MUTANT_DRAGON",
+              "amount": 5,
+              "weight": 0.0187,
+              "rate_raw": 25,
+              "p_mob": 0.0375,
+              "p_contrib": 0.000702
+            }
+          ],
+          "atlantis_avg": 1082336,
+          "atlantis_total_sold": 1096,
+          "latam_offers_median": 29999998,
+          "ev_atlantis_per_kill": 760.07,
+          "ev_latam_per_kill": 21067.41,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 4203,
+          "aegis": "Mutant_Dragon_Card",
+          "name": "Mutant Dragonoid Card",
+          "type": "Card",
+          "bucket": "card",
+          "npc_buy": 20,
+          "p_per_map_kill": 0.00018727,
+          "contributors": [
+            {
+              "mob_id": 1262,
+              "aegis": "MUTANT_DRAGON",
+              "amount": 5,
+              "weight": 0.0187,
+              "rate_raw": 1,
+              "p_mob": 0.01,
+              "p_contrib": 0.000187
+            }
+          ],
+          "atlantis_avg": 2939410,
+          "atlantis_total_sold": 547,
+          "latam_offers_median": 850000,
+          "ev_atlantis_per_kill": 550.45,
+          "ev_latam_per_kill": 159.18,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 1032,
+          "aegis": "Blossom_Of_Maneater",
+          "name": "Maneater Blossom",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 196,
+          "p_per_map_kill": 0.23970037,
+          "contributors": [
+            {
+              "mob_id": 1118,
+              "aegis": "FLORA",
+              "amount": 64,
+              "weight": 0.2397,
+              "rate_raw": 4500,
+              "p_mob": 1.0,
+              "p_contrib": 0.2397
+            }
+          ],
+          "atlantis_avg": 2123,
+          "atlantis_total_sold": 963409,
+          "latam_offers_median": 399,
+          "ev_atlantis_per_kill": 508.88,
+          "ev_latam_per_kill": 95.64,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 1559,
+          "aegis": "Legacy_Of_Dragon",
+          "name": "Legacy of Dragon",
+          "type": "Weapon",
+          "bucket": "equip",
+          "npc_buy": 20,
+          "p_per_map_kill": 0.00140449,
+          "contributors": [
+            {
+              "mob_id": 1262,
+              "aegis": "MUTANT_DRAGON",
+              "amount": 5,
+              "weight": 0.0187,
+              "rate_raw": 50,
+              "p_mob": 0.075,
+              "p_contrib": 0.001404
+            }
+          ],
+          "atlantis_avg": 231601,
+          "atlantis_total_sold": 866,
+          "latam_offers_median": 3999999,
+          "ev_atlantis_per_kill": 325.28,
+          "ev_latam_per_kill": 5617.98,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 905,
+          "aegis": "Stem",
+          "name": "Stem",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 46,
+          "p_per_map_kill": 0.11985019,
+          "contributors": [
+            {
+              "mob_id": 1118,
+              "aegis": "FLORA",
+              "amount": 64,
+              "weight": 0.2397,
+              "rate_raw": 1000,
+              "p_mob": 0.5,
+              "p_contrib": 0.11985
+            }
+          ],
+          "atlantis_avg": 1198,
+          "atlantis_total_sold": 13865834,
+          "latam_offers_median": 1190,
+          "ev_atlantis_per_kill": 143.58,
+          "ev_latam_per_kill": 142.62,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 756,
+          "aegis": "Oridecon_Stone",
+          "name": "Rough Oridecon",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 550,
+          "p_per_map_kill": 0.02544007,
+          "contributors": [
+            {
+              "mob_id": 1271,
+              "aegis": "ALLIGATOR",
+              "amount": 194,
+              "weight": 0.7266,
+              "rate_raw": 65,
+              "p_mob": 0.0325,
+              "p_contrib": 0.023614
+            },
+            {
+              "mob_id": 2907,
+              "aegis": "C2_ALLIGATOR",
+              "amount": 3,
+              "weight": 0.0112,
+              "rate_raw": 325,
+              "p_mob": 0.1625,
+              "p_contrib": 0.001826
+            }
+          ],
+          "atlantis_avg": 4006,
+          "atlantis_total_sold": 65283,
+          "latam_offers_median": 8490,
+          "ev_atlantis_per_kill": 101.91,
+          "ev_latam_per_kill": 215.99,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 608,
+          "aegis": "Seed_Of_Yggdrasil",
+          "name": "Yggdrasil Seed",
+          "type": "Healing",
+          "bucket": "heal",
+          "npc_buy": 5000,
+          "p_per_map_kill": 0.00078277,
+          "contributors": [
+            {
+              "mob_id": 1271,
+              "aegis": "ALLIGATOR",
+              "amount": 194,
+              "weight": 0.7266,
+              "rate_raw": 1,
+              "p_mob": 0.001,
+              "p_contrib": 0.000727
+            },
+            {
+              "mob_id": 2907,
+              "aegis": "C2_ALLIGATOR",
+              "amount": 3,
+              "weight": 0.0112,
+              "rate_raw": 5,
+              "p_mob": 0.005,
+              "p_contrib": 5.6e-05
+            }
+          ],
+          "atlantis_avg": 81328,
+          "atlantis_total_sold": 1213365,
+          "latam_offers_median": 43000,
+          "ev_atlantis_per_kill": 63.66,
+          "ev_latam_per_kill": 33.66,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 7054,
+          "aegis": "Brigan",
+          "name": "Brigan",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 746,
+          "p_per_map_kill": 0.01872659,
+          "contributors": [
+            {
+              "mob_id": 1262,
+              "aegis": "MUTANT_DRAGON",
+              "amount": 5,
+              "weight": 0.0187,
+              "rate_raw": 2425,
+              "p_mob": 1.0,
+              "p_contrib": 0.018727
+            }
+          ],
+          "atlantis_avg": 2943,
+          "atlantis_total_sold": 30900,
+          "latam_offers_median": 387,
+          "ev_atlantis_per_kill": 55.11,
+          "ev_latam_per_kill": 7.25,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 912,
+          "aegis": "Zargon",
+          "name": "Zargon",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 360,
+          "p_per_map_kill": 0.1928839,
+          "contributors": [
+            {
+              "mob_id": 1271,
+              "aegis": "ALLIGATOR",
+              "amount": 194,
+              "weight": 0.7266,
+              "rate_raw": 500,
+              "p_mob": 0.25,
+              "p_contrib": 0.181648
+            },
+            {
+              "mob_id": 2907,
+              "aegis": "C2_ALLIGATOR",
+              "amount": 3,
+              "weight": 0.0112,
+              "rate_raw": 2500,
+              "p_mob": 1.0,
+              "p_contrib": 0.011236
+            }
+          ],
+          "atlantis_avg": 224,
+          "atlantis_total_sold": 64831,
+          "latam_offers_median": 1790,
+          "ev_atlantis_per_kill": 43.21,
+          "ev_latam_per_kill": 345.26,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 4306,
+          "aegis": "Toad_Card",
+          "name": "Toad Card",
+          "type": "Card",
+          "bucket": "card",
+          "npc_buy": 20,
+          "p_per_map_kill": 3.745e-05,
+          "contributors": [
+            {
+              "mob_id": 1089,
+              "aegis": "TOAD",
+              "amount": 1,
+              "weight": 0.0037,
+              "rate_raw": 1,
+              "p_mob": 0.01,
+              "p_contrib": 3.7e-05
+            }
+          ],
+          "atlantis_avg": 403677,
+          "atlantis_total_sold": 26,
+          "latam_offers_median": 499999,
+          "ev_atlantis_per_kill": 15.12,
+          "ev_latam_per_kill": 18.73,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 521,
+          "aegis": "Leaflet_Of_Aloe",
+          "name": "Aloe Leaflet",
+          "type": "Healing",
+          "bucket": "heal",
+          "npc_buy": 360,
+          "p_per_map_kill": 0.00599251,
+          "contributors": [
+            {
+              "mob_id": 1118,
+              "aegis": "FLORA",
+              "amount": 64,
+              "weight": 0.2397,
+              "rate_raw": 25,
+              "p_mob": 0.025,
+              "p_contrib": 0.005993
+            }
+          ],
+          "atlantis_avg": 1497,
+          "atlantis_total_sold": 2330011,
+          "latam_offers_median": null,
+          "ev_atlantis_per_kill": 8.97,
+          "ev_latam_per_kill": null,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 518,
+          "aegis": "Honey",
+          "name": "Honey",
+          "type": "Healing",
+          "bucket": "heal",
+          "npc_buy": 500,
+          "p_per_map_kill": 0.00374532,
+          "contributors": [
+            {
+              "mob_id": 1089,
+              "aegis": "TOAD",
+              "amount": 1,
+              "weight": 0.0037,
+              "rate_raw": 1000,
+              "p_mob": 1.0,
+              "p_contrib": 0.003745
+            }
+          ],
+          "atlantis_avg": 1761,
+          "atlantis_total_sold": 1242713,
+          "latam_offers_median": 2690,
+          "ev_atlantis_per_kill": 6.6,
+          "ev_latam_per_kill": 10.07,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 1036,
+          "aegis": "Dragon_Scale",
+          "name": "Dragon Scale",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 500,
+          "p_per_map_kill": 0.00234082,
+          "contributors": [
+            {
+              "mob_id": 1262,
+              "aegis": "MUTANT_DRAGON",
+              "amount": 5,
+              "weight": 0.0187,
+              "rate_raw": 250,
+              "p_mob": 0.125,
+              "p_contrib": 0.002341
+            }
+          ],
+          "atlantis_avg": 2623,
+          "atlantis_total_sold": 34654,
+          "latam_offers_median": 6000,
+          "ev_atlantis_per_kill": 6.14,
+          "ev_latam_per_kill": 14.04,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 748,
+          "aegis": "Witherless_Rose",
+          "name": "Witherless Rose",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 41250,
+          "p_per_map_kill": 0.00011985,
+          "contributors": [
+            {
+              "mob_id": 1118,
+              "aegis": "FLORA",
+              "amount": 64,
+              "weight": 0.2397,
+              "rate_raw": 1,
+              "p_mob": 0.0005,
+              "p_contrib": 0.00012
+            }
+          ],
+          "atlantis_avg": 36065,
+          "atlantis_total_sold": 6951,
+          "latam_offers_median": 79999,
+          "ev_atlantis_per_kill": 4.32,
+          "ev_latam_per_kill": 9.59,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 1035,
+          "aegis": "Dragon_Canine",
+          "name": "Dragon Canine",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 484,
+          "p_per_map_kill": 0.00234082,
+          "contributors": [
+            {
+              "mob_id": 1262,
+              "aegis": "MUTANT_DRAGON",
+              "amount": 5,
+              "weight": 0.0187,
+              "rate_raw": 250,
+              "p_mob": 0.125,
+              "p_contrib": 0.002341
+            }
+          ],
+          "atlantis_avg": 1777,
+          "atlantis_total_sold": 9663,
+          "latam_offers_median": 400,
+          "ev_atlantis_per_kill": 4.16,
+          "ev_latam_per_kill": 0.94,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 7938,
+          "aegis": "Light_Granule",
+          "name": "Light Granule",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 1500,
+          "p_per_map_kill": 0.00046816,
+          "contributors": [
+            {
+              "mob_id": 1089,
+              "aegis": "TOAD",
+              "amount": 1,
+              "weight": 0.0037,
+              "rate_raw": 250,
+              "p_mob": 0.125,
+              "p_contrib": 0.000468
+            }
+          ],
+          "atlantis_avg": 3190,
+          "atlantis_total_sold": 141177,
+          "latam_offers_median": 9990,
+          "ev_atlantis_per_kill": 1.49,
+          "ev_latam_per_kill": 4.68,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 970,
+          "aegis": "Alchol",
+          "name": "Alcohol",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 400,
+          "p_per_map_kill": 9.363e-05,
+          "contributors": [
+            {
+              "mob_id": 1089,
+              "aegis": "TOAD",
+              "amount": 1,
+              "weight": 0.0037,
+              "rate_raw": 50,
+              "p_mob": 0.025,
+              "p_contrib": 9.4e-05
+            }
+          ],
+          "atlantis_avg": 10713,
+          "atlantis_total_sold": 2328239,
+          "latam_offers_median": 664,
+          "ev_atlantis_per_kill": 1.0,
+          "ev_latam_per_kill": 0.06,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 971,
+          "aegis": "Detrimindexta",
+          "name": "Detrimindexta",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 400,
+          "p_per_map_kill": 9.363e-05,
+          "contributors": [
+            {
+              "mob_id": 1089,
+              "aegis": "TOAD",
+              "amount": 1,
+              "weight": 0.0037,
+              "rate_raw": 50,
+              "p_mob": 0.025,
+              "p_contrib": 9.4e-05
+            }
+          ],
+          "atlantis_avg": 1418,
+          "atlantis_total_sold": 39338,
+          "latam_offers_median": 1000,
+          "ev_atlantis_per_kill": 0.13,
+          "ev_latam_per_kill": 0.09,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 1099,
+          "aegis": "Worn_Out_Prison_Uniform",
+          "name": "Worn-out Prison Uniform",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 680,
+          "p_per_map_kill": 0.11741573,
+          "contributors": [
+            {
+              "mob_id": 1271,
+              "aegis": "ALLIGATOR",
+              "amount": 194,
+              "weight": 0.7266,
+              "rate_raw": 300,
+              "p_mob": 0.15,
+              "p_contrib": 0.108989
+            },
+            {
+              "mob_id": 2907,
+              "aegis": "C2_ALLIGATOR",
+              "amount": 3,
+              "weight": 0.0112,
+              "rate_raw": 1500,
+              "p_mob": 0.75,
+              "p_contrib": 0.008427
+            }
+          ],
+          "atlantis_avg": null,
+          "atlantis_total_sold": null,
+          "latam_offers_median": null,
+          "ev_atlantis_per_kill": null,
+          "ev_latam_per_kill": null,
+          "in_atlantis": false,
+          "in_latam": true,
+          "in_grindable": false
+        },
+        {
+          "item_id": 7296,
+          "aegis": "Pyroxene",
+          "name": "Pyroxene",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 3000,
+          "p_per_map_kill": 0.00702247,
+          "contributors": [
+            {
+              "mob_id": 1262,
+              "aegis": "MUTANT_DRAGON",
+              "amount": 5,
+              "weight": 0.0187,
+              "rate_raw": 750,
+              "p_mob": 0.375,
+              "p_contrib": 0.007022
+            }
+          ],
+          "atlantis_avg": null,
+          "atlantis_total_sold": null,
+          "latam_offers_median": null,
+          "ev_atlantis_per_kill": null,
+          "ev_latam_per_kill": null,
+          "in_atlantis": false,
+          "in_latam": false,
+          "in_grindable": false
+        },
+        {
+          "item_id": 5125,
+          "aegis": "Kiss_Of_Angel",
+          "name": "Angel's Kiss",
+          "type": "Armor",
+          "bucket": "equip",
+          "npc_buy": 10000,
+          "p_per_map_kill": 0.00280899,
+          "contributors": [
+            {
+              "mob_id": 1089,
+              "aegis": "TOAD",
+              "amount": 1,
+              "weight": 0.0037,
+              "rate_raw": 500,
+              "p_mob": 0.75,
+              "p_contrib": 0.002809
+            }
+          ],
+          "atlantis_avg": null,
+          "atlantis_total_sold": null,
+          "latam_offers_median": null,
+          "ev_atlantis_per_kill": null,
+          "ev_latam_per_kill": null,
+          "in_atlantis": false,
+          "in_latam": true,
+          "in_grindable": false
+        },
+        {
+          "item_id": 629,
+          "aegis": "Singing_Flower",
+          "name": "Singing Flower",
+          "type": "Usable",
+          "bucket": "use",
+          "npc_buy": 300,
+          "p_per_map_kill": 0.002397,
+          "contributors": [
+            {
+              "mob_id": 1118,
+              "aegis": "FLORA",
+              "amount": 64,
+              "weight": 0.2397,
+              "rate_raw": 10,
+              "p_mob": 0.01,
+              "p_contrib": 0.002397
+            }
+          ],
+          "atlantis_avg": null,
+          "atlantis_total_sold": null,
+          "latam_offers_median": null,
+          "ev_atlantis_per_kill": null,
+          "ev_latam_per_kill": null,
+          "in_atlantis": false,
+          "in_latam": true,
+          "in_grindable": false
+        },
+        {
+          "item_id": 4080,
+          "aegis": "Flora_Card",
+          "name": "Flora Card",
+          "type": "Card",
+          "bucket": "card",
+          "npc_buy": 20,
+          "p_per_map_kill": 0.002397,
+          "contributors": [
+            {
+              "mob_id": 1118,
+              "aegis": "FLORA",
+              "amount": 64,
+              "weight": 0.2397,
+              "rate_raw": 1,
+              "p_mob": 0.01,
+              "p_contrib": 0.002397
+            }
+          ],
+          "atlantis_avg": null,
+          "atlantis_total_sold": null,
+          "latam_offers_median": null,
+          "ev_atlantis_per_kill": null,
+          "ev_latam_per_kill": null,
+          "in_atlantis": false,
+          "in_latam": true,
+          "in_grindable": false
+        },
+        {
+          "item_id": 930,
+          "aegis": "Rotten_Bandage",
+          "name": "Rotten Bandage",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 350,
+          "p_per_map_kill": 0.00234082,
+          "contributors": [
+            {
+              "mob_id": 1262,
+              "aegis": "MUTANT_DRAGON",
+              "amount": 5,
+              "weight": 0.0187,
+              "rate_raw": 250,
+              "p_mob": 0.125,
+              "p_contrib": 0.002341
+            }
+          ],
+          "atlantis_avg": null,
+          "atlantis_total_sold": null,
+          "latam_offers_median": null,
+          "ev_atlantis_per_kill": null,
+          "ev_latam_per_kill": null,
+          "in_atlantis": false,
+          "in_latam": true,
+          "in_grindable": false
+        },
+        {
+          "item_id": 729,
+          "aegis": "Bluish_Green_Jewel",
+          "name": "Zircon",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 4500,
+          "p_per_map_kill": 0.00093633,
+          "contributors": [
+            {
+              "mob_id": 1089,
+              "aegis": "TOAD",
+              "amount": 1,
+              "weight": 0.0037,
+              "rate_raw": 500,
+              "p_mob": 0.25,
+              "p_contrib": 0.000936
+            }
+          ],
+          "atlantis_avg": null,
+          "atlantis_total_sold": null,
+          "latam_offers_median": null,
+          "ev_atlantis_per_kill": null,
+          "ev_latam_per_kill": null,
+          "in_atlantis": false,
+          "in_latam": false,
+          "in_grindable": false
+        },
+        {
+          "item_id": 2253,
+          "aegis": "Sunflower",
+          "name": "Sunflower",
+          "type": "Armor",
+          "bucket": "equip",
+          "npc_buy": 20,
+          "p_per_map_kill": 0.0007191,
+          "contributors": [
+            {
+              "mob_id": 1118,
+              "aegis": "FLORA",
+              "amount": 64,
+              "weight": 0.2397,
+              "rate_raw": 2,
+              "p_mob": 0.003,
+              "p_contrib": 0.000719
+            }
+          ],
+          "atlantis_avg": null,
+          "atlantis_total_sold": null,
+          "latam_offers_median": null,
+          "ev_atlantis_per_kill": null,
+          "ev_latam_per_kill": null,
+          "in_atlantis": false,
+          "in_latam": true,
+          "in_grindable": false
+        },
+        {
+          "item_id": 704,
+          "aegis": "Aloe",
+          "name": "Aloe",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 500,
+          "p_per_map_kill": 0.00059925,
+          "contributors": [
+            {
+              "mob_id": 1118,
+              "aegis": "FLORA",
+              "amount": 64,
+              "weight": 0.2397,
+              "rate_raw": 5,
+              "p_mob": 0.0025,
+              "p_contrib": 0.000599
+            }
+          ],
+          "atlantis_avg": null,
+          "atlantis_total_sold": null,
+          "latam_offers_median": null,
+          "ev_atlantis_per_kill": null,
+          "ev_latam_per_kill": null,
+          "in_atlantis": false,
+          "in_latam": false,
+          "in_grindable": false
+        },
+        {
+          "item_id": 2244,
+          "aegis": "Big_Sis'_Ribbon",
+          "name": "Big Ribbon",
+          "type": "Armor",
+          "bucket": "equip",
+          "npc_buy": 15000,
+          "p_per_map_kill": 0.00014045,
+          "contributors": [
+            {
+              "mob_id": 1089,
+              "aegis": "TOAD",
+              "amount": 1,
+              "weight": 0.0037,
+              "rate_raw": 25,
+              "p_mob": 0.0375,
+              "p_contrib": 0.00014
+            }
+          ],
+          "atlantis_avg": null,
+          "atlantis_total_sold": null,
+          "latam_offers_median": null,
+          "ev_atlantis_per_kill": null,
+          "ev_latam_per_kill": null,
+          "in_atlantis": false,
+          "in_latam": false,
+          "in_grindable": false
+        }
+      ],
+      "drops_top20": [
+        {
+          "item_id": 7003,
+          "aegis": "Anolian_Skin",
+          "name": "Anolian Skin",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 968,
+          "p_per_map_kill": 0.37453184,
+          "contributors": [
+            {
+              "mob_id": 1271,
+              "aegis": "ALLIGATOR",
+              "amount": 194,
+              "weight": 0.7266,
+              "rate_raw": 1000,
+              "p_mob": 0.5,
+              "p_contrib": 0.363296
+            },
+            {
+              "mob_id": 2907,
+              "aegis": "C2_ALLIGATOR",
+              "amount": 3,
+              "weight": 0.0112,
+              "rate_raw": 5000,
+              "p_mob": 1.0,
+              "p_contrib": 0.011236
+            }
+          ],
+          "atlantis_avg": 3150,
+          "atlantis_total_sold": 35528334,
+          "latam_offers_median": null,
+          "ev_atlantis_per_kill": 1179.78,
+          "ev_latam_per_kill": null,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 4252,
+          "aegis": "Alligator_Card",
+          "name": "Alligator Card",
+          "type": "Card",
+          "bucket": "card",
+          "npc_buy": 20,
+          "p_per_map_kill": 0.00782772,
+          "contributors": [
+            {
+              "mob_id": 1271,
+              "aegis": "ALLIGATOR",
+              "amount": 194,
+              "weight": 0.7266,
+              "rate_raw": 1,
+              "p_mob": 0.01,
+              "p_contrib": 0.007266
+            },
+            {
+              "mob_id": 2907,
+              "aegis": "C2_ALLIGATOR",
+              "amount": 3,
+              "weight": 0.0112,
+              "rate_raw": 5,
+              "p_mob": 0.05,
+              "p_contrib": 0.000562
+            }
+          ],
+          "atlantis_avg": 102261,
+          "atlantis_total_sold": 4623,
+          "latam_offers_median": 2222222,
+          "ev_atlantis_per_kill": 800.47,
+          "ev_latam_per_kill": 17394.92,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 2527,
+          "aegis": "Dragon_Breath",
+          "name": "Dragon Breath",
+          "type": "Armor",
+          "bucket": "equip",
+          "npc_buy": 20,
+          "p_per_map_kill": 0.00070225,
+          "contributors": [
+            {
+              "mob_id": 1262,
+              "aegis": "MUTANT_DRAGON",
+              "amount": 5,
+              "weight": 0.0187,
+              "rate_raw": 25,
+              "p_mob": 0.0375,
+              "p_contrib": 0.000702
+            }
+          ],
+          "atlantis_avg": 1082336,
+          "atlantis_total_sold": 1096,
+          "latam_offers_median": 29999998,
+          "ev_atlantis_per_kill": 760.07,
+          "ev_latam_per_kill": 21067.41,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 4203,
+          "aegis": "Mutant_Dragon_Card",
+          "name": "Mutant Dragonoid Card",
+          "type": "Card",
+          "bucket": "card",
+          "npc_buy": 20,
+          "p_per_map_kill": 0.00018727,
+          "contributors": [
+            {
+              "mob_id": 1262,
+              "aegis": "MUTANT_DRAGON",
+              "amount": 5,
+              "weight": 0.0187,
+              "rate_raw": 1,
+              "p_mob": 0.01,
+              "p_contrib": 0.000187
+            }
+          ],
+          "atlantis_avg": 2939410,
+          "atlantis_total_sold": 547,
+          "latam_offers_median": 850000,
+          "ev_atlantis_per_kill": 550.45,
+          "ev_latam_per_kill": 159.18,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 1032,
+          "aegis": "Blossom_Of_Maneater",
+          "name": "Maneater Blossom",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 196,
+          "p_per_map_kill": 0.23970037,
+          "contributors": [
+            {
+              "mob_id": 1118,
+              "aegis": "FLORA",
+              "amount": 64,
+              "weight": 0.2397,
+              "rate_raw": 4500,
+              "p_mob": 1.0,
+              "p_contrib": 0.2397
+            }
+          ],
+          "atlantis_avg": 2123,
+          "atlantis_total_sold": 963409,
+          "latam_offers_median": 399,
+          "ev_atlantis_per_kill": 508.88,
+          "ev_latam_per_kill": 95.64,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 1559,
+          "aegis": "Legacy_Of_Dragon",
+          "name": "Legacy of Dragon",
+          "type": "Weapon",
+          "bucket": "equip",
+          "npc_buy": 20,
+          "p_per_map_kill": 0.00140449,
+          "contributors": [
+            {
+              "mob_id": 1262,
+              "aegis": "MUTANT_DRAGON",
+              "amount": 5,
+              "weight": 0.0187,
+              "rate_raw": 50,
+              "p_mob": 0.075,
+              "p_contrib": 0.001404
+            }
+          ],
+          "atlantis_avg": 231601,
+          "atlantis_total_sold": 866,
+          "latam_offers_median": 3999999,
+          "ev_atlantis_per_kill": 325.28,
+          "ev_latam_per_kill": 5617.98,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 905,
+          "aegis": "Stem",
+          "name": "Stem",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 46,
+          "p_per_map_kill": 0.11985019,
+          "contributors": [
+            {
+              "mob_id": 1118,
+              "aegis": "FLORA",
+              "amount": 64,
+              "weight": 0.2397,
+              "rate_raw": 1000,
+              "p_mob": 0.5,
+              "p_contrib": 0.11985
+            }
+          ],
+          "atlantis_avg": 1198,
+          "atlantis_total_sold": 13865834,
+          "latam_offers_median": 1190,
+          "ev_atlantis_per_kill": 143.58,
+          "ev_latam_per_kill": 142.62,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 756,
+          "aegis": "Oridecon_Stone",
+          "name": "Rough Oridecon",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 550,
+          "p_per_map_kill": 0.02544007,
+          "contributors": [
+            {
+              "mob_id": 1271,
+              "aegis": "ALLIGATOR",
+              "amount": 194,
+              "weight": 0.7266,
+              "rate_raw": 65,
+              "p_mob": 0.0325,
+              "p_contrib": 0.023614
+            },
+            {
+              "mob_id": 2907,
+              "aegis": "C2_ALLIGATOR",
+              "amount": 3,
+              "weight": 0.0112,
+              "rate_raw": 325,
+              "p_mob": 0.1625,
+              "p_contrib": 0.001826
+            }
+          ],
+          "atlantis_avg": 4006,
+          "atlantis_total_sold": 65283,
+          "latam_offers_median": 8490,
+          "ev_atlantis_per_kill": 101.91,
+          "ev_latam_per_kill": 215.99,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 608,
+          "aegis": "Seed_Of_Yggdrasil",
+          "name": "Yggdrasil Seed",
+          "type": "Healing",
+          "bucket": "heal",
+          "npc_buy": 5000,
+          "p_per_map_kill": 0.00078277,
+          "contributors": [
+            {
+              "mob_id": 1271,
+              "aegis": "ALLIGATOR",
+              "amount": 194,
+              "weight": 0.7266,
+              "rate_raw": 1,
+              "p_mob": 0.001,
+              "p_contrib": 0.000727
+            },
+            {
+              "mob_id": 2907,
+              "aegis": "C2_ALLIGATOR",
+              "amount": 3,
+              "weight": 0.0112,
+              "rate_raw": 5,
+              "p_mob": 0.005,
+              "p_contrib": 5.6e-05
+            }
+          ],
+          "atlantis_avg": 81328,
+          "atlantis_total_sold": 1213365,
+          "latam_offers_median": 43000,
+          "ev_atlantis_per_kill": 63.66,
+          "ev_latam_per_kill": 33.66,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 7054,
+          "aegis": "Brigan",
+          "name": "Brigan",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 746,
+          "p_per_map_kill": 0.01872659,
+          "contributors": [
+            {
+              "mob_id": 1262,
+              "aegis": "MUTANT_DRAGON",
+              "amount": 5,
+              "weight": 0.0187,
+              "rate_raw": 2425,
+              "p_mob": 1.0,
+              "p_contrib": 0.018727
+            }
+          ],
+          "atlantis_avg": 2943,
+          "atlantis_total_sold": 30900,
+          "latam_offers_median": 387,
+          "ev_atlantis_per_kill": 55.11,
+          "ev_latam_per_kill": 7.25,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 912,
+          "aegis": "Zargon",
+          "name": "Zargon",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 360,
+          "p_per_map_kill": 0.1928839,
+          "contributors": [
+            {
+              "mob_id": 1271,
+              "aegis": "ALLIGATOR",
+              "amount": 194,
+              "weight": 0.7266,
+              "rate_raw": 500,
+              "p_mob": 0.25,
+              "p_contrib": 0.181648
+            },
+            {
+              "mob_id": 2907,
+              "aegis": "C2_ALLIGATOR",
+              "amount": 3,
+              "weight": 0.0112,
+              "rate_raw": 2500,
+              "p_mob": 1.0,
+              "p_contrib": 0.011236
+            }
+          ],
+          "atlantis_avg": 224,
+          "atlantis_total_sold": 64831,
+          "latam_offers_median": 1790,
+          "ev_atlantis_per_kill": 43.21,
+          "ev_latam_per_kill": 345.26,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 4306,
+          "aegis": "Toad_Card",
+          "name": "Toad Card",
+          "type": "Card",
+          "bucket": "card",
+          "npc_buy": 20,
+          "p_per_map_kill": 3.745e-05,
+          "contributors": [
+            {
+              "mob_id": 1089,
+              "aegis": "TOAD",
+              "amount": 1,
+              "weight": 0.0037,
+              "rate_raw": 1,
+              "p_mob": 0.01,
+              "p_contrib": 3.7e-05
+            }
+          ],
+          "atlantis_avg": 403677,
+          "atlantis_total_sold": 26,
+          "latam_offers_median": 499999,
+          "ev_atlantis_per_kill": 15.12,
+          "ev_latam_per_kill": 18.73,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 521,
+          "aegis": "Leaflet_Of_Aloe",
+          "name": "Aloe Leaflet",
+          "type": "Healing",
+          "bucket": "heal",
+          "npc_buy": 360,
+          "p_per_map_kill": 0.00599251,
+          "contributors": [
+            {
+              "mob_id": 1118,
+              "aegis": "FLORA",
+              "amount": 64,
+              "weight": 0.2397,
+              "rate_raw": 25,
+              "p_mob": 0.025,
+              "p_contrib": 0.005993
+            }
+          ],
+          "atlantis_avg": 1497,
+          "atlantis_total_sold": 2330011,
+          "latam_offers_median": null,
+          "ev_atlantis_per_kill": 8.97,
+          "ev_latam_per_kill": null,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 518,
+          "aegis": "Honey",
+          "name": "Honey",
+          "type": "Healing",
+          "bucket": "heal",
+          "npc_buy": 500,
+          "p_per_map_kill": 0.00374532,
+          "contributors": [
+            {
+              "mob_id": 1089,
+              "aegis": "TOAD",
+              "amount": 1,
+              "weight": 0.0037,
+              "rate_raw": 1000,
+              "p_mob": 1.0,
+              "p_contrib": 0.003745
+            }
+          ],
+          "atlantis_avg": 1761,
+          "atlantis_total_sold": 1242713,
+          "latam_offers_median": 2690,
+          "ev_atlantis_per_kill": 6.6,
+          "ev_latam_per_kill": 10.07,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 1036,
+          "aegis": "Dragon_Scale",
+          "name": "Dragon Scale",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 500,
+          "p_per_map_kill": 0.00234082,
+          "contributors": [
+            {
+              "mob_id": 1262,
+              "aegis": "MUTANT_DRAGON",
+              "amount": 5,
+              "weight": 0.0187,
+              "rate_raw": 250,
+              "p_mob": 0.125,
+              "p_contrib": 0.002341
+            }
+          ],
+          "atlantis_avg": 2623,
+          "atlantis_total_sold": 34654,
+          "latam_offers_median": 6000,
+          "ev_atlantis_per_kill": 6.14,
+          "ev_latam_per_kill": 14.04,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 748,
+          "aegis": "Witherless_Rose",
+          "name": "Witherless Rose",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 41250,
+          "p_per_map_kill": 0.00011985,
+          "contributors": [
+            {
+              "mob_id": 1118,
+              "aegis": "FLORA",
+              "amount": 64,
+              "weight": 0.2397,
+              "rate_raw": 1,
+              "p_mob": 0.0005,
+              "p_contrib": 0.00012
+            }
+          ],
+          "atlantis_avg": 36065,
+          "atlantis_total_sold": 6951,
+          "latam_offers_median": 79999,
+          "ev_atlantis_per_kill": 4.32,
+          "ev_latam_per_kill": 9.59,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 1035,
+          "aegis": "Dragon_Canine",
+          "name": "Dragon Canine",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 484,
+          "p_per_map_kill": 0.00234082,
+          "contributors": [
+            {
+              "mob_id": 1262,
+              "aegis": "MUTANT_DRAGON",
+              "amount": 5,
+              "weight": 0.0187,
+              "rate_raw": 250,
+              "p_mob": 0.125,
+              "p_contrib": 0.002341
+            }
+          ],
+          "atlantis_avg": 1777,
+          "atlantis_total_sold": 9663,
+          "latam_offers_median": 400,
+          "ev_atlantis_per_kill": 4.16,
+          "ev_latam_per_kill": 0.94,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 7938,
+          "aegis": "Light_Granule",
+          "name": "Light Granule",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 1500,
+          "p_per_map_kill": 0.00046816,
+          "contributors": [
+            {
+              "mob_id": 1089,
+              "aegis": "TOAD",
+              "amount": 1,
+              "weight": 0.0037,
+              "rate_raw": 250,
+              "p_mob": 0.125,
+              "p_contrib": 0.000468
+            }
+          ],
+          "atlantis_avg": 3190,
+          "atlantis_total_sold": 141177,
+          "latam_offers_median": 9990,
+          "ev_atlantis_per_kill": 1.49,
+          "ev_latam_per_kill": 4.68,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 970,
+          "aegis": "Alchol",
+          "name": "Alcohol",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 400,
+          "p_per_map_kill": 9.363e-05,
+          "contributors": [
+            {
+              "mob_id": 1089,
+              "aegis": "TOAD",
+              "amount": 1,
+              "weight": 0.0037,
+              "rate_raw": 50,
+              "p_mob": 0.025,
+              "p_contrib": 9.4e-05
+            }
+          ],
+          "atlantis_avg": 10713,
+          "atlantis_total_sold": 2328239,
+          "latam_offers_median": 664,
+          "ev_atlantis_per_kill": 1.0,
+          "ev_latam_per_kill": 0.06,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 971,
+          "aegis": "Detrimindexta",
+          "name": "Detrimindexta",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 400,
+          "p_per_map_kill": 9.363e-05,
+          "contributors": [
+            {
+              "mob_id": 1089,
+              "aegis": "TOAD",
+              "amount": 1,
+              "weight": 0.0037,
+              "rate_raw": 50,
+              "p_mob": 0.025,
+              "p_contrib": 9.4e-05
+            }
+          ],
+          "atlantis_avg": 1418,
+          "atlantis_total_sold": 39338,
+          "latam_offers_median": 1000,
+          "ev_atlantis_per_kill": 0.13,
+          "ev_latam_per_kill": 0.09,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        }
+      ],
+      "loot": {
+        "policy": "full",
+        "policy_reason": "oferta bot = mats/consumibles con precio; cards/equip quedan fuera del stock masivo (ver drops completos)",
+        "offer_drop_count": 18,
+        "ev_atlantis_per_kill_offer": 2128.94,
+        "ev_latam_per_kill_offer": 879.89,
+        "ev_atlantis_per_kill_all_drops": 4580.33,
+        "ev_atlantis_per_kill_mats_only": 2128.94,
+        "card_count": 4,
+        "ev_atlantis_cards": 1366.04,
+        "offer_drops_top30": [
+          {
+            "item_id": 7003,
+            "aegis": "Anolian_Skin",
+            "name": "Anolian Skin",
+            "type": "Etc",
+            "bucket": "common",
+            "npc_buy": 968,
+            "p_per_map_kill": 0.37453184,
+            "contributors": [
+              {
+                "mob_id": 1271,
+                "aegis": "ALLIGATOR",
+                "amount": 194,
+                "weight": 0.7266,
+                "rate_raw": 1000,
+                "p_mob": 0.5,
+                "p_contrib": 0.363296
+              },
+              {
+                "mob_id": 2907,
+                "aegis": "C2_ALLIGATOR",
+                "amount": 3,
+                "weight": 0.0112,
+                "rate_raw": 5000,
+                "p_mob": 1.0,
+                "p_contrib": 0.011236
+              }
+            ],
+            "atlantis_avg": 3150,
+            "atlantis_total_sold": 35528334,
+            "latam_offers_median": null,
+            "ev_atlantis_per_kill": 1179.78,
+            "ev_latam_per_kill": null,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          },
+          {
+            "item_id": 1032,
+            "aegis": "Blossom_Of_Maneater",
+            "name": "Maneater Blossom",
+            "type": "Etc",
+            "bucket": "common",
+            "npc_buy": 196,
+            "p_per_map_kill": 0.23970037,
+            "contributors": [
+              {
+                "mob_id": 1118,
+                "aegis": "FLORA",
+                "amount": 64,
+                "weight": 0.2397,
+                "rate_raw": 4500,
+                "p_mob": 1.0,
+                "p_contrib": 0.2397
+              }
+            ],
+            "atlantis_avg": 2123,
+            "atlantis_total_sold": 963409,
+            "latam_offers_median": 399,
+            "ev_atlantis_per_kill": 508.88,
+            "ev_latam_per_kill": 95.64,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          },
+          {
+            "item_id": 905,
+            "aegis": "Stem",
+            "name": "Stem",
+            "type": "Etc",
+            "bucket": "common",
+            "npc_buy": 46,
+            "p_per_map_kill": 0.11985019,
+            "contributors": [
+              {
+                "mob_id": 1118,
+                "aegis": "FLORA",
+                "amount": 64,
+                "weight": 0.2397,
+                "rate_raw": 1000,
+                "p_mob": 0.5,
+                "p_contrib": 0.11985
+              }
+            ],
+            "atlantis_avg": 1198,
+            "atlantis_total_sold": 13865834,
+            "latam_offers_median": 1190,
+            "ev_atlantis_per_kill": 143.58,
+            "ev_latam_per_kill": 142.62,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          },
+          {
+            "item_id": 756,
+            "aegis": "Oridecon_Stone",
+            "name": "Rough Oridecon",
+            "type": "Etc",
+            "bucket": "common",
+            "npc_buy": 550,
+            "p_per_map_kill": 0.02544007,
+            "contributors": [
+              {
+                "mob_id": 1271,
+                "aegis": "ALLIGATOR",
+                "amount": 194,
+                "weight": 0.7266,
+                "rate_raw": 65,
+                "p_mob": 0.0325,
+                "p_contrib": 0.023614
+              },
+              {
+                "mob_id": 2907,
+                "aegis": "C2_ALLIGATOR",
+                "amount": 3,
+                "weight": 0.0112,
+                "rate_raw": 325,
+                "p_mob": 0.1625,
+                "p_contrib": 0.001826
+              }
+            ],
+            "atlantis_avg": 4006,
+            "atlantis_total_sold": 65283,
+            "latam_offers_median": 8490,
+            "ev_atlantis_per_kill": 101.91,
+            "ev_latam_per_kill": 215.99,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          },
+          {
+            "item_id": 608,
+            "aegis": "Seed_Of_Yggdrasil",
+            "name": "Yggdrasil Seed",
+            "type": "Healing",
+            "bucket": "heal",
+            "npc_buy": 5000,
+            "p_per_map_kill": 0.00078277,
+            "contributors": [
+              {
+                "mob_id": 1271,
+                "aegis": "ALLIGATOR",
+                "amount": 194,
+                "weight": 0.7266,
+                "rate_raw": 1,
+                "p_mob": 0.001,
+                "p_contrib": 0.000727
+              },
+              {
+                "mob_id": 2907,
+                "aegis": "C2_ALLIGATOR",
+                "amount": 3,
+                "weight": 0.0112,
+                "rate_raw": 5,
+                "p_mob": 0.005,
+                "p_contrib": 5.6e-05
+              }
+            ],
+            "atlantis_avg": 81328,
+            "atlantis_total_sold": 1213365,
+            "latam_offers_median": 43000,
+            "ev_atlantis_per_kill": 63.66,
+            "ev_latam_per_kill": 33.66,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          },
+          {
+            "item_id": 7054,
+            "aegis": "Brigan",
+            "name": "Brigan",
+            "type": "Etc",
+            "bucket": "common",
+            "npc_buy": 746,
+            "p_per_map_kill": 0.01872659,
+            "contributors": [
+              {
+                "mob_id": 1262,
+                "aegis": "MUTANT_DRAGON",
+                "amount": 5,
+                "weight": 0.0187,
+                "rate_raw": 2425,
+                "p_mob": 1.0,
+                "p_contrib": 0.018727
+              }
+            ],
+            "atlantis_avg": 2943,
+            "atlantis_total_sold": 30900,
+            "latam_offers_median": 387,
+            "ev_atlantis_per_kill": 55.11,
+            "ev_latam_per_kill": 7.25,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          },
+          {
+            "item_id": 912,
+            "aegis": "Zargon",
+            "name": "Zargon",
+            "type": "Etc",
+            "bucket": "common",
+            "npc_buy": 360,
+            "p_per_map_kill": 0.1928839,
+            "contributors": [
+              {
+                "mob_id": 1271,
+                "aegis": "ALLIGATOR",
+                "amount": 194,
+                "weight": 0.7266,
+                "rate_raw": 500,
+                "p_mob": 0.25,
+                "p_contrib": 0.181648
+              },
+              {
+                "mob_id": 2907,
+                "aegis": "C2_ALLIGATOR",
+                "amount": 3,
+                "weight": 0.0112,
+                "rate_raw": 2500,
+                "p_mob": 1.0,
+                "p_contrib": 0.011236
+              }
+            ],
+            "atlantis_avg": 224,
+            "atlantis_total_sold": 64831,
+            "latam_offers_median": 1790,
+            "ev_atlantis_per_kill": 43.21,
+            "ev_latam_per_kill": 345.26,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          },
+          {
+            "item_id": 521,
+            "aegis": "Leaflet_Of_Aloe",
+            "name": "Aloe Leaflet",
+            "type": "Healing",
+            "bucket": "heal",
+            "npc_buy": 360,
+            "p_per_map_kill": 0.00599251,
+            "contributors": [
+              {
+                "mob_id": 1118,
+                "aegis": "FLORA",
+                "amount": 64,
+                "weight": 0.2397,
+                "rate_raw": 25,
+                "p_mob": 0.025,
+                "p_contrib": 0.005993
+              }
+            ],
+            "atlantis_avg": 1497,
+            "atlantis_total_sold": 2330011,
+            "latam_offers_median": null,
+            "ev_atlantis_per_kill": 8.97,
+            "ev_latam_per_kill": null,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          },
+          {
+            "item_id": 518,
+            "aegis": "Honey",
+            "name": "Honey",
+            "type": "Healing",
+            "bucket": "heal",
+            "npc_buy": 500,
+            "p_per_map_kill": 0.00374532,
+            "contributors": [
+              {
+                "mob_id": 1089,
+                "aegis": "TOAD",
+                "amount": 1,
+                "weight": 0.0037,
+                "rate_raw": 1000,
+                "p_mob": 1.0,
+                "p_contrib": 0.003745
+              }
+            ],
+            "atlantis_avg": 1761,
+            "atlantis_total_sold": 1242713,
+            "latam_offers_median": 2690,
+            "ev_atlantis_per_kill": 6.6,
+            "ev_latam_per_kill": 10.07,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          },
+          {
+            "item_id": 1036,
+            "aegis": "Dragon_Scale",
+            "name": "Dragon Scale",
+            "type": "Etc",
+            "bucket": "common",
+            "npc_buy": 500,
+            "p_per_map_kill": 0.00234082,
+            "contributors": [
+              {
+                "mob_id": 1262,
+                "aegis": "MUTANT_DRAGON",
+                "amount": 5,
+                "weight": 0.0187,
+                "rate_raw": 250,
+                "p_mob": 0.125,
+                "p_contrib": 0.002341
+              }
+            ],
+            "atlantis_avg": 2623,
+            "atlantis_total_sold": 34654,
+            "latam_offers_median": 6000,
+            "ev_atlantis_per_kill": 6.14,
+            "ev_latam_per_kill": 14.04,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          },
+          {
+            "item_id": 748,
+            "aegis": "Witherless_Rose",
+            "name": "Witherless Rose",
+            "type": "Etc",
+            "bucket": "common",
+            "npc_buy": 41250,
+            "p_per_map_kill": 0.00011985,
+            "contributors": [
+              {
+                "mob_id": 1118,
+                "aegis": "FLORA",
+                "amount": 64,
+                "weight": 0.2397,
+                "rate_raw": 1,
+                "p_mob": 0.0005,
+                "p_contrib": 0.00012
+              }
+            ],
+            "atlantis_avg": 36065,
+            "atlantis_total_sold": 6951,
+            "latam_offers_median": 79999,
+            "ev_atlantis_per_kill": 4.32,
+            "ev_latam_per_kill": 9.59,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          },
+          {
+            "item_id": 1035,
+            "aegis": "Dragon_Canine",
+            "name": "Dragon Canine",
+            "type": "Etc",
+            "bucket": "common",
+            "npc_buy": 484,
+            "p_per_map_kill": 0.00234082,
+            "contributors": [
+              {
+                "mob_id": 1262,
+                "aegis": "MUTANT_DRAGON",
+                "amount": 5,
+                "weight": 0.0187,
+                "rate_raw": 250,
+                "p_mob": 0.125,
+                "p_contrib": 0.002341
+              }
+            ],
+            "atlantis_avg": 1777,
+            "atlantis_total_sold": 9663,
+            "latam_offers_median": 400,
+            "ev_atlantis_per_kill": 4.16,
+            "ev_latam_per_kill": 0.94,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          },
+          {
+            "item_id": 7938,
+            "aegis": "Light_Granule",
+            "name": "Light Granule",
+            "type": "Etc",
+            "bucket": "common",
+            "npc_buy": 1500,
+            "p_per_map_kill": 0.00046816,
+            "contributors": [
+              {
+                "mob_id": 1089,
+                "aegis": "TOAD",
+                "amount": 1,
+                "weight": 0.0037,
+                "rate_raw": 250,
+                "p_mob": 0.125,
+                "p_contrib": 0.000468
+              }
+            ],
+            "atlantis_avg": 3190,
+            "atlantis_total_sold": 141177,
+            "latam_offers_median": 9990,
+            "ev_atlantis_per_kill": 1.49,
+            "ev_latam_per_kill": 4.68,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          },
+          {
+            "item_id": 970,
+            "aegis": "Alchol",
+            "name": "Alcohol",
+            "type": "Etc",
+            "bucket": "common",
+            "npc_buy": 400,
+            "p_per_map_kill": 9.363e-05,
+            "contributors": [
+              {
+                "mob_id": 1089,
+                "aegis": "TOAD",
+                "amount": 1,
+                "weight": 0.0037,
+                "rate_raw": 50,
+                "p_mob": 0.025,
+                "p_contrib": 9.4e-05
+              }
+            ],
+            "atlantis_avg": 10713,
+            "atlantis_total_sold": 2328239,
+            "latam_offers_median": 664,
+            "ev_atlantis_per_kill": 1.0,
+            "ev_latam_per_kill": 0.06,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          },
+          {
+            "item_id": 971,
+            "aegis": "Detrimindexta",
+            "name": "Detrimindexta",
+            "type": "Etc",
+            "bucket": "common",
+            "npc_buy": 400,
+            "p_per_map_kill": 9.363e-05,
+            "contributors": [
+              {
+                "mob_id": 1089,
+                "aegis": "TOAD",
+                "amount": 1,
+                "weight": 0.0037,
+                "rate_raw": 50,
+                "p_mob": 0.025,
+                "p_contrib": 9.4e-05
+              }
+            ],
+            "atlantis_avg": 1418,
+            "atlantis_total_sold": 39338,
+            "latam_offers_median": 1000,
+            "ev_atlantis_per_kill": 0.13,
+            "ev_latam_per_kill": 0.09,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          },
+          {
+            "item_id": 1099,
+            "aegis": "Worn_Out_Prison_Uniform",
+            "name": "Worn-out Prison Uniform",
+            "type": "Etc",
+            "bucket": "common",
+            "npc_buy": 680,
+            "p_per_map_kill": 0.11741573,
+            "contributors": [
+              {
+                "mob_id": 1271,
+                "aegis": "ALLIGATOR",
+                "amount": 194,
+                "weight": 0.7266,
+                "rate_raw": 300,
+                "p_mob": 0.15,
+                "p_contrib": 0.108989
+              },
+              {
+                "mob_id": 2907,
+                "aegis": "C2_ALLIGATOR",
+                "amount": 3,
+                "weight": 0.0112,
+                "rate_raw": 1500,
+                "p_mob": 0.75,
+                "p_contrib": 0.008427
+              }
+            ],
+            "atlantis_avg": null,
+            "atlantis_total_sold": null,
+            "latam_offers_median": null,
+            "ev_atlantis_per_kill": null,
+            "ev_latam_per_kill": null,
+            "in_atlantis": false,
+            "in_latam": true,
+            "in_grindable": false
+          },
+          {
+            "item_id": 629,
+            "aegis": "Singing_Flower",
+            "name": "Singing Flower",
+            "type": "Usable",
+            "bucket": "use",
+            "npc_buy": 300,
+            "p_per_map_kill": 0.002397,
+            "contributors": [
+              {
+                "mob_id": 1118,
+                "aegis": "FLORA",
+                "amount": 64,
+                "weight": 0.2397,
+                "rate_raw": 10,
+                "p_mob": 0.01,
+                "p_contrib": 0.002397
+              }
+            ],
+            "atlantis_avg": null,
+            "atlantis_total_sold": null,
+            "latam_offers_median": null,
+            "ev_atlantis_per_kill": null,
+            "ev_latam_per_kill": null,
+            "in_atlantis": false,
+            "in_latam": true,
+            "in_grindable": false
+          },
+          {
+            "item_id": 930,
+            "aegis": "Rotten_Bandage",
+            "name": "Rotten Bandage",
+            "type": "Etc",
+            "bucket": "common",
+            "npc_buy": 350,
+            "p_per_map_kill": 0.00234082,
+            "contributors": [
+              {
+                "mob_id": 1262,
+                "aegis": "MUTANT_DRAGON",
+                "amount": 5,
+                "weight": 0.0187,
+                "rate_raw": 250,
+                "p_mob": 0.125,
+                "p_contrib": 0.002341
+              }
+            ],
+            "atlantis_avg": null,
+            "atlantis_total_sold": null,
+            "latam_offers_median": null,
+            "ev_atlantis_per_kill": null,
+            "ev_latam_per_kill": null,
+            "in_atlantis": false,
+            "in_latam": true,
+            "in_grindable": false
+          }
+        ],
+        "offer_item_ids": [
+          7003,
+          1032,
+          905,
+          756,
+          608,
+          7054,
+          912,
+          521,
+          518,
+          1036,
+          748,
+          1035,
+          7938,
+          970,
+          971,
+          1099,
+          629,
+          930
+        ],
+        "top_cards": [
+          {
+            "item_id": 4252,
+            "name": "Alligator Card",
+            "p": 0.00782772,
+            "atlantis_avg": 102261,
+            "ev_at": 800.47
+          },
+          {
+            "item_id": 4203,
+            "name": "Mutant Dragonoid Card",
+            "p": 0.00018727,
+            "atlantis_avg": 2939410,
+            "ev_at": 550.45
+          },
+          {
+            "item_id": 4306,
+            "name": "Toad Card",
+            "p": 3.745e-05,
+            "atlantis_avg": 403677,
+            "ev_at": 15.12
+          },
+          {
+            "item_id": 4080,
+            "name": "Flora Card",
+            "p": 0.002397,
+            "atlantis_avg": null,
+            "ev_at": null
+          }
+        ]
+      }
+    }
+  ]
+}

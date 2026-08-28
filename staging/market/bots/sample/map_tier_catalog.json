@@ -1,0 +1,897 @@
+{
+  "note": "Mapas candidatos (≥40 combat spawns, plants excluidos) por tier",
+  "counts": {
+    "novice": 32,
+    "expert": 120,
+    "easy": 29,
+    "hard": 94,
+    "mid": 61
+  },
+  "top_by_tier": {
+    "novice": [
+      {
+        "map": "prt_fild08",
+        "combat_amount": 616,
+        "avg_level": 3.1,
+        "avg_hp": 55,
+        "max_level": 6
+      },
+      {
+        "map": "prt_fild08a",
+        "combat_amount": 340,
+        "avg_level": 3.1,
+        "avg_hp": 52,
+        "max_level": 6
+      },
+      {
+        "map": "prt_fild08b",
+        "combat_amount": 340,
+        "avg_level": 3.1,
+        "avg_hp": 52,
+        "max_level": 6
+      },
+      {
+        "map": "prt_fild08c",
+        "combat_amount": 340,
+        "avg_level": 3.1,
+        "avg_hp": 52,
+        "max_level": 6
+      },
+      {
+        "map": "prt_fild08d",
+        "combat_amount": 340,
+        "avg_level": 3.1,
+        "avg_hp": 52,
+        "max_level": 6
+      },
+      {
+        "map": "moc_fild11",
+        "combat_amount": 318,
+        "avg_level": 13.4,
+        "avg_hp": 116,
+        "max_level": 16
+      },
+      {
+        "map": "moc_fild07",
+        "combat_amount": 316,
+        "avg_level": 3.6,
+        "avg_hp": 52,
+        "max_level": 10
+      },
+      {
+        "map": "prt_fild05",
+        "combat_amount": 285,
+        "avg_level": 13.8,
+        "avg_hp": 140,
+        "max_level": 21
+      },
+      {
+        "map": "prt_fild01",
+        "combat_amount": 282,
+        "avg_level": 3.1,
+        "avg_hp": 52,
+        "max_level": 6
+      },
+      {
+        "map": "prt_fild07",
+        "combat_amount": 274,
+        "avg_level": 14.8,
+        "avg_hp": 166,
+        "max_level": 18
+      },
+      {
+        "map": "prt_fild00",
+        "combat_amount": 262,
+        "avg_level": 14.6,
+        "avg_hp": 173,
+        "max_level": 19
+      },
+      {
+        "map": "pay_fild01",
+        "combat_amount": 259,
+        "avg_level": 6.7,
+        "avg_hp": 74,
+        "max_level": 8
+      },
+      {
+        "map": "moc_fild12",
+        "combat_amount": 255,
+        "avg_level": 8.3,
+        "avg_hp": 75,
+        "max_level": 12
+      },
+      {
+        "map": "moc_fild18",
+        "combat_amount": 232,
+        "avg_level": 15.3,
+        "avg_hp": 138,
+        "max_level": 47
+      },
+      {
+        "map": "gef_fild00",
+        "combat_amount": 230,
+        "avg_level": 4.6,
+        "avg_hp": 52,
+        "max_level": 6
+      },
+      {
+        "map": "mjolnir_09",
+        "combat_amount": 229,
+        "avg_level": 12.7,
+        "avg_hp": 117,
+        "max_level": 14
+      },
+      {
+        "map": "prt_fild06",
+        "combat_amount": 215,
+        "avg_level": 4.8,
+        "avg_hp": 61,
+        "max_level": 6
+      },
+      {
+        "map": "pay_fild08",
+        "combat_amount": 210,
+        "avg_level": 17.9,
+        "avg_hp": 214,
+        "max_level": 18
+      },
+      {
+        "map": "pay_fild02",
+        "combat_amount": 205,
+        "avg_level": 17.9,
+        "avg_hp": 215,
+        "max_level": 18
+      },
+      {
+        "map": "pay_fild06",
+        "combat_amount": 203,
+        "avg_level": 17.3,
+        "avg_hp": 204,
+        "max_level": 18
+      },
+      {
+        "map": "pay_fild03",
+        "combat_amount": 203,
+        "avg_level": 5.4,
+        "avg_hp": 63,
+        "max_level": 8
+      },
+      {
+        "map": "gef_fild04",
+        "combat_amount": 202,
+        "avg_level": 9.9,
+        "avg_hp": 119,
+        "max_level": 13
+      },
+      {
+        "map": "gef_fild07",
+        "combat_amount": 196,
+        "avg_level": 4.0,
+        "avg_hp": 54,
+        "max_level": 6
+      },
+      {
+        "map": "treasure_n2",
+        "combat_amount": 188,
+        "avg_level": 17.1,
+        "avg_hp": 229,
+        "max_level": 23
+      },
+      {
+        "map": "gef_fild01",
+        "combat_amount": 143,
+        "avg_level": 14.3,
+        "avg_hp": 175,
+        "max_level": 27
+      }
+    ],
+    "expert": [
+      {
+        "map": "lhz_dun04",
+        "combat_amount": 358,
+        "avg_level": 141.6,
+        "avg_hp": 335802,
+        "max_level": 160
+      },
+      {
+        "map": "lhz_dun02",
+        "combat_amount": 334,
+        "avg_level": 133.1,
+        "avg_hp": 46116,
+        "max_level": 140
+      },
+      {
+        "map": "juperos_02",
+        "combat_amount": 318,
+        "avg_level": 114.8,
+        "avg_hp": 22828,
+        "max_level": 121
+      },
+      {
+        "map": "lhz_dun03",
+        "combat_amount": 315,
+        "avg_level": 141.4,
+        "avg_hp": 309746,
+        "max_level": 160
+      },
+      {
+        "map": "abbey02",
+        "combat_amount": 311,
+        "avg_level": 123.8,
+        "avg_hp": 36563,
+        "max_level": 133
+      },
+      {
+        "map": "ba_bath",
+        "combat_amount": 300,
+        "avg_level": 139.2,
+        "avg_hp": 136040,
+        "max_level": 144
+      },
+      {
+        "map": "ba_pw03",
+        "combat_amount": 300,
+        "avg_level": 193.0,
+        "avg_hp": 2961892,
+        "max_level": 194
+      },
+      {
+        "map": "moc_fild21",
+        "combat_amount": 297,
+        "avg_level": 132.7,
+        "avg_hp": 76746,
+        "max_level": 134
+      },
+      {
+        "map": "lhz_dun01",
+        "combat_amount": 289,
+        "avg_level": 110.7,
+        "avg_hp": 25387,
+        "max_level": 136
+      },
+      {
+        "map": "juperos_01",
+        "combat_amount": 288,
+        "avg_level": 113.3,
+        "avg_hp": 19692,
+        "max_level": 116
+      },
+      {
+        "map": "jupe_core",
+        "combat_amount": 278,
+        "avg_level": 115.6,
+        "avg_hp": 22715,
+        "max_level": 119
+      },
+      {
+        "map": "ba_pw02",
+        "combat_amount": 275,
+        "avg_level": 140.8,
+        "avg_hp": 283449,
+        "max_level": 143
+      },
+      {
+        "map": "moc_fild22",
+        "combat_amount": 272,
+        "avg_level": 132.6,
+        "avg_hp": 77766,
+        "max_level": 134
+      },
+      {
+        "map": "abbey01",
+        "combat_amount": 266,
+        "avg_level": 111.5,
+        "avg_hp": 29318,
+        "max_level": 130
+      },
+      {
+        "map": "ra_fild05",
+        "combat_amount": 257,
+        "avg_level": 103.0,
+        "avg_hp": 12673,
+        "max_level": 107
+      },
+      {
+        "map": "ra_fild06",
+        "combat_amount": 250,
+        "avg_level": 104.6,
+        "avg_hp": 11776,
+        "max_level": 112
+      },
+      {
+        "map": "ba_pw01",
+        "combat_amount": 250,
+        "avg_level": 143.2,
+        "avg_hp": 286876,
+        "max_level": 145
+      },
+      {
+        "map": "tha_t05",
+        "combat_amount": 244,
+        "avg_level": 105.5,
+        "avg_hp": 15374,
+        "max_level": 129
+      },
+      {
+        "map": "sp_rudus3",
+        "combat_amount": 243,
+        "avg_level": 175.4,
+        "avg_hp": 752099,
+        "max_level": 178
+      },
+      {
+        "map": "ba_lost",
+        "combat_amount": 230,
+        "avg_level": 164.3,
+        "avg_hp": 660017,
+        "max_level": 166
+      },
+      {
+        "map": "sp_os",
+        "combat_amount": 225,
+        "avg_level": 120.1,
+        "avg_hp": 30124,
+        "max_level": 123
+      },
+      {
+        "map": "tha_t06",
+        "combat_amount": 224,
+        "avg_level": 109.4,
+        "avg_hp": 18126,
+        "max_level": 129
+      },
+      {
+        "map": "ve_fild02",
+        "combat_amount": 219,
+        "avg_level": 101.4,
+        "avg_hp": 12005,
+        "max_level": 105
+      },
+      {
+        "map": "ve_fild03",
+        "combat_amount": 219,
+        "avg_level": 107.6,
+        "avg_hp": 11479,
+        "max_level": 110
+      },
+      {
+        "map": "spl_fild01",
+        "combat_amount": 217,
+        "avg_level": 115.8,
+        "avg_hp": 23260,
+        "max_level": 120
+      }
+    ],
+    "easy": [
+      {
+        "map": "moc_fild01",
+        "combat_amount": 329,
+        "avg_level": 22.1,
+        "avg_hp": 328,
+        "max_level": 25
+      },
+      {
+        "map": "prt_fild02",
+        "combat_amount": 272,
+        "avg_level": 22.7,
+        "avg_hp": 268,
+        "max_level": 31
+      },
+      {
+        "map": "pay_fild07",
+        "combat_amount": 268,
+        "avg_level": 27.0,
+        "avg_hp": 439,
+        "max_level": 29
+      },
+      {
+        "map": "gef_fild02",
+        "combat_amount": 247,
+        "avg_level": 36.3,
+        "avg_hp": 721,
+        "max_level": 38
+      },
+      {
+        "map": "pay_fild09",
+        "combat_amount": 246,
+        "avg_level": 33.1,
+        "avg_hp": 622,
+        "max_level": 38
+      },
+      {
+        "map": "mjolnir_01",
+        "combat_amount": 238,
+        "avg_level": 24.8,
+        "avg_hp": 330,
+        "max_level": 29
+      },
+      {
+        "map": "mjolnir_02",
+        "combat_amount": 234,
+        "avg_level": 33.7,
+        "avg_hp": 611,
+        "max_level": 38
+      },
+      {
+        "map": "cmd_fild08",
+        "combat_amount": 227,
+        "avg_level": 31.6,
+        "avg_hp": 534,
+        "max_level": 61
+      },
+      {
+        "map": "prt_fild10",
+        "combat_amount": 226,
+        "avg_level": 33.8,
+        "avg_hp": 577,
+        "max_level": 38
+      },
+      {
+        "map": "anthell01",
+        "combat_amount": 226,
+        "avg_level": 29.8,
+        "avg_hp": 504,
+        "max_level": 42
+      },
+      {
+        "map": "prt_sewb1",
+        "combat_amount": 226,
+        "avg_level": 21.5,
+        "avg_hp": 298,
+        "max_level": 24
+      },
+      {
+        "map": "moc_fild02",
+        "combat_amount": 224,
+        "avg_level": 23.6,
+        "avg_hp": 348,
+        "max_level": 25
+      },
+      {
+        "map": "pay_fild04",
+        "combat_amount": 216,
+        "avg_level": 26.9,
+        "avg_hp": 774,
+        "max_level": 90
+      },
+      {
+        "map": "prt_sewb3",
+        "combat_amount": 213,
+        "avg_level": 26.5,
+        "avg_hp": 439,
+        "max_level": 30
+      },
+      {
+        "map": "prt_fild03",
+        "combat_amount": 206,
+        "avg_level": 35.5,
+        "avg_hp": 660,
+        "max_level": 48
+      },
+      {
+        "map": "gef_fild05",
+        "combat_amount": 205,
+        "avg_level": 23.1,
+        "avg_hp": 271,
+        "max_level": 29
+      },
+      {
+        "map": "mjolnir_06",
+        "combat_amount": 203,
+        "avg_level": 26.6,
+        "avg_hp": 421,
+        "max_level": 29
+      },
+      {
+        "map": "prt_sewb2",
+        "combat_amount": 197,
+        "avg_level": 21.9,
+        "avg_hp": 300,
+        "max_level": 40
+      },
+      {
+        "map": "xmas_dun01",
+        "combat_amount": 181,
+        "avg_level": 31.1,
+        "avg_hp": 727,
+        "max_level": 77
+      },
+      {
+        "map": "xmas_dun02",
+        "combat_amount": 177,
+        "avg_level": 38.6,
+        "avg_hp": 819,
+        "max_level": 41
+      },
+      {
+        "map": "anthell02",
+        "combat_amount": 150,
+        "avg_level": 31.6,
+        "avg_hp": 577,
+        "max_level": 42
+      },
+      {
+        "map": "prt_sewb4",
+        "combat_amount": 147,
+        "avg_level": 31.8,
+        "avg_hp": 699,
+        "max_level": 82
+      },
+      {
+        "map": "prt_maze01",
+        "combat_amount": 124,
+        "avg_level": 34.1,
+        "avg_hp": 1238,
+        "max_level": 93
+      },
+      {
+        "map": "gef_fild09",
+        "combat_amount": 124,
+        "avg_level": 33.2,
+        "avg_hp": 631,
+        "max_level": 38
+      },
+      {
+        "map": "ayo_fild01",
+        "combat_amount": 122,
+        "avg_level": 34.9,
+        "avg_hp": 624,
+        "max_level": 38
+      }
+    ],
+    "hard": [
+      {
+        "map": "ra_fild08",
+        "combat_amount": 301,
+        "avg_level": 94.3,
+        "avg_hp": 8407,
+        "max_level": 101
+      },
+      {
+        "map": "ra_fild12",
+        "combat_amount": 291,
+        "avg_level": 88.3,
+        "avg_hp": 6489,
+        "max_level": 95
+      },
+      {
+        "map": "yuno_fild02",
+        "combat_amount": 287,
+        "avg_level": 80.3,
+        "avg_hp": 4374,
+        "max_level": 83
+      },
+      {
+        "map": "yuno_fild03",
+        "combat_amount": 271,
+        "avg_level": 82.1,
+        "avg_hp": 4499,
+        "max_level": 83
+      },
+      {
+        "map": "lhz_fild01",
+        "combat_amount": 269,
+        "avg_level": 82.9,
+        "avg_hp": 4734,
+        "max_level": 86
+      },
+      {
+        "map": "yuno_fild09",
+        "combat_amount": 268,
+        "avg_level": 75.6,
+        "avg_hp": 3564,
+        "max_level": 81
+      },
+      {
+        "map": "mjolnir_05",
+        "combat_amount": 256,
+        "avg_level": 71.6,
+        "avg_hp": 3266,
+        "max_level": 75
+      },
+      {
+        "map": "gef_fild08",
+        "combat_amount": 239,
+        "avg_level": 73.8,
+        "avg_hp": 3095,
+        "max_level": 86
+      },
+      {
+        "map": "ra_fild04",
+        "combat_amount": 239,
+        "avg_level": 99.7,
+        "avg_hp": 10543,
+        "max_level": 103
+      },
+      {
+        "map": "ra_fild03",
+        "combat_amount": 238,
+        "avg_level": 99.4,
+        "avg_hp": 10442,
+        "max_level": 101
+      },
+      {
+        "map": "ve_fild07",
+        "combat_amount": 232,
+        "avg_level": 98.3,
+        "avg_hp": 9136,
+        "max_level": 105
+      },
+      {
+        "map": "gef_fild06",
+        "combat_amount": 232,
+        "avg_level": 80.3,
+        "avg_hp": 4998,
+        "max_level": 86
+      },
+      {
+        "map": "yuno_fild08",
+        "combat_amount": 231,
+        "avg_level": 75.5,
+        "avg_hp": 3213,
+        "max_level": 80
+      },
+      {
+        "map": "hu_fild02",
+        "combat_amount": 230,
+        "avg_level": 89.6,
+        "avg_hp": 8358,
+        "max_level": 119
+      },
+      {
+        "map": "c_tower1",
+        "combat_amount": 218,
+        "avg_level": 78.1,
+        "avg_hp": 3437,
+        "max_level": 90
+      },
+      {
+        "map": "ein_fild04",
+        "combat_amount": 217,
+        "avg_level": 87.9,
+        "avg_hp": 5792,
+        "max_level": 91
+      },
+      {
+        "map": "ra_fild01",
+        "combat_amount": 213,
+        "avg_level": 91.3,
+        "avg_hp": 8357,
+        "max_level": 103
+      },
+      {
+        "map": "yuno_fild04",
+        "combat_amount": 210,
+        "avg_level": 80.6,
+        "avg_hp": 4346,
+        "max_level": 84
+      },
+      {
+        "map": "lhz_fild03",
+        "combat_amount": 208,
+        "avg_level": 89.5,
+        "avg_hp": 6623,
+        "max_level": 92
+      },
+      {
+        "map": "alde_dun03",
+        "combat_amount": 198,
+        "avg_level": 73.6,
+        "avg_hp": 3658,
+        "max_level": 85
+      },
+      {
+        "map": "lhz_fild02",
+        "combat_amount": 197,
+        "avg_level": 86.1,
+        "avg_hp": 5088,
+        "max_level": 92
+      },
+      {
+        "map": "yuno_fild11",
+        "combat_amount": 196,
+        "avg_level": 78.0,
+        "avg_hp": 3312,
+        "max_level": 80
+      },
+      {
+        "map": "dew_fild01",
+        "combat_amount": 193,
+        "avg_level": 78.4,
+        "avg_hp": 3795,
+        "max_level": 84
+      },
+      {
+        "map": "gl_cas01",
+        "combat_amount": 193,
+        "avg_level": 85.1,
+        "avg_hp": 7468,
+        "max_level": 120
+      },
+      {
+        "map": "um_fild03",
+        "combat_amount": 192,
+        "avg_level": 72.2,
+        "avg_hp": 2933,
+        "max_level": 76
+      }
+    ],
+    "mid": [
+      {
+        "map": "prt_fild09",
+        "combat_amount": 305,
+        "avg_level": 53.6,
+        "avg_hp": 1568,
+        "max_level": 55
+      },
+      {
+        "map": "mjolnir_10",
+        "combat_amount": 278,
+        "avg_level": 49.9,
+        "avg_hp": 1477,
+        "max_level": 59
+      },
+      {
+        "map": "cmd_fild02",
+        "combat_amount": 273,
+        "avg_level": 46.8,
+        "avg_hp": 1280,
+        "max_level": 58
+      },
+      {
+        "map": "cmd_fild01",
+        "combat_amount": 271,
+        "avg_level": 56.0,
+        "avg_hp": 1867,
+        "max_level": 59
+      },
+      {
+        "map": "cmd_fild03",
+        "combat_amount": 267,
+        "avg_level": 57.5,
+        "avg_hp": 3073,
+        "max_level": 65
+      },
+      {
+        "map": "gef_fild10",
+        "combat_amount": 263,
+        "avg_level": 44.1,
+        "avg_hp": 1084,
+        "max_level": 45
+      },
+      {
+        "map": "mjolnir_11",
+        "combat_amount": 262,
+        "avg_level": 67.4,
+        "avg_hp": 3030,
+        "max_level": 75
+      },
+      {
+        "map": "gef_fild03",
+        "combat_amount": 260,
+        "avg_level": 44.5,
+        "avg_hp": 1214,
+        "max_level": 45
+      },
+      {
+        "map": "pay_fild10",
+        "combat_amount": 259,
+        "avg_level": 56.0,
+        "avg_hp": 1654,
+        "max_level": 59
+      },
+      {
+        "map": "mjolnir_04",
+        "combat_amount": 251,
+        "avg_level": 65.9,
+        "avg_hp": 2533,
+        "max_level": 70
+      },
+      {
+        "map": "mjolnir_12",
+        "combat_amount": 250,
+        "avg_level": 62.7,
+        "avg_hp": 2005,
+        "max_level": 65
+      },
+      {
+        "map": "cmd_fild04",
+        "combat_amount": 248,
+        "avg_level": 47.4,
+        "avg_hp": 1374,
+        "max_level": 50
+      },
+      {
+        "map": "mjolnir_08",
+        "combat_amount": 243,
+        "avg_level": 56.2,
+        "avg_hp": 1720,
+        "max_level": 59
+      },
+      {
+        "map": "gef_fild11",
+        "combat_amount": 236,
+        "avg_level": 46.3,
+        "avg_hp": 1237,
+        "max_level": 55
+      },
+      {
+        "map": "prt_fild11",
+        "combat_amount": 234,
+        "avg_level": 53.6,
+        "avg_hp": 1634,
+        "max_level": 66
+      },
+      {
+        "map": "mjolnir_07",
+        "combat_amount": 232,
+        "avg_level": 58.4,
+        "avg_hp": 2157,
+        "max_level": 59
+      },
+      {
+        "map": "moc_fild17",
+        "combat_amount": 224,
+        "avg_level": 62.3,
+        "avg_hp": 2382,
+        "max_level": 63
+      },
+      {
+        "map": "cmd_fild06",
+        "combat_amount": 222,
+        "avg_level": 59.5,
+        "avg_hp": 2200,
+        "max_level": 61
+      },
+      {
+        "map": "cmd_fild07",
+        "combat_amount": 220,
+        "avg_level": 47.8,
+        "avg_hp": 1108,
+        "max_level": 50
+      },
+      {
+        "map": "in_sphinx2",
+        "combat_amount": 218,
+        "avg_level": 66.1,
+        "avg_hp": 2806,
+        "max_level": 71
+      },
+      {
+        "map": "mjolnir_03",
+        "combat_amount": 216,
+        "avg_level": 68.3,
+        "avg_hp": 2683,
+        "max_level": 70
+      },
+      {
+        "map": "cmd_fild09",
+        "combat_amount": 215,
+        "avg_level": 48.6,
+        "avg_hp": 1276,
+        "max_level": 55
+      },
+      {
+        "map": "moc_fild03",
+        "combat_amount": 212,
+        "avg_level": 45.5,
+        "avg_hp": 1143,
+        "max_level": 48
+      },
+      {
+        "map": "iz_dun00",
+        "combat_amount": 211,
+        "avg_level": 40.7,
+        "avg_hp": 982,
+        "max_level": 45
+      },
+      {
+        "map": "moc_fild13",
+        "combat_amount": 203,
+        "avg_level": 48.6,
+        "avg_hp": 1225,
+        "max_level": 55
+      }
+    ]
+  }
+}

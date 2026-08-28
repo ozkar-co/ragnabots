@@ -1,0 +1,876 @@
+{
+  "id": "03_desert_muka",
+  "label": "Desierto Muka",
+  "tier_target": "easy",
+  "notes": "Alta densidad Muka/Peco; mats desierto.",
+  "maps": [
+    "moc_fild01"
+  ],
+  "map_profiles": [
+    {
+      "map": "moc_fild01",
+      "tier": "easy",
+      "avg_level": 22.06,
+      "max_level": 25,
+      "avg_hp": 328,
+      "combat_amount": 329,
+      "hours_share": 1.0,
+      "kills": {
+        "t_kill_sec": 4.145,
+        "uptime": 1.0,
+        "kills_per_hour_combat": 868.6,
+        "dead_time_frac": 0.2,
+        "kills_per_hour": 694.9
+      },
+      "costs": {
+        "zeny_cost_per_hour": 2926.3,
+        "zeny_cost_per_kill": 4.2111
+      },
+      "kills_per_day": 2432.2,
+      "mobs": [
+        {
+          "aegis": "MUKA",
+          "amount": 202,
+          "level": 23,
+          "hp": 337,
+          "weight": 0.614
+        },
+        {
+          "aegis": "PECOPECO",
+          "amount": 93,
+          "level": 25,
+          "hp": 354,
+          "weight": 0.2827
+        },
+        {
+          "aegis": "PECOPECO_EGG",
+          "amount": 31,
+          "level": 7,
+          "hp": 70,
+          "weight": 0.0942
+        },
+        {
+          "aegis": "C3_MUKA",
+          "amount": 3,
+          "level": 23,
+          "hp": 1685,
+          "weight": 0.0091
+        }
+      ],
+      "drop_types_count": 19,
+      "ev_mats_offer_per_kill": 644.61,
+      "ev_mats_offer_per_day": 1567777.0,
+      "offer": {
+        "mats_for_sale": [
+          {
+            "item_id": 582,
+            "aegis": "Orange",
+            "name": "Orange",
+            "type": "Healing",
+            "p_per_map_kill": 0.01413374,
+            "latam_price": 29998,
+            "latam_total_sold": 207,
+            "has_offers": true,
+            "qty_per_day": 34.3754,
+            "score": 570974.31
+          },
+          {
+            "item_id": 1010,
+            "aegis": "Phracon",
+            "name": "Phracon",
+            "type": "Etc",
+            "p_per_map_kill": 0.00117781,
+            "latam_price": 45666,
+            "latam_total_sold": 1111,
+            "has_offers": true,
+            "qty_per_day": 2.8646,
+            "score": 432997.63
+          },
+          {
+            "item_id": 1002,
+            "aegis": "Iron_Ore",
+            "name": "Iron Ore",
+            "type": "Etc",
+            "p_per_map_kill": 0.00824468,
+            "latam_price": 11000,
+            "latam_total_sold": 3451,
+            "has_offers": true,
+            "qty_per_day": 20.0523,
+            "score": 273054.12
+          },
+          {
+            "item_id": 507,
+            "aegis": "Red_Herb",
+            "name": "Red Herb",
+            "type": "Healing",
+            "p_per_map_kill": 0.03674772,
+            "latam_price": 1399,
+            "latam_total_sold": 341095,
+            "has_offers": true,
+            "qty_per_day": 89.376,
+            "score": 80275.07
+          },
+          {
+            "item_id": 935,
+            "aegis": "Shell",
+            "name": "Shell",
+            "type": "Etc",
+            "p_per_map_kill": 0.00706687,
+            "latam_price": 3500,
+            "latam_total_sold": 1874,
+            "has_offers": true,
+            "qty_per_day": 17.1877,
+            "score": 76513.74
+          }
+        ],
+        "mats_discarded_count": 5,
+        "mats_discarded_top10": [
+          {
+            "item_id": 952,
+            "name": "Cactus Needle",
+            "price": 900,
+            "qty_per_day": 694.1607,
+            "score": 67208.63
+          },
+          {
+            "item_id": 993,
+            "name": "Green Live",
+            "price": 3198,
+            "qty_per_day": 5.6146,
+            "score": 59295.56
+          },
+          {
+            "item_id": 511,
+            "name": "Green Herb",
+            "price": 1499,
+            "qty_per_day": 32.0837,
+            "score": 54966.71
+          },
+          {
+            "item_id": 508,
+            "name": "Yellow Herb",
+            "price": 1349,
+            "qty_per_day": 6.8751,
+            "score": 29047.42
+          },
+          {
+            "item_id": 925,
+            "name": "Bill of Birds",
+            "price": 416,
+            "qty_per_day": 309.3784,
+            "score": 9963.93
+          }
+        ],
+        "cards": [
+          {
+            "item_id": 4031,
+            "aegis": "Pecopeco_Card",
+            "name": "Peco Peco Card",
+            "type": "Card",
+            "p_per_map_kill": 2.827e-05,
+            "latam_price": 2499999,
+            "latam_total_sold": 113,
+            "has_offers": true,
+            "drop_per_day": 0.0688,
+            "sellable_per_day": 0.0344,
+            "ev_latam_per_day_if_sold": 85946.07
+          },
+          {
+            "item_id": 4007,
+            "aegis": "Pecopeco_Egg_Card",
+            "name": "Peco Peco Egg Card",
+            "type": "Card",
+            "p_per_map_kill": 9.42e-06,
+            "latam_price": 1899999,
+            "latam_total_sold": 24,
+            "has_offers": true,
+            "drop_per_day": 0.0229,
+            "sellable_per_day": 0.0115,
+            "ev_latam_per_day_if_sold": 21765.3
+          }
+        ],
+        "cards_junk_discarded": [],
+        "card_min_price": 0,
+        "card_policy": {
+          "sell_fraction": 0.5,
+          "shop_slots": 1,
+          "min_price": 0,
+          "note": "acumula sellable; shop máx 1 carta; junk bajo min_price descartado"
+        }
+      },
+      "projection": {
+        "1": {
+          "days": 1,
+          "kills": 2432.2,
+          "hours": 3.5,
+          "mats_stock": [
+            {
+              "item_id": 582,
+              "name": "Orange",
+              "qty": 34.38,
+              "price": 29998,
+              "stock_value": 1031192.52
+            },
+            {
+              "item_id": 1010,
+              "name": "Phracon",
+              "qty": 2.86,
+              "price": 45666,
+              "stock_value": 130815.31
+            },
+            {
+              "item_id": 1002,
+              "name": "Iron Ore",
+              "qty": 20.05,
+              "price": 11000,
+              "stock_value": 220575.28
+            },
+            {
+              "item_id": 507,
+              "name": "Red Herb",
+              "qty": 89.38,
+              "price": 1399,
+              "stock_value": 125036.98
+            },
+            {
+              "item_id": 935,
+              "name": "Shell",
+              "qty": 17.19,
+              "price": 3500,
+              "stock_value": 60156.91
+            }
+          ],
+          "mats_stock_value_latam": 1567777.0,
+          "cards": [
+            {
+              "item_id": 4031,
+              "name": "Peco Peco Card",
+              "dropped": 0.069,
+              "sellable": 0.034,
+              "shop_listed_cap": 1,
+              "expected_listed": 0.034,
+              "price": 2499999,
+              "pipeline_value": 85946.07
+            },
+            {
+              "item_id": 4007,
+              "name": "Peco Peco Egg Card",
+              "dropped": 0.023,
+              "sellable": 0.011,
+              "shop_listed_cap": 1,
+              "expected_listed": 0.011,
+              "price": 1899999,
+              "pipeline_value": 21765.3
+            }
+          ],
+          "cards_sellable_total": 0.045,
+          "cards_pipeline_value": 107711.37,
+          "lot_expected_value": 1675488.36,
+          "zeny_spent": 10242.05,
+          "net_if_sold_at_latam": 1665246.31,
+          "gates": {
+            "pause_grind_until_sold_z": 670195.35,
+            "keep_shop_until_sold_z": 1005293.02,
+            "pause_frac": 0.4,
+            "shop_keep_frac": 0.6
+          }
+        },
+        "3": {
+          "days": 3,
+          "kills": 7296.5,
+          "hours": 10.5,
+          "mats_stock": [
+            {
+              "item_id": 582,
+              "name": "Orange",
+              "qty": 103.13,
+              "price": 29998,
+              "stock_value": 3093577.56
+            },
+            {
+              "item_id": 1010,
+              "name": "Phracon",
+              "qty": 8.59,
+              "price": 45666,
+              "stock_value": 392445.92
+            },
+            {
+              "item_id": 1002,
+              "name": "Iron Ore",
+              "qty": 60.16,
+              "price": 11000,
+              "stock_value": 661725.85
+            },
+            {
+              "item_id": 507,
+              "name": "Red Herb",
+              "qty": 268.13,
+              "price": 1399,
+              "stock_value": 375110.93
+            },
+            {
+              "item_id": 935,
+              "name": "Shell",
+              "qty": 51.56,
+              "price": 3500,
+              "stock_value": 180470.72
+            }
+          ],
+          "mats_stock_value_latam": 4703330.99,
+          "cards": [
+            {
+              "item_id": 4031,
+              "name": "Peco Peco Card",
+              "dropped": 0.206,
+              "sellable": 0.103,
+              "shop_listed_cap": 1,
+              "expected_listed": 0.103,
+              "price": 2499999,
+              "pipeline_value": 257838.2
+            },
+            {
+              "item_id": 4007,
+              "name": "Peco Peco Egg Card",
+              "dropped": 0.069,
+              "sellable": 0.034,
+              "shop_listed_cap": 1,
+              "expected_listed": 0.034,
+              "price": 1899999,
+              "pipeline_value": 65295.9
+            }
+          ],
+          "cards_sellable_total": 0.137,
+          "cards_pipeline_value": 323134.1,
+          "lot_expected_value": 5026465.09,
+          "zeny_spent": 30726.15,
+          "net_if_sold_at_latam": 4995738.94,
+          "gates": {
+            "pause_grind_until_sold_z": 2010586.04,
+            "keep_shop_until_sold_z": 3015879.05,
+            "pause_frac": 0.4,
+            "shop_keep_frac": 0.6
+          }
+        },
+        "7": {
+          "days": 7,
+          "kills": 17025.0,
+          "hours": 24.5,
+          "mats_stock": [
+            {
+              "item_id": 582,
+              "name": "Orange",
+              "qty": 240.63,
+              "price": 29998,
+              "stock_value": 7218347.65
+            },
+            {
+              "item_id": 1010,
+              "name": "Phracon",
+              "qty": 20.05,
+              "price": 45666,
+              "stock_value": 915707.15
+            },
+            {
+              "item_id": 1002,
+              "name": "Iron Ore",
+              "qty": 140.37,
+              "price": 11000,
+              "stock_value": 1544026.98
+            },
+            {
+              "item_id": 507,
+              "name": "Red Herb",
+              "qty": 625.63,
+              "price": 1399,
+              "stock_value": 875258.85
+            },
+            {
+              "item_id": 935,
+              "name": "Shell",
+              "qty": 120.31,
+              "price": 3500,
+              "stock_value": 421098.35
+            }
+          ],
+          "mats_stock_value_latam": 10974438.98,
+          "cards": [
+            {
+              "item_id": 4031,
+              "name": "Peco Peco Card",
+              "dropped": 0.481,
+              "sellable": 0.241,
+              "shop_listed_cap": 1,
+              "expected_listed": 0.241,
+              "price": 2499999,
+              "pipeline_value": 601622.46
+            },
+            {
+              "item_id": 4007,
+              "name": "Peco Peco Egg Card",
+              "dropped": 0.16,
+              "sellable": 0.08,
+              "shop_listed_cap": 1,
+              "expected_listed": 0.08,
+              "price": 1899999,
+              "pipeline_value": 152357.09
+            }
+          ],
+          "cards_sellable_total": 0.321,
+          "cards_pipeline_value": 753979.56,
+          "lot_expected_value": 11728418.54,
+          "zeny_spent": 71694.35,
+          "net_if_sold_at_latam": 11656724.19,
+          "gates": {
+            "pause_grind_until_sold_z": 4691367.42,
+            "keep_shop_until_sold_z": 7037051.12,
+            "pause_frac": 0.4,
+            "shop_keep_frac": 0.6
+          }
+        },
+        "10": {
+          "days": 10,
+          "kills": 24321.5,
+          "hours": 35.0,
+          "mats_stock": [
+            {
+              "item_id": 582,
+              "name": "Orange",
+              "qty": 343.75,
+              "price": 29998,
+              "stock_value": 10311925.21
+            },
+            {
+              "item_id": 1010,
+              "name": "Phracon",
+              "qty": 28.65,
+              "price": 45666,
+              "stock_value": 1308153.07
+            },
+            {
+              "item_id": 1002,
+              "name": "Iron Ore",
+              "qty": 200.52,
+              "price": 11000,
+              "stock_value": 2205752.83
+            },
+            {
+              "item_id": 507,
+              "name": "Red Herb",
+              "qty": 893.76,
+              "price": 1399,
+              "stock_value": 1250369.78
+            },
+            {
+              "item_id": 935,
+              "name": "Shell",
+              "qty": 171.88,
+              "price": 3500,
+              "stock_value": 601569.08
+            }
+          ],
+          "mats_stock_value_latam": 15677769.97,
+          "cards": [
+            {
+              "item_id": 4031,
+              "name": "Peco Peco Card",
+              "dropped": 0.688,
+              "sellable": 0.344,
+              "shop_listed_cap": 1,
+              "expected_listed": 0.344,
+              "price": 2499999,
+              "pipeline_value": 859460.66
+            },
+            {
+              "item_id": 4007,
+              "name": "Peco Peco Egg Card",
+              "dropped": 0.229,
+              "sellable": 0.115,
+              "shop_listed_cap": 1,
+              "expected_listed": 0.115,
+              "price": 1899999,
+              "pipeline_value": 217652.99
+            }
+          ],
+          "cards_sellable_total": 0.459,
+          "cards_pipeline_value": 1077113.65,
+          "lot_expected_value": 16754883.63,
+          "zeny_spent": 102420.5,
+          "net_if_sold_at_latam": 16652463.13,
+          "gates": {
+            "pause_grind_until_sold_z": 6701953.45,
+            "keep_shop_until_sold_z": 10052930.18,
+            "pause_frac": 0.4,
+            "shop_keep_frac": 0.6
+          }
+        }
+      }
+    }
+  ],
+  "projection_merged": {
+    "1": {
+      "days": 1,
+      "kills": 2432.2,
+      "mats_stock": [
+        {
+          "item_id": 582,
+          "name": "Orange",
+          "qty": 34.38,
+          "price": 29998,
+          "stock_value": 1031192.52
+        },
+        {
+          "item_id": 1002,
+          "name": "Iron Ore",
+          "qty": 20.05,
+          "price": 11000,
+          "stock_value": 220575.28
+        },
+        {
+          "item_id": 1010,
+          "name": "Phracon",
+          "qty": 2.86,
+          "price": 45666,
+          "stock_value": 130815.31
+        },
+        {
+          "item_id": 507,
+          "name": "Red Herb",
+          "qty": 89.38,
+          "price": 1399,
+          "stock_value": 125036.98
+        },
+        {
+          "item_id": 935,
+          "name": "Shell",
+          "qty": 17.19,
+          "price": 3500,
+          "stock_value": 60156.91
+        }
+      ],
+      "mats_stock_value_latam": 1567777.0,
+      "cards": [
+        {
+          "item_id": 4031,
+          "name": "Peco Peco Card",
+          "dropped": 0.069,
+          "sellable": 0.034,
+          "shop_listed_cap": 1,
+          "expected_listed": 0.034,
+          "price": 2499999,
+          "pipeline_value": 85946.07
+        },
+        {
+          "item_id": 4007,
+          "name": "Peco Peco Egg Card",
+          "dropped": 0.023,
+          "sellable": 0.011,
+          "shop_listed_cap": 1,
+          "expected_listed": 0.011,
+          "price": 1899999,
+          "pipeline_value": 21765.3
+        }
+      ],
+      "cards_sellable_total": 0.045,
+      "cards_pipeline_value": 107711.37,
+      "lot_expected_value": 1675488.37,
+      "zeny_spent": 10242.05,
+      "net_if_sold_at_latam": 1665246.32,
+      "gates": {
+        "pause_grind_until_sold_z": 670195.35,
+        "keep_shop_until_sold_z": 1005293.02
+      }
+    },
+    "3": {
+      "days": 3,
+      "kills": 7296.5,
+      "mats_stock": [
+        {
+          "item_id": 582,
+          "name": "Orange",
+          "qty": 103.13,
+          "price": 29998,
+          "stock_value": 3093577.56
+        },
+        {
+          "item_id": 1002,
+          "name": "Iron Ore",
+          "qty": 60.16,
+          "price": 11000,
+          "stock_value": 661725.85
+        },
+        {
+          "item_id": 1010,
+          "name": "Phracon",
+          "qty": 8.59,
+          "price": 45666,
+          "stock_value": 392445.92
+        },
+        {
+          "item_id": 507,
+          "name": "Red Herb",
+          "qty": 268.13,
+          "price": 1399,
+          "stock_value": 375110.93
+        },
+        {
+          "item_id": 935,
+          "name": "Shell",
+          "qty": 51.56,
+          "price": 3500,
+          "stock_value": 180470.72
+        }
+      ],
+      "mats_stock_value_latam": 4703330.99,
+      "cards": [
+        {
+          "item_id": 4031,
+          "name": "Peco Peco Card",
+          "dropped": 0.206,
+          "sellable": 0.103,
+          "shop_listed_cap": 1,
+          "expected_listed": 0.103,
+          "price": 2499999,
+          "pipeline_value": 257838.2
+        },
+        {
+          "item_id": 4007,
+          "name": "Peco Peco Egg Card",
+          "dropped": 0.069,
+          "sellable": 0.034,
+          "shop_listed_cap": 1,
+          "expected_listed": 0.034,
+          "price": 1899999,
+          "pipeline_value": 65295.9
+        }
+      ],
+      "cards_sellable_total": 0.137,
+      "cards_pipeline_value": 323134.1,
+      "lot_expected_value": 5026465.09,
+      "zeny_spent": 30726.15,
+      "net_if_sold_at_latam": 4995738.94,
+      "gates": {
+        "pause_grind_until_sold_z": 2010586.04,
+        "keep_shop_until_sold_z": 3015879.05
+      }
+    },
+    "7": {
+      "days": 7,
+      "kills": 17025.0,
+      "mats_stock": [
+        {
+          "item_id": 582,
+          "name": "Orange",
+          "qty": 240.63,
+          "price": 29998,
+          "stock_value": 7218347.65
+        },
+        {
+          "item_id": 1002,
+          "name": "Iron Ore",
+          "qty": 140.37,
+          "price": 11000,
+          "stock_value": 1544026.98
+        },
+        {
+          "item_id": 1010,
+          "name": "Phracon",
+          "qty": 20.05,
+          "price": 45666,
+          "stock_value": 915707.15
+        },
+        {
+          "item_id": 507,
+          "name": "Red Herb",
+          "qty": 625.63,
+          "price": 1399,
+          "stock_value": 875258.85
+        },
+        {
+          "item_id": 935,
+          "name": "Shell",
+          "qty": 120.31,
+          "price": 3500,
+          "stock_value": 421098.35
+        }
+      ],
+      "mats_stock_value_latam": 10974438.98,
+      "cards": [
+        {
+          "item_id": 4031,
+          "name": "Peco Peco Card",
+          "dropped": 0.481,
+          "sellable": 0.241,
+          "shop_listed_cap": 1,
+          "expected_listed": 0.241,
+          "price": 2499999,
+          "pipeline_value": 601622.46
+        },
+        {
+          "item_id": 4007,
+          "name": "Peco Peco Egg Card",
+          "dropped": 0.16,
+          "sellable": 0.08,
+          "shop_listed_cap": 1,
+          "expected_listed": 0.08,
+          "price": 1899999,
+          "pipeline_value": 152357.09
+        }
+      ],
+      "cards_sellable_total": 0.321,
+      "cards_pipeline_value": 753979.56,
+      "lot_expected_value": 11728418.54,
+      "zeny_spent": 71694.35,
+      "net_if_sold_at_latam": 11656724.19,
+      "gates": {
+        "pause_grind_until_sold_z": 4691367.42,
+        "keep_shop_until_sold_z": 7037051.12
+      }
+    },
+    "10": {
+      "days": 10,
+      "kills": 24321.5,
+      "mats_stock": [
+        {
+          "item_id": 582,
+          "name": "Orange",
+          "qty": 343.75,
+          "price": 29998,
+          "stock_value": 10311925.21
+        },
+        {
+          "item_id": 1002,
+          "name": "Iron Ore",
+          "qty": 200.52,
+          "price": 11000,
+          "stock_value": 2205752.83
+        },
+        {
+          "item_id": 1010,
+          "name": "Phracon",
+          "qty": 28.65,
+          "price": 45666,
+          "stock_value": 1308153.07
+        },
+        {
+          "item_id": 507,
+          "name": "Red Herb",
+          "qty": 893.76,
+          "price": 1399,
+          "stock_value": 1250369.78
+        },
+        {
+          "item_id": 935,
+          "name": "Shell",
+          "qty": 171.88,
+          "price": 3500,
+          "stock_value": 601569.08
+        }
+      ],
+      "mats_stock_value_latam": 15677769.97,
+      "cards": [
+        {
+          "item_id": 4031,
+          "name": "Peco Peco Card",
+          "dropped": 0.688,
+          "sellable": 0.344,
+          "shop_listed_cap": 1,
+          "expected_listed": 0.344,
+          "price": 2499999,
+          "pipeline_value": 859460.66
+        },
+        {
+          "item_id": 4007,
+          "name": "Peco Peco Egg Card",
+          "dropped": 0.229,
+          "sellable": 0.115,
+          "shop_listed_cap": 1,
+          "expected_listed": 0.115,
+          "price": 1899999,
+          "pipeline_value": 217652.99
+        }
+      ],
+      "cards_sellable_total": 0.459,
+      "cards_pipeline_value": 1077113.65,
+      "lot_expected_value": 16754883.62,
+      "zeny_spent": 102420.5,
+      "net_if_sold_at_latam": 16652463.12,
+      "gates": {
+        "pause_grind_until_sold_z": 6701953.45,
+        "keep_shop_until_sold_z": 10052930.17
+      }
+    }
+  },
+  "day10": {
+    "days": 10,
+    "kills": 24321.5,
+    "mats_stock": [
+      {
+        "item_id": 582,
+        "name": "Orange",
+        "qty": 343.75,
+        "price": 29998,
+        "stock_value": 10311925.21
+      },
+      {
+        "item_id": 1002,
+        "name": "Iron Ore",
+        "qty": 200.52,
+        "price": 11000,
+        "stock_value": 2205752.83
+      },
+      {
+        "item_id": 1010,
+        "name": "Phracon",
+        "qty": 28.65,
+        "price": 45666,
+        "stock_value": 1308153.07
+      },
+      {
+        "item_id": 507,
+        "name": "Red Herb",
+        "qty": 893.76,
+        "price": 1399,
+        "stock_value": 1250369.78
+      },
+      {
+        "item_id": 935,
+        "name": "Shell",
+        "qty": 171.88,
+        "price": 3500,
+        "stock_value": 601569.08
+      }
+    ],
+    "mats_stock_value_latam": 15677769.97,
+    "cards": [
+      {
+        "item_id": 4031,
+        "name": "Peco Peco Card",
+        "dropped": 0.688,
+        "sellable": 0.344,
+        "shop_listed_cap": 1,
+        "expected_listed": 0.344,
+        "price": 2499999,
+        "pipeline_value": 859460.66
+      },
+      {
+        "item_id": 4007,
+        "name": "Peco Peco Egg Card",
+        "dropped": 0.229,
+        "sellable": 0.115,
+        "shop_listed_cap": 1,
+        "expected_listed": 0.115,
+        "price": 1899999,
+        "pipeline_value": 217652.99
+      }
+    ],
+    "cards_sellable_total": 0.459,
+    "cards_pipeline_value": 1077113.65,
+    "lot_expected_value": 16754883.62,
+    "zeny_spent": 102420.5,
+    "net_if_sold_at_latam": 16652463.12,
+    "gates": {
+      "pause_grind_until_sold_z": 6701953.45,
+      "keep_shop_until_sold_z": 10052930.17
+    }
+  }
+}

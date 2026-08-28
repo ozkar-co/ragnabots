@@ -1,0 +1,1924 @@
+{
+  "id": "10_sewers_anolian",
+  "label": "Glast Heim Sewers (restringido)",
+  "tier_target": "expert",
+  "loot_policy": "restricted",
+  "notes": "Hard/expert: solo mats/etc con mercado; sin equip raro ni cards como oferta masiva. Ejemplo de política restrictiva.",
+  "maps": [
+    "gl_sew04"
+  ],
+  "map_tiers": [
+    "expert"
+  ],
+  "map_avg_levels": [
+    103.13
+  ],
+  "offer_item_count": 5,
+  "ev_atlantis_per_kill_by_map": [
+    3335.92
+  ],
+  "ev_latam_per_kill_by_map": [
+    775.29
+  ],
+  "map_profiles": [
+    {
+      "map": "gl_sew04",
+      "spawn_total_raw": 165,
+      "combat_total_amount": 165,
+      "plants_excluded_amount": 0,
+      "plants_excluded": [],
+      "missing_mob_ids": [],
+      "avg_level": 103.13,
+      "max_level": 109,
+      "avg_hp": 15179,
+      "tier": "expert",
+      "mobs": [
+        {
+          "mob_id": 1206,
+          "aegis": "ANOLIAN",
+          "name": "Anolian",
+          "amount": 126,
+          "weight": 0.7636,
+          "level": 109,
+          "hp": 16615,
+          "race": "Fish",
+          "element": "Water",
+          "drop_count": 8,
+          "drops": [
+            {
+              "item_id": 7003,
+              "aegis": "Anolian_Skin",
+              "name": "Anolian Skin",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 2425,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 1.0
+            },
+            {
+              "item_id": 12012,
+              "aegis": "Crystal_Arrow_Container",
+              "name": "Crystal Arrow Quiver",
+              "type": "Usable",
+              "bucket": "use",
+              "rate_raw": 40,
+              "rate_mult": 10.0,
+              "p_per_kill_this_mob": 0.04
+            },
+            {
+              "item_id": 984,
+              "aegis": "Oridecon",
+              "name": "Oridecon",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 67,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.0335
+            },
+            {
+              "item_id": 4234,
+              "aegis": "Anolian_Card",
+              "name": "Anolian Card",
+              "type": "Card",
+              "bucket": "card",
+              "rate_raw": 1,
+              "rate_mult": 100.0,
+              "p_per_kill_this_mob": 0.01
+            },
+            {
+              "item_id": 10019,
+              "aegis": "Red_Muffler",
+              "name": "Red Scarf",
+              "type": "Petarmor",
+              "bucket": "equip",
+              "rate_raw": 5,
+              "rate_mult": 15.0,
+              "p_per_kill_this_mob": 0.0075
+            },
+            {
+              "item_id": 526,
+              "aegis": "Royal_Jelly",
+              "name": "Royal Jelly",
+              "type": "Healing",
+              "bucket": "heal",
+              "rate_raw": 3,
+              "rate_mult": 10.0,
+              "p_per_kill_this_mob": 0.003
+            },
+            {
+              "item_id": 16003,
+              "aegis": "Carga_Mace",
+              "name": "Carga Mace",
+              "type": "Weapon",
+              "bucket": "equip",
+              "rate_raw": 1,
+              "rate_mult": 15.0,
+              "p_per_kill_this_mob": 0.0015
+            },
+            {
+              "item_id": 2625,
+              "aegis": "Brooch_",
+              "name": "Brooch",
+              "type": "Armor",
+              "bucket": "equip",
+              "rate_raw": 1,
+              "rate_mult": 15.0,
+              "p_per_kill_this_mob": 0.0015
+            }
+          ]
+        },
+        {
+          "mob_id": 1253,
+          "aegis": "GARGOYLE",
+          "name": "Gargoyle",
+          "amount": 25,
+          "weight": 0.1515,
+          "level": 100,
+          "hp": 9233,
+          "race": "Demon",
+          "element": "Wind",
+          "drop_count": 7,
+          "drops": [
+            {
+              "item_id": 912,
+              "aegis": "Zargon",
+              "name": "Zargon",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 1940,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.97
+            },
+            {
+              "item_id": 1769,
+              "aegis": "Silence_Arrow",
+              "name": "Mute Arrow",
+              "type": "Ammo",
+              "bucket": "common",
+              "rate_raw": 1000,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.5
+            },
+            {
+              "item_id": 1039,
+              "aegis": "Petite_DiablOfs_Wing",
+              "name": "Little Evil Wing",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 250,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.125
+            },
+            {
+              "item_id": 757,
+              "aegis": "Elunium_Stone",
+              "name": "Rough Elunium",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 119,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.0595
+            },
+            {
+              "item_id": 4149,
+              "aegis": "Gargoyle_Card",
+              "name": "Gargoyle Card",
+              "type": "Card",
+              "bucket": "card",
+              "rate_raw": 1,
+              "rate_mult": 100.0,
+              "p_per_kill_this_mob": 0.01
+            },
+            {
+              "item_id": 1746,
+              "aegis": "Elven_Bow",
+              "name": "Elven Bow",
+              "type": "Weapon",
+              "bucket": "equip",
+              "rate_raw": 3,
+              "rate_mult": 15.0,
+              "p_per_kill_this_mob": 0.0045
+            },
+            {
+              "item_id": 2619,
+              "aegis": "Thimble_Of_Archer",
+              "name": "Bow Thimble",
+              "type": "Armor",
+              "bucket": "equip",
+              "rate_raw": 1,
+              "rate_mult": 15.0,
+              "p_per_kill_this_mob": 0.0015
+            }
+          ]
+        },
+        {
+          "mob_id": 1111,
+          "aegis": "DRAINLIAR",
+          "name": "Drainliar",
+          "amount": 12,
+          "weight": 0.0727,
+          "level": 47,
+          "hp": 1182,
+          "race": "Brute",
+          "element": "Dark",
+          "drop_count": 7,
+          "drops": [
+            {
+              "item_id": 7006,
+              "aegis": "Wing_Of_Red_Bat",
+              "name": "Wing of Red Bat",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 2750,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 1.0
+            },
+            {
+              "item_id": 507,
+              "aegis": "Red_Herb",
+              "name": "Red Herb",
+              "type": "Healing",
+              "bucket": "heal",
+              "rate_raw": 950,
+              "rate_mult": 10.0,
+              "p_per_kill_this_mob": 0.95
+            },
+            {
+              "item_id": 913,
+              "aegis": "Tooth_Of_Bat",
+              "name": "Tooth of Bat",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 1500,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.75
+            },
+            {
+              "item_id": 601,
+              "aegis": "Wing_Of_Fly",
+              "name": "Fly Wing",
+              "type": "DelayConsume",
+              "bucket": "common",
+              "rate_raw": 500,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.25
+            },
+            {
+              "item_id": 756,
+              "aegis": "Oridecon_Stone",
+              "name": "Rough Oridecon",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 20,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.01
+            },
+            {
+              "item_id": 4069,
+              "aegis": "Drainliar_Card",
+              "name": "Drainliar Card",
+              "type": "Card",
+              "bucket": "card",
+              "rate_raw": 1,
+              "rate_mult": 100.0,
+              "p_per_kill_this_mob": 0.01
+            },
+            {
+              "item_id": 725,
+              "aegis": "Red_Jewel",
+              "name": "Sardonyx",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 10,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.005
+            }
+          ]
+        },
+        {
+          "mob_id": 2899,
+          "aegis": "C4_ANOLIAN",
+          "name": "Furious Anolian",
+          "amount": 2,
+          "weight": 0.0121,
+          "level": 109,
+          "hp": 83075,
+          "race": "Fish",
+          "element": "Water",
+          "drop_count": 8,
+          "drops": [
+            {
+              "item_id": 7003,
+              "aegis": "Anolian_Skin",
+              "name": "Anolian Skin",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 10000,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 1.0
+            },
+            {
+              "item_id": 984,
+              "aegis": "Oridecon",
+              "name": "Oridecon",
+              "type": "Etc",
+              "bucket": "common",
+              "rate_raw": 335,
+              "rate_mult": 5.0,
+              "p_per_kill_this_mob": 0.1675
+            },
+            {
+              "item_id": 4234,
+              "aegis": "Anolian_Card",
+              "name": "Anolian Card",
+              "type": "Card",
+              "bucket": "card",
+              "rate_raw": 5,
+              "rate_mult": 100.0,
+              "p_per_kill_this_mob": 0.05
+            },
+            {
+              "item_id": 12012,
+              "aegis": "Crystal_Arrow_Container",
+              "name": "Crystal Arrow Quiver",
+              "type": "Usable",
+              "bucket": "use",
+              "rate_raw": 40,
+              "rate_mult": 10.0,
+              "p_per_kill_this_mob": 0.04
+            },
+            {
+              "item_id": 10019,
+              "aegis": "Red_Muffler",
+              "name": "Red Scarf",
+              "type": "Petarmor",
+              "bucket": "equip",
+              "rate_raw": 25,
+              "rate_mult": 15.0,
+              "p_per_kill_this_mob": 0.0375
+            },
+            {
+              "item_id": 526,
+              "aegis": "Royal_Jelly",
+              "name": "Royal Jelly",
+              "type": "Healing",
+              "bucket": "heal",
+              "rate_raw": 15,
+              "rate_mult": 10.0,
+              "p_per_kill_this_mob": 0.015
+            },
+            {
+              "item_id": 16003,
+              "aegis": "Carga_Mace",
+              "name": "Carga Mace",
+              "type": "Weapon",
+              "bucket": "equip",
+              "rate_raw": 5,
+              "rate_mult": 15.0,
+              "p_per_kill_this_mob": 0.0075
+            },
+            {
+              "item_id": 2625,
+              "aegis": "Brooch_",
+              "name": "Brooch",
+              "type": "Armor",
+              "bucket": "equip",
+              "rate_raw": 5,
+              "rate_mult": 15.0,
+              "p_per_kill_this_mob": 0.0075
+            }
+          ]
+        }
+      ],
+      "drop_count": 22,
+      "drop_priced_count": 19,
+      "ev_atlantis_per_kill": 23733.61,
+      "ev_latam_per_kill": 12197.03,
+      "drops": [
+        {
+          "item_id": 1746,
+          "aegis": "Elven_Bow",
+          "name": "Elven Bow",
+          "type": "Weapon",
+          "bucket": "equip",
+          "npc_buy": 20,
+          "p_per_map_kill": 0.00068182,
+          "contributors": [
+            {
+              "mob_id": 1253,
+              "aegis": "GARGOYLE",
+              "amount": 25,
+              "weight": 0.1515,
+              "rate_raw": 3,
+              "p_mob": 0.0045,
+              "p_contrib": 0.000682
+            }
+          ],
+          "atlantis_avg": 20665672,
+          "atlantis_total_sold": 5547,
+          "latam_offers_median": 3500000,
+          "ev_atlantis_per_kill": 14090.23,
+          "ev_latam_per_kill": 2386.36,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 2625,
+          "aegis": "Brooch_",
+          "name": "Brooch",
+          "type": "Armor",
+          "bucket": "equip",
+          "npc_buy": 30000,
+          "p_per_map_kill": 0.00123636,
+          "contributors": [
+            {
+              "mob_id": 1206,
+              "aegis": "ANOLIAN",
+              "amount": 126,
+              "weight": 0.7636,
+              "rate_raw": 1,
+              "p_mob": 0.0015,
+              "p_contrib": 0.001145
+            },
+            {
+              "mob_id": 2899,
+              "aegis": "C4_ANOLIAN",
+              "amount": 2,
+              "weight": 0.0121,
+              "rate_raw": 5,
+              "p_mob": 0.0075,
+              "p_contrib": 9.1e-05
+            }
+          ],
+          "atlantis_avg": 2360725,
+          "atlantis_total_sold": 4610,
+          "latam_offers_median": 1900000,
+          "ev_atlantis_per_kill": 2918.71,
+          "ev_latam_per_kill": 2349.09,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 7003,
+          "aegis": "Anolian_Skin",
+          "name": "Anolian Skin",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 968,
+          "p_per_map_kill": 0.77575758,
+          "contributors": [
+            {
+              "mob_id": 1206,
+              "aegis": "ANOLIAN",
+              "amount": 126,
+              "weight": 0.7636,
+              "rate_raw": 2425,
+              "p_mob": 1.0,
+              "p_contrib": 0.763636
+            },
+            {
+              "mob_id": 2899,
+              "aegis": "C4_ANOLIAN",
+              "amount": 2,
+              "weight": 0.0121,
+              "rate_raw": 10000,
+              "p_mob": 1.0,
+              "p_contrib": 0.012121
+            }
+          ],
+          "atlantis_avg": 3150,
+          "atlantis_total_sold": 35528334,
+          "latam_offers_median": null,
+          "ev_atlantis_per_kill": 2443.64,
+          "ev_latam_per_kill": null,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 4234,
+          "aegis": "Anolian_Card",
+          "name": "Anolian Card",
+          "type": "Card",
+          "bucket": "card",
+          "npc_buy": 20,
+          "p_per_map_kill": 0.00824242,
+          "contributors": [
+            {
+              "mob_id": 1206,
+              "aegis": "ANOLIAN",
+              "amount": 126,
+              "weight": 0.7636,
+              "rate_raw": 1,
+              "p_mob": 0.01,
+              "p_contrib": 0.007636
+            },
+            {
+              "mob_id": 2899,
+              "aegis": "C4_ANOLIAN",
+              "amount": 2,
+              "weight": 0.0121,
+              "rate_raw": 5,
+              "p_mob": 0.05,
+              "p_contrib": 0.000606
+            }
+          ],
+          "atlantis_avg": 250699,
+          "atlantis_total_sold": 957,
+          "latam_offers_median": 600000,
+          "ev_atlantis_per_kill": 2066.37,
+          "ev_latam_per_kill": 4945.45,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 984,
+          "aegis": "Oridecon",
+          "name": "Oridecon",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 1100,
+          "p_per_map_kill": 0.02761212,
+          "contributors": [
+            {
+              "mob_id": 1206,
+              "aegis": "ANOLIAN",
+              "amount": 126,
+              "weight": 0.7636,
+              "rate_raw": 67,
+              "p_mob": 0.0335,
+              "p_contrib": 0.025582
+            },
+            {
+              "mob_id": 2899,
+              "aegis": "C4_ANOLIAN",
+              "amount": 2,
+              "weight": 0.0121,
+              "rate_raw": 335,
+              "p_mob": 0.1675,
+              "p_contrib": 0.00203
+            }
+          ],
+          "atlantis_avg": 29813,
+          "atlantis_total_sold": 1313545,
+          "latam_offers_median": 18000,
+          "ev_atlantis_per_kill": 823.2,
+          "ev_latam_per_kill": 497.02,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 913,
+          "aegis": "Tooth_Of_Bat",
+          "name": "Tooth of Bat",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 34,
+          "p_per_map_kill": 0.05454545,
+          "contributors": [
+            {
+              "mob_id": 1111,
+              "aegis": "DRAINLIAR",
+              "amount": 12,
+              "weight": 0.0727,
+              "rate_raw": 1500,
+              "p_mob": 0.75,
+              "p_contrib": 0.054545
+            }
+          ],
+          "atlantis_avg": 9435,
+          "atlantis_total_sold": 108,
+          "latam_offers_median": 14960,
+          "ev_atlantis_per_kill": 514.64,
+          "ev_latam_per_kill": 816.0,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 12012,
+          "aegis": "Crystal_Arrow_Container",
+          "name": "Crystal Arrow Quiver",
+          "type": "Usable",
+          "bucket": "use",
+          "npc_buy": 2,
+          "p_per_map_kill": 0.0310303,
+          "contributors": [
+            {
+              "mob_id": 1206,
+              "aegis": "ANOLIAN",
+              "amount": 126,
+              "weight": 0.7636,
+              "rate_raw": 40,
+              "p_mob": 0.04,
+              "p_contrib": 0.030545
+            },
+            {
+              "mob_id": 2899,
+              "aegis": "C4_ANOLIAN",
+              "amount": 2,
+              "weight": 0.0121,
+              "rate_raw": 40,
+              "p_mob": 0.04,
+              "p_contrib": 0.000485
+            }
+          ],
+          "atlantis_avg": 13211,
+          "atlantis_total_sold": 4785,
+          "latam_offers_median": null,
+          "ev_atlantis_per_kill": 409.94,
+          "ev_latam_per_kill": null,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 2619,
+          "aegis": "Thimble_Of_Archer",
+          "name": "Bow Thimble",
+          "type": "Armor",
+          "bucket": "equip",
+          "npc_buy": 10000,
+          "p_per_map_kill": 0.00022727,
+          "contributors": [
+            {
+              "mob_id": 1253,
+              "aegis": "GARGOYLE",
+              "amount": 25,
+              "weight": 0.1515,
+              "rate_raw": 1,
+              "p_mob": 0.0015,
+              "p_contrib": 0.000227
+            }
+          ],
+          "atlantis_avg": 1140416,
+          "atlantis_total_sold": 625,
+          "latam_offers_median": 900000,
+          "ev_atlantis_per_kill": 259.19,
+          "ev_latam_per_kill": 204.55,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 507,
+          "aegis": "Red_Herb",
+          "name": "Red Herb",
+          "type": "Healing",
+          "bucket": "heal",
+          "npc_buy": 18,
+          "p_per_map_kill": 0.06909091,
+          "contributors": [
+            {
+              "mob_id": 1111,
+              "aegis": "DRAINLIAR",
+              "amount": 12,
+              "weight": 0.0727,
+              "rate_raw": 950,
+              "p_mob": 0.95,
+              "p_contrib": 0.069091
+            }
+          ],
+          "atlantis_avg": 1239,
+          "atlantis_total_sold": 159474,
+          "latam_offers_median": 1399,
+          "ev_atlantis_per_kill": 85.6,
+          "ev_latam_per_kill": 96.66,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 1039,
+          "aegis": "Petite_DiablOfs_Wing",
+          "name": "Little Evil Wing",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 2000,
+          "p_per_map_kill": 0.01893939,
+          "contributors": [
+            {
+              "mob_id": 1253,
+              "aegis": "GARGOYLE",
+              "amount": 25,
+              "weight": 0.1515,
+              "rate_raw": 250,
+              "p_mob": 0.125,
+              "p_contrib": 0.018939
+            }
+          ],
+          "atlantis_avg": 2030,
+          "atlantis_total_sold": 192,
+          "latam_offers_median": null,
+          "ev_atlantis_per_kill": 38.45,
+          "ev_latam_per_kill": null,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 757,
+          "aegis": "Elunium_Stone",
+          "name": "Rough Elunium",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 650,
+          "p_per_map_kill": 0.00901515,
+          "contributors": [
+            {
+              "mob_id": 1253,
+              "aegis": "GARGOYLE",
+              "amount": 25,
+              "weight": 0.1515,
+              "rate_raw": 119,
+              "p_mob": 0.0595,
+              "p_contrib": 0.009015
+            }
+          ],
+          "atlantis_avg": 3688,
+          "atlantis_total_sold": 17213,
+          "latam_offers_median": 1000,
+          "ev_atlantis_per_kill": 33.25,
+          "ev_latam_per_kill": 9.02,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 912,
+          "aegis": "Zargon",
+          "name": "Zargon",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 360,
+          "p_per_map_kill": 0.1469697,
+          "contributors": [
+            {
+              "mob_id": 1253,
+              "aegis": "GARGOYLE",
+              "amount": 25,
+              "weight": 0.1515,
+              "rate_raw": 1940,
+              "p_mob": 0.97,
+              "p_contrib": 0.14697
+            }
+          ],
+          "atlantis_avg": 224,
+          "atlantis_total_sold": 64831,
+          "latam_offers_median": 1790,
+          "ev_atlantis_per_kill": 32.92,
+          "ev_latam_per_kill": 263.08,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 526,
+          "aegis": "Royal_Jelly",
+          "name": "Royal Jelly",
+          "type": "Healing",
+          "bucket": "heal",
+          "npc_buy": 7000,
+          "p_per_map_kill": 0.00247273,
+          "contributors": [
+            {
+              "mob_id": 1206,
+              "aegis": "ANOLIAN",
+              "amount": 126,
+              "weight": 0.7636,
+              "rate_raw": 3,
+              "p_mob": 0.003,
+              "p_contrib": 0.002291
+            },
+            {
+              "mob_id": 2899,
+              "aegis": "C4_ANOLIAN",
+              "amount": 2,
+              "weight": 0.0121,
+              "rate_raw": 15,
+              "p_mob": 0.015,
+              "p_contrib": 0.000182
+            }
+          ],
+          "atlantis_avg": 4575,
+          "atlantis_total_sold": 1921721,
+          "latam_offers_median": null,
+          "ev_atlantis_per_kill": 11.31,
+          "ev_latam_per_kill": null,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 601,
+          "aegis": "Wing_Of_Fly",
+          "name": "Fly Wing",
+          "type": "DelayConsume",
+          "bucket": "common",
+          "npc_buy": 250,
+          "p_per_map_kill": 0.01818182,
+          "contributors": [
+            {
+              "mob_id": 1111,
+              "aegis": "DRAINLIAR",
+              "amount": 12,
+              "weight": 0.0727,
+              "rate_raw": 500,
+              "p_mob": 0.25,
+              "p_contrib": 0.018182
+            }
+          ],
+          "atlantis_avg": 179,
+          "atlantis_total_sold": 1994437,
+          "latam_offers_median": 300,
+          "ev_atlantis_per_kill": 3.25,
+          "ev_latam_per_kill": 5.45,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 756,
+          "aegis": "Oridecon_Stone",
+          "name": "Rough Oridecon",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 550,
+          "p_per_map_kill": 0.00072727,
+          "contributors": [
+            {
+              "mob_id": 1111,
+              "aegis": "DRAINLIAR",
+              "amount": 12,
+              "weight": 0.0727,
+              "rate_raw": 20,
+              "p_mob": 0.01,
+              "p_contrib": 0.000727
+            }
+          ],
+          "atlantis_avg": 4006,
+          "atlantis_total_sold": 65283,
+          "latam_offers_median": 8490,
+          "ev_atlantis_per_kill": 2.91,
+          "ev_latam_per_kill": 6.17,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 1769,
+          "aegis": "Silence_Arrow",
+          "name": "Mute Arrow",
+          "type": "Ammo",
+          "bucket": "common",
+          "npc_buy": 10,
+          "p_per_map_kill": 0.07575758,
+          "contributors": [
+            {
+              "mob_id": 1253,
+              "aegis": "GARGOYLE",
+              "amount": 25,
+              "weight": 0.1515,
+              "rate_raw": 1000,
+              "p_mob": 0.5,
+              "p_contrib": 0.075758
+            }
+          ],
+          "atlantis_avg": null,
+          "atlantis_total_sold": null,
+          "latam_offers_median": null,
+          "ev_atlantis_per_kill": null,
+          "ev_latam_per_kill": null,
+          "in_atlantis": false,
+          "in_latam": false,
+          "in_grindable": false
+        },
+        {
+          "item_id": 7006,
+          "aegis": "Wing_Of_Red_Bat",
+          "name": "Wing of Red Bat",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 168,
+          "p_per_map_kill": 0.07272727,
+          "contributors": [
+            {
+              "mob_id": 1111,
+              "aegis": "DRAINLIAR",
+              "amount": 12,
+              "weight": 0.0727,
+              "rate_raw": 2750,
+              "p_mob": 1.0,
+              "p_contrib": 0.072727
+            }
+          ],
+          "atlantis_avg": null,
+          "atlantis_total_sold": null,
+          "latam_offers_median": null,
+          "ev_atlantis_per_kill": null,
+          "ev_latam_per_kill": null,
+          "in_atlantis": false,
+          "in_latam": false,
+          "in_grindable": false
+        },
+        {
+          "item_id": 10019,
+          "aegis": "Red_Muffler",
+          "name": "Red Scarf",
+          "type": "Petarmor",
+          "bucket": "equip",
+          "npc_buy": 20,
+          "p_per_map_kill": 0.00618182,
+          "contributors": [
+            {
+              "mob_id": 1206,
+              "aegis": "ANOLIAN",
+              "amount": 126,
+              "weight": 0.7636,
+              "rate_raw": 5,
+              "p_mob": 0.0075,
+              "p_contrib": 0.005727
+            },
+            {
+              "mob_id": 2899,
+              "aegis": "C4_ANOLIAN",
+              "amount": 2,
+              "weight": 0.0121,
+              "rate_raw": 25,
+              "p_mob": 0.0375,
+              "p_contrib": 0.000455
+            }
+          ],
+          "atlantis_avg": null,
+          "atlantis_total_sold": null,
+          "latam_offers_median": null,
+          "ev_atlantis_per_kill": null,
+          "ev_latam_per_kill": null,
+          "in_atlantis": false,
+          "in_latam": true,
+          "in_grindable": false
+        },
+        {
+          "item_id": 4149,
+          "aegis": "Gargoyle_Card",
+          "name": "Gargoyle Card",
+          "type": "Card",
+          "bucket": "card",
+          "npc_buy": 20,
+          "p_per_map_kill": 0.00151515,
+          "contributors": [
+            {
+              "mob_id": 1253,
+              "aegis": "GARGOYLE",
+              "amount": 25,
+              "weight": 0.1515,
+              "rate_raw": 1,
+              "p_mob": 0.01,
+              "p_contrib": 0.001515
+            }
+          ],
+          "atlantis_avg": null,
+          "atlantis_total_sold": null,
+          "latam_offers_median": null,
+          "ev_atlantis_per_kill": null,
+          "ev_latam_per_kill": null,
+          "in_atlantis": false,
+          "in_latam": false,
+          "in_grindable": false
+        },
+        {
+          "item_id": 16003,
+          "aegis": "Carga_Mace",
+          "name": "Carga Mace",
+          "type": "Weapon",
+          "bucket": "equip",
+          "npc_buy": 20,
+          "p_per_map_kill": 0.00123636,
+          "contributors": [
+            {
+              "mob_id": 1206,
+              "aegis": "ANOLIAN",
+              "amount": 126,
+              "weight": 0.7636,
+              "rate_raw": 1,
+              "p_mob": 0.0015,
+              "p_contrib": 0.001145
+            },
+            {
+              "mob_id": 2899,
+              "aegis": "C4_ANOLIAN",
+              "amount": 2,
+              "weight": 0.0121,
+              "rate_raw": 5,
+              "p_mob": 0.0075,
+              "p_contrib": 9.1e-05
+            }
+          ],
+          "atlantis_avg": null,
+          "atlantis_total_sold": null,
+          "latam_offers_median": 499999,
+          "ev_atlantis_per_kill": null,
+          "ev_latam_per_kill": 618.18,
+          "in_atlantis": false,
+          "in_latam": true,
+          "in_grindable": false
+        },
+        {
+          "item_id": 4069,
+          "aegis": "Drainliar_Card",
+          "name": "Drainliar Card",
+          "type": "Card",
+          "bucket": "card",
+          "npc_buy": 20,
+          "p_per_map_kill": 0.00072727,
+          "contributors": [
+            {
+              "mob_id": 1111,
+              "aegis": "DRAINLIAR",
+              "amount": 12,
+              "weight": 0.0727,
+              "rate_raw": 1,
+              "p_mob": 0.01,
+              "p_contrib": 0.000727
+            }
+          ],
+          "atlantis_avg": null,
+          "atlantis_total_sold": null,
+          "latam_offers_median": null,
+          "ev_atlantis_per_kill": null,
+          "ev_latam_per_kill": null,
+          "in_atlantis": false,
+          "in_latam": true,
+          "in_grindable": false
+        },
+        {
+          "item_id": 725,
+          "aegis": "Red_Jewel",
+          "name": "Sardonyx",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 6000,
+          "p_per_map_kill": 0.00036364,
+          "contributors": [
+            {
+              "mob_id": 1111,
+              "aegis": "DRAINLIAR",
+              "amount": 12,
+              "weight": 0.0727,
+              "rate_raw": 10,
+              "p_mob": 0.005,
+              "p_contrib": 0.000364
+            }
+          ],
+          "atlantis_avg": null,
+          "atlantis_total_sold": null,
+          "latam_offers_median": null,
+          "ev_atlantis_per_kill": null,
+          "ev_latam_per_kill": null,
+          "in_atlantis": false,
+          "in_latam": true,
+          "in_grindable": false
+        }
+      ],
+      "drops_top20": [
+        {
+          "item_id": 1746,
+          "aegis": "Elven_Bow",
+          "name": "Elven Bow",
+          "type": "Weapon",
+          "bucket": "equip",
+          "npc_buy": 20,
+          "p_per_map_kill": 0.00068182,
+          "contributors": [
+            {
+              "mob_id": 1253,
+              "aegis": "GARGOYLE",
+              "amount": 25,
+              "weight": 0.1515,
+              "rate_raw": 3,
+              "p_mob": 0.0045,
+              "p_contrib": 0.000682
+            }
+          ],
+          "atlantis_avg": 20665672,
+          "atlantis_total_sold": 5547,
+          "latam_offers_median": 3500000,
+          "ev_atlantis_per_kill": 14090.23,
+          "ev_latam_per_kill": 2386.36,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 2625,
+          "aegis": "Brooch_",
+          "name": "Brooch",
+          "type": "Armor",
+          "bucket": "equip",
+          "npc_buy": 30000,
+          "p_per_map_kill": 0.00123636,
+          "contributors": [
+            {
+              "mob_id": 1206,
+              "aegis": "ANOLIAN",
+              "amount": 126,
+              "weight": 0.7636,
+              "rate_raw": 1,
+              "p_mob": 0.0015,
+              "p_contrib": 0.001145
+            },
+            {
+              "mob_id": 2899,
+              "aegis": "C4_ANOLIAN",
+              "amount": 2,
+              "weight": 0.0121,
+              "rate_raw": 5,
+              "p_mob": 0.0075,
+              "p_contrib": 9.1e-05
+            }
+          ],
+          "atlantis_avg": 2360725,
+          "atlantis_total_sold": 4610,
+          "latam_offers_median": 1900000,
+          "ev_atlantis_per_kill": 2918.71,
+          "ev_latam_per_kill": 2349.09,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 7003,
+          "aegis": "Anolian_Skin",
+          "name": "Anolian Skin",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 968,
+          "p_per_map_kill": 0.77575758,
+          "contributors": [
+            {
+              "mob_id": 1206,
+              "aegis": "ANOLIAN",
+              "amount": 126,
+              "weight": 0.7636,
+              "rate_raw": 2425,
+              "p_mob": 1.0,
+              "p_contrib": 0.763636
+            },
+            {
+              "mob_id": 2899,
+              "aegis": "C4_ANOLIAN",
+              "amount": 2,
+              "weight": 0.0121,
+              "rate_raw": 10000,
+              "p_mob": 1.0,
+              "p_contrib": 0.012121
+            }
+          ],
+          "atlantis_avg": 3150,
+          "atlantis_total_sold": 35528334,
+          "latam_offers_median": null,
+          "ev_atlantis_per_kill": 2443.64,
+          "ev_latam_per_kill": null,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 4234,
+          "aegis": "Anolian_Card",
+          "name": "Anolian Card",
+          "type": "Card",
+          "bucket": "card",
+          "npc_buy": 20,
+          "p_per_map_kill": 0.00824242,
+          "contributors": [
+            {
+              "mob_id": 1206,
+              "aegis": "ANOLIAN",
+              "amount": 126,
+              "weight": 0.7636,
+              "rate_raw": 1,
+              "p_mob": 0.01,
+              "p_contrib": 0.007636
+            },
+            {
+              "mob_id": 2899,
+              "aegis": "C4_ANOLIAN",
+              "amount": 2,
+              "weight": 0.0121,
+              "rate_raw": 5,
+              "p_mob": 0.05,
+              "p_contrib": 0.000606
+            }
+          ],
+          "atlantis_avg": 250699,
+          "atlantis_total_sold": 957,
+          "latam_offers_median": 600000,
+          "ev_atlantis_per_kill": 2066.37,
+          "ev_latam_per_kill": 4945.45,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 984,
+          "aegis": "Oridecon",
+          "name": "Oridecon",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 1100,
+          "p_per_map_kill": 0.02761212,
+          "contributors": [
+            {
+              "mob_id": 1206,
+              "aegis": "ANOLIAN",
+              "amount": 126,
+              "weight": 0.7636,
+              "rate_raw": 67,
+              "p_mob": 0.0335,
+              "p_contrib": 0.025582
+            },
+            {
+              "mob_id": 2899,
+              "aegis": "C4_ANOLIAN",
+              "amount": 2,
+              "weight": 0.0121,
+              "rate_raw": 335,
+              "p_mob": 0.1675,
+              "p_contrib": 0.00203
+            }
+          ],
+          "atlantis_avg": 29813,
+          "atlantis_total_sold": 1313545,
+          "latam_offers_median": 18000,
+          "ev_atlantis_per_kill": 823.2,
+          "ev_latam_per_kill": 497.02,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 913,
+          "aegis": "Tooth_Of_Bat",
+          "name": "Tooth of Bat",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 34,
+          "p_per_map_kill": 0.05454545,
+          "contributors": [
+            {
+              "mob_id": 1111,
+              "aegis": "DRAINLIAR",
+              "amount": 12,
+              "weight": 0.0727,
+              "rate_raw": 1500,
+              "p_mob": 0.75,
+              "p_contrib": 0.054545
+            }
+          ],
+          "atlantis_avg": 9435,
+          "atlantis_total_sold": 108,
+          "latam_offers_median": 14960,
+          "ev_atlantis_per_kill": 514.64,
+          "ev_latam_per_kill": 816.0,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 12012,
+          "aegis": "Crystal_Arrow_Container",
+          "name": "Crystal Arrow Quiver",
+          "type": "Usable",
+          "bucket": "use",
+          "npc_buy": 2,
+          "p_per_map_kill": 0.0310303,
+          "contributors": [
+            {
+              "mob_id": 1206,
+              "aegis": "ANOLIAN",
+              "amount": 126,
+              "weight": 0.7636,
+              "rate_raw": 40,
+              "p_mob": 0.04,
+              "p_contrib": 0.030545
+            },
+            {
+              "mob_id": 2899,
+              "aegis": "C4_ANOLIAN",
+              "amount": 2,
+              "weight": 0.0121,
+              "rate_raw": 40,
+              "p_mob": 0.04,
+              "p_contrib": 0.000485
+            }
+          ],
+          "atlantis_avg": 13211,
+          "atlantis_total_sold": 4785,
+          "latam_offers_median": null,
+          "ev_atlantis_per_kill": 409.94,
+          "ev_latam_per_kill": null,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 2619,
+          "aegis": "Thimble_Of_Archer",
+          "name": "Bow Thimble",
+          "type": "Armor",
+          "bucket": "equip",
+          "npc_buy": 10000,
+          "p_per_map_kill": 0.00022727,
+          "contributors": [
+            {
+              "mob_id": 1253,
+              "aegis": "GARGOYLE",
+              "amount": 25,
+              "weight": 0.1515,
+              "rate_raw": 1,
+              "p_mob": 0.0015,
+              "p_contrib": 0.000227
+            }
+          ],
+          "atlantis_avg": 1140416,
+          "atlantis_total_sold": 625,
+          "latam_offers_median": 900000,
+          "ev_atlantis_per_kill": 259.19,
+          "ev_latam_per_kill": 204.55,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 507,
+          "aegis": "Red_Herb",
+          "name": "Red Herb",
+          "type": "Healing",
+          "bucket": "heal",
+          "npc_buy": 18,
+          "p_per_map_kill": 0.06909091,
+          "contributors": [
+            {
+              "mob_id": 1111,
+              "aegis": "DRAINLIAR",
+              "amount": 12,
+              "weight": 0.0727,
+              "rate_raw": 950,
+              "p_mob": 0.95,
+              "p_contrib": 0.069091
+            }
+          ],
+          "atlantis_avg": 1239,
+          "atlantis_total_sold": 159474,
+          "latam_offers_median": 1399,
+          "ev_atlantis_per_kill": 85.6,
+          "ev_latam_per_kill": 96.66,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 1039,
+          "aegis": "Petite_DiablOfs_Wing",
+          "name": "Little Evil Wing",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 2000,
+          "p_per_map_kill": 0.01893939,
+          "contributors": [
+            {
+              "mob_id": 1253,
+              "aegis": "GARGOYLE",
+              "amount": 25,
+              "weight": 0.1515,
+              "rate_raw": 250,
+              "p_mob": 0.125,
+              "p_contrib": 0.018939
+            }
+          ],
+          "atlantis_avg": 2030,
+          "atlantis_total_sold": 192,
+          "latam_offers_median": null,
+          "ev_atlantis_per_kill": 38.45,
+          "ev_latam_per_kill": null,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 757,
+          "aegis": "Elunium_Stone",
+          "name": "Rough Elunium",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 650,
+          "p_per_map_kill": 0.00901515,
+          "contributors": [
+            {
+              "mob_id": 1253,
+              "aegis": "GARGOYLE",
+              "amount": 25,
+              "weight": 0.1515,
+              "rate_raw": 119,
+              "p_mob": 0.0595,
+              "p_contrib": 0.009015
+            }
+          ],
+          "atlantis_avg": 3688,
+          "atlantis_total_sold": 17213,
+          "latam_offers_median": 1000,
+          "ev_atlantis_per_kill": 33.25,
+          "ev_latam_per_kill": 9.02,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 912,
+          "aegis": "Zargon",
+          "name": "Zargon",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 360,
+          "p_per_map_kill": 0.1469697,
+          "contributors": [
+            {
+              "mob_id": 1253,
+              "aegis": "GARGOYLE",
+              "amount": 25,
+              "weight": 0.1515,
+              "rate_raw": 1940,
+              "p_mob": 0.97,
+              "p_contrib": 0.14697
+            }
+          ],
+          "atlantis_avg": 224,
+          "atlantis_total_sold": 64831,
+          "latam_offers_median": 1790,
+          "ev_atlantis_per_kill": 32.92,
+          "ev_latam_per_kill": 263.08,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 526,
+          "aegis": "Royal_Jelly",
+          "name": "Royal Jelly",
+          "type": "Healing",
+          "bucket": "heal",
+          "npc_buy": 7000,
+          "p_per_map_kill": 0.00247273,
+          "contributors": [
+            {
+              "mob_id": 1206,
+              "aegis": "ANOLIAN",
+              "amount": 126,
+              "weight": 0.7636,
+              "rate_raw": 3,
+              "p_mob": 0.003,
+              "p_contrib": 0.002291
+            },
+            {
+              "mob_id": 2899,
+              "aegis": "C4_ANOLIAN",
+              "amount": 2,
+              "weight": 0.0121,
+              "rate_raw": 15,
+              "p_mob": 0.015,
+              "p_contrib": 0.000182
+            }
+          ],
+          "atlantis_avg": 4575,
+          "atlantis_total_sold": 1921721,
+          "latam_offers_median": null,
+          "ev_atlantis_per_kill": 11.31,
+          "ev_latam_per_kill": null,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 601,
+          "aegis": "Wing_Of_Fly",
+          "name": "Fly Wing",
+          "type": "DelayConsume",
+          "bucket": "common",
+          "npc_buy": 250,
+          "p_per_map_kill": 0.01818182,
+          "contributors": [
+            {
+              "mob_id": 1111,
+              "aegis": "DRAINLIAR",
+              "amount": 12,
+              "weight": 0.0727,
+              "rate_raw": 500,
+              "p_mob": 0.25,
+              "p_contrib": 0.018182
+            }
+          ],
+          "atlantis_avg": 179,
+          "atlantis_total_sold": 1994437,
+          "latam_offers_median": 300,
+          "ev_atlantis_per_kill": 3.25,
+          "ev_latam_per_kill": 5.45,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 756,
+          "aegis": "Oridecon_Stone",
+          "name": "Rough Oridecon",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 550,
+          "p_per_map_kill": 0.00072727,
+          "contributors": [
+            {
+              "mob_id": 1111,
+              "aegis": "DRAINLIAR",
+              "amount": 12,
+              "weight": 0.0727,
+              "rate_raw": 20,
+              "p_mob": 0.01,
+              "p_contrib": 0.000727
+            }
+          ],
+          "atlantis_avg": 4006,
+          "atlantis_total_sold": 65283,
+          "latam_offers_median": 8490,
+          "ev_atlantis_per_kill": 2.91,
+          "ev_latam_per_kill": 6.17,
+          "in_atlantis": true,
+          "in_latam": true,
+          "in_grindable": true
+        },
+        {
+          "item_id": 1769,
+          "aegis": "Silence_Arrow",
+          "name": "Mute Arrow",
+          "type": "Ammo",
+          "bucket": "common",
+          "npc_buy": 10,
+          "p_per_map_kill": 0.07575758,
+          "contributors": [
+            {
+              "mob_id": 1253,
+              "aegis": "GARGOYLE",
+              "amount": 25,
+              "weight": 0.1515,
+              "rate_raw": 1000,
+              "p_mob": 0.5,
+              "p_contrib": 0.075758
+            }
+          ],
+          "atlantis_avg": null,
+          "atlantis_total_sold": null,
+          "latam_offers_median": null,
+          "ev_atlantis_per_kill": null,
+          "ev_latam_per_kill": null,
+          "in_atlantis": false,
+          "in_latam": false,
+          "in_grindable": false
+        },
+        {
+          "item_id": 7006,
+          "aegis": "Wing_Of_Red_Bat",
+          "name": "Wing of Red Bat",
+          "type": "Etc",
+          "bucket": "common",
+          "npc_buy": 168,
+          "p_per_map_kill": 0.07272727,
+          "contributors": [
+            {
+              "mob_id": 1111,
+              "aegis": "DRAINLIAR",
+              "amount": 12,
+              "weight": 0.0727,
+              "rate_raw": 2750,
+              "p_mob": 1.0,
+              "p_contrib": 0.072727
+            }
+          ],
+          "atlantis_avg": null,
+          "atlantis_total_sold": null,
+          "latam_offers_median": null,
+          "ev_atlantis_per_kill": null,
+          "ev_latam_per_kill": null,
+          "in_atlantis": false,
+          "in_latam": false,
+          "in_grindable": false
+        },
+        {
+          "item_id": 10019,
+          "aegis": "Red_Muffler",
+          "name": "Red Scarf",
+          "type": "Petarmor",
+          "bucket": "equip",
+          "npc_buy": 20,
+          "p_per_map_kill": 0.00618182,
+          "contributors": [
+            {
+              "mob_id": 1206,
+              "aegis": "ANOLIAN",
+              "amount": 126,
+              "weight": 0.7636,
+              "rate_raw": 5,
+              "p_mob": 0.0075,
+              "p_contrib": 0.005727
+            },
+            {
+              "mob_id": 2899,
+              "aegis": "C4_ANOLIAN",
+              "amount": 2,
+              "weight": 0.0121,
+              "rate_raw": 25,
+              "p_mob": 0.0375,
+              "p_contrib": 0.000455
+            }
+          ],
+          "atlantis_avg": null,
+          "atlantis_total_sold": null,
+          "latam_offers_median": null,
+          "ev_atlantis_per_kill": null,
+          "ev_latam_per_kill": null,
+          "in_atlantis": false,
+          "in_latam": true,
+          "in_grindable": false
+        },
+        {
+          "item_id": 4149,
+          "aegis": "Gargoyle_Card",
+          "name": "Gargoyle Card",
+          "type": "Card",
+          "bucket": "card",
+          "npc_buy": 20,
+          "p_per_map_kill": 0.00151515,
+          "contributors": [
+            {
+              "mob_id": 1253,
+              "aegis": "GARGOYLE",
+              "amount": 25,
+              "weight": 0.1515,
+              "rate_raw": 1,
+              "p_mob": 0.01,
+              "p_contrib": 0.001515
+            }
+          ],
+          "atlantis_avg": null,
+          "atlantis_total_sold": null,
+          "latam_offers_median": null,
+          "ev_atlantis_per_kill": null,
+          "ev_latam_per_kill": null,
+          "in_atlantis": false,
+          "in_latam": false,
+          "in_grindable": false
+        },
+        {
+          "item_id": 16003,
+          "aegis": "Carga_Mace",
+          "name": "Carga Mace",
+          "type": "Weapon",
+          "bucket": "equip",
+          "npc_buy": 20,
+          "p_per_map_kill": 0.00123636,
+          "contributors": [
+            {
+              "mob_id": 1206,
+              "aegis": "ANOLIAN",
+              "amount": 126,
+              "weight": 0.7636,
+              "rate_raw": 1,
+              "p_mob": 0.0015,
+              "p_contrib": 0.001145
+            },
+            {
+              "mob_id": 2899,
+              "aegis": "C4_ANOLIAN",
+              "amount": 2,
+              "weight": 0.0121,
+              "rate_raw": 5,
+              "p_mob": 0.0075,
+              "p_contrib": 9.1e-05
+            }
+          ],
+          "atlantis_avg": null,
+          "atlantis_total_sold": null,
+          "latam_offers_median": 499999,
+          "ev_atlantis_per_kill": null,
+          "ev_latam_per_kill": 618.18,
+          "in_atlantis": false,
+          "in_latam": true,
+          "in_grindable": false
+        }
+      ],
+      "loot": {
+        "policy": "restricted",
+        "policy_reason": "expert/hard: solo Etc con volumen Atlantis≥1k; sin consumibles/card/equip",
+        "offer_drop_count": 5,
+        "ev_atlantis_per_kill_offer": 3335.92,
+        "ev_latam_per_kill_offer": 775.29,
+        "ev_atlantis_per_kill_all_drops": 23733.61,
+        "ev_atlantis_per_kill_mats_only": 4395.86,
+        "card_count": 3,
+        "ev_atlantis_cards": 2066.37,
+        "offer_drops_top30": [
+          {
+            "item_id": 7003,
+            "aegis": "Anolian_Skin",
+            "name": "Anolian Skin",
+            "type": "Etc",
+            "bucket": "common",
+            "npc_buy": 968,
+            "p_per_map_kill": 0.77575758,
+            "contributors": [
+              {
+                "mob_id": 1206,
+                "aegis": "ANOLIAN",
+                "amount": 126,
+                "weight": 0.7636,
+                "rate_raw": 2425,
+                "p_mob": 1.0,
+                "p_contrib": 0.763636
+              },
+              {
+                "mob_id": 2899,
+                "aegis": "C4_ANOLIAN",
+                "amount": 2,
+                "weight": 0.0121,
+                "rate_raw": 10000,
+                "p_mob": 1.0,
+                "p_contrib": 0.012121
+              }
+            ],
+            "atlantis_avg": 3150,
+            "atlantis_total_sold": 35528334,
+            "latam_offers_median": null,
+            "ev_atlantis_per_kill": 2443.64,
+            "ev_latam_per_kill": null,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          },
+          {
+            "item_id": 984,
+            "aegis": "Oridecon",
+            "name": "Oridecon",
+            "type": "Etc",
+            "bucket": "common",
+            "npc_buy": 1100,
+            "p_per_map_kill": 0.02761212,
+            "contributors": [
+              {
+                "mob_id": 1206,
+                "aegis": "ANOLIAN",
+                "amount": 126,
+                "weight": 0.7636,
+                "rate_raw": 67,
+                "p_mob": 0.0335,
+                "p_contrib": 0.025582
+              },
+              {
+                "mob_id": 2899,
+                "aegis": "C4_ANOLIAN",
+                "amount": 2,
+                "weight": 0.0121,
+                "rate_raw": 335,
+                "p_mob": 0.1675,
+                "p_contrib": 0.00203
+              }
+            ],
+            "atlantis_avg": 29813,
+            "atlantis_total_sold": 1313545,
+            "latam_offers_median": 18000,
+            "ev_atlantis_per_kill": 823.2,
+            "ev_latam_per_kill": 497.02,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          },
+          {
+            "item_id": 757,
+            "aegis": "Elunium_Stone",
+            "name": "Rough Elunium",
+            "type": "Etc",
+            "bucket": "common",
+            "npc_buy": 650,
+            "p_per_map_kill": 0.00901515,
+            "contributors": [
+              {
+                "mob_id": 1253,
+                "aegis": "GARGOYLE",
+                "amount": 25,
+                "weight": 0.1515,
+                "rate_raw": 119,
+                "p_mob": 0.0595,
+                "p_contrib": 0.009015
+              }
+            ],
+            "atlantis_avg": 3688,
+            "atlantis_total_sold": 17213,
+            "latam_offers_median": 1000,
+            "ev_atlantis_per_kill": 33.25,
+            "ev_latam_per_kill": 9.02,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          },
+          {
+            "item_id": 912,
+            "aegis": "Zargon",
+            "name": "Zargon",
+            "type": "Etc",
+            "bucket": "common",
+            "npc_buy": 360,
+            "p_per_map_kill": 0.1469697,
+            "contributors": [
+              {
+                "mob_id": 1253,
+                "aegis": "GARGOYLE",
+                "amount": 25,
+                "weight": 0.1515,
+                "rate_raw": 1940,
+                "p_mob": 0.97,
+                "p_contrib": 0.14697
+              }
+            ],
+            "atlantis_avg": 224,
+            "atlantis_total_sold": 64831,
+            "latam_offers_median": 1790,
+            "ev_atlantis_per_kill": 32.92,
+            "ev_latam_per_kill": 263.08,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          },
+          {
+            "item_id": 756,
+            "aegis": "Oridecon_Stone",
+            "name": "Rough Oridecon",
+            "type": "Etc",
+            "bucket": "common",
+            "npc_buy": 550,
+            "p_per_map_kill": 0.00072727,
+            "contributors": [
+              {
+                "mob_id": 1111,
+                "aegis": "DRAINLIAR",
+                "amount": 12,
+                "weight": 0.0727,
+                "rate_raw": 20,
+                "p_mob": 0.01,
+                "p_contrib": 0.000727
+              }
+            ],
+            "atlantis_avg": 4006,
+            "atlantis_total_sold": 65283,
+            "latam_offers_median": 8490,
+            "ev_atlantis_per_kill": 2.91,
+            "ev_latam_per_kill": 6.17,
+            "in_atlantis": true,
+            "in_latam": true,
+            "in_grindable": true
+          }
+        ],
+        "offer_item_ids": [
+          7003,
+          984,
+          757,
+          912,
+          756
+        ],
+        "top_cards": [
+          {
+            "item_id": 4234,
+            "name": "Anolian Card",
+            "p": 0.00824242,
+            "atlantis_avg": 250699,
+            "ev_at": 2066.37
+          },
+          {
+            "item_id": 4149,
+            "name": "Gargoyle Card",
+            "p": 0.00151515,
+            "atlantis_avg": null,
+            "ev_at": null
+          },
+          {
+            "item_id": 4069,
+            "name": "Drainliar Card",
+            "p": 0.00072727,
+            "atlantis_avg": null,
+            "ev_at": null
+          }
+        ]
+      }
+    }
+  ]
+}
