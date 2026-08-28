@@ -59,8 +59,8 @@
         }
       ],
       "drop_types_count": 22,
-      "ev_mats_offer_per_kill": 180.46,
-      "ev_mats_offer_per_day": 114794.48,
+      "ev_mats_offer_per_kill": 155.05,
+      "ev_mats_offer_per_day": 98631.34,
       "offer": {
         "mats_for_sale": [
           {
@@ -74,18 +74,6 @@
             "has_offers": true,
             "qty_per_day": 0.9143,
             "score": 42288.85
-          },
-          {
-            "item_id": 519,
-            "aegis": "Milk",
-            "name": "Milk",
-            "type": "Healing",
-            "p_per_map_kill": 0.0256654,
-            "latam_price": 990,
-            "latam_total_sold": 1223,
-            "has_offers": true,
-            "qty_per_day": 16.3264,
-            "score": 20076.23
           },
           {
             "item_id": 7053,
@@ -114,6 +102,15 @@
         ],
         "mats_discarded_count": 0,
         "mats_discarded_top10": [],
+        "mats_blocked_npc_buyable": [
+          {
+            "item_id": 519,
+            "name": "Milk",
+            "price_latam": 990,
+            "reason": "npc_buyable"
+          }
+        ],
+        "mats_blocked_npc_count": 1,
         "cards": [
           {
             "item_id": 4066,
@@ -152,13 +149,6 @@
               "stock_value": 7762.21
             },
             {
-              "item_id": 519,
-              "name": "Milk",
-              "qty": 16.33,
-              "price": 990,
-              "stock_value": 16163.14
-            },
-            {
               "item_id": 7053,
               "name": "Cyfar",
               "qty": 30.97,
@@ -173,7 +163,7 @@
               "stock_value": 59899.76
             }
           ],
-          "mats_stock_value_latam": 114794.48,
+          "mats_stock_value_latam": 98631.34,
           "cards": [
             {
               "item_id": 4066,
@@ -188,12 +178,12 @@
           ],
           "cards_sellable_total": 0.023,
           "cards_pipeline_value": 44569.14,
-          "lot_expected_value": 159363.62,
+          "lot_expected_value": 143200.48,
           "zeny_spent": 7237.06,
-          "net_if_sold_at_latam": 152126.57,
+          "net_if_sold_at_latam": 135963.43,
           "gates": {
-            "pause_grind_until_sold_z": 63745.45,
-            "keep_shop_until_sold_z": 95618.17,
+            "pause_grind_until_sold_z": 57280.19,
+            "keep_shop_until_sold_z": 85920.29,
             "pause_frac": 0.4,
             "shop_keep_frac": 0.6
           }
@@ -211,13 +201,6 @@
               "stock_value": 23286.64
             },
             {
-              "item_id": 519,
-              "name": "Milk",
-              "qty": 48.98,
-              "price": 990,
-              "stock_value": 48489.42
-            },
-            {
               "item_id": 7053,
               "name": "Cyfar",
               "qty": 92.91,
@@ -232,7 +215,7 @@
               "stock_value": 179699.27
             }
           ],
-          "mats_stock_value_latam": 344383.43,
+          "mats_stock_value_latam": 295894.01,
           "cards": [
             {
               "item_id": 4066,
@@ -247,12 +230,12 @@
           ],
           "cards_sellable_total": 0.069,
           "cards_pipeline_value": 133707.43,
-          "lot_expected_value": 478090.86,
+          "lot_expected_value": 429601.45,
           "zeny_spent": 21711.17,
-          "net_if_sold_at_latam": 456379.7,
+          "net_if_sold_at_latam": 407890.28,
           "gates": {
-            "pause_grind_until_sold_z": 191236.34,
-            "keep_shop_until_sold_z": 286854.52,
+            "pause_grind_until_sold_z": 171840.58,
+            "keep_shop_until_sold_z": 257760.87,
             "pause_frac": 0.4,
             "shop_keep_frac": 0.6
           }
@@ -270,13 +253,6 @@
               "stock_value": 54335.48
             },
             {
-              "item_id": 519,
-              "name": "Milk",
-              "qty": 114.28,
-              "price": 990,
-              "stock_value": 113141.97
-            },
-            {
               "item_id": 7053,
               "name": "Cyfar",
               "qty": 216.79,
@@ -291,7 +267,7 @@
               "stock_value": 419298.29
             }
           ],
-          "mats_stock_value_latam": 803561.34,
+          "mats_stock_value_latam": 690419.37,
           "cards": [
             {
               "item_id": 4066,
@@ -306,12 +282,12 @@
           ],
           "cards_sellable_total": 0.16,
           "cards_pipeline_value": 311984.01,
-          "lot_expected_value": 1115545.34,
+          "lot_expected_value": 1002403.37,
           "zeny_spent": 50659.39,
-          "net_if_sold_at_latam": 1064885.96,
+          "net_if_sold_at_latam": 951743.99,
           "gates": {
-            "pause_grind_until_sold_z": 446218.14,
-            "keep_shop_until_sold_z": 669327.21,
+            "pause_grind_until_sold_z": 400961.35,
+            "keep_shop_until_sold_z": 601442.02,
             "pause_frac": 0.4,
             "shop_keep_frac": 0.6
           }
@@ -329,13 +305,6 @@
               "stock_value": 77622.12
             },
             {
-              "item_id": 519,
-              "name": "Milk",
-              "qty": 163.26,
-              "price": 990,
-              "stock_value": 161631.39
-            },
-            {
               "item_id": 7053,
               "name": "Cyfar",
               "qty": 309.69,
@@ -350,7 +319,7 @@
               "stock_value": 598997.56
             }
           ],
-          "mats_stock_value_latam": 1147944.77,
+          "mats_stock_value_latam": 986313.38,
           "cards": [
             {
               "item_id": 4066,
@@ -365,12 +334,12 @@
           ],
           "cards_sellable_total": 0.229,
           "cards_pipeline_value": 445691.44,
-          "lot_expected_value": 1593636.2,
+          "lot_expected_value": 1432004.82,
           "zeny_spent": 72370.55,
-          "net_if_sold_at_latam": 1521265.65,
+          "net_if_sold_at_latam": 1359634.27,
           "gates": {
-            "pause_grind_until_sold_z": 637454.48,
-            "keep_shop_until_sold_z": 956181.72,
+            "pause_grind_until_sold_z": 572801.93,
+            "keep_shop_until_sold_z": 859202.89,
             "pause_frac": 0.4,
             "shop_keep_frac": 0.6
           }
@@ -442,8 +411,8 @@
         }
       ],
       "drop_types_count": 30,
-      "ev_mats_offer_per_kill": 1243.28,
-      "ev_mats_offer_per_day": 633357.28,
+      "ev_mats_offer_per_kill": 948.2,
+      "ev_mats_offer_per_day": 483035.15,
       "offer": {
         "mats_for_sale": [
           {
@@ -481,28 +450,16 @@
             "has_offers": true,
             "qty_per_day": 56.3708,
             "score": 78101.17
-          },
-          {
-            "item_id": 1043,
-            "aegis": "Nail_Of_Orc",
-            "name": "Orc Claw",
-            "type": "Etc",
-            "p_per_map_kill": 0.19672131,
-            "latam_price": 1500,
-            "latam_total_sold": 214,
-            "has_offers": true,
-            "qty_per_day": 100.2148,
-            "score": 37196.32
           }
         ],
-        "mats_discarded_count": 11,
+        "mats_discarded_count": 7,
         "mats_discarded_top10": [
           {
-            "item_id": 910,
-            "name": "Garlet",
-            "price": 2500,
-            "qty_per_day": 5.0107,
-            "score": 30132.59
+            "item_id": 1043,
+            "name": "Orc Claw",
+            "price": 1500,
+            "qty_per_day": 100.2148,
+            "score": 37196.32
           },
           {
             "item_id": 507,
@@ -512,32 +469,11 @@
             "score": 29300.51
           },
           {
-            "item_id": 998,
-            "name": "Iron",
-            "price": 8200,
-            "qty_per_day": 0.4176,
-            "score": 27230.91
-          },
-          {
             "item_id": 922,
             "name": "Orc's Fang",
             "price": 1276,
             "qty_per_day": 11.4829,
             "score": 19613.34
-          },
-          {
-            "item_id": 992,
-            "name": "Wind of Verdure",
-            "price": 2899,
-            "qty_per_day": 0.1879,
-            "score": 5506.77
-          },
-          {
-            "item_id": 999,
-            "name": "Steel",
-            "price": 6000,
-            "qty_per_day": 0.0626,
-            "score": 3779.52
           },
           {
             "item_id": 756,
@@ -554,20 +490,53 @@
             "score": 1559.82
           },
           {
-            "item_id": 645,
-            "name": "Concentration Potion",
-            "price": 1050,
-            "qty_per_day": 0.1566,
-            "score": 1281.42
-          },
-          {
             "item_id": 757,
             "name": "Rough Elunium",
             "price": 1000,
             "qty_per_day": 0.167,
             "score": 1091.34
+          },
+          {
+            "item_id": 943,
+            "name": "Solid Shell",
+            "price": 1000,
+            "qty_per_day": 0.0626,
+            "score": 383.66
           }
         ],
+        "mats_blocked_npc_buyable": [
+          {
+            "item_id": 645,
+            "name": "Concentration Potion",
+            "price_latam": 1050,
+            "reason": "npc_buyable"
+          },
+          {
+            "item_id": 992,
+            "name": "Wind of Verdure",
+            "price_latam": 2899,
+            "reason": "npc_buyable"
+          },
+          {
+            "item_id": 999,
+            "name": "Steel",
+            "price_latam": 6000,
+            "reason": "npc_buyable"
+          },
+          {
+            "item_id": 910,
+            "name": "Garlet",
+            "price_latam": 2500,
+            "reason": "npc_buyable"
+          },
+          {
+            "item_id": 998,
+            "name": "Iron",
+            "price_latam": 8200,
+            "reason": "npc_buyable"
+          }
+        ],
+        "mats_blocked_npc_count": 5,
         "cards": [
           {
             "item_id": 4071,
@@ -631,16 +600,9 @@
               "qty": 56.37,
               "price": 2000,
               "stock_value": 112741.6
-            },
-            {
-              "item_id": 1043,
-              "name": "Orc Claw",
-              "qty": 100.21,
-              "price": 1500,
-              "stock_value": 150322.13
             }
           ],
-          "mats_stock_value_latam": 633357.28,
+          "mats_stock_value_latam": 483035.15,
           "cards": [
             {
               "item_id": 4071,
@@ -665,12 +627,12 @@
           ],
           "cards_sellable_total": 0.021,
           "cards_pipeline_value": 10961.55,
-          "lot_expected_value": 644318.83,
+          "lot_expected_value": 493996.7,
           "zeny_spent": 8341.25,
-          "net_if_sold_at_latam": 635977.58,
+          "net_if_sold_at_latam": 485655.45,
           "gates": {
-            "pause_grind_until_sold_z": 257727.53,
-            "keep_shop_until_sold_z": 386591.3,
+            "pause_grind_until_sold_z": 197598.68,
+            "keep_shop_until_sold_z": 296398.02,
             "pause_frac": 0.4,
             "shop_keep_frac": 0.6
           }
@@ -700,16 +662,9 @@
               "qty": 169.11,
               "price": 2000,
               "stock_value": 338224.8
-            },
-            {
-              "item_id": 1043,
-              "name": "Orc Claw",
-              "qty": 300.64,
-              "price": 1500,
-              "stock_value": 450966.39
             }
           ],
-          "mats_stock_value_latam": 1900071.85,
+          "mats_stock_value_latam": 1449105.46,
           "cards": [
             {
               "item_id": 4071,
@@ -734,12 +689,12 @@
           ],
           "cards_sellable_total": 0.062,
           "cards_pipeline_value": 32884.66,
-          "lot_expected_value": 1932956.5,
+          "lot_expected_value": 1481990.11,
           "zeny_spent": 25023.76,
-          "net_if_sold_at_latam": 1907932.75,
+          "net_if_sold_at_latam": 1456966.36,
           "gates": {
-            "pause_grind_until_sold_z": 773182.6,
-            "keep_shop_until_sold_z": 1159773.9,
+            "pause_grind_until_sold_z": 592796.05,
+            "keep_shop_until_sold_z": 889194.07,
             "pause_frac": 0.4,
             "shop_keep_frac": 0.6
           }
@@ -769,16 +724,9 @@
               "qty": 394.6,
               "price": 2000,
               "stock_value": 789191.2
-            },
-            {
-              "item_id": 1043,
-              "name": "Orc Claw",
-              "qty": 701.5,
-              "price": 1500,
-              "stock_value": 1052254.91
             }
           ],
-          "mats_stock_value_latam": 4433500.97,
+          "mats_stock_value_latam": 3381246.06,
           "cards": [
             {
               "item_id": 4071,
@@ -803,12 +751,12 @@
           ],
           "cards_sellable_total": 0.147,
           "cards_pipeline_value": 76730.87,
-          "lot_expected_value": 4510231.84,
+          "lot_expected_value": 3457976.93,
           "zeny_spent": 58388.77,
-          "net_if_sold_at_latam": 4451843.07,
+          "net_if_sold_at_latam": 3399588.16,
           "gates": {
-            "pause_grind_until_sold_z": 1804092.74,
-            "keep_shop_until_sold_z": 2706139.1,
+            "pause_grind_until_sold_z": 1383190.77,
+            "keep_shop_until_sold_z": 2074786.16,
             "pause_frac": 0.4,
             "shop_keep_frac": 0.6
           }
@@ -838,16 +786,9 @@
               "qty": 563.71,
               "price": 2000,
               "stock_value": 1127416.01
-            },
-            {
-              "item_id": 1043,
-              "name": "Orc Claw",
-              "qty": 1002.15,
-              "price": 1500,
-              "stock_value": 1503221.3
             }
           ],
-          "mats_stock_value_latam": 6333572.82,
+          "mats_stock_value_latam": 4830351.52,
           "cards": [
             {
               "item_id": 4071,
@@ -872,12 +813,12 @@
           ],
           "cards_sellable_total": 0.209,
           "cards_pipeline_value": 109615.52,
-          "lot_expected_value": 6443188.34,
+          "lot_expected_value": 4939967.04,
           "zeny_spent": 83412.53,
-          "net_if_sold_at_latam": 6359775.82,
+          "net_if_sold_at_latam": 4856554.52,
           "gates": {
-            "pause_grind_until_sold_z": 2577275.34,
-            "keep_shop_until_sold_z": 3865913.01,
+            "pause_grind_until_sold_z": 1975986.82,
+            "keep_shop_until_sold_z": 2963980.23,
             "pause_frac": 0.4,
             "shop_keep_frac": 0.6
           }
@@ -896,13 +837,6 @@
           "qty": 20.36,
           "price": 14960,
           "stock_value": 304527.61
-        },
-        {
-          "item_id": 1043,
-          "name": "Orc Claw",
-          "qty": 100.21,
-          "price": 1500,
-          "stock_value": 150322.13
         },
         {
           "item_id": 938,
@@ -933,13 +867,6 @@
           "stock_value": 30969.37
         },
         {
-          "item_id": 519,
-          "name": "Milk",
-          "qty": 16.33,
-          "price": 990,
-          "stock_value": 16163.14
-        },
-        {
           "item_id": 756,
           "name": "Rough Oridecon",
           "qty": 0.91,
@@ -947,7 +874,7 @@
           "stock_value": 7762.21
         }
       ],
-      "mats_stock_value_latam": 748151.76,
+      "mats_stock_value_latam": 581666.49,
       "cards": [
         {
           "item_id": 4066,
@@ -982,12 +909,12 @@
       ],
       "cards_sellable_total": 0.044,
       "cards_pipeline_value": 55530.69,
-      "lot_expected_value": 803682.45,
+      "lot_expected_value": 637197.18,
       "zeny_spent": 15578.31,
-      "net_if_sold_at_latam": 788104.14,
+      "net_if_sold_at_latam": 621618.87,
       "gates": {
-        "pause_grind_until_sold_z": 321472.98,
-        "keep_shop_until_sold_z": 482209.47
+        "pause_grind_until_sold_z": 254878.87,
+        "keep_shop_until_sold_z": 382318.31
       }
     },
     "3": {
@@ -1000,13 +927,6 @@
           "qty": 61.07,
           "price": 14960,
           "stock_value": 913582.83
-        },
-        {
-          "item_id": 1043,
-          "name": "Orc Claw",
-          "qty": 300.64,
-          "price": 1500,
-          "stock_value": 450966.39
         },
         {
           "item_id": 938,
@@ -1037,13 +957,6 @@
           "stock_value": 92908.11
         },
         {
-          "item_id": 519,
-          "name": "Milk",
-          "qty": 48.98,
-          "price": 990,
-          "stock_value": 48489.42
-        },
-        {
           "item_id": 756,
           "name": "Rough Oridecon",
           "qty": 2.74,
@@ -1051,7 +964,7 @@
           "stock_value": 23286.64
         }
       ],
-      "mats_stock_value_latam": 2244455.28,
+      "mats_stock_value_latam": 1744999.47,
       "cards": [
         {
           "item_id": 4066,
@@ -1086,12 +999,12 @@
       ],
       "cards_sellable_total": 0.131,
       "cards_pipeline_value": 166592.09,
-      "lot_expected_value": 2411047.37,
+      "lot_expected_value": 1911591.56,
       "zeny_spent": 46734.93,
-      "net_if_sold_at_latam": 2364312.44,
+      "net_if_sold_at_latam": 1864856.63,
       "gates": {
-        "pause_grind_until_sold_z": 964418.95,
-        "keep_shop_until_sold_z": 1446628.42
+        "pause_grind_until_sold_z": 764636.62,
+        "keep_shop_until_sold_z": 1146954.94
       }
     },
     "7": {
@@ -1104,13 +1017,6 @@
           "qty": 142.49,
           "price": 14960,
           "stock_value": 2131693.28
-        },
-        {
-          "item_id": 1043,
-          "name": "Orc Claw",
-          "qty": 701.5,
-          "price": 1500,
-          "stock_value": 1052254.91
         },
         {
           "item_id": 938,
@@ -1141,13 +1047,6 @@
           "stock_value": 216785.59
         },
         {
-          "item_id": 519,
-          "name": "Milk",
-          "qty": 114.28,
-          "price": 990,
-          "stock_value": 113141.97
-        },
-        {
           "item_id": 756,
           "name": "Rough Oridecon",
           "qty": 6.4,
@@ -1155,7 +1054,7 @@
           "stock_value": 54335.48
         }
       ],
-      "mats_stock_value_latam": 5237062.31,
+      "mats_stock_value_latam": 4071665.43,
       "cards": [
         {
           "item_id": 4066,
@@ -1190,12 +1089,12 @@
       ],
       "cards_sellable_total": 0.307,
       "cards_pipeline_value": 388714.88,
-      "lot_expected_value": 5625777.19,
+      "lot_expected_value": 4460380.31,
       "zeny_spent": 109048.16,
-      "net_if_sold_at_latam": 5516729.03,
+      "net_if_sold_at_latam": 4351332.15,
       "gates": {
-        "pause_grind_until_sold_z": 2250310.88,
-        "keep_shop_until_sold_z": 3375466.31
+        "pause_grind_until_sold_z": 1784152.12,
+        "keep_shop_until_sold_z": 2676228.19
       }
     },
     "10": {
@@ -1208,13 +1107,6 @@
           "qty": 203.56,
           "price": 14960,
           "stock_value": 3045276.12
-        },
-        {
-          "item_id": 1043,
-          "name": "Orc Claw",
-          "qty": 1002.15,
-          "price": 1500,
-          "stock_value": 1503221.3
         },
         {
           "item_id": 938,
@@ -1245,13 +1137,6 @@
           "stock_value": 309693.7
         },
         {
-          "item_id": 519,
-          "name": "Milk",
-          "qty": 163.26,
-          "price": 990,
-          "stock_value": 161631.39
-        },
-        {
           "item_id": 756,
           "name": "Rough Oridecon",
           "qty": 9.14,
@@ -1259,7 +1144,7 @@
           "stock_value": 77622.12
         }
       ],
-      "mats_stock_value_latam": 7481517.59,
+      "mats_stock_value_latam": 5816664.9,
       "cards": [
         {
           "item_id": 4066,
@@ -1294,12 +1179,12 @@
       ],
       "cards_sellable_total": 0.438,
       "cards_pipeline_value": 555306.96,
-      "lot_expected_value": 8036824.55,
+      "lot_expected_value": 6371971.86,
       "zeny_spent": 155783.08,
-      "net_if_sold_at_latam": 7881041.47,
+      "net_if_sold_at_latam": 6216188.78,
       "gates": {
-        "pause_grind_until_sold_z": 3214729.82,
-        "keep_shop_until_sold_z": 4822094.73
+        "pause_grind_until_sold_z": 2548788.74,
+        "keep_shop_until_sold_z": 3823183.12
       }
     }
   },
@@ -1313,13 +1198,6 @@
         "qty": 203.56,
         "price": 14960,
         "stock_value": 3045276.12
-      },
-      {
-        "item_id": 1043,
-        "name": "Orc Claw",
-        "qty": 1002.15,
-        "price": 1500,
-        "stock_value": 1503221.3
       },
       {
         "item_id": 938,
@@ -1350,13 +1228,6 @@
         "stock_value": 309693.7
       },
       {
-        "item_id": 519,
-        "name": "Milk",
-        "qty": 163.26,
-        "price": 990,
-        "stock_value": 161631.39
-      },
-      {
         "item_id": 756,
         "name": "Rough Oridecon",
         "qty": 9.14,
@@ -1364,7 +1235,7 @@
         "stock_value": 77622.12
       }
     ],
-    "mats_stock_value_latam": 7481517.59,
+    "mats_stock_value_latam": 5816664.9,
     "cards": [
       {
         "item_id": 4066,
@@ -1399,12 +1270,12 @@
     ],
     "cards_sellable_total": 0.438,
     "cards_pipeline_value": 555306.96,
-    "lot_expected_value": 8036824.55,
+    "lot_expected_value": 6371971.86,
     "zeny_spent": 155783.08,
-    "net_if_sold_at_latam": 7881041.47,
+    "net_if_sold_at_latam": 6216188.78,
     "gates": {
-      "pause_grind_until_sold_z": 3214729.82,
-      "keep_shop_until_sold_z": 4822094.73
+      "pause_grind_until_sold_z": 2548788.74,
+      "keep_shop_until_sold_z": 3823183.12
     }
   }
 }

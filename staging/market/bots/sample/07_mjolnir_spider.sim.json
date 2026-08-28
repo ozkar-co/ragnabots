@@ -58,22 +58,10 @@
         }
       ],
       "drop_types_count": 20,
-      "ev_mats_offer_per_kill": 1397.76,
-      "ev_mats_offer_per_day": 797912.72,
+      "ev_mats_offer_per_kill": 856.5,
+      "ev_mats_offer_per_day": 488933.08,
       "offer": {
         "mats_for_sale": [
-          {
-            "item_id": 1025,
-            "aegis": "Spiderweb",
-            "name": "Cobweb",
-            "type": "Etc",
-            "p_per_map_kill": 0.07729008,
-            "latam_price": 6114,
-            "latam_total_sold": 1009,
-            "has_offers": false,
-            "qty_per_day": 44.121,
-            "score": 161115.84
-          },
           {
             "item_id": 1042,
             "aegis": "Short_Leg",
@@ -99,66 +87,26 @@
             "score": 55256.0
           },
           {
-            "item_id": 912,
-            "aegis": "Zargon",
-            "name": "Zargon",
-            "type": "Etc",
-            "p_per_map_kill": 0.04122137,
-            "latam_price": 1790,
-            "latam_total_sold": 5315,
-            "has_offers": true,
-            "qty_per_day": 23.5312,
-            "score": 49136.69
-          },
-          {
-            "item_id": 911,
-            "aegis": "Scell",
-            "name": "Scell",
-            "type": "Etc",
-            "p_per_map_kill": 0.01030534,
-            "latam_price": 2500,
-            "latam_total_sold": 2603,
-            "has_offers": true,
-            "qty_per_day": 5.8828,
-            "score": 37928.53
-          }
-        ],
-        "mats_discarded_count": 6,
-        "mats_discarded_top10": [
-          {
-            "item_id": 905,
-            "name": "Stem",
-            "price": 1190,
-            "qty_per_day": 9.8047,
-            "score": 23009.85
-          },
-          {
             "item_id": 1032,
+            "aegis": "Blossom_Of_Maneater",
             "name": "Maneater Blossom",
-            "price": 399,
+            "type": "Etc",
+            "p_per_map_kill": 0.07729008,
+            "latam_price": 399,
+            "latam_total_sold": 346578,
+            "has_offers": true,
             "qty_per_day": 44.121,
             "score": 19388.03
-          },
+          }
+        ],
+        "mats_discarded_count": 2,
+        "mats_discarded_top10": [
           {
             "item_id": 757,
             "name": "Rough Elunium",
             "price": 1000,
             "qty_per_day": 3.7552,
             "score": 11016.96
-          },
-          {
-            "item_id": 719,
-            "name": "Amethyst",
-            "price": 3500,
-            "qty_per_day": 0.1961,
-            "score": 5624.96
-          },
-          {
-            "item_id": 748,
-            "name": "Witherless Rose",
-            "price": 79999,
-            "qty_per_day": 0.0098,
-            "score": 5262.62
           },
           {
             "item_id": 521,
@@ -168,6 +116,45 @@
             "score": 1463.9
           }
         ],
+        "mats_blocked_npc_buyable": [
+          {
+            "item_id": 912,
+            "name": "Zargon",
+            "price_latam": 1790,
+            "reason": "npc_buyable"
+          },
+          {
+            "item_id": 719,
+            "name": "Amethyst",
+            "price_latam": 3500,
+            "reason": "npc_buyable"
+          },
+          {
+            "item_id": 1025,
+            "name": "Cobweb",
+            "price_latam": 6114,
+            "reason": "npc_buyable"
+          },
+          {
+            "item_id": 911,
+            "name": "Scell",
+            "price_latam": 2500,
+            "reason": "npc_buyable"
+          },
+          {
+            "item_id": 905,
+            "name": "Stem",
+            "price_latam": 1190,
+            "reason": "npc_buyable"
+          },
+          {
+            "item_id": 748,
+            "name": "Witherless Rose",
+            "price_latam": 79999,
+            "reason": "npc_buyable"
+          }
+        ],
+        "mats_blocked_npc_count": 6,
         "cards": [
           {
             "item_id": 4114,
@@ -199,13 +186,6 @@
           "hours": 3.5,
           "mats_stock": [
             {
-              "item_id": 1025,
-              "name": "Cobweb",
-              "qty": 44.12,
-              "price": 6114,
-              "stock_value": 269756.05
-            },
-            {
               "item_id": 1042,
               "name": "Bug Leg",
               "qty": 105.63,
@@ -220,21 +200,14 @@
               "stock_value": 49015.19
             },
             {
-              "item_id": 912,
-              "name": "Zargon",
-              "qty": 23.53,
-              "price": 1790,
-              "stock_value": 42120.88
-            },
-            {
-              "item_id": 911,
-              "name": "Scell",
-              "qty": 5.88,
-              "price": 2500,
-              "stock_value": 14707.01
+              "item_id": 1032,
+              "name": "Maneater Blossom",
+              "qty": 44.12,
+              "price": 399,
+              "stock_value": 17604.3
             }
           ],
-          "mats_stock_value_latam": 797912.72,
+          "mats_stock_value_latam": 488933.08,
           "cards": [
             {
               "item_id": 4114,
@@ -249,12 +222,12 @@
           ],
           "cards_sellable_total": 0.02,
           "cards_pipeline_value": 19608.68,
-          "lot_expected_value": 817521.4,
+          "lot_expected_value": 508541.76,
           "zeny_spent": 25371.53,
-          "net_if_sold_at_latam": 792149.87,
+          "net_if_sold_at_latam": 483170.22,
           "gates": {
-            "pause_grind_until_sold_z": 327008.56,
-            "keep_shop_until_sold_z": 490512.84,
+            "pause_grind_until_sold_z": 203416.7,
+            "keep_shop_until_sold_z": 305125.05,
             "pause_frac": 0.4,
             "shop_keep_frac": 0.6
           }
@@ -264,13 +237,6 @@
           "kills": 1712.6,
           "hours": 10.5,
           "mats_stock": [
-            {
-              "item_id": 1025,
-              "name": "Cobweb",
-              "qty": 132.36,
-              "price": 6114,
-              "stock_value": 809268.16
-            },
             {
               "item_id": 1042,
               "name": "Bug Leg",
@@ -286,21 +252,14 @@
               "stock_value": 147045.56
             },
             {
-              "item_id": 912,
-              "name": "Zargon",
-              "qty": 70.59,
-              "price": 1790,
-              "stock_value": 126362.65
-            },
-            {
-              "item_id": 911,
-              "name": "Scell",
-              "qty": 17.65,
-              "price": 2500,
-              "stock_value": 44121.03
+              "item_id": 1032,
+              "name": "Maneater Blossom",
+              "qty": 132.36,
+              "price": 399,
+              "stock_value": 52812.89
             }
           ],
-          "mats_stock_value_latam": 2393738.17,
+          "mats_stock_value_latam": 1466799.23,
           "cards": [
             {
               "item_id": 4114,
@@ -315,12 +274,12 @@
           ],
           "cards_sellable_total": 0.059,
           "cards_pipeline_value": 58826.03,
-          "lot_expected_value": 2452564.21,
+          "lot_expected_value": 1525625.27,
           "zeny_spent": 76114.6,
-          "net_if_sold_at_latam": 2376449.6,
+          "net_if_sold_at_latam": 1449510.66,
           "gates": {
-            "pause_grind_until_sold_z": 981025.68,
-            "keep_shop_until_sold_z": 1471538.52,
+            "pause_grind_until_sold_z": 610250.11,
+            "keep_shop_until_sold_z": 915375.16,
             "pause_frac": 0.4,
             "shop_keep_frac": 0.6
           }
@@ -330,13 +289,6 @@
           "kills": 3996.0,
           "hours": 24.5,
           "mats_stock": [
-            {
-              "item_id": 1025,
-              "name": "Cobweb",
-              "qty": 308.85,
-              "price": 6114,
-              "stock_value": 1888292.36
-            },
             {
               "item_id": 1042,
               "name": "Bug Leg",
@@ -352,21 +304,14 @@
               "stock_value": 343106.31
             },
             {
-              "item_id": 912,
-              "name": "Zargon",
-              "qty": 164.72,
-              "price": 1790,
-              "stock_value": 294846.17
-            },
-            {
-              "item_id": 911,
-              "name": "Scell",
-              "qty": 41.18,
-              "price": 2500,
-              "stock_value": 102949.06
+              "item_id": 1032,
+              "name": "Maneater Blossom",
+              "qty": 308.85,
+              "price": 399,
+              "stock_value": 123230.07
             }
           ],
-          "mats_stock_value_latam": 5585389.07,
+          "mats_stock_value_latam": 3422531.54,
           "cards": [
             {
               "item_id": 4114,
@@ -381,12 +326,12 @@
           ],
           "cards_sellable_total": 0.137,
           "cards_pipeline_value": 137260.75,
-          "lot_expected_value": 5722649.81,
+          "lot_expected_value": 3559792.29,
           "zeny_spent": 177600.74,
-          "net_if_sold_at_latam": 5545049.07,
+          "net_if_sold_at_latam": 3382191.54,
           "gates": {
-            "pause_grind_until_sold_z": 2289059.93,
-            "keep_shop_until_sold_z": 3433589.89,
+            "pause_grind_until_sold_z": 1423916.92,
+            "keep_shop_until_sold_z": 2135875.37,
             "pause_frac": 0.4,
             "shop_keep_frac": 0.6
           }
@@ -396,13 +341,6 @@
           "kills": 5708.5,
           "hours": 35.0,
           "mats_stock": [
-            {
-              "item_id": 1025,
-              "name": "Cobweb",
-              "qty": 441.21,
-              "price": 6114,
-              "stock_value": 2697560.52
-            },
             {
               "item_id": 1042,
               "name": "Bug Leg",
@@ -418,21 +356,14 @@
               "stock_value": 490151.87
             },
             {
-              "item_id": 912,
-              "name": "Zargon",
-              "qty": 235.31,
-              "price": 1790,
-              "stock_value": 421208.82
-            },
-            {
-              "item_id": 911,
-              "name": "Scell",
-              "qty": 58.83,
-              "price": 2500,
-              "stock_value": 147070.08
+              "item_id": 1032,
+              "name": "Maneater Blossom",
+              "qty": 441.21,
+              "price": 399,
+              "stock_value": 176042.96
             }
           ],
-          "mats_stock_value_latam": 7979127.24,
+          "mats_stock_value_latam": 4889330.78,
           "cards": [
             {
               "item_id": 4114,
@@ -447,12 +378,12 @@
           ],
           "cards_sellable_total": 0.196,
           "cards_pipeline_value": 196086.78,
-          "lot_expected_value": 8175214.02,
+          "lot_expected_value": 5085417.56,
           "zeny_spent": 253715.35,
-          "net_if_sold_at_latam": 7921498.67,
+          "net_if_sold_at_latam": 4831702.21,
           "gates": {
-            "pause_grind_until_sold_z": 3270085.61,
-            "keep_shop_until_sold_z": 4905128.41,
+            "pause_grind_until_sold_z": 2034167.02,
+            "keep_shop_until_sold_z": 3051250.53,
             "pause_frac": 0.4,
             "shop_keep_frac": 0.6
           }
@@ -473,13 +404,6 @@
           "stock_value": 422313.59
         },
         {
-          "item_id": 1025,
-          "name": "Cobweb",
-          "qty": 44.12,
-          "price": 6114,
-          "stock_value": 269756.05
-        },
-        {
           "item_id": 511,
           "name": "Green Herb",
           "qty": 32.7,
@@ -487,21 +411,14 @@
           "stock_value": 49015.19
         },
         {
-          "item_id": 912,
-          "name": "Zargon",
-          "qty": 23.53,
-          "price": 1790,
-          "stock_value": 42120.88
-        },
-        {
-          "item_id": 911,
-          "name": "Scell",
-          "qty": 5.88,
-          "price": 2500,
-          "stock_value": 14707.01
+          "item_id": 1032,
+          "name": "Maneater Blossom",
+          "qty": 44.12,
+          "price": 399,
+          "stock_value": 17604.3
         }
       ],
-      "mats_stock_value_latam": 797912.72,
+      "mats_stock_value_latam": 488933.08,
       "cards": [
         {
           "item_id": 4114,
@@ -516,12 +433,12 @@
       ],
       "cards_sellable_total": 0.02,
       "cards_pipeline_value": 19608.68,
-      "lot_expected_value": 817521.4,
+      "lot_expected_value": 508541.76,
       "zeny_spent": 25371.53,
-      "net_if_sold_at_latam": 792149.87,
+      "net_if_sold_at_latam": 483170.23,
       "gates": {
-        "pause_grind_until_sold_z": 327008.56,
-        "keep_shop_until_sold_z": 490512.84
+        "pause_grind_until_sold_z": 203416.7,
+        "keep_shop_until_sold_z": 305125.06
       }
     },
     "3": {
@@ -536,13 +453,6 @@
           "stock_value": 1266940.78
         },
         {
-          "item_id": 1025,
-          "name": "Cobweb",
-          "qty": 132.36,
-          "price": 6114,
-          "stock_value": 809268.16
-        },
-        {
           "item_id": 511,
           "name": "Green Herb",
           "qty": 98.1,
@@ -550,21 +460,14 @@
           "stock_value": 147045.56
         },
         {
-          "item_id": 912,
-          "name": "Zargon",
-          "qty": 70.59,
-          "price": 1790,
-          "stock_value": 126362.65
-        },
-        {
-          "item_id": 911,
-          "name": "Scell",
-          "qty": 17.65,
-          "price": 2500,
-          "stock_value": 44121.03
+          "item_id": 1032,
+          "name": "Maneater Blossom",
+          "qty": 132.36,
+          "price": 399,
+          "stock_value": 52812.89
         }
       ],
-      "mats_stock_value_latam": 2393738.17,
+      "mats_stock_value_latam": 1466799.23,
       "cards": [
         {
           "item_id": 4114,
@@ -579,12 +482,12 @@
       ],
       "cards_sellable_total": 0.059,
       "cards_pipeline_value": 58826.03,
-      "lot_expected_value": 2452564.2,
+      "lot_expected_value": 1525625.26,
       "zeny_spent": 76114.6,
-      "net_if_sold_at_latam": 2376449.6,
+      "net_if_sold_at_latam": 1449510.66,
       "gates": {
-        "pause_grind_until_sold_z": 981025.68,
-        "keep_shop_until_sold_z": 1471538.52
+        "pause_grind_until_sold_z": 610250.1,
+        "keep_shop_until_sold_z": 915375.16
       }
     },
     "7": {
@@ -599,13 +502,6 @@
           "stock_value": 2956195.16
         },
         {
-          "item_id": 1025,
-          "name": "Cobweb",
-          "qty": 308.85,
-          "price": 6114,
-          "stock_value": 1888292.36
-        },
-        {
           "item_id": 511,
           "name": "Green Herb",
           "qty": 228.89,
@@ -613,21 +509,14 @@
           "stock_value": 343106.31
         },
         {
-          "item_id": 912,
-          "name": "Zargon",
-          "qty": 164.72,
-          "price": 1790,
-          "stock_value": 294846.17
-        },
-        {
-          "item_id": 911,
-          "name": "Scell",
-          "qty": 41.18,
-          "price": 2500,
-          "stock_value": 102949.06
+          "item_id": 1032,
+          "name": "Maneater Blossom",
+          "qty": 308.85,
+          "price": 399,
+          "stock_value": 123230.07
         }
       ],
-      "mats_stock_value_latam": 5585389.07,
+      "mats_stock_value_latam": 3422531.54,
       "cards": [
         {
           "item_id": 4114,
@@ -642,12 +531,12 @@
       ],
       "cards_sellable_total": 0.137,
       "cards_pipeline_value": 137260.75,
-      "lot_expected_value": 5722649.82,
+      "lot_expected_value": 3559792.29,
       "zeny_spent": 177600.74,
-      "net_if_sold_at_latam": 5545049.08,
+      "net_if_sold_at_latam": 3382191.55,
       "gates": {
-        "pause_grind_until_sold_z": 2289059.93,
-        "keep_shop_until_sold_z": 3433589.89
+        "pause_grind_until_sold_z": 1423916.92,
+        "keep_shop_until_sold_z": 2135875.37
       }
     },
     "10": {
@@ -662,13 +551,6 @@
           "stock_value": 4223135.95
         },
         {
-          "item_id": 1025,
-          "name": "Cobweb",
-          "qty": 441.21,
-          "price": 6114,
-          "stock_value": 2697560.52
-        },
-        {
           "item_id": 511,
           "name": "Green Herb",
           "qty": 326.99,
@@ -676,21 +558,14 @@
           "stock_value": 490151.87
         },
         {
-          "item_id": 912,
-          "name": "Zargon",
-          "qty": 235.31,
-          "price": 1790,
-          "stock_value": 421208.82
-        },
-        {
-          "item_id": 911,
-          "name": "Scell",
-          "qty": 58.83,
-          "price": 2500,
-          "stock_value": 147070.08
+          "item_id": 1032,
+          "name": "Maneater Blossom",
+          "qty": 441.21,
+          "price": 399,
+          "stock_value": 176042.96
         }
       ],
-      "mats_stock_value_latam": 7979127.24,
+      "mats_stock_value_latam": 4889330.78,
       "cards": [
         {
           "item_id": 4114,
@@ -705,12 +580,12 @@
       ],
       "cards_sellable_total": 0.196,
       "cards_pipeline_value": 196086.78,
-      "lot_expected_value": 8175214.02,
+      "lot_expected_value": 5085417.56,
       "zeny_spent": 253715.35,
-      "net_if_sold_at_latam": 7921498.67,
+      "net_if_sold_at_latam": 4831702.21,
       "gates": {
-        "pause_grind_until_sold_z": 3270085.61,
-        "keep_shop_until_sold_z": 4905128.41
+        "pause_grind_until_sold_z": 2034167.02,
+        "keep_shop_until_sold_z": 3051250.54
       }
     }
   },
@@ -726,13 +601,6 @@
         "stock_value": 4223135.95
       },
       {
-        "item_id": 1025,
-        "name": "Cobweb",
-        "qty": 441.21,
-        "price": 6114,
-        "stock_value": 2697560.52
-      },
-      {
         "item_id": 511,
         "name": "Green Herb",
         "qty": 326.99,
@@ -740,21 +608,14 @@
         "stock_value": 490151.87
       },
       {
-        "item_id": 912,
-        "name": "Zargon",
-        "qty": 235.31,
-        "price": 1790,
-        "stock_value": 421208.82
-      },
-      {
-        "item_id": 911,
-        "name": "Scell",
-        "qty": 58.83,
-        "price": 2500,
-        "stock_value": 147070.08
+        "item_id": 1032,
+        "name": "Maneater Blossom",
+        "qty": 441.21,
+        "price": 399,
+        "stock_value": 176042.96
       }
     ],
-    "mats_stock_value_latam": 7979127.24,
+    "mats_stock_value_latam": 4889330.78,
     "cards": [
       {
         "item_id": 4114,
@@ -769,12 +630,12 @@
     ],
     "cards_sellable_total": 0.196,
     "cards_pipeline_value": 196086.78,
-    "lot_expected_value": 8175214.02,
+    "lot_expected_value": 5085417.56,
     "zeny_spent": 253715.35,
-    "net_if_sold_at_latam": 7921498.67,
+    "net_if_sold_at_latam": 4831702.21,
     "gates": {
-      "pause_grind_until_sold_z": 3270085.61,
-      "keep_shop_until_sold_z": 4905128.41
+      "pause_grind_until_sold_z": 2034167.02,
+      "keep_shop_until_sold_z": 3051250.54
     }
   }
 }

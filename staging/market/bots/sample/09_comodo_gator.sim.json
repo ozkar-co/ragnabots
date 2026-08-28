@@ -65,8 +65,8 @@
         }
       ],
       "drop_types_count": 30,
-      "ev_mats_offer_per_kill": 462.86,
-      "ev_mats_offer_per_day": 261144.62,
+      "ev_mats_offer_per_kill": 364.28,
+      "ev_mats_offer_per_day": 205524.43,
       "offer": {
         "mats_for_sale": [
           {
@@ -94,30 +94,6 @@
             "score": 88142.94
           },
           {
-            "item_id": 912,
-            "aegis": "Zargon",
-            "name": "Zargon",
-            "type": "Etc",
-            "p_per_map_kill": 0.03913858,
-            "latam_price": 1790,
-            "latam_total_sold": 5315,
-            "has_offers": true,
-            "qty_per_day": 22.082,
-            "score": 48201.64
-          },
-          {
-            "item_id": 905,
-            "aegis": "Stem",
-            "name": "Stem",
-            "type": "Etc",
-            "p_per_map_kill": 0.02397004,
-            "latam_price": 1190,
-            "latam_total_sold": 3375,
-            "has_offers": true,
-            "qty_per_day": 13.5239,
-            "score": 25869.83
-          },
-          {
             "item_id": 1032,
             "aegis": "Blossom_Of_Maneater",
             "name": "Maneater Blossom",
@@ -130,35 +106,14 @@
             "score": 20993.72
           }
         ],
-        "mats_discarded_count": 10,
+        "mats_discarded_count": 6,
         "mats_discarded_top10": [
-          {
-            "item_id": 608,
-            "name": "Yggdrasil Seed",
-            "price": 43000,
-            "qty_per_day": 0.0442,
-            "score": 19992.04
-          },
           {
             "item_id": 1036,
             "name": "Dragon Scale",
             "price": 6000,
             "qty_per_day": 0.2641,
             "score": 11332.69
-          },
-          {
-            "item_id": 748,
-            "name": "Witherless Rose",
-            "price": 79999,
-            "qty_per_day": 0.0135,
-            "score": 7243.67
-          },
-          {
-            "item_id": 7938,
-            "name": "Light Granule",
-            "price": 9990,
-            "qty_per_day": 0.0528,
-            "score": 5811.77
           },
           {
             "item_id": 518,
@@ -189,13 +144,6 @@
             "score": 803.59
           },
           {
-            "item_id": 971,
-            "name": "Detrimindexta",
-            "price": 1000,
-            "qty_per_day": 0.0106,
-            "score": 67.62
-          },
-          {
             "item_id": 970,
             "name": "Alcohol",
             "price": 664,
@@ -203,6 +151,45 @@
             "score": 55.56
           }
         ],
+        "mats_blocked_npc_buyable": [
+          {
+            "item_id": 912,
+            "name": "Zargon",
+            "price_latam": 1790,
+            "reason": "npc_buyable"
+          },
+          {
+            "item_id": 608,
+            "name": "Yggdrasil Seed",
+            "price_latam": 43000,
+            "reason": "npc_buyable"
+          },
+          {
+            "item_id": 905,
+            "name": "Stem",
+            "price_latam": 1190,
+            "reason": "npc_buyable"
+          },
+          {
+            "item_id": 748,
+            "name": "Witherless Rose",
+            "price_latam": 79999,
+            "reason": "npc_buyable"
+          },
+          {
+            "item_id": 7938,
+            "name": "Light Granule",
+            "price_latam": 9990,
+            "reason": "npc_buyable"
+          },
+          {
+            "item_id": 971,
+            "name": "Detrimindexta",
+            "price_latam": 1000,
+            "reason": "npc_buyable"
+          }
+        ],
+        "mats_blocked_npc_count": 6,
         "cards": [
           {
             "item_id": 4252,
@@ -274,20 +261,6 @@
               "stock_value": 24371.86
             },
             {
-              "item_id": 912,
-              "name": "Zargon",
-              "qty": 22.08,
-              "price": 1790,
-              "stock_value": 39526.76
-            },
-            {
-              "item_id": 905,
-              "name": "Stem",
-              "qty": 13.52,
-              "price": 1190,
-              "stock_value": 16093.44
-            },
-            {
               "item_id": 1032,
               "name": "Maneater Blossom",
               "qty": 60.86,
@@ -295,7 +268,7 @@
               "stock_value": 24282.15
             }
           ],
-          "mats_stock_value_latam": 261144.62,
+          "mats_stock_value_latam": 205524.43,
           "cards": [
             {
               "item_id": 4252,
@@ -330,12 +303,12 @@
           ],
           "cards_sellable_total": 0.023,
           "cards_pipeline_value": 49573.44,
-          "lot_expected_value": 310718.07,
+          "lot_expected_value": 255097.88,
           "zeny_spent": 25612.9,
-          "net_if_sold_at_latam": 285105.17,
+          "net_if_sold_at_latam": 229484.98,
           "gates": {
-            "pause_grind_until_sold_z": 124287.23,
-            "keep_shop_until_sold_z": 186430.84,
+            "pause_grind_until_sold_z": 102039.15,
+            "keep_shop_until_sold_z": 153058.73,
             "pause_frac": 0.4,
             "shop_keep_frac": 0.6
           }
@@ -360,20 +333,6 @@
               "stock_value": 73115.59
             },
             {
-              "item_id": 912,
-              "name": "Zargon",
-              "qty": 66.25,
-              "price": 1790,
-              "stock_value": 118580.27
-            },
-            {
-              "item_id": 905,
-              "name": "Stem",
-              "qty": 40.57,
-              "price": 1190,
-              "stock_value": 48280.31
-            },
-            {
               "item_id": 1032,
               "name": "Maneater Blossom",
               "qty": 182.57,
@@ -381,7 +340,7 @@
               "stock_value": 72846.46
             }
           ],
-          "mats_stock_value_latam": 783433.87,
+          "mats_stock_value_latam": 616573.29,
           "cards": [
             {
               "item_id": 4252,
@@ -416,12 +375,12 @@
           ],
           "cards_sellable_total": 0.068,
           "cards_pipeline_value": 148720.33,
-          "lot_expected_value": 932154.21,
+          "lot_expected_value": 765293.63,
           "zeny_spent": 76838.68,
-          "net_if_sold_at_latam": 855315.52,
+          "net_if_sold_at_latam": 688454.94,
           "gates": {
-            "pause_grind_until_sold_z": 372861.68,
-            "keep_shop_until_sold_z": 559292.52,
+            "pause_grind_until_sold_z": 306117.45,
+            "keep_shop_until_sold_z": 459176.18,
             "pause_frac": 0.4,
             "shop_keep_frac": 0.6
           }
@@ -446,20 +405,6 @@
               "stock_value": 170603.04
             },
             {
-              "item_id": 912,
-              "name": "Zargon",
-              "qty": 154.57,
-              "price": 1790,
-              "stock_value": 276687.3
-            },
-            {
-              "item_id": 905,
-              "name": "Stem",
-              "qty": 94.67,
-              "price": 1190,
-              "stock_value": 112654.06
-            },
-            {
               "item_id": 1032,
               "name": "Maneater Blossom",
               "qty": 426.0,
@@ -467,7 +412,7 @@
               "stock_value": 169975.08
             }
           ],
-          "mats_stock_value_latam": 1828012.37,
+          "mats_stock_value_latam": 1438671.02,
           "cards": [
             {
               "item_id": 4252,
@@ -502,12 +447,12 @@
           ],
           "cards_sellable_total": 0.16,
           "cards_pipeline_value": 347014.11,
-          "lot_expected_value": 2175026.48,
+          "lot_expected_value": 1785685.13,
           "zeny_spent": 179290.27,
-          "net_if_sold_at_latam": 1995736.21,
+          "net_if_sold_at_latam": 1606394.86,
           "gates": {
-            "pause_grind_until_sold_z": 870010.59,
-            "keep_shop_until_sold_z": 1305015.89,
+            "pause_grind_until_sold_z": 714274.05,
+            "keep_shop_until_sold_z": 1071411.08,
             "pause_frac": 0.4,
             "shop_keep_frac": 0.6
           }
@@ -532,20 +477,6 @@
               "stock_value": 243718.63
             },
             {
-              "item_id": 912,
-              "name": "Zargon",
-              "qty": 220.82,
-              "price": 1790,
-              "stock_value": 395267.56
-            },
-            {
-              "item_id": 905,
-              "name": "Stem",
-              "qty": 135.24,
-              "price": 1190,
-              "stock_value": 160934.37
-            },
-            {
               "item_id": 1032,
               "name": "Maneater Blossom",
               "qty": 608.58,
@@ -553,7 +484,7 @@
               "stock_value": 242821.54
             }
           ],
-          "mats_stock_value_latam": 2611446.25,
+          "mats_stock_value_latam": 2055244.31,
           "cards": [
             {
               "item_id": 4252,
@@ -588,12 +519,12 @@
           ],
           "cards_sellable_total": 0.227,
           "cards_pipeline_value": 495734.44,
-          "lot_expected_value": 3107180.68,
+          "lot_expected_value": 2550978.75,
           "zeny_spent": 256128.95,
-          "net_if_sold_at_latam": 2851051.73,
+          "net_if_sold_at_latam": 2294849.8,
           "gates": {
-            "pause_grind_until_sold_z": 1242872.27,
-            "keep_shop_until_sold_z": 1864308.41,
+            "pause_grind_until_sold_z": 1020391.5,
+            "keep_shop_until_sold_z": 1530587.25,
             "pause_frac": 0.4,
             "shop_keep_frac": 0.6
           }
@@ -614,13 +545,6 @@
           "stock_value": 156870.41
         },
         {
-          "item_id": 912,
-          "name": "Zargon",
-          "qty": 22.08,
-          "price": 1790,
-          "stock_value": 39526.76
-        },
-        {
           "item_id": 756,
           "name": "Rough Oridecon",
           "qty": 2.87,
@@ -633,16 +557,9 @@
           "qty": 60.86,
           "price": 399,
           "stock_value": 24282.15
-        },
-        {
-          "item_id": 905,
-          "name": "Stem",
-          "qty": 13.52,
-          "price": 1190,
-          "stock_value": 16093.44
         }
       ],
-      "mats_stock_value_latam": 261144.62,
+      "mats_stock_value_latam": 205524.43,
       "cards": [
         {
           "item_id": 4252,
@@ -677,12 +594,12 @@
       ],
       "cards_sellable_total": 0.023,
       "cards_pipeline_value": 49573.44,
-      "lot_expected_value": 310718.06,
+      "lot_expected_value": 255097.87,
       "zeny_spent": 25612.9,
-      "net_if_sold_at_latam": 285105.16,
+      "net_if_sold_at_latam": 229484.97,
       "gates": {
-        "pause_grind_until_sold_z": 124287.22,
-        "keep_shop_until_sold_z": 186430.84
+        "pause_grind_until_sold_z": 102039.15,
+        "keep_shop_until_sold_z": 153058.72
       }
     },
     "3": {
@@ -697,13 +614,6 @@
           "stock_value": 470611.24
         },
         {
-          "item_id": 912,
-          "name": "Zargon",
-          "qty": 66.25,
-          "price": 1790,
-          "stock_value": 118580.27
-        },
-        {
           "item_id": 756,
           "name": "Rough Oridecon",
           "qty": 8.61,
@@ -716,16 +626,9 @@
           "qty": 182.57,
           "price": 399,
           "stock_value": 72846.46
-        },
-        {
-          "item_id": 905,
-          "name": "Stem",
-          "qty": 40.57,
-          "price": 1190,
-          "stock_value": 48280.31
         }
       ],
-      "mats_stock_value_latam": 783433.87,
+      "mats_stock_value_latam": 616573.29,
       "cards": [
         {
           "item_id": 4252,
@@ -760,12 +663,12 @@
       ],
       "cards_sellable_total": 0.068,
       "cards_pipeline_value": 148720.33,
-      "lot_expected_value": 932154.2,
+      "lot_expected_value": 765293.62,
       "zeny_spent": 76838.68,
-      "net_if_sold_at_latam": 855315.52,
+      "net_if_sold_at_latam": 688454.94,
       "gates": {
-        "pause_grind_until_sold_z": 372861.68,
-        "keep_shop_until_sold_z": 559292.52
+        "pause_grind_until_sold_z": 306117.45,
+        "keep_shop_until_sold_z": 459176.17
       }
     },
     "7": {
@@ -780,13 +683,6 @@
           "stock_value": 1098092.9
         },
         {
-          "item_id": 912,
-          "name": "Zargon",
-          "qty": 154.57,
-          "price": 1790,
-          "stock_value": 276687.3
-        },
-        {
           "item_id": 756,
           "name": "Rough Oridecon",
           "qty": 20.09,
@@ -799,16 +695,9 @@
           "qty": 426.0,
           "price": 399,
           "stock_value": 169975.08
-        },
-        {
-          "item_id": 905,
-          "name": "Stem",
-          "qty": 94.67,
-          "price": 1190,
-          "stock_value": 112654.06
         }
       ],
-      "mats_stock_value_latam": 1828012.37,
+      "mats_stock_value_latam": 1438671.02,
       "cards": [
         {
           "item_id": 4252,
@@ -843,12 +732,12 @@
       ],
       "cards_sellable_total": 0.16,
       "cards_pipeline_value": 347014.11,
-      "lot_expected_value": 2175026.48,
+      "lot_expected_value": 1785685.13,
       "zeny_spent": 179290.27,
-      "net_if_sold_at_latam": 1995736.21,
+      "net_if_sold_at_latam": 1606394.86,
       "gates": {
-        "pause_grind_until_sold_z": 870010.59,
-        "keep_shop_until_sold_z": 1305015.89
+        "pause_grind_until_sold_z": 714274.05,
+        "keep_shop_until_sold_z": 1071411.08
       }
     },
     "10": {
@@ -863,13 +752,6 @@
           "stock_value": 1568704.14
         },
         {
-          "item_id": 912,
-          "name": "Zargon",
-          "qty": 220.82,
-          "price": 1790,
-          "stock_value": 395267.56
-        },
-        {
           "item_id": 756,
           "name": "Rough Oridecon",
           "qty": 28.71,
@@ -882,16 +764,9 @@
           "qty": 608.58,
           "price": 399,
           "stock_value": 242821.54
-        },
-        {
-          "item_id": 905,
-          "name": "Stem",
-          "qty": 135.24,
-          "price": 1190,
-          "stock_value": 160934.37
         }
       ],
-      "mats_stock_value_latam": 2611446.25,
+      "mats_stock_value_latam": 2055244.31,
       "cards": [
         {
           "item_id": 4252,
@@ -926,12 +801,12 @@
       ],
       "cards_sellable_total": 0.227,
       "cards_pipeline_value": 495734.44,
-      "lot_expected_value": 3107180.69,
+      "lot_expected_value": 2550978.75,
       "zeny_spent": 256128.95,
-      "net_if_sold_at_latam": 2851051.74,
+      "net_if_sold_at_latam": 2294849.8,
       "gates": {
-        "pause_grind_until_sold_z": 1242872.28,
-        "keep_shop_until_sold_z": 1864308.41
+        "pause_grind_until_sold_z": 1020391.5,
+        "keep_shop_until_sold_z": 1530587.25
       }
     }
   },
@@ -947,13 +822,6 @@
         "stock_value": 1568704.14
       },
       {
-        "item_id": 912,
-        "name": "Zargon",
-        "qty": 220.82,
-        "price": 1790,
-        "stock_value": 395267.56
-      },
-      {
         "item_id": 756,
         "name": "Rough Oridecon",
         "qty": 28.71,
@@ -966,16 +834,9 @@
         "qty": 608.58,
         "price": 399,
         "stock_value": 242821.54
-      },
-      {
-        "item_id": 905,
-        "name": "Stem",
-        "qty": 135.24,
-        "price": 1190,
-        "stock_value": 160934.37
       }
     ],
-    "mats_stock_value_latam": 2611446.25,
+    "mats_stock_value_latam": 2055244.31,
     "cards": [
       {
         "item_id": 4252,
@@ -1010,12 +871,12 @@
     ],
     "cards_sellable_total": 0.227,
     "cards_pipeline_value": 495734.44,
-    "lot_expected_value": 3107180.69,
+    "lot_expected_value": 2550978.75,
     "zeny_spent": 256128.95,
-    "net_if_sold_at_latam": 2851051.74,
+    "net_if_sold_at_latam": 2294849.8,
     "gates": {
-      "pause_grind_until_sold_z": 1242872.28,
-      "keep_shop_until_sold_z": 1864308.41
+      "pause_grind_until_sold_z": 1020391.5,
+      "keep_shop_until_sold_z": 1530587.25
     }
   }
 }

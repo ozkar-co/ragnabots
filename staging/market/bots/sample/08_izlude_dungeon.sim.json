@@ -79,22 +79,10 @@
         }
       ],
       "drop_types_count": 32,
-      "ev_mats_offer_per_kill": 759.59,
-      "ev_mats_offer_per_day": 963993.78,
+      "ev_mats_offer_per_kill": 766.59,
+      "ev_mats_offer_per_day": 972881.94,
       "offer": {
         "mats_for_sale": [
-          {
-            "item_id": 517,
-            "aegis": "Meat",
-            "name": "Meat",
-            "type": "Healing",
-            "p_per_map_kill": 0.00576923,
-            "latam_price": 29000,
-            "latam_total_sold": 1056,
-            "has_offers": true,
-            "qty_per_day": 7.3217,
-            "score": 427868.77
-          },
           {
             "item_id": 955,
             "aegis": "Worm_Peelings",
@@ -108,30 +96,6 @@
             "score": 134888.07
           },
           {
-            "item_id": 991,
-            "aegis": "Crystal_Blue",
-            "name": "Crystal Blue",
-            "type": "Etc",
-            "p_per_map_kill": 0.00156044,
-            "latam_price": 8746,
-            "latam_total_sold": 21433,
-            "has_offers": true,
-            "qty_per_day": 1.9804,
-            "score": 95249.59
-          },
-          {
-            "item_id": 910,
-            "aegis": "Garlet",
-            "name": "Garlet",
-            "type": "Etc",
-            "p_per_map_kill": 0.06401099,
-            "latam_price": 2500,
-            "latam_total_sold": 828,
-            "has_offers": true,
-            "qty_per_day": 81.2363,
-            "score": 74083.66
-          },
-          {
             "item_id": 938,
             "aegis": "Sticky_Mucus",
             "name": "Sticky Mucus",
@@ -142,31 +106,34 @@
             "has_offers": true,
             "qty_per_day": 25.9747,
             "score": 63546.92
-          }
-        ],
-        "mats_discarded_count": 10,
-        "mats_discarded_top10": [
+          },
           {
             "item_id": 960,
+            "aegis": "Nipper",
             "name": "Nipper",
-            "price": 1999,
+            "type": "Etc",
+            "p_per_map_kill": 0.15934066,
+            "latam_price": 1999,
+            "latam_total_sold": 79,
+            "has_offers": true,
             "qty_per_day": 202.2192,
             "score": 46551.39
           },
           {
-            "item_id": 911,
-            "name": "Scell",
-            "price": 2500,
-            "qty_per_day": 4.1838,
-            "score": 32354.75
-          },
-          {
             "item_id": 962,
+            "aegis": "Tentacle",
             "name": "Tentacle",
-            "price": 650,
+            "type": "Etc",
+            "p_per_map_kill": 0.04532967,
+            "latam_price": 650,
+            "latam_total_sold": 808,
+            "has_offers": true,
             "qty_per_day": 57.5279,
             "score": 17711.57
-          },
+          }
+        ],
+        "mats_discarded_count": 3,
+        "mats_discarded_top10": [
           {
             "item_id": 943,
             "name": "Solid Shell",
@@ -182,34 +149,6 @@
             "score": 5756.81
           },
           {
-            "item_id": 1011,
-            "name": "Emveretarcon",
-            "price": 4852,
-            "qty_per_day": 0.272,
-            "score": 5069.98
-          },
-          {
-            "item_id": 525,
-            "name": "Panacea",
-            "price": 5000,
-            "qty_per_day": 0.0628,
-            "score": 2568.2
-          },
-          {
-            "item_id": 645,
-            "name": "Concentration Potion",
-            "price": 1050,
-            "qty_per_day": 0.1743,
-            "score": 1415.47
-          },
-          {
-            "item_id": 971,
-            "name": "Detrimindexta",
-            "price": 1000,
-            "qty_per_day": 0.2092,
-            "score": 1221.99
-          },
-          {
             "item_id": 970,
             "name": "Alcohol",
             "price": 664,
@@ -217,6 +156,57 @@
             "score": 73.2
           }
         ],
+        "mats_blocked_npc_buyable": [
+          {
+            "item_id": 991,
+            "name": "Crystal Blue",
+            "price_latam": 8746,
+            "reason": "npc_buyable"
+          },
+          {
+            "item_id": 910,
+            "name": "Garlet",
+            "price_latam": 2500,
+            "reason": "npc_buyable"
+          },
+          {
+            "item_id": 1011,
+            "name": "Emveretarcon",
+            "price_latam": 4852,
+            "reason": "npc_buyable"
+          },
+          {
+            "item_id": 971,
+            "name": "Detrimindexta",
+            "price_latam": 1000,
+            "reason": "npc_buyable"
+          },
+          {
+            "item_id": 525,
+            "name": "Panacea",
+            "price_latam": 5000,
+            "reason": "npc_buyable"
+          },
+          {
+            "item_id": 517,
+            "name": "Meat",
+            "price_latam": 29000,
+            "reason": "npc_buyable"
+          },
+          {
+            "item_id": 911,
+            "name": "Scell",
+            "price_latam": 2500,
+            "reason": "npc_buyable"
+          },
+          {
+            "item_id": 645,
+            "name": "Concentration Potion",
+            "price_latam": 1050,
+            "reason": "npc_buyable"
+          }
+        ],
+        "mats_blocked_npc_count": 8,
         "cards": [
           {
             "item_id": 4049,
@@ -287,13 +277,6 @@
           "hours": 3.5,
           "mats_stock": [
             {
-              "item_id": 517,
-              "name": "Meat",
-              "qty": 7.32,
-              "price": 29000,
-              "stock_value": 212330.16
-            },
-            {
               "item_id": 955,
               "name": "Worm Peeling",
               "qty": 95.88,
@@ -301,28 +284,28 @@
               "stock_value": 479303.16
             },
             {
-              "item_id": 991,
-              "name": "Crystal Blue",
-              "qty": 1.98,
-              "price": 8746,
-              "stock_value": 17320.18
-            },
-            {
-              "item_id": 910,
-              "name": "Garlet",
-              "qty": 81.24,
-              "price": 2500,
-              "stock_value": 203090.87
-            },
-            {
               "item_id": 938,
               "name": "Sticky Mucus",
               "qty": 25.97,
               "price": 2000,
               "stock_value": 51949.42
+            },
+            {
+              "item_id": 960,
+              "name": "Nipper",
+              "qty": 202.22,
+              "price": 1999,
+              "stock_value": 404236.24
+            },
+            {
+              "item_id": 962,
+              "name": "Tentacle",
+              "qty": 57.53,
+              "price": 650,
+              "stock_value": 37393.12
             }
           ],
-          "mats_stock_value_latam": 963993.78,
+          "mats_stock_value_latam": 972881.94,
           "cards": [
             {
               "item_id": 4049,
@@ -367,12 +350,12 @@
           ],
           "cards_sellable_total": 0.044,
           "cards_pipeline_value": 80181.7,
-          "lot_expected_value": 1044175.49,
+          "lot_expected_value": 1053063.64,
           "zeny_spent": 14496.16,
-          "net_if_sold_at_latam": 1029679.33,
+          "net_if_sold_at_latam": 1038567.48,
           "gates": {
-            "pause_grind_until_sold_z": 417670.19,
-            "keep_shop_until_sold_z": 626505.29,
+            "pause_grind_until_sold_z": 421225.46,
+            "keep_shop_until_sold_z": 631838.19,
             "pause_frac": 0.4,
             "shop_keep_frac": 0.6
           }
@@ -383,13 +366,6 @@
           "hours": 10.5,
           "mats_stock": [
             {
-              "item_id": 517,
-              "name": "Meat",
-              "qty": 21.97,
-              "price": 29000,
-              "stock_value": 636990.49
-            },
-            {
               "item_id": 955,
               "name": "Worm Peeling",
               "qty": 287.64,
@@ -397,28 +373,28 @@
               "stock_value": 1437909.47
             },
             {
-              "item_id": 991,
-              "name": "Crystal Blue",
-              "qty": 5.94,
-              "price": 8746,
-              "stock_value": 51960.54
-            },
-            {
-              "item_id": 910,
-              "name": "Garlet",
-              "qty": 243.71,
-              "price": 2500,
-              "stock_value": 609272.61
-            },
-            {
               "item_id": 938,
               "name": "Sticky Mucus",
               "qty": 77.92,
               "price": 2000,
               "stock_value": 155848.25
+            },
+            {
+              "item_id": 960,
+              "name": "Nipper",
+              "qty": 606.66,
+              "price": 1999,
+              "stock_value": 1212708.73
+            },
+            {
+              "item_id": 962,
+              "name": "Tentacle",
+              "qty": 172.58,
+              "price": 650,
+              "stock_value": 112179.37
             }
           ],
-          "mats_stock_value_latam": 2891981.35,
+          "mats_stock_value_latam": 2918645.82,
           "cards": [
             {
               "item_id": 4049,
@@ -463,12 +439,12 @@
           ],
           "cards_sellable_total": 0.136,
           "cards_pipeline_value": 240545.11,
-          "lot_expected_value": 3132526.46,
+          "lot_expected_value": 3159190.93,
           "zeny_spent": 43488.48,
-          "net_if_sold_at_latam": 3089037.98,
+          "net_if_sold_at_latam": 3115702.45,
           "gates": {
-            "pause_grind_until_sold_z": 1253010.58,
-            "keep_shop_until_sold_z": 1879515.87,
+            "pause_grind_until_sold_z": 1263676.37,
+            "keep_shop_until_sold_z": 1895514.56,
             "pause_frac": 0.4,
             "shop_keep_frac": 0.6
           }
@@ -479,13 +455,6 @@
           "hours": 24.5,
           "mats_stock": [
             {
-              "item_id": 517,
-              "name": "Meat",
-              "qty": 51.25,
-              "price": 29000,
-              "stock_value": 1486311.15
-            },
-            {
               "item_id": 955,
               "name": "Worm Peeling",
               "qty": 671.16,
@@ -493,28 +462,28 @@
               "stock_value": 3355122.09
             },
             {
-              "item_id": 991,
-              "name": "Crystal Blue",
-              "qty": 13.86,
-              "price": 8746,
-              "stock_value": 121241.26
-            },
-            {
-              "item_id": 910,
-              "name": "Garlet",
-              "qty": 568.65,
-              "price": 2500,
-              "stock_value": 1421636.08
-            },
-            {
               "item_id": 938,
               "name": "Sticky Mucus",
               "qty": 181.82,
               "price": 2000,
               "stock_value": 363645.91
+            },
+            {
+              "item_id": 960,
+              "name": "Nipper",
+              "qty": 1415.53,
+              "price": 1999,
+              "stock_value": 2829653.71
+            },
+            {
+              "item_id": 962,
+              "name": "Tentacle",
+              "qty": 402.7,
+              "price": 650,
+              "stock_value": 261751.87
             }
           ],
-          "mats_stock_value_latam": 6747956.48,
+          "mats_stock_value_latam": 6810173.58,
           "cards": [
             {
               "item_id": 4049,
@@ -559,12 +528,12 @@
           ],
           "cards_sellable_total": 0.318,
           "cards_pipeline_value": 561271.92,
-          "lot_expected_value": 7309228.4,
+          "lot_expected_value": 7371445.5,
           "zeny_spent": 101473.12,
-          "net_if_sold_at_latam": 7207755.28,
+          "net_if_sold_at_latam": 7269972.38,
           "gates": {
-            "pause_grind_until_sold_z": 2923691.36,
-            "keep_shop_until_sold_z": 4385537.04,
+            "pause_grind_until_sold_z": 2948578.2,
+            "keep_shop_until_sold_z": 4422867.3,
             "pause_frac": 0.4,
             "shop_keep_frac": 0.6
           }
@@ -575,13 +544,6 @@
           "hours": 35.0,
           "mats_stock": [
             {
-              "item_id": 517,
-              "name": "Meat",
-              "qty": 73.22,
-              "price": 29000,
-              "stock_value": 2123301.64
-            },
-            {
               "item_id": 955,
               "name": "Worm Peeling",
               "qty": 958.8,
@@ -589,28 +551,28 @@
               "stock_value": 4793031.55
             },
             {
-              "item_id": 991,
-              "name": "Crystal Blue",
-              "qty": 19.8,
-              "price": 8746,
-              "stock_value": 173201.8
-            },
-            {
-              "item_id": 910,
-              "name": "Garlet",
-              "qty": 812.36,
-              "price": 2500,
-              "stock_value": 2030908.69
-            },
-            {
               "item_id": 938,
               "name": "Sticky Mucus",
               "qty": 259.75,
               "price": 2000,
               "stock_value": 519494.16
+            },
+            {
+              "item_id": 960,
+              "name": "Nipper",
+              "qty": 2022.19,
+              "price": 1999,
+              "stock_value": 4042362.44
+            },
+            {
+              "item_id": 962,
+              "name": "Tentacle",
+              "qty": 575.28,
+              "price": 650,
+              "stock_value": 373931.25
             }
           ],
-          "mats_stock_value_latam": 9639937.83,
+          "mats_stock_value_latam": 9728819.39,
           "cards": [
             {
               "item_id": 4049,
@@ -655,12 +617,12 @@
           ],
           "cards_sellable_total": 0.453,
           "cards_pipeline_value": 801817.03,
-          "lot_expected_value": 10441754.86,
+          "lot_expected_value": 10530636.43,
           "zeny_spent": 144961.6,
-          "net_if_sold_at_latam": 10296793.26,
+          "net_if_sold_at_latam": 10385674.83,
           "gates": {
-            "pause_grind_until_sold_z": 4176701.94,
-            "keep_shop_until_sold_z": 6265052.92,
+            "pause_grind_until_sold_z": 4212254.57,
+            "keep_shop_until_sold_z": 6318381.86,
             "pause_frac": 0.4,
             "shop_keep_frac": 0.6
           }
@@ -681,18 +643,11 @@
           "stock_value": 479303.16
         },
         {
-          "item_id": 517,
-          "name": "Meat",
-          "qty": 7.32,
-          "price": 29000,
-          "stock_value": 212330.16
-        },
-        {
-          "item_id": 910,
-          "name": "Garlet",
-          "qty": 81.24,
-          "price": 2500,
-          "stock_value": 203090.87
+          "item_id": 960,
+          "name": "Nipper",
+          "qty": 202.22,
+          "price": 1999,
+          "stock_value": 404236.24
         },
         {
           "item_id": 938,
@@ -702,14 +657,14 @@
           "stock_value": 51949.42
         },
         {
-          "item_id": 991,
-          "name": "Crystal Blue",
-          "qty": 1.98,
-          "price": 8746,
-          "stock_value": 17320.18
+          "item_id": 962,
+          "name": "Tentacle",
+          "qty": 57.53,
+          "price": 650,
+          "stock_value": 37393.12
         }
       ],
-      "mats_stock_value_latam": 963993.78,
+      "mats_stock_value_latam": 972881.94,
       "cards": [
         {
           "item_id": 4049,
@@ -754,12 +709,12 @@
       ],
       "cards_sellable_total": 0.044,
       "cards_pipeline_value": 80181.7,
-      "lot_expected_value": 1044175.48,
+      "lot_expected_value": 1053063.64,
       "zeny_spent": 14496.16,
-      "net_if_sold_at_latam": 1029679.32,
+      "net_if_sold_at_latam": 1038567.48,
       "gates": {
-        "pause_grind_until_sold_z": 417670.19,
-        "keep_shop_until_sold_z": 626505.29
+        "pause_grind_until_sold_z": 421225.46,
+        "keep_shop_until_sold_z": 631838.18
       }
     },
     "3": {
@@ -774,18 +729,11 @@
           "stock_value": 1437909.47
         },
         {
-          "item_id": 517,
-          "name": "Meat",
-          "qty": 21.97,
-          "price": 29000,
-          "stock_value": 636990.49
-        },
-        {
-          "item_id": 910,
-          "name": "Garlet",
-          "qty": 243.71,
-          "price": 2500,
-          "stock_value": 609272.61
+          "item_id": 960,
+          "name": "Nipper",
+          "qty": 606.66,
+          "price": 1999,
+          "stock_value": 1212708.73
         },
         {
           "item_id": 938,
@@ -795,14 +743,14 @@
           "stock_value": 155848.25
         },
         {
-          "item_id": 991,
-          "name": "Crystal Blue",
-          "qty": 5.94,
-          "price": 8746,
-          "stock_value": 51960.54
+          "item_id": 962,
+          "name": "Tentacle",
+          "qty": 172.58,
+          "price": 650,
+          "stock_value": 112179.37
         }
       ],
-      "mats_stock_value_latam": 2891981.35,
+      "mats_stock_value_latam": 2918645.82,
       "cards": [
         {
           "item_id": 4049,
@@ -847,12 +795,12 @@
       ],
       "cards_sellable_total": 0.136,
       "cards_pipeline_value": 240545.11,
-      "lot_expected_value": 3132526.46,
+      "lot_expected_value": 3159190.93,
       "zeny_spent": 43488.48,
-      "net_if_sold_at_latam": 3089037.98,
+      "net_if_sold_at_latam": 3115702.45,
       "gates": {
-        "pause_grind_until_sold_z": 1253010.58,
-        "keep_shop_until_sold_z": 1879515.88
+        "pause_grind_until_sold_z": 1263676.37,
+        "keep_shop_until_sold_z": 1895514.56
       }
     },
     "7": {
@@ -867,18 +815,11 @@
           "stock_value": 3355122.09
         },
         {
-          "item_id": 517,
-          "name": "Meat",
-          "qty": 51.25,
-          "price": 29000,
-          "stock_value": 1486311.15
-        },
-        {
-          "item_id": 910,
-          "name": "Garlet",
-          "qty": 568.65,
-          "price": 2500,
-          "stock_value": 1421636.08
+          "item_id": 960,
+          "name": "Nipper",
+          "qty": 1415.53,
+          "price": 1999,
+          "stock_value": 2829653.71
         },
         {
           "item_id": 938,
@@ -888,14 +829,14 @@
           "stock_value": 363645.91
         },
         {
-          "item_id": 991,
-          "name": "Crystal Blue",
-          "qty": 13.86,
-          "price": 8746,
-          "stock_value": 121241.26
+          "item_id": 962,
+          "name": "Tentacle",
+          "qty": 402.7,
+          "price": 650,
+          "stock_value": 261751.87
         }
       ],
-      "mats_stock_value_latam": 6747956.48,
+      "mats_stock_value_latam": 6810173.58,
       "cards": [
         {
           "item_id": 4049,
@@ -940,12 +881,12 @@
       ],
       "cards_sellable_total": 0.318,
       "cards_pipeline_value": 561271.92,
-      "lot_expected_value": 7309228.4,
+      "lot_expected_value": 7371445.5,
       "zeny_spent": 101473.12,
-      "net_if_sold_at_latam": 7207755.28,
+      "net_if_sold_at_latam": 7269972.38,
       "gates": {
-        "pause_grind_until_sold_z": 2923691.36,
-        "keep_shop_until_sold_z": 4385537.04
+        "pause_grind_until_sold_z": 2948578.2,
+        "keep_shop_until_sold_z": 4422867.3
       }
     },
     "10": {
@@ -960,18 +901,11 @@
           "stock_value": 4793031.55
         },
         {
-          "item_id": 517,
-          "name": "Meat",
-          "qty": 73.22,
-          "price": 29000,
-          "stock_value": 2123301.64
-        },
-        {
-          "item_id": 910,
-          "name": "Garlet",
-          "qty": 812.36,
-          "price": 2500,
-          "stock_value": 2030908.69
+          "item_id": 960,
+          "name": "Nipper",
+          "qty": 2022.19,
+          "price": 1999,
+          "stock_value": 4042362.44
         },
         {
           "item_id": 938,
@@ -981,14 +915,14 @@
           "stock_value": 519494.16
         },
         {
-          "item_id": 991,
-          "name": "Crystal Blue",
-          "qty": 19.8,
-          "price": 8746,
-          "stock_value": 173201.8
+          "item_id": 962,
+          "name": "Tentacle",
+          "qty": 575.28,
+          "price": 650,
+          "stock_value": 373931.25
         }
       ],
-      "mats_stock_value_latam": 9639937.83,
+      "mats_stock_value_latam": 9728819.39,
       "cards": [
         {
           "item_id": 4049,
@@ -1033,12 +967,12 @@
       ],
       "cards_sellable_total": 0.453,
       "cards_pipeline_value": 801817.03,
-      "lot_expected_value": 10441754.86,
+      "lot_expected_value": 10530636.42,
       "zeny_spent": 144961.6,
-      "net_if_sold_at_latam": 10296793.26,
+      "net_if_sold_at_latam": 10385674.82,
       "gates": {
-        "pause_grind_until_sold_z": 4176701.94,
-        "keep_shop_until_sold_z": 6265052.92
+        "pause_grind_until_sold_z": 4212254.57,
+        "keep_shop_until_sold_z": 6318381.85
       }
     }
   },
@@ -1054,18 +988,11 @@
         "stock_value": 4793031.55
       },
       {
-        "item_id": 517,
-        "name": "Meat",
-        "qty": 73.22,
-        "price": 29000,
-        "stock_value": 2123301.64
-      },
-      {
-        "item_id": 910,
-        "name": "Garlet",
-        "qty": 812.36,
-        "price": 2500,
-        "stock_value": 2030908.69
+        "item_id": 960,
+        "name": "Nipper",
+        "qty": 2022.19,
+        "price": 1999,
+        "stock_value": 4042362.44
       },
       {
         "item_id": 938,
@@ -1075,14 +1002,14 @@
         "stock_value": 519494.16
       },
       {
-        "item_id": 991,
-        "name": "Crystal Blue",
-        "qty": 19.8,
-        "price": 8746,
-        "stock_value": 173201.8
+        "item_id": 962,
+        "name": "Tentacle",
+        "qty": 575.28,
+        "price": 650,
+        "stock_value": 373931.25
       }
     ],
-    "mats_stock_value_latam": 9639937.83,
+    "mats_stock_value_latam": 9728819.39,
     "cards": [
       {
         "item_id": 4049,
@@ -1127,12 +1054,12 @@
     ],
     "cards_sellable_total": 0.453,
     "cards_pipeline_value": 801817.03,
-    "lot_expected_value": 10441754.86,
+    "lot_expected_value": 10530636.42,
     "zeny_spent": 144961.6,
-    "net_if_sold_at_latam": 10296793.26,
+    "net_if_sold_at_latam": 10385674.82,
     "gates": {
-      "pause_grind_until_sold_z": 4176701.94,
-      "keep_shop_until_sold_z": 6265052.92
+      "pause_grind_until_sold_z": 4212254.57,
+      "keep_shop_until_sold_z": 6318381.85
     }
   }
 }

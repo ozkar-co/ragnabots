@@ -1,0 +1,9 @@
+{
+  "shop_lines_parsed": 442,
+  "unique_items": 923,
+  "note": "Ítems que un jugador puede comprar a NPC shop/marketshop/itemshop. Usar para excluir de oferta de bots y para DB de jugadores.",
+  "sources": [
+    "data/raw/rathena/npc/all_shop_lines.txt",
+    "data/raw/rathena/npc/**/merchants/*.txt"
+  ]
+}

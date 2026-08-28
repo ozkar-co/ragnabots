@@ -58,22 +58,10 @@
         }
       ],
       "drop_types_count": 22,
-      "ev_mats_offer_per_kill": 1045.66,
-      "ev_mats_offer_per_day": 134314.7,
+      "ev_mats_offer_per_kill": 887.29,
+      "ev_mats_offer_per_day": 113971.82,
       "offer": {
         "mats_for_sale": [
-          {
-            "item_id": 984,
-            "aegis": "Oridecon",
-            "name": "Oridecon",
-            "type": "Etc",
-            "p_per_map_kill": 0.00552242,
-            "latam_price": 18000,
-            "latam_total_sold": 86375,
-            "has_offers": true,
-            "qty_per_day": 0.7094,
-            "score": 109687.39
-          },
           {
             "item_id": 7003,
             "aegis": "Anolian_Skin",
@@ -99,52 +87,26 @@
             "score": 97708.84
           },
           {
-            "item_id": 912,
-            "aegis": "Zargon",
-            "name": "Zargon",
-            "type": "Etc",
-            "p_per_map_kill": 0.02939394,
-            "latam_price": 1790,
-            "latam_total_sold": 5315,
-            "has_offers": true,
-            "qty_per_day": 3.7757,
-            "score": 24008.75
-          },
-          {
-            "item_id": 12012,
-            "aegis": "Crystal_Arrow_Container",
-            "name": "Crystal Arrow Quiver",
-            "type": "Usable",
-            "p_per_map_kill": 0.00310303,
-            "latam_price": 9545,
-            "latam_total_sold": 257,
-            "has_offers": false,
-            "qty_per_day": 0.3986,
-            "score": 17780.41
-          }
-        ],
-        "mats_discarded_count": 5,
-        "mats_discarded_top10": [
-          {
             "item_id": 1039,
+            "aegis": "Petite_DiablOfs_Wing",
             "name": "Little Evil Wing",
-            "price": 6142,
+            "type": "Etc",
+            "p_per_map_kill": 0.00378788,
+            "latam_price": 6142,
+            "latam_total_sold": 684,
+            "has_offers": false,
             "qty_per_day": 0.4866,
             "score": 15899.51
-          },
+          }
+        ],
+        "mats_discarded_count": 3,
+        "mats_discarded_top10": [
           {
             "item_id": 507,
             "name": "Red Herb",
             "price": 1399,
             "qty_per_day": 0.8875,
             "score": 11321.95
-          },
-          {
-            "item_id": 526,
-            "name": "Royal Jelly",
-            "price": 9831,
-            "qty_per_day": 0.0318,
-            "score": 2077.04
           },
           {
             "item_id": 757,
@@ -161,6 +123,33 @@
             "score": 1205.52
           }
         ],
+        "mats_blocked_npc_buyable": [
+          {
+            "item_id": 12012,
+            "name": "Crystal Arrow Quiver",
+            "price_latam": 9545,
+            "reason": "npc_buyable"
+          },
+          {
+            "item_id": 526,
+            "name": "Royal Jelly",
+            "price_latam": 9831,
+            "reason": "npc_buyable"
+          },
+          {
+            "item_id": 984,
+            "name": "Oridecon",
+            "price_latam": 18000,
+            "reason": "npc_buyable"
+          },
+          {
+            "item_id": 912,
+            "name": "Zargon",
+            "price_latam": 1790,
+            "reason": "npc_buyable"
+          }
+        ],
+        "mats_blocked_npc_count": 4,
         "cards": [
           {
             "item_id": 4234,
@@ -192,13 +181,6 @@
           "hours": 3.5,
           "mats_stock": [
             {
-              "item_id": 984,
-              "name": "Oridecon",
-              "qty": 0.71,
-              "price": 18000,
-              "stock_value": 12768.39
-            },
-            {
               "item_id": 7003,
               "name": "Anolian Skin",
               "qty": 25.34,
@@ -213,21 +195,14 @@
               "stock_value": 20963.04
             },
             {
-              "item_id": 912,
-              "name": "Zargon",
-              "qty": 3.78,
-              "price": 1790,
-              "stock_value": 6758.42
-            },
-            {
-              "item_id": 12012,
-              "name": "Crystal Arrow Quiver",
-              "qty": 0.4,
-              "price": 9545,
-              "stock_value": 3804.49
+              "item_id": 1039,
+              "name": "Little Evil Wing",
+              "qty": 0.49,
+              "price": 6142,
+              "stock_value": 2988.41
             }
           ],
-          "mats_stock_value_latam": 134314.7,
+          "mats_stock_value_latam": 113971.82,
           "cards": [
             {
               "item_id": 4234,
@@ -242,12 +217,12 @@
           ],
           "cards_sellable_total": 0.005,
           "cards_pipeline_value": 3176.05,
-          "lot_expected_value": 137490.76,
+          "lot_expected_value": 117147.88,
           "zeny_spent": 93406.28,
-          "net_if_sold_at_latam": 44084.47,
+          "net_if_sold_at_latam": 23741.59,
           "gates": {
-            "pause_grind_until_sold_z": 54996.3,
-            "keep_shop_until_sold_z": 82494.46,
+            "pause_grind_until_sold_z": 46859.15,
+            "keep_shop_until_sold_z": 70288.73,
             "pause_frac": 0.4,
             "shop_keep_frac": 0.6
           }
@@ -257,13 +232,6 @@
           "kills": 385.4,
           "hours": 10.5,
           "mats_stock": [
-            {
-              "item_id": 984,
-              "name": "Oridecon",
-              "qty": 2.13,
-              "price": 18000,
-              "stock_value": 38305.16
-            },
             {
               "item_id": 7003,
               "name": "Anolian Skin",
@@ -279,21 +247,14 @@
               "stock_value": 62889.11
             },
             {
-              "item_id": 912,
-              "name": "Zargon",
-              "qty": 11.33,
-              "price": 1790,
-              "stock_value": 20275.25
-            },
-            {
-              "item_id": 12012,
-              "name": "Crystal Arrow Quiver",
-              "qty": 1.2,
-              "price": 9545,
-              "stock_value": 11413.46
+              "item_id": 1039,
+              "name": "Little Evil Wing",
+              "qty": 1.46,
+              "price": 6142,
+              "stock_value": 8965.23
             }
           ],
-          "mats_stock_value_latam": 402944.11,
+          "mats_stock_value_latam": 341915.47,
           "cards": [
             {
               "item_id": 4234,
@@ -308,12 +269,12 @@
           ],
           "cards_sellable_total": 0.016,
           "cards_pipeline_value": 9528.16,
-          "lot_expected_value": 412472.28,
+          "lot_expected_value": 351443.63,
           "zeny_spent": 280218.85,
-          "net_if_sold_at_latam": 132253.42,
+          "net_if_sold_at_latam": 71224.78,
           "gates": {
-            "pause_grind_until_sold_z": 164988.91,
-            "keep_shop_until_sold_z": 247483.37,
+            "pause_grind_until_sold_z": 140577.45,
+            "keep_shop_until_sold_z": 210866.18,
             "pause_frac": 0.4,
             "shop_keep_frac": 0.6
           }
@@ -323,13 +284,6 @@
           "kills": 899.2,
           "hours": 24.5,
           "mats_stock": [
-            {
-              "item_id": 984,
-              "name": "Oridecon",
-              "qty": 4.97,
-              "price": 18000,
-              "stock_value": 89378.71
-            },
             {
               "item_id": 7003,
               "name": "Anolian Skin",
@@ -345,21 +299,14 @@
               "stock_value": 146741.27
             },
             {
-              "item_id": 912,
-              "name": "Zargon",
-              "qty": 26.43,
-              "price": 1790,
-              "stock_value": 47308.91
-            },
-            {
-              "item_id": 12012,
-              "name": "Crystal Arrow Quiver",
-              "qty": 2.79,
-              "price": 9545,
-              "stock_value": 26631.4
+              "item_id": 1039,
+              "name": "Little Evil Wing",
+              "qty": 3.41,
+              "price": 6142,
+              "stock_value": 20918.87
             }
           ],
-          "mats_stock_value_latam": 940202.93,
+          "mats_stock_value_latam": 797802.76,
           "cards": [
             {
               "item_id": 4234,
@@ -374,12 +321,12 @@
           ],
           "cards_sellable_total": 0.037,
           "cards_pipeline_value": 22232.38,
-          "lot_expected_value": 962435.31,
+          "lot_expected_value": 820035.15,
           "zeny_spent": 653843.99,
-          "net_if_sold_at_latam": 308591.31,
+          "net_if_sold_at_latam": 166191.15,
           "gates": {
-            "pause_grind_until_sold_z": 384974.12,
-            "keep_shop_until_sold_z": 577461.19,
+            "pause_grind_until_sold_z": 328014.06,
+            "keep_shop_until_sold_z": 492021.09,
             "pause_frac": 0.4,
             "shop_keep_frac": 0.6
           }
@@ -389,13 +336,6 @@
           "kills": 1284.5,
           "hours": 35.0,
           "mats_stock": [
-            {
-              "item_id": 984,
-              "name": "Oridecon",
-              "qty": 7.09,
-              "price": 18000,
-              "stock_value": 127683.87
-            },
             {
               "item_id": 7003,
               "name": "Anolian Skin",
@@ -411,21 +351,14 @@
               "stock_value": 209630.38
             },
             {
-              "item_id": 912,
-              "name": "Zargon",
-              "qty": 37.76,
-              "price": 1790,
-              "stock_value": 67584.16
-            },
-            {
-              "item_id": 12012,
-              "name": "Crystal Arrow Quiver",
-              "qty": 3.99,
-              "price": 9545,
-              "stock_value": 38044.86
+              "item_id": 1039,
+              "name": "Little Evil Wing",
+              "qty": 4.87,
+              "price": 6142,
+              "stock_value": 29884.1
             }
           ],
-          "mats_stock_value_latam": 1343147.04,
+          "mats_stock_value_latam": 1139718.23,
           "cards": [
             {
               "item_id": 4234,
@@ -440,12 +373,12 @@
           ],
           "cards_sellable_total": 0.053,
           "cards_pipeline_value": 31760.55,
-          "lot_expected_value": 1374907.58,
+          "lot_expected_value": 1171478.78,
           "zeny_spent": 934062.85,
-          "net_if_sold_at_latam": 440844.73,
+          "net_if_sold_at_latam": 237415.93,
           "gates": {
-            "pause_grind_until_sold_z": 549963.03,
-            "keep_shop_until_sold_z": 824944.55,
+            "pause_grind_until_sold_z": 468591.51,
+            "keep_shop_until_sold_z": 702887.27,
             "pause_frac": 0.4,
             "shop_keep_frac": 0.6
           }
@@ -473,28 +406,14 @@
           "stock_value": 20963.04
         },
         {
-          "item_id": 984,
-          "name": "Oridecon",
-          "qty": 0.71,
-          "price": 18000,
-          "stock_value": 12768.39
-        },
-        {
-          "item_id": 912,
-          "name": "Zargon",
-          "qty": 3.78,
-          "price": 1790,
-          "stock_value": 6758.42
-        },
-        {
-          "item_id": 12012,
-          "name": "Crystal Arrow Quiver",
-          "qty": 0.4,
-          "price": 9545,
-          "stock_value": 3804.49
+          "item_id": 1039,
+          "name": "Little Evil Wing",
+          "qty": 0.49,
+          "price": 6142,
+          "stock_value": 2988.41
         }
       ],
-      "mats_stock_value_latam": 134314.7,
+      "mats_stock_value_latam": 113971.82,
       "cards": [
         {
           "item_id": 4234,
@@ -509,12 +428,12 @@
       ],
       "cards_sellable_total": 0.005,
       "cards_pipeline_value": 3176.05,
-      "lot_expected_value": 137490.75,
+      "lot_expected_value": 117147.87,
       "zeny_spent": 93406.28,
-      "net_if_sold_at_latam": 44084.47,
+      "net_if_sold_at_latam": 23741.59,
       "gates": {
-        "pause_grind_until_sold_z": 54996.3,
-        "keep_shop_until_sold_z": 82494.45
+        "pause_grind_until_sold_z": 46859.15,
+        "keep_shop_until_sold_z": 70288.72
       }
     },
     "3": {
@@ -536,28 +455,14 @@
           "stock_value": 62889.11
         },
         {
-          "item_id": 984,
-          "name": "Oridecon",
-          "qty": 2.13,
-          "price": 18000,
-          "stock_value": 38305.16
-        },
-        {
-          "item_id": 912,
-          "name": "Zargon",
-          "qty": 11.33,
-          "price": 1790,
-          "stock_value": 20275.25
-        },
-        {
-          "item_id": 12012,
-          "name": "Crystal Arrow Quiver",
-          "qty": 1.2,
-          "price": 9545,
-          "stock_value": 11413.46
+          "item_id": 1039,
+          "name": "Little Evil Wing",
+          "qty": 1.46,
+          "price": 6142,
+          "stock_value": 8965.23
         }
       ],
-      "mats_stock_value_latam": 402944.11,
+      "mats_stock_value_latam": 341915.47,
       "cards": [
         {
           "item_id": 4234,
@@ -572,12 +477,12 @@
       ],
       "cards_sellable_total": 0.016,
       "cards_pipeline_value": 9528.16,
-      "lot_expected_value": 412472.27,
+      "lot_expected_value": 351443.63,
       "zeny_spent": 280218.85,
-      "net_if_sold_at_latam": 132253.42,
+      "net_if_sold_at_latam": 71224.78,
       "gates": {
-        "pause_grind_until_sold_z": 164988.91,
-        "keep_shop_until_sold_z": 247483.36
+        "pause_grind_until_sold_z": 140577.45,
+        "keep_shop_until_sold_z": 210866.18
       }
     },
     "7": {
@@ -599,28 +504,14 @@
           "stock_value": 146741.27
         },
         {
-          "item_id": 984,
-          "name": "Oridecon",
-          "qty": 4.97,
-          "price": 18000,
-          "stock_value": 89378.71
-        },
-        {
-          "item_id": 912,
-          "name": "Zargon",
-          "qty": 26.43,
-          "price": 1790,
-          "stock_value": 47308.91
-        },
-        {
-          "item_id": 12012,
-          "name": "Crystal Arrow Quiver",
-          "qty": 2.79,
-          "price": 9545,
-          "stock_value": 26631.4
+          "item_id": 1039,
+          "name": "Little Evil Wing",
+          "qty": 3.41,
+          "price": 6142,
+          "stock_value": 20918.87
         }
       ],
-      "mats_stock_value_latam": 940202.93,
+      "mats_stock_value_latam": 797802.76,
       "cards": [
         {
           "item_id": 4234,
@@ -635,12 +526,12 @@
       ],
       "cards_sellable_total": 0.037,
       "cards_pipeline_value": 22232.38,
-      "lot_expected_value": 962435.31,
+      "lot_expected_value": 820035.14,
       "zeny_spent": 653843.99,
-      "net_if_sold_at_latam": 308591.32,
+      "net_if_sold_at_latam": 166191.15,
       "gates": {
-        "pause_grind_until_sold_z": 384974.12,
-        "keep_shop_until_sold_z": 577461.19
+        "pause_grind_until_sold_z": 328014.06,
+        "keep_shop_until_sold_z": 492021.08
       }
     },
     "10": {
@@ -662,28 +553,14 @@
           "stock_value": 209630.38
         },
         {
-          "item_id": 984,
-          "name": "Oridecon",
-          "qty": 7.09,
-          "price": 18000,
-          "stock_value": 127683.87
-        },
-        {
-          "item_id": 912,
-          "name": "Zargon",
-          "qty": 37.76,
-          "price": 1790,
-          "stock_value": 67584.16
-        },
-        {
-          "item_id": 12012,
-          "name": "Crystal Arrow Quiver",
-          "qty": 3.99,
-          "price": 9545,
-          "stock_value": 38044.86
+          "item_id": 1039,
+          "name": "Little Evil Wing",
+          "qty": 4.87,
+          "price": 6142,
+          "stock_value": 29884.1
         }
       ],
-      "mats_stock_value_latam": 1343147.04,
+      "mats_stock_value_latam": 1139718.23,
       "cards": [
         {
           "item_id": 4234,
@@ -698,12 +575,12 @@
       ],
       "cards_sellable_total": 0.053,
       "cards_pipeline_value": 31760.55,
-      "lot_expected_value": 1374907.59,
+      "lot_expected_value": 1171478.78,
       "zeny_spent": 934062.85,
-      "net_if_sold_at_latam": 440844.74,
+      "net_if_sold_at_latam": 237415.93,
       "gates": {
-        "pause_grind_until_sold_z": 549963.04,
-        "keep_shop_until_sold_z": 824944.55
+        "pause_grind_until_sold_z": 468591.51,
+        "keep_shop_until_sold_z": 702887.27
       }
     }
   },
@@ -726,28 +603,14 @@
         "stock_value": 209630.38
       },
       {
-        "item_id": 984,
-        "name": "Oridecon",
-        "qty": 7.09,
-        "price": 18000,
-        "stock_value": 127683.87
-      },
-      {
-        "item_id": 912,
-        "name": "Zargon",
-        "qty": 37.76,
-        "price": 1790,
-        "stock_value": 67584.16
-      },
-      {
-        "item_id": 12012,
-        "name": "Crystal Arrow Quiver",
-        "qty": 3.99,
-        "price": 9545,
-        "stock_value": 38044.86
+        "item_id": 1039,
+        "name": "Little Evil Wing",
+        "qty": 4.87,
+        "price": 6142,
+        "stock_value": 29884.1
       }
     ],
-    "mats_stock_value_latam": 1343147.04,
+    "mats_stock_value_latam": 1139718.23,
     "cards": [
       {
         "item_id": 4234,
@@ -762,12 +625,12 @@
     ],
     "cards_sellable_total": 0.053,
     "cards_pipeline_value": 31760.55,
-    "lot_expected_value": 1374907.59,
+    "lot_expected_value": 1171478.78,
     "zeny_spent": 934062.85,
-    "net_if_sold_at_latam": 440844.74,
+    "net_if_sold_at_latam": 237415.93,
     "gates": {
-      "pause_grind_until_sold_z": 549963.04,
-      "keep_shop_until_sold_z": 824944.55
+      "pause_grind_until_sold_z": 468591.51,
+      "keep_shop_until_sold_z": 702887.27
     }
   }
 }

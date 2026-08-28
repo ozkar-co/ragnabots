@@ -22,10 +22,10 @@ Ruta base: `/home/oz/rathena` → `data/raw/rathena/`
 - [x] **Grindable** — 926 ítems (drop + spawn normal) — `grindable_*`
 - [x] **Diseño bots ×10** — mapas/dificultad/P(drop) — `staging/market/bots/`
 - [x] **Preview sim** — 1×, LATAM, dead time, gasto zeny, pause/shop gates, cards prt≥1M — [07](07-bot-design-sample.md)
-- [x] **Catálogo tiendas ×10** — revisión realismo + spend stub — [09](09-shop-catalog-review.md)
-- [ ] Ajustar oferta (ores/Phracon newbie) y modelo de spend real
-- [ ] Sim 100d + fase sell-down
-- [ ] Confirmar `vendings`/`loginlog` en MySQL vivo
+- [x] **NPC buyable** — 923 ítems + ubicaciones — `staging/market/npc_shops/`
+- [x] **Bots filtran NPC** — oferta sin Phracon/Meat/Zargon… — [09](09-shop-catalog-review.md)
+- [ ] Revisar Orange/Feather/herbs a ojo; spend real; sim 100d
+- [ ] Áreas vending + schema runtime diario — [08](08-activity-gated-bots.md)
 - [ ] Techo compra a jugadores (LATAM median)
 - [ ] _(más adelante)_ más fetch / Divine Pride / data/market/
 

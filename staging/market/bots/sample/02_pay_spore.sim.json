@@ -51,8 +51,8 @@
         }
       ],
       "drop_types_count": 19,
-      "ev_mats_offer_per_kill": 758.31,
-      "ev_mats_offer_per_day": 2139449.02,
+      "ev_mats_offer_per_kill": 750.21,
+      "ev_mats_offer_per_day": 2116614.08,
       "offer": {
         "mats_for_sale": [
           {
@@ -102,29 +102,10 @@
             "has_offers": true,
             "qty_per_day": 33.3188,
             "score": 55833.72
-          },
-          {
-            "item_id": 1011,
-            "aegis": "Emveretarcon",
-            "name": "Emveretarcon",
-            "type": "Etc",
-            "p_per_map_kill": 0.0016681,
-            "latam_price": 4852,
-            "latam_total_sold": 76,
-            "has_offers": false,
-            "qty_per_day": 4.7063,
-            "score": 36705.57
           }
         ],
-        "mats_discarded_count": 4,
+        "mats_discarded_count": 2,
         "mats_discarded_top10": [
-          {
-            "item_id": 993,
-            "name": "Green Live",
-            "price": 3198,
-            "qty_per_day": 1.2495,
-            "score": 25443.69
-          },
           {
             "item_id": 926,
             "name": "Snake Scale",
@@ -138,15 +119,29 @@
             "price": 1349,
             "qty_per_day": 1.4577,
             "score": 12656.99
-          },
+          }
+        ],
+        "mats_blocked_npc_buyable": [
           {
             "item_id": 7033,
             "name": "Poison Spore",
-            "price": 400,
-            "qty_per_day": 1.9884,
-            "score": 5484.16
+            "price_latam": 400,
+            "reason": "npc_buyable"
+          },
+          {
+            "item_id": 993,
+            "name": "Green Live",
+            "price_latam": 3198,
+            "reason": "npc_buyable"
+          },
+          {
+            "item_id": 1011,
+            "name": "Emveretarcon",
+            "price_latam": 4852,
+            "reason": "npc_buyable"
           }
         ],
+        "mats_blocked_npc_count": 3,
         "cards": [
           {
             "item_id": 4022,
@@ -230,16 +225,9 @@
               "qty": 33.32,
               "price": 1288,
               "stock_value": 42914.6
-            },
-            {
-              "item_id": 1011,
-              "name": "Emveretarcon",
-              "qty": 4.71,
-              "price": 4852,
-              "stock_value": 22834.94
             }
           ],
-          "mats_stock_value_latam": 2139449.02,
+          "mats_stock_value_latam": 2116614.08,
           "cards": [
             {
               "item_id": 4022,
@@ -274,12 +262,12 @@
           ],
           "cards_sellable_total": 1.223,
           "cards_pipeline_value": 108014.82,
-          "lot_expected_value": 2247463.84,
+          "lot_expected_value": 2224628.9,
           "zeny_spent": 9601.69,
-          "net_if_sold_at_latam": 2237862.15,
+          "net_if_sold_at_latam": 2215027.21,
           "gates": {
-            "pause_grind_until_sold_z": 898985.54,
-            "keep_shop_until_sold_z": 1348478.31,
+            "pause_grind_until_sold_z": 889851.56,
+            "keep_shop_until_sold_z": 1334777.34,
             "pause_frac": 0.4,
             "shop_keep_frac": 0.6
           }
@@ -316,16 +304,9 @@
               "qty": 99.96,
               "price": 1288,
               "stock_value": 128743.8
-            },
-            {
-              "item_id": 1011,
-              "name": "Emveretarcon",
-              "qty": 14.12,
-              "price": 4852,
-              "stock_value": 68504.81
             }
           ],
-          "mats_stock_value_latam": 6418347.07,
+          "mats_stock_value_latam": 6349842.25,
           "cards": [
             {
               "item_id": 4022,
@@ -360,12 +341,12 @@
           ],
           "cards_sellable_total": 3.67,
           "cards_pipeline_value": 324044.46,
-          "lot_expected_value": 6742391.53,
+          "lot_expected_value": 6673886.71,
           "zeny_spent": 28805.07,
-          "net_if_sold_at_latam": 6713586.46,
+          "net_if_sold_at_latam": 6645081.64,
           "gates": {
-            "pause_grind_until_sold_z": 2696956.61,
-            "keep_shop_until_sold_z": 4045434.92,
+            "pause_grind_until_sold_z": 2669554.69,
+            "keep_shop_until_sold_z": 4004332.03,
             "pause_frac": 0.4,
             "shop_keep_frac": 0.6
           }
@@ -402,16 +383,9 @@
               "qty": 233.23,
               "price": 1288,
               "stock_value": 300402.2
-            },
-            {
-              "item_id": 1011,
-              "name": "Emveretarcon",
-              "qty": 32.94,
-              "price": 4852,
-              "stock_value": 159844.57
             }
           ],
-          "mats_stock_value_latam": 14976143.16,
+          "mats_stock_value_latam": 14816298.59,
           "cards": [
             {
               "item_id": 4022,
@@ -446,12 +420,12 @@
           ],
           "cards_sellable_total": 8.563,
           "cards_pipeline_value": 756103.74,
-          "lot_expected_value": 15732246.9,
+          "lot_expected_value": 15572402.33,
           "zeny_spent": 67211.83,
-          "net_if_sold_at_latam": 15665035.07,
+          "net_if_sold_at_latam": 15505190.5,
           "gates": {
-            "pause_grind_until_sold_z": 6292898.76,
-            "keep_shop_until_sold_z": 9439348.14,
+            "pause_grind_until_sold_z": 6228960.93,
+            "keep_shop_until_sold_z": 9343441.4,
             "pause_frac": 0.4,
             "shop_keep_frac": 0.6
           }
@@ -488,16 +462,9 @@
               "qty": 333.19,
               "price": 1288,
               "stock_value": 429146.01
-            },
-            {
-              "item_id": 1011,
-              "name": "Emveretarcon",
-              "qty": 47.06,
-              "price": 4852,
-              "stock_value": 228349.38
             }
           ],
-          "mats_stock_value_latam": 21394490.22,
+          "mats_stock_value_latam": 21166140.84,
           "cards": [
             {
               "item_id": 4022,
@@ -532,12 +499,12 @@
           ],
           "cards_sellable_total": 12.232,
           "cards_pipeline_value": 1080148.2,
-          "lot_expected_value": 22474638.43,
+          "lot_expected_value": 22246289.05,
           "zeny_spent": 96016.9,
-          "net_if_sold_at_latam": 22378621.53,
+          "net_if_sold_at_latam": 22150272.15,
           "gates": {
-            "pause_grind_until_sold_z": 8989855.37,
-            "keep_shop_until_sold_z": 13484783.06,
+            "pause_grind_until_sold_z": 8898515.62,
+            "keep_shop_until_sold_z": 13347773.43,
             "pause_frac": 0.4,
             "shop_keep_frac": 0.6
           }
@@ -577,16 +544,9 @@
           "qty": 33.32,
           "price": 1288,
           "stock_value": 42914.6
-        },
-        {
-          "item_id": 1011,
-          "name": "Emveretarcon",
-          "qty": 4.71,
-          "price": 4852,
-          "stock_value": 22834.94
         }
       ],
-      "mats_stock_value_latam": 2139449.02,
+      "mats_stock_value_latam": 2116614.08,
       "cards": [
         {
           "item_id": 4022,
@@ -621,12 +581,12 @@
       ],
       "cards_sellable_total": 1.223,
       "cards_pipeline_value": 108014.82,
-      "lot_expected_value": 2247463.84,
+      "lot_expected_value": 2224628.9,
       "zeny_spent": 9601.69,
-      "net_if_sold_at_latam": 2237862.15,
+      "net_if_sold_at_latam": 2215027.21,
       "gates": {
-        "pause_grind_until_sold_z": 898985.54,
-        "keep_shop_until_sold_z": 1348478.3
+        "pause_grind_until_sold_z": 889851.56,
+        "keep_shop_until_sold_z": 1334777.34
       }
     },
     "3": {
@@ -660,16 +620,9 @@
           "qty": 99.96,
           "price": 1288,
           "stock_value": 128743.8
-        },
-        {
-          "item_id": 1011,
-          "name": "Emveretarcon",
-          "qty": 14.12,
-          "price": 4852,
-          "stock_value": 68504.81
         }
       ],
-      "mats_stock_value_latam": 6418347.07,
+      "mats_stock_value_latam": 6349842.25,
       "cards": [
         {
           "item_id": 4022,
@@ -704,12 +657,12 @@
       ],
       "cards_sellable_total": 3.67,
       "cards_pipeline_value": 324044.46,
-      "lot_expected_value": 6742391.53,
+      "lot_expected_value": 6673886.71,
       "zeny_spent": 28805.07,
-      "net_if_sold_at_latam": 6713586.46,
+      "net_if_sold_at_latam": 6645081.64,
       "gates": {
-        "pause_grind_until_sold_z": 2696956.61,
-        "keep_shop_until_sold_z": 4045434.92
+        "pause_grind_until_sold_z": 2669554.68,
+        "keep_shop_until_sold_z": 4004332.03
       }
     },
     "7": {
@@ -743,16 +696,9 @@
           "qty": 233.23,
           "price": 1288,
           "stock_value": 300402.2
-        },
-        {
-          "item_id": 1011,
-          "name": "Emveretarcon",
-          "qty": 32.94,
-          "price": 4852,
-          "stock_value": 159844.57
         }
       ],
-      "mats_stock_value_latam": 14976143.16,
+      "mats_stock_value_latam": 14816298.59,
       "cards": [
         {
           "item_id": 4022,
@@ -787,12 +733,12 @@
       ],
       "cards_sellable_total": 8.563,
       "cards_pipeline_value": 756103.74,
-      "lot_expected_value": 15732246.9,
+      "lot_expected_value": 15572402.33,
       "zeny_spent": 67211.83,
-      "net_if_sold_at_latam": 15665035.07,
+      "net_if_sold_at_latam": 15505190.5,
       "gates": {
-        "pause_grind_until_sold_z": 6292898.76,
-        "keep_shop_until_sold_z": 9439348.14
+        "pause_grind_until_sold_z": 6228960.93,
+        "keep_shop_until_sold_z": 9343441.4
       }
     },
     "10": {
@@ -826,16 +772,9 @@
           "qty": 333.19,
           "price": 1288,
           "stock_value": 429146.01
-        },
-        {
-          "item_id": 1011,
-          "name": "Emveretarcon",
-          "qty": 47.06,
-          "price": 4852,
-          "stock_value": 228349.38
         }
       ],
-      "mats_stock_value_latam": 21394490.22,
+      "mats_stock_value_latam": 21166140.84,
       "cards": [
         {
           "item_id": 4022,
@@ -870,12 +809,12 @@
       ],
       "cards_sellable_total": 12.232,
       "cards_pipeline_value": 1080148.2,
-      "lot_expected_value": 22474638.42,
+      "lot_expected_value": 22246289.04,
       "zeny_spent": 96016.9,
-      "net_if_sold_at_latam": 22378621.52,
+      "net_if_sold_at_latam": 22150272.14,
       "gates": {
-        "pause_grind_until_sold_z": 8989855.37,
-        "keep_shop_until_sold_z": 13484783.05
+        "pause_grind_until_sold_z": 8898515.62,
+        "keep_shop_until_sold_z": 13347773.42
       }
     }
   },
@@ -910,16 +849,9 @@
         "qty": 333.19,
         "price": 1288,
         "stock_value": 429146.01
-      },
-      {
-        "item_id": 1011,
-        "name": "Emveretarcon",
-        "qty": 47.06,
-        "price": 4852,
-        "stock_value": 228349.38
       }
     ],
-    "mats_stock_value_latam": 21394490.22,
+    "mats_stock_value_latam": 21166140.84,
     "cards": [
       {
         "item_id": 4022,
@@ -954,12 +886,12 @@
     ],
     "cards_sellable_total": 12.232,
     "cards_pipeline_value": 1080148.2,
-    "lot_expected_value": 22474638.42,
+    "lot_expected_value": 22246289.04,
     "zeny_spent": 96016.9,
-    "net_if_sold_at_latam": 22378621.52,
+    "net_if_sold_at_latam": 22150272.14,
     "gates": {
-      "pause_grind_until_sold_z": 8989855.37,
-      "keep_shop_until_sold_z": 13484783.05
+      "pause_grind_until_sold_z": 8898515.62,
+      "keep_shop_until_sold_z": 13347773.42
     }
   }
 }

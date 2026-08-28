@@ -58,8 +58,8 @@
         }
       ],
       "drop_types_count": 19,
-      "ev_mats_offer_per_kill": 644.61,
-      "ev_mats_offer_per_day": 1567777.0,
+      "ev_mats_offer_per_kill": 500.13,
+      "ev_mats_offer_per_day": 1216386.41,
       "offer": {
         "mats_for_sale": [
           {
@@ -73,30 +73,6 @@
             "has_offers": true,
             "qty_per_day": 34.3754,
             "score": 570974.31
-          },
-          {
-            "item_id": 1010,
-            "aegis": "Phracon",
-            "name": "Phracon",
-            "type": "Etc",
-            "p_per_map_kill": 0.00117781,
-            "latam_price": 45666,
-            "latam_total_sold": 1111,
-            "has_offers": true,
-            "qty_per_day": 2.8646,
-            "score": 432997.63
-          },
-          {
-            "item_id": 1002,
-            "aegis": "Iron_Ore",
-            "name": "Iron Ore",
-            "type": "Etc",
-            "p_per_map_kill": 0.00824468,
-            "latam_price": 11000,
-            "latam_total_sold": 3451,
-            "has_offers": true,
-            "qty_per_day": 20.0523,
-            "score": 273054.12
           },
           {
             "item_id": 507,
@@ -123,7 +99,7 @@
             "score": 76513.74
           }
         ],
-        "mats_discarded_count": 5,
+        "mats_discarded_count": 3,
         "mats_discarded_top10": [
           {
             "item_id": 952,
@@ -131,13 +107,6 @@
             "price": 900,
             "qty_per_day": 694.1607,
             "score": 67208.63
-          },
-          {
-            "item_id": 993,
-            "name": "Green Live",
-            "price": 3198,
-            "qty_per_day": 5.6146,
-            "score": 59295.56
           },
           {
             "item_id": 511,
@@ -152,15 +121,35 @@
             "price": 1349,
             "qty_per_day": 6.8751,
             "score": 29047.42
+          }
+        ],
+        "mats_blocked_npc_buyable": [
+          {
+            "item_id": 993,
+            "name": "Green Live",
+            "price_latam": 3198,
+            "reason": "npc_buyable"
+          },
+          {
+            "item_id": 1002,
+            "name": "Iron Ore",
+            "price_latam": 11000,
+            "reason": "npc_buyable"
           },
           {
             "item_id": 925,
             "name": "Bill of Birds",
-            "price": 416,
-            "qty_per_day": 309.3784,
-            "score": 9963.93
+            "price_latam": 416,
+            "reason": "npc_buyable"
+          },
+          {
+            "item_id": 1010,
+            "name": "Phracon",
+            "price_latam": 45666,
+            "reason": "npc_buyable"
           }
         ],
+        "mats_blocked_npc_count": 4,
         "cards": [
           {
             "item_id": 4031,
@@ -212,20 +201,6 @@
               "stock_value": 1031192.52
             },
             {
-              "item_id": 1010,
-              "name": "Phracon",
-              "qty": 2.86,
-              "price": 45666,
-              "stock_value": 130815.31
-            },
-            {
-              "item_id": 1002,
-              "name": "Iron Ore",
-              "qty": 20.05,
-              "price": 11000,
-              "stock_value": 220575.28
-            },
-            {
               "item_id": 507,
               "name": "Red Herb",
               "qty": 89.38,
@@ -240,7 +215,7 @@
               "stock_value": 60156.91
             }
           ],
-          "mats_stock_value_latam": 1567777.0,
+          "mats_stock_value_latam": 1216386.41,
           "cards": [
             {
               "item_id": 4031,
@@ -265,12 +240,12 @@
           ],
           "cards_sellable_total": 0.045,
           "cards_pipeline_value": 107711.37,
-          "lot_expected_value": 1675488.36,
+          "lot_expected_value": 1324097.77,
           "zeny_spent": 10242.05,
-          "net_if_sold_at_latam": 1665246.31,
+          "net_if_sold_at_latam": 1313855.72,
           "gates": {
-            "pause_grind_until_sold_z": 670195.35,
-            "keep_shop_until_sold_z": 1005293.02,
+            "pause_grind_until_sold_z": 529639.11,
+            "keep_shop_until_sold_z": 794458.66,
             "pause_frac": 0.4,
             "shop_keep_frac": 0.6
           }
@@ -288,20 +263,6 @@
               "stock_value": 3093577.56
             },
             {
-              "item_id": 1010,
-              "name": "Phracon",
-              "qty": 8.59,
-              "price": 45666,
-              "stock_value": 392445.92
-            },
-            {
-              "item_id": 1002,
-              "name": "Iron Ore",
-              "qty": 60.16,
-              "price": 11000,
-              "stock_value": 661725.85
-            },
-            {
               "item_id": 507,
               "name": "Red Herb",
               "qty": 268.13,
@@ -316,7 +277,7 @@
               "stock_value": 180470.72
             }
           ],
-          "mats_stock_value_latam": 4703330.99,
+          "mats_stock_value_latam": 3649159.22,
           "cards": [
             {
               "item_id": 4031,
@@ -341,12 +302,12 @@
           ],
           "cards_sellable_total": 0.137,
           "cards_pipeline_value": 323134.1,
-          "lot_expected_value": 5026465.09,
+          "lot_expected_value": 3972293.32,
           "zeny_spent": 30726.15,
-          "net_if_sold_at_latam": 4995738.94,
+          "net_if_sold_at_latam": 3941567.17,
           "gates": {
-            "pause_grind_until_sold_z": 2010586.04,
-            "keep_shop_until_sold_z": 3015879.05,
+            "pause_grind_until_sold_z": 1588917.33,
+            "keep_shop_until_sold_z": 2383375.99,
             "pause_frac": 0.4,
             "shop_keep_frac": 0.6
           }
@@ -364,20 +325,6 @@
               "stock_value": 7218347.65
             },
             {
-              "item_id": 1010,
-              "name": "Phracon",
-              "qty": 20.05,
-              "price": 45666,
-              "stock_value": 915707.15
-            },
-            {
-              "item_id": 1002,
-              "name": "Iron Ore",
-              "qty": 140.37,
-              "price": 11000,
-              "stock_value": 1544026.98
-            },
-            {
               "item_id": 507,
               "name": "Red Herb",
               "qty": 625.63,
@@ -392,7 +339,7 @@
               "stock_value": 421098.35
             }
           ],
-          "mats_stock_value_latam": 10974438.98,
+          "mats_stock_value_latam": 8514704.85,
           "cards": [
             {
               "item_id": 4031,
@@ -417,12 +364,12 @@
           ],
           "cards_sellable_total": 0.321,
           "cards_pipeline_value": 753979.56,
-          "lot_expected_value": 11728418.54,
+          "lot_expected_value": 9268684.41,
           "zeny_spent": 71694.35,
-          "net_if_sold_at_latam": 11656724.19,
+          "net_if_sold_at_latam": 9196990.06,
           "gates": {
-            "pause_grind_until_sold_z": 4691367.42,
-            "keep_shop_until_sold_z": 7037051.12,
+            "pause_grind_until_sold_z": 3707473.76,
+            "keep_shop_until_sold_z": 5561210.64,
             "pause_frac": 0.4,
             "shop_keep_frac": 0.6
           }
@@ -440,20 +387,6 @@
               "stock_value": 10311925.21
             },
             {
-              "item_id": 1010,
-              "name": "Phracon",
-              "qty": 28.65,
-              "price": 45666,
-              "stock_value": 1308153.07
-            },
-            {
-              "item_id": 1002,
-              "name": "Iron Ore",
-              "qty": 200.52,
-              "price": 11000,
-              "stock_value": 2205752.83
-            },
-            {
               "item_id": 507,
               "name": "Red Herb",
               "qty": 893.76,
@@ -468,7 +401,7 @@
               "stock_value": 601569.08
             }
           ],
-          "mats_stock_value_latam": 15677769.97,
+          "mats_stock_value_latam": 12163864.07,
           "cards": [
             {
               "item_id": 4031,
@@ -493,12 +426,12 @@
           ],
           "cards_sellable_total": 0.459,
           "cards_pipeline_value": 1077113.65,
-          "lot_expected_value": 16754883.63,
+          "lot_expected_value": 13240977.72,
           "zeny_spent": 102420.5,
-          "net_if_sold_at_latam": 16652463.13,
+          "net_if_sold_at_latam": 13138557.22,
           "gates": {
-            "pause_grind_until_sold_z": 6701953.45,
-            "keep_shop_until_sold_z": 10052930.18,
+            "pause_grind_until_sold_z": 5296391.09,
+            "keep_shop_until_sold_z": 7944586.63,
             "pause_frac": 0.4,
             "shop_keep_frac": 0.6
           }
@@ -519,20 +452,6 @@
           "stock_value": 1031192.52
         },
         {
-          "item_id": 1002,
-          "name": "Iron Ore",
-          "qty": 20.05,
-          "price": 11000,
-          "stock_value": 220575.28
-        },
-        {
-          "item_id": 1010,
-          "name": "Phracon",
-          "qty": 2.86,
-          "price": 45666,
-          "stock_value": 130815.31
-        },
-        {
           "item_id": 507,
           "name": "Red Herb",
           "qty": 89.38,
@@ -547,7 +466,7 @@
           "stock_value": 60156.91
         }
       ],
-      "mats_stock_value_latam": 1567777.0,
+      "mats_stock_value_latam": 1216386.41,
       "cards": [
         {
           "item_id": 4031,
@@ -572,12 +491,12 @@
       ],
       "cards_sellable_total": 0.045,
       "cards_pipeline_value": 107711.37,
-      "lot_expected_value": 1675488.37,
+      "lot_expected_value": 1324097.78,
       "zeny_spent": 10242.05,
-      "net_if_sold_at_latam": 1665246.32,
+      "net_if_sold_at_latam": 1313855.73,
       "gates": {
-        "pause_grind_until_sold_z": 670195.35,
-        "keep_shop_until_sold_z": 1005293.02
+        "pause_grind_until_sold_z": 529639.11,
+        "keep_shop_until_sold_z": 794458.67
       }
     },
     "3": {
@@ -590,20 +509,6 @@
           "qty": 103.13,
           "price": 29998,
           "stock_value": 3093577.56
-        },
-        {
-          "item_id": 1002,
-          "name": "Iron Ore",
-          "qty": 60.16,
-          "price": 11000,
-          "stock_value": 661725.85
-        },
-        {
-          "item_id": 1010,
-          "name": "Phracon",
-          "qty": 8.59,
-          "price": 45666,
-          "stock_value": 392445.92
         },
         {
           "item_id": 507,
@@ -620,7 +525,7 @@
           "stock_value": 180470.72
         }
       ],
-      "mats_stock_value_latam": 4703330.99,
+      "mats_stock_value_latam": 3649159.22,
       "cards": [
         {
           "item_id": 4031,
@@ -645,12 +550,12 @@
       ],
       "cards_sellable_total": 0.137,
       "cards_pipeline_value": 323134.1,
-      "lot_expected_value": 5026465.09,
+      "lot_expected_value": 3972293.32,
       "zeny_spent": 30726.15,
-      "net_if_sold_at_latam": 4995738.94,
+      "net_if_sold_at_latam": 3941567.17,
       "gates": {
-        "pause_grind_until_sold_z": 2010586.04,
-        "keep_shop_until_sold_z": 3015879.05
+        "pause_grind_until_sold_z": 1588917.33,
+        "keep_shop_until_sold_z": 2383375.99
       }
     },
     "7": {
@@ -663,20 +568,6 @@
           "qty": 240.63,
           "price": 29998,
           "stock_value": 7218347.65
-        },
-        {
-          "item_id": 1002,
-          "name": "Iron Ore",
-          "qty": 140.37,
-          "price": 11000,
-          "stock_value": 1544026.98
-        },
-        {
-          "item_id": 1010,
-          "name": "Phracon",
-          "qty": 20.05,
-          "price": 45666,
-          "stock_value": 915707.15
         },
         {
           "item_id": 507,
@@ -693,7 +584,7 @@
           "stock_value": 421098.35
         }
       ],
-      "mats_stock_value_latam": 10974438.98,
+      "mats_stock_value_latam": 8514704.85,
       "cards": [
         {
           "item_id": 4031,
@@ -718,12 +609,12 @@
       ],
       "cards_sellable_total": 0.321,
       "cards_pipeline_value": 753979.56,
-      "lot_expected_value": 11728418.54,
+      "lot_expected_value": 9268684.41,
       "zeny_spent": 71694.35,
-      "net_if_sold_at_latam": 11656724.19,
+      "net_if_sold_at_latam": 9196990.06,
       "gates": {
-        "pause_grind_until_sold_z": 4691367.42,
-        "keep_shop_until_sold_z": 7037051.12
+        "pause_grind_until_sold_z": 3707473.76,
+        "keep_shop_until_sold_z": 5561210.65
       }
     },
     "10": {
@@ -736,20 +627,6 @@
           "qty": 343.75,
           "price": 29998,
           "stock_value": 10311925.21
-        },
-        {
-          "item_id": 1002,
-          "name": "Iron Ore",
-          "qty": 200.52,
-          "price": 11000,
-          "stock_value": 2205752.83
-        },
-        {
-          "item_id": 1010,
-          "name": "Phracon",
-          "qty": 28.65,
-          "price": 45666,
-          "stock_value": 1308153.07
         },
         {
           "item_id": 507,
@@ -766,7 +643,7 @@
           "stock_value": 601569.08
         }
       ],
-      "mats_stock_value_latam": 15677769.97,
+      "mats_stock_value_latam": 12163864.07,
       "cards": [
         {
           "item_id": 4031,
@@ -791,12 +668,12 @@
       ],
       "cards_sellable_total": 0.459,
       "cards_pipeline_value": 1077113.65,
-      "lot_expected_value": 16754883.62,
+      "lot_expected_value": 13240977.72,
       "zeny_spent": 102420.5,
-      "net_if_sold_at_latam": 16652463.12,
+      "net_if_sold_at_latam": 13138557.22,
       "gates": {
-        "pause_grind_until_sold_z": 6701953.45,
-        "keep_shop_until_sold_z": 10052930.17
+        "pause_grind_until_sold_z": 5296391.09,
+        "keep_shop_until_sold_z": 7944586.63
       }
     }
   },
@@ -810,20 +687,6 @@
         "qty": 343.75,
         "price": 29998,
         "stock_value": 10311925.21
-      },
-      {
-        "item_id": 1002,
-        "name": "Iron Ore",
-        "qty": 200.52,
-        "price": 11000,
-        "stock_value": 2205752.83
-      },
-      {
-        "item_id": 1010,
-        "name": "Phracon",
-        "qty": 28.65,
-        "price": 45666,
-        "stock_value": 1308153.07
       },
       {
         "item_id": 507,
@@ -840,7 +703,7 @@
         "stock_value": 601569.08
       }
     ],
-    "mats_stock_value_latam": 15677769.97,
+    "mats_stock_value_latam": 12163864.07,
     "cards": [
       {
         "item_id": 4031,
@@ -865,12 +728,12 @@
     ],
     "cards_sellable_total": 0.459,
     "cards_pipeline_value": 1077113.65,
-    "lot_expected_value": 16754883.62,
+    "lot_expected_value": 13240977.72,
     "zeny_spent": 102420.5,
-    "net_if_sold_at_latam": 16652463.12,
+    "net_if_sold_at_latam": 13138557.22,
     "gates": {
-      "pause_grind_until_sold_z": 6701953.45,
-      "keep_shop_until_sold_z": 10052930.17
+      "pause_grind_until_sold_z": 5296391.09,
+      "keep_shop_until_sold_z": 7944586.63
     }
   }
 }

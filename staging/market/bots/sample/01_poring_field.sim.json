@@ -86,22 +86,10 @@
         }
       ],
       "drop_types_count": 27,
-      "ev_mats_offer_per_kill": 2256.79,
-      "ev_mats_offer_per_day": 7582812.31,
+      "ev_mats_offer_per_kill": 1984.26,
+      "ev_mats_offer_per_day": 6667128.47,
       "offer": {
         "mats_for_sale": [
-          {
-            "item_id": 1010,
-            "aegis": "Phracon",
-            "name": "Phracon",
-            "type": "Etc",
-            "p_per_map_kill": 0.00194805,
-            "latam_price": 45666,
-            "latam_total_sold": 1111,
-            "has_offers": true,
-            "qty_per_day": 6.5454,
-            "score": 647303.39
-          },
           {
             "item_id": 949,
             "aegis": "Feather",
@@ -115,30 +103,6 @@
             "score": 514680.21
           },
           {
-            "item_id": 1002,
-            "aegis": "Iron_Ore",
-            "name": "Iron Ore",
-            "type": "Etc",
-            "p_per_map_kill": 0.00162338,
-            "latam_price": 11000,
-            "latam_total_sold": 3451,
-            "has_offers": true,
-            "qty_per_day": 5.4546,
-            "score": 167110.59
-          },
-          {
-            "item_id": 909,
-            "aegis": "Jellopy",
-            "name": "Jellopy",
-            "type": "Etc",
-            "p_per_map_kill": 0.30340909,
-            "latam_price": 2099,
-            "latam_total_sold": 36936,
-            "has_offers": true,
-            "qty_per_day": 1019.4545,
-            "score": 152936.49
-          },
-          {
             "item_id": 705,
             "aegis": "Clover",
             "name": "Clover",
@@ -149,24 +113,34 @@
             "has_offers": true,
             "qty_per_day": 739.6364,
             "score": 113358.53
-          }
-        ],
-        "mats_discarded_count": 5,
-        "mats_discarded_top10": [
+          },
           {
             "item_id": 914,
+            "aegis": "Fluff",
             "name": "Fluff",
-            "price": 1700,
+            "type": "Etc",
+            "p_per_map_kill": 0.20113636,
+            "latam_price": 1700,
+            "latam_total_sold": 6292,
+            "has_offers": true,
             "qty_per_day": 675.8182,
             "score": 96915.27
           },
           {
             "item_id": 511,
+            "aegis": "Green_Herb",
             "name": "Green Herb",
-            "price": 1499,
+            "type": "Healing",
+            "p_per_map_kill": 0.0862013,
+            "latam_price": 1499,
+            "latam_total_sold": 35585,
+            "has_offers": true,
             "qty_per_day": 289.6364,
             "score": 89103.06
-          },
+          }
+        ],
+        "mats_discarded_count": 3,
+        "mats_discarded_top10": [
           {
             "item_id": 938,
             "name": "Sticky Mucus",
@@ -189,6 +163,27 @@
             "score": 65344.45
           }
         ],
+        "mats_blocked_npc_buyable": [
+          {
+            "item_id": 909,
+            "name": "Jellopy",
+            "price_latam": 2099,
+            "reason": "npc_buyable"
+          },
+          {
+            "item_id": 1010,
+            "name": "Phracon",
+            "price_latam": 45666,
+            "reason": "npc_buyable"
+          },
+          {
+            "item_id": 1002,
+            "name": "Iron Ore",
+            "price_latam": 11000,
+            "reason": "npc_buyable"
+          }
+        ],
+        "mats_blocked_npc_count": 3,
         "cards": [
           {
             "item_id": 4003,
@@ -241,13 +236,6 @@
           "hours": 3.5,
           "mats_stock": [
             {
-              "item_id": 1010,
-              "name": "Phracon",
-              "qty": 6.55,
-              "price": 45666,
-              "stock_value": 298904.43
-            },
-            {
               "item_id": 949,
               "name": "Feather",
               "qty": 375.27,
@@ -255,28 +243,28 @@
               "stock_value": 3752727.22
             },
             {
-              "item_id": 1002,
-              "name": "Iron Ore",
-              "qty": 5.45,
-              "price": 11000,
-              "stock_value": 60000.12
-            },
-            {
-              "item_id": 909,
-              "name": "Jellopy",
-              "qty": 1019.45,
-              "price": 2099,
-              "stock_value": 2139835.08
-            },
-            {
               "item_id": 705,
               "name": "Clover",
               "qty": 739.64,
               "price": 1800,
               "stock_value": 1331345.45
+            },
+            {
+              "item_id": 914,
+              "name": "Fluff",
+              "qty": 675.82,
+              "price": 1700,
+              "stock_value": 1148890.89
+            },
+            {
+              "item_id": 511,
+              "name": "Green Herb",
+              "qty": 289.64,
+              "price": 1499,
+              "stock_value": 434164.92
             }
           ],
-          "mats_stock_value_latam": 7582812.31,
+          "mats_stock_value_latam": 6667128.47,
           "cards": [
             {
               "item_id": 4003,
@@ -291,12 +279,12 @@
           ],
           "cards_sellable_total": 0.005,
           "cards_pipeline_value": 10373.99,
-          "lot_expected_value": 7593186.3,
+          "lot_expected_value": 6677502.46,
           "zeny_spent": 8708.14,
-          "net_if_sold_at_latam": 7584478.16,
+          "net_if_sold_at_latam": 6668794.32,
           "gates": {
-            "pause_grind_until_sold_z": 3037274.52,
-            "keep_shop_until_sold_z": 4555911.78,
+            "pause_grind_until_sold_z": 2671000.99,
+            "keep_shop_until_sold_z": 4006501.48,
             "pause_frac": 0.4,
             "shop_keep_frac": 0.6
           }
@@ -307,13 +295,6 @@
           "hours": 10.5,
           "mats_stock": [
             {
-              "item_id": 1010,
-              "name": "Phracon",
-              "qty": 19.64,
-              "price": 45666,
-              "stock_value": 896713.29
-            },
-            {
               "item_id": 949,
               "name": "Feather",
               "qty": 1125.82,
@@ -321,28 +302,28 @@
               "stock_value": 11258181.65
             },
             {
-              "item_id": 1002,
-              "name": "Iron Ore",
-              "qty": 16.36,
-              "price": 11000,
-              "stock_value": 180000.37
-            },
-            {
-              "item_id": 909,
-              "name": "Jellopy",
-              "qty": 3058.36,
-              "price": 2099,
-              "stock_value": 6419505.25
-            },
-            {
               "item_id": 705,
               "name": "Clover",
               "qty": 2218.91,
               "price": 1800,
               "stock_value": 3994036.36
+            },
+            {
+              "item_id": 914,
+              "name": "Fluff",
+              "qty": 2027.45,
+              "price": 1700,
+              "stock_value": 3446672.66
+            },
+            {
+              "item_id": 511,
+              "name": "Green Herb",
+              "qty": 868.91,
+              "price": 1499,
+              "stock_value": 1302494.75
             }
           ],
-          "mats_stock_value_latam": 22748436.92,
+          "mats_stock_value_latam": 20001385.42,
           "cards": [
             {
               "item_id": 4003,
@@ -357,12 +338,12 @@
           ],
           "cards_sellable_total": 0.016,
           "cards_pipeline_value": 31121.97,
-          "lot_expected_value": 22779558.89,
+          "lot_expected_value": 20032507.39,
           "zeny_spent": 26124.42,
-          "net_if_sold_at_latam": 22753434.47,
+          "net_if_sold_at_latam": 20006382.97,
           "gates": {
-            "pause_grind_until_sold_z": 9111823.56,
-            "keep_shop_until_sold_z": 13667735.33,
+            "pause_grind_until_sold_z": 8013002.96,
+            "keep_shop_until_sold_z": 12019504.43,
             "pause_frac": 0.4,
             "shop_keep_frac": 0.6
           }
@@ -373,13 +354,6 @@
           "hours": 24.5,
           "mats_stock": [
             {
-              "item_id": 1010,
-              "name": "Phracon",
-              "qty": 45.82,
-              "price": 45666,
-              "stock_value": 2092331.0
-            },
-            {
               "item_id": 949,
               "name": "Feather",
               "qty": 2626.91,
@@ -387,28 +361,28 @@
               "stock_value": 26269090.51
             },
             {
-              "item_id": 1002,
-              "name": "Iron Ore",
-              "qty": 38.18,
-              "price": 11000,
-              "stock_value": 420000.87
-            },
-            {
-              "item_id": 909,
-              "name": "Jellopy",
-              "qty": 7136.18,
-              "price": 2099,
-              "stock_value": 14978845.59
-            },
-            {
               "item_id": 705,
               "name": "Clover",
               "qty": 5177.45,
               "price": 1800,
               "stock_value": 9319418.18
+            },
+            {
+              "item_id": 914,
+              "name": "Fluff",
+              "qty": 4730.73,
+              "price": 1700,
+              "stock_value": 8042236.22
+            },
+            {
+              "item_id": 511,
+              "name": "Green Herb",
+              "qty": 2027.45,
+              "price": 1499,
+              "stock_value": 3039154.41
             }
           ],
-          "mats_stock_value_latam": 53079686.15,
+          "mats_stock_value_latam": 46669899.32,
           "cards": [
             {
               "item_id": 4003,
@@ -423,12 +397,12 @@
           ],
           "cards_sellable_total": 0.038,
           "cards_pipeline_value": 72617.92,
-          "lot_expected_value": 53152304.08,
+          "lot_expected_value": 46742517.24,
           "zeny_spent": 60956.98,
-          "net_if_sold_at_latam": 53091347.1,
+          "net_if_sold_at_latam": 46681560.26,
           "gates": {
-            "pause_grind_until_sold_z": 21260921.63,
-            "keep_shop_until_sold_z": 31891382.45,
+            "pause_grind_until_sold_z": 18697006.9,
+            "keep_shop_until_sold_z": 28045510.34,
             "pause_frac": 0.4,
             "shop_keep_frac": 0.6
           }
@@ -439,13 +413,6 @@
           "hours": 35.0,
           "mats_stock": [
             {
-              "item_id": 1010,
-              "name": "Phracon",
-              "qty": 65.45,
-              "price": 45666,
-              "stock_value": 2989044.28
-            },
-            {
               "item_id": 949,
               "name": "Feather",
               "qty": 3752.73,
@@ -453,28 +420,28 @@
               "stock_value": 37527272.16
             },
             {
-              "item_id": 1002,
-              "name": "Iron Ore",
-              "qty": 54.55,
-              "price": 11000,
-              "stock_value": 600001.25
-            },
-            {
-              "item_id": 909,
-              "name": "Jellopy",
-              "qty": 10194.55,
-              "price": 2099,
-              "stock_value": 21398350.84
-            },
-            {
               "item_id": 705,
               "name": "Clover",
               "qty": 7396.36,
               "price": 1800,
               "stock_value": 13313454.54
+            },
+            {
+              "item_id": 914,
+              "name": "Fluff",
+              "qty": 6758.18,
+              "price": 1700,
+              "stock_value": 11488908.88
+            },
+            {
+              "item_id": 511,
+              "name": "Green Herb",
+              "qty": 2896.36,
+              "price": 1499,
+              "stock_value": 4341649.16
             }
           ],
-          "mats_stock_value_latam": 75828123.07,
+          "mats_stock_value_latam": 66671284.74,
           "cards": [
             {
               "item_id": 4003,
@@ -489,12 +456,12 @@
           ],
           "cards_sellable_total": 0.055,
           "cards_pipeline_value": 103739.89,
-          "lot_expected_value": 75931862.97,
+          "lot_expected_value": 66775024.63,
           "zeny_spent": 87081.4,
-          "net_if_sold_at_latam": 75844781.57,
+          "net_if_sold_at_latam": 66687943.23,
           "gates": {
-            "pause_grind_until_sold_z": 30372745.19,
-            "keep_shop_until_sold_z": 45559117.78,
+            "pause_grind_until_sold_z": 26710009.85,
+            "keep_shop_until_sold_z": 40065014.78,
             "pause_frac": 0.4,
             "shop_keep_frac": 0.6
           }
@@ -515,13 +482,6 @@
           "stock_value": 3752727.22
         },
         {
-          "item_id": 909,
-          "name": "Jellopy",
-          "qty": 1019.45,
-          "price": 2099,
-          "stock_value": 2139835.08
-        },
-        {
           "item_id": 705,
           "name": "Clover",
           "qty": 739.64,
@@ -529,21 +489,21 @@
           "stock_value": 1331345.45
         },
         {
-          "item_id": 1010,
-          "name": "Phracon",
-          "qty": 6.55,
-          "price": 45666,
-          "stock_value": 298904.43
+          "item_id": 914,
+          "name": "Fluff",
+          "qty": 675.82,
+          "price": 1700,
+          "stock_value": 1148890.89
         },
         {
-          "item_id": 1002,
-          "name": "Iron Ore",
-          "qty": 5.45,
-          "price": 11000,
-          "stock_value": 60000.12
+          "item_id": 511,
+          "name": "Green Herb",
+          "qty": 289.64,
+          "price": 1499,
+          "stock_value": 434164.92
         }
       ],
-      "mats_stock_value_latam": 7582812.31,
+      "mats_stock_value_latam": 6667128.47,
       "cards": [
         {
           "item_id": 4003,
@@ -558,12 +518,12 @@
       ],
       "cards_sellable_total": 0.005,
       "cards_pipeline_value": 10373.99,
-      "lot_expected_value": 7593186.3,
+      "lot_expected_value": 6677502.46,
       "zeny_spent": 8708.14,
-      "net_if_sold_at_latam": 7584478.16,
+      "net_if_sold_at_latam": 6668794.32,
       "gates": {
-        "pause_grind_until_sold_z": 3037274.52,
-        "keep_shop_until_sold_z": 4555911.78
+        "pause_grind_until_sold_z": 2671000.98,
+        "keep_shop_until_sold_z": 4006501.48
       }
     },
     "3": {
@@ -578,13 +538,6 @@
           "stock_value": 11258181.65
         },
         {
-          "item_id": 909,
-          "name": "Jellopy",
-          "qty": 3058.36,
-          "price": 2099,
-          "stock_value": 6419505.25
-        },
-        {
           "item_id": 705,
           "name": "Clover",
           "qty": 2218.91,
@@ -592,21 +545,21 @@
           "stock_value": 3994036.36
         },
         {
-          "item_id": 1010,
-          "name": "Phracon",
-          "qty": 19.64,
-          "price": 45666,
-          "stock_value": 896713.29
+          "item_id": 914,
+          "name": "Fluff",
+          "qty": 2027.45,
+          "price": 1700,
+          "stock_value": 3446672.66
         },
         {
-          "item_id": 1002,
-          "name": "Iron Ore",
-          "qty": 16.36,
-          "price": 11000,
-          "stock_value": 180000.37
+          "item_id": 511,
+          "name": "Green Herb",
+          "qty": 868.91,
+          "price": 1499,
+          "stock_value": 1302494.75
         }
       ],
-      "mats_stock_value_latam": 22748436.92,
+      "mats_stock_value_latam": 20001385.42,
       "cards": [
         {
           "item_id": 4003,
@@ -621,12 +574,12 @@
       ],
       "cards_sellable_total": 0.016,
       "cards_pipeline_value": 31121.97,
-      "lot_expected_value": 22779558.89,
+      "lot_expected_value": 20032507.39,
       "zeny_spent": 26124.42,
-      "net_if_sold_at_latam": 22753434.47,
+      "net_if_sold_at_latam": 20006382.97,
       "gates": {
-        "pause_grind_until_sold_z": 9111823.56,
-        "keep_shop_until_sold_z": 13667735.33
+        "pause_grind_until_sold_z": 8013002.96,
+        "keep_shop_until_sold_z": 12019504.43
       }
     },
     "7": {
@@ -641,13 +594,6 @@
           "stock_value": 26269090.51
         },
         {
-          "item_id": 909,
-          "name": "Jellopy",
-          "qty": 7136.18,
-          "price": 2099,
-          "stock_value": 14978845.59
-        },
-        {
           "item_id": 705,
           "name": "Clover",
           "qty": 5177.45,
@@ -655,21 +601,21 @@
           "stock_value": 9319418.18
         },
         {
-          "item_id": 1010,
-          "name": "Phracon",
-          "qty": 45.82,
-          "price": 45666,
-          "stock_value": 2092331.0
+          "item_id": 914,
+          "name": "Fluff",
+          "qty": 4730.73,
+          "price": 1700,
+          "stock_value": 8042236.22
         },
         {
-          "item_id": 1002,
-          "name": "Iron Ore",
-          "qty": 38.18,
-          "price": 11000,
-          "stock_value": 420000.87
+          "item_id": 511,
+          "name": "Green Herb",
+          "qty": 2027.45,
+          "price": 1499,
+          "stock_value": 3039154.41
         }
       ],
-      "mats_stock_value_latam": 53079686.15,
+      "mats_stock_value_latam": 46669899.32,
       "cards": [
         {
           "item_id": 4003,
@@ -684,12 +630,12 @@
       ],
       "cards_sellable_total": 0.038,
       "cards_pipeline_value": 72617.92,
-      "lot_expected_value": 53152304.07,
+      "lot_expected_value": 46742517.24,
       "zeny_spent": 60956.98,
-      "net_if_sold_at_latam": 53091347.09,
+      "net_if_sold_at_latam": 46681560.26,
       "gates": {
-        "pause_grind_until_sold_z": 21260921.63,
-        "keep_shop_until_sold_z": 31891382.44
+        "pause_grind_until_sold_z": 18697006.9,
+        "keep_shop_until_sold_z": 28045510.34
       }
     },
     "10": {
@@ -704,13 +650,6 @@
           "stock_value": 37527272.16
         },
         {
-          "item_id": 909,
-          "name": "Jellopy",
-          "qty": 10194.55,
-          "price": 2099,
-          "stock_value": 21398350.84
-        },
-        {
           "item_id": 705,
           "name": "Clover",
           "qty": 7396.36,
@@ -718,21 +657,21 @@
           "stock_value": 13313454.54
         },
         {
-          "item_id": 1010,
-          "name": "Phracon",
-          "qty": 65.45,
-          "price": 45666,
-          "stock_value": 2989044.28
+          "item_id": 914,
+          "name": "Fluff",
+          "qty": 6758.18,
+          "price": 1700,
+          "stock_value": 11488908.88
         },
         {
-          "item_id": 1002,
-          "name": "Iron Ore",
-          "qty": 54.55,
-          "price": 11000,
-          "stock_value": 600001.25
+          "item_id": 511,
+          "name": "Green Herb",
+          "qty": 2896.36,
+          "price": 1499,
+          "stock_value": 4341649.16
         }
       ],
-      "mats_stock_value_latam": 75828123.07,
+      "mats_stock_value_latam": 66671284.74,
       "cards": [
         {
           "item_id": 4003,
@@ -747,12 +686,12 @@
       ],
       "cards_sellable_total": 0.055,
       "cards_pipeline_value": 103739.89,
-      "lot_expected_value": 75931862.96,
+      "lot_expected_value": 66775024.63,
       "zeny_spent": 87081.4,
-      "net_if_sold_at_latam": 75844781.56,
+      "net_if_sold_at_latam": 66687943.23,
       "gates": {
-        "pause_grind_until_sold_z": 30372745.18,
-        "keep_shop_until_sold_z": 45559117.78
+        "pause_grind_until_sold_z": 26710009.85,
+        "keep_shop_until_sold_z": 40065014.78
       }
     }
   },
@@ -768,13 +707,6 @@
         "stock_value": 37527272.16
       },
       {
-        "item_id": 909,
-        "name": "Jellopy",
-        "qty": 10194.55,
-        "price": 2099,
-        "stock_value": 21398350.84
-      },
-      {
         "item_id": 705,
         "name": "Clover",
         "qty": 7396.36,
@@ -782,21 +714,21 @@
         "stock_value": 13313454.54
       },
       {
-        "item_id": 1010,
-        "name": "Phracon",
-        "qty": 65.45,
-        "price": 45666,
-        "stock_value": 2989044.28
+        "item_id": 914,
+        "name": "Fluff",
+        "qty": 6758.18,
+        "price": 1700,
+        "stock_value": 11488908.88
       },
       {
-        "item_id": 1002,
-        "name": "Iron Ore",
-        "qty": 54.55,
-        "price": 11000,
-        "stock_value": 600001.25
+        "item_id": 511,
+        "name": "Green Herb",
+        "qty": 2896.36,
+        "price": 1499,
+        "stock_value": 4341649.16
       }
     ],
-    "mats_stock_value_latam": 75828123.07,
+    "mats_stock_value_latam": 66671284.74,
     "cards": [
       {
         "item_id": 4003,
@@ -811,12 +743,12 @@
     ],
     "cards_sellable_total": 0.055,
     "cards_pipeline_value": 103739.89,
-    "lot_expected_value": 75931862.96,
+    "lot_expected_value": 66775024.63,
     "zeny_spent": 87081.4,
-    "net_if_sold_at_latam": 75844781.56,
+    "net_if_sold_at_latam": 66687943.23,
     "gates": {
-      "pause_grind_until_sold_z": 30372745.18,
-      "keep_shop_until_sold_z": 45559117.78
+      "pause_grind_until_sold_z": 26710009.85,
+      "keep_shop_until_sold_z": 40065014.78
     }
   }
 }

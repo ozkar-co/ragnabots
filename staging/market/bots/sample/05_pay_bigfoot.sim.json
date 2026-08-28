@@ -65,8 +65,8 @@
         }
       ],
       "drop_types_count": 27,
-      "ev_mats_offer_per_kill": 2212.67,
-      "ev_mats_offer_per_day": 4748054.27,
+      "ev_mats_offer_per_kill": 2196.66,
+      "ev_mats_offer_per_day": 4713704.75,
       "offer": {
         "mats_for_sale": [
           {
@@ -106,18 +106,6 @@
             "score": 194610.16
           },
           {
-            "item_id": 1002,
-            "aegis": "Iron_Ore",
-            "name": "Iron Ore",
-            "type": "Etc",
-            "p_per_map_kill": 0.00145522,
-            "latam_price": 11000,
-            "latam_total_sold": 3451,
-            "has_offers": true,
-            "qty_per_day": 3.1227,
-            "score": 126938.34
-          },
-          {
             "item_id": 518,
             "aegis": "Honey",
             "name": "Honey",
@@ -130,7 +118,7 @@
             "score": 102207.25
           }
         ],
-        "mats_discarded_count": 6,
+        "mats_discarded_count": 2,
         "mats_discarded_top10": [
           {
             "item_id": 756,
@@ -140,34 +128,6 @@
             "score": 94096.89
           },
           {
-            "item_id": 910,
-            "name": "Garlet",
-            "price": 2500,
-            "qty_per_day": 21.8589,
-            "score": 52574.61
-          },
-          {
-            "item_id": 919,
-            "name": "Animal Skin",
-            "price": 999,
-            "qty_per_day": 452.39,
-            "score": 41498.68
-          },
-          {
-            "item_id": 992,
-            "name": "Wind of Verdure",
-            "price": 2899,
-            "qty_per_day": 0.7286,
-            "score": 17504.07
-          },
-          {
-            "item_id": 1011,
-            "name": "Emveretarcon",
-            "price": 4852,
-            "qty_per_day": 0.3123,
-            "score": 5727.53
-          },
-          {
             "item_id": 757,
             "name": "Rough Elunium",
             "price": 1000,
@@ -175,6 +135,39 @@
             "score": 1692.33
           }
         ],
+        "mats_blocked_npc_buyable": [
+          {
+            "item_id": 919,
+            "name": "Animal Skin",
+            "price_latam": 999,
+            "reason": "npc_buyable"
+          },
+          {
+            "item_id": 992,
+            "name": "Wind of Verdure",
+            "price_latam": 2899,
+            "reason": "npc_buyable"
+          },
+          {
+            "item_id": 1011,
+            "name": "Emveretarcon",
+            "price_latam": 4852,
+            "reason": "npc_buyable"
+          },
+          {
+            "item_id": 910,
+            "name": "Garlet",
+            "price_latam": 2500,
+            "reason": "npc_buyable"
+          },
+          {
+            "item_id": 1002,
+            "name": "Iron Ore",
+            "price_latam": 11000,
+            "reason": "npc_buyable"
+          }
+        ],
+        "mats_blocked_npc_count": 5,
         "cards": [
           {
             "item_id": 4074,
@@ -253,13 +246,6 @@
               "stock_value": 936807.73
             },
             {
-              "item_id": 1002,
-              "name": "Iron Ore",
-              "qty": 3.12,
-              "price": 11000,
-              "stock_value": 34349.52
-            },
-            {
               "item_id": 518,
               "name": "Honey",
               "qty": 37.31,
@@ -267,7 +253,7 @@
               "stock_value": 100369.73
             }
           ],
-          "mats_stock_value_latam": 4748054.27,
+          "mats_stock_value_latam": 4713704.75,
           "cards": [
             {
               "item_id": 4074,
@@ -302,12 +288,12 @@
           ],
           "cards_sellable_total": 0.1,
           "cards_pipeline_value": 155836.98,
-          "lot_expected_value": 4903891.26,
+          "lot_expected_value": 4869541.73,
           "zeny_spent": 10861.44,
-          "net_if_sold_at_latam": 4893029.81,
+          "net_if_sold_at_latam": 4858680.29,
           "gates": {
-            "pause_grind_until_sold_z": 1961556.5,
-            "keep_shop_until_sold_z": 2942334.75,
+            "pause_grind_until_sold_z": 1947816.69,
+            "keep_shop_until_sold_z": 2921725.04,
             "pause_frac": 0.4,
             "shop_keep_frac": 0.6
           }
@@ -339,13 +325,6 @@
               "stock_value": 2810423.18
             },
             {
-              "item_id": 1002,
-              "name": "Iron Ore",
-              "qty": 9.37,
-              "price": 11000,
-              "stock_value": 103048.57
-            },
-            {
               "item_id": 518,
               "name": "Honey",
               "qty": 111.94,
@@ -353,7 +332,7 @@
               "stock_value": 301109.2
             }
           ],
-          "mats_stock_value_latam": 14244162.82,
+          "mats_stock_value_latam": 14141114.26,
           "cards": [
             {
               "item_id": 4074,
@@ -388,12 +367,12 @@
           ],
           "cards_sellable_total": 0.3,
           "cards_pipeline_value": 467510.94,
-          "lot_expected_value": 14711673.77,
+          "lot_expected_value": 14608625.2,
           "zeny_spent": 32584.33,
-          "net_if_sold_at_latam": 14679089.43,
+          "net_if_sold_at_latam": 14576040.87,
           "gates": {
-            "pause_grind_until_sold_z": 5884669.51,
-            "keep_shop_until_sold_z": 8827004.26,
+            "pause_grind_until_sold_z": 5843450.08,
+            "keep_shop_until_sold_z": 8765175.12,
             "pause_frac": 0.4,
             "shop_keep_frac": 0.6
           }
@@ -425,13 +404,6 @@
               "stock_value": 6557654.08
             },
             {
-              "item_id": 1002,
-              "name": "Iron Ore",
-              "qty": 21.86,
-              "price": 11000,
-              "stock_value": 240446.66
-            },
-            {
               "item_id": 518,
               "name": "Honey",
               "qty": 261.19,
@@ -439,7 +411,7 @@
               "stock_value": 702588.13
             }
           ],
-          "mats_stock_value_latam": 33236379.92,
+          "mats_stock_value_latam": 32995933.27,
           "cards": [
             {
               "item_id": 4074,
@@ -474,12 +446,12 @@
           ],
           "cards_sellable_total": 0.701,
           "cards_pipeline_value": 1090858.87,
-          "lot_expected_value": 34327238.79,
+          "lot_expected_value": 34086792.14,
           "zeny_spent": 76030.11,
-          "net_if_sold_at_latam": 34251208.68,
+          "net_if_sold_at_latam": 34010762.02,
           "gates": {
-            "pause_grind_until_sold_z": 13730895.52,
-            "keep_shop_until_sold_z": 20596343.28,
+            "pause_grind_until_sold_z": 13634716.85,
+            "keep_shop_until_sold_z": 20452075.28,
             "pause_frac": 0.4,
             "shop_keep_frac": 0.6
           }
@@ -511,13 +483,6 @@
               "stock_value": 9368077.26
             },
             {
-              "item_id": 1002,
-              "name": "Iron Ore",
-              "qty": 31.23,
-              "price": 11000,
-              "stock_value": 343495.22
-            },
-            {
               "item_id": 518,
               "name": "Honey",
               "qty": 373.12,
@@ -525,7 +490,7 @@
               "stock_value": 1003697.33
             }
           ],
-          "mats_stock_value_latam": 47480542.75,
+          "mats_stock_value_latam": 47137047.53,
           "cards": [
             {
               "item_id": 4074,
@@ -560,12 +525,12 @@
           ],
           "cards_sellable_total": 1.001,
           "cards_pipeline_value": 1558369.81,
-          "lot_expected_value": 49038912.56,
+          "lot_expected_value": 48695417.34,
           "zeny_spent": 108614.45,
-          "net_if_sold_at_latam": 48930298.11,
+          "net_if_sold_at_latam": 48586802.89,
           "gates": {
-            "pause_grind_until_sold_z": 19615565.02,
-            "keep_shop_until_sold_z": 29423347.54,
+            "pause_grind_until_sold_z": 19478166.94,
+            "keep_shop_until_sold_z": 29217250.4,
             "pause_frac": 0.4,
             "shop_keep_frac": 0.6
           }
@@ -605,16 +570,9 @@
           "qty": 37.31,
           "price": 2690,
           "stock_value": 100369.73
-        },
-        {
-          "item_id": 1002,
-          "name": "Iron Ore",
-          "qty": 3.12,
-          "price": 11000,
-          "stock_value": 34349.52
         }
       ],
-      "mats_stock_value_latam": 4748054.27,
+      "mats_stock_value_latam": 4713704.75,
       "cards": [
         {
           "item_id": 4074,
@@ -649,12 +607,12 @@
       ],
       "cards_sellable_total": 0.1,
       "cards_pipeline_value": 155836.98,
-      "lot_expected_value": 4903891.25,
+      "lot_expected_value": 4869541.73,
       "zeny_spent": 10861.44,
-      "net_if_sold_at_latam": 4893029.81,
+      "net_if_sold_at_latam": 4858680.29,
       "gates": {
-        "pause_grind_until_sold_z": 1961556.5,
-        "keep_shop_until_sold_z": 2942334.75
+        "pause_grind_until_sold_z": 1947816.69,
+        "keep_shop_until_sold_z": 2921725.04
       }
     },
     "3": {
@@ -688,16 +646,9 @@
           "qty": 111.94,
           "price": 2690,
           "stock_value": 301109.2
-        },
-        {
-          "item_id": 1002,
-          "name": "Iron Ore",
-          "qty": 9.37,
-          "price": 11000,
-          "stock_value": 103048.57
         }
       ],
-      "mats_stock_value_latam": 14244162.82,
+      "mats_stock_value_latam": 14141114.26,
       "cards": [
         {
           "item_id": 4074,
@@ -732,12 +683,12 @@
       ],
       "cards_sellable_total": 0.3,
       "cards_pipeline_value": 467510.94,
-      "lot_expected_value": 14711673.76,
+      "lot_expected_value": 14608625.2,
       "zeny_spent": 32584.33,
-      "net_if_sold_at_latam": 14679089.43,
+      "net_if_sold_at_latam": 14576040.87,
       "gates": {
-        "pause_grind_until_sold_z": 5884669.5,
-        "keep_shop_until_sold_z": 8827004.26
+        "pause_grind_until_sold_z": 5843450.08,
+        "keep_shop_until_sold_z": 8765175.12
       }
     },
     "7": {
@@ -771,16 +722,9 @@
           "qty": 261.19,
           "price": 2690,
           "stock_value": 702588.13
-        },
-        {
-          "item_id": 1002,
-          "name": "Iron Ore",
-          "qty": 21.86,
-          "price": 11000,
-          "stock_value": 240446.66
         }
       ],
-      "mats_stock_value_latam": 33236379.92,
+      "mats_stock_value_latam": 32995933.27,
       "cards": [
         {
           "item_id": 4074,
@@ -815,12 +759,12 @@
       ],
       "cards_sellable_total": 0.701,
       "cards_pipeline_value": 1090858.87,
-      "lot_expected_value": 34327238.79,
+      "lot_expected_value": 34086792.14,
       "zeny_spent": 76030.11,
-      "net_if_sold_at_latam": 34251208.68,
+      "net_if_sold_at_latam": 34010762.03,
       "gates": {
-        "pause_grind_until_sold_z": 13730895.52,
-        "keep_shop_until_sold_z": 20596343.27
+        "pause_grind_until_sold_z": 13634716.86,
+        "keep_shop_until_sold_z": 20452075.28
       }
     },
     "10": {
@@ -854,16 +798,9 @@
           "qty": 373.12,
           "price": 2690,
           "stock_value": 1003697.33
-        },
-        {
-          "item_id": 1002,
-          "name": "Iron Ore",
-          "qty": 31.23,
-          "price": 11000,
-          "stock_value": 343495.22
         }
       ],
-      "mats_stock_value_latam": 47480542.75,
+      "mats_stock_value_latam": 47137047.53,
       "cards": [
         {
           "item_id": 4074,
@@ -898,12 +835,12 @@
       ],
       "cards_sellable_total": 1.001,
       "cards_pipeline_value": 1558369.81,
-      "lot_expected_value": 49038912.56,
+      "lot_expected_value": 48695417.34,
       "zeny_spent": 108614.45,
-      "net_if_sold_at_latam": 48930298.11,
+      "net_if_sold_at_latam": 48586802.89,
       "gates": {
-        "pause_grind_until_sold_z": 19615565.02,
-        "keep_shop_until_sold_z": 29423347.54
+        "pause_grind_until_sold_z": 19478166.94,
+        "keep_shop_until_sold_z": 29217250.4
       }
     }
   },
@@ -938,16 +875,9 @@
         "qty": 373.12,
         "price": 2690,
         "stock_value": 1003697.33
-      },
-      {
-        "item_id": 1002,
-        "name": "Iron Ore",
-        "qty": 31.23,
-        "price": 11000,
-        "stock_value": 343495.22
       }
     ],
-    "mats_stock_value_latam": 47480542.75,
+    "mats_stock_value_latam": 47137047.53,
     "cards": [
       {
         "item_id": 4074,
@@ -982,12 +912,12 @@
     ],
     "cards_sellable_total": 1.001,
     "cards_pipeline_value": 1558369.81,
-    "lot_expected_value": 49038912.56,
+    "lot_expected_value": 48695417.34,
     "zeny_spent": 108614.45,
-    "net_if_sold_at_latam": 48930298.11,
+    "net_if_sold_at_latam": 48586802.89,
     "gates": {
-      "pause_grind_until_sold_z": 19615565.02,
-      "keep_shop_until_sold_z": 29423347.54
+      "pause_grind_until_sold_z": 19478166.94,
+      "keep_shop_until_sold_z": 29217250.4
     }
   }
 }

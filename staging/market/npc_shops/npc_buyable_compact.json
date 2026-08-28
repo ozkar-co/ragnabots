@@ -1,0 +1,10412 @@
+[
+  {
+    "item_id": 501,
+    "name": "Red Potion",
+    "aegis": "Red_Potion",
+    "price_min": 10,
+    "price_max": 1000,
+    "maps": [
+      "1@gef_in",
+      "alb2trea",
+      "alberta_in",
+      "aldeba_in",
+      "ama_in01",
+      "ayo_in01",
+      "cmd_fild07",
+      "cmd_in01",
+      "ein_in01",
+      "einbroch",
+      "geffen_in",
+      "gonryun",
+      "hu_in01",
+      "izlude_in",
+      "lhz_in03",
+      "lou_in02",
+      "moc_ruins",
+      "mosk_in",
+      "payon",
+      "payon_in01"
+    ]
+  },
+  {
+    "item_id": 502,
+    "name": "Orange Potion",
+    "aegis": "Orange_Potion",
+    "price_min": 50,
+    "price_max": 50,
+    "maps": [
+      "1@gef_in",
+      "alb2trea",
+      "alberta_in",
+      "aldeba_in",
+      "ama_in01",
+      "ayo_in01",
+      "brasilis",
+      "cmd_fild07",
+      "cmd_in01",
+      "ein_in01",
+      "geffen_in",
+      "gonryun",
+      "hu_in01",
+      "izlude_in",
+      "lhz_in03",
+      "lou_in02",
+      "moc_ruins",
+      "mosk_in",
+      "payon_in01",
+      "payon_in02"
+    ]
+  },
+  {
+    "item_id": 503,
+    "name": "Yellow Potion",
+    "aegis": "Yellow_Potion",
+    "price_min": 180,
+    "price_max": 180,
+    "maps": [
+      "1@gef_in",
+      "alb2trea",
+      "alberta_in",
+      "aldeba_in",
+      "ama_in01",
+      "ayo_in01",
+      "brasilis",
+      "cmd_fild07",
+      "cmd_in01",
+      "ein_in01",
+      "geffen_in",
+      "gonryun",
+      "hu_in01",
+      "izlude_in",
+      "lhz_in02",
+      "lou_in02",
+      "moc_ruins",
+      "mosk_in",
+      "payon_in01",
+      "payon_in02"
+    ]
+  },
+  {
+    "item_id": 504,
+    "name": "White Potion",
+    "aegis": "White_Potion",
+    "price_min": 1200,
+    "price_max": 1200,
+    "maps": [
+      "1@gef_in",
+      "alb2trea",
+      "alberta_in",
+      "aldeba_in",
+      "ama_in01",
+      "ayo_in01",
+      "brasilis",
+      "cmd_fild07",
+      "cmd_in01",
+      "ein_in01",
+      "geffen_in",
+      "gonryun",
+      "hu_in01",
+      "izlude_in",
+      "lhz_in02",
+      "lou_in02",
+      "moc_ruins",
+      "mosk_in",
+      "payon_in01",
+      "payon_in02"
+    ]
+  },
+  {
+    "item_id": 505,
+    "name": "Blue Potion",
+    "aegis": "Blue_Potion",
+    "price_min": 5000,
+    "price_max": 40000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 506,
+    "name": "Green Potion",
+    "aegis": "Green_Potion",
+    "price_min": 40,
+    "price_max": 40,
+    "maps": [
+      "alb2trea",
+      "alberta_in",
+      "aldeba_in",
+      "ama_in01",
+      "ayo_in01",
+      "brasilis",
+      "cmd_fild07",
+      "cmd_in01",
+      "ein_in01",
+      "geffen_in",
+      "gonryun",
+      "hu_in01",
+      "izlude_in",
+      "lhz_in02",
+      "lhz_in03",
+      "lou_in02",
+      "moc_ruins",
+      "mosk_in",
+      "payon_in01",
+      "payon_in02"
+    ]
+  },
+  {
+    "item_id": 512,
+    "name": "Apple",
+    "aegis": "Apple",
+    "price_min": 15,
+    "price_max": 15,
+    "maps": [
+      "dewata",
+      "einbroch",
+      "hugel",
+      "izlude",
+      "lhz_in02",
+      "lighthalzen",
+      "malaya",
+      "moscovia",
+      "prontera",
+      "ra_in01",
+      "um_in",
+      "ve_in"
+    ]
+  },
+  {
+    "item_id": 513,
+    "name": "Banana",
+    "aegis": "Banana",
+    "price_min": 15,
+    "price_max": 15,
+    "maps": [
+      "brasilis",
+      "dewata",
+      "hugel",
+      "izlude",
+      "lhz_in02",
+      "lighthalzen",
+      "malaya",
+      "moc_ruins",
+      "morocc",
+      "moscovia",
+      "prontera",
+      "ra_in01",
+      "um_in",
+      "ve_in"
+    ]
+  },
+  {
+    "item_id": 515,
+    "name": "Carrot",
+    "aegis": "Carrot",
+    "price_min": 15,
+    "price_max": 15,
+    "maps": [
+      "dewata",
+      "hugel",
+      "izlude",
+      "lhz_in02",
+      "lighthalzen",
+      "malaya",
+      "moscovia",
+      "prontera",
+      "rachel",
+      "um_in"
+    ]
+  },
+  {
+    "item_id": 516,
+    "name": "Potato",
+    "aegis": "Sweet_Potato",
+    "price_min": 15,
+    "price_max": 15,
+    "maps": [
+      "dewata",
+      "hugel",
+      "izlude",
+      "lhz_in02",
+      "lighthalzen",
+      "malaya",
+      "moscovia",
+      "new_1-2",
+      "prontera",
+      "rachel",
+      "um_in"
+    ]
+  },
+  {
+    "item_id": 517,
+    "name": "Meat",
+    "aegis": "Meat",
+    "price_min": 50,
+    "price_max": 50,
+    "maps": [
+      "izlude",
+      "lhz_in02",
+      "moc_ruins",
+      "morocc",
+      "prontera",
+      "um_in"
+    ]
+  },
+  {
+    "item_id": 519,
+    "name": "Milk",
+    "aegis": "Milk",
+    "price_min": 25,
+    "price_max": 25,
+    "maps": [
+      "hugel",
+      "izlude",
+      "lighthalzen",
+      "moscovia",
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 522,
+    "name": "Mastela Fruit",
+    "aegis": "Fruit_Of_Mastela",
+    "price_min": 8500,
+    "price_max": 8500,
+    "maps": [
+      "hugel"
+    ]
+  },
+  {
+    "item_id": 525,
+    "name": "Panacea",
+    "aegis": "Panacea",
+    "price_min": 100000,
+    "price_max": 100000,
+    "maps": []
+  },
+  {
+    "item_id": 526,
+    "name": "Royal Jelly",
+    "aegis": "Royal_Jelly",
+    "price_min": 10000,
+    "price_max": 10000,
+    "maps": []
+  },
+  {
+    "item_id": 528,
+    "name": "Monster's Feed",
+    "aegis": "Monster's_Feed",
+    "price_min": 60,
+    "price_max": 60,
+    "maps": [
+      "alberta_in",
+      "hu_in01",
+      "lhz_in03",
+      "moc_ruins",
+      "morocc",
+      "prontera",
+      "um_in"
+    ]
+  },
+  {
+    "item_id": 535,
+    "name": "Pumpkin",
+    "aegis": "Pumpkin",
+    "price_min": 15,
+    "price_max": 15,
+    "maps": [
+      "dewata",
+      "hugel",
+      "lhz_in02",
+      "lighthalzen",
+      "malaya",
+      "nif_in",
+      "prontera",
+      "rachel",
+      "um_in"
+    ]
+  },
+  {
+    "item_id": 536,
+    "name": "Ice Cream",
+    "aegis": "Ice_Cream",
+    "price_min": 150,
+    "price_max": 150,
+    "maps": [
+      "jawaii"
+    ]
+  },
+  {
+    "item_id": 537,
+    "name": "Pet Food",
+    "aegis": "Pet_Food",
+    "price_min": 1000,
+    "price_max": 1000,
+    "maps": [
+      "1@gef",
+      "geffen",
+      "izlude",
+      "lighthalzen",
+      "moc_ruins",
+      "nif_in",
+      "payon",
+      "prontera",
+      "um_in",
+      "yuno"
+    ]
+  },
+  {
+    "item_id": 545,
+    "name": "Condensed Red Potion",
+    "aegis": "Red_Slim_Potion",
+    "price_min": 150,
+    "price_max": 150,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 546,
+    "name": "Condensed Yellow Potion",
+    "aegis": "Yellow_Slim_Potion",
+    "price_min": 600,
+    "price_max": 600,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 547,
+    "name": "Condensed White Potion",
+    "aegis": "White_Slim_Potion",
+    "price_min": 1650,
+    "price_max": 1650,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 554,
+    "name": "Mochi",
+    "aegis": "Mojji",
+    "price_min": 100,
+    "price_max": 100,
+    "maps": [
+      "geffen",
+      "izlude",
+      "lighthalzen",
+      "moc_ruins",
+      "payon",
+      "prontera",
+      "yuno"
+    ]
+  },
+  {
+    "item_id": 567,
+    "name": "Shrimp",
+    "aegis": "Prawn",
+    "price_min": 500,
+    "price_max": 500,
+    "maps": []
+  },
+  {
+    "item_id": 576,
+    "name": "Prickly Fruit",
+    "aegis": "Prickly_Fruit",
+    "price_min": 2000,
+    "price_max": 2000,
+    "maps": []
+  },
+  {
+    "item_id": 577,
+    "name": "Bag of Grain",
+    "aegis": "Grain",
+    "price_min": 200,
+    "price_max": 200,
+    "maps": [
+      "alberta",
+      "ayothaya",
+      "geffen",
+      "louyang",
+      "moc_ruins",
+      "payon",
+      "prontera",
+      "umbala",
+      "xmas"
+    ]
+  },
+  {
+    "item_id": 579,
+    "name": "Fresh Fish",
+    "aegis": "Delicious_Fish",
+    "price_min": 700,
+    "price_max": 700,
+    "maps": [
+      "alberta",
+      "amatsu",
+      "comodo",
+      "geffen",
+      "moc_ruins",
+      "payon",
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 580,
+    "name": "Bread",
+    "aegis": "Bread",
+    "price_min": 150,
+    "price_max": 150,
+    "maps": [
+      "alberta",
+      "aldebaran",
+      "geffen",
+      "gonryun",
+      "moc_ruins",
+      "payon",
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 581,
+    "name": "Edible Mushroom",
+    "aegis": "Mushroom",
+    "price_min": 40,
+    "price_max": 40,
+    "maps": [
+      "alberta",
+      "geffen",
+      "moc_ruins",
+      "niflheim",
+      "payon",
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 587,
+    "name": "Red Prickly Fruit",
+    "aegis": "Prickly_Fruit_",
+    "price_min": 2000,
+    "price_max": 2000,
+    "maps": []
+  },
+  {
+    "item_id": 601,
+    "name": "Fly Wing",
+    "aegis": "Wing_Of_Fly",
+    "price_min": 250,
+    "price_max": 250,
+    "maps": [
+      "1@gef_in",
+      "alb2trea",
+      "alberta_in",
+      "aldeba_in",
+      "ama_in01",
+      "ayo_in01",
+      "brasilis",
+      "cmd_fild07",
+      "cmd_in01",
+      "ein_in01",
+      "geffen_in",
+      "gonryun",
+      "har_in01",
+      "hu_in01",
+      "izlude_in",
+      "lhz_in02",
+      "lhz_in03",
+      "lou_in02",
+      "moc_ruins",
+      "mosk_in"
+    ]
+  },
+  {
+    "item_id": 602,
+    "name": "Butterfly Wing",
+    "aegis": "Wing_Of_Butterfly",
+    "price_min": 1000,
+    "price_max": 1000,
+    "maps": [
+      "1@gef_in",
+      "alb2trea",
+      "alberta_in",
+      "aldeba_in",
+      "ama_in01",
+      "ayo_in01",
+      "brasilis",
+      "cmd_fild07",
+      "cmd_in01",
+      "ein_in01",
+      "geffen_in",
+      "gonryun",
+      "har_in01",
+      "hu_in01",
+      "izlude_in",
+      "lhz_in02",
+      "lhz_in03",
+      "lou_in02",
+      "moc_ruins",
+      "mosk_in"
+    ]
+  },
+  {
+    "item_id": 604,
+    "name": "Dead Branch",
+    "aegis": "Branch_Of_Dead_Tree",
+    "price_min": 100000,
+    "price_max": 100000,
+    "maps": []
+  },
+  {
+    "item_id": 607,
+    "name": "Yggdrasil Berry",
+    "aegis": "Yggdrasilberry",
+    "price_min": 70000,
+    "price_max": 70000,
+    "maps": []
+  },
+  {
+    "item_id": 608,
+    "name": "Yggdrasil Seed",
+    "aegis": "Seed_Of_Yggdrasil",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": []
+  },
+  {
+    "item_id": 610,
+    "name": "Yggdrasil Leaf",
+    "aegis": "Leaf_Of_Yggdrasil",
+    "price_min": 12000,
+    "price_max": 12000,
+    "maps": [
+      "alb2trea",
+      "alberta_in",
+      "aldeba_in",
+      "ama_in01",
+      "ayo_in01",
+      "brasilis",
+      "cmd_fild07",
+      "cmd_in01",
+      "ein_in01",
+      "geffen_in",
+      "gonryun",
+      "har_in01",
+      "hu_in01",
+      "lhz_in02",
+      "lhz_in03",
+      "lou_in02",
+      "moc_ruins",
+      "morocc",
+      "mosk_in",
+      "payon_in01"
+    ]
+  },
+  {
+    "item_id": 611,
+    "name": "Magnifier",
+    "aegis": "Spectacles",
+    "price_min": 40,
+    "price_max": 40,
+    "maps": [
+      "1@gef_in",
+      "alb2trea",
+      "alberta_in",
+      "aldeba_in",
+      "ama_in01",
+      "ayo_in01",
+      "brasilis",
+      "cmd_fild07",
+      "cmd_in01",
+      "ein_in01",
+      "geffen_in",
+      "gonryun",
+      "har_in01",
+      "hu_in01",
+      "izlude_in",
+      "lhz_in02",
+      "lhz_in03",
+      "lou_in02",
+      "moc_ruins",
+      "mosk_in"
+    ]
+  },
+  {
+    "item_id": 616,
+    "name": "Old Card Album",
+    "aegis": "Old_Card_Album",
+    "price_min": 2500000,
+    "price_max": 2500000,
+    "maps": []
+  },
+  {
+    "item_id": 643,
+    "name": "Pet Incubator",
+    "aegis": "Pet_Incubator",
+    "price_min": 10000,
+    "price_max": 10000,
+    "maps": [
+      "1@gef",
+      "geffen",
+      "izlude",
+      "lighthalzen",
+      "moc_ruins",
+      "payon",
+      "prontera",
+      "yuno"
+    ]
+  },
+  {
+    "item_id": 645,
+    "name": "Concentration Potion",
+    "aegis": "Center_Potion",
+    "price_min": 1200,
+    "price_max": 1200,
+    "maps": [
+      "1@gef_in",
+      "alb2trea",
+      "alberta_in",
+      "aldeba_in",
+      "ama_in01",
+      "ayo_in01",
+      "brasilis",
+      "cmd_fild07",
+      "cmd_in01",
+      "ein_in01",
+      "einbroch",
+      "geffen_in",
+      "gonryun",
+      "har_in01",
+      "hu_in01",
+      "izlude_in",
+      "lhz_in03",
+      "lou_in02",
+      "moc_ruins",
+      "mosk_in"
+    ]
+  },
+  {
+    "item_id": 656,
+    "name": "Awakening Potion",
+    "aegis": "Awakening_Potion",
+    "price_min": 2200,
+    "price_max": 2200,
+    "maps": [
+      "1@gef_in",
+      "alb2trea",
+      "alberta_in",
+      "aldeba_in",
+      "ama_in01",
+      "ayo_in01",
+      "brasilis",
+      "cmd_fild07",
+      "cmd_in01",
+      "ein_in01",
+      "geffen_in",
+      "gonryun",
+      "har_in01",
+      "hu_in01",
+      "izlude_in",
+      "lhz_in02",
+      "lhz_in03",
+      "lou_in02",
+      "moc_ruins",
+      "mosk_in"
+    ]
+  },
+  {
+    "item_id": 657,
+    "name": "Berserk Potion",
+    "aegis": "Berserk_Potion",
+    "price_min": 4500,
+    "price_max": 4500,
+    "maps": [
+      "alb2trea",
+      "alberta_in",
+      "aldeba_in",
+      "ama_in01",
+      "auction_03",
+      "ayo_in01",
+      "brasilis",
+      "cmd_fild07",
+      "cmd_in01",
+      "ein_in01",
+      "geffen_in",
+      "gonryun",
+      "hu_in01",
+      "lhz_in02",
+      "lhz_in03",
+      "lou_in02",
+      "moc_ruins",
+      "morocc",
+      "mosk_in",
+      "payon_in01"
+    ]
+  },
+  {
+    "item_id": 678,
+    "name": "Poison Bottle",
+    "aegis": "Poison_Bottle",
+    "price_min": 5000,
+    "price_max": 80000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 709,
+    "name": "Izidor",
+    "aegis": "Izidor",
+    "price_min": 10000,
+    "price_max": 10000,
+    "maps": []
+  },
+  {
+    "item_id": 712,
+    "name": "Flower",
+    "aegis": "Flower",
+    "price_min": 1,
+    "price_max": 1,
+    "maps": [
+      "cave",
+      "lighthalzen",
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 713,
+    "name": "Empty Bottle",
+    "aegis": "Empty_Bottle",
+    "price_min": 400,
+    "price_max": 400,
+    "maps": [
+      "1@gef_in",
+      "alb2trea",
+      "alberta_in",
+      "aldeba_in",
+      "ama_in01",
+      "ayo_in01",
+      "brasilis",
+      "cmd_fild07",
+      "cmd_in01",
+      "dewata",
+      "ein_in01",
+      "geffen_in",
+      "gonryun",
+      "hu_in01",
+      "lhz_in02",
+      "lhz_in03",
+      "lou_in02",
+      "malangdo",
+      "moc_ruins",
+      "morocc"
+    ]
+  },
+  {
+    "item_id": 714,
+    "name": "Emperium",
+    "aegis": "Emperium",
+    "price_min": 1000000,
+    "price_max": 1000000,
+    "maps": []
+  },
+  {
+    "item_id": 715,
+    "name": "Yellow Gemstone",
+    "aegis": "Yellow_Gemstone",
+    "price_min": 450,
+    "price_max": 4500,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 716,
+    "name": "Red Gemstone",
+    "aegis": "Red_Gemstone",
+    "price_min": 450,
+    "price_max": 4500,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 717,
+    "name": "Blue Gemstone",
+    "aegis": "Blue_Gemstone",
+    "price_min": 450,
+    "price_max": 1500,
+    "maps": [
+      "1@gef_in",
+      "alb2trea",
+      "alberta_in",
+      "aldeba_in",
+      "ama_in01",
+      "ayo_in01",
+      "brasilis",
+      "cmd_fild07",
+      "cmd_in01",
+      "ein_in01",
+      "geffen_in",
+      "gonryun",
+      "hu_in01",
+      "lhz_in02",
+      "lhz_in03",
+      "lou_in02",
+      "moc_ruins",
+      "morocc",
+      "mosk_in",
+      "payon_in01"
+    ]
+  },
+  {
+    "item_id": 719,
+    "name": "Amethyst",
+    "aegis": "Violet_Jewel",
+    "price_min": 6000,
+    "price_max": 6000,
+    "maps": [
+      "lhz_in02",
+      "moc_ruins",
+      "morocc"
+    ]
+  },
+  {
+    "item_id": 720,
+    "name": "Aquamarine",
+    "aegis": "Skyblue_Jewel",
+    "price_min": 6000,
+    "price_max": 6000,
+    "maps": [
+      "lhz_in02",
+      "moc_ruins",
+      "morocc"
+    ]
+  },
+  {
+    "item_id": 721,
+    "name": "Emerald",
+    "aegis": "Azure_Jewel",
+    "price_min": 4500,
+    "price_max": 4500,
+    "maps": [
+      "lhz_in02",
+      "moc_ruins",
+      "morocc"
+    ]
+  },
+  {
+    "item_id": 722,
+    "name": "Pearl",
+    "aegis": "Scarlet_Jewel",
+    "price_min": 6000,
+    "price_max": 6000,
+    "maps": [
+      "lhz_in02",
+      "moc_ruins",
+      "morocc"
+    ]
+  },
+  {
+    "item_id": 723,
+    "name": "Ruby",
+    "aegis": "Cardinal_Jewel",
+    "price_min": 4500,
+    "price_max": 4500,
+    "maps": [
+      "lhz_in02",
+      "moc_ruins",
+      "morocc"
+    ]
+  },
+  {
+    "item_id": 726,
+    "name": "Sapphire",
+    "aegis": "Blue_Jewel",
+    "price_min": 4500,
+    "price_max": 4500,
+    "maps": [
+      "lhz_in02",
+      "moc_ruins",
+      "morocc"
+    ]
+  },
+  {
+    "item_id": 728,
+    "name": "Topaz",
+    "aegis": "Golden_Jewel",
+    "price_min": 4500,
+    "price_max": 4500,
+    "maps": [
+      "lhz_in02",
+      "moc_ruins",
+      "morocc"
+    ]
+  },
+  {
+    "item_id": 729,
+    "name": "Zircon",
+    "aegis": "Bluish_Green_Jewel",
+    "price_min": 4500,
+    "price_max": 4500,
+    "maps": [
+      "lhz_in02",
+      "moc_ruins",
+      "morocc"
+    ]
+  },
+  {
+    "item_id": 730,
+    "name": "1carat Diamond",
+    "aegis": "Crystal_Jewel",
+    "price_min": 7500,
+    "price_max": 7500,
+    "maps": [
+      "lhz_in02",
+      "moc_ruins",
+      "morocc"
+    ]
+  },
+  {
+    "item_id": 734,
+    "name": "Red Frame",
+    "aegis": "Red_Frame",
+    "price_min": 2250,
+    "price_max": 2250,
+    "maps": [
+      "lhz_in02",
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 735,
+    "name": "Chung Jah",
+    "aegis": "Blue_Porcelain",
+    "price_min": 3750,
+    "price_max": 3750,
+    "maps": [
+      "lhz_in02",
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 736,
+    "name": "China",
+    "aegis": "White_Platter",
+    "price_min": 750,
+    "price_max": 750,
+    "maps": [
+      "lhz_in02",
+      "prontera",
+      "xmas_in"
+    ]
+  },
+  {
+    "item_id": 737,
+    "name": "Black Ladle",
+    "aegis": "Black_Ladle",
+    "price_min": 300,
+    "price_max": 300,
+    "maps": [
+      "lhz_in02",
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 740,
+    "name": "Puppet",
+    "aegis": "Stuffed_Doll",
+    "price_min": 1000,
+    "price_max": 1000,
+    "maps": [
+      "lhz_in02",
+      "prontera",
+      "xmas_in"
+    ]
+  },
+  {
+    "item_id": 741,
+    "name": "Poring Doll",
+    "aegis": "Poring_Doll",
+    "price_min": 1800,
+    "price_max": 1800,
+    "maps": [
+      "lhz_in02",
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 742,
+    "name": "Chonchon Doll",
+    "aegis": "Chonchon_Doll",
+    "price_min": 3000,
+    "price_max": 3000,
+    "maps": [
+      "lhz_in02",
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 744,
+    "name": "Bouquet",
+    "aegis": "Bunch_Of_Flowers",
+    "price_min": 1500,
+    "price_max": 1500,
+    "maps": [
+      "lhz_in02",
+      "lighthalzen",
+      "prontera",
+      "prt_in",
+      "xmas_in"
+    ]
+  },
+  {
+    "item_id": 745,
+    "name": "Wedding Bouquet",
+    "aegis": "Wedding_Bouquet",
+    "price_min": 9000,
+    "price_max": 9000,
+    "maps": [
+      "lhz_in02",
+      "prt_in"
+    ]
+  },
+  {
+    "item_id": 746,
+    "name": "Glass Bead",
+    "aegis": "Glass_Bead",
+    "price_min": 1050,
+    "price_max": 1050,
+    "maps": [
+      "lhz_in02",
+      "prontera",
+      "xmas_in"
+    ]
+  },
+  {
+    "item_id": 747,
+    "name": "Crystal Mirror",
+    "aegis": "Crystal_Mirror",
+    "price_min": 15000,
+    "price_max": 15000,
+    "maps": [
+      "moc_ruins"
+    ]
+  },
+  {
+    "item_id": 748,
+    "name": "Witherless Rose",
+    "aegis": "Witherless_Rose",
+    "price_min": 41250,
+    "price_max": 41250,
+    "maps": [
+      "lighthalzen",
+      "moc_ruins",
+      "morocc",
+      "xmas_in"
+    ]
+  },
+  {
+    "item_id": 902,
+    "name": "Tree Root",
+    "aegis": "Tree_Root",
+    "price_min": 12,
+    "price_max": 12,
+    "maps": [
+      "nif_in"
+    ]
+  },
+  {
+    "item_id": 905,
+    "name": "Stem",
+    "aegis": "Stem",
+    "price_min": 1000,
+    "price_max": 1000,
+    "maps": []
+  },
+  {
+    "item_id": 909,
+    "name": "Jellopy",
+    "aegis": "Jellopy",
+    "price_min": 6,
+    "price_max": 6,
+    "maps": []
+  },
+  {
+    "item_id": 910,
+    "name": "Garlet",
+    "aegis": "Garlet",
+    "price_min": 30,
+    "price_max": 30,
+    "maps": [
+      "1@gef_in",
+      "auction_03",
+      "geffen_in",
+      "hu_in01",
+      "lhz_in03",
+      "yuno"
+    ]
+  },
+  {
+    "item_id": 911,
+    "name": "Scell",
+    "aegis": "Scell",
+    "price_min": 120,
+    "price_max": 120,
+    "maps": [
+      "1@gef_in",
+      "alberta_in",
+      "auction_03",
+      "geffen_in",
+      "lhz_in03",
+      "moc_ruins",
+      "morocc",
+      "yuno"
+    ]
+  },
+  {
+    "item_id": 912,
+    "name": "Zargon",
+    "aegis": "Zargon",
+    "price_min": 360,
+    "price_max": 360,
+    "maps": [
+      "1@gef_in",
+      "geffen_in",
+      "lhz_in03",
+      "yuno"
+    ]
+  },
+  {
+    "item_id": 919,
+    "name": "Animal Skin",
+    "aegis": "Animal's_Skin",
+    "price_min": 27,
+    "price_max": 27,
+    "maps": [
+      "moc_ruins",
+      "morocc"
+    ]
+  },
+  {
+    "item_id": 925,
+    "name": "Bill of Birds",
+    "aegis": "Bill_Of_Birds",
+    "price_min": 48,
+    "price_max": 48,
+    "maps": [
+      "moc_ruins",
+      "morocc"
+    ]
+  },
+  {
+    "item_id": 929,
+    "name": "Immortal Heart",
+    "aegis": "Immortal_Heart",
+    "price_min": 4000,
+    "price_max": 4000,
+    "maps": []
+  },
+  {
+    "item_id": 934,
+    "name": "Memento",
+    "aegis": "Mementos",
+    "price_min": 600,
+    "price_max": 600,
+    "maps": [
+      "nif_in"
+    ]
+  },
+  {
+    "item_id": 964,
+    "name": "Crab Shell",
+    "aegis": "Crap_Shell",
+    "price_min": 90,
+    "price_max": 90,
+    "maps": [
+      "comodo"
+    ]
+  },
+  {
+    "item_id": 965,
+    "name": "Clam Shell",
+    "aegis": "Clam_Shell",
+    "price_min": 56,
+    "price_max": 56,
+    "maps": [
+      "comodo"
+    ]
+  },
+  {
+    "item_id": 969,
+    "name": "Gold",
+    "aegis": "Gold",
+    "price_min": 1000000,
+    "price_max": 1000000,
+    "maps": []
+  },
+  {
+    "item_id": 971,
+    "name": "Detrimindexta",
+    "aegis": "Detrimindexta",
+    "price_min": 20000,
+    "price_max": 20000,
+    "maps": []
+  },
+  {
+    "item_id": 972,
+    "name": "Karvodailnirol",
+    "aegis": "Karvodailnirol",
+    "price_min": 12000,
+    "price_max": 12000,
+    "maps": []
+  },
+  {
+    "item_id": 984,
+    "name": "Oridecon",
+    "aegis": "Oridecon",
+    "price_min": 200000,
+    "price_max": 200000,
+    "maps": []
+  },
+  {
+    "item_id": 985,
+    "name": "Elunium",
+    "aegis": "Elunium",
+    "price_min": 200000,
+    "price_max": 200000,
+    "maps": []
+  },
+  {
+    "item_id": 987,
+    "name": "Oridecon Anvil",
+    "aegis": "Oridecon_Anvil",
+    "price_min": 240000,
+    "price_max": 240000,
+    "maps": []
+  },
+  {
+    "item_id": 988,
+    "name": "Golden Anvil",
+    "aegis": "Golden_Anvil",
+    "price_min": 600000,
+    "price_max": 600000,
+    "maps": []
+  },
+  {
+    "item_id": 989,
+    "name": "Emperium Anvil",
+    "aegis": "Emperium_Anvil",
+    "price_min": 1200000,
+    "price_max": 1200000,
+    "maps": []
+  },
+  {
+    "item_id": 990,
+    "name": "Red Blood",
+    "aegis": "Boody_Red",
+    "price_min": 10000,
+    "price_max": 10000,
+    "maps": []
+  },
+  {
+    "item_id": 991,
+    "name": "Crystal Blue",
+    "aegis": "Crystal_Blue",
+    "price_min": 10000,
+    "price_max": 10000,
+    "maps": []
+  },
+  {
+    "item_id": 992,
+    "name": "Wind of Verdure",
+    "aegis": "Wind_Of_Verdure",
+    "price_min": 10000,
+    "price_max": 10000,
+    "maps": []
+  },
+  {
+    "item_id": 993,
+    "name": "Green Live",
+    "aegis": "Yellow_Live",
+    "price_min": 10000,
+    "price_max": 10000,
+    "maps": []
+  },
+  {
+    "item_id": 998,
+    "name": "Iron",
+    "aegis": "Iron",
+    "price_min": 10000,
+    "price_max": 10000,
+    "maps": []
+  },
+  {
+    "item_id": 999,
+    "name": "Steel",
+    "aegis": "Steel",
+    "price_min": 10000,
+    "price_max": 10000,
+    "maps": []
+  },
+  {
+    "item_id": 1000,
+    "name": "Star Crumb",
+    "aegis": "Star_Crumb",
+    "price_min": 10000,
+    "price_max": 10000,
+    "maps": []
+  },
+  {
+    "item_id": 1001,
+    "name": "Star Dust",
+    "aegis": "Sparkling_Dust",
+    "price_min": 10000,
+    "price_max": 10000,
+    "maps": []
+  },
+  {
+    "item_id": 1002,
+    "name": "Iron Ore",
+    "aegis": "Iron_Ore",
+    "price_min": 10000,
+    "price_max": 10000,
+    "maps": []
+  },
+  {
+    "item_id": 1003,
+    "name": "Coal",
+    "aegis": "Coal",
+    "price_min": 10000,
+    "price_max": 10000,
+    "maps": []
+  },
+  {
+    "item_id": 1010,
+    "name": "Phracon",
+    "aegis": "Phracon",
+    "price_min": 200,
+    "price_max": 200,
+    "maps": []
+  },
+  {
+    "item_id": 1011,
+    "name": "Emveretarcon",
+    "aegis": "Emveretarcon",
+    "price_min": 1000,
+    "price_max": 1000,
+    "maps": []
+  },
+  {
+    "item_id": 1025,
+    "name": "Cobweb",
+    "aegis": "Spiderweb",
+    "price_min": 200,
+    "price_max": 200,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1052,
+    "name": "Single Cell",
+    "aegis": "Single_Cell",
+    "price_min": 46,
+    "price_max": 46,
+    "maps": [
+      "nif_in"
+    ]
+  },
+  {
+    "item_id": 1059,
+    "name": "Fabric",
+    "aegis": "Transparent_Cloth",
+    "price_min": 1000,
+    "price_max": 1000,
+    "maps": []
+  },
+  {
+    "item_id": 1061,
+    "name": "Witched Starsand",
+    "aegis": "Starsand_Of_Witch",
+    "price_min": 3000,
+    "price_max": 3000,
+    "maps": []
+  },
+  {
+    "item_id": 1062,
+    "name": "Jack o' Pumpkin",
+    "aegis": "Pumpkin_Head",
+    "price_min": 374,
+    "price_max": 374,
+    "maps": [
+      "nif_in"
+    ]
+  },
+  {
+    "item_id": 1065,
+    "name": "Trap",
+    "aegis": "Booby_Trap",
+    "price_min": 50,
+    "price_max": 50,
+    "maps": [
+      "ama_in01",
+      "auction_03",
+      "ayo_in01",
+      "brasilis",
+      "cmd_fild07",
+      "cmd_in01",
+      "dali",
+      "dewata",
+      "ein_in01",
+      "gonryun",
+      "har_in01",
+      "hu_in01",
+      "izlude_in",
+      "lhz_in02",
+      "lhz_in03",
+      "lou_in02",
+      "ma_in01",
+      "malangdo",
+      "moc_ruins",
+      "moro_vol"
+    ]
+  },
+  {
+    "item_id": 1092,
+    "name": "Empty Test Tube",
+    "aegis": "Empty_Cylinder",
+    "price_min": 3,
+    "price_max": 3,
+    "maps": [
+      "1@gef_in",
+      "auction_03",
+      "geffen_in"
+    ]
+  },
+  {
+    "item_id": 1093,
+    "name": "Empty Potion Bottle",
+    "aegis": "Empty_Potion",
+    "price_min": 10,
+    "price_max": 10,
+    "maps": [
+      "1@gef_in",
+      "auction_03",
+      "geffen_in"
+    ]
+  },
+  {
+    "item_id": 1101,
+    "name": "Sword",
+    "aegis": "Sword",
+    "price_min": 100,
+    "price_max": 100,
+    "maps": [
+      "1@gef_in",
+      "alberta_in",
+      "ein_in01",
+      "geffen_in",
+      "izlude_in",
+      "payon_in01",
+      "prt_in",
+      "yuno_in01"
+    ]
+  },
+  {
+    "item_id": 1104,
+    "name": "Falchion",
+    "aegis": "Falchion",
+    "price_min": 1500,
+    "price_max": 1500,
+    "maps": [
+      "alberta_in",
+      "ein_in01",
+      "izlude_in",
+      "payon_in01",
+      "prt_in"
+    ]
+  },
+  {
+    "item_id": 1107,
+    "name": "Blade",
+    "aegis": "Blade",
+    "price_min": 2900,
+    "price_max": 2900,
+    "maps": [
+      "alberta_in",
+      "ama_in01",
+      "ayo_in01",
+      "dewata",
+      "ein_in01",
+      "gonryun",
+      "izlude_in",
+      "lhz_in02",
+      "lou_in02",
+      "ma_in01",
+      "mosk_in",
+      "payon_in01",
+      "prt_in",
+      "ra_in01",
+      "ve_in"
+    ]
+  },
+  {
+    "item_id": 1108,
+    "name": "Blade",
+    "aegis": "Blade_",
+    "price_min": 10000,
+    "price_max": 10000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1110,
+    "name": "Rapier",
+    "aegis": "Lapier",
+    "price_min": 10000,
+    "price_max": 10000,
+    "maps": [
+      "ein_in01",
+      "prt_in"
+    ]
+  },
+  {
+    "item_id": 1113,
+    "name": "Scimitar",
+    "aegis": "Scimiter",
+    "price_min": 17000,
+    "price_max": 17000,
+    "maps": [
+      "ein_in01",
+      "prt_in"
+    ]
+  },
+  {
+    "item_id": 1116,
+    "name": "Katana",
+    "aegis": "Katana",
+    "price_min": 2000,
+    "price_max": 2000,
+    "maps": [
+      "ama_in01",
+      "ayo_in01",
+      "dewata",
+      "ein_in01",
+      "gonryun",
+      "hu_in01",
+      "izlude_in",
+      "lhz_in02",
+      "lou_in02",
+      "ma_in01",
+      "mosk_in",
+      "prt_in",
+      "ra_in01",
+      "ve_in"
+    ]
+  },
+  {
+    "item_id": 1117,
+    "name": "Katana",
+    "aegis": "Katana_",
+    "price_min": 10000,
+    "price_max": 10000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1119,
+    "name": "Tsurugi",
+    "aegis": "Tsurugi",
+    "price_min": 51000,
+    "price_max": 51000,
+    "maps": [
+      "ein_in01",
+      "prt_in"
+    ]
+  },
+  {
+    "item_id": 1120,
+    "name": "Tsurugi",
+    "aegis": "Tsurugi_",
+    "price_min": 100000,
+    "price_max": 100000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1122,
+    "name": "Ring Pommel Saber",
+    "aegis": "Ring_Pommel_Saber",
+    "price_min": 24000,
+    "price_max": 24000,
+    "maps": [
+      "ama_in01",
+      "ayo_in01",
+      "dewata",
+      "ein_in01",
+      "gonryun",
+      "lhz_in02",
+      "lou_in02",
+      "ma_in01",
+      "mosk_in",
+      "prt_in",
+      "ra_in01",
+      "ve_in"
+    ]
+  },
+  {
+    "item_id": 1123,
+    "name": "Haedonggum",
+    "aegis": "Haedonggum",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "ein_in01",
+      "prt_in"
+    ]
+  },
+  {
+    "item_id": 1124,
+    "name": "Orcish Sword",
+    "aegis": "Orcish_Sword",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1126,
+    "name": "Saber",
+    "aegis": "Saber",
+    "price_min": 49000,
+    "price_max": 49000,
+    "maps": [
+      "ein_in01",
+      "prt_in"
+    ]
+  },
+  {
+    "item_id": 1129,
+    "name": "Flamberge",
+    "aegis": "Flamberge",
+    "price_min": 60000,
+    "price_max": 60000,
+    "maps": [
+      "ein_in01",
+      "prt_in"
+    ]
+  },
+  {
+    "item_id": 1130,
+    "name": "Nagan",
+    "aegis": "Nagan",
+    "price_min": 100000,
+    "price_max": 100000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1131,
+    "name": "Ice Falchion",
+    "aegis": "Ice_Falchon",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1133,
+    "name": "Fireblend",
+    "aegis": "Fire_Brand",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1138,
+    "name": "Mysteltainn",
+    "aegis": "Mysteltainn_",
+    "price_min": 200000,
+    "price_max": 200000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1139,
+    "name": "Tirfing",
+    "aegis": "Tale_Fing_",
+    "price_min": 200000,
+    "price_max": 200000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1145,
+    "name": "Holy Avenger",
+    "aegis": "Holy_Avenger",
+    "price_min": 450000,
+    "price_max": 450000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1146,
+    "name": "Town Sword",
+    "aegis": "Town_Sword",
+    "price_min": 42000,
+    "price_max": 42000,
+    "maps": [
+      "1@gef_in",
+      "alberta_in",
+      "aldeba_in",
+      "geffen_in",
+      "morocc_in",
+      "payon_in01",
+      "prt_in"
+    ]
+  },
+  {
+    "item_id": 1149,
+    "name": "Flamberge",
+    "aegis": "Flamberge_",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1151,
+    "name": "Slayer",
+    "aegis": "Slayer",
+    "price_min": 15000,
+    "price_max": 15000,
+    "maps": [
+      "ein_in01",
+      "izlude_in"
+    ]
+  },
+  {
+    "item_id": 1154,
+    "name": "Bastard Sword",
+    "aegis": "Bastard_Sword",
+    "price_min": 22500,
+    "price_max": 22500,
+    "maps": [
+      "ama_in01",
+      "ayo_in01",
+      "dewata",
+      "ein_in01",
+      "gonryun",
+      "hu_in01",
+      "izlude_in",
+      "lhz_in02",
+      "lou_in02",
+      "ma_in01",
+      "mosk_in",
+      "ra_in01",
+      "ve_in"
+    ]
+  },
+  {
+    "item_id": 1155,
+    "name": "Bastard Sword",
+    "aegis": "Bastard_Sword_",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1157,
+    "name": "Two-Handed Sword",
+    "aegis": "Two_Hand_Sword",
+    "price_min": 60000,
+    "price_max": 60000,
+    "maps": [
+      "ein_in01",
+      "izlude_in"
+    ]
+  },
+  {
+    "item_id": 1158,
+    "name": "Two-Handed Sword",
+    "aegis": "Two_Hand_Sword_",
+    "price_min": 90000,
+    "price_max": 90000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1160,
+    "name": "Broad Sword",
+    "aegis": "Broad_Sword",
+    "price_min": 65000,
+    "price_max": 65000,
+    "maps": [
+      "ein_in01",
+      "izlude_in"
+    ]
+  },
+  {
+    "item_id": 1163,
+    "name": "Claymore",
+    "aegis": "Claymore",
+    "price_min": 120000,
+    "price_max": 120000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1164,
+    "name": "Muramasa",
+    "aegis": "Muramasa",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1165,
+    "name": "Masamune",
+    "aegis": "Masamune",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1166,
+    "name": "Dragon Slayer",
+    "aegis": "Dragon_Slayer",
+    "price_min": 75000,
+    "price_max": 75000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1168,
+    "name": "Zweihander",
+    "aegis": "Zweihander",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1169,
+    "name": "Executioner",
+    "aegis": "Executioner_",
+    "price_min": 500000,
+    "price_max": 500000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1172,
+    "name": "Claymore",
+    "aegis": "Claymore_",
+    "price_min": 200000,
+    "price_max": 200000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1175,
+    "name": "Atlas Weapon",
+    "aegis": "Altas_Weapon",
+    "price_min": 75000,
+    "price_max": 75000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1181,
+    "name": "Tae Goo Lyeon",
+    "aegis": "Tae_Goo_Lyeon",
+    "price_min": 10000000,
+    "price_max": 10000000,
+    "maps": []
+  },
+  {
+    "item_id": 1201,
+    "name": "Knife",
+    "aegis": "Knife",
+    "price_min": 50,
+    "price_max": 50,
+    "maps": [
+      "1@gef_in",
+      "alberta_in",
+      "aldeba_in",
+      "ein_in01",
+      "geffen_in",
+      "hu_in01",
+      "izlude_in",
+      "lhz_in02",
+      "morocc_in",
+      "payon_in01",
+      "prt_in",
+      "ra_in01",
+      "ve_in",
+      "xmas_in",
+      "yuno_in01"
+    ]
+  },
+  {
+    "item_id": 1204,
+    "name": "Cutter",
+    "aegis": "Cutter",
+    "price_min": 1250,
+    "price_max": 1250,
+    "maps": [
+      "1@gef_in",
+      "alberta_in",
+      "aldeba_in",
+      "ein_in01",
+      "geffen_in",
+      "izlude_in",
+      "morocc_in",
+      "payon_in01",
+      "prt_in",
+      "xmas_in",
+      "yuno_in01"
+    ]
+  },
+  {
+    "item_id": 1207,
+    "name": "Main Gauche",
+    "aegis": "Main_Gauche",
+    "price_min": 2400,
+    "price_max": 2400,
+    "maps": [
+      "1@gef_in",
+      "alberta_in",
+      "aldeba_in",
+      "ama_in01",
+      "ayo_in01",
+      "dewata",
+      "ein_in01",
+      "geffen_in",
+      "gonryun",
+      "izlude_in",
+      "lhz_in02",
+      "lou_in02",
+      "ma_in01",
+      "morocc_in",
+      "mosk_in",
+      "payon_in01",
+      "prt_in",
+      "ra_in01",
+      "ve_in",
+      "xmas_in"
+    ]
+  },
+  {
+    "item_id": 1208,
+    "name": "Main Gauche",
+    "aegis": "Main_Gauche_",
+    "price_min": 20000,
+    "price_max": 20000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1210,
+    "name": "Dirk",
+    "aegis": "Dirk",
+    "price_min": 8500,
+    "price_max": 8500,
+    "maps": [
+      "1@gef_in",
+      "aldeba_in",
+      "ein_in01",
+      "geffen_in",
+      "morocc_in",
+      "xmas_in",
+      "yuno_in01"
+    ]
+  },
+  {
+    "item_id": 1211,
+    "name": "Dirk",
+    "aegis": "Dirk_",
+    "price_min": 20000,
+    "price_max": 20000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1213,
+    "name": "Dagger",
+    "aegis": "Dagger",
+    "price_min": 14000,
+    "price_max": 14000,
+    "maps": [
+      "1@gef_in",
+      "aldeba_in",
+      "ein_in01",
+      "geffen_in",
+      "morocc_in",
+      "xmas_in",
+      "yuno_in01"
+    ]
+  },
+  {
+    "item_id": 1216,
+    "name": "Stiletto",
+    "aegis": "Stiletto",
+    "price_min": 19500,
+    "price_max": 19500,
+    "maps": [
+      "1@gef_in",
+      "aldeba_in",
+      "ama_in01",
+      "ayo_in01",
+      "dewata",
+      "ein_in01",
+      "geffen_in",
+      "gonryun",
+      "lhz_in02",
+      "lou_in02",
+      "ma_in01",
+      "morocc_in",
+      "mosk_in",
+      "ra_in01",
+      "ve_in",
+      "xmas_in",
+      "yuno_in01"
+    ]
+  },
+  {
+    "item_id": 1217,
+    "name": "Stiletto",
+    "aegis": "Stiletto_",
+    "price_min": 20000,
+    "price_max": 20000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1219,
+    "name": "Gladius",
+    "aegis": "Gladius",
+    "price_min": 43000,
+    "price_max": 43000,
+    "maps": [
+      "aldeba_in",
+      "ein_in01",
+      "morocc_in",
+      "xmas_in"
+    ]
+  },
+  {
+    "item_id": 1222,
+    "name": "Damascus",
+    "aegis": "Damascus",
+    "price_min": 49000,
+    "price_max": 49000,
+    "maps": [
+      "aldeba_in",
+      "ein_in01",
+      "morocc_in",
+      "xmas_in"
+    ]
+  },
+  {
+    "item_id": 1223,
+    "name": "Fortune Sword",
+    "aegis": "Forturn_Sword",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1231,
+    "name": "Bazerald",
+    "aegis": "Bazerald",
+    "price_min": 75000,
+    "price_max": 75000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1235,
+    "name": "Azoth",
+    "aegis": "Azoth",
+    "price_min": 75000,
+    "price_max": 75000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1236,
+    "name": "Sucsamad",
+    "aegis": "Sucsamad",
+    "price_min": 75000,
+    "price_max": 75000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1237,
+    "name": "Grimtooth",
+    "aegis": "Grimtooth_",
+    "price_min": 75000,
+    "price_max": 75000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1245,
+    "name": "Cinquedea",
+    "aegis": "Cinquedea",
+    "price_min": 40000,
+    "price_max": 40000,
+    "maps": [
+      "1@gef_in",
+      "alberta_in",
+      "aldeba_in",
+      "geffen_in",
+      "morocc_in",
+      "payon_in01",
+      "prt_in"
+    ]
+  },
+  {
+    "item_id": 1247,
+    "name": "Kindle Dagger",
+    "aegis": "Kindling_Dagger",
+    "price_min": 10000,
+    "price_max": 10000,
+    "maps": [
+      "ein_in01"
+    ]
+  },
+  {
+    "item_id": 1248,
+    "name": "Obsidian Dagger",
+    "aegis": "Obsidian_Dagger",
+    "price_min": 10000,
+    "price_max": 10000,
+    "maps": [
+      "ein_in01"
+    ]
+  },
+  {
+    "item_id": 1249,
+    "name": "Fisherman's Dagger",
+    "aegis": "Fisherman's_Dagger",
+    "price_min": 10000,
+    "price_max": 10000,
+    "maps": [
+      "ein_in01"
+    ]
+  },
+  {
+    "item_id": 1250,
+    "name": "Jur",
+    "aegis": "Jur",
+    "price_min": 19500,
+    "price_max": 19500,
+    "maps": [
+      "ein_in01",
+      "morocc_in"
+    ]
+  },
+  {
+    "item_id": 1251,
+    "name": "Jur",
+    "aegis": "Jur_",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1252,
+    "name": "Katar",
+    "aegis": "Katar",
+    "price_min": 41000,
+    "price_max": 41000,
+    "maps": [
+      "ein_in01",
+      "morocc_in"
+    ]
+  },
+  {
+    "item_id": 1253,
+    "name": "Katar",
+    "aegis": "Katar_",
+    "price_min": 100000,
+    "price_max": 100000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1254,
+    "name": "Jamadhar",
+    "aegis": "Jamadhar",
+    "price_min": 37200,
+    "price_max": 37200,
+    "maps": [
+      "ein_in01",
+      "morocc_in"
+    ]
+  },
+  {
+    "item_id": 1255,
+    "name": "Jamadhar",
+    "aegis": "Jamadhar_",
+    "price_min": 75000,
+    "price_max": 75000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1261,
+    "name": "Infiltrator",
+    "aegis": "Infiltrator",
+    "price_min": 125000,
+    "price_max": 125000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1262,
+    "name": "Loki's Nail",
+    "aegis": "Nail_Of_Loki",
+    "price_min": 20000,
+    "price_max": 20000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1263,
+    "name": "Unholy Touch",
+    "aegis": "Unholy_Touch",
+    "price_min": 20000,
+    "price_max": 20000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1265,
+    "name": "Bloody Roar",
+    "aegis": "Bloody_Roar",
+    "price_min": 100000,
+    "price_max": 100000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1275,
+    "name": "Katar of Frozen Icicle",
+    "aegis": "Katar_Of_Cold_Icicle_",
+    "price_min": 100000,
+    "price_max": 100000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1276,
+    "name": "Katar of Quaking",
+    "aegis": "Katar_Of_Thornbush_",
+    "price_min": 100000,
+    "price_max": 100000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1277,
+    "name": "Katar of Raging Blaze",
+    "aegis": "Katar_Of_Raging_Blaze_",
+    "price_min": 100000,
+    "price_max": 100000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1278,
+    "name": "Katar of Piercing Wind",
+    "aegis": "Katar_Of_Piercing_Wind_",
+    "price_min": 100000,
+    "price_max": 100000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1301,
+    "name": "Axe",
+    "aegis": "Axe",
+    "price_min": 500,
+    "price_max": 500,
+    "maps": [
+      "alberta_in",
+      "ein_in01",
+      "izlude_in",
+      "nif_in",
+      "prt_in"
+    ]
+  },
+  {
+    "item_id": 1302,
+    "name": "Axe",
+    "aegis": "Axe_",
+    "price_min": 10000,
+    "price_max": 10000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1306,
+    "name": "War Axe",
+    "aegis": "War_Axe",
+    "price_min": 20000,
+    "price_max": 20000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1307,
+    "name": "Windhawk",
+    "aegis": "Windhawk",
+    "price_min": 45000,
+    "price_max": 45000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1309,
+    "name": "Orcish Axe",
+    "aegis": "Orcish_Axe_",
+    "price_min": 75000,
+    "price_max": 75000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1351,
+    "name": "Battle Axe",
+    "aegis": "Battle_Axe",
+    "price_min": 5400,
+    "price_max": 5400,
+    "maps": [
+      "alberta_in",
+      "ein_in01",
+      "nif_in"
+    ]
+  },
+  {
+    "item_id": 1352,
+    "name": "Battle Axe",
+    "aegis": "Battle_Axe_",
+    "price_min": 20000,
+    "price_max": 20000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1354,
+    "name": "Hammer",
+    "aegis": "Hammer",
+    "price_min": 15500,
+    "price_max": 15500,
+    "maps": [
+      "alberta_in",
+      "ama_in01",
+      "ayo_in01",
+      "brasilis",
+      "dewata",
+      "ein_in01",
+      "gonryun",
+      "hu_in01",
+      "lhz_in02",
+      "lou_in02",
+      "ma_in01",
+      "mosk_in",
+      "nif_in",
+      "ra_in01",
+      "ve_in"
+    ]
+  },
+  {
+    "item_id": 1355,
+    "name": "Hammer",
+    "aegis": "Hammer_",
+    "price_min": 30000,
+    "price_max": 30000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1357,
+    "name": "Buster",
+    "aegis": "Buster",
+    "price_min": 34000,
+    "price_max": 34000,
+    "maps": [
+      "alberta_in",
+      "ein_in01",
+      "nif_in"
+    ]
+  },
+  {
+    "item_id": 1358,
+    "name": "Buster",
+    "aegis": "Buster_",
+    "price_min": 75000,
+    "price_max": 75000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1360,
+    "name": "Two-Handed Axe",
+    "aegis": "Two_Handed_Axe",
+    "price_min": 55000,
+    "price_max": 55000,
+    "maps": [
+      "alberta_in",
+      "ein_in01",
+      "nif_in"
+    ]
+  },
+  {
+    "item_id": 1363,
+    "name": "Bloody Axe",
+    "aegis": "Brood_Axe",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1364,
+    "name": "Great Axe",
+    "aegis": "Great_Axe",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1365,
+    "name": "Sabbath",
+    "aegis": "Sabbath",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1366,
+    "name": "Light Epsilon",
+    "aegis": "Right_Epsilon",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1371,
+    "name": "Doom Slayer",
+    "aegis": "Doom_Slayer_",
+    "price_min": 100000,
+    "price_max": 100000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1401,
+    "name": "Javelin",
+    "aegis": "Javelin",
+    "price_min": 150,
+    "price_max": 150,
+    "maps": [
+      "cmd_fild07",
+      "ein_in01",
+      "prt_in"
+    ]
+  },
+  {
+    "item_id": 1404,
+    "name": "Spear",
+    "aegis": "Spear",
+    "price_min": 1700,
+    "price_max": 1700,
+    "maps": [
+      "cmd_fild07",
+      "ein_in01",
+      "prt_in"
+    ]
+  },
+  {
+    "item_id": 1405,
+    "name": "Spear",
+    "aegis": "Spear_",
+    "price_min": 20000,
+    "price_max": 20000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1407,
+    "name": "Pike",
+    "aegis": "Pike",
+    "price_min": 3450,
+    "price_max": 3450,
+    "maps": [
+      "ama_in01",
+      "ayo_in01",
+      "brasilis",
+      "cmd_fild07",
+      "dewata",
+      "ein_in01",
+      "gonryun",
+      "lhz_in02",
+      "lou_in02",
+      "ma_in01",
+      "mosk_in",
+      "prt_in",
+      "ra_in01",
+      "ve_in"
+    ]
+  },
+  {
+    "item_id": 1408,
+    "name": "Pike",
+    "aegis": "Pike_",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1410,
+    "name": "Lance",
+    "aegis": "Lance",
+    "price_min": 60000,
+    "price_max": 60000,
+    "maps": [
+      "cmd_fild07",
+      "ein_in01",
+      "prt_in"
+    ]
+  },
+  {
+    "item_id": 1415,
+    "name": "Brocca",
+    "aegis": "Skewer",
+    "price_min": 100000,
+    "price_max": 100000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1417,
+    "name": "Pole Axe",
+    "aegis": "Pole_Axe",
+    "price_min": 75000,
+    "price_max": 75000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1421,
+    "name": "Battle Hook",
+    "aegis": "Battle_Hook",
+    "price_min": 75000,
+    "price_max": 75000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1422,
+    "name": "Hunting Spear",
+    "aegis": "Hunting_Spear",
+    "price_min": 25000,
+    "price_max": 25000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1451,
+    "name": "Guisarme",
+    "aegis": "Guisarme",
+    "price_min": 13000,
+    "price_max": 13000,
+    "maps": [
+      "cmd_fild07",
+      "ein_in01",
+      "prt_in"
+    ]
+  },
+  {
+    "item_id": 1454,
+    "name": "Glaive",
+    "aegis": "Glaive",
+    "price_min": 20000,
+    "price_max": 20000,
+    "maps": [
+      "cmd_fild07",
+      "ein_in01",
+      "prt_in"
+    ]
+  },
+  {
+    "item_id": 1457,
+    "name": "Partizan",
+    "aegis": "Partizan",
+    "price_min": 27000,
+    "price_max": 27000,
+    "maps": [
+      "ama_in01",
+      "ayo_in01",
+      "brasilis",
+      "cmd_fild07",
+      "dewata",
+      "ein_in01",
+      "gonryun",
+      "lhz_in02",
+      "lou_in02",
+      "ma_in01",
+      "mosk_in",
+      "prt_in",
+      "ra_in01",
+      "ve_in"
+    ]
+  },
+  {
+    "item_id": 1460,
+    "name": "Trident",
+    "aegis": "Trident",
+    "price_min": 51000,
+    "price_max": 51000,
+    "maps": [
+      "cmd_fild07",
+      "ein_in01",
+      "prt_in"
+    ]
+  },
+  {
+    "item_id": 1463,
+    "name": "Halberd",
+    "aegis": "Halberd",
+    "price_min": 54000,
+    "price_max": 54000,
+    "maps": [
+      "cmd_fild07",
+      "ein_in01",
+      "prt_in"
+    ]
+  },
+  {
+    "item_id": 1501,
+    "name": "Club",
+    "aegis": "Club",
+    "price_min": 120,
+    "price_max": 120,
+    "maps": [
+      "ein_in01",
+      "prt_church",
+      "um_in"
+    ]
+  },
+  {
+    "item_id": 1502,
+    "name": "Club",
+    "aegis": "Club_",
+    "price_min": 10000,
+    "price_max": 10000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1504,
+    "name": "Mace",
+    "aegis": "Mace",
+    "price_min": 1600,
+    "price_max": 1600,
+    "maps": [
+      "ein_in01",
+      "prt_church",
+      "um_in"
+    ]
+  },
+  {
+    "item_id": 1505,
+    "name": "Mace",
+    "aegis": "Mace_",
+    "price_min": 20000,
+    "price_max": 20000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1507,
+    "name": "Smasher",
+    "aegis": "Smasher",
+    "price_min": 9000,
+    "price_max": 9000,
+    "maps": [
+      "ein_in01",
+      "prt_church",
+      "um_in"
+    ]
+  },
+  {
+    "item_id": 1510,
+    "name": "Flail",
+    "aegis": "Flail",
+    "price_min": 16000,
+    "price_max": 16000,
+    "maps": [
+      "ein_in01",
+      "prt_church",
+      "um_in"
+    ]
+  },
+  {
+    "item_id": 1511,
+    "name": "Flail",
+    "aegis": "Flail_",
+    "price_min": 20000,
+    "price_max": 20000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1513,
+    "name": "Morning Star",
+    "aegis": "Morning_Star",
+    "price_min": 41000,
+    "price_max": 41000,
+    "maps": [
+      "ein_in01",
+      "prt_church",
+      "um_in"
+    ]
+  },
+  {
+    "item_id": 1514,
+    "name": "Morning Star",
+    "aegis": "Morning_Star_",
+    "price_min": 41000,
+    "price_max": 41000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1516,
+    "name": "Sword Mace",
+    "aegis": "Sword_Mace",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "ein_in01",
+      "moc_ruins",
+      "morocc"
+    ]
+  },
+  {
+    "item_id": 1517,
+    "name": "Sword Mace",
+    "aegis": "Sword_Mace_",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1519,
+    "name": "Chain",
+    "aegis": "Chain",
+    "price_min": 23000,
+    "price_max": 23000,
+    "maps": [
+      "ama_in01",
+      "ayo_in01",
+      "brasilis",
+      "dewata",
+      "ein_in01",
+      "gonryun",
+      "lhz_in02",
+      "lou_in02",
+      "ma_in01",
+      "mosk_in",
+      "prt_church",
+      "ra_in01",
+      "um_in",
+      "ve_in"
+    ]
+  },
+  {
+    "item_id": 1520,
+    "name": "Chain",
+    "aegis": "Chain_",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1522,
+    "name": "Stunner",
+    "aegis": "Stunner",
+    "price_min": 60000,
+    "price_max": 100000,
+    "maps": [
+      "ein_in01",
+      "moc_ruins",
+      "morocc",
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1523,
+    "name": "Spike",
+    "aegis": "Spike",
+    "price_min": 25000,
+    "price_max": 25000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1528,
+    "name": "Grand Cross",
+    "aegis": "Grand_Cross",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1529,
+    "name": "Iron Driver",
+    "aegis": "Iron_Driver",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1531,
+    "name": "Wrench",
+    "aegis": "Spanner",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1550,
+    "name": "Book",
+    "aegis": "Book",
+    "price_min": 30000,
+    "price_max": 30000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1551,
+    "name": "Bible",
+    "aegis": "Bible",
+    "price_min": 60000,
+    "price_max": 60000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1552,
+    "name": "Tablet",
+    "aegis": "Tablet",
+    "price_min": 51000,
+    "price_max": 51000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1559,
+    "name": "Legacy of Dragon",
+    "aegis": "Legacy_Of_Dragon",
+    "price_min": 25000,
+    "price_max": 25000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1561,
+    "name": "Hardcover Book",
+    "aegis": "Hardback",
+    "price_min": 75000,
+    "price_max": 75000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1564,
+    "name": "Encyclopedia",
+    "aegis": "Encyclopedia",
+    "price_min": 25000,
+    "price_max": 25000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1568,
+    "name": "Book of Billows",
+    "aegis": "Book_Of_Billows_",
+    "price_min": 70000,
+    "price_max": 70000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1569,
+    "name": "Book of Mother Earth",
+    "aegis": "Book_Of_Mother_Earth_",
+    "price_min": 70000,
+    "price_max": 70000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1570,
+    "name": "Book of Blazing Sun",
+    "aegis": "Book_Of_Blazing_Sun_",
+    "price_min": 70000,
+    "price_max": 70000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1571,
+    "name": "Book of Gust of Wind",
+    "aegis": "Book_Of_Gust_Of_Wind_",
+    "price_min": 70000,
+    "price_max": 70000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1572,
+    "name": "Principles of Magic",
+    "aegis": "Principles_Of_Magic",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1601,
+    "name": "Rod",
+    "aegis": "Rod",
+    "price_min": 50,
+    "price_max": 50,
+    "maps": [
+      "1@gef_in",
+      "alberta_in",
+      "geffen_in",
+      "izlude_in",
+      "lhz_in02",
+      "morocc_in",
+      "payon_in01",
+      "prt_in",
+      "ra_in01",
+      "ve_in",
+      "yuno",
+      "yuno_in01"
+    ]
+  },
+  {
+    "item_id": 1602,
+    "name": "Rod",
+    "aegis": "Rod_",
+    "price_min": 20000,
+    "price_max": 20000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1604,
+    "name": "Wand",
+    "aegis": "Wand",
+    "price_min": 2500,
+    "price_max": 2500,
+    "maps": [
+      "1@gef_in",
+      "geffen_in",
+      "lhz_in02",
+      "ra_in01",
+      "ve_in",
+      "yuno",
+      "yuno_in01"
+    ]
+  },
+  {
+    "item_id": 1605,
+    "name": "Wand",
+    "aegis": "Wand_",
+    "price_min": 20000,
+    "price_max": 20000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1607,
+    "name": "Staff",
+    "aegis": "Staff",
+    "price_min": 9500,
+    "price_max": 9500,
+    "maps": [
+      "1@gef_in",
+      "geffen_in",
+      "lhz_in02",
+      "ra_in01",
+      "ve_in",
+      "yuno",
+      "yuno_in01"
+    ]
+  },
+  {
+    "item_id": 1608,
+    "name": "Staff",
+    "aegis": "Staff_",
+    "price_min": 20000,
+    "price_max": 20000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1610,
+    "name": "Arc Wand",
+    "aegis": "Arc_Wand",
+    "price_min": 45000,
+    "price_max": 45000,
+    "maps": [
+      "1@gef_in",
+      "geffen_in",
+      "ve_in",
+      "yuno",
+      "yuno_in01"
+    ]
+  },
+  {
+    "item_id": 1611,
+    "name": "Arc Wand",
+    "aegis": "Arc_Wand_",
+    "price_min": 45000,
+    "price_max": 45000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1617,
+    "name": "Survivor's Rod (Dex)",
+    "aegis": "Survival_Rod",
+    "price_min": 85000,
+    "price_max": 85000,
+    "maps": [
+      "lhz_in02"
+    ]
+  },
+  {
+    "item_id": 1618,
+    "name": "Survivor's Rod (Dex)",
+    "aegis": "Survival_Rod_",
+    "price_min": 85000,
+    "price_max": 85000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1619,
+    "name": "Survivor's Rod (Int)",
+    "aegis": "Survival_Rod2",
+    "price_min": 85000,
+    "price_max": 85000,
+    "maps": [
+      "lhz_in02"
+    ]
+  },
+  {
+    "item_id": 1620,
+    "name": "Survivor's Rod (Int)",
+    "aegis": "Survival_Rod2_",
+    "price_min": 85000,
+    "price_max": 85000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1622,
+    "name": "Hypnotist's Staff",
+    "aegis": "Hypnotist's_Staff_",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1624,
+    "name": "Lich's Bone Wand",
+    "aegis": "Lich_Bone_Wand",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1625,
+    "name": "Healing Staff",
+    "aegis": "Healing_Staff",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1626,
+    "name": "Piercing Staff",
+    "aegis": "Piercing_Staff",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1701,
+    "name": "Bow",
+    "aegis": "Bow",
+    "price_min": 1000,
+    "price_max": 1000,
+    "maps": [
+      "1@gef_in",
+      "alberta_in",
+      "geffen_in",
+      "hu_in01",
+      "izlude_in",
+      "morocc_in",
+      "payon_in01",
+      "prt_in",
+      "yuno_in01"
+    ]
+  },
+  {
+    "item_id": 1702,
+    "name": "Bow",
+    "aegis": "Bow_",
+    "price_min": 20000,
+    "price_max": 20000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1704,
+    "name": "Composite Bow",
+    "aegis": "Composite_Bow",
+    "price_min": 2500,
+    "price_max": 2500,
+    "maps": [
+      "payon_in01"
+    ]
+  },
+  {
+    "item_id": 1705,
+    "name": "Composite Bow",
+    "aegis": "Composite_Bow_",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1707,
+    "name": "Great Bow",
+    "aegis": "Great_Bow",
+    "price_min": 10000,
+    "price_max": 10000,
+    "maps": [
+      "hu_in01",
+      "payon_in01"
+    ]
+  },
+  {
+    "item_id": 1708,
+    "name": "Great Bow",
+    "aegis": "Great_Bow_",
+    "price_min": 20000,
+    "price_max": 20000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1710,
+    "name": "Crossbow",
+    "aegis": "CrossBow",
+    "price_min": 17000,
+    "price_max": 17000,
+    "maps": [
+      "payon_in01"
+    ]
+  },
+  {
+    "item_id": 1713,
+    "name": "Arbalest",
+    "aegis": "Arbalest",
+    "price_min": 48000,
+    "price_max": 48000,
+    "maps": [
+      "payon_in01"
+    ]
+  },
+  {
+    "item_id": 1714,
+    "name": "Gakkung Bow",
+    "aegis": "Kakkung",
+    "price_min": 42000,
+    "price_max": 42000,
+    "maps": [
+      "hu_in01",
+      "payon_in01"
+    ]
+  },
+  {
+    "item_id": 1718,
+    "name": "Hunter Bow",
+    "aegis": "Hunter_Bow",
+    "price_min": 64000,
+    "price_max": 64000,
+    "maps": [
+      "hu_in01",
+      "payon_in01"
+    ]
+  },
+  {
+    "item_id": 1720,
+    "name": "Rudra Bow",
+    "aegis": "Bow_Of_Rudra",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1721,
+    "name": "Repeating Crossbow",
+    "aegis": "Repeting_CrossBow",
+    "price_min": 89000,
+    "price_max": 89000,
+    "maps": [
+      "yuno"
+    ]
+  },
+  {
+    "item_id": 1723,
+    "name": "Luna Bow",
+    "aegis": "Luna_Bow",
+    "price_min": 75000,
+    "price_max": 75000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1724,
+    "name": "Dragon Wing",
+    "aegis": "Dragon_Wing",
+    "price_min": 75000,
+    "price_max": 75000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1725,
+    "name": "Minstrel Bow",
+    "aegis": "Bow_Of_Minstrel",
+    "price_min": 75000,
+    "price_max": 75000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1750,
+    "name": "Arrow",
+    "aegis": "Arrow",
+    "price_min": 1,
+    "price_max": 10,
+    "maps": [
+      "1@gef_in",
+      "alb2trea",
+      "alberta_in",
+      "ama_in01",
+      "ayo_in01",
+      "dewata",
+      "ein_in01",
+      "einbroch",
+      "geffen_in",
+      "gonryun",
+      "hu_in01",
+      "izlude_in",
+      "lhz_in03",
+      "lou_in02",
+      "ma_in01",
+      "malangdo",
+      "moc_ruins",
+      "morocc",
+      "morocc_in",
+      "mosk_in"
+    ]
+  },
+  {
+    "item_id": 1751,
+    "name": "Silver Arrow",
+    "aegis": "Silver_Arrow",
+    "price_min": 5,
+    "price_max": 20,
+    "maps": [
+      "1@gef_in",
+      "alb2trea",
+      "alberta_in",
+      "ein_in01",
+      "geffen_in",
+      "izlude_in",
+      "lhz_in03",
+      "morocc_in",
+      "payon_in01",
+      "payon_in02",
+      "prontera",
+      "prt_in",
+      "yuno_in01"
+    ]
+  },
+  {
+    "item_id": 1752,
+    "name": "Fire Arrow",
+    "aegis": "Fire_Arrow",
+    "price_min": 5,
+    "price_max": 20,
+    "maps": [
+      "alb2trea",
+      "ein_in01",
+      "lhz_in03",
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1753,
+    "name": "Steel Arrow",
+    "aegis": "Steel_Arrow",
+    "price_min": 30,
+    "price_max": 30,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1754,
+    "name": "Crystal Arrow",
+    "aegis": "Crystal_Arrow",
+    "price_min": 20,
+    "price_max": 20,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1755,
+    "name": "Arrow of Wind",
+    "aegis": "Arrow_Of_Wind",
+    "price_min": 20,
+    "price_max": 20,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1756,
+    "name": "Stone Arrow",
+    "aegis": "Stone_Arrow",
+    "price_min": 30,
+    "price_max": 30,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1757,
+    "name": "Immaterial Arrow",
+    "aegis": "Immatrial_Arrow",
+    "price_min": 30,
+    "price_max": 30,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1758,
+    "name": "Stun Arrow",
+    "aegis": "Stun_Arrow",
+    "price_min": 30,
+    "price_max": 30,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1759,
+    "name": "Frozen Arrow",
+    "aegis": "Freezing_Arrow",
+    "price_min": 20,
+    "price_max": 20,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1760,
+    "name": "Flash Arrow",
+    "aegis": "Flash_Arrow",
+    "price_min": 20,
+    "price_max": 20,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1761,
+    "name": "Cursed Arrow",
+    "aegis": "Curse_Arrow",
+    "price_min": 20,
+    "price_max": 20,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1762,
+    "name": "Rusty Arrow",
+    "aegis": "Rusty_Arrow",
+    "price_min": 30,
+    "price_max": 30,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1763,
+    "name": "Poison Arrow",
+    "aegis": "Poison_Arrow",
+    "price_min": 30,
+    "price_max": 30,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1764,
+    "name": "Sharp Arrow",
+    "aegis": "Incisive_Arrow",
+    "price_min": 30,
+    "price_max": 30,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1765,
+    "name": "Oridecon Arrow",
+    "aegis": "Oridecon_Arrow",
+    "price_min": 40,
+    "price_max": 40,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1766,
+    "name": "Arrow of Counter Evil",
+    "aegis": "Arrow_Of_Counter_Evil",
+    "price_min": 50,
+    "price_max": 50,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1767,
+    "name": "Arrow of Shadow",
+    "aegis": "Arrow_Of_Shadow",
+    "price_min": 30,
+    "price_max": 30,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1768,
+    "name": "Sleep Arrow",
+    "aegis": "Sleep_Arrow",
+    "price_min": 30,
+    "price_max": 30,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1769,
+    "name": "Mute Arrow",
+    "aegis": "Silence_Arrow",
+    "price_min": 30,
+    "price_max": 30,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1770,
+    "name": "Iron Arrow",
+    "aegis": "Iron_Arrow",
+    "price_min": 3,
+    "price_max": 20,
+    "maps": [
+      "ama_in01",
+      "ayo_in01",
+      "cmd_fild07",
+      "cmd_in01",
+      "gonryun",
+      "lhz_in02",
+      "lhz_in03",
+      "lou_in02",
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1771,
+    "name": "Venom Knife",
+    "aegis": "Venom_Knife",
+    "price_min": 50,
+    "price_max": 1000,
+    "maps": [
+      "alb2trea",
+      "alberta_in",
+      "aldeba_in",
+      "ama_in01",
+      "ayo_in01",
+      "brasilis",
+      "cmd_fild07",
+      "cmd_in01",
+      "ein_in01",
+      "geffen_in",
+      "gonryun",
+      "hu_in01",
+      "in_moc_16",
+      "lhz_in02",
+      "lhz_in03",
+      "lou_in02",
+      "moc_ruins",
+      "morocc",
+      "mosk_in",
+      "payon_in01"
+    ]
+  },
+  {
+    "item_id": 1772,
+    "name": "Holy Arrow",
+    "aegis": "Holy_Arrow",
+    "price_min": 100,
+    "price_max": 100,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1801,
+    "name": "Waghnak",
+    "aegis": "Waghnakh",
+    "price_min": 8000,
+    "price_max": 8000,
+    "maps": [
+      "ein_in01",
+      "prt_monk"
+    ]
+  },
+  {
+    "item_id": 1802,
+    "name": "Waghnak",
+    "aegis": "Waghnakh_",
+    "price_min": 20000,
+    "price_max": 20000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1803,
+    "name": "Knuckle Dusters",
+    "aegis": "Knuckle_Duster",
+    "price_min": 25000,
+    "price_max": 25000,
+    "maps": [
+      "ein_in01",
+      "prt_monk"
+    ]
+  },
+  {
+    "item_id": 1804,
+    "name": "Knuckle Dusters",
+    "aegis": "Knuckle_Duster_",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1805,
+    "name": "Studded Knuckles",
+    "aegis": "Hora",
+    "price_min": 32000,
+    "price_max": 32000,
+    "maps": [
+      "ein_in01",
+      "prt_monk"
+    ]
+  },
+  {
+    "item_id": 1806,
+    "name": "Studded Knuckles",
+    "aegis": "Hora_",
+    "price_min": 60000,
+    "price_max": 60000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1807,
+    "name": "Fist",
+    "aegis": "Fist",
+    "price_min": 53000,
+    "price_max": 53000,
+    "maps": [
+      "ein_in01",
+      "um_in"
+    ]
+  },
+  {
+    "item_id": 1808,
+    "name": "Fist",
+    "aegis": "Fist_",
+    "price_min": 75000,
+    "price_max": 75000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1809,
+    "name": "Claw",
+    "aegis": "Claw",
+    "price_min": 67000,
+    "price_max": 67000,
+    "maps": [
+      "ein_in01",
+      "um_in"
+    ]
+  },
+  {
+    "item_id": 1810,
+    "name": "Claw",
+    "aegis": "Claw_",
+    "price_min": 70000,
+    "price_max": 70000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1811,
+    "name": "Finger",
+    "aegis": "Finger",
+    "price_min": 58000,
+    "price_max": 58000,
+    "maps": [
+      "ein_in01",
+      "um_in"
+    ]
+  },
+  {
+    "item_id": 1812,
+    "name": "Finger",
+    "aegis": "Finger_",
+    "price_min": 60000,
+    "price_max": 60000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1813,
+    "name": "Kaiser Knuckle",
+    "aegis": "Kaiser_Knuckle",
+    "price_min": 100000,
+    "price_max": 100000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1814,
+    "name": "Berserk",
+    "aegis": "Berserk",
+    "price_min": 100000,
+    "price_max": 100000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1822,
+    "name": "Combo Battle Glove",
+    "aegis": "Combo_Battle_Glove",
+    "price_min": 150000,
+    "price_max": 150000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1901,
+    "name": "Violin",
+    "aegis": "Violin",
+    "price_min": 4000,
+    "price_max": 4000,
+    "maps": [
+      "cmd_in01"
+    ]
+  },
+  {
+    "item_id": 1902,
+    "name": "Violin",
+    "aegis": "Violin_",
+    "price_min": 10000,
+    "price_max": 10000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1903,
+    "name": "Mandolin",
+    "aegis": "Mandolin",
+    "price_min": 18000,
+    "price_max": 18000,
+    "maps": [
+      "cmd_in01"
+    ]
+  },
+  {
+    "item_id": 1904,
+    "name": "Mandolin",
+    "aegis": "Mandolin_",
+    "price_min": 20000,
+    "price_max": 20000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1905,
+    "name": "Lute",
+    "aegis": "Lute",
+    "price_min": 24500,
+    "price_max": 24500,
+    "maps": [
+      "cmd_in01"
+    ]
+  },
+  {
+    "item_id": 1906,
+    "name": "Lute",
+    "aegis": "Lute_",
+    "price_min": 24500,
+    "price_max": 24500,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1907,
+    "name": "Guitar",
+    "aegis": "Guitar",
+    "price_min": 47000,
+    "price_max": 47000,
+    "maps": [
+      "cmd_in01"
+    ]
+  },
+  {
+    "item_id": 1908,
+    "name": "Guitar",
+    "aegis": "Guitar_",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1909,
+    "name": "Harp",
+    "aegis": "Harp",
+    "price_min": 62000,
+    "price_max": 62000,
+    "maps": [
+      "cmd_in01"
+    ]
+  },
+  {
+    "item_id": 1911,
+    "name": "Gumoongoh",
+    "aegis": "Guh_Moon_Goh",
+    "price_min": 54000,
+    "price_max": 54000,
+    "maps": [
+      "cmd_in01"
+    ]
+  },
+  {
+    "item_id": 1913,
+    "name": "Electric Guitar",
+    "aegis": "Electronic_Guitar",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1914,
+    "name": "Burning Passion Guitar",
+    "aegis": "Guitar_Of_Passion",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1915,
+    "name": "Loner's Guitar",
+    "aegis": "Guitar_Of_Blue_Solo",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1916,
+    "name": "Green Acre Guitar",
+    "aegis": "Guitar_Of_Vast_Land",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1917,
+    "name": "Gentle Breeze Guitar",
+    "aegis": "Guitar_Of_Gentle_Breeze",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1950,
+    "name": "Rope",
+    "aegis": "Rope",
+    "price_min": 2500,
+    "price_max": 2500,
+    "maps": [
+      "cmd_in01"
+    ]
+  },
+  {
+    "item_id": 1951,
+    "name": "Rope",
+    "aegis": "Rope_",
+    "price_min": 10000,
+    "price_max": 10000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1952,
+    "name": "Whip",
+    "aegis": "Line",
+    "price_min": 12000,
+    "price_max": 12000,
+    "maps": [
+      "cmd_in01"
+    ]
+  },
+  {
+    "item_id": 1953,
+    "name": "Whip",
+    "aegis": "Line_",
+    "price_min": 20000,
+    "price_max": 20000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1954,
+    "name": "Wire Whip",
+    "aegis": "Wire",
+    "price_min": 17500,
+    "price_max": 17500,
+    "maps": [
+      "cmd_in01"
+    ]
+  },
+  {
+    "item_id": 1955,
+    "name": "Wire Whip",
+    "aegis": "Wire_",
+    "price_min": 30000,
+    "price_max": 30000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1956,
+    "name": "Rante Whip",
+    "aegis": "Rante",
+    "price_min": 32000,
+    "price_max": 32000,
+    "maps": [
+      "cmd_in01"
+    ]
+  },
+  {
+    "item_id": 1958,
+    "name": "Tail Whip",
+    "aegis": "Tail",
+    "price_min": 41000,
+    "price_max": 41000,
+    "maps": [
+      "cmd_in01"
+    ]
+  },
+  {
+    "item_id": 1960,
+    "name": "Whip",
+    "aegis": "Whip",
+    "price_min": 38000,
+    "price_max": 38000,
+    "maps": [
+      "cmd_in01"
+    ]
+  },
+  {
+    "item_id": 1962,
+    "name": "Lariat Whip",
+    "aegis": "Lariat",
+    "price_min": 20000,
+    "price_max": 20000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1963,
+    "name": "Rapture Rose",
+    "aegis": "Rapture_Rose",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1972,
+    "name": "Electric Eel",
+    "aegis": "Electric_Eel",
+    "price_min": 10000,
+    "price_max": 10000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1974,
+    "name": "Carrot Whip",
+    "aegis": "Carrot_Whip",
+    "price_min": 10000,
+    "price_max": 10000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 1976,
+    "name": "Queen's Whip",
+    "aegis": "Queen's_Whip_",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 2101,
+    "name": "Guard",
+    "aegis": "Guard",
+    "price_min": 500,
+    "price_max": 500,
+    "maps": [
+      "1@gef_in",
+      "alberta_in",
+      "ama_in01",
+      "ayo_in01",
+      "dewata",
+      "geffen_in",
+      "gonryun",
+      "hu_in01",
+      "lhz_in02",
+      "lou_in02",
+      "ma_in01",
+      "morocc_in",
+      "mosk_in",
+      "prt_in",
+      "ra_in01",
+      "ve_in",
+      "yuno_in01"
+    ]
+  },
+  {
+    "item_id": 2102,
+    "name": "Guard",
+    "aegis": "Guard_",
+    "price_min": 10000,
+    "price_max": 10000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 2103,
+    "name": "Buckler",
+    "aegis": "Buckler",
+    "price_min": 14000,
+    "price_max": 14000,
+    "maps": [
+      "alberta_in",
+      "aldeba_in",
+      "ama_in01",
+      "ayo_in01",
+      "cmd_fild07",
+      "cmd_in01",
+      "dewata",
+      "gonryun",
+      "hu_in01",
+      "izlude_in",
+      "lhz_in02",
+      "lou_in02",
+      "ma_in01",
+      "morocc_in",
+      "mosk_in",
+      "prt_in",
+      "ra_in01",
+      "ve_in",
+      "xmas_in"
+    ]
+  },
+  {
+    "item_id": 2105,
+    "name": "Shield",
+    "aegis": "Shield",
+    "price_min": 56000,
+    "price_max": 56000,
+    "maps": [
+      "aldeba_in",
+      "cmd_fild07",
+      "cmd_in01",
+      "hu_in01",
+      "izlude_in",
+      "xmas_in"
+    ]
+  },
+  {
+    "item_id": 2106,
+    "name": "Shield",
+    "aegis": "Shield_",
+    "price_min": 60000,
+    "price_max": 60000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 2107,
+    "name": "Mirror Shield",
+    "aegis": "Mirror_Shield",
+    "price_min": 60000,
+    "price_max": 60000,
+    "maps": [
+      "1@gef_in",
+      "geffen_in",
+      "yuno_in01"
+    ]
+  },
+  {
+    "item_id": 2108,
+    "name": "Mirror Shield",
+    "aegis": "Mirror_Shield_",
+    "price_min": 60000,
+    "price_max": 60000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 2110,
+    "name": "Holy Guard",
+    "aegis": "Holy_Guard",
+    "price_min": 85000,
+    "price_max": 85000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 2113,
+    "name": "Novice Shield",
+    "aegis": "Novice_Shield",
+    "price_min": 5000,
+    "price_max": 5000,
+    "maps": [
+      "lhz_in02"
+    ]
+  },
+  {
+    "item_id": 2114,
+    "name": "Stone Buckler",
+    "aegis": "Stone_Buckler",
+    "price_min": 30000,
+    "price_max": 30000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 2116,
+    "name": "Angelic Guard",
+    "aegis": "Angel's_Safeguard",
+    "price_min": 30000,
+    "price_max": 30000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 2117,
+    "name": "Arm Guard",
+    "aegis": "Arm_Guard",
+    "price_min": 10000,
+    "price_max": 10000,
+    "maps": [
+      "prontera",
+      "que_ng"
+    ]
+  },
+  {
+    "item_id": 2123,
+    "name": "Orleans's Server",
+    "aegis": "Orleans_Server",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 2124,
+    "name": "Thorny Buckler",
+    "aegis": "Thorny_Buckler",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 2139,
+    "name": "Flame Thrower",
+    "aegis": "Flame_Thrower",
+    "price_min": 20000,
+    "price_max": 20000,
+    "maps": [
+      "einbroch",
+      "lhz_in03",
+      "mid_camp",
+      "prt_in",
+      "ra_in01"
+    ]
+  },
+  {
+    "item_id": 2171,
+    "name": "Fox Wrist Guard",
+    "aegis": "Fox_Armguard",
+    "price_min": 40000,
+    "price_max": 40000,
+    "maps": [
+      "prontera",
+      "que_ng"
+    ]
+  },
+  {
+    "item_id": 2201,
+    "name": "Sunglasses",
+    "aegis": "Sunglasses",
+    "price_min": 5000,
+    "price_max": 5000,
+    "maps": [
+      "alberta_in",
+      "hu_in01",
+      "prontera",
+      "prt_in"
+    ]
+  },
+  {
+    "item_id": 2202,
+    "name": "Sunglasses",
+    "aegis": "Sunglasses_",
+    "price_min": 45000,
+    "price_max": 45000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 2203,
+    "name": "Glasses",
+    "aegis": "Glasses",
+    "price_min": 4000,
+    "price_max": 4000,
+    "maps": [
+      "alberta_in",
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 2205,
+    "name": "Diver Goggles",
+    "aegis": "Diver's_Goggles",
+    "price_min": 3500,
+    "price_max": 3500,
+    "maps": [
+      "alberta_in",
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 2206,
+    "name": "Wedding Veil",
+    "aegis": "Wedding_Veil",
+    "price_min": 23000,
+    "price_max": 23000,
+    "maps": [
+      "lhz_in02",
+      "prt_in"
+    ]
+  },
+  {
+    "item_id": 2208,
+    "name": "Ribbon",
+    "aegis": "Ribbon",
+    "price_min": 800,
+    "price_max": 800,
+    "maps": [
+      "payon_in01"
+    ]
+  },
+  {
+    "item_id": 2210,
+    "name": "Hair Band",
+    "aegis": "Hair_Band",
+    "price_min": 1000,
+    "price_max": 1000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 2211,
+    "name": "Bandana",
+    "aegis": "Bandana",
+    "price_min": 400,
+    "price_max": 1000,
+    "maps": [
+      "ama_in01",
+      "ayo_in01",
+      "dewata",
+      "gonryun",
+      "lou_in02",
+      "ma_in01",
+      "mosk_in",
+      "payon_in01",
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 2212,
+    "name": "Eye Patch",
+    "aegis": "Eye_Bandage",
+    "price_min": 1000,
+    "price_max": 5000,
+    "maps": [
+      "lhz_in02",
+      "payon_in01",
+      "prontera",
+      "prt_in"
+    ]
+  },
+  {
+    "item_id": 2213,
+    "name": "Kitty Band",
+    "aegis": "Cat_Hairband",
+    "price_min": 10000,
+    "price_max": 10000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 2214,
+    "name": "Bunny Band",
+    "aegis": "Bunny_Band",
+    "price_min": 20000,
+    "price_max": 20000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 2216,
+    "name": "Biretta",
+    "aegis": "Biretta",
+    "price_min": 9000,
+    "price_max": 9000,
+    "maps": [
+      "prt_church"
+    ]
+  },
+  {
+    "item_id": 2217,
+    "name": "Biretta",
+    "aegis": "Biretta_",
+    "price_min": 10000,
+    "price_max": 10000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 2218,
+    "name": "Flu Mask",
+    "aegis": "Flu_Mask",
+    "price_min": 300,
+    "price_max": 10000,
+    "maps": [
+      "einbroch",
+      "morocc_in",
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 2220,
+    "name": "Hat",
+    "aegis": "Hat",
+    "price_min": 1000,
+    "price_max": 1000,
+    "maps": [
+      "prt_in"
+    ]
+  },
+  {
+    "item_id": 2221,
+    "name": "Hat",
+    "aegis": "Hat_",
+    "price_min": 5000,
+    "price_max": 5000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 2222,
+    "name": "Turban",
+    "aegis": "Turban",
+    "price_min": 4500,
+    "price_max": 4500,
+    "maps": [
+      "yuno"
+    ]
+  },
+  {
+    "item_id": 2223,
+    "name": "Turban",
+    "aegis": "Turban_",
+    "price_min": 10000,
+    "price_max": 10000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 2224,
+    "name": "Goggles",
+    "aegis": "Goggle",
+    "price_min": 20,
+    "price_max": 20,
+    "maps": [
+      "hu_in01"
+    ]
+  },
+  {
+    "item_id": 2225,
+    "name": "Goggles",
+    "aegis": "Goggle_",
+    "price_min": 10000,
+    "price_max": 10000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 2226,
+    "name": "Cap",
+    "aegis": "Cap",
+    "price_min": 12000,
+    "price_max": 12000,
+    "maps": [
+      "alberta_in",
+      "cmd_fild07",
+      "cmd_in01",
+      "hu_in01",
+      "izlude_in",
+      "prt_in"
+    ]
+  },
+  {
+    "item_id": 2228,
+    "name": "Helm",
+    "aegis": "Helm",
+    "price_min": 44000,
+    "price_max": 44000,
+    "maps": [
+      "aldeba_in",
+      "cmd_fild07",
+      "cmd_in01",
+      "izlude_in",
+      "xmas_in"
+    ]
+  },
+  {
+    "item_id": 2229,
+    "name": "Helm",
+    "aegis": "Helm_",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 2230,
+    "name": "Gemmed Sallet",
+    "aegis": "Gemmed_Sallet",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "1@gef_in",
+      "geffen_in",
+      "yuno",
+      "yuno_in01"
+    ]
+  },
+  {
+    "item_id": 2231,
+    "name": "Gemmed Sallet",
+    "aegis": "Gemmed_Sallet_",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 2232,
+    "name": "Circlet",
+    "aegis": "Circlet",
+    "price_min": 7500,
+    "price_max": 7500,
+    "maps": [
+      "1@gef_in",
+      "geffen_in",
+      "hu_in01",
+      "ve_in",
+      "yuno"
+    ]
+  },
+  {
+    "item_id": 2234,
+    "name": "Tiara",
+    "aegis": "Tiara",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 2235,
+    "name": "Crown",
+    "aegis": "Crown",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 2239,
+    "name": "Monocle",
+    "aegis": "One_Eyed_Glass",
+    "price_min": 10000,
+    "price_max": 10000,
+    "maps": [
+      "dewata",
+      "ma_in01",
+      "prt_in"
+    ]
+  },
+  {
+    "item_id": 2241,
+    "name": "Grampa Beard",
+    "aegis": "Granpa_Beard",
+    "price_min": 5000,
+    "price_max": 5000,
+    "maps": [
+      "1@gef_in",
+      "geffen_in",
+      "lhz_in02",
+      "prt_in"
+    ]
+  },
+  {
+    "item_id": 2242,
+    "name": "Purple Glasses",
+    "aegis": "Luxury_Sunglasses",
+    "price_min": 24000,
+    "price_max": 24000,
+    "maps": [
+      "lhz_in02",
+      "moc_ruins",
+      "prt_in",
+      "tur_dun01"
+    ]
+  },
+  {
+    "item_id": 2243,
+    "name": "Geek Glasses",
+    "aegis": "Spinning_Eyes",
+    "price_min": 20000,
+    "price_max": 20000,
+    "maps": [
+      "alberta_in",
+      "lhz_in02",
+      "prt_in"
+    ]
+  },
+  {
+    "item_id": 2245,
+    "name": "Sweet Gent",
+    "aegis": "Sweet_Gents",
+    "price_min": 30000,
+    "price_max": 30000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 2246,
+    "name": "Golden Gear",
+    "aegis": "Golden_Gear",
+    "price_min": 75000,
+    "price_max": 75000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 2247,
+    "name": "Romantic Gent",
+    "aegis": "Oldman's_Romance",
+    "price_min": 500000,
+    "price_max": 500000,
+    "maps": []
+  },
+  {
+    "item_id": 2248,
+    "name": "Western Grace",
+    "aegis": "Western_Grace",
+    "price_min": 500000,
+    "price_max": 500000,
+    "maps": []
+  },
+  {
+    "item_id": 2256,
+    "name": "Majestic Goat",
+    "aegis": "Magestic_Goat",
+    "price_min": 75000,
+    "price_max": 75000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 2258,
+    "name": "Spiky Band",
+    "aegis": "Sharp_Gear",
+    "price_min": 45000,
+    "price_max": 45000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 2264,
+    "name": "Munak Hat",
+    "aegis": "Munak_Turban",
+    "price_min": 100000,
+    "price_max": 100000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 2265,
+    "name": "Gangster Mask",
+    "aegis": "Ganster_Mask",
+    "price_min": 5000,
+    "price_max": 5000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 2266,
+    "name": "Iron Cain",
+    "aegis": "Iron_Cane",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 2267,
+    "name": "Cigarette",
+    "aegis": "Cigar",
+    "price_min": 5000,
+    "price_max": 100000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 2268,
+    "name": "Pipe",
+    "aegis": "Smoking_Pipe",
+    "price_min": 500000,
+    "price_max": 500000,
+    "maps": []
+  },
+  {
+    "item_id": 2269,
+    "name": "Romantic Flower",
+    "aegis": "Centimental_Flower",
+    "price_min": 5000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 2270,
+    "name": "Romantic Leaf",
+    "aegis": "Centimental_Leaf",
+    "price_min": 5000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 2280,
+    "name": "Sakkat",
+    "aegis": "Sahkkat",
+    "price_min": 20000,
+    "price_max": 20000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 2281,
+    "name": "Opera Masque",
+    "aegis": "Phantom_Of_Opera",
+    "price_min": 25000,
+    "price_max": 25000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 2286,
+    "name": "Elven Ears",
+    "aegis": "Elven_Ears",
+    "price_min": 35000,
+    "price_max": 35000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 2292,
+    "name": "Welding Mask",
+    "aegis": "Welding_Mask",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 2295,
+    "name": "Blinker",
+    "aegis": "Blinker",
+    "price_min": 20000,
+    "price_max": 20000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 2296,
+    "name": "Binoculars",
+    "aegis": "Binoculars",
+    "price_min": 15000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 2299,
+    "name": "Orc Helm",
+    "aegis": "Viking_Helm",
+    "price_min": 30000,
+    "price_max": 30000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 2301,
+    "name": "Cotton Shirt",
+    "aegis": "Cotton_Shirt",
+    "price_min": 10,
+    "price_max": 10,
+    "maps": [
+      "1@gef_in",
+      "alberta_in",
+      "geffen_in",
+      "morocc_in",
+      "payon_in01",
+      "prt_in",
+      "yuno_in01"
+    ]
+  },
+  {
+    "item_id": 2303,
+    "name": "Jacket",
+    "aegis": "Leather_Jacket",
+    "price_min": 200,
+    "price_max": 200,
+    "maps": [
+      "1@gef_in",
+      "alberta_in",
+      "geffen_in",
+      "izlude_in",
+      "morocc_in",
+      "payon_in01",
+      "prt_in",
+      "yuno_in01"
+    ]
+  },
+  {
+    "item_id": 2304,
+    "name": "Jacket",
+    "aegis": "Leather_Jacket_",
+    "price_min": 10000,
+    "price_max": 10000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 2305,
+    "name": "Adventurer's Suit",
+    "aegis": "Adventure_Suit",
+    "price_min": 1000,
+    "price_max": 1000,
+    "maps": [
+      "1@gef_in",
+      "alberta_in",
+      "ama_in01",
+      "ayo_in01",
+      "cmd_fild07",
+      "cmd_in01",
+      "dewata",
+      "geffen_in",
+      "gonryun",
+      "izlude_in",
+      "lou_in02",
+      "ma_in01",
+      "morocc_in",
+      "mosk_in",
+      "payon_in01",
+      "prt_in",
+      "yuno_in01"
+    ]
+  },
+  {
+    "item_id": 2306,
+    "name": "Adventurer's Suit",
+    "aegis": "Adventurere's_Suit_",
+    "price_min": 20000,
+    "price_max": 20000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 2307,
+    "name": "Mantle",
+    "aegis": "Mantle",
+    "price_min": 10000,
+    "price_max": 10000,
+    "maps": [
+      "alberta_in",
+      "aldeba_in",
+      "cmd_fild07",
+      "cmd_in01",
+      "hu_in01",
+      "izlude_in",
+      "morocc_in",
+      "payon_in01",
+      "prt_in",
+      "xmas_in"
+    ]
+  },
+  {
+    "item_id": 2308,
+    "name": "Mantle",
+    "aegis": "Mantle_",
+    "price_min": 20000,
+    "price_max": 20000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 2309,
+    "name": "Coat",
+    "aegis": "Coat",
+    "price_min": 22000,
+    "price_max": 22000,
+    "maps": [
+      "alberta_in",
+      "aldeba_in",
+      "cmd_fild07",
+      "cmd_in01",
+      "izlude_in",
+      "lhz_in02",
+      "morocc_in",
+      "payon_in01",
+      "prt_in",
+      "ra_in01",
+      "ve_in",
+      "xmas_in"
+    ]
+  },
+  {
+    "item_id": 2310,
+    "name": "Coat",
+    "aegis": "Coat_",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 2311,
+    "name": "Mink Coat",
+    "aegis": "Mink_Coat",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 2312,
+    "name": "Padded Armor",
+    "aegis": "Padded_Armor",
+    "price_min": 48000,
+    "price_max": 48000,
+    "maps": [
+      "alberta_in",
+      "aldeba_in",
+      "cmd_fild07",
+      "cmd_in01",
+      "izlude_in",
+      "prt_in",
+      "xmas_in"
+    ]
+  },
+  {
+    "item_id": 2313,
+    "name": "Padded Armor",
+    "aegis": "Padded_Armor_",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 2314,
+    "name": "Chain Mail",
+    "aegis": "Chain_Mail",
+    "price_min": 65000,
+    "price_max": 65000,
+    "maps": [
+      "alberta_in",
+      "aldeba_in",
+      "cmd_fild07",
+      "cmd_in01",
+      "izlude_in",
+      "lhz_in02",
+      "prt_in",
+      "ra_in01",
+      "ve_in",
+      "xmas_in"
+    ]
+  },
+  {
+    "item_id": 2315,
+    "name": "Chain Mail",
+    "aegis": "Chain_Mail_",
+    "price_min": 75000,
+    "price_max": 75000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 2316,
+    "name": "Full Plate",
+    "aegis": "Plate_Armor",
+    "price_min": 80000,
+    "price_max": 80000,
+    "maps": [
+      "aldeba_in",
+      "cmd_fild07",
+      "cmd_in01",
+      "izlude_in",
+      "xmas_in"
+    ]
+  },
+  {
+    "item_id": 2317,
+    "name": "Full Plate",
+    "aegis": "Plate_Armor_",
+    "price_min": 100000,
+    "price_max": 100000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 2321,
+    "name": "Silk Robe",
+    "aegis": "Silk_Robe",
+    "price_min": 8000,
+    "price_max": 8000,
+    "maps": [
+      "1@gef_in",
+      "alberta_in",
+      "ama_in01",
+      "ayo_in01",
+      "cmd_fild07",
+      "cmd_in01",
+      "dewata",
+      "geffen_in",
+      "gonryun",
+      "lhz_in02",
+      "lou_in02",
+      "ma_in01",
+      "morocc_in",
+      "mosk_in",
+      "payon_in01",
+      "ra_in01",
+      "ve_in",
+      "yuno",
+      "yuno_in01"
+    ]
+  },
+  {
+    "item_id": 2322,
+    "name": "Silk Robe",
+    "aegis": "Silk_Robe_",
+    "price_min": 20000,
+    "price_max": 20000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 2323,
+    "name": "Scapulare",
+    "aegis": "Scapulare",
+    "price_min": 6500,
+    "price_max": 6500,
+    "maps": [
+      "prt_church"
+    ]
+  },
+  {
+    "item_id": 2325,
+    "name": "Saint's Robe",
+    "aegis": "Saint_Robe",
+    "price_min": 54000,
+    "price_max": 54000,
+    "maps": [
+      "prt_church"
+    ]
+  },
+  {
+    "item_id": 2326,
+    "name": "Saint's Robe",
+    "aegis": "Saint_Robe_",
+    "price_min": 60000,
+    "price_max": 60000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 2328,
+    "name": "Wooden Mail",
+    "aegis": "Wooden_Mail",
+    "price_min": 5500,
+    "price_max": 5500,
+    "maps": [
+      "alberta_in",
+      "ama_in01",
+      "ayo_in01",
+      "dewata",
+      "gonryun",
+      "izlude_in",
+      "lou_in02",
+      "ma_in01",
+      "morocc_in",
+      "mosk_in",
+      "payon_in01",
+      "prt_in"
+    ]
+  },
+  {
+    "item_id": 2330,
+    "name": "Tights",
+    "aegis": "Tights",
+    "price_min": 71000,
+    "price_max": 71000,
+    "maps": [
+      "payon_in01"
+    ]
+  },
+  {
+    "item_id": 2331,
+    "name": "Tights",
+    "aegis": "Tights_",
+    "price_min": 75000,
+    "price_max": 75000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 2332,
+    "name": "Silver Robe",
+    "aegis": "Silver_Robe",
+    "price_min": 7000,
+    "price_max": 7000,
+    "maps": [
+      "1@gef_in",
+      "alberta_in",
+      "ama_in01",
+      "ayo_in01",
+      "dewata",
+      "geffen_in",
+      "gonryun",
+      "lou_in02",
+      "ma_in01",
+      "morocc_in",
+      "mosk_in",
+      "payon_in01",
+      "ve_in",
+      "yuno",
+      "yuno_in01"
+    ]
+  },
+  {
+    "item_id": 2335,
+    "name": "Thief Clothes",
+    "aegis": "Thief_Clothes",
+    "price_min": 74000,
+    "price_max": 74000,
+    "maps": [
+      "cmd_fild07",
+      "cmd_in01",
+      "lhz_in02",
+      "morocc_in",
+      "ra_in01",
+      "ve_in"
+    ]
+  },
+  {
+    "item_id": 2338,
+    "name": "Wedding Dress",
+    "aegis": "Wedding_Dress",
+    "price_min": 43000,
+    "price_max": 43000,
+    "maps": [
+      "lhz_in02",
+      "prt_in"
+    ]
+  },
+  {
+    "item_id": 2340,
+    "name": "Novice Breastplate",
+    "aegis": "Novice_Breast",
+    "price_min": 89000,
+    "price_max": 89000,
+    "maps": [
+      "yuno"
+    ]
+  },
+  {
+    "item_id": 2341,
+    "name": "Legion Plate Armor",
+    "aegis": "Full_Plate_Armor",
+    "price_min": 94000,
+    "price_max": 94000,
+    "maps": [
+      "yuno"
+    ]
+  },
+  {
+    "item_id": 2342,
+    "name": "Legion Plate Armor",
+    "aegis": "Full_Plate_Armor_",
+    "price_min": 100000,
+    "price_max": 100000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 2353,
+    "name": "Odin's Blessing",
+    "aegis": "Odin's_Blessing",
+    "price_min": 75000,
+    "price_max": 75000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 2364,
+    "name": "Meteo Plate Armor",
+    "aegis": "Meteo_Plate_Armor",
+    "price_min": 150000,
+    "price_max": 150000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 2367,
+    "name": "Sniping Suit",
+    "aegis": "Sniping_Suit",
+    "price_min": 100000,
+    "price_max": 100000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 2399,
+    "name": "Dragon Vest",
+    "aegis": "Dragon_Vest",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 2401,
+    "name": "Sandals",
+    "aegis": "Sandals",
+    "price_min": 400,
+    "price_max": 400,
+    "maps": [
+      "1@gef_in",
+      "alberta_in",
+      "ama_in01",
+      "ayo_in01",
+      "dewata",
+      "geffen_in",
+      "gonryun",
+      "hu_in01",
+      "lou_in02",
+      "ma_in01",
+      "morocc_in",
+      "mosk_in",
+      "payon_in01",
+      "prt_in",
+      "yuno_in01"
+    ]
+  },
+  {
+    "item_id": 2403,
+    "name": "Shoes",
+    "aegis": "Shoes",
+    "price_min": 3500,
+    "price_max": 3500,
+    "maps": [
+      "alberta_in",
+      "ama_in01",
+      "ayo_in01",
+      "dewata",
+      "gonryun",
+      "izlude_in",
+      "lhz_in02",
+      "lou_in02",
+      "ma_in01",
+      "morocc_in",
+      "mosk_in",
+      "payon_in01",
+      "prt_in",
+      "ra_in01",
+      "ve_in"
+    ]
+  },
+  {
+    "item_id": 2404,
+    "name": "Shoes",
+    "aegis": "Shoes_",
+    "price_min": 10000,
+    "price_max": 10000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 2405,
+    "name": "Boots",
+    "aegis": "Boots",
+    "price_min": 18000,
+    "price_max": 18000,
+    "maps": [
+      "alberta_in",
+      "aldeba_in",
+      "cmd_fild07",
+      "cmd_in01",
+      "izlude_in",
+      "lhz_in02",
+      "morocc_in",
+      "payon_in01",
+      "ra_in01",
+      "ve_in",
+      "xmas_in"
+    ]
+  },
+  {
+    "item_id": 2406,
+    "name": "Boots",
+    "aegis": "Boots_",
+    "price_min": 20000,
+    "price_max": 20000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 2409,
+    "name": "High Heels",
+    "aegis": "Spiky_Heel",
+    "price_min": 30000,
+    "price_max": 30000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 2411,
+    "name": "Greaves",
+    "aegis": "Grave",
+    "price_min": 48000,
+    "price_max": 48000,
+    "maps": [
+      "yuno"
+    ]
+  },
+  {
+    "item_id": 2412,
+    "name": "Greaves",
+    "aegis": "Grave_",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 2416,
+    "name": "Novice Shoes",
+    "aegis": "Novice_Shoes",
+    "price_min": 35000,
+    "price_max": 35000,
+    "maps": [
+      "lhz_in02"
+    ]
+  },
+  {
+    "item_id": 2417,
+    "name": "Fricco's Shoes",
+    "aegis": "Fricco_Shoes",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 2418,
+    "name": "Vidar's Boots",
+    "aegis": "Vidar's_Boots",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 2424,
+    "name": "Tidal Shoes",
+    "aegis": "Tidal_Shoes",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 2425,
+    "name": "Black Leather Boots",
+    "aegis": "Black_Leather_Boots",
+    "price_min": 20000,
+    "price_max": 20000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 2501,
+    "name": "Hood",
+    "aegis": "Hood",
+    "price_min": 1000,
+    "price_max": 1000,
+    "maps": [
+      "1@gef_in",
+      "alberta_in",
+      "ama_in01",
+      "ayo_in01",
+      "dewata",
+      "geffen_in",
+      "gonryun",
+      "hu_in01",
+      "lou_in02",
+      "ma_in01",
+      "morocc_in",
+      "mosk_in",
+      "nif_in",
+      "payon_in01",
+      "prt_in",
+      "yuno_in01"
+    ]
+  },
+  {
+    "item_id": 2503,
+    "name": "Muffler",
+    "aegis": "Muffler",
+    "price_min": 5000,
+    "price_max": 5000,
+    "maps": [
+      "alberta_in",
+      "ama_in01",
+      "ayo_in01",
+      "cmd_fild07",
+      "cmd_in01",
+      "dewata",
+      "gonryun",
+      "izlude_in",
+      "lhz_in02",
+      "lou_in02",
+      "ma_in01",
+      "morocc_in",
+      "mosk_in",
+      "nif_in",
+      "payon_in01",
+      "prt_in",
+      "ra_in01",
+      "ve_in"
+    ]
+  },
+  {
+    "item_id": 2504,
+    "name": "Muffler",
+    "aegis": "Muffler_",
+    "price_min": 10000,
+    "price_max": 10000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 2505,
+    "name": "Manteau",
+    "aegis": "Manteau",
+    "price_min": 32000,
+    "price_max": 32000,
+    "maps": [
+      "alberta_in",
+      "aldeba_in",
+      "cmd_fild07",
+      "cmd_in01",
+      "izlude_in",
+      "nif_in",
+      "payon_in01",
+      "xmas_in"
+    ]
+  },
+  {
+    "item_id": 2506,
+    "name": "Manteau",
+    "aegis": "Manteau_",
+    "price_min": 40000,
+    "price_max": 40000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 2507,
+    "name": "Ancient Cape",
+    "aegis": "Cape_Of_Ancient_Lord",
+    "price_min": 82000,
+    "price_max": 82000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 2508,
+    "name": "Ragamuffin Manteau",
+    "aegis": "Ragamuffin_Cape",
+    "price_min": 56000,
+    "price_max": 56000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 2512,
+    "name": "Novice Manteau",
+    "aegis": "Novice_Manteau",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "lhz_in02"
+    ]
+  },
+  {
+    "item_id": 2514,
+    "name": "Pauldron",
+    "aegis": "Pauldron",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 2518,
+    "name": "Morpheus's Shawl",
+    "aegis": "Morpheus's_Shawl",
+    "price_min": 60000,
+    "price_max": 60000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 2519,
+    "name": "Morrigane's Manteau",
+    "aegis": "Morrigane's_Manteau",
+    "price_min": 60000,
+    "price_max": 60000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 2528,
+    "name": "Wool Scarf",
+    "aegis": "Wool_Scarf",
+    "price_min": 85000,
+    "price_max": 85000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 2531,
+    "name": "Ulfhedinn",
+    "aegis": "Ulfhedinn",
+    "price_min": 10000,
+    "price_max": 10000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 2553,
+    "name": "Dragon Manteau",
+    "aegis": "Dragon_Manteau",
+    "price_min": 10000,
+    "price_max": 10000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 2608,
+    "name": "Rosary",
+    "aegis": "Rosary",
+    "price_min": 15000,
+    "price_max": 15000,
+    "maps": [
+      "prt_church"
+    ]
+  },
+  {
+    "item_id": 2609,
+    "name": "Skull Ring",
+    "aegis": "Skul_Ring",
+    "price_min": 10000,
+    "price_max": 10000,
+    "maps": [
+      "moc_ruins",
+      "morocc"
+    ]
+  },
+  {
+    "item_id": 2612,
+    "name": "Flower Ring",
+    "aegis": "Flower_Ring",
+    "price_min": 1500,
+    "price_max": 1500,
+    "maps": [
+      "moc_ruins",
+      "morocc",
+      "xmas_in"
+    ]
+  },
+  {
+    "item_id": 2613,
+    "name": "Diamond Ring",
+    "aegis": "Diamond_Ring",
+    "price_min": 45000,
+    "price_max": 45000,
+    "maps": [
+      "lhz_in02",
+      "moc_ruins",
+      "morocc",
+      "xmas_in"
+    ]
+  },
+  {
+    "item_id": 2618,
+    "name": "Matyr's Leash",
+    "aegis": "Matyr's_Flea_Guard",
+    "price_min": 10000,
+    "price_max": 10000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 2621,
+    "name": "Ring",
+    "aegis": "Ring_",
+    "price_min": 30000,
+    "price_max": 30000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 2622,
+    "name": "Earring",
+    "aegis": "Earring_",
+    "price_min": 30000,
+    "price_max": 30000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 2624,
+    "name": "Glove",
+    "aegis": "Glove_",
+    "price_min": 30000,
+    "price_max": 30000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 2625,
+    "name": "Brooch",
+    "aegis": "Brooch_",
+    "price_min": 30000,
+    "price_max": 30000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 2626,
+    "name": "Rosary",
+    "aegis": "Rosary_",
+    "price_min": 30000,
+    "price_max": 30000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 2627,
+    "name": "Belt",
+    "aegis": "Belt",
+    "price_min": 20000,
+    "price_max": 20000,
+    "maps": [
+      "aldeba_in",
+      "ama_in01",
+      "ayo_in01",
+      "dewata",
+      "gonryun",
+      "lou_in02",
+      "ma_in01",
+      "mosk_in",
+      "prontera",
+      "prt_in"
+    ]
+  },
+  {
+    "item_id": 2628,
+    "name": "Novice Armlet",
+    "aegis": "Novice_Armlet",
+    "price_min": 400,
+    "price_max": 400,
+    "maps": [
+      "1@gef_in",
+      "alberta_in",
+      "aldeba_in",
+      "geffen_in",
+      "izlude_in",
+      "lhz_in02",
+      "morocc_in",
+      "payon_in01",
+      "prt_in",
+      "ra_in01",
+      "ve_in",
+      "yuno_in01"
+    ]
+  },
+  {
+    "item_id": 2648,
+    "name": "Morpheus's Ring",
+    "aegis": "Morpheus's_Ring",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 2649,
+    "name": "Morpheus's Bracelet",
+    "aegis": "Morpheus's_Armlet",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 2674,
+    "name": "Ring of Honor",
+    "aegis": "Honor_Ring",
+    "price_min": 10000,
+    "price_max": 10000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 2701,
+    "name": "Orleans's Glove",
+    "aegis": "Orleans_Glove",
+    "price_min": 75000,
+    "price_max": 75000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 2800,
+    "name": "Accelerator",
+    "aegis": "Accelerator",
+    "price_min": 100000,
+    "price_max": 100000,
+    "maps": [
+      "einbroch",
+      "lhz_in03",
+      "mid_camp",
+      "prt_in",
+      "ra_in01"
+    ]
+  },
+  {
+    "item_id": 2801,
+    "name": "Hovering Booster",
+    "aegis": "Hovering_Booster",
+    "price_min": 100000,
+    "price_max": 100000,
+    "maps": [
+      "einbroch",
+      "lhz_in03",
+      "mid_camp",
+      "prt_in",
+      "ra_in01"
+    ]
+  },
+  {
+    "item_id": 2802,
+    "name": "Suicidal Device",
+    "aegis": "Suicidal_Device",
+    "price_min": 500000,
+    "price_max": 500000,
+    "maps": [
+      "einbroch",
+      "lhz_in03",
+      "mid_camp",
+      "prt_in",
+      "ra_in01"
+    ]
+  },
+  {
+    "item_id": 2803,
+    "name": "Shape Shifter",
+    "aegis": "Shape_Shifter",
+    "price_min": 100000,
+    "price_max": 100000,
+    "maps": [
+      "einbroch",
+      "lhz_in03",
+      "mid_camp",
+      "prt_in",
+      "ra_in01"
+    ]
+  },
+  {
+    "item_id": 2804,
+    "name": "Cooling Device",
+    "aegis": "Cooling_Device",
+    "price_min": 100000,
+    "price_max": 100000,
+    "maps": [
+      "einbroch",
+      "lhz_in03",
+      "mid_camp",
+      "prt_in",
+      "ra_in01"
+    ]
+  },
+  {
+    "item_id": 2805,
+    "name": "Magnetic Field Generator",
+    "aegis": "Mag_Field_Generator",
+    "price_min": 100000,
+    "price_max": 100000,
+    "maps": [
+      "einbroch",
+      "lhz_in03",
+      "mid_camp",
+      "prt_in",
+      "ra_in01"
+    ]
+  },
+  {
+    "item_id": 2806,
+    "name": "Barrier Builder",
+    "aegis": "Barrier_Builder",
+    "price_min": 150000,
+    "price_max": 150000,
+    "maps": [
+      "einbroch",
+      "lhz_in03",
+      "mid_camp",
+      "prt_in",
+      "ra_in01"
+    ]
+  },
+  {
+    "item_id": 2807,
+    "name": "Repair Kit",
+    "aegis": "Repair_Kit",
+    "price_min": 200000,
+    "price_max": 200000,
+    "maps": [
+      "einbroch",
+      "lhz_in03",
+      "mid_camp",
+      "prt_in",
+      "ra_in01"
+    ]
+  },
+  {
+    "item_id": 2808,
+    "name": "Camouflague Generator",
+    "aegis": "Camouflage_Generator",
+    "price_min": 250000,
+    "price_max": 250000,
+    "maps": [
+      "einbroch",
+      "lhz_in03",
+      "mid_camp",
+      "prt_in",
+      "ra_in01"
+    ]
+  },
+  {
+    "item_id": 5007,
+    "name": "Grand Circlet",
+    "aegis": "Loard_Circlet",
+    "price_min": 2000000,
+    "price_max": 2000000,
+    "maps": []
+  },
+  {
+    "item_id": 5013,
+    "name": "Lord Kaho's Horn",
+    "aegis": "Horn_Of_Lord_Kaho",
+    "price_min": 700000,
+    "price_max": 700000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5016,
+    "name": "Boy's Cap",
+    "aegis": "Boy's_Cap",
+    "price_min": 75000,
+    "price_max": 75000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5018,
+    "name": "Feather Bonnet",
+    "aegis": "Feather_Bonnet",
+    "price_min": 700000,
+    "price_max": 700000,
+    "maps": []
+  },
+  {
+    "item_id": 5022,
+    "name": "Hat of the Sun God",
+    "aegis": "Helm_Of_Sun",
+    "price_min": 500000,
+    "price_max": 500000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5026,
+    "name": "Chef Hat",
+    "aegis": "Hat_Of_Cook",
+    "price_min": 30000,
+    "price_max": 30000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5029,
+    "name": "Spore Hat",
+    "aegis": "Spore_Hat",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5032,
+    "name": "Sunday Hat",
+    "aegis": "Picnic_Hat",
+    "price_min": 100000,
+    "price_max": 100000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5033,
+    "name": "Raccoon Hat",
+    "aegis": "Smokie_Hat",
+    "price_min": 65000,
+    "price_max": 65000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5038,
+    "name": "Deviruchi Hat",
+    "aegis": "Deviruchi_Cap",
+    "price_min": 30000,
+    "price_max": 30000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5040,
+    "name": "Blush",
+    "aegis": "Blush",
+    "price_min": 100000,
+    "price_max": 100000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5047,
+    "name": "Fashionable Glasses",
+    "aegis": "Fashion_Sunglass",
+    "price_min": 35000,
+    "price_max": 35000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5054,
+    "name": "Assassin Mask",
+    "aegis": "Popcorn_Hair",
+    "price_min": 30000,
+    "price_max": 30000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5058,
+    "name": "Drooping Cat",
+    "aegis": "Drooping_Kitty",
+    "price_min": 300000,
+    "price_max": 300000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5059,
+    "name": "Teddybear Hat",
+    "aegis": "Brown_Bear_Cap",
+    "price_min": 100000,
+    "price_max": 100000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5065,
+    "name": "Blue Fish",
+    "aegis": "Fish_On_Head",
+    "price_min": 65000,
+    "price_max": 65000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5067,
+    "name": "Sombrero",
+    "aegis": "Sombrero",
+    "price_min": 700000,
+    "price_max": 700000,
+    "maps": []
+  },
+  {
+    "item_id": 5068,
+    "name": "Evil Wing Ears",
+    "aegis": "Ear_Of_Devil's_Wing",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5071,
+    "name": "Indian Headband",
+    "aegis": "Indian_Headband",
+    "price_min": 700000,
+    "price_max": 700000,
+    "maps": []
+  },
+  {
+    "item_id": 5074,
+    "name": "Angel Wing Ears",
+    "aegis": "Ear_Of_Angel's_Wing",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5075,
+    "name": "Cowboy Hat",
+    "aegis": "Cowboy_Hat",
+    "price_min": 700000,
+    "price_max": 700000,
+    "maps": []
+  },
+  {
+    "item_id": 5076,
+    "name": "Beanie",
+    "aegis": "Fur_Hat",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5084,
+    "name": "Lazy Smokie",
+    "aegis": "Lazy_Raccoon",
+    "price_min": 75000,
+    "price_max": 75000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5086,
+    "name": "Alarm Mask",
+    "aegis": "Alarm_Mask",
+    "price_min": 150000,
+    "price_max": 150000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5092,
+    "name": "Coif",
+    "aegis": "Blue_Coif",
+    "price_min": 150000,
+    "price_max": 150000,
+    "maps": [
+      "prt_church"
+    ]
+  },
+  {
+    "item_id": 5102,
+    "name": "Blank Eyes",
+    "aegis": "Round_Eyes",
+    "price_min": 500000,
+    "price_max": 500000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5104,
+    "name": "Dark Blinder",
+    "aegis": "Dark_Blindfold",
+    "price_min": 40000,
+    "price_max": 40000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5107,
+    "name": "Crunch Toast",
+    "aegis": "Well_Baked_Toast",
+    "price_min": 15000,
+    "price_max": 100000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5108,
+    "name": "Renown Detective's Cap",
+    "aegis": "Detective_Hat",
+    "price_min": 350000,
+    "price_max": 350000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5110,
+    "name": "Baby Pacifier",
+    "aegis": "Baby_Pacifier",
+    "price_min": 15000,
+    "price_max": 15000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5112,
+    "name": "Super Novice Hat",
+    "aegis": "Super_Novice_Hat",
+    "price_min": 8500,
+    "price_max": 8500,
+    "maps": [
+      "lhz_in02"
+    ]
+  },
+  {
+    "item_id": 5114,
+    "name": "Bucket Hat",
+    "aegis": "Fedora",
+    "price_min": 6000,
+    "price_max": 6000,
+    "maps": [
+      "einbroch"
+    ]
+  },
+  {
+    "item_id": 5121,
+    "name": "Zealotus Mask",
+    "aegis": "Zherlthsh_Mask",
+    "price_min": 100000,
+    "price_max": 100000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5133,
+    "name": "Sheep Hat",
+    "aegis": "Sheep_Hat",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5135,
+    "name": "Cyclop's Eye",
+    "aegis": "Cyclops_Visor",
+    "price_min": 500000,
+    "price_max": 500000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5137,
+    "name": "Alice Doll",
+    "aegis": "Alice_Doll",
+    "price_min": 100000,
+    "price_max": 100000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5138,
+    "name": "Magic Eyes",
+    "aegis": "Magic_Eyes",
+    "price_min": 150000,
+    "price_max": 150000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5140,
+    "name": "Charming Ribbon",
+    "aegis": "Charming_Ribbon",
+    "price_min": 55000,
+    "price_max": 55000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5146,
+    "name": "Elephant Hat",
+    "aegis": "Elephant_Hat",
+    "price_min": 75000,
+    "price_max": 75000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5151,
+    "name": "Note Headphones",
+    "aegis": "Headset_OST",
+    "price_min": 75000,
+    "price_max": 75000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5152,
+    "name": "Chinese Crown",
+    "aegis": "Chinese_Crown",
+    "price_min": 150000,
+    "price_max": 150000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5161,
+    "name": "Spiky Band",
+    "aegis": "Sharp_Gear_",
+    "price_min": 200000,
+    "price_max": 200000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5170,
+    "name": "Feather Beret",
+    "aegis": "Feather_Beret",
+    "price_min": 150000,
+    "price_max": 150000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5171,
+    "name": "Valkyrie Helm",
+    "aegis": "Valkyrie_Helm",
+    "price_min": 1250000,
+    "price_max": 1250000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5173,
+    "name": "Magistrate Hat",
+    "aegis": "Satto_Hat",
+    "price_min": 75000,
+    "price_max": 75000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5174,
+    "name": "Ayam",
+    "aegis": "Ayam",
+    "price_min": 75000,
+    "price_max": 75000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5175,
+    "name": "Censor Bar",
+    "aegis": "Censor_Bar",
+    "price_min": 75000,
+    "price_max": 75000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5181,
+    "name": "Helm of Darkness",
+    "aegis": "Helm_Of_Darkness",
+    "price_min": 300000,
+    "price_max": 300000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5184,
+    "name": "Captain's Hat",
+    "aegis": "Captain_Hat",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5185,
+    "name": "Laurel Wreath",
+    "aegis": "Laurel_Wreath",
+    "price_min": 45000,
+    "price_max": 45000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5187,
+    "name": "Twin Ribbon",
+    "aegis": "Twin_Ribbon",
+    "price_min": 75000,
+    "price_max": 75000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5188,
+    "name": "Wandering Minstrel Hat",
+    "aegis": "Minstrel_Hat",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5191,
+    "name": "Black Ribbon",
+    "aegis": "Ribbon_Black",
+    "price_min": 25000,
+    "price_max": 25000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5192,
+    "name": "Yellow Ribbon",
+    "aegis": "Ribbon_Yellow",
+    "price_min": 25000,
+    "price_max": 25000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5193,
+    "name": "Green Ribbon",
+    "aegis": "Ribbon_Green",
+    "price_min": 25000,
+    "price_max": 25000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5194,
+    "name": "Pink Ribbon",
+    "aegis": "Ribbon_Pink",
+    "price_min": 25000,
+    "price_max": 25000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5195,
+    "name": "Red Ribbon",
+    "aegis": "Ribbon_Red",
+    "price_min": 25000,
+    "price_max": 25000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5196,
+    "name": "Orange Ribbon",
+    "aegis": "Ribbon_Orange",
+    "price_min": 25000,
+    "price_max": 25000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5197,
+    "name": "White Ribbon",
+    "aegis": "Ribbon_White",
+    "price_min": 25000,
+    "price_max": 25000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5198,
+    "name": "Drooping Bunny",
+    "aegis": "Drooping_Bunny",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5200,
+    "name": "Coppola",
+    "aegis": "Coppola",
+    "price_min": 75000,
+    "price_max": 75000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5205,
+    "name": "Emperor's Laurel Crown",
+    "aegis": "Wreath",
+    "price_min": 100000,
+    "price_max": 100000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5211,
+    "name": "Dress Hat",
+    "aegis": "Dress_Hat",
+    "price_min": 75000,
+    "price_max": 75000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5226,
+    "name": "Mini Propeller",
+    "aegis": "Mini_Propeller_",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5227,
+    "name": "Red Deviruchi Hat",
+    "aegis": "Red_Deviruchi_Cap",
+    "price_min": 65000,
+    "price_max": 65000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5228,
+    "name": "Gray Deviruchi Hat",
+    "aegis": "White_Deviruchi_Cap",
+    "price_min": 65000,
+    "price_max": 65000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5229,
+    "name": "Brown Deviruchi Hat",
+    "aegis": "Gray_Deviruchi_Cap",
+    "price_min": 65000,
+    "price_max": 65000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5230,
+    "name": "Gray Drooping Cat",
+    "aegis": "White_Drooping_Kitty",
+    "price_min": 300000,
+    "price_max": 300000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5231,
+    "name": "Brown Drooping Cat",
+    "aegis": "Gray_Drooping_Kitty",
+    "price_min": 300000,
+    "price_max": 300000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5232,
+    "name": "Pink Drooping Cat",
+    "aegis": "Pink_Drooping_Kitty",
+    "price_min": 300000,
+    "price_max": 300000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5233,
+    "name": "Blue Drooping Cat",
+    "aegis": "Blue_Drooping_Kitty",
+    "price_min": 300000,
+    "price_max": 300000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5234,
+    "name": "Yellow Drooping Cat",
+    "aegis": "Yellow_Drooping_Kitty",
+    "price_min": 300000,
+    "price_max": 300000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5235,
+    "name": "Brown Beanie",
+    "aegis": "Gray_Fur_Hat",
+    "price_min": 75000,
+    "price_max": 75000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5236,
+    "name": "Blue Beanie",
+    "aegis": "Blue_Fur_Hat",
+    "price_min": 75000,
+    "price_max": 75000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5237,
+    "name": "Pink Beanie",
+    "aegis": "Pink_Fur_Hat",
+    "price_min": 75000,
+    "price_max": 75000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5238,
+    "name": "Red Mage Hat",
+    "aegis": "Red_Wizardry_Hat",
+    "price_min": 75000,
+    "price_max": 75000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5239,
+    "name": "Gray Mage Hat",
+    "aegis": "White_Wizardry_Hat",
+    "price_min": 75000,
+    "price_max": 75000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5240,
+    "name": "Brown Mage Hat",
+    "aegis": "Gray_Wizardry_Hat",
+    "price_min": 75000,
+    "price_max": 75000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5241,
+    "name": "Blue Mage Hat",
+    "aegis": "Blue_Wizardry_Hat",
+    "price_min": 75000,
+    "price_max": 75000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5242,
+    "name": "Yellow Mage Hat",
+    "aegis": "Yellow_Wizardry_Hat",
+    "price_min": 75000,
+    "price_max": 75000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5243,
+    "name": "Shafka",
+    "aegis": "Chullos",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5252,
+    "name": "Drooping Ninetail",
+    "aegis": "Drooping_Nine_Tail",
+    "price_min": 60000,
+    "price_max": 60000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5253,
+    "name": "Lif Doll Hat",
+    "aegis": "Lif_Doll_Hat",
+    "price_min": 80000,
+    "price_max": 80000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5254,
+    "name": "Deviling Hat",
+    "aegis": "Deviling_Hat",
+    "price_min": 100000,
+    "price_max": 100000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5255,
+    "name": "Triple Poring Hat",
+    "aegis": "Triple_Poring_Hat",
+    "price_min": 65000,
+    "price_max": 65000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5257,
+    "name": "Soul Ring",
+    "aegis": "Soulless_Wing",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5258,
+    "name": "Afro Wig",
+    "aegis": "Afro_Wig",
+    "price_min": 35000,
+    "price_max": 35000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5259,
+    "name": "Elephant Hat",
+    "aegis": "Elephant_Hat_",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5271,
+    "name": "Phoenix Crown",
+    "aegis": "Chinese_Crown_",
+    "price_min": 250000,
+    "price_max": 250000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5272,
+    "name": "Tongue Mask",
+    "aegis": "Tongue_Mask_",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5273,
+    "name": "Happy Wig",
+    "aegis": "Happy_Wig",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5274,
+    "name": "Shiny Wig",
+    "aegis": "Shiny_Wig",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5275,
+    "name": "Marvelous Wig",
+    "aegis": "Marvelous_Wig",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5276,
+    "name": "Fantastic Wig",
+    "aegis": "Fantastic_Wig",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5284,
+    "name": "Water Lily Crown",
+    "aegis": "Water_Lily_Crown",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5286,
+    "name": "Pecopeco Hairband",
+    "aegis": "Pecopeco_Hairband",
+    "price_min": 75000,
+    "price_max": 75000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5288,
+    "name": "Red Glasses",
+    "aegis": "Red_Glasses",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5289,
+    "name": "Vanilmirth Hat",
+    "aegis": "Vanilmirth_Hat",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5291,
+    "name": "Kettle Hat",
+    "aegis": "Kettle_Hat",
+    "price_min": 55000,
+    "price_max": 55000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5292,
+    "name": "Dragon Skull",
+    "aegis": "Dragon_Skull",
+    "price_min": 55000,
+    "price_max": 55000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5293,
+    "name": "Ramen Hat",
+    "aegis": "Ramen_Hat",
+    "price_min": 150000,
+    "price_max": 150000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5294,
+    "name": "Whisper Mask",
+    "aegis": "Whisper_Mask",
+    "price_min": 55000,
+    "price_max": 55000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5296,
+    "name": "Drooping Nine Tail",
+    "aegis": "Drooping_Nine_Tail_",
+    "price_min": 100000,
+    "price_max": 100000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5297,
+    "name": "Soul Wing",
+    "aegis": "Soulless_Wing_",
+    "price_min": 100000,
+    "price_max": 100000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5298,
+    "name": "Dokebi's Wig",
+    "aegis": "Marvelous_Wig_",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5303,
+    "name": "Flower Crown",
+    "aegis": "Flower_Coronet",
+    "price_min": 35000,
+    "price_max": 35000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5304,
+    "name": "Cap Of Blindness",
+    "aegis": "Cap_Of_Blindness",
+    "price_min": 65000,
+    "price_max": 65000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5312,
+    "name": "Ayothaya King's Hat",
+    "aegis": "Ayothaya_Hat",
+    "price_min": 65000,
+    "price_max": 65000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5315,
+    "name": "Observer",
+    "aegis": "Observer",
+    "price_min": 45000,
+    "price_max": 45000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5317,
+    "name": "Fisherman's Hat",
+    "aegis": "Fisherman_Hat",
+    "price_min": 45000,
+    "price_max": 45000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5319,
+    "name": "Hello Mother Hat",
+    "aegis": "Hellomother_Hat",
+    "price_min": 75000,
+    "price_max": 75000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5320,
+    "name": "Champion Wreath",
+    "aegis": "Champion_Wreath",
+    "price_min": 120000,
+    "price_max": 120000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5323,
+    "name": "Misstrance Crown",
+    "aegis": "Misstrance_Crown",
+    "price_min": 588888,
+    "price_max": 588888,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5324,
+    "name": "Little Angel Doll",
+    "aegis": "Little_Angel_Doll",
+    "price_min": 100000,
+    "price_max": 100000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5325,
+    "name": "Robo Eye",
+    "aegis": "Robo_Eye",
+    "price_min": 75000,
+    "price_max": 75000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5336,
+    "name": "Guildsman Recruiter Hat",
+    "aegis": "Guildsman_Recruiter",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5337,
+    "name": "Party Recruiter Hat",
+    "aegis": "Party_Recruiter_Hat",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5338,
+    "name": "BF Recruiter Hat",
+    "aegis": "Bf_Recruiter_Hat",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5339,
+    "name": "Friend Recruiter Hat",
+    "aegis": "Friend_Recruiter_Hat",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5340,
+    "name": "Defolty Doll Hat",
+    "aegis": "Deprotai_Doll_Hat",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5341,
+    "name": "Glaris Doll Hat",
+    "aegis": "Claris_Doll_Hat",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5342,
+    "name": "Sorin Doll Hat",
+    "aegis": "Sorin_Doll_Hat",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5343,
+    "name": "Telling Doll Hat",
+    "aegis": "Tayelin_Doll_Hat",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5344,
+    "name": "Bennit Doll Hat",
+    "aegis": "Binit_Doll_Hat",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5345,
+    "name": "W Doll Hat",
+    "aegis": "Debril_Doll_Hat",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5346,
+    "name": "GF Recruiter Hat",
+    "aegis": "Gf_Recruiter_Hat",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5349,
+    "name": "Boy's Cap",
+    "aegis": "Boy's_Cap_",
+    "price_min": 150000,
+    "price_max": 150000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5352,
+    "name": "Poporing Cap",
+    "aegis": "Poporing_Cap",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5354,
+    "name": "Muslim Hat M",
+    "aegis": "Muslim_Hat_M",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5355,
+    "name": "Selendang",
+    "aegis": "Muslim_Hat_F",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5359,
+    "name": "Ship Captain Hat",
+    "aegis": "J_Captain_Hat",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5360,
+    "name": "Hyuke's Black Cat Ears",
+    "aegis": "Whikebain_Ears",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5361,
+    "name": "Gangster Scarf",
+    "aegis": "Gang_Scarf",
+    "price_min": 65000,
+    "price_max": 65000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5365,
+    "name": "Magnolia Hat",
+    "aegis": "Fried_Egg",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5373,
+    "name": "Dark Randgris Helm",
+    "aegis": "Darkness_Helm",
+    "price_min": 75000,
+    "price_max": 75000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5374,
+    "name": "Gigantic Majestic Goat",
+    "aegis": "L_Magestic_Goat",
+    "price_min": 350000,
+    "price_max": 350000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5379,
+    "name": "Tam",
+    "aegis": "Balloon_Hat",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5380,
+    "name": "Fish Head Hat",
+    "aegis": "Fish_Head_Hat",
+    "price_min": 40000,
+    "price_max": 40000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5382,
+    "name": "Bell Ribbon",
+    "aegis": "Bell_Ribbon",
+    "price_min": 40000,
+    "price_max": 40000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5383,
+    "name": "Hunter's Cap",
+    "aegis": "Hunting_Cap",
+    "price_min": 60000,
+    "price_max": 60000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5384,
+    "name": "Twin Pompom By JB",
+    "aegis": "Santa_Hat_1",
+    "price_min": 88888,
+    "price_max": 88888,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5388,
+    "name": "Snake Head Hat",
+    "aegis": "Snake_Head",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5390,
+    "name": "Frozen Twin Pompom",
+    "aegis": "Santa_Hat_2",
+    "price_min": 88888,
+    "price_max": 88888,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5393,
+    "name": "Love Valentine's Hat",
+    "aegis": "Valentine_Hat",
+    "price_min": 75000,
+    "price_max": 75000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5397,
+    "name": "Scuba Gear",
+    "aegis": "Scuba_Mask",
+    "price_min": 35000,
+    "price_max": 35000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5399,
+    "name": "Mandragora Cap",
+    "aegis": "Mandragora_Cap",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5411,
+    "name": "White Snake Hat",
+    "aegis": "White_Snake_Hat",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5800,
+    "name": "Blush of Groom",
+    "aegis": "Blush_Of_Groom",
+    "price_min": 175000,
+    "price_max": 175000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5801,
+    "name": "Red Tailed Ribbon",
+    "aegis": "Ribbon_Of_Bride",
+    "price_min": 300000,
+    "price_max": 300000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 5802,
+    "name": "Upgraded Elephant Hat",
+    "aegis": "Upgrade_Elephant_Hat",
+    "price_min": 150000,
+    "price_max": 150000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 6004,
+    "name": "Cursed Baphomet Doll",
+    "aegis": "Bapho_Doll",
+    "price_min": 100000,
+    "price_max": 100000,
+    "maps": []
+  },
+  {
+    "item_id": 6080,
+    "name": "Manuk Coin",
+    "aegis": "Manuk_Coin",
+    "price_min": 100000,
+    "price_max": 100000,
+    "maps": []
+  },
+  {
+    "item_id": 6081,
+    "name": "Splendide Coin",
+    "aegis": "Splendide_Coin",
+    "price_min": 300000,
+    "price_max": 300000,
+    "maps": []
+  },
+  {
+    "item_id": 6094,
+    "name": "Traditional Sweets",
+    "aegis": "Traditional_Cookie",
+    "price_min": 20,
+    "price_max": 20,
+    "maps": [
+      "payon",
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 6095,
+    "name": "Flavored Alcohol",
+    "aegis": "Flavored_Alcohol",
+    "price_min": 1000,
+    "price_max": 1000,
+    "maps": [
+      "payon",
+      "prontera",
+      "yuno"
+    ]
+  },
+  {
+    "item_id": 6096,
+    "name": "Fish With Blue Back",
+    "aegis": "Fish_With_Blue_Back",
+    "price_min": 20,
+    "price_max": 20,
+    "maps": [
+      "payon",
+      "prontera",
+      "yuno"
+    ]
+  },
+  {
+    "item_id": 6097,
+    "name": "Pumpkin Pie",
+    "aegis": "Pumpkin_Pie_",
+    "price_min": 1000,
+    "price_max": 1000,
+    "maps": [
+      "1@gef",
+      "payon",
+      "prontera",
+      "yuno"
+    ]
+  },
+  {
+    "item_id": 6098,
+    "name": "Small Snow Flower",
+    "aegis": "Small_Snow_Flower",
+    "price_min": 1000,
+    "price_max": 1000,
+    "maps": [
+      "1@gef",
+      "payon",
+      "prontera",
+      "yuno"
+    ]
+  },
+  {
+    "item_id": 6099,
+    "name": "Grilled Rice Cake",
+    "aegis": "Grilled_Rice_Cake",
+    "price_min": 20,
+    "price_max": 20,
+    "maps": [
+      "payon",
+      "prontera",
+      "yuno"
+    ]
+  },
+  {
+    "item_id": 6100,
+    "name": "Damp Darkness",
+    "aegis": "Damp_Darkness",
+    "price_min": 1000,
+    "price_max": 1000,
+    "maps": [
+      "1@gef",
+      "payon",
+      "prontera",
+      "yuno"
+    ]
+  },
+  {
+    "item_id": 6104,
+    "name": "Big Cell",
+    "aegis": "Big_Cell",
+    "price_min": 1000,
+    "price_max": 1000,
+    "maps": [
+      "1@gef",
+      "payon",
+      "prontera",
+      "yuno"
+    ]
+  },
+  {
+    "item_id": 6105,
+    "name": "Morning Dew",
+    "aegis": "Morning_Dew",
+    "price_min": 20,
+    "price_max": 20,
+    "maps": []
+  },
+  {
+    "item_id": 6106,
+    "name": "Well Ripened Berry",
+    "aegis": "Well_Ripened_Berry",
+    "price_min": 20,
+    "price_max": 20,
+    "maps": []
+  },
+  {
+    "item_id": 6107,
+    "name": "Sunset On The Rock",
+    "aegis": "Sunset_On_The_Rock",
+    "price_min": 1000,
+    "price_max": 1000,
+    "maps": [
+      "1@gef"
+    ]
+  },
+  {
+    "item_id": 6108,
+    "name": "Apple Pudding",
+    "aegis": "Apple_Pudding",
+    "price_min": 1000,
+    "price_max": 1000,
+    "maps": [
+      "1@gef",
+      "payon",
+      "prontera",
+      "yuno"
+    ]
+  },
+  {
+    "item_id": 6109,
+    "name": "Plant Neutrient",
+    "aegis": "Plant_Neutrient",
+    "price_min": 20,
+    "price_max": 20,
+    "maps": []
+  },
+  {
+    "item_id": 6110,
+    "name": "Vital Flower",
+    "aegis": "Vital_Flower",
+    "price_min": 1000,
+    "price_max": 1000,
+    "maps": [
+      "1@gef",
+      "payon",
+      "prontera",
+      "yuno"
+    ]
+  },
+  {
+    "item_id": 6111,
+    "name": "Mystic Stone",
+    "aegis": "Mystic_Stone",
+    "price_min": 1000,
+    "price_max": 1000,
+    "maps": [
+      "1@gef",
+      "payon",
+      "prontera",
+      "yuno"
+    ]
+  },
+  {
+    "item_id": 6112,
+    "name": "Fresh Plant",
+    "aegis": "Fresh_Plant",
+    "price_min": 1000,
+    "price_max": 1000,
+    "maps": [
+      "1@gef",
+      "payon",
+      "prontera",
+      "yuno"
+    ]
+  },
+  {
+    "item_id": 6113,
+    "name": "Vital Flower",
+    "aegis": "Vital_Flower_",
+    "price_min": 1000,
+    "price_max": 1000,
+    "maps": [
+      "1@gef",
+      "geffen",
+      "izlude",
+      "lighthalzen",
+      "moc_ruins",
+      "payon",
+      "prontera",
+      "yuno"
+    ]
+  },
+  {
+    "item_id": 6114,
+    "name": "Flame Gemstone",
+    "aegis": "Flame_Gemstone",
+    "price_min": 1000,
+    "price_max": 1000,
+    "maps": [
+      "1@gef",
+      "geffen",
+      "izlude",
+      "lighthalzen",
+      "moc_ruins",
+      "payon",
+      "prontera",
+      "yuno"
+    ]
+  },
+  {
+    "item_id": 6115,
+    "name": "Bun",
+    "aegis": "Bun_",
+    "price_min": 1000,
+    "price_max": 1000,
+    "maps": [
+      "1@gef",
+      "geffen",
+      "izlude",
+      "lighthalzen",
+      "moc_ruins",
+      "payon",
+      "prontera",
+      "yuno"
+    ]
+  },
+  {
+    "item_id": 6120,
+    "name": "Face Paint",
+    "aegis": "Face_Paint",
+    "price_min": 150,
+    "price_max": 150,
+    "maps": [
+      "s_atelier"
+    ]
+  },
+  {
+    "item_id": 6123,
+    "name": "Surface Paint",
+    "aegis": "Surface_Paint",
+    "price_min": 250,
+    "price_max": 250,
+    "maps": [
+      "s_atelier"
+    ]
+  },
+  {
+    "item_id": 6144,
+    "name": "Regrettable Tears",
+    "aegis": "Heartbroken_Tears",
+    "price_min": 1250,
+    "price_max": 1250,
+    "maps": [
+      "comodo"
+    ]
+  },
+  {
+    "item_id": 6145,
+    "name": "Vulcan Bullet",
+    "aegis": "Vulcan_Bullet",
+    "price_min": 12,
+    "price_max": 12,
+    "maps": [
+      "einbroch",
+      "lhz_in03",
+      "mid_camp",
+      "prt_in",
+      "ra_in01"
+    ]
+  },
+  {
+    "item_id": 6146,
+    "name": "Magic Gear Fuel",
+    "aegis": "Magic_Gear_Fuel",
+    "price_min": 375,
+    "price_max": 375,
+    "maps": [
+      "einbroch",
+      "lhz_in03",
+      "mid_camp",
+      "prt_in",
+      "ra_in01"
+    ]
+  },
+  {
+    "item_id": 6147,
+    "name": "Liquid Condensed Bullet",
+    "aegis": "Liquid_Condensed_Bullet",
+    "price_min": 125,
+    "price_max": 125,
+    "maps": [
+      "einbroch",
+      "lhz_in03",
+      "mid_camp",
+      "prt_in",
+      "ra_in01"
+    ]
+  },
+  {
+    "item_id": 6186,
+    "name": "Monkey Wrench",
+    "aegis": "Monkey_Wrench",
+    "price_min": 500,
+    "price_max": 500,
+    "maps": [
+      "einbroch",
+      "lhz_in03",
+      "mid_camp",
+      "prt_in",
+      "ra_in01"
+    ]
+  },
+  {
+    "item_id": 6248,
+    "name": "Melange Pot",
+    "aegis": "Melange_Pot",
+    "price_min": 750,
+    "price_max": 750,
+    "maps": [
+      "alde_alche"
+    ]
+  },
+  {
+    "item_id": 6250,
+    "name": "Cooking Skewer",
+    "aegis": "Cooking_Skewer",
+    "price_min": 375,
+    "price_max": 375,
+    "maps": [
+      "alde_alche"
+    ]
+  },
+  {
+    "item_id": 6251,
+    "name": "Black Charcoal",
+    "aegis": "Black_Charcoal",
+    "price_min": 375,
+    "price_max": 375,
+    "maps": [
+      "alde_alche"
+    ]
+  },
+  {
+    "item_id": 6252,
+    "name": "Blood Of Wolf",
+    "aegis": "Wolf_Blood",
+    "price_min": 40000,
+    "price_max": 40000,
+    "maps": []
+  },
+  {
+    "item_id": 6253,
+    "name": "Cold Ice",
+    "aegis": "Cold_Ice",
+    "price_min": 8000,
+    "price_max": 8000,
+    "maps": []
+  },
+  {
+    "item_id": 6254,
+    "name": "Beef Head",
+    "aegis": "Beef_Head_Meat",
+    "price_min": 30000,
+    "price_max": 30000,
+    "maps": []
+  },
+  {
+    "item_id": 6255,
+    "name": "Large Cookpot",
+    "aegis": "Large_Cookpot",
+    "price_min": 625,
+    "price_max": 625,
+    "maps": [
+      "alde_alche"
+    ]
+  },
+  {
+    "item_id": 6256,
+    "name": "Ice Piece",
+    "aegis": "Ice_Fragment",
+    "price_min": 15000,
+    "price_max": 15000,
+    "maps": []
+  },
+  {
+    "item_id": 6257,
+    "name": "Ice Crystal",
+    "aegis": "Ice_Crystal",
+    "price_min": 15000,
+    "price_max": 15000,
+    "maps": []
+  },
+  {
+    "item_id": 6258,
+    "name": "Comodo Tropical Fruit",
+    "aegis": "Comodo_Tropic_Fruit",
+    "price_min": 1000,
+    "price_max": 1000,
+    "maps": [
+      "comodo"
+    ]
+  },
+  {
+    "item_id": 6259,
+    "name": "Drosera Tentacle",
+    "aegis": "Drocera_Tentacle",
+    "price_min": 15000,
+    "price_max": 15000,
+    "maps": []
+  },
+  {
+    "item_id": 6260,
+    "name": "Petite's Tail",
+    "aegis": "Petti_Tail",
+    "price_min": 10000,
+    "price_max": 10000,
+    "maps": []
+  },
+  {
+    "item_id": 6261,
+    "name": "Fine Noodles",
+    "aegis": "Fine_Noodle",
+    "price_min": 625,
+    "price_max": 625,
+    "maps": [
+      "alde_alche"
+    ]
+  },
+  {
+    "item_id": 6262,
+    "name": "Cool Gravy",
+    "aegis": "Cool_Gravy",
+    "price_min": 500,
+    "price_max": 500,
+    "maps": [
+      "alde_alche"
+    ]
+  },
+  {
+    "item_id": 6297,
+    "name": "Throwing Bottle",
+    "aegis": "Bottle_To_Throw",
+    "price_min": 300,
+    "price_max": 300,
+    "maps": [
+      "alde_alche"
+    ]
+  },
+  {
+    "item_id": 6304,
+    "name": "Proof Of Sapha's Honor",
+    "aegis": "Sapa_Feat_Cert",
+    "price_min": 500000,
+    "price_max": 500000,
+    "maps": []
+  },
+  {
+    "item_id": 6360,
+    "name": "Scarlet Point",
+    "aegis": "Scarlet_Pts",
+    "price_min": 200,
+    "price_max": 200,
+    "maps": []
+  },
+  {
+    "item_id": 6361,
+    "name": "Indigo Point",
+    "aegis": "Indigo_Pts",
+    "price_min": 200,
+    "price_max": 200,
+    "maps": []
+  },
+  {
+    "item_id": 6362,
+    "name": "Yellow Wish Point",
+    "aegis": "Yellow_Wish_Pts",
+    "price_min": 200,
+    "price_max": 200,
+    "maps": []
+  },
+  {
+    "item_id": 6363,
+    "name": "Lime Green Point",
+    "aegis": "Lime_Green_Pts",
+    "price_min": 200,
+    "price_max": 200,
+    "maps": []
+  },
+  {
+    "item_id": 6380,
+    "name": "Mora Coin",
+    "aegis": "Mora_Coin",
+    "price_min": 1000000,
+    "price_max": 1000000,
+    "maps": []
+  },
+  {
+    "item_id": 6493,
+    "name": "Makibishi",
+    "aegis": "Makibishi",
+    "price_min": 30,
+    "price_max": 30,
+    "maps": [
+      "prontera",
+      "que_ng"
+    ]
+  },
+  {
+    "item_id": 6512,
+    "name": "Fire Amulet",
+    "aegis": "Charm_Fire",
+    "price_min": 50,
+    "price_max": 50,
+    "maps": [
+      "prontera",
+      "que_ng"
+    ]
+  },
+  {
+    "item_id": 6513,
+    "name": "Ice Amulet",
+    "aegis": "Charm_Ice",
+    "price_min": 50,
+    "price_max": 50,
+    "maps": [
+      "prontera",
+      "que_ng"
+    ]
+  },
+  {
+    "item_id": 6514,
+    "name": "Wind Amulet",
+    "aegis": "Charm_Wind",
+    "price_min": 50,
+    "price_max": 50,
+    "maps": [
+      "prontera",
+      "que_ng"
+    ]
+  },
+  {
+    "item_id": 6515,
+    "name": "Earth Amulet",
+    "aegis": "Charm_Earth",
+    "price_min": 50,
+    "price_max": 50,
+    "maps": [
+      "prontera",
+      "que_ng"
+    ]
+  },
+  {
+    "item_id": 6607,
+    "name": "Temporal Crystal",
+    "aegis": "Temporal_Crystal",
+    "price_min": 20000,
+    "price_max": 20000,
+    "maps": []
+  },
+  {
+    "item_id": 6608,
+    "name": "Coagulated Spell",
+    "aegis": "Coagulated_Spell",
+    "price_min": 150000,
+    "price_max": 150000,
+    "maps": []
+  },
+  {
+    "item_id": 6755,
+    "name": "Contaminated Magic",
+    "aegis": "Polluted_Spell",
+    "price_min": 200000,
+    "price_max": 200000,
+    "maps": []
+  },
+  {
+    "item_id": 7026,
+    "name": "Key of Clock Tower",
+    "aegis": "Key_Of_Clock_Tower",
+    "price_min": 100000,
+    "price_max": 100000,
+    "maps": []
+  },
+  {
+    "item_id": 7033,
+    "name": "Poison Spore",
+    "aegis": "Poison_Spore",
+    "price_min": 1000,
+    "price_max": 1000,
+    "maps": []
+  },
+  {
+    "item_id": 7106,
+    "name": "Antelope Horn",
+    "aegis": "Goat's_Horn",
+    "price_min": 672,
+    "price_max": 672,
+    "maps": [
+      "nif_in"
+    ]
+  },
+  {
+    "item_id": 7135,
+    "name": "Bottle Grenade",
+    "aegis": "Fire_Bottle",
+    "price_min": 500,
+    "price_max": 18000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 7136,
+    "name": "Acid Bottle",
+    "aegis": "Acid_Bottle",
+    "price_min": 500,
+    "price_max": 500,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 7137,
+    "name": "Plant Bottle",
+    "aegis": "MenEater_Plant_Bottle",
+    "price_min": 500,
+    "price_max": 500,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 7138,
+    "name": "Marine Sphere Bottle",
+    "aegis": "Mini_Bottle",
+    "price_min": 500,
+    "price_max": 500,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 7139,
+    "name": "Glistening Coat",
+    "aegis": "Coating_Bottle",
+    "price_min": 500,
+    "price_max": 500,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 7140,
+    "name": "Seed of Life",
+    "aegis": "Seed_Of_Life",
+    "price_min": 60000,
+    "price_max": 60000,
+    "maps": [
+      "alde_alche"
+    ]
+  },
+  {
+    "item_id": 7141,
+    "name": "Morning Dew of Yggdrasil",
+    "aegis": "Yggdrasilberry_Dew",
+    "price_min": 20000,
+    "price_max": 20000,
+    "maps": [
+      "alde_alche"
+    ]
+  },
+  {
+    "item_id": 7143,
+    "name": "Glass Tube",
+    "aegis": "Life_Force_Pot",
+    "price_min": 5000,
+    "price_max": 5000,
+    "maps": [
+      "alde_alche"
+    ]
+  },
+  {
+    "item_id": 7154,
+    "name": "Poisonous Powder",
+    "aegis": "Poison_Powder",
+    "price_min": 160,
+    "price_max": 160,
+    "maps": [
+      "nif_in"
+    ]
+  },
+  {
+    "item_id": 7170,
+    "name": "Tuxedo",
+    "aegis": "Tuxedo",
+    "price_min": 43000,
+    "price_max": 43000,
+    "maps": [
+      "lhz_in02",
+      "prt_in"
+    ]
+  },
+  {
+    "item_id": 7289,
+    "name": "Peridot",
+    "aegis": "Olivine",
+    "price_min": 500000,
+    "price_max": 500000,
+    "maps": []
+  },
+  {
+    "item_id": 7290,
+    "name": "Phlogopite",
+    "aegis": "Phlogopite",
+    "price_min": 500000,
+    "price_max": 500000,
+    "maps": []
+  },
+  {
+    "item_id": 7291,
+    "name": "Agate",
+    "aegis": "Agate",
+    "price_min": 500000,
+    "price_max": 500000,
+    "maps": []
+  },
+  {
+    "item_id": 7292,
+    "name": "Muscovite",
+    "aegis": "Muscovite",
+    "price_min": 500000,
+    "price_max": 500000,
+    "maps": []
+  },
+  {
+    "item_id": 7293,
+    "name": "Rose Quartz",
+    "aegis": "Rose_Quartz",
+    "price_min": 500000,
+    "price_max": 500000,
+    "maps": []
+  },
+  {
+    "item_id": 7294,
+    "name": "Turquoise",
+    "aegis": "Turquoise",
+    "price_min": 500000,
+    "price_max": 500000,
+    "maps": []
+  },
+  {
+    "item_id": 7295,
+    "name": "Citrin",
+    "aegis": "Citrine",
+    "price_min": 500000,
+    "price_max": 500000,
+    "maps": []
+  },
+  {
+    "item_id": 7296,
+    "name": "Pyroxene",
+    "aegis": "Pyroxene",
+    "price_min": 500000,
+    "price_max": 500000,
+    "maps": []
+  },
+  {
+    "item_id": 7297,
+    "name": "Biotite",
+    "aegis": "Biotite",
+    "price_min": 500000,
+    "price_max": 500000,
+    "maps": []
+  },
+  {
+    "item_id": 7452,
+    "name": "Yellow Spice",
+    "aegis": "Yellow_Spice",
+    "price_min": 750,
+    "price_max": 750,
+    "maps": [
+      "alberta",
+      "aldebaran",
+      "geffen",
+      "gonryun",
+      "lighthalzen",
+      "moc_ruins",
+      "payon",
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 7453,
+    "name": "Sweet Sauce",
+    "aegis": "Sweet_Sauce",
+    "price_min": 525,
+    "price_max": 525,
+    "maps": [
+      "alberta",
+      "amatsu",
+      "comodo",
+      "geffen",
+      "moc_ruins",
+      "payon",
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 7454,
+    "name": "Savory Sauce",
+    "aegis": "Plain_Sauce",
+    "price_min": 525,
+    "price_max": 525,
+    "maps": [
+      "alberta",
+      "comodo",
+      "geffen",
+      "louyang",
+      "moc_ruins",
+      "payon",
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 7455,
+    "name": "Spicy Sauce",
+    "aegis": "Hot_Sauce",
+    "price_min": 525,
+    "price_max": 525,
+    "maps": [
+      "alberta",
+      "ayothaya",
+      "comodo",
+      "geffen",
+      "moc_ruins",
+      "payon",
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 7456,
+    "name": "Red Spice",
+    "aegis": "Red_Spice",
+    "price_min": 750,
+    "price_max": 750,
+    "maps": [
+      "alberta",
+      "aldebaran",
+      "geffen",
+      "lighthalzen",
+      "moc_ruins",
+      "payon",
+      "prontera",
+      "umbala"
+    ]
+  },
+  {
+    "item_id": 7457,
+    "name": "Cooking Oil",
+    "aegis": "Cooking_Oil",
+    "price_min": 375,
+    "price_max": 375,
+    "maps": [
+      "alberta",
+      "einbroch",
+      "geffen",
+      "moc_ruins",
+      "payon",
+      "prontera",
+      "xmas",
+      "yuno"
+    ]
+  },
+  {
+    "item_id": 7472,
+    "name": "Level 1 Cookbook",
+    "aegis": "Cookbook01",
+    "price_min": 750,
+    "price_max": 750,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 7473,
+    "name": "Level 2 Cookbook",
+    "aegis": "Cookbook02",
+    "price_min": 750,
+    "price_max": 750,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 7474,
+    "name": "Level 3 Cookbook",
+    "aegis": "Cookbook03",
+    "price_min": 750,
+    "price_max": 750,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 7475,
+    "name": "Level 4 Cookbook",
+    "aegis": "Cookbook04",
+    "price_min": 750,
+    "price_max": 750,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 7476,
+    "name": "Level 5 Cookbook",
+    "aegis": "Cookbook05",
+    "price_min": 750,
+    "price_max": 750,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 7482,
+    "name": "Pot",
+    "aegis": "Pot",
+    "price_min": 375,
+    "price_max": 375,
+    "maps": [
+      "1@gef",
+      "alberta",
+      "geffen",
+      "moc_ruins",
+      "payon",
+      "prontera",
+      "yuno"
+    ]
+  },
+  {
+    "item_id": 7521,
+    "name": "Flame Stone",
+    "aegis": "Flame_Stone",
+    "price_min": 50,
+    "price_max": 500,
+    "maps": [
+      "prontera",
+      "que_ng"
+    ]
+  },
+  {
+    "item_id": 7522,
+    "name": "Ice Stone",
+    "aegis": "Ice_Stone",
+    "price_min": 50,
+    "price_max": 500,
+    "maps": [
+      "prontera",
+      "que_ng"
+    ]
+  },
+  {
+    "item_id": 7523,
+    "name": "Wind Stone",
+    "aegis": "Wind_Stone",
+    "price_min": 50,
+    "price_max": 500,
+    "maps": [
+      "prontera",
+      "que_ng"
+    ]
+  },
+  {
+    "item_id": 7524,
+    "name": "Shadow Orb",
+    "aegis": "Shadow_Orb",
+    "price_min": 200,
+    "price_max": 200,
+    "maps": [
+      "prontera",
+      "que_ng"
+    ]
+  },
+  {
+    "item_id": 7642,
+    "name": "Bloody Coin",
+    "aegis": "Bloody_Coin",
+    "price_min": 10000,
+    "price_max": 10000,
+    "maps": []
+  },
+  {
+    "item_id": 7663,
+    "name": "Full Metal Jacket",
+    "aegis": "Full_Metal_Jacket",
+    "price_min": 15,
+    "price_max": 15,
+    "maps": [
+      "job_gun",
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 7664,
+    "name": "Grenade Launcher",
+    "aegis": "Shooting_Mine",
+    "price_min": 30,
+    "price_max": 30,
+    "maps": [
+      "job_gun",
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 7665,
+    "name": "Dragon Tail Missile",
+    "aegis": "Dragon_Tail_Missile",
+    "price_min": 15,
+    "price_max": 15,
+    "maps": [
+      "job_gun",
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 7824,
+    "name": "Spirit Liquor",
+    "aegis": "Spirit_Liquor",
+    "price_min": 1000,
+    "price_max": 1000,
+    "maps": [
+      "1@gef"
+    ]
+  },
+  {
+    "item_id": 7931,
+    "name": "Poison Kit",
+    "aegis": "Poison_Kit",
+    "price_min": 5000,
+    "price_max": 5000,
+    "maps": []
+  },
+  {
+    "item_id": 7932,
+    "name": "Poison Herb Nerium",
+    "aegis": "Poison_Herb_Nerium",
+    "price_min": 4000,
+    "price_max": 4000,
+    "maps": []
+  },
+  {
+    "item_id": 7933,
+    "name": "Poison Herb Rantana",
+    "aegis": "Poison_Herb_Rantana",
+    "price_min": 4000,
+    "price_max": 4000,
+    "maps": []
+  },
+  {
+    "item_id": 7934,
+    "name": "Poison Herb Makulata",
+    "aegis": "Poison_Herb_Makulata",
+    "price_min": 4000,
+    "price_max": 4000,
+    "maps": []
+  },
+  {
+    "item_id": 7935,
+    "name": "Poison Herb Seratum",
+    "aegis": "Poison_Herb_Seratum",
+    "price_min": 4000,
+    "price_max": 4000,
+    "maps": []
+  },
+  {
+    "item_id": 7936,
+    "name": "Poison Herb Scoporia",
+    "aegis": "Poison_Herb_Scopolia",
+    "price_min": 4000,
+    "price_max": 4000,
+    "maps": []
+  },
+  {
+    "item_id": 7937,
+    "name": "Poison Herb Amoena",
+    "aegis": "Poison_Herb_Amoena",
+    "price_min": 4000,
+    "price_max": 4000,
+    "maps": []
+  },
+  {
+    "item_id": 7938,
+    "name": "Light Granule",
+    "aegis": "Light_Granule",
+    "price_min": 10000,
+    "price_max": 10000,
+    "maps": []
+  },
+  {
+    "item_id": 7939,
+    "name": "Elder Branch",
+    "aegis": "Elder_Branch",
+    "price_min": 20000,
+    "price_max": 20000,
+    "maps": []
+  },
+  {
+    "item_id": 7940,
+    "name": "Special Alloy Trap",
+    "aegis": "Special_Alloy_Trap",
+    "price_min": 100,
+    "price_max": 300,
+    "maps": [
+      "lighthalzen",
+      "mid_camp",
+      "payon",
+      "prontera",
+      "prt_in",
+      "ra_in01"
+    ]
+  },
+  {
+    "item_id": 10013,
+    "name": "Backpack",
+    "aegis": "Backpack",
+    "price_min": 1500,
+    "price_max": 1500,
+    "maps": [
+      "1@gef",
+      "geffen",
+      "izlude",
+      "lighthalzen",
+      "moc_ruins",
+      "payon",
+      "prontera",
+      "yuno"
+    ]
+  },
+  {
+    "item_id": 10014,
+    "name": "Rocker Glasses",
+    "aegis": "Rocker_Glasses",
+    "price_min": 2000,
+    "price_max": 2000,
+    "maps": [
+      "1@gef",
+      "geffen",
+      "izlude",
+      "lighthalzen",
+      "moc_ruins",
+      "payon",
+      "prontera",
+      "yuno"
+    ]
+  },
+  {
+    "item_id": 11513,
+    "name": "Protect Neck Candy",
+    "aegis": "Protect_Neck_Candy",
+    "price_min": 250,
+    "price_max": 250,
+    "maps": [
+      "comodo"
+    ]
+  },
+  {
+    "item_id": 11515,
+    "name": "Coconut",
+    "aegis": "Coconut",
+    "price_min": 1500,
+    "price_max": 1500,
+    "maps": [
+      "brasilis"
+    ]
+  },
+  {
+    "item_id": 11516,
+    "name": "Asai Fruit",
+    "aegis": "Asai_Fruit",
+    "price_min": 15,
+    "price_max": 15,
+    "maps": [
+      "brasilis"
+    ]
+  },
+  {
+    "item_id": 11519,
+    "name": "Beef Toast",
+    "aegis": "Beef_Toast",
+    "price_min": 1200,
+    "price_max": 1200,
+    "maps": [
+      "mora"
+    ]
+  },
+  {
+    "item_id": 11520,
+    "name": "Mora Mandar",
+    "aegis": "Mora_Mandarin",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": []
+  },
+  {
+    "item_id": 11522,
+    "name": "Red Raffle Sap",
+    "aegis": "Red_Raffle_Sap",
+    "price_min": 2500,
+    "price_max": 2500,
+    "maps": [
+      "mora"
+    ]
+  },
+  {
+    "item_id": 11523,
+    "name": "Yellow Raffle Sap",
+    "aegis": "Yellow_Raffle_Sap",
+    "price_min": 3000,
+    "price_max": 3000,
+    "maps": [
+      "mora"
+    ]
+  },
+  {
+    "item_id": 11524,
+    "name": "White Raffle Sap",
+    "aegis": "White_Raffle_Sap",
+    "price_min": 3500,
+    "price_max": 3500,
+    "maps": [
+      "mora"
+    ]
+  },
+  {
+    "item_id": 11525,
+    "name": "Mora Hip Tea",
+    "aegis": "Mora_Hip_Tea",
+    "price_min": 5000,
+    "price_max": 5000,
+    "maps": []
+  },
+  {
+    "item_id": 11526,
+    "name": "Rafflecino",
+    "aegis": "Rafflecino",
+    "price_min": 5000,
+    "price_max": 5000,
+    "maps": []
+  },
+  {
+    "item_id": 11557,
+    "name": "TE White Potion",
+    "aegis": "TE_White_Potion",
+    "price_min": 200,
+    "price_max": 200,
+    "maps": [
+      "te_prt_gld"
+    ]
+  },
+  {
+    "item_id": 11558,
+    "name": "TE White Slim Potion",
+    "aegis": "TE_White_Slim_Potion",
+    "price_min": 275,
+    "price_max": 275,
+    "maps": [
+      "te_prt_gld"
+    ]
+  },
+  {
+    "item_id": 11602,
+    "name": "Catnip Fruit",
+    "aegis": "Nepeta_Cataria",
+    "price_min": 15,
+    "price_max": 15,
+    "maps": []
+  },
+  {
+    "item_id": 11616,
+    "name": "Delicious Meat",
+    "aegis": "Yummy_Meat",
+    "price_min": 1400,
+    "price_max": 1400,
+    "maps": []
+  },
+  {
+    "item_id": 11621,
+    "name": "Red Syrup",
+    "aegis": "High_RedPotion",
+    "price_min": 800,
+    "price_max": 800,
+    "maps": [
+      "alberta_in",
+      "aldeba_in",
+      "geffen_in",
+      "izlude_in",
+      "morocc",
+      "payon",
+      "payon_in01",
+      "payon_in02",
+      "prt_in"
+    ]
+  },
+  {
+    "item_id": 11622,
+    "name": "Yellow Syrup",
+    "aegis": "High_YelloPotion",
+    "price_min": 1200,
+    "price_max": 1200,
+    "maps": [
+      "alberta_in",
+      "aldeba_in",
+      "geffen_in",
+      "izlude_in",
+      "morocc",
+      "payon",
+      "payon_in01",
+      "payon_in02",
+      "prt_in"
+    ]
+  },
+  {
+    "item_id": 11623,
+    "name": "White Syrup",
+    "aegis": "High_WhitePotion",
+    "price_min": 1500,
+    "price_max": 1500,
+    "maps": [
+      "alberta_in",
+      "aldeba_in",
+      "geffen_in",
+      "izlude_in",
+      "morocc",
+      "payon",
+      "payon_in01",
+      "payon_in02",
+      "prt_in"
+    ]
+  },
+  {
+    "item_id": 11624,
+    "name": "Blue Syrup",
+    "aegis": "High_BluePotion",
+    "price_min": 7000,
+    "price_max": 7000,
+    "maps": [
+      "alberta_in",
+      "aldeba_in",
+      "geffen_in",
+      "izlude_in",
+      "morocc",
+      "payon",
+      "payon_in01",
+      "payon_in02",
+      "prt_in"
+    ]
+  },
+  {
+    "item_id": 12008,
+    "name": "Fire Arrow Quiver",
+    "aegis": "Fire_Arrow_Container",
+    "price_min": 5000,
+    "price_max": 5000,
+    "maps": []
+  },
+  {
+    "item_id": 12009,
+    "name": "Silver Arrow Quiver",
+    "aegis": "Silver_Arrow_Container",
+    "price_min": 5000,
+    "price_max": 5000,
+    "maps": []
+  },
+  {
+    "item_id": 12010,
+    "name": "Wind Arrow Quiver",
+    "aegis": "Wind_Arrow_Container",
+    "price_min": 5000,
+    "price_max": 5000,
+    "maps": []
+  },
+  {
+    "item_id": 12011,
+    "name": "Stone Arrow Quiver",
+    "aegis": "Stone_Arrow_Container",
+    "price_min": 5000,
+    "price_max": 5000,
+    "maps": []
+  },
+  {
+    "item_id": 12012,
+    "name": "Crystal Arrow Quiver",
+    "aegis": "Crystal_Arrow_Container",
+    "price_min": 5000,
+    "price_max": 5000,
+    "maps": []
+  },
+  {
+    "item_id": 12013,
+    "name": "Shadow Arrow Quiver",
+    "aegis": "Shadow_Arrow_Container",
+    "price_min": 20000,
+    "price_max": 20000,
+    "maps": []
+  },
+  {
+    "item_id": 12014,
+    "name": "Immaterial Arrow Quiver",
+    "aegis": "Imma_Arrow_Container",
+    "price_min": 80000,
+    "price_max": 80000,
+    "maps": []
+  },
+  {
+    "item_id": 12016,
+    "name": "Speed Potion",
+    "aegis": "Speed_Up_Potion",
+    "price_min": 750,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 12028,
+    "name": "Box of Thunder",
+    "aegis": "Box_Of_Thunder",
+    "price_min": 1000,
+    "price_max": 1000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 12103,
+    "name": "Bloody Branch",
+    "aegis": "Bloody_Dead_Branch",
+    "price_min": 1000000,
+    "price_max": 1000000,
+    "maps": []
+  },
+  {
+    "item_id": 12106,
+    "name": "Jewelry Box",
+    "aegis": "Accessory_Box",
+    "price_min": 1500000,
+    "price_max": 1500000,
+    "maps": []
+  },
+  {
+    "item_id": 12107,
+    "name": "Wrapped Mask",
+    "aegis": "Wrapped_Mask",
+    "price_min": 500000,
+    "price_max": 500000,
+    "maps": []
+  },
+  {
+    "item_id": 12108,
+    "name": "Scroll Package",
+    "aegis": "Bundle_Of_Magic_Scroll",
+    "price_min": 20000,
+    "price_max": 20000,
+    "maps": []
+  },
+  {
+    "item_id": 12118,
+    "name": "Fireproof Potion",
+    "aegis": "Resist_Fire",
+    "price_min": 15000,
+    "price_max": 15000,
+    "maps": []
+  },
+  {
+    "item_id": 12119,
+    "name": "Coldproof Potion",
+    "aegis": "Resist_Water",
+    "price_min": 8000,
+    "price_max": 8000,
+    "maps": []
+  },
+  {
+    "item_id": 12120,
+    "name": "Earthproof Potion",
+    "aegis": "Resist_Earth",
+    "price_min": 5000,
+    "price_max": 5000,
+    "maps": []
+  },
+  {
+    "item_id": 12121,
+    "name": "Thunderproof Potion",
+    "aegis": "Resist_Wind",
+    "price_min": 8000,
+    "price_max": 8000,
+    "maps": []
+  },
+  {
+    "item_id": 12125,
+    "name": "Outdoor Cooking Kit",
+    "aegis": "Outdoor_Cooking_Kits",
+    "price_min": 500,
+    "price_max": 500,
+    "maps": [
+      "alberta",
+      "geffen",
+      "moc_ruins",
+      "payon",
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 12126,
+    "name": "Home Cooking Kit",
+    "aegis": "Indoor_Cooking_Kits",
+    "price_min": 1000,
+    "price_max": 1000,
+    "maps": [
+      "alberta",
+      "geffen",
+      "moc_ruins",
+      "payon",
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 12127,
+    "name": "Professional Cooking Kit",
+    "aegis": "High_end_Cooking_Kits",
+    "price_min": 2000,
+    "price_max": 2000,
+    "maps": [
+      "alberta",
+      "geffen",
+      "moc_ruins",
+      "payon",
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 12194,
+    "name": "Hometown Gift",
+    "aegis": "Hometown_Gift",
+    "price_min": 200000,
+    "price_max": 200000,
+    "maps": []
+  },
+  {
+    "item_id": 12262,
+    "name": "Authoritative Badge",
+    "aegis": "Inspector_Certificate_",
+    "price_min": 500,
+    "price_max": 500,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 12290,
+    "name": "Mysterious Can Magic Powder",
+    "aegis": "Mysterious_Can",
+    "price_min": 5000,
+    "price_max": 5000,
+    "maps": []
+  },
+  {
+    "item_id": 12291,
+    "name": "Mysterious PET Bottle",
+    "aegis": "Mysterious_PET_Bottle",
+    "price_min": 10000,
+    "price_max": 10000,
+    "maps": []
+  },
+  {
+    "item_id": 12341,
+    "name": "Special Alloy Trap Box",
+    "aegis": "Special_Alloy_Trap_Box",
+    "price_min": 30000,
+    "price_max": 30000,
+    "maps": [
+      "lighthalzen",
+      "mid_camp",
+      "payon",
+      "prt_in",
+      "ra_in01"
+    ]
+  },
+  {
+    "item_id": 12376,
+    "name": "Mysterious Can2",
+    "aegis": "Mysterious_Can2",
+    "price_min": 5000,
+    "price_max": 5000,
+    "maps": []
+  },
+  {
+    "item_id": 12377,
+    "name": "Mysterious PET Bottle2",
+    "aegis": "Mysterious_PET_Bottle2",
+    "price_min": 10000,
+    "price_max": 10000,
+    "maps": []
+  },
+  {
+    "item_id": 12392,
+    "name": "Repair A",
+    "aegis": "RepairA",
+    "price_min": 200,
+    "price_max": 200,
+    "maps": [
+      "einbroch",
+      "lhz_in03",
+      "mid_camp",
+      "prt_in",
+      "ra_in01"
+    ]
+  },
+  {
+    "item_id": 12393,
+    "name": "Repair B",
+    "aegis": "RepairB",
+    "price_min": 500,
+    "price_max": 500,
+    "maps": [
+      "einbroch",
+      "lhz_in03",
+      "mid_camp",
+      "prt_in",
+      "ra_in01"
+    ]
+  },
+  {
+    "item_id": 12394,
+    "name": "Repair C",
+    "aegis": "RepairC",
+    "price_min": 1375,
+    "price_max": 1375,
+    "maps": [
+      "einbroch",
+      "lhz_in03",
+      "mid_camp",
+      "prt_in",
+      "ra_in01"
+    ]
+  },
+  {
+    "item_id": 12422,
+    "name": "HP Increase Potion (Small)",
+    "aegis": "HP_Increase_PotionS",
+    "price_min": 40000,
+    "price_max": 40000,
+    "maps": []
+  },
+  {
+    "item_id": 12423,
+    "name": "HP Increase Potion (Medium)",
+    "aegis": "HP_Increase_PotionM",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": []
+  },
+  {
+    "item_id": 12425,
+    "name": "SP Increase Potion (Small)",
+    "aegis": "SP_Increase_PotionS",
+    "price_min": 40000,
+    "price_max": 40000,
+    "maps": []
+  },
+  {
+    "item_id": 12426,
+    "name": "SP Increase Potion (Medium)",
+    "aegis": "SP_Increase_PotionM",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": []
+  },
+  {
+    "item_id": 12574,
+    "name": "Mora Berry",
+    "aegis": "Mora_Berry",
+    "price_min": 20000,
+    "price_max": 20000,
+    "maps": []
+  },
+  {
+    "item_id": 12676,
+    "name": "Siege Violet Potion Box",
+    "aegis": "Sg_Violet_Potion_Box",
+    "price_min": 30000,
+    "price_max": 30000,
+    "maps": []
+  },
+  {
+    "item_id": 12679,
+    "name": "Siege White Potion Box",
+    "aegis": "Sg_White_Potion_Box",
+    "price_min": 100000,
+    "price_max": 100000,
+    "maps": []
+  },
+  {
+    "item_id": 12680,
+    "name": "Siege Blue Potion Box",
+    "aegis": "Sg_Blue_Potion_Box",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": []
+  },
+  {
+    "item_id": 12734,
+    "name": "Luxurious Rune",
+    "aegis": "Runstone_Quality",
+    "price_min": 1500,
+    "price_max": 2500,
+    "maps": []
+  },
+  {
+    "item_id": 12735,
+    "name": "Ancient Rune",
+    "aegis": "Runstone_Ancient",
+    "price_min": 3000,
+    "price_max": 18000,
+    "maps": []
+  },
+  {
+    "item_id": 12736,
+    "name": "Mystic Rune",
+    "aegis": "Runstone_Mystic",
+    "price_min": 10000,
+    "price_max": 50000,
+    "maps": []
+  },
+  {
+    "item_id": 12737,
+    "name": "General Rune",
+    "aegis": "Runstone_Ordinary",
+    "price_min": 500,
+    "price_max": 1000,
+    "maps": []
+  },
+  {
+    "item_id": 12738,
+    "name": "Rare Rune",
+    "aegis": "Runstone_Rare",
+    "price_min": 2000,
+    "price_max": 7500,
+    "maps": []
+  },
+  {
+    "item_id": 12786,
+    "name": "Character Position Change Coupon",
+    "aegis": "Change_Slot_Card",
+    "price_min": 100000,
+    "price_max": 100000,
+    "maps": []
+  },
+  {
+    "item_id": 12849,
+    "name": "Combination Kit",
+    "aegis": "Combination_Kit",
+    "price_min": 40,
+    "price_max": 40,
+    "maps": [
+      "alberta",
+      "geffen",
+      "moc_ruins",
+      "payon",
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 13000,
+    "name": "Jujube Dagger",
+    "aegis": "Jujube_Dagger",
+    "price_min": 10000,
+    "price_max": 10000,
+    "maps": [
+      "ein_in01"
+    ]
+  },
+  {
+    "item_id": 13003,
+    "name": "Cowardice Blade",
+    "aegis": "Coward",
+    "price_min": 52000,
+    "price_max": 52000,
+    "maps": [
+      "brasilis",
+      "lhz_in02",
+      "ra_in01",
+      "ve_in"
+    ]
+  },
+  {
+    "item_id": 13101,
+    "name": "Six Shooter",
+    "aegis": "Six_Shooter_",
+    "price_min": 10000,
+    "price_max": 10000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 13102,
+    "name": "Crimson Bolt",
+    "aegis": "Crimson_Bolt",
+    "price_min": 20000,
+    "price_max": 20000,
+    "maps": [
+      "alberta_in",
+      "izlude_in",
+      "que_ng"
+    ]
+  },
+  {
+    "item_id": 13103,
+    "name": "Crimson Bolt",
+    "aegis": "Crimson_Bolt_",
+    "price_min": 60000,
+    "price_max": 60000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 13105,
+    "name": "Garrison",
+    "aegis": "The_Garrison_",
+    "price_min": 100000,
+    "price_max": 100000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 13106,
+    "name": "Gold Lux",
+    "aegis": "Gold_Lux",
+    "price_min": 200000,
+    "price_max": 200000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 13120,
+    "name": "Heaven's Feather & Hell's Fire",
+    "aegis": "H_FEATHER_H_FIRE",
+    "price_min": 1200000,
+    "price_max": 1200000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 13122,
+    "name": "Altair & Ares",
+    "aegis": "ALTAIR_ARES",
+    "price_min": 1450000,
+    "price_max": 1450000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 13150,
+    "name": "Branch",
+    "aegis": "Branch",
+    "price_min": 3000,
+    "price_max": 6000,
+    "maps": [
+      "alberta_in",
+      "izlude_in",
+      "prontera",
+      "que_ng"
+    ]
+  },
+  {
+    "item_id": 13151,
+    "name": "Cyclone",
+    "aegis": "The_Cyclone",
+    "price_min": 17500,
+    "price_max": 17500,
+    "maps": [
+      "alberta_in",
+      "izlude_in",
+      "que_ng"
+    ]
+  },
+  {
+    "item_id": 13152,
+    "name": "Cyclone",
+    "aegis": "The_Cyclone_",
+    "price_min": 30000,
+    "price_max": 30000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 13153,
+    "name": "Dusk",
+    "aegis": "Dusk",
+    "price_min": 50000,
+    "price_max": 50000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 13154,
+    "name": "Rolling Stone",
+    "aegis": "Rolling_Stone",
+    "price_min": 12000,
+    "price_max": 30000,
+    "maps": [
+      "alberta_in",
+      "izlude_in",
+      "prontera",
+      "que_ng"
+    ]
+  },
+  {
+    "item_id": 13155,
+    "name": "Black Rose",
+    "aegis": "Black_Rose",
+    "price_min": 32000,
+    "price_max": 60000,
+    "maps": [
+      "alberta_in",
+      "izlude_in",
+      "prontera",
+      "que_ng"
+    ]
+  },
+  {
+    "item_id": 13156,
+    "name": "Gate Keeper",
+    "aegis": "Gate_Keeper",
+    "price_min": 100000,
+    "price_max": 100000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 13157,
+    "name": "Drifter",
+    "aegis": "Drifter",
+    "price_min": 150000,
+    "price_max": 150000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 13159,
+    "name": "Butcher",
+    "aegis": "Butcher_",
+    "price_min": 250000,
+    "price_max": 250000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 13161,
+    "name": "Destroyer",
+    "aegis": "Destroyer_",
+    "price_min": 300000,
+    "price_max": 300000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 13162,
+    "name": "Inferno",
+    "aegis": "Inferno",
+    "price_min": 500000,
+    "price_max": 500000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 13163,
+    "name": "Long Barrel",
+    "aegis": "Long_Barrel",
+    "price_min": 40000,
+    "price_max": 40000,
+    "maps": [
+      "alberta_in",
+      "izlude_in",
+      "que_ng"
+    ]
+  },
+  {
+    "item_id": 13165,
+    "name": "Jungle Carbine",
+    "aegis": "Jungle_Carbine",
+    "price_min": 56000,
+    "price_max": 56000,
+    "maps": [
+      "alberta_in",
+      "izlude_in",
+      "que_ng"
+    ]
+  },
+  {
+    "item_id": 13168,
+    "name": "Thunder P",
+    "aegis": "Thunder_P",
+    "price_min": 76000,
+    "price_max": 76000,
+    "maps": [
+      "alberta_in",
+      "izlude_in",
+      "que_ng"
+    ]
+  },
+  {
+    "item_id": 13189,
+    "name": "Color Scope",
+    "aegis": "COLORSCOPE",
+    "price_min": 1350000,
+    "price_max": 1350000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 13192,
+    "name": "Death Fire",
+    "aegis": "DEATHFIRE",
+    "price_min": 1250000,
+    "price_max": 1250000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 13193,
+    "name": "Rolling Thunder",
+    "aegis": "R_THUNDER",
+    "price_min": 1350000,
+    "price_max": 1350000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 13194,
+    "name": "Peace Breaker",
+    "aegis": "P_BREAKER",
+    "price_min": 1950000,
+    "price_max": 1950000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 13195,
+    "name": "RAG203",
+    "aegis": "RAG203",
+    "price_min": 1800000,
+    "price_max": 1800000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 13197,
+    "name": "Mini Mei",
+    "aegis": "MINIMAY",
+    "price_min": 1600000,
+    "price_max": 1600000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 13198,
+    "name": "Tempest",
+    "aegis": "TEMPEST",
+    "price_min": 2200000,
+    "price_max": 2200000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 13200,
+    "name": "Bullet",
+    "aegis": "Bullet",
+    "price_min": 1,
+    "price_max": 50,
+    "maps": [
+      "alberta_in",
+      "izlude_in",
+      "prontera",
+      "que_ng"
+    ]
+  },
+  {
+    "item_id": 13201,
+    "name": "Surplus Silver Bullet",
+    "aegis": "Silver_Bullet",
+    "price_min": 15,
+    "price_max": 300,
+    "maps": [
+      "alberta_in",
+      "izlude_in",
+      "prontera",
+      "que_ng"
+    ]
+  },
+  {
+    "item_id": 13202,
+    "name": "Surplus Bloody Shell",
+    "aegis": "Shell_Of_Blood",
+    "price_min": 30,
+    "price_max": 100,
+    "maps": [
+      "alberta_in",
+      "izlude_in",
+      "prontera",
+      "que_ng"
+    ]
+  },
+  {
+    "item_id": 13203,
+    "name": "Surplus Flare Sphere",
+    "aegis": "Flare_Sphere",
+    "price_min": 500,
+    "price_max": 500,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 13204,
+    "name": "Surplus Lightning Sphere",
+    "aegis": "Lighting_Sphere",
+    "price_min": 500,
+    "price_max": 500,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 13205,
+    "name": "Surplus Poison Sphere",
+    "aegis": "Poison_Sphere",
+    "price_min": 500,
+    "price_max": 500,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 13206,
+    "name": "Surplus Blind Sphere",
+    "aegis": "Blind_Sphere",
+    "price_min": 500,
+    "price_max": 500,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 13207,
+    "name": "Surplus Freezing Sphere",
+    "aegis": "Freezing_Sphere",
+    "price_min": 500,
+    "price_max": 500,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 13210,
+    "name": "Slug Ammunition L",
+    "aegis": "Slug_Bullet_1",
+    "price_min": 250,
+    "price_max": 250,
+    "maps": [
+      "job_gun"
+    ]
+  },
+  {
+    "item_id": 13211,
+    "name": "Slug Ammunition M",
+    "aegis": "Slug_Bullet_2",
+    "price_min": 500,
+    "price_max": 500,
+    "maps": [
+      "job_gun"
+    ]
+  },
+  {
+    "item_id": 13212,
+    "name": "Slug Ammunition H",
+    "aegis": "Slug_Bullet_3",
+    "price_min": 750,
+    "price_max": 750,
+    "maps": [
+      "job_gun"
+    ]
+  },
+  {
+    "item_id": 13213,
+    "name": "Slug Ammunition SH",
+    "aegis": "Slug_Bullet_4",
+    "price_min": 1000,
+    "price_max": 1000,
+    "maps": [
+      "job_gun"
+    ]
+  },
+  {
+    "item_id": 13214,
+    "name": "Slug Ammunition XH",
+    "aegis": "Slug_Bullet_5",
+    "price_min": 1200,
+    "price_max": 1200,
+    "maps": [
+      "job_gun"
+    ]
+  },
+  {
+    "item_id": 13215,
+    "name": "Armor-Piercing Bullet",
+    "aegis": "AP_Ammo",
+    "price_min": 5,
+    "price_max": 5,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 13216,
+    "name": "Blazing Bullet",
+    "aegis": "Blaze_Bullet",
+    "price_min": 5,
+    "price_max": 5,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 13217,
+    "name": "Freezing Bullet",
+    "aegis": "Freezing_Bullet",
+    "price_min": 5,
+    "price_max": 5,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 13218,
+    "name": "Lightning Bullet",
+    "aegis": "Electric_Shock_Bullet",
+    "price_min": 5,
+    "price_max": 5,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 13219,
+    "name": "Magic Stone Bullet",
+    "aegis": "Magical_Stone_Bullet",
+    "price_min": 5,
+    "price_max": 5,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 13220,
+    "name": "Purifying Bullet",
+    "aegis": "Sanctified_Bullet",
+    "price_min": 5,
+    "price_max": 5,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 13221,
+    "name": "Silver Bullet",
+    "aegis": "Silver_Bullet_",
+    "price_min": 5,
+    "price_max": 5,
+    "maps": [
+      "alberta_in",
+      "izlude_in",
+      "prontera",
+      "que_ng"
+    ]
+  },
+  {
+    "item_id": 13222,
+    "name": "Bloody Shell",
+    "aegis": "Shell_Of_Blood_",
+    "price_min": 5,
+    "price_max": 5,
+    "maps": [
+      "alberta_in",
+      "izlude_in",
+      "prontera",
+      "que_ng"
+    ]
+  },
+  {
+    "item_id": 13228,
+    "name": "Flare Bullet",
+    "aegis": "Flare_Bullet",
+    "price_min": 5,
+    "price_max": 5,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 13229,
+    "name": "Lightning Bullet",
+    "aegis": "Lighting_Bullet",
+    "price_min": 5,
+    "price_max": 5,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 13230,
+    "name": "Ice Bullet",
+    "aegis": "Ice_Bullet",
+    "price_min": 5,
+    "price_max": 5,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 13231,
+    "name": "Poison Bullet",
+    "aegis": "Poison_Bullet",
+    "price_min": 5,
+    "price_max": 5,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 13232,
+    "name": "Blind Bullet",
+    "aegis": "Blind_Bullet",
+    "price_min": 5,
+    "price_max": 5,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 13250,
+    "name": "Shuriken",
+    "aegis": "Shuriken",
+    "price_min": 2,
+    "price_max": 50,
+    "maps": [
+      "prontera",
+      "que_ng"
+    ]
+  },
+  {
+    "item_id": 13251,
+    "name": "Nimbus Shuriken",
+    "aegis": "Nimbus_Shuriken",
+    "price_min": 4,
+    "price_max": 100,
+    "maps": [
+      "prontera",
+      "que_ng"
+    ]
+  },
+  {
+    "item_id": 13252,
+    "name": "Flash Shuriken",
+    "aegis": "Flash_Shuriken",
+    "price_min": 6,
+    "price_max": 50,
+    "maps": [
+      "prontera",
+      "que_ng"
+    ]
+  },
+  {
+    "item_id": 13253,
+    "name": "Sharp Leaf Shuriken",
+    "aegis": "Sharp_Leaf_Shuriken",
+    "price_min": 12,
+    "price_max": 300,
+    "maps": [
+      "prontera",
+      "que_ng"
+    ]
+  },
+  {
+    "item_id": 13254,
+    "name": "Thorn Needle Shuriken",
+    "aegis": "Thorn_Needle_Shuriken",
+    "price_min": 20,
+    "price_max": 500,
+    "maps": [
+      "prontera",
+      "que_ng"
+    ]
+  },
+  {
+    "item_id": 13255,
+    "name": "Icicle Kunai",
+    "aegis": "Kunai_Of_Icicle",
+    "price_min": 50,
+    "price_max": 50,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 13256,
+    "name": "Black Earth Kunai",
+    "aegis": "Kunai_Of_Black_Soil",
+    "price_min": 50,
+    "price_max": 50,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 13257,
+    "name": "High Wind Kunai",
+    "aegis": "Kunai_Of_Furious_Wind",
+    "price_min": 50,
+    "price_max": 50,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 13258,
+    "name": "Heat Wave Kunai",
+    "aegis": "Kunai_Of_Fierce_Flame",
+    "price_min": 50,
+    "price_max": 50,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 13259,
+    "name": "Fell Poison Kunai",
+    "aegis": "Kunai_Of_Deadly_Poison",
+    "price_min": 50,
+    "price_max": 50,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 13294,
+    "name": "Explosive Kunai",
+    "aegis": "Explosive_Kunai",
+    "price_min": 100,
+    "price_max": 100,
+    "maps": [
+      "prontera",
+      "que_ng"
+    ]
+  },
+  {
+    "item_id": 14512,
+    "name": "Meteor Storm Scroll",
+    "aegis": "Meteor_10_Scroll",
+    "price_min": 100000,
+    "price_max": 100000,
+    "maps": []
+  },
+  {
+    "item_id": 14513,
+    "name": "Storm Gust Scroll",
+    "aegis": "Storm_10_Scroll",
+    "price_min": 100000,
+    "price_max": 100000,
+    "maps": []
+  },
+  {
+    "item_id": 14514,
+    "name": "Lord of Vermilion Scroll",
+    "aegis": "Vermilion_10_Scroll",
+    "price_min": 100000,
+    "price_max": 100000,
+    "maps": []
+  },
+  {
+    "item_id": 15053,
+    "name": "Special Ninja Suit",
+    "aegis": "Special_Ninja_Suit",
+    "price_min": 10000,
+    "price_max": 10000,
+    "maps": [
+      "prontera",
+      "que_ng"
+    ]
+  },
+  {
+    "item_id": 18000,
+    "name": "Cannon Ball",
+    "aegis": "Cannon_Ball",
+    "price_min": 30,
+    "price_max": 30,
+    "maps": [
+      "einbroch",
+      "lhz_in03",
+      "mid_camp",
+      "prt_in",
+      "ra_in01"
+    ]
+  },
+  {
+    "item_id": 18001,
+    "name": "Holy Cannon Ball",
+    "aegis": "Holy_Cannon_Ball",
+    "price_min": 50,
+    "price_max": 50,
+    "maps": [
+      "einbroch",
+      "lhz_in03",
+      "mid_camp",
+      "prt_in",
+      "ra_in01"
+    ]
+  },
+  {
+    "item_id": 18002,
+    "name": "Dark Cannon Ball",
+    "aegis": "Dark_Cannon_Ball",
+    "price_min": 50,
+    "price_max": 50,
+    "maps": [
+      "einbroch",
+      "lhz_in03",
+      "mid_camp",
+      "prt_in",
+      "ra_in01"
+    ]
+  },
+  {
+    "item_id": 18003,
+    "name": "Soul Cannon Ball",
+    "aegis": "Soul_Cannon_Ball",
+    "price_min": 50,
+    "price_max": 50,
+    "maps": [
+      "einbroch",
+      "lhz_in03",
+      "mid_camp",
+      "prt_in",
+      "ra_in01"
+    ]
+  },
+  {
+    "item_id": 18004,
+    "name": "Iron Cannon Ball",
+    "aegis": "Iron_Cannon_Ball",
+    "price_min": 80,
+    "price_max": 80,
+    "maps": [
+      "einbroch",
+      "lhz_in03",
+      "mid_camp",
+      "prt_in",
+      "ra_in01"
+    ]
+  },
+  {
+    "item_id": 22658,
+    "name": "Cow Steamed Ribs",
+    "aegis": "BraisedShortRibs",
+    "price_min": 80000,
+    "price_max": 80000,
+    "maps": []
+  },
+  {
+    "item_id": 22659,
+    "name": "Pig Steamed Ribs",
+    "aegis": "BraisedSpareribs",
+    "price_min": 100000,
+    "price_max": 100000,
+    "maps": []
+  },
+  {
+    "item_id": 22687,
+    "name": "Sentimental Fragment",
+    "aegis": "Pieces_Of_Sentiment",
+    "price_min": 200000,
+    "price_max": 200000,
+    "maps": []
+  },
+  {
+    "item_id": 23016,
+    "name": "Cursed Fragment",
+    "aegis": "Pieces_Of_Grudge",
+    "price_min": 1000000,
+    "price_max": 1000000,
+    "maps": []
+  },
+  {
+    "item_id": 23280,
+    "name": "Novice Fly Wing",
+    "aegis": "N_Fly_Wing2",
+    "price_min": 10,
+    "price_max": 10,
+    "maps": [
+      "alb2trea",
+      "alberta_in",
+      "aldeba_in",
+      "ama_in01",
+      "ayo_in01",
+      "brasilis",
+      "cmd_fild07",
+      "cmd_in01",
+      "ein_in01",
+      "geffen_in",
+      "gonryun",
+      "hu_in01",
+      "lhz_in02",
+      "lhz_in03",
+      "lou_in02",
+      "moc_ruins",
+      "morocc",
+      "mosk_in",
+      "payon_in01",
+      "payon_in02"
+    ]
+  },
+  {
+    "item_id": 23288,
+    "name": "Compressed Fly Wing",
+    "aegis": "Cps_Fly_Wing",
+    "price_min": 1000,
+    "price_max": 1000,
+    "maps": [
+      "alb2trea",
+      "alberta_in",
+      "aldeba_in",
+      "ama_in01",
+      "ayo_in01",
+      "brasilis",
+      "cmd_fild07",
+      "cmd_in01",
+      "ein_in01",
+      "geffen_in",
+      "gonryun",
+      "hu_in01",
+      "lhz_in02",
+      "lhz_in03",
+      "lou_in02",
+      "moc_ruins",
+      "morocc",
+      "mosk_in",
+      "payon_in01",
+      "payon_in02"
+    ]
+  },
+  {
+    "item_id": 25187,
+    "name": "Slug Bullet",
+    "aegis": "Slug_Bullet",
+    "price_min": 1000,
+    "price_max": 1000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 25231,
+    "name": "Suspicious Bottle",
+    "aegis": "Suspicious_Bottle",
+    "price_min": 1000,
+    "price_max": 1000,
+    "maps": []
+  },
+  {
+    "item_id": 25232,
+    "name": "Cheap Lubricant",
+    "aegis": "Cheap_Lubricant",
+    "price_min": 1000,
+    "price_max": 1000,
+    "maps": []
+  },
+  {
+    "item_id": 25233,
+    "name": "Cotton Tufts",
+    "aegis": "Wad_Of_Cotton",
+    "price_min": 1000,
+    "price_max": 1000,
+    "maps": []
+  },
+  {
+    "item_id": 25377,
+    "name": "Luxurious Pet Food",
+    "aegis": "High_Class_Pet_food",
+    "price_min": 10000,
+    "price_max": 10000,
+    "maps": []
+  },
+  {
+    "item_id": 28200,
+    "name": "End Of The Horizon",
+    "aegis": "END_OF_HORIZON",
+    "price_min": 2700000,
+    "price_max": 2700000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 28201,
+    "name": "Southern Cross",
+    "aegis": "Southern_Cross_R",
+    "price_min": 2800000,
+    "price_max": 2800000,
+    "maps": [
+      "prontera"
+    ]
+  },
+  {
+    "item_id": 31144,
+    "name": "Costume Indian Feather Headband",
+    "aegis": "C_Indi_Feather_Band",
+    "price_min": 1500000,
+    "price_max": 1500000,
+    "maps": []
+  },
+  {
+    "item_id": 100003,
+    "name": "Red Phantom Resonance Stone",
+    "aegis": "ILL_Piece_A",
+    "price_min": 2000000,
+    "price_max": 2000000,
+    "maps": []
+  },
+  {
+    "item_id": 100004,
+    "name": "Azure Mirage Resonance Stone",
+    "aegis": "ILL_Piece_B",
+    "price_min": 2000000,
+    "price_max": 2000000,
+    "maps": []
+  },
+  {
+    "item_id": 1000227,
+    "name": "Cloud Cotton",
+    "aegis": "Cloud_Cotton",
+    "price_min": 172,
+    "price_max": 172,
+    "maps": []
+  },
+  {
+    "item_id": 1000291,
+    "name": "Wind Stone 4th",
+    "aegis": "Wind_Stone_4th",
+    "price_min": 1000,
+    "price_max": 1000,
+    "maps": []
+  },
+  {
+    "item_id": 1000292,
+    "name": "Earth Stone 4th",
+    "aegis": "Earth_Stone_4th",
+    "price_min": 1000,
+    "price_max": 1000,
+    "maps": []
+  },
+  {
+    "item_id": 1000293,
+    "name": "Flame Stone 4th",
+    "aegis": "Flame_Stone_4th",
+    "price_min": 1000,
+    "price_max": 1000,
+    "maps": []
+  },
+  {
+    "item_id": 1000294,
+    "name": "Poison Stone 4th",
+    "aegis": "Poison_Stone_4th",
+    "price_min": 1000,
+    "price_max": 1000,
+    "maps": []
+  },
+  {
+    "item_id": 1000295,
+    "name": "Ice Stone 4th",
+    "aegis": "Ice_Stone_4th",
+    "price_min": 1000,
+    "price_max": 1000,
+    "maps": []
+  },
+  {
+    "item_id": 1000321,
+    "name": "Amber",
+    "aegis": "Amber",
+    "price_min": 45000,
+    "price_max": 45000,
+    "maps": [
+      "lhz_in02",
+      "moc_ruins",
+      "morocc"
+    ]
+  },
+  {
+    "item_id": 1000552,
+    "name": "Evil Water",
+    "aegis": "Evil_Water",
+    "price_min": 1000,
+    "price_max": 1000,
+    "maps": []
+  },
+  {
+    "item_id": 1000889,
+    "name": "Complex Fruit Juice",
+    "aegis": "Mixed_Fruits_Juice",
+    "price_min": 1000,
+    "price_max": 1000,
+    "maps": []
+  }
+]

@@ -86,22 +86,10 @@
         }
       ],
       "drop_types_count": 33,
-      "ev_mats_offer_per_kill": 2110.9,
-      "ev_mats_offer_per_day": 4234895.42,
+      "ev_mats_offer_per_kill": 1736.43,
+      "ev_mats_offer_per_day": 3483617.54,
       "offer": {
         "mats_for_sale": [
-          {
-            "item_id": 1010,
-            "aegis": "Phracon",
-            "name": "Phracon",
-            "type": "Etc",
-            "p_per_map_kill": 0.00615929,
-            "latam_price": 45666,
-            "latam_total_sold": 1111,
-            "has_offers": true,
-            "qty_per_day": 12.3568,
-            "score": 830218.46
-          },
           {
             "item_id": 913,
             "aegis": "Tooth_Of_Bat",
@@ -113,18 +101,6 @@
             "has_offers": true,
             "qty_per_day": 48.8234,
             "score": 435952.16
-          },
-          {
-            "item_id": 1002,
-            "aegis": "Iron_Ore",
-            "name": "Iron Ore",
-            "type": "Etc",
-            "p_per_map_kill": 0.0149115,
-            "latam_price": 11000,
-            "latam_total_sold": 3451,
-            "has_offers": true,
-            "qty_per_day": 29.9155,
-            "score": 307487.9
           },
           {
             "item_id": 955,
@@ -149,45 +125,22 @@
             "has_offers": true,
             "qty_per_day": 77.2298,
             "score": 114995.71
-          }
-        ],
-        "mats_discarded_count": 16,
-        "mats_discarded_top10": [
-          {
-            "item_id": 909,
-            "name": "Jellopy",
-            "price": 2099,
-            "qty_per_day": 77.2298,
-            "score": 96239.81
           },
           {
             "item_id": 938,
+            "aegis": "Sticky_Mucus",
             "name": "Sticky Mucus",
-            "price": 2000,
+            "type": "Etc",
+            "p_per_map_kill": 0.03540929,
+            "latam_price": 2000,
+            "latam_total_sold": 15416,
+            "has_offers": true,
             "qty_per_day": 71.0381,
             "score": 82491.92
-          },
-          {
-            "item_id": 910,
-            "name": "Garlet",
-            "price": 2500,
-            "qty_per_day": 104.3046,
-            "score": 78237.77
-          },
-          {
-            "item_id": 526,
-            "name": "Royal Jelly",
-            "price": 9831,
-            "qty_per_day": 0.8877,
-            "score": 42205.38
-          },
-          {
-            "item_id": 990,
-            "name": "Red Blood",
-            "price": 4950,
-            "qty_per_day": 1.2206,
-            "score": 41934.84
-          },
+          }
+        ],
+        "mats_discarded_count": 5,
+        "mats_discarded_top10": [
           {
             "item_id": 507,
             "name": "Red Herb",
@@ -203,27 +156,102 @@
             "score": 26281.15
           },
           {
-            "item_id": 1001,
-            "name": "Star Dust",
-            "price": 55000,
-            "qty_per_day": 0.0444,
-            "score": 17329.03
+            "item_id": 756,
+            "name": "Rough Oridecon",
+            "price": 8490,
+            "qty_per_day": 0.1154,
+            "score": 7112.4
           },
           {
-            "item_id": 993,
-            "name": "Green Live",
-            "price": 3198,
-            "qty_per_day": 0.7323,
-            "score": 17245.37
+            "item_id": 757,
+            "name": "Rough Elunium",
+            "price": 1000,
+            "qty_per_day": 1.7266,
+            "score": 7087.14
+          },
+          {
+            "item_id": 997,
+            "name": "Great Nature",
+            "price": 5000,
+            "qty_per_day": 0.0133,
+            "score": 564.99
+          }
+        ],
+        "mats_blocked_npc_buyable": [
+          {
+            "item_id": 1010,
+            "name": "Phracon",
+            "price_latam": 45666,
+            "reason": "npc_buyable"
+          },
+          {
+            "item_id": 909,
+            "name": "Jellopy",
+            "price_latam": 2099,
+            "reason": "npc_buyable"
+          },
+          {
+            "item_id": 1002,
+            "name": "Iron Ore",
+            "price_latam": 11000,
+            "reason": "npc_buyable"
+          },
+          {
+            "item_id": 910,
+            "name": "Garlet",
+            "price_latam": 2500,
+            "reason": "npc_buyable"
           },
           {
             "item_id": 992,
             "name": "Wind of Verdure",
-            "price": 2899,
-            "qty_per_day": 0.6658,
-            "score": 16319.7
+            "price_latam": 2899,
+            "reason": "npc_buyable"
+          },
+          {
+            "item_id": 990,
+            "name": "Red Blood",
+            "price_latam": 4950,
+            "reason": "npc_buyable"
+          },
+          {
+            "item_id": 645,
+            "name": "Concentration Potion",
+            "price_latam": 1050,
+            "reason": "npc_buyable"
+          },
+          {
+            "item_id": 993,
+            "name": "Green Live",
+            "price_latam": 3198,
+            "reason": "npc_buyable"
+          },
+          {
+            "item_id": 911,
+            "name": "Scell",
+            "price_latam": 2500,
+            "reason": "npc_buyable"
+          },
+          {
+            "item_id": 526,
+            "name": "Royal Jelly",
+            "price_latam": 9831,
+            "reason": "npc_buyable"
+          },
+          {
+            "item_id": 1003,
+            "name": "Coal",
+            "price_latam": 6399,
+            "reason": "npc_buyable"
+          },
+          {
+            "item_id": 1001,
+            "name": "Star Dust",
+            "price_latam": 55000,
+            "reason": "npc_buyable"
           }
         ],
+        "mats_blocked_npc_count": 12,
         "cards": [
           {
             "item_id": 4043,
@@ -281,25 +309,11 @@
           "hours": 3.5,
           "mats_stock": [
             {
-              "item_id": 1010,
-              "name": "Phracon",
-              "qty": 12.36,
-              "price": 45666,
-              "stock_value": 564284.15
-            },
-            {
               "item_id": 913,
               "name": "Tooth of Bat",
               "qty": 48.82,
               "price": 14960,
               "stock_value": 730398.74
-            },
-            {
-              "item_id": 1002,
-              "name": "Iron Ore",
-              "qty": 29.92,
-              "price": 11000,
-              "stock_value": 329069.96
             },
             {
               "item_id": 955,
@@ -314,9 +328,16 @@
               "qty": 77.23,
               "price": 3500,
               "stock_value": 270304.41
+            },
+            {
+              "item_id": 938,
+              "name": "Sticky Mucus",
+              "qty": 71.04,
+              "price": 2000,
+              "stock_value": 142076.24
             }
           ],
-          "mats_stock_value_latam": 4234895.42,
+          "mats_stock_value_latam": 3483617.54,
           "cards": [
             {
               "item_id": 4043,
@@ -351,12 +372,12 @@
           ],
           "cards_sellable_total": 0.092,
           "cards_pipeline_value": 300277.95,
-          "lot_expected_value": 4535173.37,
+          "lot_expected_value": 3783895.49,
           "zeny_spent": 11227.12,
-          "net_if_sold_at_latam": 4523946.24,
+          "net_if_sold_at_latam": 3772668.37,
           "gates": {
-            "pause_grind_until_sold_z": 1814069.35,
-            "keep_shop_until_sold_z": 2721104.02,
+            "pause_grind_until_sold_z": 1513558.2,
+            "keep_shop_until_sold_z": 2270337.29,
             "pause_frac": 0.4,
             "shop_keep_frac": 0.6
           }
@@ -367,25 +388,11 @@
           "hours": 10.5,
           "mats_stock": [
             {
-              "item_id": 1010,
-              "name": "Phracon",
-              "qty": 37.07,
-              "price": 45666,
-              "stock_value": 1692852.45
-            },
-            {
               "item_id": 913,
               "name": "Tooth of Bat",
               "qty": 146.47,
               "price": 14960,
               "stock_value": 2191196.21
-            },
-            {
-              "item_id": 1002,
-              "name": "Iron Ore",
-              "qty": 89.75,
-              "price": 11000,
-              "stock_value": 987209.89
             },
             {
               "item_id": 955,
@@ -400,9 +407,16 @@
               "qty": 231.69,
               "price": 3500,
               "stock_value": 810913.24
+            },
+            {
+              "item_id": 938,
+              "name": "Sticky Mucus",
+              "qty": 213.11,
+              "price": 2000,
+              "stock_value": 426228.71
             }
           ],
-          "mats_stock_value_latam": 12704686.27,
+          "mats_stock_value_latam": 10450852.63,
           "cards": [
             {
               "item_id": 4043,
@@ -437,12 +451,12 @@
           ],
           "cards_sellable_total": 0.277,
           "cards_pipeline_value": 900833.84,
-          "lot_expected_value": 13605520.11,
+          "lot_expected_value": 11351686.47,
           "zeny_spent": 33681.38,
-          "net_if_sold_at_latam": 13571838.73,
+          "net_if_sold_at_latam": 11318005.1,
           "gates": {
-            "pause_grind_until_sold_z": 5442208.04,
-            "keep_shop_until_sold_z": 8163312.06,
+            "pause_grind_until_sold_z": 4540674.59,
+            "keep_shop_until_sold_z": 6811011.88,
             "pause_frac": 0.4,
             "shop_keep_frac": 0.6
           }
@@ -453,25 +467,11 @@
           "hours": 24.5,
           "mats_stock": [
             {
-              "item_id": 1010,
-              "name": "Phracon",
-              "qty": 86.5,
-              "price": 45666,
-              "stock_value": 3949989.04
-            },
-            {
               "item_id": 913,
               "name": "Tooth of Bat",
               "qty": 341.76,
               "price": 14960,
               "stock_value": 5112791.15
-            },
-            {
-              "item_id": 1002,
-              "name": "Iron Ore",
-              "qty": 209.41,
-              "price": 11000,
-              "stock_value": 2303489.75
             },
             {
               "item_id": 955,
@@ -486,9 +486,16 @@
               "qty": 540.61,
               "price": 3500,
               "stock_value": 1892130.9
+            },
+            {
+              "item_id": 938,
+              "name": "Sticky Mucus",
+              "qty": 497.27,
+              "price": 2000,
+              "stock_value": 994533.65
             }
           ],
-          "mats_stock_value_latam": 29644267.95,
+          "mats_stock_value_latam": 24385322.81,
           "cards": [
             {
               "item_id": 4043,
@@ -523,12 +530,12 @@
           ],
           "cards_sellable_total": 0.646,
           "cards_pipeline_value": 2101945.62,
-          "lot_expected_value": 31746213.58,
+          "lot_expected_value": 26487268.43,
           "zeny_spent": 78589.88,
-          "net_if_sold_at_latam": 31667623.7,
+          "net_if_sold_at_latam": 26408678.56,
           "gates": {
-            "pause_grind_until_sold_z": 12698485.43,
-            "keep_shop_until_sold_z": 19047728.15,
+            "pause_grind_until_sold_z": 10594907.37,
+            "keep_shop_until_sold_z": 15892361.06,
             "pause_frac": 0.4,
             "shop_keep_frac": 0.6
           }
@@ -539,25 +546,11 @@
           "hours": 35.0,
           "mats_stock": [
             {
-              "item_id": 1010,
-              "name": "Phracon",
-              "qty": 123.57,
-              "price": 45666,
-              "stock_value": 5642841.49
-            },
-            {
               "item_id": 913,
               "name": "Tooth of Bat",
               "qty": 488.23,
               "price": 14960,
               "stock_value": 7303987.36
-            },
-            {
-              "item_id": 1002,
-              "name": "Iron Ore",
-              "qty": 299.15,
-              "price": 11000,
-              "stock_value": 3290699.64
             },
             {
               "item_id": 955,
@@ -572,9 +565,16 @@
               "qty": 772.3,
               "price": 3500,
               "stock_value": 2703044.14
+            },
+            {
+              "item_id": 938,
+              "name": "Sticky Mucus",
+              "qty": 710.38,
+              "price": 2000,
+              "stock_value": 1420762.35
             }
           ],
-          "mats_stock_value_latam": 42348954.22,
+          "mats_stock_value_latam": 34836175.44,
           "cards": [
             {
               "item_id": 4043,
@@ -609,12 +609,12 @@
           ],
           "cards_sellable_total": 0.923,
           "cards_pipeline_value": 3002779.46,
-          "lot_expected_value": 45351733.68,
+          "lot_expected_value": 37838954.9,
           "zeny_spent": 112271.25,
-          "net_if_sold_at_latam": 45239462.43,
+          "net_if_sold_at_latam": 37726683.65,
           "gates": {
-            "pause_grind_until_sold_z": 18140693.47,
-            "keep_shop_until_sold_z": 27211040.21,
+            "pause_grind_until_sold_z": 15135581.96,
+            "keep_shop_until_sold_z": 22703372.94,
             "pause_frac": 0.4,
             "shop_keep_frac": 0.6
           }
@@ -642,28 +642,21 @@
           "stock_value": 730398.74
         },
         {
-          "item_id": 1010,
-          "name": "Phracon",
-          "qty": 12.36,
-          "price": 45666,
-          "stock_value": 564284.15
-        },
-        {
-          "item_id": 1002,
-          "name": "Iron Ore",
-          "qty": 29.92,
-          "price": 11000,
-          "stock_value": 329069.96
-        },
-        {
           "item_id": 935,
           "name": "Shell",
           "qty": 77.23,
           "price": 3500,
           "stock_value": 270304.41
+        },
+        {
+          "item_id": 938,
+          "name": "Sticky Mucus",
+          "qty": 71.04,
+          "price": 2000,
+          "stock_value": 142076.24
         }
       ],
-      "mats_stock_value_latam": 4234895.42,
+      "mats_stock_value_latam": 3483617.54,
       "cards": [
         {
           "item_id": 4043,
@@ -698,12 +691,12 @@
       ],
       "cards_sellable_total": 0.092,
       "cards_pipeline_value": 300277.95,
-      "lot_expected_value": 4535173.37,
+      "lot_expected_value": 3783895.49,
       "zeny_spent": 11227.12,
-      "net_if_sold_at_latam": 4523946.25,
+      "net_if_sold_at_latam": 3772668.37,
       "gates": {
-        "pause_grind_until_sold_z": 1814069.35,
-        "keep_shop_until_sold_z": 2721104.02
+        "pause_grind_until_sold_z": 1513558.2,
+        "keep_shop_until_sold_z": 2270337.29
       }
     },
     "3": {
@@ -725,28 +718,21 @@
           "stock_value": 2191196.21
         },
         {
-          "item_id": 1010,
-          "name": "Phracon",
-          "qty": 37.07,
-          "price": 45666,
-          "stock_value": 1692852.45
-        },
-        {
-          "item_id": 1002,
-          "name": "Iron Ore",
-          "qty": 89.75,
-          "price": 11000,
-          "stock_value": 987209.89
-        },
-        {
           "item_id": 935,
           "name": "Shell",
           "qty": 231.69,
           "price": 3500,
           "stock_value": 810913.24
+        },
+        {
+          "item_id": 938,
+          "name": "Sticky Mucus",
+          "qty": 213.11,
+          "price": 2000,
+          "stock_value": 426228.71
         }
       ],
-      "mats_stock_value_latam": 12704686.27,
+      "mats_stock_value_latam": 10450852.63,
       "cards": [
         {
           "item_id": 4043,
@@ -781,12 +767,12 @@
       ],
       "cards_sellable_total": 0.277,
       "cards_pipeline_value": 900833.84,
-      "lot_expected_value": 13605520.11,
+      "lot_expected_value": 11351686.47,
       "zeny_spent": 33681.38,
-      "net_if_sold_at_latam": 13571838.73,
+      "net_if_sold_at_latam": 11318005.09,
       "gates": {
-        "pause_grind_until_sold_z": 5442208.04,
-        "keep_shop_until_sold_z": 8163312.07
+        "pause_grind_until_sold_z": 4540674.59,
+        "keep_shop_until_sold_z": 6811011.88
       }
     },
     "7": {
@@ -808,28 +794,21 @@
           "stock_value": 5112791.15
         },
         {
-          "item_id": 1010,
-          "name": "Phracon",
-          "qty": 86.5,
-          "price": 45666,
-          "stock_value": 3949989.04
-        },
-        {
-          "item_id": 1002,
-          "name": "Iron Ore",
-          "qty": 209.41,
-          "price": 11000,
-          "stock_value": 2303489.75
-        },
-        {
           "item_id": 935,
           "name": "Shell",
           "qty": 540.61,
           "price": 3500,
           "stock_value": 1892130.9
+        },
+        {
+          "item_id": 938,
+          "name": "Sticky Mucus",
+          "qty": 497.27,
+          "price": 2000,
+          "stock_value": 994533.65
         }
       ],
-      "mats_stock_value_latam": 29644267.95,
+      "mats_stock_value_latam": 24385322.81,
       "cards": [
         {
           "item_id": 4043,
@@ -864,12 +843,12 @@
       ],
       "cards_sellable_total": 0.646,
       "cards_pipeline_value": 2101945.62,
-      "lot_expected_value": 31746213.57,
+      "lot_expected_value": 26487268.43,
       "zeny_spent": 78589.88,
-      "net_if_sold_at_latam": 31667623.69,
+      "net_if_sold_at_latam": 26408678.55,
       "gates": {
-        "pause_grind_until_sold_z": 12698485.43,
-        "keep_shop_until_sold_z": 19047728.14
+        "pause_grind_until_sold_z": 10594907.37,
+        "keep_shop_until_sold_z": 15892361.06
       }
     },
     "10": {
@@ -891,28 +870,21 @@
           "stock_value": 7303987.36
         },
         {
-          "item_id": 1010,
-          "name": "Phracon",
-          "qty": 123.57,
-          "price": 45666,
-          "stock_value": 5642841.49
-        },
-        {
-          "item_id": 1002,
-          "name": "Iron Ore",
-          "qty": 299.15,
-          "price": 11000,
-          "stock_value": 3290699.64
-        },
-        {
           "item_id": 935,
           "name": "Shell",
           "qty": 772.3,
           "price": 3500,
           "stock_value": 2703044.14
+        },
+        {
+          "item_id": 938,
+          "name": "Sticky Mucus",
+          "qty": 710.38,
+          "price": 2000,
+          "stock_value": 1420762.35
         }
       ],
-      "mats_stock_value_latam": 42348954.22,
+      "mats_stock_value_latam": 34836175.44,
       "cards": [
         {
           "item_id": 4043,
@@ -947,12 +919,12 @@
       ],
       "cards_sellable_total": 0.923,
       "cards_pipeline_value": 3002779.46,
-      "lot_expected_value": 45351733.68,
+      "lot_expected_value": 37838954.9,
       "zeny_spent": 112271.25,
-      "net_if_sold_at_latam": 45239462.43,
+      "net_if_sold_at_latam": 37726683.65,
       "gates": {
-        "pause_grind_until_sold_z": 18140693.47,
-        "keep_shop_until_sold_z": 27211040.21
+        "pause_grind_until_sold_z": 15135581.96,
+        "keep_shop_until_sold_z": 22703372.94
       }
     }
   },
@@ -975,28 +947,21 @@
         "stock_value": 7303987.36
       },
       {
-        "item_id": 1010,
-        "name": "Phracon",
-        "qty": 123.57,
-        "price": 45666,
-        "stock_value": 5642841.49
-      },
-      {
-        "item_id": 1002,
-        "name": "Iron Ore",
-        "qty": 299.15,
-        "price": 11000,
-        "stock_value": 3290699.64
-      },
-      {
         "item_id": 935,
         "name": "Shell",
         "qty": 772.3,
         "price": 3500,
         "stock_value": 2703044.14
+      },
+      {
+        "item_id": 938,
+        "name": "Sticky Mucus",
+        "qty": 710.38,
+        "price": 2000,
+        "stock_value": 1420762.35
       }
     ],
-    "mats_stock_value_latam": 42348954.22,
+    "mats_stock_value_latam": 34836175.44,
     "cards": [
       {
         "item_id": 4043,
@@ -1031,12 +996,12 @@
     ],
     "cards_sellable_total": 0.923,
     "cards_pipeline_value": 3002779.46,
-    "lot_expected_value": 45351733.68,
+    "lot_expected_value": 37838954.9,
     "zeny_spent": 112271.25,
-    "net_if_sold_at_latam": 45239462.43,
+    "net_if_sold_at_latam": 37726683.65,
     "gates": {
-      "pause_grind_until_sold_z": 18140693.47,
-      "keep_shop_until_sold_z": 27211040.21
+      "pause_grind_until_sold_z": 15135581.96,
+      "keep_shop_until_sold_z": 22703372.94
     }
   }
 }
