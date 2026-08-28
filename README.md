@@ -6,11 +6,11 @@ Proyecto personal, mantenido por una sola persona. Enfoque **data-first**: prime
 
 ## Estado actual
 
-**M1 en curso** — LATAM FREYA completo (29k escaneados, 5.3k con precio útil).
+**M1 en curso** — LATAM (5.3k) + Atlantis top2000 (733 con stats).
 
-- `staging/market/latam_tools/curated/` — listas refinadas (commitear)
-- `staging/market/latam_tools/bulk/` — bulk 115 MB (local, gitignored)
-- Próximo: Atlantis sobre `top2000_ids.txt` — ver [docs/06-market-curation-plan.md](docs/06-market-curation-plan.md)
+- `staging/market/latam_tools/curated/` — capa 1–2
+- `staging/market/atlantis_playro/curated/` — capa 3 (733 IDs)
+- Próximo: cruzar fuentes → NPC focus 100–200 — ver [docs/06-market-curation-plan.md](docs/06-market-curation-plan.md)
 
 ## Staging (mercado externo)
 

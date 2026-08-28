@@ -14,8 +14,8 @@ Ruta base: `/home/oz/rathena` → `data/raw/rathena/`
 - [x] Staging operativo (`fetch_batch.py`)
 - [x] **LATAM FREYA completo** — 29,059 ítems escaneados
 - [x] **Curación capa 1** — 5,328 con precio → `staging/market/latam_tools/curated/`
-- [ ] Atlantis sobre top 2,000
-- [ ] Refinar a top 1,000 + NPC focus 100–200
+- [x] **Atlantis top 2,000** — 733 con stats históricas
+- [ ] Cruzar LATAM + Atlantis → NPC focus 100–200
 - [ ] Completar 29k gradual (atlantis/ragnapi, referencia)
 - [ ] Divine Pride API key
 - [ ] Promover a `data/market/`
@@ -30,6 +30,17 @@ Ruta base: `/home/oz/rathena` → `data/raw/rathena/`
 | No en mercado LATAM | 15,593 |
 | Bulk local | `staging/market/latam_tools/bulk/FREYA/` (115 MB, gitignored) |
 | Curado en git | `staging/market/latam_tools/curated/` |
+
+### Resultado Atlantis top2000 (2026-08-28)
+
+| Métrica | Valor |
+|---------|-------|
+| Solicitados (LATAM top) | 2,000 |
+| Con stats (min/max/avg/sold) | **733** |
+| Sin data en Atlantis | 1,267 (ítems modernos / no listados) |
+| Duración | ~3.2 h |
+| Bulk local | `staging/market/atlantis_playro/bulk/` (~8 MB) |
+| Curado en git | `staging/market/atlantis_playro/curated/` |
 
 ## Base de datos MySQL
 

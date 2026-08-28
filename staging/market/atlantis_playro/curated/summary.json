@@ -1,0 +1,234 @@
+{
+  "source": "atlantis_playro",
+  "input": "latam_tools/curated/top2000_ids.txt",
+  "fetched_at": "2026-08-28",
+  "total_requested": 2000,
+  "with_stats": 733,
+  "no_data": 1267,
+  "top20_by_total_sold": [
+    {
+      "item_id": 7003,
+      "name": "Anolian Skin",
+      "avg": 3150,
+      "min": 0,
+      "max": 17900,
+      "std_dev": 496,
+      "total_sold": 35528334,
+      "npc_buy": 968,
+      "npc_sell": null
+    },
+    {
+      "item_id": 1061,
+      "name": "Witched Starsand",
+      "avg": 2884,
+      "min": 0,
+      "max": 24500,
+      "std_dev": 672,
+      "total_sold": 19367850,
+      "npc_buy": 484,
+      "npc_sell": null
+    },
+    {
+      "item_id": 7100,
+      "name": "Sharp Leaf",
+      "avg": 2835,
+      "min": 0,
+      "max": 101724,
+      "std_dev": 1421,
+      "total_sold": 17886510,
+      "npc_buy": 806,
+      "npc_sell": null
+    },
+    {
+      "item_id": 715,
+      "name": "Yellow Gemstone",
+      "avg": 1603,
+      "min": 0,
+      "max": 88200,
+      "std_dev": 1181,
+      "total_sold": 14914392,
+      "npc_buy": 600,
+      "npc_sell": null
+    },
+    {
+      "item_id": 905,
+      "name": "Stem",
+      "avg": 1198,
+      "min": 1,
+      "max": 100000,
+      "std_dev": 984,
+      "total_sold": 13865834,
+      "npc_buy": 46,
+      "npc_sell": null
+    },
+    {
+      "item_id": 7033,
+      "name": "Poison Spore",
+      "avg": 451,
+      "min": 0,
+      "max": 44100,
+      "std_dev": 960,
+      "total_sold": 10541049,
+      "npc_buy": 114,
+      "npc_sell": null
+    },
+    {
+      "item_id": 717,
+      "name": "Blue Gemstone",
+      "avg": 527,
+      "min": 0,
+      "max": 12000,
+      "std_dev": 128,
+      "total_sold": 9864730,
+      "npc_buy": 600,
+      "npc_sell": null
+    },
+    {
+      "item_id": 713,
+      "name": "Empty Bottle",
+      "avg": 750,
+      "min": 0,
+      "max": 13833,
+      "std_dev": 432,
+      "total_sold": 7868068,
+      "npc_buy": 6,
+      "npc_sell": null
+    },
+    {
+      "item_id": 510,
+      "name": "Blue Herb",
+      "avg": 2362,
+      "min": 0,
+      "max": 47784,
+      "std_dev": 813,
+      "total_sold": 7153681,
+      "npc_buy": 60,
+      "npc_sell": null
+    },
+    {
+      "item_id": 604,
+      "name": "Dead Branch",
+      "avg": 4986,
+      "min": 0,
+      "max": 68600,
+      "std_dev": 2681,
+      "total_sold": 5861650,
+      "npc_buy": 50,
+      "npc_sell": null
+    },
+    {
+      "item_id": 547,
+      "name": "Condensed White Potion",
+      "avg": 4988,
+      "min": 0,
+      "max": 14700,
+      "std_dev": 1630,
+      "total_sold": 5179605,
+      "npc_buy": 1650,
+      "npc_sell": null
+    },
+    {
+      "item_id": 1059,
+      "name": "Fabric",
+      "avg": 3016,
+      "min": 150,
+      "max": 44100,
+      "std_dev": 1234,
+      "total_sold": 3831049,
+      "npc_buy": 306,
+      "npc_sell": null
+    },
+    {
+      "item_id": 511,
+      "name": "Green Herb",
+      "avg": 525,
+      "min": 0,
+      "max": 28999,
+      "std_dev": 731,
+      "total_sold": 3373812,
+      "npc_buy": 10,
+      "npc_sell": null
+    },
+    {
+      "item_id": 7136,
+      "name": "Acid Bottle",
+      "avg": 6904,
+      "min": 1,
+      "max": 713611,
+      "std_dev": 6753,
+      "total_sold": 3088688,
+      "npc_buy": 200,
+      "npc_sell": null
+    },
+    {
+      "item_id": 929,
+      "name": "Immortal Heart",
+      "avg": 2718,
+      "min": 0,
+      "max": 49000,
+      "std_dev": 2259,
+      "total_sold": 3020499,
+      "npc_buy": 374,
+      "npc_sell": null
+    },
+    {
+      "item_id": 678,
+      "name": "Poison Bottle",
+      "avg": 36551,
+      "min": 0,
+      "max": 334425,
+      "std_dev": 16939,
+      "total_sold": 2962605,
+      "npc_buy": 5000,
+      "npc_sell": null
+    },
+    {
+      "item_id": 7642,
+      "name": null,
+      "avg": 7861,
+      "min": 1,
+      "max": 245000,
+      "std_dev": 20080,
+      "total_sold": 2900269,
+      "npc_buy": null,
+      "npc_sell": null
+    },
+    {
+      "item_id": 7135,
+      "name": "Bottle Grenade",
+      "avg": 22013,
+      "min": 1,
+      "max": 841480,
+      "std_dev": 8996,
+      "total_sold": 2695414,
+      "npc_buy": 200,
+      "npc_sell": null
+    },
+    {
+      "item_id": 909,
+      "name": "Jellopy",
+      "avg": 445,
+      "min": 1,
+      "max": 980000,
+      "std_dev": 11678,
+      "total_sold": 2406372,
+      "npc_buy": 6,
+      "npc_sell": null
+    },
+    {
+      "item_id": 12065,
+      "name": "Green Salad",
+      "avg": 9412,
+      "min": 300,
+      "max": 34570000,
+      "std_dev": 81570,
+      "total_sold": 2348300,
+      "npc_buy": 10000,
+      "npc_sell": null
+    }
+  ],
+  "refinement": {
+    "tier3_top1000": 733,
+    "next": "cross with LATAM medians, build NPC focus top 100-200 by type"
+  }
+}

@@ -56,8 +56,8 @@ Bulk crudo (115 MB) en `bulk/FREYA/items/` — **local, gitignored**.
 ## Próximos pasos (cuando retomemos)
 
 ### Corto plazo
-1. **Atlantis** solo sobre `top2000_ids.txt` (~2–3 h con delays)
-2. Cruzar LATAM + Atlantis → generar `top1000_ids.txt`
+1. [x] **Atlantis** sobre `top2000_ids.txt` — 733 con stats (2026-08-28)
+2. Cruzar LATAM + Atlantis → validar precios; usar `atlantis_playro/curated/with_stats_ids.txt` (733) como capa 3
 3. Agrupar por `type` → `npc_focus_top200.json` (top N por categoría)
 
 ### Medio plazo

@@ -45,8 +45,17 @@
       "bulk_local": "staging/market/latam_tools/bulk/FREYA/",
       "curated": "staging/market/latam_tools/curated/"
     },
-    "next": "atlantis on top2000_ids.txt",
-    "sources_pending": ["atlantis_playro", "ragnapi", "divine_pride"],
+    "atlantis_top2000": {
+      "status": "complete",
+      "date": "2026-08-28",
+      "input": "staging/market/latam_tools/curated/top2000_ids.txt",
+      "with_stats": 733,
+      "no_data": 1267,
+      "bulk_local": "staging/market/atlantis_playro/bulk/",
+      "curated": "staging/market/atlantis_playro/curated/"
+    },
+    "next": "cross LATAM+Atlantis, NPC focus top 100-200 by type",
+    "sources_pending": ["ragnapi", "divine_pride"],
     "player_analysis": false,
     "vendings_local": "blocked_until_autotrade"
   },
