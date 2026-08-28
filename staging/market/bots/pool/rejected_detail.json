@@ -6,11 +6,6 @@
       "price": 27417
     },
     {
-      "item_id": 7561,
-      "name": "Glacial Heart",
-      "price": 15000
-    },
-    {
       "item_id": 6962,
       "name": "Tanque Velho",
       "price": 88828
@@ -29,11 +24,6 @@
       "item_id": 662,
       "name": "Authoritative Badge",
       "price": 50000
-    },
-    {
-      "item_id": 7326,
-      "name": "Fluorescent Liquid",
-      "price": 14990
     },
     {
       "item_id": 533,
@@ -86,11 +76,6 @@
       "price": 48999
     },
     {
-      "item_id": 7213,
-      "name": "Needle Packet",
-      "price": 16000
-    },
-    {
       "item_id": 6471,
       "name": "Frio dos Mortos",
       "price": 99999
@@ -114,11 +99,6 @@
       "item_id": 7110,
       "name": "Broken Sword",
       "price": 34000
-    },
-    {
-      "item_id": 907,
-      "name": "Resin",
-      "price": 15000
     },
     {
       "item_id": 615,
@@ -151,11 +131,6 @@
       "price": 25000
     },
     {
-      "item_id": 7043,
-      "name": "Fine Sand",
-      "price": 14999
-    },
-    {
       "item_id": 7312,
       "name": "Jubilee",
       "price": 458681
@@ -184,11 +159,6 @@
       "item_id": 6041,
       "name": "Strong Vine",
       "price": 20000
-    },
-    {
-      "item_id": 7205,
-      "name": "Piece of Black Cloth",
-      "price": 15000
     },
     {
       "item_id": 12373,
@@ -256,11 +226,6 @@
       "price": 50000
     },
     {
-      "item_id": 7442,
-      "name": "Cursed Seal",
-      "price": 14900
-    },
-    {
       "item_id": 630,
       "name": "Dew Laden Moss",
       "price": 25000
@@ -304,11 +269,6 @@
       "item_id": 627,
       "name": "Sweet Milk",
       "price": 250000
-    },
-    {
-      "item_id": 913,
-      "name": "Tooth of Bat",
-      "price": 14960
     },
     {
       "item_id": 743,
@@ -361,11 +321,6 @@
       "price": 250000
     },
     {
-      "item_id": 7437,
-      "name": "Fragment of Misery",
-      "price": 14900
-    },
-    {
       "item_id": 7019,
       "name": "Loki's Whispers",
       "price": 14999999
@@ -373,60 +328,11 @@
   ],
   "markup_vs_buy": [
     {
-      "item_id": 511,
-      "name": "Green Herb",
-      "price": 1499,
-      "buy": 10,
-      "ratio": 149.9
-    },
-    {
-      "item_id": 520,
-      "name": "Hinalle Leaflet",
-      "price": 9999,
-      "buy": 150,
-      "ratio": 66.7
-    },
-    {
-      "item_id": 523,
-      "name": "Holy Water",
-      "price": 2200,
-      "buy": 20,
-      "ratio": 110.0
-    },
-    {
-      "item_id": 507,
-      "name": "Red Herb",
-      "price": 1399,
-      "buy": 18,
-      "ratio": 77.7
-    },
-    {
-      "item_id": 531,
-      "name": "Apple Juice",
-      "price": 4999,
-      "buy": 20,
-      "ratio": 249.9
-    },
-    {
       "item_id": 7799,
       "name": "Crystal of Darkness",
       "price": 8000,
       "buy": 10,
       "ratio": 800.0
-    },
-    {
-      "item_id": 914,
-      "name": "Fluff",
-      "price": 1700,
-      "buy": 8,
-      "ratio": 212.5
-    },
-    {
-      "item_id": 935,
-      "name": "Shell",
-      "price": 3500,
-      "buy": 14,
-      "ratio": 250.0
     },
     {
       "item_id": 568,
@@ -436,32 +342,11 @@
       "ratio": 166.7
     },
     {
-      "item_id": 1019,
-      "name": "Trunk",
-      "price": 4000,
-      "buy": 60,
-      "ratio": 66.7
-    },
-    {
-      "item_id": 7031,
-      "name": "Old Frying Pan",
-      "price": 10000,
-      "buy": 196,
-      "ratio": 51.0
-    },
-    {
       "item_id": 949,
       "name": "Feather",
       "price": 10000,
       "buy": 20,
       "ratio": 500.0
-    },
-    {
-      "item_id": 530,
-      "name": "Candy Cane",
-      "price": 4398,
-      "buy": 20,
-      "ratio": 219.9
     },
     {
       "item_id": 918,
@@ -471,46 +356,18 @@
       "ratio": 499.9
     },
     {
-      "item_id": 6244,
-      "name": "Gun Powder",
-      "price": 2249,
-      "buy": 10,
-      "ratio": 224.9
+      "item_id": 907,
+      "name": "Resin",
+      "price": 15000,
+      "buy": 120,
+      "ratio": 125.0
     },
     {
-      "item_id": 1027,
-      "name": "Porcupine Quill",
-      "price": 9900,
-      "buy": 158,
-      "ratio": 62.7
-    },
-    {
-      "item_id": 955,
-      "name": "Worm Peeling",
-      "price": 4999,
-      "buy": 52,
-      "ratio": 96.1
-    },
-    {
-      "item_id": 1004,
-      "name": "Chivalry Emblem",
-      "price": 3999,
-      "buy": 2,
-      "ratio": 1999.5
-    },
-    {
-      "item_id": 908,
-      "name": "Spawn",
-      "price": 10000,
-      "buy": 140,
-      "ratio": 71.4
-    },
-    {
-      "item_id": 7325,
-      "name": "Flexible Tube",
-      "price": 6250,
-      "buy": 102,
-      "ratio": 61.3
+      "item_id": 7043,
+      "name": "Fine Sand",
+      "price": 14999,
+      "buy": 100,
+      "ratio": 150.0
     },
     {
       "item_id": 6245,
@@ -534,27 +391,6 @@
       "ratio": 156.2
     },
     {
-      "item_id": 906,
-      "name": "Pointed Scale",
-      "price": 5000,
-      "buy": 68,
-      "ratio": 73.5
-    },
-    {
-      "item_id": 916,
-      "name": "Feather of Birds",
-      "price": 2000,
-      "buy": 10,
-      "ratio": 200.0
-    },
-    {
-      "item_id": 12004,
-      "name": "Quiver",
-      "price": 475,
-      "buy": 2,
-      "ratio": 237.5
-    },
-    {
       "item_id": 1067,
       "name": "Solid Trunk",
       "price": 8000,
@@ -562,18 +398,11 @@
       "ratio": 4000.0
     },
     {
-      "item_id": 942,
-      "name": "Yoyo Tail",
-      "price": 8999,
-      "buy": 114,
-      "ratio": 78.9
-    },
-    {
-      "item_id": 1066,
-      "name": "Fine-grained Trunk",
-      "price": 1724,
-      "buy": 2,
-      "ratio": 862.0
+      "item_id": 913,
+      "name": "Tooth of Bat",
+      "price": 14960,
+      "buy": 34,
+      "ratio": 440.0
     },
     {
       "item_id": 1068,
@@ -588,13 +417,6 @@
       "price": 10000,
       "buy": 2,
       "ratio": 5000.0
-    },
-    {
-      "item_id": 705,
-      "name": "Clover",
-      "price": 1800,
-      "buy": 10,
-      "ratio": 180.0
     },
     {
       "item_id": 940,

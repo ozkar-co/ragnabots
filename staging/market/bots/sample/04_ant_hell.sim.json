@@ -86,10 +86,34 @@
         }
       ],
       "drop_types_count": 33,
-      "ev_mats_offer_per_kill": 72.9,
-      "ev_mats_offer_per_day": 146255.1,
+      "ev_mats_offer_per_kill": 1376.69,
+      "ev_mats_offer_per_day": 2761912.06,
       "offer": {
         "mats_for_sale": [
+          {
+            "item_id": 955,
+            "aegis": "Worm_Peelings",
+            "name": "Worm Peeling",
+            "type": "Etc",
+            "p_per_map_kill": 0.23340708,
+            "latam_price": 4999,
+            "latam_total_sold": 364,
+            "has_offers": true,
+            "qty_per_day": 468.2613,
+            "score": 181419.76
+          },
+          {
+            "item_id": 935,
+            "aegis": "Shell",
+            "name": "Shell",
+            "type": "Etc",
+            "p_per_map_kill": 0.03849558,
+            "latam_price": 3500,
+            "latam_total_sold": 1874,
+            "has_offers": true,
+            "qty_per_day": 77.2298,
+            "score": 114995.71
+          },
           {
             "item_id": 938,
             "aegis": "Sticky_Mucus",
@@ -103,20 +127,27 @@
             "score": 82491.92
           },
           {
-            "item_id": 518,
-            "aegis": "Honey",
-            "name": "Honey",
+            "item_id": 507,
+            "aegis": "Red_Herb",
+            "name": "Red Herb",
             "type": "Healing",
-            "p_per_map_kill": 0.00077434,
-            "latam_price": 2690,
-            "latam_total_sold": 33581,
+            "p_per_map_kill": 0.00309735,
+            "latam_price": 1399,
+            "latam_total_sold": 341095,
             "has_offers": true,
-            "qty_per_day": 1.5535,
-            "score": 26281.15
+            "qty_per_day": 6.2139,
+            "score": 35218.72
           }
         ],
-        "mats_discarded_count": 3,
+        "mats_discarded_count": 4,
         "mats_discarded_top10": [
+          {
+            "item_id": 518,
+            "name": "Honey",
+            "price": 2690,
+            "qty_per_day": 1.5535,
+            "score": 26281.15
+          },
           {
             "item_id": 756,
             "name": "Rough Oridecon",
@@ -147,12 +178,6 @@
             "reason": "not_in_sellable_pool"
           },
           {
-            "item_id": 935,
-            "name": "Shell",
-            "price_latam": 3500,
-            "reason": "not_in_sellable_pool"
-          },
-          {
             "item_id": 909,
             "name": "Jellopy",
             "price_latam": 2099,
@@ -162,12 +187,6 @@
             "item_id": 1002,
             "name": "Iron Ore",
             "price_latam": 11000,
-            "reason": "not_in_sellable_pool"
-          },
-          {
-            "item_id": 955,
-            "name": "Worm Peeling",
-            "price_latam": 4999,
             "reason": "not_in_sellable_pool"
           },
           {
@@ -198,12 +217,6 @@
             "item_id": 514,
             "name": "Grape",
             "price_latam": 193008,
-            "reason": "not_in_sellable_pool"
-          },
-          {
-            "item_id": 507,
-            "name": "Red Herb",
-            "price_latam": 1399,
             "reason": "not_in_sellable_pool"
           },
           {
@@ -243,7 +256,7 @@
             "reason": "not_in_sellable_pool"
           }
         ],
-        "mats_blocked_pool_count": 17,
+        "mats_blocked_pool_count": 14,
         "mats_blocked_npc_buyable": [],
         "mats_blocked_npc_count": 0,
         "cards": [
@@ -303,6 +316,20 @@
           "hours": 3.5,
           "mats_stock": [
             {
+              "item_id": 955,
+              "name": "Worm Peeling",
+              "qty": 468.26,
+              "price": 4999,
+              "stock_value": 2340838.16
+            },
+            {
+              "item_id": 935,
+              "name": "Shell",
+              "qty": 77.23,
+              "price": 3500,
+              "stock_value": 270304.41
+            },
+            {
               "item_id": 938,
               "name": "Sticky Mucus",
               "qty": 71.04,
@@ -310,14 +337,14 @@
               "stock_value": 142076.24
             },
             {
-              "item_id": 518,
-              "name": "Honey",
-              "qty": 1.55,
-              "price": 2690,
-              "stock_value": 4178.86
+              "item_id": 507,
+              "name": "Red Herb",
+              "qty": 6.21,
+              "price": 1399,
+              "stock_value": 8693.25
             }
           ],
-          "mats_stock_value_latam": 146255.1,
+          "mats_stock_value_latam": 2761912.06,
           "cards": [
             {
               "item_id": 4043,
@@ -352,12 +379,12 @@
           ],
           "cards_sellable_total": 0.092,
           "cards_pipeline_value": 300277.95,
-          "lot_expected_value": 446533.05,
+          "lot_expected_value": 3062190.0,
           "zeny_spent": 11227.12,
-          "net_if_sold_at_latam": 435305.92,
+          "net_if_sold_at_latam": 3050962.88,
           "gates": {
-            "pause_grind_until_sold_z": 178613.22,
-            "keep_shop_until_sold_z": 267919.83,
+            "pause_grind_until_sold_z": 1224876.0,
+            "keep_shop_until_sold_z": 1837314.0,
             "pause_frac": 0.4,
             "shop_keep_frac": 0.6
           }
@@ -368,6 +395,20 @@
           "hours": 10.5,
           "mats_stock": [
             {
+              "item_id": 955,
+              "name": "Worm Peeling",
+              "qty": 1404.78,
+              "price": 4999,
+              "stock_value": 7022514.47
+            },
+            {
+              "item_id": 935,
+              "name": "Shell",
+              "qty": 231.69,
+              "price": 3500,
+              "stock_value": 810913.24
+            },
+            {
               "item_id": 938,
               "name": "Sticky Mucus",
               "qty": 213.11,
@@ -375,14 +416,14 @@
               "stock_value": 426228.71
             },
             {
-              "item_id": 518,
-              "name": "Honey",
-              "qty": 4.66,
-              "price": 2690,
-              "stock_value": 12536.59
+              "item_id": 507,
+              "name": "Red Herb",
+              "qty": 18.64,
+              "price": 1399,
+              "stock_value": 26079.75
             }
           ],
-          "mats_stock_value_latam": 438765.3,
+          "mats_stock_value_latam": 8285736.18,
           "cards": [
             {
               "item_id": 4043,
@@ -417,12 +458,12 @@
           ],
           "cards_sellable_total": 0.277,
           "cards_pipeline_value": 900833.84,
-          "lot_expected_value": 1339599.14,
+          "lot_expected_value": 9186570.01,
           "zeny_spent": 33681.38,
-          "net_if_sold_at_latam": 1305917.76,
+          "net_if_sold_at_latam": 9152888.64,
           "gates": {
-            "pause_grind_until_sold_z": 535839.65,
-            "keep_shop_until_sold_z": 803759.48,
+            "pause_grind_until_sold_z": 3674628.01,
+            "keep_shop_until_sold_z": 5511942.01,
             "pause_frac": 0.4,
             "shop_keep_frac": 0.6
           }
@@ -433,6 +474,20 @@
           "hours": 24.5,
           "mats_stock": [
             {
+              "item_id": 955,
+              "name": "Worm Peeling",
+              "qty": 3277.83,
+              "price": 4999,
+              "stock_value": 16385867.11
+            },
+            {
+              "item_id": 935,
+              "name": "Shell",
+              "qty": 540.61,
+              "price": 3500,
+              "stock_value": 1892130.9
+            },
+            {
               "item_id": 938,
               "name": "Sticky Mucus",
               "qty": 497.27,
@@ -440,14 +495,14 @@
               "stock_value": 994533.65
             },
             {
-              "item_id": 518,
-              "name": "Honey",
-              "qty": 10.87,
-              "price": 2690,
-              "stock_value": 29252.05
+              "item_id": 507,
+              "name": "Red Herb",
+              "qty": 43.5,
+              "price": 1399,
+              "stock_value": 60852.76
             }
           ],
-          "mats_stock_value_latam": 1023785.69,
+          "mats_stock_value_latam": 19333384.41,
           "cards": [
             {
               "item_id": 4043,
@@ -482,12 +537,12 @@
           ],
           "cards_sellable_total": 0.646,
           "cards_pipeline_value": 2101945.62,
-          "lot_expected_value": 3125731.32,
+          "lot_expected_value": 21435330.03,
           "zeny_spent": 78589.88,
-          "net_if_sold_at_latam": 3047141.44,
+          "net_if_sold_at_latam": 21356740.16,
           "gates": {
-            "pause_grind_until_sold_z": 1250292.53,
-            "keep_shop_until_sold_z": 1875438.79,
+            "pause_grind_until_sold_z": 8574132.01,
+            "keep_shop_until_sold_z": 12861198.02,
             "pause_frac": 0.4,
             "shop_keep_frac": 0.6
           }
@@ -498,6 +553,20 @@
           "hours": 35.0,
           "mats_stock": [
             {
+              "item_id": 955,
+              "name": "Worm Peeling",
+              "qty": 4682.61,
+              "price": 4999,
+              "stock_value": 23408381.58
+            },
+            {
+              "item_id": 935,
+              "name": "Shell",
+              "qty": 772.3,
+              "price": 3500,
+              "stock_value": 2703044.14
+            },
+            {
               "item_id": 938,
               "name": "Sticky Mucus",
               "qty": 710.38,
@@ -505,14 +574,14 @@
               "stock_value": 1420762.35
             },
             {
-              "item_id": 518,
-              "name": "Honey",
-              "qty": 15.53,
-              "price": 2690,
-              "stock_value": 41788.64
+              "item_id": 507,
+              "name": "Red Herb",
+              "qty": 62.14,
+              "price": 1399,
+              "stock_value": 86932.51
             }
           ],
-          "mats_stock_value_latam": 1462550.99,
+          "mats_stock_value_latam": 27619120.59,
           "cards": [
             {
               "item_id": 4043,
@@ -547,12 +616,12 @@
           ],
           "cards_sellable_total": 0.923,
           "cards_pipeline_value": 3002779.46,
-          "lot_expected_value": 4465330.45,
+          "lot_expected_value": 30621900.05,
           "zeny_spent": 112271.25,
-          "net_if_sold_at_latam": 4353059.2,
+          "net_if_sold_at_latam": 30509628.8,
           "gates": {
-            "pause_grind_until_sold_z": 1786132.18,
-            "keep_shop_until_sold_z": 2679198.27,
+            "pause_grind_until_sold_z": 12248760.02,
+            "keep_shop_until_sold_z": 18373140.03,
             "pause_frac": 0.4,
             "shop_keep_frac": 0.6
           }
@@ -566,6 +635,20 @@
       "kills": 2006.2,
       "mats_stock": [
         {
+          "item_id": 955,
+          "name": "Worm Peeling",
+          "qty": 468.26,
+          "price": 4999,
+          "stock_value": 2340838.16
+        },
+        {
+          "item_id": 935,
+          "name": "Shell",
+          "qty": 77.23,
+          "price": 3500,
+          "stock_value": 270304.41
+        },
+        {
           "item_id": 938,
           "name": "Sticky Mucus",
           "qty": 71.04,
@@ -573,14 +656,14 @@
           "stock_value": 142076.24
         },
         {
-          "item_id": 518,
-          "name": "Honey",
-          "qty": 1.55,
-          "price": 2690,
-          "stock_value": 4178.86
+          "item_id": 507,
+          "name": "Red Herb",
+          "qty": 6.21,
+          "price": 1399,
+          "stock_value": 8693.25
         }
       ],
-      "mats_stock_value_latam": 146255.1,
+      "mats_stock_value_latam": 2761912.06,
       "cards": [
         {
           "item_id": 4043,
@@ -615,18 +698,32 @@
       ],
       "cards_sellable_total": 0.092,
       "cards_pipeline_value": 300277.95,
-      "lot_expected_value": 446533.05,
+      "lot_expected_value": 3062190.01,
       "zeny_spent": 11227.12,
-      "net_if_sold_at_latam": 435305.93,
+      "net_if_sold_at_latam": 3050962.89,
       "gates": {
-        "pause_grind_until_sold_z": 178613.22,
-        "keep_shop_until_sold_z": 267919.83
+        "pause_grind_until_sold_z": 1224876.0,
+        "keep_shop_until_sold_z": 1837314.01
       }
     },
     "3": {
       "days": 3,
       "kills": 6018.6,
       "mats_stock": [
+        {
+          "item_id": 955,
+          "name": "Worm Peeling",
+          "qty": 1404.78,
+          "price": 4999,
+          "stock_value": 7022514.47
+        },
+        {
+          "item_id": 935,
+          "name": "Shell",
+          "qty": 231.69,
+          "price": 3500,
+          "stock_value": 810913.24
+        },
         {
           "item_id": 938,
           "name": "Sticky Mucus",
@@ -635,14 +732,14 @@
           "stock_value": 426228.71
         },
         {
-          "item_id": 518,
-          "name": "Honey",
-          "qty": 4.66,
-          "price": 2690,
-          "stock_value": 12536.59
+          "item_id": 507,
+          "name": "Red Herb",
+          "qty": 18.64,
+          "price": 1399,
+          "stock_value": 26079.75
         }
       ],
-      "mats_stock_value_latam": 438765.3,
+      "mats_stock_value_latam": 8285736.18,
       "cards": [
         {
           "item_id": 4043,
@@ -677,18 +774,32 @@
       ],
       "cards_sellable_total": 0.277,
       "cards_pipeline_value": 900833.84,
-      "lot_expected_value": 1339599.14,
+      "lot_expected_value": 9186570.02,
       "zeny_spent": 33681.38,
-      "net_if_sold_at_latam": 1305917.76,
+      "net_if_sold_at_latam": 9152888.64,
       "gates": {
-        "pause_grind_until_sold_z": 535839.66,
-        "keep_shop_until_sold_z": 803759.48
+        "pause_grind_until_sold_z": 3674628.01,
+        "keep_shop_until_sold_z": 5511942.01
       }
     },
     "7": {
       "days": 7,
       "kills": 14043.4,
       "mats_stock": [
+        {
+          "item_id": 955,
+          "name": "Worm Peeling",
+          "qty": 3277.83,
+          "price": 4999,
+          "stock_value": 16385867.11
+        },
+        {
+          "item_id": 935,
+          "name": "Shell",
+          "qty": 540.61,
+          "price": 3500,
+          "stock_value": 1892130.9
+        },
         {
           "item_id": 938,
           "name": "Sticky Mucus",
@@ -697,14 +808,14 @@
           "stock_value": 994533.65
         },
         {
-          "item_id": 518,
-          "name": "Honey",
-          "qty": 10.87,
-          "price": 2690,
-          "stock_value": 29252.05
+          "item_id": 507,
+          "name": "Red Herb",
+          "qty": 43.5,
+          "price": 1399,
+          "stock_value": 60852.76
         }
       ],
-      "mats_stock_value_latam": 1023785.69,
+      "mats_stock_value_latam": 19333384.41,
       "cards": [
         {
           "item_id": 4043,
@@ -739,18 +850,32 @@
       ],
       "cards_sellable_total": 0.646,
       "cards_pipeline_value": 2101945.62,
-      "lot_expected_value": 3125731.31,
+      "lot_expected_value": 21435330.03,
       "zeny_spent": 78589.88,
-      "net_if_sold_at_latam": 3047141.43,
+      "net_if_sold_at_latam": 21356740.15,
       "gates": {
-        "pause_grind_until_sold_z": 1250292.52,
-        "keep_shop_until_sold_z": 1875438.79
+        "pause_grind_until_sold_z": 8574132.01,
+        "keep_shop_until_sold_z": 12861198.02
       }
     },
     "10": {
       "days": 10,
       "kills": 20062.0,
       "mats_stock": [
+        {
+          "item_id": 955,
+          "name": "Worm Peeling",
+          "qty": 4682.61,
+          "price": 4999,
+          "stock_value": 23408381.58
+        },
+        {
+          "item_id": 935,
+          "name": "Shell",
+          "qty": 772.3,
+          "price": 3500,
+          "stock_value": 2703044.14
+        },
         {
           "item_id": 938,
           "name": "Sticky Mucus",
@@ -759,14 +884,14 @@
           "stock_value": 1420762.35
         },
         {
-          "item_id": 518,
-          "name": "Honey",
-          "qty": 15.53,
-          "price": 2690,
-          "stock_value": 41788.64
+          "item_id": 507,
+          "name": "Red Herb",
+          "qty": 62.14,
+          "price": 1399,
+          "stock_value": 86932.51
         }
       ],
-      "mats_stock_value_latam": 1462550.99,
+      "mats_stock_value_latam": 27619120.59,
       "cards": [
         {
           "item_id": 4043,
@@ -801,12 +926,12 @@
       ],
       "cards_sellable_total": 0.923,
       "cards_pipeline_value": 3002779.46,
-      "lot_expected_value": 4465330.45,
+      "lot_expected_value": 30621900.05,
       "zeny_spent": 112271.25,
-      "net_if_sold_at_latam": 4353059.2,
+      "net_if_sold_at_latam": 30509628.8,
       "gates": {
-        "pause_grind_until_sold_z": 1786132.18,
-        "keep_shop_until_sold_z": 2679198.27
+        "pause_grind_until_sold_z": 12248760.02,
+        "keep_shop_until_sold_z": 18373140.03
       }
     }
   },
@@ -815,6 +940,20 @@
     "kills": 20062.0,
     "mats_stock": [
       {
+        "item_id": 955,
+        "name": "Worm Peeling",
+        "qty": 4682.61,
+        "price": 4999,
+        "stock_value": 23408381.58
+      },
+      {
+        "item_id": 935,
+        "name": "Shell",
+        "qty": 772.3,
+        "price": 3500,
+        "stock_value": 2703044.14
+      },
+      {
         "item_id": 938,
         "name": "Sticky Mucus",
         "qty": 710.38,
@@ -822,14 +961,14 @@
         "stock_value": 1420762.35
       },
       {
-        "item_id": 518,
-        "name": "Honey",
-        "qty": 15.53,
-        "price": 2690,
-        "stock_value": 41788.64
+        "item_id": 507,
+        "name": "Red Herb",
+        "qty": 62.14,
+        "price": 1399,
+        "stock_value": 86932.51
       }
     ],
-    "mats_stock_value_latam": 1462550.99,
+    "mats_stock_value_latam": 27619120.59,
     "cards": [
       {
         "item_id": 4043,
@@ -864,12 +1003,12 @@
     ],
     "cards_sellable_total": 0.923,
     "cards_pipeline_value": 3002779.46,
-    "lot_expected_value": 4465330.45,
+    "lot_expected_value": 30621900.05,
     "zeny_spent": 112271.25,
-    "net_if_sold_at_latam": 4353059.2,
+    "net_if_sold_at_latam": 30509628.8,
     "gates": {
-      "pause_grind_until_sold_z": 1786132.18,
-      "keep_shop_until_sold_z": 2679198.27
+      "pause_grind_until_sold_z": 12248760.02,
+      "keep_shop_until_sold_z": 18373140.03
     }
   }
 }

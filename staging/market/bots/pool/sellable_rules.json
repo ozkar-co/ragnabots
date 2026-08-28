@@ -8,14 +8,10 @@
     "Healing",
     "Usable"
   ],
-  "mat_types_latam": [
-    "diversos",
-    null,
-    "consumivel"
-  ],
-  "mats_max_price": 12000,
-  "max_markup_vs_yaml_buy": 50.0,
+  "mats_max_price": 16000,
+  "markup_only_if_price_ge": 5000,
+  "max_markup_vs_yaml_buy": 80.0,
   "min_latam_sold": 80,
   "min_latam_price": 300,
-  "notes": "Pool global para elegir muchos bots. Progreso lento: pocos ítems útiles por mapa + rates 1× + activity gate. Ajustar caps aquí, no ad-hoc por bot."
+  "notes": "Pool global para muchos bots. Embudo: grindable ∩ ¬NPC ∩ precio sano. Progreso lento: pocos ítems/tienda + 1× + activity. No confiar en YAML Buy solo — combinar con price floor para markup."
 }

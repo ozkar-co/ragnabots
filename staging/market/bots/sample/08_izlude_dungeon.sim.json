@@ -79,10 +79,22 @@
         }
       ],
       "drop_types_count": 32,
-      "ev_mats_offer_per_kill": 76.44,
-      "ev_mats_offer_per_day": 97012.93,
+      "ev_mats_offer_per_kill": 448.07,
+      "ev_mats_offer_per_day": 568645.7,
       "offer": {
         "mats_for_sale": [
+          {
+            "item_id": 955,
+            "aegis": "Worm_Peelings",
+            "name": "Worm Peeling",
+            "type": "Etc",
+            "p_per_map_kill": 0.07554945,
+            "latam_price": 4999,
+            "latam_total_sold": 364,
+            "has_offers": true,
+            "qty_per_day": 95.8798,
+            "score": 134888.07
+          },
           {
             "item_id": 938,
             "aegis": "Sticky_Mucus",
@@ -106,22 +118,17 @@
             "has_offers": true,
             "qty_per_day": 57.5279,
             "score": 17711.57
-          },
-          {
-            "item_id": 943,
-            "aegis": "Solid_Shell",
-            "name": "Solid Shell",
-            "type": "Etc",
-            "p_per_map_kill": 0.00604396,
-            "latam_price": 1000,
-            "latam_total_sold": 552,
-            "has_offers": true,
-            "qty_per_day": 7.6704,
-            "score": 13640.63
           }
         ],
-        "mats_discarded_count": 2,
+        "mats_discarded_count": 3,
         "mats_discarded_top10": [
+          {
+            "item_id": 943,
+            "name": "Solid Shell",
+            "price": 1000,
+            "qty_per_day": 7.6704,
+            "score": 13640.63
+          },
           {
             "item_id": 757,
             "name": "Rough Elunium",
@@ -154,12 +161,6 @@
             "item_id": 910,
             "name": "Garlet",
             "price_latam": 2500,
-            "reason": "not_in_sellable_pool"
-          },
-          {
-            "item_id": 955,
-            "name": "Worm Peeling",
-            "price_latam": 4999,
             "reason": "not_in_sellable_pool"
           },
           {
@@ -241,7 +242,7 @@
             "reason": "not_in_sellable_pool"
           }
         ],
-        "mats_blocked_pool_count": 17,
+        "mats_blocked_pool_count": 16,
         "mats_blocked_npc_buyable": [],
         "mats_blocked_npc_count": 0,
         "cards": [
@@ -314,6 +315,13 @@
           "hours": 3.5,
           "mats_stock": [
             {
+              "item_id": 955,
+              "name": "Worm Peeling",
+              "qty": 95.88,
+              "price": 4999,
+              "stock_value": 479303.16
+            },
+            {
               "item_id": 938,
               "name": "Sticky Mucus",
               "qty": 25.97,
@@ -326,16 +334,9 @@
               "qty": 57.53,
               "price": 650,
               "stock_value": 37393.12
-            },
-            {
-              "item_id": 943,
-              "name": "Solid Shell",
-              "qty": 7.67,
-              "price": 1000,
-              "stock_value": 7670.39
             }
           ],
-          "mats_stock_value_latam": 97012.93,
+          "mats_stock_value_latam": 568645.7,
           "cards": [
             {
               "item_id": 4049,
@@ -380,12 +381,12 @@
           ],
           "cards_sellable_total": 0.044,
           "cards_pipeline_value": 80181.7,
-          "lot_expected_value": 177194.63,
+          "lot_expected_value": 648827.4,
           "zeny_spent": 14496.16,
-          "net_if_sold_at_latam": 162698.47,
+          "net_if_sold_at_latam": 634331.24,
           "gates": {
-            "pause_grind_until_sold_z": 70877.85,
-            "keep_shop_until_sold_z": 106316.78,
+            "pause_grind_until_sold_z": 259530.96,
+            "keep_shop_until_sold_z": 389296.44,
             "pause_frac": 0.4,
             "shop_keep_frac": 0.6
           }
@@ -395,6 +396,13 @@
           "kills": 3807.3,
           "hours": 10.5,
           "mats_stock": [
+            {
+              "item_id": 955,
+              "name": "Worm Peeling",
+              "qty": 287.64,
+              "price": 4999,
+              "stock_value": 1437909.47
+            },
             {
               "item_id": 938,
               "name": "Sticky Mucus",
@@ -408,16 +416,9 @@
               "qty": 172.58,
               "price": 650,
               "stock_value": 112179.37
-            },
-            {
-              "item_id": 943,
-              "name": "Solid Shell",
-              "qty": 23.01,
-              "price": 1000,
-              "stock_value": 23011.17
             }
           ],
-          "mats_stock_value_latam": 291038.79,
+          "mats_stock_value_latam": 1705937.09,
           "cards": [
             {
               "item_id": 4049,
@@ -462,12 +463,12 @@
           ],
           "cards_sellable_total": 0.136,
           "cards_pipeline_value": 240545.11,
-          "lot_expected_value": 531583.9,
+          "lot_expected_value": 1946482.2,
           "zeny_spent": 43488.48,
-          "net_if_sold_at_latam": 488095.42,
+          "net_if_sold_at_latam": 1902993.72,
           "gates": {
-            "pause_grind_until_sold_z": 212633.56,
-            "keep_shop_until_sold_z": 318950.34,
+            "pause_grind_until_sold_z": 778592.88,
+            "keep_shop_until_sold_z": 1167889.32,
             "pause_frac": 0.4,
             "shop_keep_frac": 0.6
           }
@@ -477,6 +478,13 @@
           "kills": 8883.7,
           "hours": 24.5,
           "mats_stock": [
+            {
+              "item_id": 955,
+              "name": "Worm Peeling",
+              "qty": 671.16,
+              "price": 4999,
+              "stock_value": 3355122.09
+            },
             {
               "item_id": 938,
               "name": "Sticky Mucus",
@@ -490,16 +498,9 @@
               "qty": 402.7,
               "price": 650,
               "stock_value": 261751.87
-            },
-            {
-              "item_id": 943,
-              "name": "Solid Shell",
-              "qty": 53.69,
-              "price": 1000,
-              "stock_value": 53692.73
             }
           ],
-          "mats_stock_value_latam": 679090.51,
+          "mats_stock_value_latam": 3980519.87,
           "cards": [
             {
               "item_id": 4049,
@@ -544,12 +545,12 @@
           ],
           "cards_sellable_total": 0.318,
           "cards_pipeline_value": 561271.92,
-          "lot_expected_value": 1240362.43,
+          "lot_expected_value": 4541791.79,
           "zeny_spent": 101473.12,
-          "net_if_sold_at_latam": 1138889.31,
+          "net_if_sold_at_latam": 4440318.67,
           "gates": {
-            "pause_grind_until_sold_z": 496144.97,
-            "keep_shop_until_sold_z": 744217.46,
+            "pause_grind_until_sold_z": 1816716.72,
+            "keep_shop_until_sold_z": 2725075.07,
             "pause_frac": 0.4,
             "shop_keep_frac": 0.6
           }
@@ -559,6 +560,13 @@
           "kills": 12691.0,
           "hours": 35.0,
           "mats_stock": [
+            {
+              "item_id": 955,
+              "name": "Worm Peeling",
+              "qty": 958.8,
+              "price": 4999,
+              "stock_value": 4793031.55
+            },
             {
               "item_id": 938,
               "name": "Sticky Mucus",
@@ -572,16 +580,9 @@
               "qty": 575.28,
               "price": 650,
               "stock_value": 373931.25
-            },
-            {
-              "item_id": 943,
-              "name": "Solid Shell",
-              "qty": 76.7,
-              "price": 1000,
-              "stock_value": 76703.9
             }
           ],
-          "mats_stock_value_latam": 970129.3,
+          "mats_stock_value_latam": 5686456.95,
           "cards": [
             {
               "item_id": 4049,
@@ -626,12 +627,12 @@
           ],
           "cards_sellable_total": 0.453,
           "cards_pipeline_value": 801817.03,
-          "lot_expected_value": 1771946.33,
+          "lot_expected_value": 6488273.99,
           "zeny_spent": 144961.6,
-          "net_if_sold_at_latam": 1626984.73,
+          "net_if_sold_at_latam": 6343312.39,
           "gates": {
-            "pause_grind_until_sold_z": 708778.53,
-            "keep_shop_until_sold_z": 1063167.8,
+            "pause_grind_until_sold_z": 2595309.59,
+            "keep_shop_until_sold_z": 3892964.39,
             "pause_frac": 0.4,
             "shop_keep_frac": 0.6
           }
@@ -645,6 +646,13 @@
       "kills": 1269.1,
       "mats_stock": [
         {
+          "item_id": 955,
+          "name": "Worm Peeling",
+          "qty": 95.88,
+          "price": 4999,
+          "stock_value": 479303.16
+        },
+        {
           "item_id": 938,
           "name": "Sticky Mucus",
           "qty": 25.97,
@@ -657,16 +665,9 @@
           "qty": 57.53,
           "price": 650,
           "stock_value": 37393.12
-        },
-        {
-          "item_id": 943,
-          "name": "Solid Shell",
-          "qty": 7.67,
-          "price": 1000,
-          "stock_value": 7670.39
         }
       ],
-      "mats_stock_value_latam": 97012.93,
+      "mats_stock_value_latam": 568645.7,
       "cards": [
         {
           "item_id": 4049,
@@ -711,18 +712,25 @@
       ],
       "cards_sellable_total": 0.044,
       "cards_pipeline_value": 80181.7,
-      "lot_expected_value": 177194.63,
+      "lot_expected_value": 648827.4,
       "zeny_spent": 14496.16,
-      "net_if_sold_at_latam": 162698.47,
+      "net_if_sold_at_latam": 634331.24,
       "gates": {
-        "pause_grind_until_sold_z": 70877.85,
-        "keep_shop_until_sold_z": 106316.78
+        "pause_grind_until_sold_z": 259530.96,
+        "keep_shop_until_sold_z": 389296.44
       }
     },
     "3": {
       "days": 3,
       "kills": 3807.3,
       "mats_stock": [
+        {
+          "item_id": 955,
+          "name": "Worm Peeling",
+          "qty": 287.64,
+          "price": 4999,
+          "stock_value": 1437909.47
+        },
         {
           "item_id": 938,
           "name": "Sticky Mucus",
@@ -736,16 +744,9 @@
           "qty": 172.58,
           "price": 650,
           "stock_value": 112179.37
-        },
-        {
-          "item_id": 943,
-          "name": "Solid Shell",
-          "qty": 23.01,
-          "price": 1000,
-          "stock_value": 23011.17
         }
       ],
-      "mats_stock_value_latam": 291038.79,
+      "mats_stock_value_latam": 1705937.09,
       "cards": [
         {
           "item_id": 4049,
@@ -790,18 +791,25 @@
       ],
       "cards_sellable_total": 0.136,
       "cards_pipeline_value": 240545.11,
-      "lot_expected_value": 531583.9,
+      "lot_expected_value": 1946482.2,
       "zeny_spent": 43488.48,
-      "net_if_sold_at_latam": 488095.42,
+      "net_if_sold_at_latam": 1902993.72,
       "gates": {
-        "pause_grind_until_sold_z": 212633.56,
-        "keep_shop_until_sold_z": 318950.34
+        "pause_grind_until_sold_z": 778592.88,
+        "keep_shop_until_sold_z": 1167889.32
       }
     },
     "7": {
       "days": 7,
       "kills": 8883.7,
       "mats_stock": [
+        {
+          "item_id": 955,
+          "name": "Worm Peeling",
+          "qty": 671.16,
+          "price": 4999,
+          "stock_value": 3355122.09
+        },
         {
           "item_id": 938,
           "name": "Sticky Mucus",
@@ -815,16 +823,9 @@
           "qty": 402.7,
           "price": 650,
           "stock_value": 261751.87
-        },
-        {
-          "item_id": 943,
-          "name": "Solid Shell",
-          "qty": 53.69,
-          "price": 1000,
-          "stock_value": 53692.73
         }
       ],
-      "mats_stock_value_latam": 679090.51,
+      "mats_stock_value_latam": 3980519.87,
       "cards": [
         {
           "item_id": 4049,
@@ -869,18 +870,25 @@
       ],
       "cards_sellable_total": 0.318,
       "cards_pipeline_value": 561271.92,
-      "lot_expected_value": 1240362.43,
+      "lot_expected_value": 4541791.79,
       "zeny_spent": 101473.12,
-      "net_if_sold_at_latam": 1138889.31,
+      "net_if_sold_at_latam": 4440318.67,
       "gates": {
-        "pause_grind_until_sold_z": 496144.97,
-        "keep_shop_until_sold_z": 744217.46
+        "pause_grind_until_sold_z": 1816716.72,
+        "keep_shop_until_sold_z": 2725075.07
       }
     },
     "10": {
       "days": 10,
       "kills": 12691.0,
       "mats_stock": [
+        {
+          "item_id": 955,
+          "name": "Worm Peeling",
+          "qty": 958.8,
+          "price": 4999,
+          "stock_value": 4793031.55
+        },
         {
           "item_id": 938,
           "name": "Sticky Mucus",
@@ -894,16 +902,9 @@
           "qty": 575.28,
           "price": 650,
           "stock_value": 373931.25
-        },
-        {
-          "item_id": 943,
-          "name": "Solid Shell",
-          "qty": 76.7,
-          "price": 1000,
-          "stock_value": 76703.9
         }
       ],
-      "mats_stock_value_latam": 970129.3,
+      "mats_stock_value_latam": 5686456.95,
       "cards": [
         {
           "item_id": 4049,
@@ -948,12 +949,12 @@
       ],
       "cards_sellable_total": 0.453,
       "cards_pipeline_value": 801817.03,
-      "lot_expected_value": 1771946.33,
+      "lot_expected_value": 6488273.98,
       "zeny_spent": 144961.6,
-      "net_if_sold_at_latam": 1626984.73,
+      "net_if_sold_at_latam": 6343312.38,
       "gates": {
-        "pause_grind_until_sold_z": 708778.53,
-        "keep_shop_until_sold_z": 1063167.8
+        "pause_grind_until_sold_z": 2595309.59,
+        "keep_shop_until_sold_z": 3892964.39
       }
     }
   },
@@ -961,6 +962,13 @@
     "days": 10,
     "kills": 12691.0,
     "mats_stock": [
+      {
+        "item_id": 955,
+        "name": "Worm Peeling",
+        "qty": 958.8,
+        "price": 4999,
+        "stock_value": 4793031.55
+      },
       {
         "item_id": 938,
         "name": "Sticky Mucus",
@@ -974,16 +982,9 @@
         "qty": 575.28,
         "price": 650,
         "stock_value": 373931.25
-      },
-      {
-        "item_id": 943,
-        "name": "Solid Shell",
-        "qty": 76.7,
-        "price": 1000,
-        "stock_value": 76703.9
       }
     ],
-    "mats_stock_value_latam": 970129.3,
+    "mats_stock_value_latam": 5686456.95,
     "cards": [
       {
         "item_id": 4049,
@@ -1028,12 +1029,12 @@
     ],
     "cards_sellable_total": 0.453,
     "cards_pipeline_value": 801817.03,
-    "lot_expected_value": 1771946.33,
+    "lot_expected_value": 6488273.98,
     "zeny_spent": 144961.6,
-    "net_if_sold_at_latam": 1626984.73,
+    "net_if_sold_at_latam": 6343312.38,
     "gates": {
-      "pause_grind_until_sold_z": 708778.53,
-      "keep_shop_until_sold_z": 1063167.8
+      "pause_grind_until_sold_z": 2595309.59,
+      "keep_shop_until_sold_z": 3892964.39
     }
   }
 }

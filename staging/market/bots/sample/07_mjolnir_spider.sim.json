@@ -58,10 +58,22 @@
         }
       ],
       "drop_types_count": 20,
-      "ev_mats_offer_per_kill": 37.42,
-      "ev_mats_offer_per_day": 21359.48,
+      "ev_mats_offer_per_kill": 123.28,
+      "ev_mats_offer_per_day": 70374.67,
       "offer": {
         "mats_for_sale": [
+          {
+            "item_id": 511,
+            "aegis": "Green_Herb",
+            "name": "Green Herb",
+            "type": "Healing",
+            "p_per_map_kill": 0.05728053,
+            "latam_price": 1499,
+            "latam_total_sold": 35585,
+            "has_offers": true,
+            "qty_per_day": 32.6986,
+            "score": 55256.0
+          },
           {
             "item_id": 1032,
             "aegis": "Blossom_Of_Maneater",
@@ -111,12 +123,6 @@
             "reason": "not_in_sellable_pool"
           },
           {
-            "item_id": 511,
-            "name": "Green Herb",
-            "price_latam": 1499,
-            "reason": "not_in_sellable_pool"
-          },
-          {
             "item_id": 719,
             "name": "Amethyst",
             "price_latam": 3500,
@@ -153,7 +159,7 @@
             "reason": "not_in_sellable_pool"
           }
         ],
-        "mats_blocked_pool_count": 9,
+        "mats_blocked_pool_count": 8,
         "mats_blocked_npc_buyable": [],
         "mats_blocked_npc_count": 0,
         "cards": [
@@ -187,6 +193,13 @@
           "hours": 3.5,
           "mats_stock": [
             {
+              "item_id": 511,
+              "name": "Green Herb",
+              "qty": 32.7,
+              "price": 1499,
+              "stock_value": 49015.19
+            },
+            {
               "item_id": 1032,
               "name": "Maneater Blossom",
               "qty": 44.12,
@@ -201,7 +214,7 @@
               "stock_value": 3755.19
             }
           ],
-          "mats_stock_value_latam": 21359.48,
+          "mats_stock_value_latam": 70374.67,
           "cards": [
             {
               "item_id": 4114,
@@ -216,12 +229,12 @@
           ],
           "cards_sellable_total": 0.02,
           "cards_pipeline_value": 19608.68,
-          "lot_expected_value": 40968.16,
+          "lot_expected_value": 89983.35,
           "zeny_spent": 25371.53,
-          "net_if_sold_at_latam": 15596.63,
+          "net_if_sold_at_latam": 64611.81,
           "gates": {
-            "pause_grind_until_sold_z": 16387.26,
-            "keep_shop_until_sold_z": 24580.9,
+            "pause_grind_until_sold_z": 35993.34,
+            "keep_shop_until_sold_z": 53990.01,
             "pause_frac": 0.4,
             "shop_keep_frac": 0.6
           }
@@ -231,6 +244,13 @@
           "kills": 1712.6,
           "hours": 10.5,
           "mats_stock": [
+            {
+              "item_id": 511,
+              "name": "Green Herb",
+              "qty": 98.1,
+              "price": 1499,
+              "stock_value": 147045.56
+            },
             {
               "item_id": 1032,
               "name": "Maneater Blossom",
@@ -246,7 +266,7 @@
               "stock_value": 11265.56
             }
           ],
-          "mats_stock_value_latam": 64078.45,
+          "mats_stock_value_latam": 211124.01,
           "cards": [
             {
               "item_id": 4114,
@@ -261,12 +281,12 @@
           ],
           "cards_sellable_total": 0.059,
           "cards_pipeline_value": 58826.03,
-          "lot_expected_value": 122904.49,
+          "lot_expected_value": 269950.05,
           "zeny_spent": 76114.6,
-          "net_if_sold_at_latam": 46789.88,
+          "net_if_sold_at_latam": 193835.44,
           "gates": {
-            "pause_grind_until_sold_z": 49161.79,
-            "keep_shop_until_sold_z": 73742.69,
+            "pause_grind_until_sold_z": 107980.02,
+            "keep_shop_until_sold_z": 161970.03,
             "pause_frac": 0.4,
             "shop_keep_frac": 0.6
           }
@@ -276,6 +296,13 @@
           "kills": 3996.0,
           "hours": 24.5,
           "mats_stock": [
+            {
+              "item_id": 511,
+              "name": "Green Herb",
+              "qty": 228.89,
+              "price": 1499,
+              "stock_value": 343106.31
+            },
             {
               "item_id": 1032,
               "name": "Maneater Blossom",
@@ -291,7 +318,7 @@
               "stock_value": 26286.32
             }
           ],
-          "mats_stock_value_latam": 149516.39,
+          "mats_stock_value_latam": 492622.7,
           "cards": [
             {
               "item_id": 4114,
@@ -306,12 +333,12 @@
           ],
           "cards_sellable_total": 0.137,
           "cards_pipeline_value": 137260.75,
-          "lot_expected_value": 286777.13,
+          "lot_expected_value": 629883.44,
           "zeny_spent": 177600.74,
-          "net_if_sold_at_latam": 109176.39,
+          "net_if_sold_at_latam": 452282.7,
           "gates": {
-            "pause_grind_until_sold_z": 114710.85,
-            "keep_shop_until_sold_z": 172066.28,
+            "pause_grind_until_sold_z": 251953.38,
+            "keep_shop_until_sold_z": 377930.07,
             "pause_frac": 0.4,
             "shop_keep_frac": 0.6
           }
@@ -321,6 +348,13 @@
           "kills": 5708.5,
           "hours": 35.0,
           "mats_stock": [
+            {
+              "item_id": 511,
+              "name": "Green Herb",
+              "qty": 326.99,
+              "price": 1499,
+              "stock_value": 490151.87
+            },
             {
               "item_id": 1032,
               "name": "Maneater Blossom",
@@ -336,7 +370,7 @@
               "stock_value": 37551.88
             }
           ],
-          "mats_stock_value_latam": 213594.84,
+          "mats_stock_value_latam": 703746.71,
           "cards": [
             {
               "item_id": 4114,
@@ -351,12 +385,12 @@
           ],
           "cards_sellable_total": 0.196,
           "cards_pipeline_value": 196086.78,
-          "lot_expected_value": 409681.62,
+          "lot_expected_value": 899833.49,
           "zeny_spent": 253715.35,
-          "net_if_sold_at_latam": 155966.27,
+          "net_if_sold_at_latam": 646118.14,
           "gates": {
-            "pause_grind_until_sold_z": 163872.65,
-            "keep_shop_until_sold_z": 245808.97,
+            "pause_grind_until_sold_z": 359933.4,
+            "keep_shop_until_sold_z": 539900.1,
             "pause_frac": 0.4,
             "shop_keep_frac": 0.6
           }
@@ -369,6 +403,13 @@
       "days": 1,
       "kills": 570.9,
       "mats_stock": [
+        {
+          "item_id": 511,
+          "name": "Green Herb",
+          "qty": 32.7,
+          "price": 1499,
+          "stock_value": 49015.19
+        },
         {
           "item_id": 1032,
           "name": "Maneater Blossom",
@@ -384,7 +425,7 @@
           "stock_value": 3755.19
         }
       ],
-      "mats_stock_value_latam": 21359.48,
+      "mats_stock_value_latam": 70374.67,
       "cards": [
         {
           "item_id": 4114,
@@ -399,18 +440,25 @@
       ],
       "cards_sellable_total": 0.02,
       "cards_pipeline_value": 19608.68,
-      "lot_expected_value": 40968.16,
+      "lot_expected_value": 89983.35,
       "zeny_spent": 25371.53,
-      "net_if_sold_at_latam": 15596.63,
+      "net_if_sold_at_latam": 64611.82,
       "gates": {
-        "pause_grind_until_sold_z": 16387.26,
-        "keep_shop_until_sold_z": 24580.9
+        "pause_grind_until_sold_z": 35993.34,
+        "keep_shop_until_sold_z": 53990.01
       }
     },
     "3": {
       "days": 3,
       "kills": 1712.6,
       "mats_stock": [
+        {
+          "item_id": 511,
+          "name": "Green Herb",
+          "qty": 98.1,
+          "price": 1499,
+          "stock_value": 147045.56
+        },
         {
           "item_id": 1032,
           "name": "Maneater Blossom",
@@ -426,7 +474,7 @@
           "stock_value": 11265.56
         }
       ],
-      "mats_stock_value_latam": 64078.45,
+      "mats_stock_value_latam": 211124.01,
       "cards": [
         {
           "item_id": 4114,
@@ -441,18 +489,25 @@
       ],
       "cards_sellable_total": 0.059,
       "cards_pipeline_value": 58826.03,
-      "lot_expected_value": 122904.48,
+      "lot_expected_value": 269950.04,
       "zeny_spent": 76114.6,
-      "net_if_sold_at_latam": 46789.88,
+      "net_if_sold_at_latam": 193835.44,
       "gates": {
-        "pause_grind_until_sold_z": 49161.79,
-        "keep_shop_until_sold_z": 73742.69
+        "pause_grind_until_sold_z": 107980.02,
+        "keep_shop_until_sold_z": 161970.02
       }
     },
     "7": {
       "days": 7,
       "kills": 3996.0,
       "mats_stock": [
+        {
+          "item_id": 511,
+          "name": "Green Herb",
+          "qty": 228.89,
+          "price": 1499,
+          "stock_value": 343106.31
+        },
         {
           "item_id": 1032,
           "name": "Maneater Blossom",
@@ -468,7 +523,7 @@
           "stock_value": 26286.32
         }
       ],
-      "mats_stock_value_latam": 149516.39,
+      "mats_stock_value_latam": 492622.7,
       "cards": [
         {
           "item_id": 4114,
@@ -483,18 +538,25 @@
       ],
       "cards_sellable_total": 0.137,
       "cards_pipeline_value": 137260.75,
-      "lot_expected_value": 286777.14,
+      "lot_expected_value": 629883.45,
       "zeny_spent": 177600.74,
-      "net_if_sold_at_latam": 109176.4,
+      "net_if_sold_at_latam": 452282.71,
       "gates": {
-        "pause_grind_until_sold_z": 114710.86,
-        "keep_shop_until_sold_z": 172066.28
+        "pause_grind_until_sold_z": 251953.38,
+        "keep_shop_until_sold_z": 377930.07
       }
     },
     "10": {
       "days": 10,
       "kills": 5708.5,
       "mats_stock": [
+        {
+          "item_id": 511,
+          "name": "Green Herb",
+          "qty": 326.99,
+          "price": 1499,
+          "stock_value": 490151.87
+        },
         {
           "item_id": 1032,
           "name": "Maneater Blossom",
@@ -510,7 +572,7 @@
           "stock_value": 37551.88
         }
       ],
-      "mats_stock_value_latam": 213594.84,
+      "mats_stock_value_latam": 703746.71,
       "cards": [
         {
           "item_id": 4114,
@@ -525,12 +587,12 @@
       ],
       "cards_sellable_total": 0.196,
       "cards_pipeline_value": 196086.78,
-      "lot_expected_value": 409681.62,
+      "lot_expected_value": 899833.49,
       "zeny_spent": 253715.35,
-      "net_if_sold_at_latam": 155966.27,
+      "net_if_sold_at_latam": 646118.14,
       "gates": {
-        "pause_grind_until_sold_z": 163872.65,
-        "keep_shop_until_sold_z": 245808.97
+        "pause_grind_until_sold_z": 359933.4,
+        "keep_shop_until_sold_z": 539900.09
       }
     }
   },
@@ -538,6 +600,13 @@
     "days": 10,
     "kills": 5708.5,
     "mats_stock": [
+      {
+        "item_id": 511,
+        "name": "Green Herb",
+        "qty": 326.99,
+        "price": 1499,
+        "stock_value": 490151.87
+      },
       {
         "item_id": 1032,
         "name": "Maneater Blossom",
@@ -553,7 +622,7 @@
         "stock_value": 37551.88
       }
     ],
-    "mats_stock_value_latam": 213594.84,
+    "mats_stock_value_latam": 703746.71,
     "cards": [
       {
         "item_id": 4114,
@@ -568,12 +637,12 @@
     ],
     "cards_sellable_total": 0.196,
     "cards_pipeline_value": 196086.78,
-    "lot_expected_value": 409681.62,
+    "lot_expected_value": 899833.49,
     "zeny_spent": 253715.35,
-    "net_if_sold_at_latam": 155966.27,
+    "net_if_sold_at_latam": 646118.14,
     "gates": {
-      "pause_grind_until_sold_z": 163872.65,
-      "keep_shop_until_sold_z": 245808.97
+      "pause_grind_until_sold_z": 359933.4,
+      "keep_shop_until_sold_z": 539900.09
     }
   }
 }

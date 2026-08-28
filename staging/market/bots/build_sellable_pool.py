@@ -43,14 +43,20 @@ RULES = {
     "require_grindable": True,
     "exclude_npc_buyable": True,
     "mat_types_yaml": {"Etc", "Healing", "Usable", "Delayconsume", "Ammo"},
-    "mat_types_latam": {"diversos", "consumivel", None},  # soft; YAML type manda
-    "mats_max_price": 12_000,  # cap LATAM — Feather 10k pasa precio, cae por ratio
-    "max_markup_vs_yaml_buy": 50.0,  # LATAM/Buy; Feather 500× → out; Orange ~100× → out
+    # Cap absoluto LATAM (Orange@30k fuera).
+    "mats_max_price": 16_000,  # Tooth of Bat~15k OK; Orange@30k OUT
+    # YAML Buy suele ser basura (herb Buy=10). Solo castigar markup
+    # extremo cuando el precio de mercado ya es "caro":
+    #   Feather Buy=20 price=10k ratio=500 → OUT
+    #   Red Herb Buy=18 price=1399 → IN (precio no es caro)
+    "markup_only_if_price_ge": 5_000,
+    "max_markup_vs_yaml_buy": 80.0,
     "min_latam_sold": 80,
     "min_latam_price": 300,
     "notes": (
-        "Pool global para elegir muchos bots. Progreso lento: pocos ítems útiles "
-        "por mapa + rates 1× + activity gate. Ajustar caps aquí, no ad-hoc por bot."
+        "Pool global para muchos bots. Embudo: grindable ∩ ¬NPC ∩ precio sano. "
+        "Progreso lento: pocos ítems/tienda + 1× + activity. "
+        "No confiar en YAML Buy solo — combinar con price floor para markup."
     ),
 }
 
@@ -134,7 +140,10 @@ def main() -> None:
         ratio = None
         if buy and buy > 0:
             ratio = price / buy
-            if ratio > RULES["max_markup_vs_yaml_buy"]:
+            if (
+                price >= RULES["markup_only_if_price_ge"]
+                and ratio > RULES["max_markup_vs_yaml_buy"]
+            ):
                 rejected["markup_vs_buy"].append(
                     {
                         "item_id": iid,
@@ -173,6 +182,7 @@ def main() -> None:
         "exclude_npc_buyable": RULES["exclude_npc_buyable"],
         "mat_types_yaml": sorted(RULES["mat_types_yaml"]),
         "mats_max_price": RULES["mats_max_price"],
+        "markup_only_if_price_ge": RULES["markup_only_if_price_ge"],
         "max_markup_vs_yaml_buy": RULES["max_markup_vs_yaml_buy"],
         "min_latam_sold": RULES["min_latam_sold"],
         "min_latam_price": RULES["min_latam_price"],

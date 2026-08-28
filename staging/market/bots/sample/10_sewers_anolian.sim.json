@@ -87,8 +87,15 @@
             "score": 15899.51
           }
         ],
-        "mats_discarded_count": 2,
+        "mats_discarded_count": 3,
         "mats_discarded_top10": [
+          {
+            "item_id": 507,
+            "name": "Red Herb",
+            "price": 1399,
+            "qty_per_day": 0.8875,
+            "score": 11321.95
+          },
           {
             "item_id": 757,
             "name": "Rough Elunium",
@@ -140,15 +147,9 @@
             "name": "Sardonyx",
             "price_latam": 3236,
             "reason": "not_in_sellable_pool"
-          },
-          {
-            "item_id": 507,
-            "name": "Red Herb",
-            "price_latam": 1399,
-            "reason": "not_in_sellable_pool"
           }
         ],
-        "mats_blocked_pool_count": 7,
+        "mats_blocked_pool_count": 6,
         "mats_blocked_npc_buyable": [],
         "mats_blocked_npc_count": 0,
         "cards": [

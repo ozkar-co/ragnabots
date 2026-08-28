@@ -22,12 +22,12 @@ Ruta base: `/home/oz/rathena` → `data/raw/rathena/`
 - [x] **Grindable** — 926 ítems (drop + spawn normal) — `grindable_*`
 - [x] **Diseño bots ×10** — mapas/dificultad/P(drop) — `staging/market/bots/`
 - [x] **Preview sim** — 1×, LATAM, dead time, gasto zeny, pause/shop gates, cards prt≥1M — [07](07-bot-design-sample.md)
-- [x] **NPC buyable** — 923 ítems + ubicaciones — `staging/market/npc_shops/`
-- [x] **Bots filtran NPC** — oferta sin Phracon/Meat/Zargon… — [09](09-shop-catalog-review.md)
-- [ ] Revisar Orange/Feather/herbs a ojo; spend real; sim 100d
-- [ ] Áreas vending + schema runtime diario — [08](08-activity-gated-bots.md)
-- [ ] Techo compra a jugadores (LATAM median)
-- [ ] _(más adelante)_ más fetch / Divine Pride / data/market/
+- [x] **Pool vendible global** — ~102 mats (grindable∩¬NPC∩precio sano) — [10](10-sellable-pool.md)
+- [ ] Expandir plantillas desde map_tier_catalog ∩ pool (progreso lento)
+- [ ] Spend real; sim 100d sell-down
+- [ ] Áreas vending + schema runtime — [08](08-activity-gated-bots.md)
+- [ ] Techo compra jugadores (LATAM)
+- [ ] _(más adelante)_ Divine Pride / data/market/
 
 ### Resultado LATAM FREYA (2026-08-28)
 

@@ -1,13 +1,9 @@
-# Bots — diseño + preview sim
+# Bots — diseño + preview + pool
 
 ```bash
-# Diseño estático (referencia)
-python staging/market/bots/design_sample.py
-
-# Preview con reglas actuales (1×, LATAM, kills/h, días)
-python staging/market/bots/preview_sim.py
+python staging/market/npc_shops/extract_npc_shops.py   # NPC buyable
+python staging/market/bots/build_sellable_pool.py      # pool global mats
+python staging/market/bots/preview_sim.py              # muestra ×10
 ```
 
-Ver [docs/07-bot-design-sample.md](../../docs/07-bot-design-sample.md).
-
-Salida: `sample/sim_summary.json`, `sample/*.sim.json`.
+Reglas: [docs/10-sellable-pool.md](../../docs/10-sellable-pool.md).

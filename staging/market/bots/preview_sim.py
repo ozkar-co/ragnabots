@@ -80,7 +80,7 @@ SIM = {
     "use_sellable_pool": True,  # allowlist: grindable ∩ ¬NPC ∩ precio sano
     "exclude_npc_buyable": True,  # respaldo si pool no se usa
     "mats_min_price": 300,
-    "mats_max_price": 12_000,
+    "mats_max_price": 16_000,
     "mats_min_total_sold": 80,
     "mats_require_offers": False,
     "mats_min_score_ratio": 0.12,

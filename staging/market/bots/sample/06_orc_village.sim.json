@@ -413,10 +413,22 @@
         }
       ],
       "drop_types_count": 30,
-      "ev_mats_offer_per_kill": 221.31,
-      "ev_mats_offer_per_day": 112741.6,
+      "ev_mats_offer_per_kill": 361.88,
+      "ev_mats_offer_per_day": 184349.22,
       "offer": {
         "mats_for_sale": [
+          {
+            "item_id": 935,
+            "aegis": "Shell",
+            "name": "Shell",
+            "type": "Etc",
+            "p_per_map_kill": 0.03688525,
+            "latam_price": 3500,
+            "latam_total_sold": 1874,
+            "has_offers": true,
+            "qty_per_day": 18.7903,
+            "score": 78741.18
+          },
           {
             "item_id": 938,
             "aegis": "Sticky_Mucus",
@@ -428,9 +440,21 @@
             "has_offers": true,
             "qty_per_day": 56.3708,
             "score": 78101.17
+          },
+          {
+            "item_id": 507,
+            "aegis": "Red_Herb",
+            "name": "Red Herb",
+            "type": "Healing",
+            "p_per_map_kill": 0.00819672,
+            "latam_price": 1399,
+            "latam_total_sold": 341095,
+            "has_offers": true,
+            "qty_per_day": 4.1756,
+            "score": 29300.51
           }
         ],
-        "mats_discarded_count": 3,
+        "mats_discarded_count": 4,
         "mats_discarded_top10": [
           {
             "item_id": 756,
@@ -438,6 +462,13 @@
             "price": 8490,
             "qty_per_day": 0.0418,
             "score": 2664.25
+          },
+          {
+            "item_id": 511,
+            "name": "Green Herb",
+            "price": 1499,
+            "qty_per_day": 0.1044,
+            "score": 1559.82
           },
           {
             "item_id": 757,
@@ -480,12 +511,6 @@
             "reason": "not_in_sellable_pool"
           },
           {
-            "item_id": 507,
-            "name": "Red Herb",
-            "price_latam": 1399,
-            "reason": "not_in_sellable_pool"
-          },
-          {
             "item_id": 645,
             "name": "Concentration Potion",
             "price_latam": 1050,
@@ -510,12 +535,6 @@
             "reason": "not_in_sellable_pool"
           },
           {
-            "item_id": 935,
-            "name": "Shell",
-            "price_latam": 3500,
-            "reason": "not_in_sellable_pool"
-          },
-          {
             "item_id": 998,
             "name": "Iron",
             "price_latam": 8200,
@@ -534,19 +553,13 @@
             "reason": "not_in_sellable_pool"
           },
           {
-            "item_id": 511,
-            "name": "Green Herb",
-            "price_latam": 1499,
-            "reason": "not_in_sellable_pool"
-          },
-          {
             "item_id": 725,
             "name": "Sardonyx",
             "price_latam": 3236,
             "reason": "not_in_sellable_pool"
           }
         ],
-        "mats_blocked_pool_count": 15,
+        "mats_blocked_pool_count": 12,
         "mats_blocked_npc_buyable": [],
         "mats_blocked_npc_count": 0,
         "cards": [
@@ -593,14 +606,28 @@
           "hours": 3.5,
           "mats_stock": [
             {
+              "item_id": 935,
+              "name": "Shell",
+              "qty": 18.79,
+              "price": 3500,
+              "stock_value": 65765.94
+            },
+            {
               "item_id": 938,
               "name": "Sticky Mucus",
               "qty": 56.37,
               "price": 2000,
               "stock_value": 112741.6
+            },
+            {
+              "item_id": 507,
+              "name": "Red Herb",
+              "qty": 4.18,
+              "price": 1399,
+              "stock_value": 5841.68
             }
           ],
-          "mats_stock_value_latam": 112741.6,
+          "mats_stock_value_latam": 184349.22,
           "cards": [
             {
               "item_id": 4071,
@@ -625,12 +652,12 @@
           ],
           "cards_sellable_total": 0.021,
           "cards_pipeline_value": 10961.55,
-          "lot_expected_value": 123703.15,
+          "lot_expected_value": 195310.78,
           "zeny_spent": 8341.25,
-          "net_if_sold_at_latam": 115361.9,
+          "net_if_sold_at_latam": 186969.52,
           "gates": {
-            "pause_grind_until_sold_z": 49481.26,
-            "keep_shop_until_sold_z": 74221.89,
+            "pause_grind_until_sold_z": 78124.31,
+            "keep_shop_until_sold_z": 117186.47,
             "pause_frac": 0.4,
             "shop_keep_frac": 0.6
           }
@@ -641,14 +668,28 @@
           "hours": 10.5,
           "mats_stock": [
             {
+              "item_id": 935,
+              "name": "Shell",
+              "qty": 56.37,
+              "price": 3500,
+              "stock_value": 197297.82
+            },
+            {
               "item_id": 938,
               "name": "Sticky Mucus",
               "qty": 169.11,
               "price": 2000,
               "stock_value": 338224.8
+            },
+            {
+              "item_id": 507,
+              "name": "Red Herb",
+              "qty": 12.53,
+              "price": 1399,
+              "stock_value": 17525.05
             }
           ],
-          "mats_stock_value_latam": 338224.8,
+          "mats_stock_value_latam": 553047.67,
           "cards": [
             {
               "item_id": 4071,
@@ -673,12 +714,12 @@
           ],
           "cards_sellable_total": 0.062,
           "cards_pipeline_value": 32884.66,
-          "lot_expected_value": 371109.46,
+          "lot_expected_value": 585932.33,
           "zeny_spent": 25023.76,
-          "net_if_sold_at_latam": 346085.7,
+          "net_if_sold_at_latam": 560908.57,
           "gates": {
-            "pause_grind_until_sold_z": 148443.78,
-            "keep_shop_until_sold_z": 222665.68,
+            "pause_grind_until_sold_z": 234372.93,
+            "keep_shop_until_sold_z": 351559.4,
             "pause_frac": 0.4,
             "shop_keep_frac": 0.6
           }
@@ -689,14 +730,28 @@
           "hours": 24.5,
           "mats_stock": [
             {
+              "item_id": 935,
+              "name": "Shell",
+              "qty": 131.53,
+              "price": 3500,
+              "stock_value": 460361.58
+            },
+            {
               "item_id": 938,
               "name": "Sticky Mucus",
               "qty": 394.6,
               "price": 2000,
               "stock_value": 789191.2
+            },
+            {
+              "item_id": 507,
+              "name": "Red Herb",
+              "qty": 29.23,
+              "price": 1399,
+              "stock_value": 40891.79
             }
           ],
-          "mats_stock_value_latam": 789191.2,
+          "mats_stock_value_latam": 1290444.57,
           "cards": [
             {
               "item_id": 4071,
@@ -721,12 +776,12 @@
           ],
           "cards_sellable_total": 0.147,
           "cards_pipeline_value": 76730.87,
-          "lot_expected_value": 865922.07,
+          "lot_expected_value": 1367175.44,
           "zeny_spent": 58388.77,
-          "net_if_sold_at_latam": 807533.3,
+          "net_if_sold_at_latam": 1308786.67,
           "gates": {
-            "pause_grind_until_sold_z": 346368.83,
-            "keep_shop_until_sold_z": 519553.24,
+            "pause_grind_until_sold_z": 546870.18,
+            "keep_shop_until_sold_z": 820305.26,
             "pause_frac": 0.4,
             "shop_keep_frac": 0.6
           }
@@ -737,14 +792,28 @@
           "hours": 35.0,
           "mats_stock": [
             {
+              "item_id": 935,
+              "name": "Shell",
+              "qty": 187.9,
+              "price": 3500,
+              "stock_value": 657659.4
+            },
+            {
               "item_id": 938,
               "name": "Sticky Mucus",
               "qty": 563.71,
               "price": 2000,
               "stock_value": 1127416.01
+            },
+            {
+              "item_id": 507,
+              "name": "Red Herb",
+              "qty": 41.76,
+              "price": 1399,
+              "stock_value": 58416.84
             }
           ],
-          "mats_stock_value_latam": 1127416.01,
+          "mats_stock_value_latam": 1843492.24,
           "cards": [
             {
               "item_id": 4071,
@@ -769,12 +838,12 @@
           ],
           "cards_sellable_total": 0.209,
           "cards_pipeline_value": 109615.52,
-          "lot_expected_value": 1237031.53,
+          "lot_expected_value": 1953107.77,
           "zeny_spent": 83412.53,
-          "net_if_sold_at_latam": 1153619.01,
+          "net_if_sold_at_latam": 1869695.24,
           "gates": {
-            "pause_grind_until_sold_z": 494812.61,
-            "keep_shop_until_sold_z": 742218.92,
+            "pause_grind_until_sold_z": 781243.11,
+            "keep_shop_until_sold_z": 1171864.66,
             "pause_frac": 0.4,
             "shop_keep_frac": 0.6
           }
@@ -793,6 +862,13 @@
           "qty": 56.37,
           "price": 2000,
           "stock_value": 112741.6
+        },
+        {
+          "item_id": 935,
+          "name": "Shell",
+          "qty": 18.79,
+          "price": 3500,
+          "stock_value": 65765.94
         },
         {
           "item_id": 931,
@@ -814,9 +890,16 @@
           "qty": 0.91,
           "price": 8490,
           "stock_value": 7762.21
+        },
+        {
+          "item_id": 507,
+          "name": "Red Herb",
+          "qty": 4.18,
+          "price": 1399,
+          "stock_value": 5841.68
         }
       ],
-      "mats_stock_value_latam": 211372.94,
+      "mats_stock_value_latam": 282980.56,
       "cards": [
         {
           "item_id": 4066,
@@ -851,12 +934,12 @@
       ],
       "cards_sellable_total": 0.044,
       "cards_pipeline_value": 55530.69,
-      "lot_expected_value": 266903.63,
+      "lot_expected_value": 338511.25,
       "zeny_spent": 15578.31,
-      "net_if_sold_at_latam": 251325.32,
+      "net_if_sold_at_latam": 322932.94,
       "gates": {
-        "pause_grind_until_sold_z": 106761.45,
-        "keep_shop_until_sold_z": 160142.18
+        "pause_grind_until_sold_z": 135404.5,
+        "keep_shop_until_sold_z": 203106.75
       }
     },
     "3": {
@@ -869,6 +952,13 @@
           "qty": 169.11,
           "price": 2000,
           "stock_value": 338224.8
+        },
+        {
+          "item_id": 935,
+          "name": "Shell",
+          "qty": 56.37,
+          "price": 3500,
+          "stock_value": 197297.82
         },
         {
           "item_id": 931,
@@ -890,9 +980,16 @@
           "qty": 2.74,
           "price": 8490,
           "stock_value": 23286.64
+        },
+        {
+          "item_id": 507,
+          "name": "Red Herb",
+          "qty": 12.53,
+          "price": 1399,
+          "stock_value": 17525.05
         }
       ],
-      "mats_stock_value_latam": 634118.81,
+      "mats_stock_value_latam": 848941.68,
       "cards": [
         {
           "item_id": 4066,
@@ -927,12 +1024,12 @@
       ],
       "cards_sellable_total": 0.131,
       "cards_pipeline_value": 166592.09,
-      "lot_expected_value": 800710.9,
+      "lot_expected_value": 1015533.77,
       "zeny_spent": 46734.93,
-      "net_if_sold_at_latam": 753975.97,
+      "net_if_sold_at_latam": 968798.84,
       "gates": {
-        "pause_grind_until_sold_z": 320284.36,
-        "keep_shop_until_sold_z": 480426.54
+        "pause_grind_until_sold_z": 406213.51,
+        "keep_shop_until_sold_z": 609320.26
       }
     },
     "7": {
@@ -945,6 +1042,13 @@
           "qty": 394.6,
           "price": 2000,
           "stock_value": 789191.2
+        },
+        {
+          "item_id": 935,
+          "name": "Shell",
+          "qty": 131.53,
+          "price": 3500,
+          "stock_value": 460361.58
         },
         {
           "item_id": 931,
@@ -966,9 +1070,16 @@
           "qty": 6.4,
           "price": 8490,
           "stock_value": 54335.48
+        },
+        {
+          "item_id": 507,
+          "name": "Red Herb",
+          "qty": 29.23,
+          "price": 1399,
+          "stock_value": 40891.79
         }
       ],
-      "mats_stock_value_latam": 1479610.57,
+      "mats_stock_value_latam": 1980863.94,
       "cards": [
         {
           "item_id": 4066,
@@ -1003,12 +1114,12 @@
       ],
       "cards_sellable_total": 0.307,
       "cards_pipeline_value": 388714.88,
-      "lot_expected_value": 1868325.45,
+      "lot_expected_value": 2369578.82,
       "zeny_spent": 109048.16,
-      "net_if_sold_at_latam": 1759277.29,
+      "net_if_sold_at_latam": 2260530.66,
       "gates": {
-        "pause_grind_until_sold_z": 747330.18,
-        "keep_shop_until_sold_z": 1120995.27
+        "pause_grind_until_sold_z": 947831.53,
+        "keep_shop_until_sold_z": 1421747.29
       }
     },
     "10": {
@@ -1021,6 +1132,13 @@
           "qty": 563.71,
           "price": 2000,
           "stock_value": 1127416.01
+        },
+        {
+          "item_id": 935,
+          "name": "Shell",
+          "qty": 187.9,
+          "price": 3500,
+          "stock_value": 657659.4
         },
         {
           "item_id": 931,
@@ -1042,9 +1160,16 @@
           "qty": 9.14,
           "price": 8490,
           "stock_value": 77622.12
+        },
+        {
+          "item_id": 507,
+          "name": "Red Herb",
+          "qty": 41.76,
+          "price": 1399,
+          "stock_value": 58416.84
         }
       ],
-      "mats_stock_value_latam": 2113729.39,
+      "mats_stock_value_latam": 2829805.62,
       "cards": [
         {
           "item_id": 4066,
@@ -1079,12 +1204,12 @@
       ],
       "cards_sellable_total": 0.438,
       "cards_pipeline_value": 555306.96,
-      "lot_expected_value": 2669036.35,
+      "lot_expected_value": 3385112.58,
       "zeny_spent": 155783.08,
-      "net_if_sold_at_latam": 2513253.27,
+      "net_if_sold_at_latam": 3229329.5,
       "gates": {
-        "pause_grind_until_sold_z": 1067614.54,
-        "keep_shop_until_sold_z": 1601421.81
+        "pause_grind_until_sold_z": 1354045.03,
+        "keep_shop_until_sold_z": 2031067.55
       }
     }
   },
@@ -1098,6 +1223,13 @@
         "qty": 563.71,
         "price": 2000,
         "stock_value": 1127416.01
+      },
+      {
+        "item_id": 935,
+        "name": "Shell",
+        "qty": 187.9,
+        "price": 3500,
+        "stock_value": 657659.4
       },
       {
         "item_id": 931,
@@ -1119,9 +1251,16 @@
         "qty": 9.14,
         "price": 8490,
         "stock_value": 77622.12
+      },
+      {
+        "item_id": 507,
+        "name": "Red Herb",
+        "qty": 41.76,
+        "price": 1399,
+        "stock_value": 58416.84
       }
     ],
-    "mats_stock_value_latam": 2113729.39,
+    "mats_stock_value_latam": 2829805.62,
     "cards": [
       {
         "item_id": 4066,
@@ -1156,12 +1295,12 @@
     ],
     "cards_sellable_total": 0.438,
     "cards_pipeline_value": 555306.96,
-    "lot_expected_value": 2669036.35,
+    "lot_expected_value": 3385112.58,
     "zeny_spent": 155783.08,
-    "net_if_sold_at_latam": 2513253.27,
+    "net_if_sold_at_latam": 3229329.5,
     "gates": {
-      "pause_grind_until_sold_z": 1067614.54,
-      "keep_shop_until_sold_z": 1601421.81
+      "pause_grind_until_sold_z": 1354045.03,
+      "keep_shop_until_sold_z": 2031067.55
     }
   }
 }

@@ -86,10 +86,46 @@
         }
       ],
       "drop_types_count": 27,
-      "ev_mats_offer_per_kill": 48.96,
-      "ev_mats_offer_per_day": 164509.09,
+      "ev_mats_offer_per_kill": 916.34,
+      "ev_mats_offer_per_day": 3078910.35,
       "offer": {
         "mats_for_sale": [
+          {
+            "item_id": 705,
+            "aegis": "Clover",
+            "name": "Clover",
+            "type": "Etc",
+            "p_per_map_kill": 0.22012987,
+            "latam_price": 1800,
+            "latam_total_sold": 13781,
+            "has_offers": true,
+            "qty_per_day": 739.6364,
+            "score": 113358.53
+          },
+          {
+            "item_id": 914,
+            "aegis": "Fluff",
+            "name": "Fluff",
+            "type": "Etc",
+            "p_per_map_kill": 0.20113636,
+            "latam_price": 1700,
+            "latam_total_sold": 6292,
+            "has_offers": true,
+            "qty_per_day": 675.8182,
+            "score": 96915.27
+          },
+          {
+            "item_id": 511,
+            "aegis": "Green_Herb",
+            "name": "Green Herb",
+            "type": "Healing",
+            "p_per_map_kill": 0.0862013,
+            "latam_price": 1499,
+            "latam_total_sold": 35585,
+            "has_offers": true,
+            "qty_per_day": 289.6364,
+            "score": 89103.06
+          },
           {
             "item_id": 938,
             "aegis": "Sticky_Mucus",
@@ -103,8 +139,23 @@
             "score": 85282.82
           }
         ],
-        "mats_discarded_count": 0,
-        "mats_discarded_top10": [],
+        "mats_discarded_count": 2,
+        "mats_discarded_top10": [
+          {
+            "item_id": 507,
+            "name": "Red Herb",
+            "price": 1399,
+            "qty_per_day": 54.5455,
+            "score": 71599.18
+          },
+          {
+            "item_id": 935,
+            "name": "Shell",
+            "price": 3500,
+            "qty_per_day": 10.9091,
+            "score": 65344.45
+          }
+        ],
         "mats_blocked_pool": [
           {
             "item_id": 909,
@@ -125,39 +176,15 @@
             "reason": "not_in_sellable_pool"
           },
           {
-            "item_id": 914,
-            "name": "Fluff",
-            "price_latam": 1700,
-            "reason": "not_in_sellable_pool"
-          },
-          {
             "item_id": 949,
             "name": "Feather",
             "price_latam": 10000,
             "reason": "not_in_sellable_pool"
           },
           {
-            "item_id": 511,
-            "name": "Green Herb",
-            "price_latam": 1499,
-            "reason": "not_in_sellable_pool"
-          },
-          {
-            "item_id": 705,
-            "name": "Clover",
-            "price_latam": 1800,
-            "reason": "not_in_sellable_pool"
-          },
-          {
             "item_id": 622,
             "name": "Rainbow Carrot",
             "price_latam": 150000,
-            "reason": "not_in_sellable_pool"
-          },
-          {
-            "item_id": 507,
-            "name": "Red Herb",
-            "price_latam": 1399,
             "reason": "not_in_sellable_pool"
           },
           {
@@ -173,19 +200,13 @@
             "reason": "not_in_sellable_pool"
           },
           {
-            "item_id": 935,
-            "name": "Shell",
-            "price_latam": 3500,
-            "reason": "not_in_sellable_pool"
-          },
-          {
             "item_id": 1002,
             "name": "Iron Ore",
             "price_latam": 11000,
             "reason": "not_in_sellable_pool"
           }
         ],
-        "mats_blocked_pool_count": 13,
+        "mats_blocked_pool_count": 8,
         "mats_blocked_npc_buyable": [],
         "mats_blocked_npc_count": 0,
         "cards": [
@@ -240,6 +261,27 @@
           "hours": 3.5,
           "mats_stock": [
             {
+              "item_id": 705,
+              "name": "Clover",
+              "qty": 739.64,
+              "price": 1800,
+              "stock_value": 1331345.45
+            },
+            {
+              "item_id": 914,
+              "name": "Fluff",
+              "qty": 675.82,
+              "price": 1700,
+              "stock_value": 1148890.89
+            },
+            {
+              "item_id": 511,
+              "name": "Green Herb",
+              "qty": 289.64,
+              "price": 1499,
+              "stock_value": 434164.92
+            },
+            {
               "item_id": 938,
               "name": "Sticky Mucus",
               "qty": 82.25,
@@ -247,7 +289,7 @@
               "stock_value": 164509.09
             }
           ],
-          "mats_stock_value_latam": 164509.09,
+          "mats_stock_value_latam": 3078910.35,
           "cards": [
             {
               "item_id": 4003,
@@ -262,12 +304,12 @@
           ],
           "cards_sellable_total": 0.005,
           "cards_pipeline_value": 10373.99,
-          "lot_expected_value": 174883.08,
+          "lot_expected_value": 3089284.34,
           "zeny_spent": 8708.14,
-          "net_if_sold_at_latam": 166174.94,
+          "net_if_sold_at_latam": 3080576.2,
           "gates": {
-            "pause_grind_until_sold_z": 69953.23,
-            "keep_shop_until_sold_z": 104929.85,
+            "pause_grind_until_sold_z": 1235713.74,
+            "keep_shop_until_sold_z": 1853570.6,
             "pause_frac": 0.4,
             "shop_keep_frac": 0.6
           }
@@ -278,6 +320,27 @@
           "hours": 10.5,
           "mats_stock": [
             {
+              "item_id": 705,
+              "name": "Clover",
+              "qty": 2218.91,
+              "price": 1800,
+              "stock_value": 3994036.36
+            },
+            {
+              "item_id": 914,
+              "name": "Fluff",
+              "qty": 2027.45,
+              "price": 1700,
+              "stock_value": 3446672.66
+            },
+            {
+              "item_id": 511,
+              "name": "Green Herb",
+              "qty": 868.91,
+              "price": 1499,
+              "stock_value": 1302494.75
+            },
+            {
               "item_id": 938,
               "name": "Sticky Mucus",
               "qty": 246.76,
@@ -285,7 +348,7 @@
               "stock_value": 493527.28
             }
           ],
-          "mats_stock_value_latam": 493527.28,
+          "mats_stock_value_latam": 9236731.06,
           "cards": [
             {
               "item_id": 4003,
@@ -300,12 +363,12 @@
           ],
           "cards_sellable_total": 0.016,
           "cards_pipeline_value": 31121.97,
-          "lot_expected_value": 524649.25,
+          "lot_expected_value": 9267853.02,
           "zeny_spent": 26124.42,
-          "net_if_sold_at_latam": 498524.83,
+          "net_if_sold_at_latam": 9241728.6,
           "gates": {
-            "pause_grind_until_sold_z": 209859.7,
-            "keep_shop_until_sold_z": 314789.55,
+            "pause_grind_until_sold_z": 3707141.21,
+            "keep_shop_until_sold_z": 5560711.81,
             "pause_frac": 0.4,
             "shop_keep_frac": 0.6
           }
@@ -316,6 +379,27 @@
           "hours": 24.5,
           "mats_stock": [
             {
+              "item_id": 705,
+              "name": "Clover",
+              "qty": 5177.45,
+              "price": 1800,
+              "stock_value": 9319418.18
+            },
+            {
+              "item_id": 914,
+              "name": "Fluff",
+              "qty": 4730.73,
+              "price": 1700,
+              "stock_value": 8042236.22
+            },
+            {
+              "item_id": 511,
+              "name": "Green Herb",
+              "qty": 2027.45,
+              "price": 1499,
+              "stock_value": 3039154.41
+            },
+            {
               "item_id": 938,
               "name": "Sticky Mucus",
               "qty": 575.78,
@@ -323,7 +407,7 @@
               "stock_value": 1151563.66
             }
           ],
-          "mats_stock_value_latam": 1151563.66,
+          "mats_stock_value_latam": 21552372.46,
           "cards": [
             {
               "item_id": 4003,
@@ -338,12 +422,12 @@
           ],
           "cards_sellable_total": 0.038,
           "cards_pipeline_value": 72617.92,
-          "lot_expected_value": 1224181.58,
+          "lot_expected_value": 21624990.39,
           "zeny_spent": 60956.98,
-          "net_if_sold_at_latam": 1163224.6,
+          "net_if_sold_at_latam": 21564033.41,
           "gates": {
-            "pause_grind_until_sold_z": 489672.63,
-            "keep_shop_until_sold_z": 734508.95,
+            "pause_grind_until_sold_z": 8649996.16,
+            "keep_shop_until_sold_z": 12974994.23,
             "pause_frac": 0.4,
             "shop_keep_frac": 0.6
           }
@@ -354,6 +438,27 @@
           "hours": 35.0,
           "mats_stock": [
             {
+              "item_id": 705,
+              "name": "Clover",
+              "qty": 7396.36,
+              "price": 1800,
+              "stock_value": 13313454.54
+            },
+            {
+              "item_id": 914,
+              "name": "Fluff",
+              "qty": 6758.18,
+              "price": 1700,
+              "stock_value": 11488908.88
+            },
+            {
+              "item_id": 511,
+              "name": "Green Herb",
+              "qty": 2896.36,
+              "price": 1499,
+              "stock_value": 4341649.16
+            },
+            {
               "item_id": 938,
               "name": "Sticky Mucus",
               "qty": 822.55,
@@ -361,7 +466,7 @@
               "stock_value": 1645090.94
             }
           ],
-          "mats_stock_value_latam": 1645090.94,
+          "mats_stock_value_latam": 30789103.52,
           "cards": [
             {
               "item_id": 4003,
@@ -376,12 +481,12 @@
           ],
           "cards_sellable_total": 0.055,
           "cards_pipeline_value": 103739.89,
-          "lot_expected_value": 1748830.83,
+          "lot_expected_value": 30892843.41,
           "zeny_spent": 87081.4,
-          "net_if_sold_at_latam": 1661749.43,
+          "net_if_sold_at_latam": 30805762.01,
           "gates": {
-            "pause_grind_until_sold_z": 699532.33,
-            "keep_shop_until_sold_z": 1049298.5,
+            "pause_grind_until_sold_z": 12357137.36,
+            "keep_shop_until_sold_z": 18535706.05,
             "pause_frac": 0.4,
             "shop_keep_frac": 0.6
           }
@@ -395,6 +500,27 @@
       "kills": 3360.0,
       "mats_stock": [
         {
+          "item_id": 705,
+          "name": "Clover",
+          "qty": 739.64,
+          "price": 1800,
+          "stock_value": 1331345.45
+        },
+        {
+          "item_id": 914,
+          "name": "Fluff",
+          "qty": 675.82,
+          "price": 1700,
+          "stock_value": 1148890.89
+        },
+        {
+          "item_id": 511,
+          "name": "Green Herb",
+          "qty": 289.64,
+          "price": 1499,
+          "stock_value": 434164.92
+        },
+        {
           "item_id": 938,
           "name": "Sticky Mucus",
           "qty": 82.25,
@@ -402,7 +528,7 @@
           "stock_value": 164509.09
         }
       ],
-      "mats_stock_value_latam": 164509.09,
+      "mats_stock_value_latam": 3078910.35,
       "cards": [
         {
           "item_id": 4003,
@@ -417,18 +543,39 @@
       ],
       "cards_sellable_total": 0.005,
       "cards_pipeline_value": 10373.99,
-      "lot_expected_value": 174883.08,
+      "lot_expected_value": 3089284.34,
       "zeny_spent": 8708.14,
-      "net_if_sold_at_latam": 166174.94,
+      "net_if_sold_at_latam": 3080576.2,
       "gates": {
-        "pause_grind_until_sold_z": 69953.23,
-        "keep_shop_until_sold_z": 104929.85
+        "pause_grind_until_sold_z": 1235713.74,
+        "keep_shop_until_sold_z": 1853570.6
       }
     },
     "3": {
       "days": 3,
       "kills": 10080.0,
       "mats_stock": [
+        {
+          "item_id": 705,
+          "name": "Clover",
+          "qty": 2218.91,
+          "price": 1800,
+          "stock_value": 3994036.36
+        },
+        {
+          "item_id": 914,
+          "name": "Fluff",
+          "qty": 2027.45,
+          "price": 1700,
+          "stock_value": 3446672.66
+        },
+        {
+          "item_id": 511,
+          "name": "Green Herb",
+          "qty": 868.91,
+          "price": 1499,
+          "stock_value": 1302494.75
+        },
         {
           "item_id": 938,
           "name": "Sticky Mucus",
@@ -437,7 +584,7 @@
           "stock_value": 493527.28
         }
       ],
-      "mats_stock_value_latam": 493527.28,
+      "mats_stock_value_latam": 9236731.06,
       "cards": [
         {
           "item_id": 4003,
@@ -452,18 +599,39 @@
       ],
       "cards_sellable_total": 0.016,
       "cards_pipeline_value": 31121.97,
-      "lot_expected_value": 524649.25,
+      "lot_expected_value": 9267853.03,
       "zeny_spent": 26124.42,
-      "net_if_sold_at_latam": 498524.83,
+      "net_if_sold_at_latam": 9241728.61,
       "gates": {
-        "pause_grind_until_sold_z": 209859.7,
-        "keep_shop_until_sold_z": 314789.55
+        "pause_grind_until_sold_z": 3707141.21,
+        "keep_shop_until_sold_z": 5560711.82
       }
     },
     "7": {
       "days": 7,
       "kills": 23520.0,
       "mats_stock": [
+        {
+          "item_id": 705,
+          "name": "Clover",
+          "qty": 5177.45,
+          "price": 1800,
+          "stock_value": 9319418.18
+        },
+        {
+          "item_id": 914,
+          "name": "Fluff",
+          "qty": 4730.73,
+          "price": 1700,
+          "stock_value": 8042236.22
+        },
+        {
+          "item_id": 511,
+          "name": "Green Herb",
+          "qty": 2027.45,
+          "price": 1499,
+          "stock_value": 3039154.41
+        },
         {
           "item_id": 938,
           "name": "Sticky Mucus",
@@ -472,7 +640,7 @@
           "stock_value": 1151563.66
         }
       ],
-      "mats_stock_value_latam": 1151563.66,
+      "mats_stock_value_latam": 21552372.46,
       "cards": [
         {
           "item_id": 4003,
@@ -487,18 +655,39 @@
       ],
       "cards_sellable_total": 0.038,
       "cards_pipeline_value": 72617.92,
-      "lot_expected_value": 1224181.58,
+      "lot_expected_value": 21624990.38,
       "zeny_spent": 60956.98,
-      "net_if_sold_at_latam": 1163224.6,
+      "net_if_sold_at_latam": 21564033.4,
       "gates": {
-        "pause_grind_until_sold_z": 489672.63,
-        "keep_shop_until_sold_z": 734508.95
+        "pause_grind_until_sold_z": 8649996.15,
+        "keep_shop_until_sold_z": 12974994.23
       }
     },
     "10": {
       "days": 10,
       "kills": 33600.0,
       "mats_stock": [
+        {
+          "item_id": 705,
+          "name": "Clover",
+          "qty": 7396.36,
+          "price": 1800,
+          "stock_value": 13313454.54
+        },
+        {
+          "item_id": 914,
+          "name": "Fluff",
+          "qty": 6758.18,
+          "price": 1700,
+          "stock_value": 11488908.88
+        },
+        {
+          "item_id": 511,
+          "name": "Green Herb",
+          "qty": 2896.36,
+          "price": 1499,
+          "stock_value": 4341649.16
+        },
         {
           "item_id": 938,
           "name": "Sticky Mucus",
@@ -507,7 +696,7 @@
           "stock_value": 1645090.94
         }
       ],
-      "mats_stock_value_latam": 1645090.94,
+      "mats_stock_value_latam": 30789103.52,
       "cards": [
         {
           "item_id": 4003,
@@ -522,12 +711,12 @@
       ],
       "cards_sellable_total": 0.055,
       "cards_pipeline_value": 103739.89,
-      "lot_expected_value": 1748830.83,
+      "lot_expected_value": 30892843.41,
       "zeny_spent": 87081.4,
-      "net_if_sold_at_latam": 1661749.43,
+      "net_if_sold_at_latam": 30805762.01,
       "gates": {
-        "pause_grind_until_sold_z": 699532.33,
-        "keep_shop_until_sold_z": 1049298.5
+        "pause_grind_until_sold_z": 12357137.36,
+        "keep_shop_until_sold_z": 18535706.05
       }
     }
   },
@@ -536,6 +725,27 @@
     "kills": 33600.0,
     "mats_stock": [
       {
+        "item_id": 705,
+        "name": "Clover",
+        "qty": 7396.36,
+        "price": 1800,
+        "stock_value": 13313454.54
+      },
+      {
+        "item_id": 914,
+        "name": "Fluff",
+        "qty": 6758.18,
+        "price": 1700,
+        "stock_value": 11488908.88
+      },
+      {
+        "item_id": 511,
+        "name": "Green Herb",
+        "qty": 2896.36,
+        "price": 1499,
+        "stock_value": 4341649.16
+      },
+      {
         "item_id": 938,
         "name": "Sticky Mucus",
         "qty": 822.55,
@@ -543,7 +753,7 @@
         "stock_value": 1645090.94
       }
     ],
-    "mats_stock_value_latam": 1645090.94,
+    "mats_stock_value_latam": 30789103.52,
     "cards": [
       {
         "item_id": 4003,
@@ -558,12 +768,12 @@
     ],
     "cards_sellable_total": 0.055,
     "cards_pipeline_value": 103739.89,
-    "lot_expected_value": 1748830.83,
+    "lot_expected_value": 30892843.41,
     "zeny_spent": 87081.4,
-    "net_if_sold_at_latam": 1661749.43,
+    "net_if_sold_at_latam": 30805762.01,
     "gates": {
-      "pause_grind_until_sold_z": 699532.33,
-      "keep_shop_until_sold_z": 1049298.5
+      "pause_grind_until_sold_z": 12357137.36,
+      "keep_shop_until_sold_z": 18535706.05
     }
   }
 }
