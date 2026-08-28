@@ -148,6 +148,16 @@ Pool ~100; activos por día << pool.
 - [ ] Dry-run contra SQLite antes de prod
 - [ ] Ajustar `hours_per_day` en sim a **3.5** (alineado con runtime)
 
-## Decisión
+## Ciclo de vida (acordado)
 
-**Aceptado:** batch 1×/día, percepción solo-tiendas, horas fijas 3~4 si hubo login ese día, tiers progresivos, compras nocturnas limitadas por zeny y rango de precio.
+```
+días 1..~100 (si hubo login):
+  acreditar grind 3.5h × bots elegibles
+  actualizar tiendas
+
+después:
+  sin grind nuevo
+  solo vender remanente → desaparecen
+```
+
+Detalle de oferta por bot y spend: [09-shop-catalog-review.md](09-shop-catalog-review.md).

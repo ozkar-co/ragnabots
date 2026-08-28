@@ -22,8 +22,10 @@ Ruta base: `/home/oz/rathena` → `data/raw/rathena/`
 - [x] **Grindable** — 926 ítems (drop + spawn normal) — `grindable_*`
 - [x] **Diseño bots ×10** — mapas/dificultad/P(drop) — `staging/market/bots/`
 - [x] **Preview sim** — 1×, LATAM, dead time, gasto zeny, pause/shop gates, cards prt≥1M — [07](07-bot-design-sample.md)
-- [x] **Runtime diario** — 1×/día, solo tiendas visibles, 3~4h si hubo login, tiers progresivos, compras nocturnas — [08](08-activity-gated-bots.md)
-- [ ] Calibrar params + confirmar `vendings`/`loginlog` en MySQL vivo
+- [x] **Catálogo tiendas ×10** — revisión realismo + spend stub — [09](09-shop-catalog-review.md)
+- [ ] Ajustar oferta (ores/Phracon newbie) y modelo de spend real
+- [ ] Sim 100d + fase sell-down
+- [ ] Confirmar `vendings`/`loginlog` en MySQL vivo
 - [ ] Techo compra a jugadores (LATAM median)
 - [ ] _(más adelante)_ más fetch / Divine Pride / data/market/
 
