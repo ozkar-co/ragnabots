@@ -57,8 +57,9 @@ Bulk crudo (115 MB) en `bulk/FREYA/items/` — **local, gitignored**.
 
 ### Corto plazo
 1. [x] **Atlantis** sobre `top2000_ids.txt` — 733 con stats (2026-08-28)
-2. Cruzar LATAM + Atlantis → validar precios; usar `atlantis_playro/curated/with_stats_ids.txt` (733) como capa 3
-3. Agrupar por `type` → `npc_focus_top200.json` (top N por categoría)
+2. [x] Análisis LATAM clásico ID&lt;10k — 1833 ítems; bot focus 202; ratios por categoría
+3. Fetch Atlantis de `atlantis_fetch_priority_offers.txt` (744 gaps clásicos con offers)
+4. Agrupar bot focus → NPC shops 100–200 por tipo (etc/consumable/card primero)
 
 ### Medio plazo
 4. Promover capa 3 validada a `data/market/price_dictionary.json`

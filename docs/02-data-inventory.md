@@ -15,8 +15,10 @@ Ruta base: `/home/oz/rathena` → `data/raw/rathena/`
 - [x] **LATAM FREYA completo** — 29,059 ítems escaneados
 - [x] **Curación capa 1** — 5,328 con precio → `staging/market/latam_tools/curated/`
 - [x] **Atlantis top 2,000** — 733 con stats históricas
-- [ ] Cruzar LATAM + Atlantis → NPC focus 100–200
-- [ ] Completar 29k gradual (atlantis/ragnapi, referencia)
+- [x] **LATAM clásico ID&lt;10k** — 1,833; bot focus 202; ver `classic_deep_analysis.md`
+- [ ] Fetch Atlantis gaps clásicos (744 con offers)
+- [ ] NPC focus 100–200 por tipo
+- [ ] Completar 29k gradual (referencia)
 - [ ] Divine Pride API key
 - [ ] Promover a `data/market/`
 

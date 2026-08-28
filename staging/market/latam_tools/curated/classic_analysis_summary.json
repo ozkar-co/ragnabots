@@ -1,0 +1,129 @@
+{
+  "cutoff": 10000,
+  "latam_classic_n": 1833,
+  "latam_modern_excluded": 3495,
+  "group_summary": {
+    "card": {
+      "n": 501,
+      "with_offers": 384,
+      "with_atlantis": 106,
+      "need_fetch_atlantis": 395,
+      "atlantis_no_data": 0,
+      "price_p25": 499999,
+      "price_median": 1000000,
+      "price_p75": 3000000,
+      "sold_median": 8,
+      "ratio_median": 0.58,
+      "ratio_n": 98
+    },
+    "etc": {
+      "n": 450,
+      "with_offers": 300,
+      "with_atlantis": 256,
+      "need_fetch_atlantis": 149,
+      "atlantis_no_data": 45,
+      "price_p25": 2800,
+      "price_median": 10000,
+      "price_p75": 99999,
+      "sold_median": 349,
+      "ratio_median": 0.98,
+      "ratio_n": 204
+    },
+    "equip_weapon": {
+      "n": 278,
+      "with_offers": 178,
+      "with_atlantis": 36,
+      "need_fetch_atlantis": 240,
+      "atlantis_no_data": 2,
+      "price_p25": 198888,
+      "price_median": 791666,
+      "price_p75": 3000000,
+      "sold_median": 4,
+      "ratio_median": 0.56,
+      "ratio_n": 34
+    },
+    "equip_armor": {
+      "n": 277,
+      "with_offers": 163,
+      "with_atlantis": 27,
+      "need_fetch_atlantis": 245,
+      "atlantis_no_data": 5,
+      "price_p25": 150000,
+      "price_median": 500000,
+      "price_p75": 2349999,
+      "sold_median": 3,
+      "ratio_median": 0.3,
+      "ratio_n": 25
+    },
+    "other": {
+      "n": 156,
+      "with_offers": 84,
+      "with_atlantis": 4,
+      "need_fetch_atlantis": 147,
+      "atlantis_no_data": 5,
+      "price_p25": 500000,
+      "price_median": 2778174,
+      "price_p75": 20000000,
+      "sold_median": 3,
+      "ratio_median": 0.12,
+      "ratio_n": 3
+    },
+    "equip_acc": {
+      "n": 94,
+      "with_offers": 53,
+      "with_atlantis": 28,
+      "need_fetch_atlantis": 62,
+      "atlantis_no_data": 4,
+      "price_p25": 394000,
+      "price_median": 1000000,
+      "price_p75": 3499999,
+      "sold_median": 12,
+      "ratio_median": 0.17,
+      "ratio_n": 24
+    },
+    "consumable": {
+      "n": 69,
+      "with_offers": 43,
+      "with_atlantis": 41,
+      "need_fetch_atlantis": 27,
+      "atlantis_no_data": 1,
+      "price_p25": 1399,
+      "price_median": 10000,
+      "price_p75": 110537,
+      "sold_median": 100,
+      "ratio_median": 1.21,
+      "ratio_n": 26
+    },
+    "ammo": {
+      "n": 8,
+      "with_offers": 2,
+      "with_atlantis": 8,
+      "need_fetch_atlantis": 0,
+      "atlantis_no_data": 0,
+      "price_p25": 15,
+      "price_median": 166692,
+      "price_p75": 2857144,
+      "sold_median": 14574,
+      "ratio_median": 3.99,
+      "ratio_n": 2
+    }
+  },
+  "global_ratio_latam_atlantis": {
+    "n": 416,
+    "median": 0.722,
+    "p25": 0.251,
+    "p75": 2.268
+  },
+  "atlantis_gaps_to_fetch": 1265,
+  "atlantis_no_data_classic": 62,
+  "bot_focus_n": 227,
+  "bot_focus_by_group": {
+    "etc": 80,
+    "consumable": 40,
+    "card": 40,
+    "equip_armor": 25,
+    "equip_weapon": 25,
+    "equip_acc": 15,
+    "ammo": 2
+  }
+}
