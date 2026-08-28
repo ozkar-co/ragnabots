@@ -6,52 +6,34 @@ sources:
     name: LATAM Tools Market API
     base_url: https://mercado.latam-tools.com.br/api/v1
     auth: none
-    servers: [FREYA, NIDHOGG]
-    provides: [vending_offers, market_history_median]
-    rate_reference: bRO LATAM official
-    ozro_rate_note: "OzRo custom 5x-100x — no asumir paridad directa"
-    status: probing
-    promoted: false
-    samples_dir: staging/market/latam_tools/samples
+    batch_size: 100
+    fetch_command: python staging/market/fetch_batch.py latam --resume
 
   ragnapi:
     name: RagnaAPI (iRO Wiki data)
     base_url: https://ragnapi.com/api/v1/re-newal
     auth: none
+    batch_size: 1
+    fetch_command: python staging/market/fetch_batch.py ragnapi --resume
     provides: [item_metadata, monster_stats, drop_tables]
     status: probing
     promoted: false
-    samples_dir: staging/market/ragnapi/samples
+    bulk_dir: staging/market/ragnapi/bulk/items
 
   divine_pride:
     name: Divine Pride Database API
     base_url: https://www.divine-pride.net/api/database
     auth: api_key_env DIVINE_PRIDE_API_KEY
-    provides: [npc_buy_sell, item_metadata, monster_metadata]
-    regions: [iRO, idRO, bRO]
-    status: pending_key
-    promoted: false
-    samples_dir: staging/market/divine_pride/samples
+    batch_size: 1
+    fetch_command: python staging/market/fetch_batch.py divine_pride --resume
 
   atlantis_playro:
     name: Atlantis Play-RO price history
     base_url: http://atlantis.play-ro.com/index.php
     auth: none
     method: html_scrape_post
-    provides: [price_min_max_avg, std_dev, total_sold, npc_buy_sell]
-    data_age: ALL  # ~20 years historical
-    rate_reference: Atlantis private server (classic-ish)
-    status: probing
-    promoted: false
-    fetch_script: staging/market/fetch_atlantis.py
-    samples_dir: staging/market/atlantis_playro/bulk/items
-    batch_defaults:
-      delay_sec: 3
-      jitter_sec: 2
-      batch_pause_every: 50
-      batch_pause_sec: 60
-      timeout_sec: 30
-      resume: true
+    batch_size: 1
+    fetch_command: python staging/market/fetch_batch.py atlantis --resume
 
   vendings_local:
     name: Dump MySQL vendings OzRo

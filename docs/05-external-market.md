@@ -90,23 +90,23 @@ Rates propios en `data/raw/server_rates.json`. Las fuentes externas usan econom�
 
 IDs 35001–35005 (monedas OzRo, MVP_Soul): definir precios manualmente en diseño de NPC/quest.
 
-## Scripts de recolección
+## Scripts de recolección (catálogo completo ~29k ítems)
 
-| Script | Fuente | Modo |
-|--------|--------|------|
-| `fetch_probe.py` | latam-tools, ragnapi, divine_pride | prueba rápida |
-| `fetch_atlantis.py` | atlantis.play-ro.com | **batch nocturno**, resumable |
+```bash
+python staging/market/fetch_batch.py extract-ids          # desde YAML local
+python staging/market/fetch_batch.py latam --resume       # ~30 min
+python staging/market/fetch_batch.py atlantis --resume    # ~33 h
+python staging/market/fetch_batch.py ragnapi --resume     # ~22 h
+python staging/market/fetch_batch.py all --resume         # secuencial
+```
 
-### Política anti-bloqueo (Atlantis y similares)
+Todas las fuentes comparten: batches, delays, jitter, pausas periódicas, `--resume`, `--limit` para pruebas.
 
-Defaults en `sources.yaml` → `atlantis_playro.batch_defaults`:
+| Script | Fuente | Batch size |
+|--------|--------|------------|
+| `fetch_batch.py latam` | latam-tools API | 100 ítems/request |
+| `fetch_batch.py atlantis` | play-ro.com HTML | 1 ítem/request |
+| `fetch_batch.py ragnapi` | ragnapi.com | 1 ítem/request |
+| `fetch_batch.py divine_pride` | divine-pride.net | 1 ítem/request |
 
-- `--delay 3` + `--jitter 2` → 3–5s entre requests
-- `--batch-pause-every 50 --batch-pause 60` → pausa larga cada 50 ítems
-- `--timeout 30` + 3 reintentos con backoff exponencial
-- `--resume` → salta ítems ya en `bulk/items/` o `progress.json`
-- User-Agent identificado (`RagnaBots-Staging/0.1`)
-
-Para un catálogo de ~2000 ítems a 4s promedio: ~2.2 horas. A 5000 ítems: dejar corriendo toda la noche con pausas es seguro.
-
-Salida bulk en `staging/market/atlantis_playro/bulk/` (gitignored).
+`fetch_probe.py` queda para pruebas rápidas puntuales.

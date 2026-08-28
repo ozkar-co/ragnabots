@@ -6,10 +6,15 @@ __pycache__/
 dist/
 build/
 
-# Staging (probes temporales — revisar antes de promover a data/)
+# Staging bulk downloads (all sources)
 staging/**/bulk/
-staging/market/atlantis_playro/bulk/items/
-staging/market/atlantis_playro/bulk/progress.json
+staging/market/atlantis_playro/bulk/
+staging/market/latam_tools/bulk/
+staging/market/ragnapi/bulk/
+staging/market/divine_pride/bulk/
+# Generated full catalog (~29k ids) — regenerate with extract-ids
+staging/market/item_ids_all.txt
+staging/market/item_ids_manifest.json
 
 # Secrets
 .env

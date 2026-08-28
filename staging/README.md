@@ -5,65 +5,75 @@ Carpeta **temporal** para recolectar y validar datos externos antes de promoverl
 ## Flujo
 
 ```
-Internet / API  →  staging/.../samples/  →  revisión manual  →  data/ (dataset canónico)
+YAML local → item_ids_all.txt (~29k)
+     ↓
+fetch_batch.py (por fuente, resumable)
+     ↓
+staging/market/*/bulk/  →  revisión  →  data/market/
 ```
 
-**No promover a `data/`** hasta verificar:
-- El ítem existe en nuestro `item_db` (o documentar por qué es custom)
-- Los precios tienen sentido vs NPC buy/sell local
-- La fuente tiene cobertura aceptable para el ítem
-- El rate del servidor referencia es documentado
+## Script principal: `fetch_batch.py`
+
+```bash
+# 1. Generar lista de todos los ítems del juego (desde YAML local)
+python staging/market/fetch_batch.py extract-ids
+
+# 2. Descargar por fuente (dejar corriendo de noche, --resume si se corta)
+python staging/market/fetch_batch.py latam --server FREYA --resume
+python staging/market/fetch_batch.py atlantis --resume
+python staging/market/fetch_batch.py ragnapi --resume
+export DIVINE_PRIDE_API_KEY=...
+python staging/market/fetch_batch.py divine_pride --resume
+
+# 3. Todo en secuencia
+python staging/market/fetch_batch.py all --resume --sources atlantis,latam,ragnapi
+
+# Prueba con pocos ítems
+python staging/market/fetch_batch.py latam --limit 100 --delay 1
+```
+
+## Tiempos estimados (~29,059 ítems)
+
+| Fuente | Modo | Delay default | Tiempo aprox |
+|--------|------|---------------|--------------|
+| **latam** | 100 ítems/request | 5s entre chunks (~291 chunks) | **~30 min** |
+| **atlantis** | 1 ítem/request | 3–5s + pausa 60s/50 | **~33 h** |
+| **ragnapi** | 1 ítem/request | 2–3s + pausa 45s/100 | **~22 h** |
+| **divine_pride** | 1 ítem/request | 2–3s + pausa 45s/100 | **~22 h** |
+
+Recomendación: correr **latam primero** (rápido), luego atlantis + ragnapi en paralelo en máquinas distintas o en secuencia varias noches.
+
+## Anti-bloqueo (todas las fuentes)
+
+- `--delay` + `--jitter` entre requests/chunks
+- `--batch-pause-every N --batch-pause S` pausas largas periódicas
+- `--resume` salta ítems ya en `bulk/items/` o `progress.json`
+- `--timeout 30` + reintentos con backoff
+- User-Agent identificado
 
 ## Estructura
 
 ```
-staging/
-├── README.md                 # este archivo
-└── market/
-    ├── README.md             # fuentes de mercado
-    ├── sources.yaml          # catálogo de fuentes y estado
-    ├── fetch_probe.py        # prueba rápida (APIs JSON)
-    ├── fetch_atlantis.py     # batch nocturno Atlantis (HTML, resumable)
-    ├── atlantis_playro/
-    ├── latam_tools/samples/
-    └── ragnapi/samples/
-```
-
-## Scripts
-
-**Prueba rápida (APIs JSON):**
-
-```bash
-python staging/market/fetch_probe.py latam_tools --items 501,909 --server FREYA
-python staging/market/fetch_probe.py ragnapi --items 501 --monsters 1002
-```
-
-**Batch nocturno Atlantis** ([play-ro.com](http://atlantis.play-ro.com/index.php)) — histórico ~20 años, stats min/max/avg/std:
-
-```bash
-python staging/market/fetch_atlantis.py --items 501,909 --delay 3
-python staging/market/fetch_atlantis.py \
-  --items-file staging/market/atlantis_playro/item_ids.txt \
-  --delay 3 --jitter 2 --batch-pause-every 50 --batch-pause 60 --resume
-```
-
-Divine Pride (opcional, requiere API key):
-
-```bash
-export DIVINE_PRIDE_API_KEY=tu_key
-python staging/market/fetch_probe.py divine_pride --items 501
+staging/market/
+├── fetch_batch.py          # CLI unificado
+├── batch_common.py         # delays, progress, HTTP
+├── runners.py              # lógica por fuente
+├── extract_item_ids.py     # YAML → item_ids_all.txt
+├── item_ids_all.txt        # ~29k IDs (gitignored, regenerable)
+├── fetch_probe.py          # pruebas puntuales (legacy)
+└── {atlantis,latam_tools,ragnapi,divine_pride}/
+    └── bulk/               # gitignored
 ```
 
 ## Qué va a git
 
-- Estructura, docs, muestras pequeñas de verificación
-- Descargas masivas o re-fetch frecuente: mantener local o en `staging/**/bulk/` (gitignored)
+- Scripts, docs, `sources.yaml`, muestras pequeñas en `samples/`
+- **No** `item_ids_all.txt`, **no** `bulk/`
 
-## Usos del dataset final (no solo bots)
+## Usos del dataset
 
-| Uso | Fuentes típicas |
-|-----|-----------------|
-| Precios de bots / diccionario económico | atlantis_playro, latam_tools, Divine Pride |
-| Diseño de NPC shops | NPC buy/sell local + mercado externo |
-| Balance de quests (recompensas) | drops rAthena + precios mercado |
-| Ítems custom OzRo | solo YAML local — sin fuente externa |
+| Uso | Fuentes |
+|-----|---------|
+| Precios bots | atlantis + latam |
+| NPC shops / quests | ragnapi + atlantis NPC + YAML local |
+| Ítems custom OzRo (35001+) | solo YAML local |
