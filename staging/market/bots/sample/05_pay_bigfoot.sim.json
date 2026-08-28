@@ -65,8 +65,8 @@
         }
       ],
       "drop_types_count": 27,
-      "ev_mats_offer_per_kill": 2196.66,
-      "ev_mats_offer_per_day": 4713704.75,
+      "ev_mats_offer_per_kill": 1107.99,
+      "ev_mats_offer_per_day": 2377584.68,
       "offer": {
         "mats_for_sale": [
           {
@@ -82,30 +82,6 @@
             "score": 221293.34
           },
           {
-            "item_id": 1027,
-            "aegis": "Porcupine_Spike",
-            "name": "Porcupine Quill",
-            "type": "Etc",
-            "p_per_map_kill": 0.06716418,
-            "latam_price": 9900,
-            "latam_total_sold": 54,
-            "has_offers": true,
-            "qty_per_day": 144.1243,
-            "score": 197473.94
-          },
-          {
-            "item_id": 1013,
-            "aegis": "Colorful_Shell",
-            "name": "Rainbow Shell",
-            "type": "Etc",
-            "p_per_map_kill": 0.04365672,
-            "latam_price": 10000,
-            "latam_total_sold": 71,
-            "has_offers": true,
-            "qty_per_day": 93.6808,
-            "score": 194610.16
-          },
-          {
             "item_id": 518,
             "aegis": "Honey",
             "name": "Honey",
@@ -116,17 +92,22 @@
             "has_offers": true,
             "qty_per_day": 37.3122,
             "score": 102207.25
-          }
-        ],
-        "mats_discarded_count": 2,
-        "mats_discarded_top10": [
+          },
           {
             "item_id": 756,
+            "aegis": "Oridecon_Stone",
             "name": "Rough Oridecon",
-            "price": 8490,
+            "type": "Etc",
+            "p_per_map_kill": 0.00151045,
+            "latam_price": 8490,
+            "latam_total_sold": 2144,
+            "has_offers": true,
             "qty_per_day": 3.2412,
             "score": 94096.89
-          },
+          }
+        ],
+        "mats_discarded_count": 1,
+        "mats_discarded_top10": [
           {
             "item_id": 757,
             "name": "Rough Elunium",
@@ -135,39 +116,59 @@
             "score": 1692.33
           }
         ],
-        "mats_blocked_npc_buyable": [
+        "mats_blocked_pool": [
           {
             "item_id": 919,
             "name": "Animal Skin",
             "price_latam": 999,
-            "reason": "npc_buyable"
+            "reason": "not_in_sellable_pool"
+          },
+          {
+            "item_id": 1027,
+            "name": "Porcupine Quill",
+            "price_latam": 9900,
+            "reason": "not_in_sellable_pool"
           },
           {
             "item_id": 992,
             "name": "Wind of Verdure",
             "price_latam": 2899,
-            "reason": "npc_buyable"
+            "reason": "not_in_sellable_pool"
           },
           {
             "item_id": 1011,
             "name": "Emveretarcon",
             "price_latam": 4852,
-            "reason": "npc_buyable"
+            "reason": "not_in_sellable_pool"
+          },
+          {
+            "item_id": 1013,
+            "name": "Rainbow Shell",
+            "price_latam": 10000,
+            "reason": "not_in_sellable_pool"
           },
           {
             "item_id": 910,
             "name": "Garlet",
             "price_latam": 2500,
-            "reason": "npc_buyable"
+            "reason": "not_in_sellable_pool"
           },
           {
             "item_id": 1002,
             "name": "Iron Ore",
             "price_latam": 11000,
-            "reason": "npc_buyable"
+            "reason": "not_in_sellable_pool"
+          },
+          {
+            "item_id": 712,
+            "name": "Flower",
+            "price_latam": 9020833,
+            "reason": "not_in_sellable_pool"
           }
         ],
-        "mats_blocked_npc_count": 5,
+        "mats_blocked_pool_count": 8,
+        "mats_blocked_npc_buyable": [],
+        "mats_blocked_npc_count": 0,
         "cards": [
           {
             "item_id": 4074,
@@ -232,28 +233,21 @@
               "stock_value": 2249697.16
             },
             {
-              "item_id": 1027,
-              "name": "Porcupine Quill",
-              "qty": 144.12,
-              "price": 9900,
-              "stock_value": 1426830.13
-            },
-            {
-              "item_id": 1013,
-              "name": "Rainbow Shell",
-              "qty": 93.68,
-              "price": 10000,
-              "stock_value": 936807.73
-            },
-            {
               "item_id": 518,
               "name": "Honey",
               "qty": 37.31,
               "price": 2690,
               "stock_value": 100369.73
+            },
+            {
+              "item_id": 756,
+              "name": "Rough Oridecon",
+              "qty": 3.24,
+              "price": 8490,
+              "stock_value": 27517.78
             }
           ],
-          "mats_stock_value_latam": 4713704.75,
+          "mats_stock_value_latam": 2377584.68,
           "cards": [
             {
               "item_id": 4074,
@@ -288,12 +282,12 @@
           ],
           "cards_sellable_total": 0.1,
           "cards_pipeline_value": 155836.98,
-          "lot_expected_value": 4869541.73,
+          "lot_expected_value": 2533421.66,
           "zeny_spent": 10861.44,
-          "net_if_sold_at_latam": 4858680.29,
+          "net_if_sold_at_latam": 2522560.21,
           "gates": {
-            "pause_grind_until_sold_z": 1947816.69,
-            "keep_shop_until_sold_z": 2921725.04,
+            "pause_grind_until_sold_z": 1013368.66,
+            "keep_shop_until_sold_z": 1520052.99,
             "pause_frac": 0.4,
             "shop_keep_frac": 0.6
           }
@@ -311,28 +305,21 @@
               "stock_value": 6749091.49
             },
             {
-              "item_id": 1027,
-              "name": "Porcupine Quill",
-              "qty": 432.37,
-              "price": 9900,
-              "stock_value": 4280490.39
-            },
-            {
-              "item_id": 1013,
-              "name": "Rainbow Shell",
-              "qty": 281.04,
-              "price": 10000,
-              "stock_value": 2810423.18
-            },
-            {
               "item_id": 518,
               "name": "Honey",
               "qty": 111.94,
               "price": 2690,
               "stock_value": 301109.2
+            },
+            {
+              "item_id": 756,
+              "name": "Rough Oridecon",
+              "qty": 9.72,
+              "price": 8490,
+              "stock_value": 82553.34
             }
           ],
-          "mats_stock_value_latam": 14141114.26,
+          "mats_stock_value_latam": 7132754.03,
           "cards": [
             {
               "item_id": 4074,
@@ -367,12 +354,12 @@
           ],
           "cards_sellable_total": 0.3,
           "cards_pipeline_value": 467510.94,
-          "lot_expected_value": 14608625.2,
+          "lot_expected_value": 7600264.97,
           "zeny_spent": 32584.33,
-          "net_if_sold_at_latam": 14576040.87,
+          "net_if_sold_at_latam": 7567680.64,
           "gates": {
-            "pause_grind_until_sold_z": 5843450.08,
-            "keep_shop_until_sold_z": 8765175.12,
+            "pause_grind_until_sold_z": 3040105.99,
+            "keep_shop_until_sold_z": 4560158.98,
             "pause_frac": 0.4,
             "shop_keep_frac": 0.6
           }
@@ -390,28 +377,21 @@
               "stock_value": 15747880.14
             },
             {
-              "item_id": 1027,
-              "name": "Porcupine Quill",
-              "qty": 1008.87,
-              "price": 9900,
-              "stock_value": 9987810.92
-            },
-            {
-              "item_id": 1013,
-              "name": "Rainbow Shell",
-              "qty": 655.77,
-              "price": 10000,
-              "stock_value": 6557654.08
-            },
-            {
               "item_id": 518,
               "name": "Honey",
               "qty": 261.19,
               "price": 2690,
               "stock_value": 702588.13
+            },
+            {
+              "item_id": 756,
+              "name": "Rough Oridecon",
+              "qty": 22.69,
+              "price": 8490,
+              "stock_value": 192624.46
             }
           ],
-          "mats_stock_value_latam": 32995933.27,
+          "mats_stock_value_latam": 16643092.73,
           "cards": [
             {
               "item_id": 4074,
@@ -446,12 +426,12 @@
           ],
           "cards_sellable_total": 0.701,
           "cards_pipeline_value": 1090858.87,
-          "lot_expected_value": 34086792.14,
+          "lot_expected_value": 17733951.6,
           "zeny_spent": 76030.11,
-          "net_if_sold_at_latam": 34010762.02,
+          "net_if_sold_at_latam": 17657921.49,
           "gates": {
-            "pause_grind_until_sold_z": 13634716.85,
-            "keep_shop_until_sold_z": 20452075.28,
+            "pause_grind_until_sold_z": 7093580.64,
+            "keep_shop_until_sold_z": 10640370.96,
             "pause_frac": 0.4,
             "shop_keep_frac": 0.6
           }
@@ -469,28 +449,21 @@
               "stock_value": 22496971.62
             },
             {
-              "item_id": 1027,
-              "name": "Porcupine Quill",
-              "qty": 1441.24,
-              "price": 9900,
-              "stock_value": 14268301.31
-            },
-            {
-              "item_id": 1013,
-              "name": "Rainbow Shell",
-              "qty": 936.81,
-              "price": 10000,
-              "stock_value": 9368077.26
-            },
-            {
               "item_id": 518,
               "name": "Honey",
               "qty": 373.12,
               "price": 2690,
               "stock_value": 1003697.33
+            },
+            {
+              "item_id": 756,
+              "name": "Rough Oridecon",
+              "qty": 32.41,
+              "price": 8490,
+              "stock_value": 275177.81
             }
           ],
-          "mats_stock_value_latam": 47137047.53,
+          "mats_stock_value_latam": 23775846.76,
           "cards": [
             {
               "item_id": 4074,
@@ -525,12 +498,12 @@
           ],
           "cards_sellable_total": 1.001,
           "cards_pipeline_value": 1558369.81,
-          "lot_expected_value": 48695417.34,
+          "lot_expected_value": 25334216.57,
           "zeny_spent": 108614.45,
-          "net_if_sold_at_latam": 48586802.89,
+          "net_if_sold_at_latam": 25225602.12,
           "gates": {
-            "pause_grind_until_sold_z": 19478166.94,
-            "keep_shop_until_sold_z": 29217250.4,
+            "pause_grind_until_sold_z": 10133686.63,
+            "keep_shop_until_sold_z": 15200529.94,
             "pause_frac": 0.4,
             "shop_keep_frac": 0.6
           }
@@ -551,28 +524,21 @@
           "stock_value": 2249697.16
         },
         {
-          "item_id": 1027,
-          "name": "Porcupine Quill",
-          "qty": 144.12,
-          "price": 9900,
-          "stock_value": 1426830.13
-        },
-        {
-          "item_id": 1013,
-          "name": "Rainbow Shell",
-          "qty": 93.68,
-          "price": 10000,
-          "stock_value": 936807.73
-        },
-        {
           "item_id": 518,
           "name": "Honey",
           "qty": 37.31,
           "price": 2690,
           "stock_value": 100369.73
+        },
+        {
+          "item_id": 756,
+          "name": "Rough Oridecon",
+          "qty": 3.24,
+          "price": 8490,
+          "stock_value": 27517.78
         }
       ],
-      "mats_stock_value_latam": 4713704.75,
+      "mats_stock_value_latam": 2377584.68,
       "cards": [
         {
           "item_id": 4074,
@@ -607,12 +573,12 @@
       ],
       "cards_sellable_total": 0.1,
       "cards_pipeline_value": 155836.98,
-      "lot_expected_value": 4869541.73,
+      "lot_expected_value": 2533421.66,
       "zeny_spent": 10861.44,
-      "net_if_sold_at_latam": 4858680.29,
+      "net_if_sold_at_latam": 2522560.22,
       "gates": {
-        "pause_grind_until_sold_z": 1947816.69,
-        "keep_shop_until_sold_z": 2921725.04
+        "pause_grind_until_sold_z": 1013368.66,
+        "keep_shop_until_sold_z": 1520053.0
       }
     },
     "3": {
@@ -627,28 +593,21 @@
           "stock_value": 6749091.49
         },
         {
-          "item_id": 1027,
-          "name": "Porcupine Quill",
-          "qty": 432.37,
-          "price": 9900,
-          "stock_value": 4280490.39
-        },
-        {
-          "item_id": 1013,
-          "name": "Rainbow Shell",
-          "qty": 281.04,
-          "price": 10000,
-          "stock_value": 2810423.18
-        },
-        {
           "item_id": 518,
           "name": "Honey",
           "qty": 111.94,
           "price": 2690,
           "stock_value": 301109.2
+        },
+        {
+          "item_id": 756,
+          "name": "Rough Oridecon",
+          "qty": 9.72,
+          "price": 8490,
+          "stock_value": 82553.34
         }
       ],
-      "mats_stock_value_latam": 14141114.26,
+      "mats_stock_value_latam": 7132754.03,
       "cards": [
         {
           "item_id": 4074,
@@ -683,12 +642,12 @@
       ],
       "cards_sellable_total": 0.3,
       "cards_pipeline_value": 467510.94,
-      "lot_expected_value": 14608625.2,
+      "lot_expected_value": 7600264.97,
       "zeny_spent": 32584.33,
-      "net_if_sold_at_latam": 14576040.87,
+      "net_if_sold_at_latam": 7567680.64,
       "gates": {
-        "pause_grind_until_sold_z": 5843450.08,
-        "keep_shop_until_sold_z": 8765175.12
+        "pause_grind_until_sold_z": 3040105.99,
+        "keep_shop_until_sold_z": 4560158.98
       }
     },
     "7": {
@@ -703,28 +662,21 @@
           "stock_value": 15747880.14
         },
         {
-          "item_id": 1027,
-          "name": "Porcupine Quill",
-          "qty": 1008.87,
-          "price": 9900,
-          "stock_value": 9987810.92
-        },
-        {
-          "item_id": 1013,
-          "name": "Rainbow Shell",
-          "qty": 655.77,
-          "price": 10000,
-          "stock_value": 6557654.08
-        },
-        {
           "item_id": 518,
           "name": "Honey",
           "qty": 261.19,
           "price": 2690,
           "stock_value": 702588.13
+        },
+        {
+          "item_id": 756,
+          "name": "Rough Oridecon",
+          "qty": 22.69,
+          "price": 8490,
+          "stock_value": 192624.46
         }
       ],
-      "mats_stock_value_latam": 32995933.27,
+      "mats_stock_value_latam": 16643092.73,
       "cards": [
         {
           "item_id": 4074,
@@ -759,12 +711,12 @@
       ],
       "cards_sellable_total": 0.701,
       "cards_pipeline_value": 1090858.87,
-      "lot_expected_value": 34086792.14,
+      "lot_expected_value": 17733951.6,
       "zeny_spent": 76030.11,
-      "net_if_sold_at_latam": 34010762.03,
+      "net_if_sold_at_latam": 17657921.49,
       "gates": {
-        "pause_grind_until_sold_z": 13634716.86,
-        "keep_shop_until_sold_z": 20452075.28
+        "pause_grind_until_sold_z": 7093580.64,
+        "keep_shop_until_sold_z": 10640370.96
       }
     },
     "10": {
@@ -779,28 +731,21 @@
           "stock_value": 22496971.62
         },
         {
-          "item_id": 1027,
-          "name": "Porcupine Quill",
-          "qty": 1441.24,
-          "price": 9900,
-          "stock_value": 14268301.31
-        },
-        {
-          "item_id": 1013,
-          "name": "Rainbow Shell",
-          "qty": 936.81,
-          "price": 10000,
-          "stock_value": 9368077.26
-        },
-        {
           "item_id": 518,
           "name": "Honey",
           "qty": 373.12,
           "price": 2690,
           "stock_value": 1003697.33
+        },
+        {
+          "item_id": 756,
+          "name": "Rough Oridecon",
+          "qty": 32.41,
+          "price": 8490,
+          "stock_value": 275177.81
         }
       ],
-      "mats_stock_value_latam": 47137047.53,
+      "mats_stock_value_latam": 23775846.76,
       "cards": [
         {
           "item_id": 4074,
@@ -835,12 +780,12 @@
       ],
       "cards_sellable_total": 1.001,
       "cards_pipeline_value": 1558369.81,
-      "lot_expected_value": 48695417.34,
+      "lot_expected_value": 25334216.57,
       "zeny_spent": 108614.45,
-      "net_if_sold_at_latam": 48586802.89,
+      "net_if_sold_at_latam": 25225602.12,
       "gates": {
-        "pause_grind_until_sold_z": 19478166.94,
-        "keep_shop_until_sold_z": 29217250.4
+        "pause_grind_until_sold_z": 10133686.63,
+        "keep_shop_until_sold_z": 15200529.94
       }
     }
   },
@@ -856,28 +801,21 @@
         "stock_value": 22496971.62
       },
       {
-        "item_id": 1027,
-        "name": "Porcupine Quill",
-        "qty": 1441.24,
-        "price": 9900,
-        "stock_value": 14268301.31
-      },
-      {
-        "item_id": 1013,
-        "name": "Rainbow Shell",
-        "qty": 936.81,
-        "price": 10000,
-        "stock_value": 9368077.26
-      },
-      {
         "item_id": 518,
         "name": "Honey",
         "qty": 373.12,
         "price": 2690,
         "stock_value": 1003697.33
+      },
+      {
+        "item_id": 756,
+        "name": "Rough Oridecon",
+        "qty": 32.41,
+        "price": 8490,
+        "stock_value": 275177.81
       }
     ],
-    "mats_stock_value_latam": 47137047.53,
+    "mats_stock_value_latam": 23775846.76,
     "cards": [
       {
         "item_id": 4074,
@@ -912,12 +850,12 @@
     ],
     "cards_sellable_total": 1.001,
     "cards_pipeline_value": 1558369.81,
-    "lot_expected_value": 48695417.34,
+    "lot_expected_value": 25334216.57,
     "zeny_spent": 108614.45,
-    "net_if_sold_at_latam": 48586802.89,
+    "net_if_sold_at_latam": 25225602.12,
     "gates": {
-      "pause_grind_until_sold_z": 19478166.94,
-      "keep_shop_until_sold_z": 29217250.4
+      "pause_grind_until_sold_z": 10133686.63,
+      "keep_shop_until_sold_z": 15200529.94
     }
   }
 }

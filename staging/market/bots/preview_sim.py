@@ -42,6 +42,10 @@ NPC_BUYABLE_IDS = (
     Path(__file__).resolve().parents[3]
     / "staging/market/npc_shops/npc_buyable_ids.txt"
 )
+SELLABLE_MAT_IDS = (
+    Path(__file__).resolve().parents[3]
+    / "staging/market/bots/pool/sellable_mat_ids.txt"
+)
 
 # ---------------------------------------------------------------------------
 # Parámetros tunables — si a 10 días el stock es absurdo, tocar aquí
@@ -71,14 +75,16 @@ SIM = {
     "pause_grind_until_sold_frac": 0.40,  # no vuelve a grindear hasta vender 40% del valor esperado del lote
     "shop_keep_until_sold_frac": 0.60,  # no cierra shop hasta 60% del esperado vendido
     "shop_keep_until_zeny_frac": 0.50,  # o hasta 50% del zeny esperado del lote
-    # Oferta mats — pocos ítems útiles (no comprables a NPC)
+    # Oferta mats — pool global (build_sellable_pool.py); pocos por tienda
     "mats_top_n": 4,
+    "use_sellable_pool": True,  # allowlist: grindable ∩ ¬NPC ∩ precio sano
+    "exclude_npc_buyable": True,  # respaldo si pool no se usa
     "mats_min_price": 300,
-    "mats_max_price": 100_000,
-    "mats_min_total_sold": 50,
+    "mats_max_price": 12_000,
+    "mats_min_total_sold": 80,
     "mats_require_offers": False,
     "mats_min_score_ratio": 0.12,
-    "exclude_npc_buyable": True,  # Phracon/Meat/Zargon/etc. → fuera
+    "max_markup_vs_yaml_buy": 50.0,
     # Cartas
     "card_sell_fraction": 0.5,
     "card_shop_slots": 1,
@@ -123,6 +129,20 @@ def load_npc_buyable_ids() -> set[int]:
         )
     ids: set[int] = set()
     for line in NPC_BUYABLE_IDS.read_text().splitlines():
+        line = line.strip()
+        if line and not line.startswith("#"):
+            ids.add(int(line))
+    return ids
+
+
+def load_sellable_mat_ids() -> set[int]:
+    if not SELLABLE_MAT_IDS.exists():
+        fail(
+            f"missing {SELLABLE_MAT_IDS} — run "
+            "python staging/market/bots/build_sellable_pool.py first"
+        )
+    ids: set[int] = set()
+    for line in SELLABLE_MAT_IDS.read_text().splitlines():
         line = line.strip()
         if line and not line.startswith("#"):
             ids.add(int(line))
@@ -271,8 +291,10 @@ def select_offer(
     *,
     card_min_price: int,
     npc_buyable: set[int],
+    sellable_mats: set[int],
 ) -> dict[str, Any]:
-    """Separa cards vs mats; mats → top valor×volumen; cards → 1/2 + 1 slot."""
+    """Separa cards vs mats; mats → top del pool vendible; cards → 1/2 + 1 slot."""
+    use_pool = SIM["use_sellable_pool"]
     exclude_npc = SIM["exclude_npc_buyable"]
 
     cards_all = [d for d in drops if d["type"] == "Card"]
@@ -287,27 +309,41 @@ def select_offer(
         if d["latam_price"] is not None
         and card_min_price <= d["latam_price"] <= SIM["card_max_price"]
     ]
-    npc_blocked = []
+    blocked = []
     mats_pool = []
     for d in drops:
         if d["type"] not in {"Etc", "Healing", "Usable", "Delayconsume", "Ammo"}:
             continue
         if d["latam_price"] is None:
             continue
-        if not (SIM["mats_min_price"] <= d["latam_price"] <= SIM["mats_max_price"]):
-            continue
-        if (d.get("latam_total_sold") or 0) < SIM["mats_min_total_sold"]:
-            continue
-        if exclude_npc and d["item_id"] in npc_buyable:
-            npc_blocked.append(
-                {
-                    "item_id": d["item_id"],
-                    "name": d["name"],
-                    "price_latam": d["latam_price"],
-                    "reason": "npc_buyable",
-                }
-            )
-            continue
+        if use_pool:
+            if d["item_id"] not in sellable_mats:
+                blocked.append(
+                    {
+                        "item_id": d["item_id"],
+                        "name": d["name"],
+                        "price_latam": d["latam_price"],
+                        "reason": "not_in_sellable_pool",
+                    }
+                )
+                continue
+        else:
+            if exclude_npc and d["item_id"] in npc_buyable:
+                blocked.append(
+                    {
+                        "item_id": d["item_id"],
+                        "name": d["name"],
+                        "price_latam": d["latam_price"],
+                        "reason": "npc_buyable",
+                    }
+                )
+                continue
+            if not (
+                SIM["mats_min_price"] <= d["latam_price"] <= SIM["mats_max_price"]
+            ):
+                continue
+            if (d.get("latam_total_sold") or 0) < SIM["mats_min_total_sold"]:
+                continue
         mats_pool.append(d)
 
     scored = []
@@ -360,8 +396,14 @@ def select_offer(
         "mats_for_sale": kept,
         "mats_discarded_count": len(discarded),
         "mats_discarded_top10": discarded[:10],
-        "mats_blocked_npc_buyable": npc_blocked[:30],
-        "mats_blocked_npc_count": len(npc_blocked),
+        "mats_blocked_pool": blocked[:40],
+        "mats_blocked_pool_count": len(blocked),
+        "mats_blocked_npc_buyable": [
+            b for b in blocked if b.get("reason") == "npc_buyable"
+        ][:30],
+        "mats_blocked_npc_count": sum(
+            1 for b in blocked if b.get("reason") == "npc_buyable"
+        ),
         "cards": card_rows,
         "cards_junk_discarded": [
             {
@@ -473,6 +515,7 @@ def analyze_map(
     latam: dict[int, dict],
     hours_share: float,
     npc_buyable: set[int],
+    sellable_mats: set[int],
 ) -> dict[str, Any]:
     combat, total, avg_lv, avg_hp, max_lv = map_combat_mobs(spawn, mobs)
     kh = kills_per_hour(avg_hp, total)
@@ -483,7 +526,11 @@ def analyze_map(
         map_name, SIM["card_min_price_default"]
     )
     offer = select_offer(
-        drops, kills_day, card_min_price=card_min, npc_buyable=npc_buyable
+        drops,
+        kills_day,
+        card_min_price=card_min,
+        npc_buyable=npc_buyable,
+        sellable_mats=sellable_mats,
     )
 
     ev_kill = sum(
@@ -529,7 +576,10 @@ def main() -> None:
     items = load_items()
     latam = load_latam()
     npc_buyable = load_npc_buyable_ids()
-    print(f"  npc_buyable items: {len(npc_buyable)}")
+    sellable_mats = load_sellable_mat_ids()
+    print(
+        f"  npc_buyable={len(npc_buyable)} sellable_pool_mats={len(sellable_mats)}"
+    )
     maps_idx = {m["map"]: m for m in json.loads(MAPS_PATH.read_text())}
     OUT.mkdir(parents=True, exist_ok=True)
 
@@ -544,7 +594,14 @@ def main() -> None:
                 fail(f"missing map {map_name}")
             profiles.append(
                 analyze_map(
-                    map_name, spawn, mobs, items, latam, share, npc_buyable
+                    map_name,
+                    spawn,
+                    mobs,
+                    items,
+                    latam,
+                    share,
+                    npc_buyable,
+                    sellable_mats,
                 )
             )
 
@@ -684,6 +741,9 @@ def main() -> None:
                         "kills_per_day": p["kills_per_day"],
                         "card_min_price": p["offer"]["card_min_price"],
                         "cards_junk": len(p["offer"].get("cards_junk_discarded") or []),
+                        "mats_blocked_pool": p["offer"].get(
+                            "mats_blocked_pool_count", 0
+                        ),
                         "mats_blocked_npc": p["offer"].get(
                             "mats_blocked_npc_count", 0
                         ),

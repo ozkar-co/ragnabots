@@ -31,12 +31,14 @@
     "shop_keep_until_sold_frac": 0.6,
     "shop_keep_until_zeny_frac": 0.5,
     "mats_top_n": 4,
+    "use_sellable_pool": true,
+    "exclude_npc_buyable": true,
     "mats_min_price": 300,
-    "mats_max_price": 100000,
-    "mats_min_total_sold": 50,
+    "mats_max_price": 12000,
+    "mats_min_total_sold": 80,
     "mats_require_offers": false,
     "mats_min_score_ratio": 0.12,
-    "exclude_npc_buyable": true,
+    "max_markup_vs_yaml_buy": 50.0,
     "card_sell_fraction": 0.5,
     "card_shop_slots": 1,
     "card_require_offers": true,
@@ -89,35 +91,15 @@
           "kills_per_day": 3360.0,
           "card_min_price": 1000000,
           "cards_junk": 4,
-          "mats_blocked_npc": 3,
+          "mats_blocked_pool": 13,
+          "mats_blocked_npc": 0,
           "mats_for_sale": [
             {
-              "name": "Feather",
-              "price": 10000,
-              "p": 0.11168831,
-              "qty_day": 375.2727,
-              "score": 514680.21
-            },
-            {
-              "name": "Clover",
-              "price": 1800,
-              "p": 0.22012987,
-              "qty_day": 739.6364,
-              "score": 113358.53
-            },
-            {
-              "name": "Fluff",
-              "price": 1700,
-              "p": 0.20113636,
-              "qty_day": 675.8182,
-              "score": 96915.27
-            },
-            {
-              "name": "Green Herb",
-              "price": 1499,
-              "p": 0.0862013,
-              "qty_day": 289.6364,
-              "score": 89103.06
+              "name": "Sticky Mucus",
+              "price": 2000,
+              "p": 0.02448052,
+              "qty_day": 82.2545,
+              "score": 85282.82
             }
           ],
           "cards_top": [
@@ -132,70 +114,58 @@
       "projection": {
         "1": {
           "kills": 3360.0,
-          "mats_value": 6667128.47,
+          "mats_value": 164509.09,
           "cards_sellable": 0.005,
           "cards_pipeline_z": 10373.99,
-          "lot_expected": 6677502.46,
+          "lot_expected": 174883.08,
           "zeny_spent": 8708.14,
-          "net": 6668794.32,
-          "pause_until_z": 2671000.98,
-          "keep_shop_until_z": 4006501.48,
+          "net": 166174.94,
+          "pause_until_z": 69953.23,
+          "keep_shop_until_z": 104929.85,
           "top_mats": [
-            "Feather×375.27",
-            "Clover×739.64",
-            "Fluff×675.82",
-            "Green Herb×289.64"
+            "Sticky Mucus×82.25"
           ]
         },
         "3": {
           "kills": 10080.0,
-          "mats_value": 20001385.42,
+          "mats_value": 493527.28,
           "cards_sellable": 0.016,
           "cards_pipeline_z": 31121.97,
-          "lot_expected": 20032507.39,
+          "lot_expected": 524649.25,
           "zeny_spent": 26124.42,
-          "net": 20006382.97,
-          "pause_until_z": 8013002.96,
-          "keep_shop_until_z": 12019504.43,
+          "net": 498524.83,
+          "pause_until_z": 209859.7,
+          "keep_shop_until_z": 314789.55,
           "top_mats": [
-            "Feather×1125.82",
-            "Clover×2218.91",
-            "Fluff×2027.45",
-            "Green Herb×868.91"
+            "Sticky Mucus×246.76"
           ]
         },
         "7": {
           "kills": 23520.0,
-          "mats_value": 46669899.32,
+          "mats_value": 1151563.66,
           "cards_sellable": 0.038,
           "cards_pipeline_z": 72617.92,
-          "lot_expected": 46742517.24,
+          "lot_expected": 1224181.58,
           "zeny_spent": 60956.98,
-          "net": 46681560.26,
-          "pause_until_z": 18697006.9,
-          "keep_shop_until_z": 28045510.34,
+          "net": 1163224.6,
+          "pause_until_z": 489672.63,
+          "keep_shop_until_z": 734508.95,
           "top_mats": [
-            "Feather×2626.91",
-            "Clover×5177.45",
-            "Fluff×4730.73",
-            "Green Herb×2027.45"
+            "Sticky Mucus×575.78"
           ]
         },
         "10": {
           "kills": 33600.0,
-          "mats_value": 66671284.74,
+          "mats_value": 1645090.94,
           "cards_sellable": 0.055,
           "cards_pipeline_z": 103739.89,
-          "lot_expected": 66775024.63,
+          "lot_expected": 1748830.83,
           "zeny_spent": 87081.4,
-          "net": 66687943.23,
-          "pause_until_z": 26710009.85,
-          "keep_shop_until_z": 40065014.78,
+          "net": 1661749.43,
+          "pause_until_z": 699532.33,
+          "keep_shop_until_z": 1049298.5,
           "top_mats": [
-            "Feather×3752.73",
-            "Clover×7396.36",
-            "Fluff×6758.18",
-            "Green Herb×2896.36"
+            "Sticky Mucus×822.55"
           ]
         }
       }
@@ -221,15 +191,9 @@
           "kills_per_day": 2821.3,
           "card_min_price": 0,
           "cards_junk": 0,
-          "mats_blocked_npc": 3,
+          "mats_blocked_pool": 6,
+          "mats_blocked_npc": 0,
           "mats_for_sale": [
-            {
-              "name": "Red Herb",
-              "price": 1399,
-              "p": 0.08228571,
-              "qty_day": 232.1568,
-              "score": 97166.65
-            },
             {
               "name": "Strawberry",
               "price": 1299,
@@ -250,6 +214,13 @@
               "p": 0.01180952,
               "qty_day": 33.3188,
               "score": 55833.72
+            },
+            {
+              "name": "Snake Scale",
+              "price": 500,
+              "p": 0.11809524,
+              "qty_day": 333.188,
+              "score": 17791.06
             }
           ],
           "cards_top": [
@@ -274,69 +245,69 @@
       "projection": {
         "1": {
           "kills": 2821.3,
-          "mats_value": 2116614.08,
+          "mats_value": 1958420.74,
           "cards_sellable": 1.223,
           "cards_pipeline_z": 108014.82,
-          "lot_expected": 2224628.9,
+          "lot_expected": 2066435.56,
           "zeny_spent": 9601.69,
-          "net": 2215027.21,
-          "pause_until_z": 889851.56,
-          "keep_shop_until_z": 1334777.34,
+          "net": 2056833.87,
+          "pause_until_z": 826574.22,
+          "keep_shop_until_z": 1239861.34,
           "top_mats": [
             "Mushroom Spore×1590.7",
-            "Red Herb×232.16",
             "Strawberry×244.25",
+            "Snake Scale×333.19",
             "Venom Canine×33.32"
           ]
         },
         "3": {
           "kills": 8464.0,
-          "mats_value": 6349842.25,
+          "mats_value": 5875262.22,
           "cards_sellable": 3.67,
           "cards_pipeline_z": 324044.46,
-          "lot_expected": 6673886.71,
+          "lot_expected": 6199306.68,
           "zeny_spent": 28805.07,
-          "net": 6645081.64,
-          "pause_until_z": 2669554.68,
-          "keep_shop_until_z": 4004332.03,
+          "net": 6170501.61,
+          "pause_until_z": 2479722.67,
+          "keep_shop_until_z": 3719584.01,
           "top_mats": [
             "Mushroom Spore×4772.11",
-            "Red Herb×696.47",
             "Strawberry×732.74",
+            "Snake Scale×999.56",
             "Venom Canine×99.96"
           ]
         },
         "7": {
           "kills": 19749.5,
-          "mats_value": 14816298.59,
+          "mats_value": 13708945.18,
           "cards_sellable": 8.563,
           "cards_pipeline_z": 756103.74,
-          "lot_expected": 15572402.33,
+          "lot_expected": 14465048.92,
           "zeny_spent": 67211.83,
-          "net": 15505190.5,
-          "pause_until_z": 6228960.93,
-          "keep_shop_until_z": 9343441.4,
+          "net": 14397837.09,
+          "pause_until_z": 5786019.57,
+          "keep_shop_until_z": 8679029.35,
           "top_mats": [
             "Mushroom Spore×11134.93",
-            "Red Herb×1625.1",
             "Strawberry×1709.74",
+            "Snake Scale×2332.32",
             "Venom Canine×233.23"
           ]
         },
         "10": {
           "kills": 28213.5,
-          "mats_value": 21166140.84,
+          "mats_value": 19584207.41,
           "cards_sellable": 12.232,
           "cards_pipeline_z": 1080148.2,
-          "lot_expected": 22246289.04,
+          "lot_expected": 20664355.61,
           "zeny_spent": 96016.9,
-          "net": 22150272.14,
-          "pause_until_z": 8898515.62,
-          "keep_shop_until_z": 13347773.42,
+          "net": 20568338.71,
+          "pause_until_z": 8265742.24,
+          "keep_shop_until_z": 12398613.37,
           "top_mats": [
             "Mushroom Spore×15907.04",
-            "Red Herb×2321.57",
             "Strawberry×2442.48",
+            "Snake Scale×3331.88",
             "Venom Canine×333.19"
           ]
         }
@@ -363,28 +334,22 @@
           "kills_per_day": 2432.2,
           "card_min_price": 0,
           "cards_junk": 0,
-          "mats_blocked_npc": 4,
+          "mats_blocked_pool": 8,
+          "mats_blocked_npc": 0,
           "mats_for_sale": [
             {
-              "name": "Orange",
-              "price": 29998,
-              "p": 0.01413374,
-              "qty_day": 34.3754,
-              "score": 570974.31
+              "name": "Cactus Needle",
+              "price": 900,
+              "p": 0.28541033,
+              "qty_day": 694.1607,
+              "score": 67208.63
             },
             {
-              "name": "Red Herb",
-              "price": 1399,
-              "p": 0.03674772,
-              "qty_day": 89.376,
-              "score": 80275.07
-            },
-            {
-              "name": "Shell",
-              "price": 3500,
-              "p": 0.00706687,
-              "qty_day": 17.1877,
-              "score": 76513.74
+              "name": "Yellow Herb",
+              "price": 1349,
+              "p": 0.00282675,
+              "qty_day": 6.8751,
+              "score": 29047.42
             }
           ],
           "cards_top": [
@@ -404,66 +369,62 @@
       "projection": {
         "1": {
           "kills": 2432.2,
-          "mats_value": 1216386.41,
+          "mats_value": 634019.14,
           "cards_sellable": 0.045,
           "cards_pipeline_z": 107711.37,
-          "lot_expected": 1324097.78,
+          "lot_expected": 741730.51,
           "zeny_spent": 10242.05,
-          "net": 1313855.73,
-          "pause_until_z": 529639.11,
-          "keep_shop_until_z": 794458.67,
+          "net": 731488.46,
+          "pause_until_z": 296692.2,
+          "keep_shop_until_z": 445038.31,
           "top_mats": [
-            "Orange×34.38",
-            "Red Herb×89.38",
-            "Shell×17.19"
+            "Cactus Needle×694.16",
+            "Yellow Herb×6.88"
           ]
         },
         "3": {
           "kills": 7296.5,
-          "mats_value": 3649159.22,
+          "mats_value": 1902057.43,
           "cards_sellable": 0.137,
           "cards_pipeline_z": 323134.1,
-          "lot_expected": 3972293.32,
+          "lot_expected": 2225191.53,
           "zeny_spent": 30726.15,
-          "net": 3941567.17,
-          "pause_until_z": 1588917.33,
-          "keep_shop_until_z": 2383375.99,
+          "net": 2194465.38,
+          "pause_until_z": 890076.61,
+          "keep_shop_until_z": 1335114.92,
           "top_mats": [
-            "Orange×103.13",
-            "Red Herb×268.13",
-            "Shell×51.56"
+            "Cactus Needle×2082.48",
+            "Yellow Herb×20.63"
           ]
         },
         "7": {
           "kills": 17025.0,
-          "mats_value": 8514704.85,
+          "mats_value": 4438134.01,
           "cards_sellable": 0.321,
           "cards_pipeline_z": 753979.56,
-          "lot_expected": 9268684.41,
+          "lot_expected": 5192113.57,
           "zeny_spent": 71694.35,
-          "net": 9196990.06,
-          "pause_until_z": 3707473.76,
-          "keep_shop_until_z": 5561210.65,
+          "net": 5120419.22,
+          "pause_until_z": 2076845.43,
+          "keep_shop_until_z": 3115268.14,
           "top_mats": [
-            "Orange×240.63",
-            "Red Herb×625.63",
-            "Shell×120.31"
+            "Cactus Needle×4859.13",
+            "Yellow Herb×48.13"
           ]
         },
         "10": {
           "kills": 24321.5,
-          "mats_value": 12163864.07,
+          "mats_value": 6340191.44,
           "cards_sellable": 0.459,
           "cards_pipeline_z": 1077113.65,
-          "lot_expected": 13240977.72,
+          "lot_expected": 7417305.09,
           "zeny_spent": 102420.5,
-          "net": 13138557.22,
-          "pause_until_z": 5296391.09,
-          "keep_shop_until_z": 7944586.63,
+          "net": 7314884.59,
+          "pause_until_z": 2966922.04,
+          "keep_shop_until_z": 4450383.05,
           "top_mats": [
-            "Orange×343.75",
-            "Red Herb×893.76",
-            "Shell×171.88"
+            "Cactus Needle×6941.61",
+            "Yellow Herb×68.75"
           ]
         }
       }
@@ -489,35 +450,22 @@
           "kills_per_day": 2006.2,
           "card_min_price": 0,
           "cards_junk": 0,
-          "mats_blocked_npc": 12,
+          "mats_blocked_pool": 17,
+          "mats_blocked_npc": 0,
           "mats_for_sale": [
-            {
-              "name": "Tooth of Bat",
-              "price": 14960,
-              "p": 0.02433628,
-              "qty_day": 48.8234,
-              "score": 435952.16
-            },
-            {
-              "name": "Worm Peeling",
-              "price": 4999,
-              "p": 0.23340708,
-              "qty_day": 468.2613,
-              "score": 181419.76
-            },
-            {
-              "name": "Shell",
-              "price": 3500,
-              "p": 0.03849558,
-              "qty_day": 77.2298,
-              "score": 114995.71
-            },
             {
               "name": "Sticky Mucus",
               "price": 2000,
               "p": 0.03540929,
               "qty_day": 71.0381,
               "score": 82491.92
+            },
+            {
+              "name": "Honey",
+              "price": 2690,
+              "p": 0.00077434,
+              "qty_day": 1.5535,
+              "score": 26281.15
             }
           ],
           "cards_top": [
@@ -542,70 +490,62 @@
       "projection": {
         "1": {
           "kills": 2006.2,
-          "mats_value": 3483617.54,
+          "mats_value": 146255.1,
           "cards_sellable": 0.092,
           "cards_pipeline_z": 300277.95,
-          "lot_expected": 3783895.49,
+          "lot_expected": 446533.05,
           "zeny_spent": 11227.12,
-          "net": 3772668.37,
-          "pause_until_z": 1513558.2,
-          "keep_shop_until_z": 2270337.29,
+          "net": 435305.93,
+          "pause_until_z": 178613.22,
+          "keep_shop_until_z": 267919.83,
           "top_mats": [
-            "Worm Peeling×468.26",
-            "Tooth of Bat×48.82",
-            "Shell×77.23",
-            "Sticky Mucus×71.04"
+            "Sticky Mucus×71.04",
+            "Honey×1.55"
           ]
         },
         "3": {
           "kills": 6018.6,
-          "mats_value": 10450852.63,
+          "mats_value": 438765.3,
           "cards_sellable": 0.277,
           "cards_pipeline_z": 900833.84,
-          "lot_expected": 11351686.47,
+          "lot_expected": 1339599.14,
           "zeny_spent": 33681.38,
-          "net": 11318005.09,
-          "pause_until_z": 4540674.59,
-          "keep_shop_until_z": 6811011.88,
+          "net": 1305917.76,
+          "pause_until_z": 535839.66,
+          "keep_shop_until_z": 803759.48,
           "top_mats": [
-            "Worm Peeling×1404.78",
-            "Tooth of Bat×146.47",
-            "Shell×231.69",
-            "Sticky Mucus×213.11"
+            "Sticky Mucus×213.11",
+            "Honey×4.66"
           ]
         },
         "7": {
           "kills": 14043.4,
-          "mats_value": 24385322.81,
+          "mats_value": 1023785.69,
           "cards_sellable": 0.646,
           "cards_pipeline_z": 2101945.62,
-          "lot_expected": 26487268.43,
+          "lot_expected": 3125731.31,
           "zeny_spent": 78589.88,
-          "net": 26408678.55,
-          "pause_until_z": 10594907.37,
-          "keep_shop_until_z": 15892361.06,
+          "net": 3047141.43,
+          "pause_until_z": 1250292.52,
+          "keep_shop_until_z": 1875438.79,
           "top_mats": [
-            "Worm Peeling×3277.83",
-            "Tooth of Bat×341.76",
-            "Shell×540.61",
-            "Sticky Mucus×497.27"
+            "Sticky Mucus×497.27",
+            "Honey×10.87"
           ]
         },
         "10": {
           "kills": 20062.0,
-          "mats_value": 34836175.44,
+          "mats_value": 1462550.99,
           "cards_sellable": 0.923,
           "cards_pipeline_z": 3002779.46,
-          "lot_expected": 37838954.9,
+          "lot_expected": 4465330.45,
           "zeny_spent": 112271.25,
-          "net": 37726683.65,
-          "pause_until_z": 15135581.96,
-          "keep_shop_until_z": 22703372.94,
+          "net": 4353059.2,
+          "pause_until_z": 1786132.18,
+          "keep_shop_until_z": 2679198.27,
           "top_mats": [
-            "Worm Peeling×4682.61",
-            "Tooth of Bat×488.23",
-            "Shell×772.3",
-            "Sticky Mucus×710.38"
+            "Sticky Mucus×710.38",
+            "Honey×15.53"
           ]
         }
       }
@@ -631,7 +571,8 @@
           "kills_per_day": 2145.8,
           "card_min_price": 0,
           "cards_junk": 0,
-          "mats_blocked_npc": 5,
+          "mats_blocked_pool": 8,
+          "mats_blocked_npc": 0,
           "mats_for_sale": [
             {
               "name": "Bear's Footskin",
@@ -641,25 +582,18 @@
               "score": 221293.34
             },
             {
-              "name": "Porcupine Quill",
-              "price": 9900,
-              "p": 0.06716418,
-              "qty_day": 144.1243,
-              "score": 197473.94
-            },
-            {
-              "name": "Rainbow Shell",
-              "price": 10000,
-              "p": 0.04365672,
-              "qty_day": 93.6808,
-              "score": 194610.16
-            },
-            {
               "name": "Honey",
               "price": 2690,
               "p": 0.01738806,
               "qty_day": 37.3122,
               "score": 102207.25
+            },
+            {
+              "name": "Rough Oridecon",
+              "price": 8490,
+              "p": 0.00151045,
+              "qty_day": 3.2412,
+              "score": 94096.89
             }
           ],
           "cards_top": [
@@ -684,70 +618,66 @@
       "projection": {
         "1": {
           "kills": 2145.8,
-          "mats_value": 4713704.75,
+          "mats_value": 2377584.68,
           "cards_sellable": 0.1,
           "cards_pipeline_z": 155836.98,
-          "lot_expected": 4869541.73,
+          "lot_expected": 2533421.66,
           "zeny_spent": 10861.44,
-          "net": 4858680.29,
-          "pause_until_z": 1947816.69,
-          "keep_shop_until_z": 2921725.04,
+          "net": 2522560.22,
+          "pause_until_z": 1013368.66,
+          "keep_shop_until_z": 1520053.0,
           "top_mats": [
             "Bear's Footskin×642.95",
-            "Porcupine Quill×144.12",
-            "Rainbow Shell×93.68",
-            "Honey×37.31"
+            "Honey×37.31",
+            "Rough Oridecon×3.24"
           ]
         },
         "3": {
           "kills": 6437.5,
-          "mats_value": 14141114.26,
+          "mats_value": 7132754.03,
           "cards_sellable": 0.3,
           "cards_pipeline_z": 467510.94,
-          "lot_expected": 14608625.2,
+          "lot_expected": 7600264.97,
           "zeny_spent": 32584.33,
-          "net": 14576040.87,
-          "pause_until_z": 5843450.08,
-          "keep_shop_until_z": 8765175.12,
+          "net": 7567680.64,
+          "pause_until_z": 3040105.99,
+          "keep_shop_until_z": 4560158.98,
           "top_mats": [
             "Bear's Footskin×1928.86",
-            "Porcupine Quill×432.37",
-            "Rainbow Shell×281.04",
-            "Honey×111.94"
+            "Honey×111.94",
+            "Rough Oridecon×9.72"
           ]
         },
         "7": {
           "kills": 15020.9,
-          "mats_value": 32995933.27,
+          "mats_value": 16643092.73,
           "cards_sellable": 0.701,
           "cards_pipeline_z": 1090858.87,
-          "lot_expected": 34086792.14,
+          "lot_expected": 17733951.6,
           "zeny_spent": 76030.11,
-          "net": 34010762.03,
-          "pause_until_z": 13634716.86,
-          "keep_shop_until_z": 20452075.28,
+          "net": 17657921.49,
+          "pause_until_z": 7093580.64,
+          "keep_shop_until_z": 10640370.96,
           "top_mats": [
             "Bear's Footskin×4500.68",
-            "Porcupine Quill×1008.87",
-            "Rainbow Shell×655.77",
-            "Honey×261.19"
+            "Honey×261.19",
+            "Rough Oridecon×22.69"
           ]
         },
         "10": {
           "kills": 21458.5,
-          "mats_value": 47137047.53,
+          "mats_value": 23775846.76,
           "cards_sellable": 1.001,
           "cards_pipeline_z": 1558369.81,
-          "lot_expected": 48695417.34,
+          "lot_expected": 25334216.57,
           "zeny_spent": 108614.45,
-          "net": 48586802.89,
-          "pause_until_z": 19478166.94,
-          "keep_shop_until_z": 29217250.4,
+          "net": 25225602.12,
+          "pause_until_z": 10133686.63,
+          "keep_shop_until_z": 15200529.94,
           "top_mats": [
             "Bear's Footskin×6429.54",
-            "Porcupine Quill×1441.24",
-            "Rainbow Shell×936.81",
-            "Honey×373.12"
+            "Honey×373.12",
+            "Rough Oridecon×32.41"
           ]
         }
       }
@@ -774,7 +704,8 @@
           "kills_per_day": 636.1,
           "card_min_price": 0,
           "cards_junk": 0,
-          "mats_blocked_npc": 1,
+          "mats_blocked_pool": 1,
+          "mats_blocked_npc": 0,
           "mats_for_sale": [
             {
               "name": "Rough Oridecon",
@@ -819,22 +750,9 @@
           "kills_per_day": 509.4,
           "card_min_price": 0,
           "cards_junk": 0,
-          "mats_blocked_npc": 5,
+          "mats_blocked_pool": 15,
+          "mats_blocked_npc": 0,
           "mats_for_sale": [
-            {
-              "name": "Tooth of Bat",
-              "price": 14960,
-              "p": 0.03995902,
-              "qty_day": 20.3561,
-              "score": 341461.44
-            },
-            {
-              "name": "Shell",
-              "price": 3500,
-              "p": 0.03688525,
-              "qty_day": 18.7903,
-              "score": 78741.18
-            },
             {
               "name": "Sticky Mucus",
               "price": 2000,
@@ -860,74 +778,70 @@
       "projection": {
         "1": {
           "kills": 1145.5,
-          "mats_value": 581666.49,
+          "mats_value": 211372.94,
           "cards_sellable": 0.044,
           "cards_pipeline_z": 55530.69,
-          "lot_expected": 637197.18,
+          "lot_expected": 266903.63,
           "zeny_spent": 15578.31,
-          "net": 621618.87,
-          "pause_until_z": 254878.87,
-          "keep_shop_until_z": 382318.31,
+          "net": 251325.32,
+          "pause_until_z": 106761.45,
+          "keep_shop_until_z": 160142.18,
           "top_mats": [
-            "Tooth of Bat×20.36",
             "Sticky Mucus×56.37",
-            "Shell×18.79",
             "Orcish Voucher×199.67",
-            "Cyfar×30.97"
+            "Cyfar×30.97",
+            "Rough Oridecon×0.91"
           ]
         },
         "3": {
           "kills": 3436.7,
-          "mats_value": 1744999.47,
+          "mats_value": 634118.81,
           "cards_sellable": 0.131,
           "cards_pipeline_z": 166592.09,
-          "lot_expected": 1911591.56,
+          "lot_expected": 800710.9,
           "zeny_spent": 46734.93,
-          "net": 1864856.63,
-          "pause_until_z": 764636.62,
-          "keep_shop_until_z": 1146954.94,
+          "net": 753975.97,
+          "pause_until_z": 320284.36,
+          "keep_shop_until_z": 480426.54,
           "top_mats": [
-            "Tooth of Bat×61.07",
             "Sticky Mucus×169.11",
-            "Shell×56.37",
             "Orcish Voucher×599.0",
-            "Cyfar×92.91"
+            "Cyfar×92.91",
+            "Rough Oridecon×2.74"
           ]
         },
         "7": {
           "kills": 8018.9,
-          "mats_value": 4071665.43,
+          "mats_value": 1479610.57,
           "cards_sellable": 0.307,
           "cards_pipeline_z": 388714.88,
-          "lot_expected": 4460380.31,
+          "lot_expected": 1868325.45,
           "zeny_spent": 109048.16,
-          "net": 4351332.15,
-          "pause_until_z": 1784152.12,
-          "keep_shop_until_z": 2676228.19,
+          "net": 1759277.29,
+          "pause_until_z": 747330.18,
+          "keep_shop_until_z": 1120995.27,
           "top_mats": [
-            "Tooth of Bat×142.49",
             "Sticky Mucus×394.6",
-            "Shell×131.53",
             "Orcish Voucher×1397.66",
-            "Cyfar×216.79"
+            "Cyfar×216.79",
+            "Rough Oridecon×6.4"
           ]
         },
         "10": {
           "kills": 11455.5,
-          "mats_value": 5816664.9,
+          "mats_value": 2113729.39,
           "cards_sellable": 0.438,
           "cards_pipeline_z": 555306.96,
-          "lot_expected": 6371971.86,
+          "lot_expected": 2669036.35,
           "zeny_spent": 155783.08,
-          "net": 6216188.78,
-          "pause_until_z": 2548788.74,
-          "keep_shop_until_z": 3823183.12,
+          "net": 2513253.27,
+          "pause_until_z": 1067614.54,
+          "keep_shop_until_z": 1601421.81,
           "top_mats": [
-            "Tooth of Bat×203.56",
             "Sticky Mucus×563.71",
-            "Shell×187.9",
             "Orcish Voucher×1996.66",
-            "Cyfar×309.69"
+            "Cyfar×309.69",
+            "Rough Oridecon×9.14"
           ]
         }
       }
@@ -953,28 +867,22 @@
           "kills_per_day": 570.9,
           "card_min_price": 0,
           "cards_junk": 0,
-          "mats_blocked_npc": 6,
+          "mats_blocked_pool": 9,
+          "mats_blocked_npc": 0,
           "mats_for_sale": [
-            {
-              "name": "Bug Leg",
-              "price": 3998,
-              "p": 0.18504198,
-              "qty_day": 105.6312,
-              "score": 147524.95
-            },
-            {
-              "name": "Green Herb",
-              "price": 1499,
-              "p": 0.05728053,
-              "qty_day": 32.6986,
-              "score": 55256.0
-            },
             {
               "name": "Maneater Blossom",
               "price": 399,
               "p": 0.07729008,
               "qty_day": 44.121,
               "score": 19388.03
+            },
+            {
+              "name": "Rough Elunium",
+              "price": 1000,
+              "p": 0.00657824,
+              "qty_day": 3.7552,
+              "score": 11016.96
             }
           ],
           "cards_top": [
@@ -989,66 +897,62 @@
       "projection": {
         "1": {
           "kills": 570.9,
-          "mats_value": 488933.08,
+          "mats_value": 21359.48,
           "cards_sellable": 0.02,
           "cards_pipeline_z": 19608.68,
-          "lot_expected": 508541.76,
+          "lot_expected": 40968.16,
           "zeny_spent": 25371.53,
-          "net": 483170.23,
-          "pause_until_z": 203416.7,
-          "keep_shop_until_z": 305125.06,
+          "net": 15596.63,
+          "pause_until_z": 16387.26,
+          "keep_shop_until_z": 24580.9,
           "top_mats": [
-            "Bug Leg×105.63",
-            "Green Herb×32.7",
-            "Maneater Blossom×44.12"
+            "Maneater Blossom×44.12",
+            "Rough Elunium×3.76"
           ]
         },
         "3": {
           "kills": 1712.6,
-          "mats_value": 1466799.23,
+          "mats_value": 64078.45,
           "cards_sellable": 0.059,
           "cards_pipeline_z": 58826.03,
-          "lot_expected": 1525625.26,
+          "lot_expected": 122904.48,
           "zeny_spent": 76114.6,
-          "net": 1449510.66,
-          "pause_until_z": 610250.1,
-          "keep_shop_until_z": 915375.16,
+          "net": 46789.88,
+          "pause_until_z": 49161.79,
+          "keep_shop_until_z": 73742.69,
           "top_mats": [
-            "Bug Leg×316.89",
-            "Green Herb×98.1",
-            "Maneater Blossom×132.36"
+            "Maneater Blossom×132.36",
+            "Rough Elunium×11.27"
           ]
         },
         "7": {
           "kills": 3996.0,
-          "mats_value": 3422531.54,
+          "mats_value": 149516.39,
           "cards_sellable": 0.137,
           "cards_pipeline_z": 137260.75,
-          "lot_expected": 3559792.29,
+          "lot_expected": 286777.14,
           "zeny_spent": 177600.74,
-          "net": 3382191.55,
-          "pause_until_z": 1423916.92,
-          "keep_shop_until_z": 2135875.37,
+          "net": 109176.4,
+          "pause_until_z": 114710.86,
+          "keep_shop_until_z": 172066.28,
           "top_mats": [
-            "Bug Leg×739.42",
-            "Green Herb×228.89",
-            "Maneater Blossom×308.85"
+            "Maneater Blossom×308.85",
+            "Rough Elunium×26.29"
           ]
         },
         "10": {
           "kills": 5708.5,
-          "mats_value": 4889330.78,
+          "mats_value": 213594.84,
           "cards_sellable": 0.196,
           "cards_pipeline_z": 196086.78,
-          "lot_expected": 5085417.56,
+          "lot_expected": 409681.62,
           "zeny_spent": 253715.35,
-          "net": 4831702.21,
-          "pause_until_z": 2034167.02,
-          "keep_shop_until_z": 3051250.54,
+          "net": 155966.27,
+          "pause_until_z": 163872.65,
+          "keep_shop_until_z": 245808.97,
           "top_mats": [
-            "Bug Leg×1056.31",
-            "Green Herb×326.99",
-            "Maneater Blossom×441.21"
+            "Maneater Blossom×441.21",
+            "Rough Elunium×37.55"
           ]
         }
       }
@@ -1074,15 +978,9 @@
           "kills_per_day": 1269.1,
           "card_min_price": 0,
           "cards_junk": 0,
-          "mats_blocked_npc": 8,
+          "mats_blocked_pool": 17,
+          "mats_blocked_npc": 0,
           "mats_for_sale": [
-            {
-              "name": "Worm Peeling",
-              "price": 4999,
-              "p": 0.07554945,
-              "qty_day": 95.8798,
-              "score": 134888.07
-            },
             {
               "name": "Sticky Mucus",
               "price": 2000,
@@ -1091,18 +989,18 @@
               "score": 63546.92
             },
             {
-              "name": "Nipper",
-              "price": 1999,
-              "p": 0.15934066,
-              "qty_day": 202.2192,
-              "score": 46551.39
-            },
-            {
               "name": "Tentacle",
               "price": 650,
               "p": 0.04532967,
               "qty_day": 57.5279,
               "score": 17711.57
+            },
+            {
+              "name": "Solid Shell",
+              "price": 1000,
+              "p": 0.00604396,
+              "qty_day": 7.6704,
+              "score": 13640.63
             }
           ],
           "cards_top": [
@@ -1127,70 +1025,66 @@
       "projection": {
         "1": {
           "kills": 1269.1,
-          "mats_value": 972881.94,
+          "mats_value": 97012.93,
           "cards_sellable": 0.044,
           "cards_pipeline_z": 80181.7,
-          "lot_expected": 1053063.64,
+          "lot_expected": 177194.63,
           "zeny_spent": 14496.16,
-          "net": 1038567.48,
-          "pause_until_z": 421225.46,
-          "keep_shop_until_z": 631838.18,
+          "net": 162698.47,
+          "pause_until_z": 70877.85,
+          "keep_shop_until_z": 106316.78,
           "top_mats": [
-            "Worm Peeling×95.88",
-            "Nipper×202.22",
             "Sticky Mucus×25.97",
-            "Tentacle×57.53"
+            "Tentacle×57.53",
+            "Solid Shell×7.67"
           ]
         },
         "3": {
           "kills": 3807.3,
-          "mats_value": 2918645.82,
+          "mats_value": 291038.79,
           "cards_sellable": 0.136,
           "cards_pipeline_z": 240545.11,
-          "lot_expected": 3159190.93,
+          "lot_expected": 531583.9,
           "zeny_spent": 43488.48,
-          "net": 3115702.45,
-          "pause_until_z": 1263676.37,
-          "keep_shop_until_z": 1895514.56,
+          "net": 488095.42,
+          "pause_until_z": 212633.56,
+          "keep_shop_until_z": 318950.34,
           "top_mats": [
-            "Worm Peeling×287.64",
-            "Nipper×606.66",
             "Sticky Mucus×77.92",
-            "Tentacle×172.58"
+            "Tentacle×172.58",
+            "Solid Shell×23.01"
           ]
         },
         "7": {
           "kills": 8883.7,
-          "mats_value": 6810173.58,
+          "mats_value": 679090.51,
           "cards_sellable": 0.318,
           "cards_pipeline_z": 561271.92,
-          "lot_expected": 7371445.5,
+          "lot_expected": 1240362.43,
           "zeny_spent": 101473.12,
-          "net": 7269972.38,
-          "pause_until_z": 2948578.2,
-          "keep_shop_until_z": 4422867.3,
+          "net": 1138889.31,
+          "pause_until_z": 496144.97,
+          "keep_shop_until_z": 744217.46,
           "top_mats": [
-            "Worm Peeling×671.16",
-            "Nipper×1415.53",
             "Sticky Mucus×181.82",
-            "Tentacle×402.7"
+            "Tentacle×402.7",
+            "Solid Shell×53.69"
           ]
         },
         "10": {
           "kills": 12691.0,
-          "mats_value": 9728819.39,
+          "mats_value": 970129.3,
           "cards_sellable": 0.453,
           "cards_pipeline_z": 801817.03,
-          "lot_expected": 10530636.42,
+          "lot_expected": 1771946.33,
           "zeny_spent": 144961.6,
-          "net": 10385674.82,
-          "pause_until_z": 4212254.57,
-          "keep_shop_until_z": 6318381.85,
+          "net": 1626984.73,
+          "pause_until_z": 708778.53,
+          "keep_shop_until_z": 1063167.8,
           "top_mats": [
-            "Worm Peeling×958.8",
-            "Nipper×2022.19",
             "Sticky Mucus×259.75",
-            "Tentacle×575.28"
+            "Tentacle×575.28",
+            "Solid Shell×76.7"
           ]
         }
       }
@@ -1216,7 +1110,8 @@
           "kills_per_day": 564.2,
           "card_min_price": 0,
           "cards_junk": 0,
-          "mats_blocked_npc": 6,
+          "mats_blocked_pool": 9,
+          "mats_blocked_npc": 0,
           "mats_for_sale": [
             {
               "name": "Anolian Skin",
@@ -1347,7 +1242,8 @@
           "kills_per_day": 128.5,
           "card_min_price": 0,
           "cards_junk": 0,
-          "mats_blocked_npc": 4,
+          "mats_blocked_pool": 7,
+          "mats_blocked_npc": 0,
           "mats_for_sale": [
             {
               "name": "Anolian Skin",
@@ -1355,13 +1251,6 @@
               "p": 0.19730303,
               "qty_day": 25.3436,
               "score": 101566.66
-            },
-            {
-              "name": "Tooth of Bat",
-              "price": 14960,
-              "p": 0.01090909,
-              "qty_day": 1.4013,
-              "score": 97708.84
             },
             {
               "name": "Little Evil Wing",
@@ -1383,65 +1272,61 @@
       "projection": {
         "1": {
           "kills": 128.5,
-          "mats_value": 113971.82,
+          "mats_value": 93008.79,
           "cards_sellable": 0.005,
           "cards_pipeline_z": 3176.05,
-          "lot_expected": 117147.87,
+          "lot_expected": 96184.84,
           "zeny_spent": 93406.28,
-          "net": 23741.59,
-          "pause_until_z": 46859.15,
-          "keep_shop_until_z": 70288.72,
+          "net": 2778.56,
+          "pause_until_z": 38473.94,
+          "keep_shop_until_z": 57710.9,
           "top_mats": [
             "Anolian Skin×25.34",
-            "Tooth of Bat×1.4",
             "Little Evil Wing×0.49"
           ]
         },
         "3": {
           "kills": 385.4,
-          "mats_value": 341915.47,
+          "mats_value": 279026.36,
           "cards_sellable": 0.016,
           "cards_pipeline_z": 9528.16,
-          "lot_expected": 351443.63,
+          "lot_expected": 288554.52,
           "zeny_spent": 280218.85,
-          "net": 71224.78,
-          "pause_until_z": 140577.45,
-          "keep_shop_until_z": 210866.18,
+          "net": 8335.67,
+          "pause_until_z": 115421.81,
+          "keep_shop_until_z": 173132.71,
           "top_mats": [
             "Anolian Skin×76.03",
-            "Tooth of Bat×4.2",
             "Little Evil Wing×1.46"
           ]
         },
         "7": {
           "kills": 899.2,
-          "mats_value": 797802.76,
+          "mats_value": 651061.5,
           "cards_sellable": 0.037,
           "cards_pipeline_z": 22232.38,
-          "lot_expected": 820035.14,
+          "lot_expected": 673293.88,
           "zeny_spent": 653843.99,
-          "net": 166191.15,
-          "pause_until_z": 328014.06,
-          "keep_shop_until_z": 492021.08,
+          "net": 19449.89,
+          "pause_until_z": 269317.55,
+          "keep_shop_until_z": 403976.33,
           "top_mats": [
             "Anolian Skin×177.41",
-            "Tooth of Bat×9.81",
             "Little Evil Wing×3.41"
           ]
         },
         "10": {
           "kills": 1284.5,
-          "mats_value": 1139718.23,
+          "mats_value": 930087.85,
           "cards_sellable": 0.053,
           "cards_pipeline_z": 31760.55,
-          "lot_expected": 1171478.78,
+          "lot_expected": 961848.4,
           "zeny_spent": 934062.85,
-          "net": 237415.93,
-          "pause_until_z": 468591.51,
-          "keep_shop_until_z": 702887.27,
+          "net": 27785.55,
+          "pause_until_z": 384739.36,
+          "keep_shop_until_z": 577109.04,
           "top_mats": [
             "Anolian Skin×253.44",
-            "Tooth of Bat×14.01",
             "Little Evil Wing×4.87"
           ]
         }

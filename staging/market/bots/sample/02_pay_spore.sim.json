@@ -51,22 +51,10 @@
         }
       ],
       "drop_types_count": 19,
-      "ev_mats_offer_per_kill": 750.21,
-      "ev_mats_offer_per_day": 2116614.08,
+      "ev_mats_offer_per_kill": 694.14,
+      "ev_mats_offer_per_day": 1958420.74,
       "offer": {
         "mats_for_sale": [
-          {
-            "item_id": 507,
-            "aegis": "Red_Herb",
-            "name": "Red Herb",
-            "type": "Healing",
-            "p_per_map_kill": 0.08228571,
-            "latam_price": 1399,
-            "latam_total_sold": 341095,
-            "has_offers": true,
-            "qty_per_day": 232.1568,
-            "score": 97166.65
-          },
           {
             "item_id": 578,
             "aegis": "Strawberry",
@@ -102,17 +90,22 @@
             "has_offers": true,
             "qty_per_day": 33.3188,
             "score": 55833.72
-          }
-        ],
-        "mats_discarded_count": 2,
-        "mats_discarded_top10": [
+          },
           {
             "item_id": 926,
+            "aegis": "Scale_Of_Snakes",
             "name": "Snake Scale",
-            "price": 500,
+            "type": "Etc",
+            "p_per_map_kill": 0.11809524,
+            "latam_price": 500,
+            "latam_total_sold": 455,
+            "has_offers": true,
             "qty_per_day": 333.188,
             "score": 17791.06
-          },
+          }
+        ],
+        "mats_discarded_count": 1,
+        "mats_discarded_top10": [
           {
             "item_id": 508,
             "name": "Yellow Herb",
@@ -121,27 +114,47 @@
             "score": 12656.99
           }
         ],
-        "mats_blocked_npc_buyable": [
+        "mats_blocked_pool": [
+          {
+            "item_id": 507,
+            "name": "Red Herb",
+            "price_latam": 1399,
+            "reason": "not_in_sellable_pool"
+          },
+          {
+            "item_id": 743,
+            "name": "Spore Doll",
+            "price_latam": 19999,
+            "reason": "not_in_sellable_pool"
+          },
           {
             "item_id": 7033,
             "name": "Poison Spore",
             "price_latam": 400,
-            "reason": "npc_buyable"
+            "reason": "not_in_sellable_pool"
           },
           {
             "item_id": 993,
             "name": "Green Live",
             "price_latam": 3198,
-            "reason": "npc_buyable"
+            "reason": "not_in_sellable_pool"
           },
           {
             "item_id": 1011,
             "name": "Emveretarcon",
             "price_latam": 4852,
-            "reason": "npc_buyable"
+            "reason": "not_in_sellable_pool"
+          },
+          {
+            "item_id": 906,
+            "name": "Pointed Scale",
+            "price_latam": 5000,
+            "reason": "not_in_sellable_pool"
           }
         ],
-        "mats_blocked_npc_count": 3,
+        "mats_blocked_pool_count": 6,
+        "mats_blocked_npc_buyable": [],
+        "mats_blocked_npc_count": 0,
         "cards": [
           {
             "item_id": 4022,
@@ -199,13 +212,6 @@
           "hours": 3.5,
           "mats_stock": [
             {
-              "item_id": 507,
-              "name": "Red Herb",
-              "qty": 232.16,
-              "price": 1399,
-              "stock_value": 324787.35
-            },
-            {
               "item_id": 578,
               "name": "Strawberry",
               "qty": 244.25,
@@ -225,9 +231,16 @@
               "qty": 33.32,
               "price": 1288,
               "stock_value": 42914.6
+            },
+            {
+              "item_id": 926,
+              "name": "Snake Scale",
+              "qty": 333.19,
+              "price": 500,
+              "stock_value": 166594.0
             }
           ],
-          "mats_stock_value_latam": 2116614.08,
+          "mats_stock_value_latam": 1958420.74,
           "cards": [
             {
               "item_id": 4022,
@@ -262,12 +275,12 @@
           ],
           "cards_sellable_total": 1.223,
           "cards_pipeline_value": 108014.82,
-          "lot_expected_value": 2224628.9,
+          "lot_expected_value": 2066435.56,
           "zeny_spent": 9601.69,
-          "net_if_sold_at_latam": 2215027.21,
+          "net_if_sold_at_latam": 2056833.87,
           "gates": {
-            "pause_grind_until_sold_z": 889851.56,
-            "keep_shop_until_sold_z": 1334777.34,
+            "pause_grind_until_sold_z": 826574.22,
+            "keep_shop_until_sold_z": 1239861.34,
             "pause_frac": 0.4,
             "shop_keep_frac": 0.6
           }
@@ -277,13 +290,6 @@
           "kills": 8464.0,
           "hours": 10.5,
           "mats_stock": [
-            {
-              "item_id": 507,
-              "name": "Red Herb",
-              "qty": 696.47,
-              "price": 1399,
-              "stock_value": 974362.04
-            },
             {
               "item_id": 578,
               "name": "Strawberry",
@@ -304,9 +310,16 @@
               "qty": 99.96,
               "price": 1288,
               "stock_value": 128743.8
+            },
+            {
+              "item_id": 926,
+              "name": "Snake Scale",
+              "qty": 999.56,
+              "price": 500,
+              "stock_value": 499782.01
             }
           ],
-          "mats_stock_value_latam": 6349842.25,
+          "mats_stock_value_latam": 5875262.22,
           "cards": [
             {
               "item_id": 4022,
@@ -341,12 +354,12 @@
           ],
           "cards_sellable_total": 3.67,
           "cards_pipeline_value": 324044.46,
-          "lot_expected_value": 6673886.71,
+          "lot_expected_value": 6199306.68,
           "zeny_spent": 28805.07,
-          "net_if_sold_at_latam": 6645081.64,
+          "net_if_sold_at_latam": 6170501.61,
           "gates": {
-            "pause_grind_until_sold_z": 2669554.69,
-            "keep_shop_until_sold_z": 4004332.03,
+            "pause_grind_until_sold_z": 2479722.67,
+            "keep_shop_until_sold_z": 3719584.01,
             "pause_frac": 0.4,
             "shop_keep_frac": 0.6
           }
@@ -356,13 +369,6 @@
           "kills": 19749.5,
           "hours": 24.5,
           "mats_stock": [
-            {
-              "item_id": 507,
-              "name": "Red Herb",
-              "qty": 1625.1,
-              "price": 1399,
-              "stock_value": 2273511.42
-            },
             {
               "item_id": 578,
               "name": "Strawberry",
@@ -383,9 +389,16 @@
               "qty": 233.23,
               "price": 1288,
               "stock_value": 300402.2
+            },
+            {
+              "item_id": 926,
+              "name": "Snake Scale",
+              "qty": 2332.32,
+              "price": 500,
+              "stock_value": 1166158.02
             }
           ],
-          "mats_stock_value_latam": 14816298.59,
+          "mats_stock_value_latam": 13708945.18,
           "cards": [
             {
               "item_id": 4022,
@@ -420,12 +433,12 @@
           ],
           "cards_sellable_total": 8.563,
           "cards_pipeline_value": 756103.74,
-          "lot_expected_value": 15572402.33,
+          "lot_expected_value": 14465048.93,
           "zeny_spent": 67211.83,
-          "net_if_sold_at_latam": 15505190.5,
+          "net_if_sold_at_latam": 14397837.1,
           "gates": {
-            "pause_grind_until_sold_z": 6228960.93,
-            "keep_shop_until_sold_z": 9343441.4,
+            "pause_grind_until_sold_z": 5786019.57,
+            "keep_shop_until_sold_z": 8679029.36,
             "pause_frac": 0.4,
             "shop_keep_frac": 0.6
           }
@@ -435,13 +448,6 @@
           "kills": 28213.5,
           "hours": 35.0,
           "mats_stock": [
-            {
-              "item_id": 507,
-              "name": "Red Herb",
-              "qty": 2321.57,
-              "price": 1399,
-              "stock_value": 3247873.46
-            },
             {
               "item_id": 578,
               "name": "Strawberry",
@@ -462,9 +468,16 @@
               "qty": 333.19,
               "price": 1288,
               "stock_value": 429146.01
+            },
+            {
+              "item_id": 926,
+              "name": "Snake Scale",
+              "qty": 3331.88,
+              "price": 500,
+              "stock_value": 1665940.03
             }
           ],
-          "mats_stock_value_latam": 21166140.84,
+          "mats_stock_value_latam": 19584207.41,
           "cards": [
             {
               "item_id": 4022,
@@ -499,12 +512,12 @@
           ],
           "cards_sellable_total": 12.232,
           "cards_pipeline_value": 1080148.2,
-          "lot_expected_value": 22246289.05,
+          "lot_expected_value": 20664355.61,
           "zeny_spent": 96016.9,
-          "net_if_sold_at_latam": 22150272.15,
+          "net_if_sold_at_latam": 20568338.71,
           "gates": {
-            "pause_grind_until_sold_z": 8898515.62,
-            "keep_shop_until_sold_z": 13347773.43,
+            "pause_grind_until_sold_z": 8265742.24,
+            "keep_shop_until_sold_z": 12398613.37,
             "pause_frac": 0.4,
             "shop_keep_frac": 0.6
           }
@@ -525,18 +538,18 @@
           "stock_value": 1431633.59
         },
         {
-          "item_id": 507,
-          "name": "Red Herb",
-          "qty": 232.16,
-          "price": 1399,
-          "stock_value": 324787.35
-        },
-        {
           "item_id": 578,
           "name": "Strawberry",
           "qty": 244.25,
           "price": 1299,
           "stock_value": 317278.55
+        },
+        {
+          "item_id": 926,
+          "name": "Snake Scale",
+          "qty": 333.19,
+          "price": 500,
+          "stock_value": 166594.0
         },
         {
           "item_id": 937,
@@ -546,7 +559,7 @@
           "stock_value": 42914.6
         }
       ],
-      "mats_stock_value_latam": 2116614.08,
+      "mats_stock_value_latam": 1958420.74,
       "cards": [
         {
           "item_id": 4022,
@@ -581,12 +594,12 @@
       ],
       "cards_sellable_total": 1.223,
       "cards_pipeline_value": 108014.82,
-      "lot_expected_value": 2224628.9,
+      "lot_expected_value": 2066435.56,
       "zeny_spent": 9601.69,
-      "net_if_sold_at_latam": 2215027.21,
+      "net_if_sold_at_latam": 2056833.87,
       "gates": {
-        "pause_grind_until_sold_z": 889851.56,
-        "keep_shop_until_sold_z": 1334777.34
+        "pause_grind_until_sold_z": 826574.22,
+        "keep_shop_until_sold_z": 1239861.34
       }
     },
     "3": {
@@ -601,18 +614,18 @@
           "stock_value": 4294900.77
         },
         {
-          "item_id": 507,
-          "name": "Red Herb",
-          "qty": 696.47,
-          "price": 1399,
-          "stock_value": 974362.04
-        },
-        {
           "item_id": 578,
           "name": "Strawberry",
           "qty": 732.74,
           "price": 1299,
           "stock_value": 951835.64
+        },
+        {
+          "item_id": 926,
+          "name": "Snake Scale",
+          "qty": 999.56,
+          "price": 500,
+          "stock_value": 499782.01
         },
         {
           "item_id": 937,
@@ -622,7 +635,7 @@
           "stock_value": 128743.8
         }
       ],
-      "mats_stock_value_latam": 6349842.25,
+      "mats_stock_value_latam": 5875262.22,
       "cards": [
         {
           "item_id": 4022,
@@ -657,12 +670,12 @@
       ],
       "cards_sellable_total": 3.67,
       "cards_pipeline_value": 324044.46,
-      "lot_expected_value": 6673886.71,
+      "lot_expected_value": 6199306.68,
       "zeny_spent": 28805.07,
-      "net_if_sold_at_latam": 6645081.64,
+      "net_if_sold_at_latam": 6170501.61,
       "gates": {
-        "pause_grind_until_sold_z": 2669554.68,
-        "keep_shop_until_sold_z": 4004332.03
+        "pause_grind_until_sold_z": 2479722.67,
+        "keep_shop_until_sold_z": 3719584.01
       }
     },
     "7": {
@@ -677,18 +690,18 @@
           "stock_value": 10021435.13
         },
         {
-          "item_id": 507,
-          "name": "Red Herb",
-          "qty": 1625.1,
-          "price": 1399,
-          "stock_value": 2273511.42
-        },
-        {
           "item_id": 578,
           "name": "Strawberry",
           "qty": 1709.74,
           "price": 1299,
           "stock_value": 2220949.83
+        },
+        {
+          "item_id": 926,
+          "name": "Snake Scale",
+          "qty": 2332.32,
+          "price": 500,
+          "stock_value": 1166158.02
         },
         {
           "item_id": 937,
@@ -698,7 +711,7 @@
           "stock_value": 300402.2
         }
       ],
-      "mats_stock_value_latam": 14816298.59,
+      "mats_stock_value_latam": 13708945.18,
       "cards": [
         {
           "item_id": 4022,
@@ -733,12 +746,12 @@
       ],
       "cards_sellable_total": 8.563,
       "cards_pipeline_value": 756103.74,
-      "lot_expected_value": 15572402.33,
+      "lot_expected_value": 14465048.92,
       "zeny_spent": 67211.83,
-      "net_if_sold_at_latam": 15505190.5,
+      "net_if_sold_at_latam": 14397837.09,
       "gates": {
-        "pause_grind_until_sold_z": 6228960.93,
-        "keep_shop_until_sold_z": 9343441.4
+        "pause_grind_until_sold_z": 5786019.57,
+        "keep_shop_until_sold_z": 8679029.35
       }
     },
     "10": {
@@ -753,18 +766,18 @@
           "stock_value": 14316335.9
         },
         {
-          "item_id": 507,
-          "name": "Red Herb",
-          "qty": 2321.57,
-          "price": 1399,
-          "stock_value": 3247873.46
-        },
-        {
           "item_id": 578,
           "name": "Strawberry",
           "qty": 2442.48,
           "price": 1299,
           "stock_value": 3172785.47
+        },
+        {
+          "item_id": 926,
+          "name": "Snake Scale",
+          "qty": 3331.88,
+          "price": 500,
+          "stock_value": 1665940.03
         },
         {
           "item_id": 937,
@@ -774,7 +787,7 @@
           "stock_value": 429146.01
         }
       ],
-      "mats_stock_value_latam": 21166140.84,
+      "mats_stock_value_latam": 19584207.41,
       "cards": [
         {
           "item_id": 4022,
@@ -809,12 +822,12 @@
       ],
       "cards_sellable_total": 12.232,
       "cards_pipeline_value": 1080148.2,
-      "lot_expected_value": 22246289.04,
+      "lot_expected_value": 20664355.61,
       "zeny_spent": 96016.9,
-      "net_if_sold_at_latam": 22150272.14,
+      "net_if_sold_at_latam": 20568338.71,
       "gates": {
-        "pause_grind_until_sold_z": 8898515.62,
-        "keep_shop_until_sold_z": 13347773.42
+        "pause_grind_until_sold_z": 8265742.24,
+        "keep_shop_until_sold_z": 12398613.37
       }
     }
   },
@@ -830,18 +843,18 @@
         "stock_value": 14316335.9
       },
       {
-        "item_id": 507,
-        "name": "Red Herb",
-        "qty": 2321.57,
-        "price": 1399,
-        "stock_value": 3247873.46
-      },
-      {
         "item_id": 578,
         "name": "Strawberry",
         "qty": 2442.48,
         "price": 1299,
         "stock_value": 3172785.47
+      },
+      {
+        "item_id": 926,
+        "name": "Snake Scale",
+        "qty": 3331.88,
+        "price": 500,
+        "stock_value": 1665940.03
       },
       {
         "item_id": 937,
@@ -851,7 +864,7 @@
         "stock_value": 429146.01
       }
     ],
-    "mats_stock_value_latam": 21166140.84,
+    "mats_stock_value_latam": 19584207.41,
     "cards": [
       {
         "item_id": 4022,
@@ -886,12 +899,12 @@
     ],
     "cards_sellable_total": 12.232,
     "cards_pipeline_value": 1080148.2,
-    "lot_expected_value": 22246289.04,
+    "lot_expected_value": 20664355.61,
     "zeny_spent": 96016.9,
-    "net_if_sold_at_latam": 22150272.14,
+    "net_if_sold_at_latam": 20568338.71,
     "gates": {
-      "pause_grind_until_sold_z": 8898515.62,
-      "keep_shop_until_sold_z": 13347773.42
+      "pause_grind_until_sold_z": 8265742.24,
+      "keep_shop_until_sold_z": 12398613.37
     }
   }
 }

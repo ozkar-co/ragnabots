@@ -1,0 +1,21 @@
+{
+  "require_grindable": true,
+  "exclude_npc_buyable": true,
+  "mat_types_yaml": [
+    "Ammo",
+    "Delayconsume",
+    "Etc",
+    "Healing",
+    "Usable"
+  ],
+  "mat_types_latam": [
+    "diversos",
+    null,
+    "consumivel"
+  ],
+  "mats_max_price": 12000,
+  "max_markup_vs_yaml_buy": 50.0,
+  "min_latam_sold": 80,
+  "min_latam_price": 300,
+  "notes": "Pool global para elegir muchos bots. Progreso lento: pocos ítems útiles por mapa + rates 1× + activity gate. Ajustar caps aquí, no ad-hoc por bot."
+}

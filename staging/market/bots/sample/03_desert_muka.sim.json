@@ -58,98 +58,90 @@
         }
       ],
       "drop_types_count": 19,
-      "ev_mats_offer_per_kill": 500.13,
-      "ev_mats_offer_per_day": 1216386.41,
+      "ev_mats_offer_per_kill": 260.68,
+      "ev_mats_offer_per_day": 634019.14,
       "offer": {
         "mats_for_sale": [
           {
-            "item_id": 582,
-            "aegis": "Orange",
-            "name": "Orange",
-            "type": "Healing",
-            "p_per_map_kill": 0.01413374,
-            "latam_price": 29998,
-            "latam_total_sold": 207,
-            "has_offers": true,
-            "qty_per_day": 34.3754,
-            "score": 570974.31
-          },
-          {
-            "item_id": 507,
-            "aegis": "Red_Herb",
-            "name": "Red Herb",
-            "type": "Healing",
-            "p_per_map_kill": 0.03674772,
-            "latam_price": 1399,
-            "latam_total_sold": 341095,
-            "has_offers": true,
-            "qty_per_day": 89.376,
-            "score": 80275.07
-          },
-          {
-            "item_id": 935,
-            "aegis": "Shell",
-            "name": "Shell",
-            "type": "Etc",
-            "p_per_map_kill": 0.00706687,
-            "latam_price": 3500,
-            "latam_total_sold": 1874,
-            "has_offers": true,
-            "qty_per_day": 17.1877,
-            "score": 76513.74
-          }
-        ],
-        "mats_discarded_count": 3,
-        "mats_discarded_top10": [
-          {
             "item_id": 952,
+            "aegis": "Cactus_Needle",
             "name": "Cactus Needle",
-            "price": 900,
+            "type": "Etc",
+            "p_per_map_kill": 0.28541033,
+            "latam_price": 900,
+            "latam_total_sold": 90323,
+            "has_offers": true,
             "qty_per_day": 694.1607,
             "score": 67208.63
           },
           {
-            "item_id": 511,
-            "name": "Green Herb",
-            "price": 1499,
-            "qty_per_day": 32.0837,
-            "score": 54966.71
-          },
-          {
             "item_id": 508,
+            "aegis": "Yellow_Herb",
             "name": "Yellow Herb",
-            "price": 1349,
+            "type": "Healing",
+            "p_per_map_kill": 0.00282675,
+            "latam_price": 1349,
+            "latam_total_sold": 33993,
+            "has_offers": true,
             "qty_per_day": 6.8751,
             "score": 29047.42
           }
         ],
-        "mats_blocked_npc_buyable": [
+        "mats_discarded_count": 0,
+        "mats_discarded_top10": [],
+        "mats_blocked_pool": [
           {
             "item_id": 993,
             "name": "Green Live",
             "price_latam": 3198,
-            "reason": "npc_buyable"
+            "reason": "not_in_sellable_pool"
+          },
+          {
+            "item_id": 511,
+            "name": "Green Herb",
+            "price_latam": 1499,
+            "reason": "not_in_sellable_pool"
+          },
+          {
+            "item_id": 507,
+            "name": "Red Herb",
+            "price_latam": 1399,
+            "reason": "not_in_sellable_pool"
           },
           {
             "item_id": 1002,
             "name": "Iron Ore",
             "price_latam": 11000,
-            "reason": "npc_buyable"
+            "reason": "not_in_sellable_pool"
           },
           {
             "item_id": 925,
             "name": "Bill of Birds",
             "price_latam": 416,
-            "reason": "npc_buyable"
+            "reason": "not_in_sellable_pool"
+          },
+          {
+            "item_id": 582,
+            "name": "Orange",
+            "price_latam": 29998,
+            "reason": "not_in_sellable_pool"
           },
           {
             "item_id": 1010,
             "name": "Phracon",
             "price_latam": 45666,
-            "reason": "npc_buyable"
+            "reason": "not_in_sellable_pool"
+          },
+          {
+            "item_id": 935,
+            "name": "Shell",
+            "price_latam": 3500,
+            "reason": "not_in_sellable_pool"
           }
         ],
-        "mats_blocked_npc_count": 4,
+        "mats_blocked_pool_count": 8,
+        "mats_blocked_npc_buyable": [],
+        "mats_blocked_npc_count": 0,
         "cards": [
           {
             "item_id": 4031,
@@ -194,28 +186,21 @@
           "hours": 3.5,
           "mats_stock": [
             {
-              "item_id": 582,
-              "name": "Orange",
-              "qty": 34.38,
-              "price": 29998,
-              "stock_value": 1031192.52
+              "item_id": 952,
+              "name": "Cactus Needle",
+              "qty": 694.16,
+              "price": 900,
+              "stock_value": 624744.66
             },
             {
-              "item_id": 507,
-              "name": "Red Herb",
-              "qty": 89.38,
-              "price": 1399,
-              "stock_value": 125036.98
-            },
-            {
-              "item_id": 935,
-              "name": "Shell",
-              "qty": 17.19,
-              "price": 3500,
-              "stock_value": 60156.91
+              "item_id": 508,
+              "name": "Yellow Herb",
+              "qty": 6.88,
+              "price": 1349,
+              "stock_value": 9274.48
             }
           ],
-          "mats_stock_value_latam": 1216386.41,
+          "mats_stock_value_latam": 634019.14,
           "cards": [
             {
               "item_id": 4031,
@@ -240,12 +225,12 @@
           ],
           "cards_sellable_total": 0.045,
           "cards_pipeline_value": 107711.37,
-          "lot_expected_value": 1324097.77,
+          "lot_expected_value": 741730.51,
           "zeny_spent": 10242.05,
-          "net_if_sold_at_latam": 1313855.72,
+          "net_if_sold_at_latam": 731488.46,
           "gates": {
-            "pause_grind_until_sold_z": 529639.11,
-            "keep_shop_until_sold_z": 794458.66,
+            "pause_grind_until_sold_z": 296692.2,
+            "keep_shop_until_sold_z": 445038.31,
             "pause_frac": 0.4,
             "shop_keep_frac": 0.6
           }
@@ -256,28 +241,21 @@
           "hours": 10.5,
           "mats_stock": [
             {
-              "item_id": 582,
-              "name": "Orange",
-              "qty": 103.13,
-              "price": 29998,
-              "stock_value": 3093577.56
+              "item_id": 952,
+              "name": "Cactus Needle",
+              "qty": 2082.48,
+              "price": 900,
+              "stock_value": 1874233.98
             },
             {
-              "item_id": 507,
-              "name": "Red Herb",
-              "qty": 268.13,
-              "price": 1399,
-              "stock_value": 375110.93
-            },
-            {
-              "item_id": 935,
-              "name": "Shell",
-              "qty": 51.56,
-              "price": 3500,
-              "stock_value": 180470.72
+              "item_id": 508,
+              "name": "Yellow Herb",
+              "qty": 20.63,
+              "price": 1349,
+              "stock_value": 27823.45
             }
           ],
-          "mats_stock_value_latam": 3649159.22,
+          "mats_stock_value_latam": 1902057.43,
           "cards": [
             {
               "item_id": 4031,
@@ -302,12 +280,12 @@
           ],
           "cards_sellable_total": 0.137,
           "cards_pipeline_value": 323134.1,
-          "lot_expected_value": 3972293.32,
+          "lot_expected_value": 2225191.53,
           "zeny_spent": 30726.15,
-          "net_if_sold_at_latam": 3941567.17,
+          "net_if_sold_at_latam": 2194465.38,
           "gates": {
-            "pause_grind_until_sold_z": 1588917.33,
-            "keep_shop_until_sold_z": 2383375.99,
+            "pause_grind_until_sold_z": 890076.61,
+            "keep_shop_until_sold_z": 1335114.92,
             "pause_frac": 0.4,
             "shop_keep_frac": 0.6
           }
@@ -318,28 +296,21 @@
           "hours": 24.5,
           "mats_stock": [
             {
-              "item_id": 582,
-              "name": "Orange",
-              "qty": 240.63,
-              "price": 29998,
-              "stock_value": 7218347.65
+              "item_id": 952,
+              "name": "Cactus Needle",
+              "qty": 4859.13,
+              "price": 900,
+              "stock_value": 4373212.62
             },
             {
-              "item_id": 507,
-              "name": "Red Herb",
-              "qty": 625.63,
-              "price": 1399,
-              "stock_value": 875258.85
-            },
-            {
-              "item_id": 935,
-              "name": "Shell",
-              "qty": 120.31,
-              "price": 3500,
-              "stock_value": 421098.35
+              "item_id": 508,
+              "name": "Yellow Herb",
+              "qty": 48.13,
+              "price": 1349,
+              "stock_value": 64921.38
             }
           ],
-          "mats_stock_value_latam": 8514704.85,
+          "mats_stock_value_latam": 4438134.01,
           "cards": [
             {
               "item_id": 4031,
@@ -364,12 +335,12 @@
           ],
           "cards_sellable_total": 0.321,
           "cards_pipeline_value": 753979.56,
-          "lot_expected_value": 9268684.41,
+          "lot_expected_value": 5192113.56,
           "zeny_spent": 71694.35,
-          "net_if_sold_at_latam": 9196990.06,
+          "net_if_sold_at_latam": 5120419.21,
           "gates": {
-            "pause_grind_until_sold_z": 3707473.76,
-            "keep_shop_until_sold_z": 5561210.64,
+            "pause_grind_until_sold_z": 2076845.42,
+            "keep_shop_until_sold_z": 3115268.14,
             "pause_frac": 0.4,
             "shop_keep_frac": 0.6
           }
@@ -380,28 +351,21 @@
           "hours": 35.0,
           "mats_stock": [
             {
-              "item_id": 582,
-              "name": "Orange",
-              "qty": 343.75,
-              "price": 29998,
-              "stock_value": 10311925.21
+              "item_id": 952,
+              "name": "Cactus Needle",
+              "qty": 6941.61,
+              "price": 900,
+              "stock_value": 6247446.61
             },
             {
-              "item_id": 507,
-              "name": "Red Herb",
-              "qty": 893.76,
-              "price": 1399,
-              "stock_value": 1250369.78
-            },
-            {
-              "item_id": 935,
-              "name": "Shell",
-              "qty": 171.88,
-              "price": 3500,
-              "stock_value": 601569.08
+              "item_id": 508,
+              "name": "Yellow Herb",
+              "qty": 68.75,
+              "price": 1349,
+              "stock_value": 92744.83
             }
           ],
-          "mats_stock_value_latam": 12163864.07,
+          "mats_stock_value_latam": 6340191.44,
           "cards": [
             {
               "item_id": 4031,
@@ -426,12 +390,12 @@
           ],
           "cards_sellable_total": 0.459,
           "cards_pipeline_value": 1077113.65,
-          "lot_expected_value": 13240977.72,
+          "lot_expected_value": 7417305.09,
           "zeny_spent": 102420.5,
-          "net_if_sold_at_latam": 13138557.22,
+          "net_if_sold_at_latam": 7314884.59,
           "gates": {
-            "pause_grind_until_sold_z": 5296391.09,
-            "keep_shop_until_sold_z": 7944586.63,
+            "pause_grind_until_sold_z": 2966922.04,
+            "keep_shop_until_sold_z": 4450383.05,
             "pause_frac": 0.4,
             "shop_keep_frac": 0.6
           }
@@ -445,28 +409,21 @@
       "kills": 2432.2,
       "mats_stock": [
         {
-          "item_id": 582,
-          "name": "Orange",
-          "qty": 34.38,
-          "price": 29998,
-          "stock_value": 1031192.52
+          "item_id": 952,
+          "name": "Cactus Needle",
+          "qty": 694.16,
+          "price": 900,
+          "stock_value": 624744.66
         },
         {
-          "item_id": 507,
-          "name": "Red Herb",
-          "qty": 89.38,
-          "price": 1399,
-          "stock_value": 125036.98
-        },
-        {
-          "item_id": 935,
-          "name": "Shell",
-          "qty": 17.19,
-          "price": 3500,
-          "stock_value": 60156.91
+          "item_id": 508,
+          "name": "Yellow Herb",
+          "qty": 6.88,
+          "price": 1349,
+          "stock_value": 9274.48
         }
       ],
-      "mats_stock_value_latam": 1216386.41,
+      "mats_stock_value_latam": 634019.14,
       "cards": [
         {
           "item_id": 4031,
@@ -491,12 +448,12 @@
       ],
       "cards_sellable_total": 0.045,
       "cards_pipeline_value": 107711.37,
-      "lot_expected_value": 1324097.78,
+      "lot_expected_value": 741730.51,
       "zeny_spent": 10242.05,
-      "net_if_sold_at_latam": 1313855.73,
+      "net_if_sold_at_latam": 731488.46,
       "gates": {
-        "pause_grind_until_sold_z": 529639.11,
-        "keep_shop_until_sold_z": 794458.67
+        "pause_grind_until_sold_z": 296692.2,
+        "keep_shop_until_sold_z": 445038.31
       }
     },
     "3": {
@@ -504,28 +461,21 @@
       "kills": 7296.5,
       "mats_stock": [
         {
-          "item_id": 582,
-          "name": "Orange",
-          "qty": 103.13,
-          "price": 29998,
-          "stock_value": 3093577.56
+          "item_id": 952,
+          "name": "Cactus Needle",
+          "qty": 2082.48,
+          "price": 900,
+          "stock_value": 1874233.98
         },
         {
-          "item_id": 507,
-          "name": "Red Herb",
-          "qty": 268.13,
-          "price": 1399,
-          "stock_value": 375110.93
-        },
-        {
-          "item_id": 935,
-          "name": "Shell",
-          "qty": 51.56,
-          "price": 3500,
-          "stock_value": 180470.72
+          "item_id": 508,
+          "name": "Yellow Herb",
+          "qty": 20.63,
+          "price": 1349,
+          "stock_value": 27823.45
         }
       ],
-      "mats_stock_value_latam": 3649159.22,
+      "mats_stock_value_latam": 1902057.43,
       "cards": [
         {
           "item_id": 4031,
@@ -550,12 +500,12 @@
       ],
       "cards_sellable_total": 0.137,
       "cards_pipeline_value": 323134.1,
-      "lot_expected_value": 3972293.32,
+      "lot_expected_value": 2225191.53,
       "zeny_spent": 30726.15,
-      "net_if_sold_at_latam": 3941567.17,
+      "net_if_sold_at_latam": 2194465.38,
       "gates": {
-        "pause_grind_until_sold_z": 1588917.33,
-        "keep_shop_until_sold_z": 2383375.99
+        "pause_grind_until_sold_z": 890076.61,
+        "keep_shop_until_sold_z": 1335114.92
       }
     },
     "7": {
@@ -563,28 +513,21 @@
       "kills": 17025.0,
       "mats_stock": [
         {
-          "item_id": 582,
-          "name": "Orange",
-          "qty": 240.63,
-          "price": 29998,
-          "stock_value": 7218347.65
+          "item_id": 952,
+          "name": "Cactus Needle",
+          "qty": 4859.13,
+          "price": 900,
+          "stock_value": 4373212.62
         },
         {
-          "item_id": 507,
-          "name": "Red Herb",
-          "qty": 625.63,
-          "price": 1399,
-          "stock_value": 875258.85
-        },
-        {
-          "item_id": 935,
-          "name": "Shell",
-          "qty": 120.31,
-          "price": 3500,
-          "stock_value": 421098.35
+          "item_id": 508,
+          "name": "Yellow Herb",
+          "qty": 48.13,
+          "price": 1349,
+          "stock_value": 64921.38
         }
       ],
-      "mats_stock_value_latam": 8514704.85,
+      "mats_stock_value_latam": 4438134.01,
       "cards": [
         {
           "item_id": 4031,
@@ -609,12 +552,12 @@
       ],
       "cards_sellable_total": 0.321,
       "cards_pipeline_value": 753979.56,
-      "lot_expected_value": 9268684.41,
+      "lot_expected_value": 5192113.57,
       "zeny_spent": 71694.35,
-      "net_if_sold_at_latam": 9196990.06,
+      "net_if_sold_at_latam": 5120419.22,
       "gates": {
-        "pause_grind_until_sold_z": 3707473.76,
-        "keep_shop_until_sold_z": 5561210.65
+        "pause_grind_until_sold_z": 2076845.43,
+        "keep_shop_until_sold_z": 3115268.14
       }
     },
     "10": {
@@ -622,28 +565,21 @@
       "kills": 24321.5,
       "mats_stock": [
         {
-          "item_id": 582,
-          "name": "Orange",
-          "qty": 343.75,
-          "price": 29998,
-          "stock_value": 10311925.21
+          "item_id": 952,
+          "name": "Cactus Needle",
+          "qty": 6941.61,
+          "price": 900,
+          "stock_value": 6247446.61
         },
         {
-          "item_id": 507,
-          "name": "Red Herb",
-          "qty": 893.76,
-          "price": 1399,
-          "stock_value": 1250369.78
-        },
-        {
-          "item_id": 935,
-          "name": "Shell",
-          "qty": 171.88,
-          "price": 3500,
-          "stock_value": 601569.08
+          "item_id": 508,
+          "name": "Yellow Herb",
+          "qty": 68.75,
+          "price": 1349,
+          "stock_value": 92744.83
         }
       ],
-      "mats_stock_value_latam": 12163864.07,
+      "mats_stock_value_latam": 6340191.44,
       "cards": [
         {
           "item_id": 4031,
@@ -668,12 +604,12 @@
       ],
       "cards_sellable_total": 0.459,
       "cards_pipeline_value": 1077113.65,
-      "lot_expected_value": 13240977.72,
+      "lot_expected_value": 7417305.09,
       "zeny_spent": 102420.5,
-      "net_if_sold_at_latam": 13138557.22,
+      "net_if_sold_at_latam": 7314884.59,
       "gates": {
-        "pause_grind_until_sold_z": 5296391.09,
-        "keep_shop_until_sold_z": 7944586.63
+        "pause_grind_until_sold_z": 2966922.04,
+        "keep_shop_until_sold_z": 4450383.05
       }
     }
   },
@@ -682,28 +618,21 @@
     "kills": 24321.5,
     "mats_stock": [
       {
-        "item_id": 582,
-        "name": "Orange",
-        "qty": 343.75,
-        "price": 29998,
-        "stock_value": 10311925.21
+        "item_id": 952,
+        "name": "Cactus Needle",
+        "qty": 6941.61,
+        "price": 900,
+        "stock_value": 6247446.61
       },
       {
-        "item_id": 507,
-        "name": "Red Herb",
-        "qty": 893.76,
-        "price": 1399,
-        "stock_value": 1250369.78
-      },
-      {
-        "item_id": 935,
-        "name": "Shell",
-        "qty": 171.88,
-        "price": 3500,
-        "stock_value": 601569.08
+        "item_id": 508,
+        "name": "Yellow Herb",
+        "qty": 68.75,
+        "price": 1349,
+        "stock_value": 92744.83
       }
     ],
-    "mats_stock_value_latam": 12163864.07,
+    "mats_stock_value_latam": 6340191.44,
     "cards": [
       {
         "item_id": 4031,
@@ -728,12 +657,12 @@
     ],
     "cards_sellable_total": 0.459,
     "cards_pipeline_value": 1077113.65,
-    "lot_expected_value": 13240977.72,
+    "lot_expected_value": 7417305.09,
     "zeny_spent": 102420.5,
-    "net_if_sold_at_latam": 13138557.22,
+    "net_if_sold_at_latam": 7314884.59,
     "gates": {
-      "pause_grind_until_sold_z": 5296391.09,
-      "keep_shop_until_sold_z": 7944586.63
+      "pause_grind_until_sold_z": 2966922.04,
+      "keep_shop_until_sold_z": 4450383.05
     }
   }
 }

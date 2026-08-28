@@ -86,46 +86,10 @@
         }
       ],
       "drop_types_count": 33,
-      "ev_mats_offer_per_kill": 1736.43,
-      "ev_mats_offer_per_day": 3483617.54,
+      "ev_mats_offer_per_kill": 72.9,
+      "ev_mats_offer_per_day": 146255.1,
       "offer": {
         "mats_for_sale": [
-          {
-            "item_id": 913,
-            "aegis": "Tooth_Of_Bat",
-            "name": "Tooth of Bat",
-            "type": "Etc",
-            "p_per_map_kill": 0.02433628,
-            "latam_price": 14960,
-            "latam_total_sold": 1729,
-            "has_offers": true,
-            "qty_per_day": 48.8234,
-            "score": 435952.16
-          },
-          {
-            "item_id": 955,
-            "aegis": "Worm_Peelings",
-            "name": "Worm Peeling",
-            "type": "Etc",
-            "p_per_map_kill": 0.23340708,
-            "latam_price": 4999,
-            "latam_total_sold": 364,
-            "has_offers": true,
-            "qty_per_day": 468.2613,
-            "score": 181419.76
-          },
-          {
-            "item_id": 935,
-            "aegis": "Shell",
-            "name": "Shell",
-            "type": "Etc",
-            "p_per_map_kill": 0.03849558,
-            "latam_price": 3500,
-            "latam_total_sold": 1874,
-            "has_offers": true,
-            "qty_per_day": 77.2298,
-            "score": 114995.71
-          },
           {
             "item_id": 938,
             "aegis": "Sticky_Mucus",
@@ -137,24 +101,22 @@
             "has_offers": true,
             "qty_per_day": 71.0381,
             "score": 82491.92
-          }
-        ],
-        "mats_discarded_count": 5,
-        "mats_discarded_top10": [
-          {
-            "item_id": 507,
-            "name": "Red Herb",
-            "price": 1399,
-            "qty_per_day": 6.2139,
-            "score": 35218.72
           },
           {
             "item_id": 518,
+            "aegis": "Honey",
             "name": "Honey",
-            "price": 2690,
+            "type": "Healing",
+            "p_per_map_kill": 0.00077434,
+            "latam_price": 2690,
+            "latam_total_sold": 33581,
+            "has_offers": true,
             "qty_per_day": 1.5535,
             "score": 26281.15
-          },
+          }
+        ],
+        "mats_discarded_count": 3,
+        "mats_discarded_top10": [
           {
             "item_id": 756,
             "name": "Rough Oridecon",
@@ -177,81 +139,113 @@
             "score": 564.99
           }
         ],
-        "mats_blocked_npc_buyable": [
+        "mats_blocked_pool": [
           {
             "item_id": 1010,
             "name": "Phracon",
             "price_latam": 45666,
-            "reason": "npc_buyable"
+            "reason": "not_in_sellable_pool"
+          },
+          {
+            "item_id": 935,
+            "name": "Shell",
+            "price_latam": 3500,
+            "reason": "not_in_sellable_pool"
           },
           {
             "item_id": 909,
             "name": "Jellopy",
             "price_latam": 2099,
-            "reason": "npc_buyable"
+            "reason": "not_in_sellable_pool"
           },
           {
             "item_id": 1002,
             "name": "Iron Ore",
             "price_latam": 11000,
-            "reason": "npc_buyable"
+            "reason": "not_in_sellable_pool"
+          },
+          {
+            "item_id": 955,
+            "name": "Worm Peeling",
+            "price_latam": 4999,
+            "reason": "not_in_sellable_pool"
           },
           {
             "item_id": 910,
             "name": "Garlet",
             "price_latam": 2500,
-            "reason": "npc_buyable"
+            "reason": "not_in_sellable_pool"
           },
           {
             "item_id": 992,
             "name": "Wind of Verdure",
             "price_latam": 2899,
-            "reason": "npc_buyable"
+            "reason": "not_in_sellable_pool"
           },
           {
             "item_id": 990,
             "name": "Red Blood",
             "price_latam": 4950,
-            "reason": "npc_buyable"
+            "reason": "not_in_sellable_pool"
+          },
+          {
+            "item_id": 913,
+            "name": "Tooth of Bat",
+            "price_latam": 14960,
+            "reason": "not_in_sellable_pool"
+          },
+          {
+            "item_id": 514,
+            "name": "Grape",
+            "price_latam": 193008,
+            "reason": "not_in_sellable_pool"
+          },
+          {
+            "item_id": 507,
+            "name": "Red Herb",
+            "price_latam": 1399,
+            "reason": "not_in_sellable_pool"
           },
           {
             "item_id": 645,
             "name": "Concentration Potion",
             "price_latam": 1050,
-            "reason": "npc_buyable"
+            "reason": "not_in_sellable_pool"
           },
           {
             "item_id": 993,
             "name": "Green Live",
             "price_latam": 3198,
-            "reason": "npc_buyable"
+            "reason": "not_in_sellable_pool"
           },
           {
             "item_id": 911,
             "name": "Scell",
             "price_latam": 2500,
-            "reason": "npc_buyable"
+            "reason": "not_in_sellable_pool"
           },
           {
             "item_id": 526,
             "name": "Royal Jelly",
             "price_latam": 9831,
-            "reason": "npc_buyable"
+            "reason": "not_in_sellable_pool"
           },
           {
             "item_id": 1003,
             "name": "Coal",
             "price_latam": 6399,
-            "reason": "npc_buyable"
+            "reason": "not_in_sellable_pool"
           },
           {
             "item_id": 1001,
             "name": "Star Dust",
             "price_latam": 55000,
-            "reason": "npc_buyable"
+            "reason": "not_in_sellable_pool"
           }
         ],
-        "mats_blocked_npc_count": 12,
+        "mats_blocked_pool_count": 17,
+        "mats_blocked_npc_buyable": [],
+        "mats_blocked_npc_count": 0,
         "cards": [
           {
             "item_id": 4043,
@@ -309,35 +303,21 @@
           "hours": 3.5,
           "mats_stock": [
             {
-              "item_id": 913,
-              "name": "Tooth of Bat",
-              "qty": 48.82,
-              "price": 14960,
-              "stock_value": 730398.74
-            },
-            {
-              "item_id": 955,
-              "name": "Worm Peeling",
-              "qty": 468.26,
-              "price": 4999,
-              "stock_value": 2340838.16
-            },
-            {
-              "item_id": 935,
-              "name": "Shell",
-              "qty": 77.23,
-              "price": 3500,
-              "stock_value": 270304.41
-            },
-            {
               "item_id": 938,
               "name": "Sticky Mucus",
               "qty": 71.04,
               "price": 2000,
               "stock_value": 142076.24
+            },
+            {
+              "item_id": 518,
+              "name": "Honey",
+              "qty": 1.55,
+              "price": 2690,
+              "stock_value": 4178.86
             }
           ],
-          "mats_stock_value_latam": 3483617.54,
+          "mats_stock_value_latam": 146255.1,
           "cards": [
             {
               "item_id": 4043,
@@ -372,12 +352,12 @@
           ],
           "cards_sellable_total": 0.092,
           "cards_pipeline_value": 300277.95,
-          "lot_expected_value": 3783895.49,
+          "lot_expected_value": 446533.05,
           "zeny_spent": 11227.12,
-          "net_if_sold_at_latam": 3772668.37,
+          "net_if_sold_at_latam": 435305.92,
           "gates": {
-            "pause_grind_until_sold_z": 1513558.2,
-            "keep_shop_until_sold_z": 2270337.29,
+            "pause_grind_until_sold_z": 178613.22,
+            "keep_shop_until_sold_z": 267919.83,
             "pause_frac": 0.4,
             "shop_keep_frac": 0.6
           }
@@ -388,35 +368,21 @@
           "hours": 10.5,
           "mats_stock": [
             {
-              "item_id": 913,
-              "name": "Tooth of Bat",
-              "qty": 146.47,
-              "price": 14960,
-              "stock_value": 2191196.21
-            },
-            {
-              "item_id": 955,
-              "name": "Worm Peeling",
-              "qty": 1404.78,
-              "price": 4999,
-              "stock_value": 7022514.47
-            },
-            {
-              "item_id": 935,
-              "name": "Shell",
-              "qty": 231.69,
-              "price": 3500,
-              "stock_value": 810913.24
-            },
-            {
               "item_id": 938,
               "name": "Sticky Mucus",
               "qty": 213.11,
               "price": 2000,
               "stock_value": 426228.71
+            },
+            {
+              "item_id": 518,
+              "name": "Honey",
+              "qty": 4.66,
+              "price": 2690,
+              "stock_value": 12536.59
             }
           ],
-          "mats_stock_value_latam": 10450852.63,
+          "mats_stock_value_latam": 438765.3,
           "cards": [
             {
               "item_id": 4043,
@@ -451,12 +417,12 @@
           ],
           "cards_sellable_total": 0.277,
           "cards_pipeline_value": 900833.84,
-          "lot_expected_value": 11351686.47,
+          "lot_expected_value": 1339599.14,
           "zeny_spent": 33681.38,
-          "net_if_sold_at_latam": 11318005.1,
+          "net_if_sold_at_latam": 1305917.76,
           "gates": {
-            "pause_grind_until_sold_z": 4540674.59,
-            "keep_shop_until_sold_z": 6811011.88,
+            "pause_grind_until_sold_z": 535839.65,
+            "keep_shop_until_sold_z": 803759.48,
             "pause_frac": 0.4,
             "shop_keep_frac": 0.6
           }
@@ -467,35 +433,21 @@
           "hours": 24.5,
           "mats_stock": [
             {
-              "item_id": 913,
-              "name": "Tooth of Bat",
-              "qty": 341.76,
-              "price": 14960,
-              "stock_value": 5112791.15
-            },
-            {
-              "item_id": 955,
-              "name": "Worm Peeling",
-              "qty": 3277.83,
-              "price": 4999,
-              "stock_value": 16385867.11
-            },
-            {
-              "item_id": 935,
-              "name": "Shell",
-              "qty": 540.61,
-              "price": 3500,
-              "stock_value": 1892130.9
-            },
-            {
               "item_id": 938,
               "name": "Sticky Mucus",
               "qty": 497.27,
               "price": 2000,
               "stock_value": 994533.65
+            },
+            {
+              "item_id": 518,
+              "name": "Honey",
+              "qty": 10.87,
+              "price": 2690,
+              "stock_value": 29252.05
             }
           ],
-          "mats_stock_value_latam": 24385322.81,
+          "mats_stock_value_latam": 1023785.69,
           "cards": [
             {
               "item_id": 4043,
@@ -530,12 +482,12 @@
           ],
           "cards_sellable_total": 0.646,
           "cards_pipeline_value": 2101945.62,
-          "lot_expected_value": 26487268.43,
+          "lot_expected_value": 3125731.32,
           "zeny_spent": 78589.88,
-          "net_if_sold_at_latam": 26408678.56,
+          "net_if_sold_at_latam": 3047141.44,
           "gates": {
-            "pause_grind_until_sold_z": 10594907.37,
-            "keep_shop_until_sold_z": 15892361.06,
+            "pause_grind_until_sold_z": 1250292.53,
+            "keep_shop_until_sold_z": 1875438.79,
             "pause_frac": 0.4,
             "shop_keep_frac": 0.6
           }
@@ -546,35 +498,21 @@
           "hours": 35.0,
           "mats_stock": [
             {
-              "item_id": 913,
-              "name": "Tooth of Bat",
-              "qty": 488.23,
-              "price": 14960,
-              "stock_value": 7303987.36
-            },
-            {
-              "item_id": 955,
-              "name": "Worm Peeling",
-              "qty": 4682.61,
-              "price": 4999,
-              "stock_value": 23408381.58
-            },
-            {
-              "item_id": 935,
-              "name": "Shell",
-              "qty": 772.3,
-              "price": 3500,
-              "stock_value": 2703044.14
-            },
-            {
               "item_id": 938,
               "name": "Sticky Mucus",
               "qty": 710.38,
               "price": 2000,
               "stock_value": 1420762.35
+            },
+            {
+              "item_id": 518,
+              "name": "Honey",
+              "qty": 15.53,
+              "price": 2690,
+              "stock_value": 41788.64
             }
           ],
-          "mats_stock_value_latam": 34836175.44,
+          "mats_stock_value_latam": 1462550.99,
           "cards": [
             {
               "item_id": 4043,
@@ -609,12 +547,12 @@
           ],
           "cards_sellable_total": 0.923,
           "cards_pipeline_value": 3002779.46,
-          "lot_expected_value": 37838954.9,
+          "lot_expected_value": 4465330.45,
           "zeny_spent": 112271.25,
-          "net_if_sold_at_latam": 37726683.65,
+          "net_if_sold_at_latam": 4353059.2,
           "gates": {
-            "pause_grind_until_sold_z": 15135581.96,
-            "keep_shop_until_sold_z": 22703372.94,
+            "pause_grind_until_sold_z": 1786132.18,
+            "keep_shop_until_sold_z": 2679198.27,
             "pause_frac": 0.4,
             "shop_keep_frac": 0.6
           }
@@ -628,35 +566,21 @@
       "kills": 2006.2,
       "mats_stock": [
         {
-          "item_id": 955,
-          "name": "Worm Peeling",
-          "qty": 468.26,
-          "price": 4999,
-          "stock_value": 2340838.16
-        },
-        {
-          "item_id": 913,
-          "name": "Tooth of Bat",
-          "qty": 48.82,
-          "price": 14960,
-          "stock_value": 730398.74
-        },
-        {
-          "item_id": 935,
-          "name": "Shell",
-          "qty": 77.23,
-          "price": 3500,
-          "stock_value": 270304.41
-        },
-        {
           "item_id": 938,
           "name": "Sticky Mucus",
           "qty": 71.04,
           "price": 2000,
           "stock_value": 142076.24
+        },
+        {
+          "item_id": 518,
+          "name": "Honey",
+          "qty": 1.55,
+          "price": 2690,
+          "stock_value": 4178.86
         }
       ],
-      "mats_stock_value_latam": 3483617.54,
+      "mats_stock_value_latam": 146255.1,
       "cards": [
         {
           "item_id": 4043,
@@ -691,12 +615,12 @@
       ],
       "cards_sellable_total": 0.092,
       "cards_pipeline_value": 300277.95,
-      "lot_expected_value": 3783895.49,
+      "lot_expected_value": 446533.05,
       "zeny_spent": 11227.12,
-      "net_if_sold_at_latam": 3772668.37,
+      "net_if_sold_at_latam": 435305.93,
       "gates": {
-        "pause_grind_until_sold_z": 1513558.2,
-        "keep_shop_until_sold_z": 2270337.29
+        "pause_grind_until_sold_z": 178613.22,
+        "keep_shop_until_sold_z": 267919.83
       }
     },
     "3": {
@@ -704,35 +628,21 @@
       "kills": 6018.6,
       "mats_stock": [
         {
-          "item_id": 955,
-          "name": "Worm Peeling",
-          "qty": 1404.78,
-          "price": 4999,
-          "stock_value": 7022514.47
-        },
-        {
-          "item_id": 913,
-          "name": "Tooth of Bat",
-          "qty": 146.47,
-          "price": 14960,
-          "stock_value": 2191196.21
-        },
-        {
-          "item_id": 935,
-          "name": "Shell",
-          "qty": 231.69,
-          "price": 3500,
-          "stock_value": 810913.24
-        },
-        {
           "item_id": 938,
           "name": "Sticky Mucus",
           "qty": 213.11,
           "price": 2000,
           "stock_value": 426228.71
+        },
+        {
+          "item_id": 518,
+          "name": "Honey",
+          "qty": 4.66,
+          "price": 2690,
+          "stock_value": 12536.59
         }
       ],
-      "mats_stock_value_latam": 10450852.63,
+      "mats_stock_value_latam": 438765.3,
       "cards": [
         {
           "item_id": 4043,
@@ -767,12 +677,12 @@
       ],
       "cards_sellable_total": 0.277,
       "cards_pipeline_value": 900833.84,
-      "lot_expected_value": 11351686.47,
+      "lot_expected_value": 1339599.14,
       "zeny_spent": 33681.38,
-      "net_if_sold_at_latam": 11318005.09,
+      "net_if_sold_at_latam": 1305917.76,
       "gates": {
-        "pause_grind_until_sold_z": 4540674.59,
-        "keep_shop_until_sold_z": 6811011.88
+        "pause_grind_until_sold_z": 535839.66,
+        "keep_shop_until_sold_z": 803759.48
       }
     },
     "7": {
@@ -780,35 +690,21 @@
       "kills": 14043.4,
       "mats_stock": [
         {
-          "item_id": 955,
-          "name": "Worm Peeling",
-          "qty": 3277.83,
-          "price": 4999,
-          "stock_value": 16385867.11
-        },
-        {
-          "item_id": 913,
-          "name": "Tooth of Bat",
-          "qty": 341.76,
-          "price": 14960,
-          "stock_value": 5112791.15
-        },
-        {
-          "item_id": 935,
-          "name": "Shell",
-          "qty": 540.61,
-          "price": 3500,
-          "stock_value": 1892130.9
-        },
-        {
           "item_id": 938,
           "name": "Sticky Mucus",
           "qty": 497.27,
           "price": 2000,
           "stock_value": 994533.65
+        },
+        {
+          "item_id": 518,
+          "name": "Honey",
+          "qty": 10.87,
+          "price": 2690,
+          "stock_value": 29252.05
         }
       ],
-      "mats_stock_value_latam": 24385322.81,
+      "mats_stock_value_latam": 1023785.69,
       "cards": [
         {
           "item_id": 4043,
@@ -843,12 +739,12 @@
       ],
       "cards_sellable_total": 0.646,
       "cards_pipeline_value": 2101945.62,
-      "lot_expected_value": 26487268.43,
+      "lot_expected_value": 3125731.31,
       "zeny_spent": 78589.88,
-      "net_if_sold_at_latam": 26408678.55,
+      "net_if_sold_at_latam": 3047141.43,
       "gates": {
-        "pause_grind_until_sold_z": 10594907.37,
-        "keep_shop_until_sold_z": 15892361.06
+        "pause_grind_until_sold_z": 1250292.52,
+        "keep_shop_until_sold_z": 1875438.79
       }
     },
     "10": {
@@ -856,35 +752,21 @@
       "kills": 20062.0,
       "mats_stock": [
         {
-          "item_id": 955,
-          "name": "Worm Peeling",
-          "qty": 4682.61,
-          "price": 4999,
-          "stock_value": 23408381.58
-        },
-        {
-          "item_id": 913,
-          "name": "Tooth of Bat",
-          "qty": 488.23,
-          "price": 14960,
-          "stock_value": 7303987.36
-        },
-        {
-          "item_id": 935,
-          "name": "Shell",
-          "qty": 772.3,
-          "price": 3500,
-          "stock_value": 2703044.14
-        },
-        {
           "item_id": 938,
           "name": "Sticky Mucus",
           "qty": 710.38,
           "price": 2000,
           "stock_value": 1420762.35
+        },
+        {
+          "item_id": 518,
+          "name": "Honey",
+          "qty": 15.53,
+          "price": 2690,
+          "stock_value": 41788.64
         }
       ],
-      "mats_stock_value_latam": 34836175.44,
+      "mats_stock_value_latam": 1462550.99,
       "cards": [
         {
           "item_id": 4043,
@@ -919,12 +801,12 @@
       ],
       "cards_sellable_total": 0.923,
       "cards_pipeline_value": 3002779.46,
-      "lot_expected_value": 37838954.9,
+      "lot_expected_value": 4465330.45,
       "zeny_spent": 112271.25,
-      "net_if_sold_at_latam": 37726683.65,
+      "net_if_sold_at_latam": 4353059.2,
       "gates": {
-        "pause_grind_until_sold_z": 15135581.96,
-        "keep_shop_until_sold_z": 22703372.94
+        "pause_grind_until_sold_z": 1786132.18,
+        "keep_shop_until_sold_z": 2679198.27
       }
     }
   },
@@ -933,35 +815,21 @@
     "kills": 20062.0,
     "mats_stock": [
       {
-        "item_id": 955,
-        "name": "Worm Peeling",
-        "qty": 4682.61,
-        "price": 4999,
-        "stock_value": 23408381.58
-      },
-      {
-        "item_id": 913,
-        "name": "Tooth of Bat",
-        "qty": 488.23,
-        "price": 14960,
-        "stock_value": 7303987.36
-      },
-      {
-        "item_id": 935,
-        "name": "Shell",
-        "qty": 772.3,
-        "price": 3500,
-        "stock_value": 2703044.14
-      },
-      {
         "item_id": 938,
         "name": "Sticky Mucus",
         "qty": 710.38,
         "price": 2000,
         "stock_value": 1420762.35
+      },
+      {
+        "item_id": 518,
+        "name": "Honey",
+        "qty": 15.53,
+        "price": 2690,
+        "stock_value": 41788.64
       }
     ],
-    "mats_stock_value_latam": 34836175.44,
+    "mats_stock_value_latam": 1462550.99,
     "cards": [
       {
         "item_id": 4043,
@@ -996,12 +864,12 @@
     ],
     "cards_sellable_total": 0.923,
     "cards_pipeline_value": 3002779.46,
-    "lot_expected_value": 37838954.9,
+    "lot_expected_value": 4465330.45,
     "zeny_spent": 112271.25,
-    "net_if_sold_at_latam": 37726683.65,
+    "net_if_sold_at_latam": 4353059.2,
     "gates": {
-      "pause_grind_until_sold_z": 15135581.96,
-      "keep_shop_until_sold_z": 22703372.94
+      "pause_grind_until_sold_z": 1786132.18,
+      "keep_shop_until_sold_z": 2679198.27
     }
   }
 }

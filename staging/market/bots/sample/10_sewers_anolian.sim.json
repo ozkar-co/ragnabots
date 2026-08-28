@@ -58,8 +58,8 @@
         }
       ],
       "drop_types_count": 22,
-      "ev_mats_offer_per_kill": 887.29,
-      "ev_mats_offer_per_day": 113971.82,
+      "ev_mats_offer_per_kill": 724.09,
+      "ev_mats_offer_per_day": 93008.79,
       "offer": {
         "mats_for_sale": [
           {
@@ -75,18 +75,6 @@
             "score": 101566.66
           },
           {
-            "item_id": 913,
-            "aegis": "Tooth_Of_Bat",
-            "name": "Tooth of Bat",
-            "type": "Etc",
-            "p_per_map_kill": 0.01090909,
-            "latam_price": 14960,
-            "latam_total_sold": 1729,
-            "has_offers": true,
-            "qty_per_day": 1.4013,
-            "score": 97708.84
-          },
-          {
             "item_id": 1039,
             "aegis": "Petite_DiablOfs_Wing",
             "name": "Little Evil Wing",
@@ -99,15 +87,8 @@
             "score": 15899.51
           }
         ],
-        "mats_discarded_count": 3,
+        "mats_discarded_count": 2,
         "mats_discarded_top10": [
-          {
-            "item_id": 507,
-            "name": "Red Herb",
-            "price": 1399,
-            "qty_per_day": 0.8875,
-            "score": 11321.95
-          },
           {
             "item_id": 757,
             "name": "Rough Elunium",
@@ -123,33 +104,53 @@
             "score": 1205.52
           }
         ],
-        "mats_blocked_npc_buyable": [
+        "mats_blocked_pool": [
           {
             "item_id": 12012,
             "name": "Crystal Arrow Quiver",
             "price_latam": 9545,
-            "reason": "npc_buyable"
+            "reason": "not_in_sellable_pool"
           },
           {
             "item_id": 526,
             "name": "Royal Jelly",
             "price_latam": 9831,
-            "reason": "npc_buyable"
+            "reason": "not_in_sellable_pool"
           },
           {
             "item_id": 984,
             "name": "Oridecon",
             "price_latam": 18000,
-            "reason": "npc_buyable"
+            "reason": "not_in_sellable_pool"
           },
           {
             "item_id": 912,
             "name": "Zargon",
             "price_latam": 1790,
-            "reason": "npc_buyable"
+            "reason": "not_in_sellable_pool"
+          },
+          {
+            "item_id": 913,
+            "name": "Tooth of Bat",
+            "price_latam": 14960,
+            "reason": "not_in_sellable_pool"
+          },
+          {
+            "item_id": 725,
+            "name": "Sardonyx",
+            "price_latam": 3236,
+            "reason": "not_in_sellable_pool"
+          },
+          {
+            "item_id": 507,
+            "name": "Red Herb",
+            "price_latam": 1399,
+            "reason": "not_in_sellable_pool"
           }
         ],
-        "mats_blocked_npc_count": 4,
+        "mats_blocked_pool_count": 7,
+        "mats_blocked_npc_buyable": [],
+        "mats_blocked_npc_count": 0,
         "cards": [
           {
             "item_id": 4234,
@@ -188,13 +189,6 @@
               "stock_value": 90020.38
             },
             {
-              "item_id": 913,
-              "name": "Tooth of Bat",
-              "qty": 1.4,
-              "price": 14960,
-              "stock_value": 20963.04
-            },
-            {
               "item_id": 1039,
               "name": "Little Evil Wing",
               "qty": 0.49,
@@ -202,7 +196,7 @@
               "stock_value": 2988.41
             }
           ],
-          "mats_stock_value_latam": 113971.82,
+          "mats_stock_value_latam": 93008.79,
           "cards": [
             {
               "item_id": 4234,
@@ -217,12 +211,12 @@
           ],
           "cards_sellable_total": 0.005,
           "cards_pipeline_value": 3176.05,
-          "lot_expected_value": 117147.88,
+          "lot_expected_value": 96184.84,
           "zeny_spent": 93406.28,
-          "net_if_sold_at_latam": 23741.59,
+          "net_if_sold_at_latam": 2778.55,
           "gates": {
-            "pause_grind_until_sold_z": 46859.15,
-            "keep_shop_until_sold_z": 70288.73,
+            "pause_grind_until_sold_z": 38473.94,
+            "keep_shop_until_sold_z": 57710.9,
             "pause_frac": 0.4,
             "shop_keep_frac": 0.6
           }
@@ -240,13 +234,6 @@
               "stock_value": 270061.13
             },
             {
-              "item_id": 913,
-              "name": "Tooth of Bat",
-              "qty": 4.2,
-              "price": 14960,
-              "stock_value": 62889.11
-            },
-            {
               "item_id": 1039,
               "name": "Little Evil Wing",
               "qty": 1.46,
@@ -254,7 +241,7 @@
               "stock_value": 8965.23
             }
           ],
-          "mats_stock_value_latam": 341915.47,
+          "mats_stock_value_latam": 279026.36,
           "cards": [
             {
               "item_id": 4234,
@@ -269,12 +256,12 @@
           ],
           "cards_sellable_total": 0.016,
           "cards_pipeline_value": 9528.16,
-          "lot_expected_value": 351443.63,
+          "lot_expected_value": 288554.52,
           "zeny_spent": 280218.85,
-          "net_if_sold_at_latam": 71224.78,
+          "net_if_sold_at_latam": 8335.66,
           "gates": {
-            "pause_grind_until_sold_z": 140577.45,
-            "keep_shop_until_sold_z": 210866.18,
+            "pause_grind_until_sold_z": 115421.81,
+            "keep_shop_until_sold_z": 173132.71,
             "pause_frac": 0.4,
             "shop_keep_frac": 0.6
           }
@@ -292,13 +279,6 @@
               "stock_value": 630142.63
             },
             {
-              "item_id": 913,
-              "name": "Tooth of Bat",
-              "qty": 9.81,
-              "price": 14960,
-              "stock_value": 146741.27
-            },
-            {
               "item_id": 1039,
               "name": "Little Evil Wing",
               "qty": 3.41,
@@ -306,7 +286,7 @@
               "stock_value": 20918.87
             }
           ],
-          "mats_stock_value_latam": 797802.76,
+          "mats_stock_value_latam": 651061.5,
           "cards": [
             {
               "item_id": 4234,
@@ -321,12 +301,12 @@
           ],
           "cards_sellable_total": 0.037,
           "cards_pipeline_value": 22232.38,
-          "lot_expected_value": 820035.15,
+          "lot_expected_value": 673293.88,
           "zeny_spent": 653843.99,
-          "net_if_sold_at_latam": 166191.15,
+          "net_if_sold_at_latam": 19449.88,
           "gates": {
-            "pause_grind_until_sold_z": 328014.06,
-            "keep_shop_until_sold_z": 492021.09,
+            "pause_grind_until_sold_z": 269317.55,
+            "keep_shop_until_sold_z": 403976.33,
             "pause_frac": 0.4,
             "shop_keep_frac": 0.6
           }
@@ -344,13 +324,6 @@
               "stock_value": 900203.76
             },
             {
-              "item_id": 913,
-              "name": "Tooth of Bat",
-              "qty": 14.01,
-              "price": 14960,
-              "stock_value": 209630.38
-            },
-            {
               "item_id": 1039,
               "name": "Little Evil Wing",
               "qty": 4.87,
@@ -358,7 +331,7 @@
               "stock_value": 29884.1
             }
           ],
-          "mats_stock_value_latam": 1139718.23,
+          "mats_stock_value_latam": 930087.85,
           "cards": [
             {
               "item_id": 4234,
@@ -373,12 +346,12 @@
           ],
           "cards_sellable_total": 0.053,
           "cards_pipeline_value": 31760.55,
-          "lot_expected_value": 1171478.78,
+          "lot_expected_value": 961848.4,
           "zeny_spent": 934062.85,
-          "net_if_sold_at_latam": 237415.93,
+          "net_if_sold_at_latam": 27785.55,
           "gates": {
-            "pause_grind_until_sold_z": 468591.51,
-            "keep_shop_until_sold_z": 702887.27,
+            "pause_grind_until_sold_z": 384739.36,
+            "keep_shop_until_sold_z": 577109.04,
             "pause_frac": 0.4,
             "shop_keep_frac": 0.6
           }
@@ -399,13 +372,6 @@
           "stock_value": 90020.38
         },
         {
-          "item_id": 913,
-          "name": "Tooth of Bat",
-          "qty": 1.4,
-          "price": 14960,
-          "stock_value": 20963.04
-        },
-        {
           "item_id": 1039,
           "name": "Little Evil Wing",
           "qty": 0.49,
@@ -413,7 +379,7 @@
           "stock_value": 2988.41
         }
       ],
-      "mats_stock_value_latam": 113971.82,
+      "mats_stock_value_latam": 93008.79,
       "cards": [
         {
           "item_id": 4234,
@@ -428,12 +394,12 @@
       ],
       "cards_sellable_total": 0.005,
       "cards_pipeline_value": 3176.05,
-      "lot_expected_value": 117147.87,
+      "lot_expected_value": 96184.84,
       "zeny_spent": 93406.28,
-      "net_if_sold_at_latam": 23741.59,
+      "net_if_sold_at_latam": 2778.56,
       "gates": {
-        "pause_grind_until_sold_z": 46859.15,
-        "keep_shop_until_sold_z": 70288.72
+        "pause_grind_until_sold_z": 38473.94,
+        "keep_shop_until_sold_z": 57710.9
       }
     },
     "3": {
@@ -448,13 +414,6 @@
           "stock_value": 270061.13
         },
         {
-          "item_id": 913,
-          "name": "Tooth of Bat",
-          "qty": 4.2,
-          "price": 14960,
-          "stock_value": 62889.11
-        },
-        {
           "item_id": 1039,
           "name": "Little Evil Wing",
           "qty": 1.46,
@@ -462,7 +421,7 @@
           "stock_value": 8965.23
         }
       ],
-      "mats_stock_value_latam": 341915.47,
+      "mats_stock_value_latam": 279026.36,
       "cards": [
         {
           "item_id": 4234,
@@ -477,12 +436,12 @@
       ],
       "cards_sellable_total": 0.016,
       "cards_pipeline_value": 9528.16,
-      "lot_expected_value": 351443.63,
+      "lot_expected_value": 288554.52,
       "zeny_spent": 280218.85,
-      "net_if_sold_at_latam": 71224.78,
+      "net_if_sold_at_latam": 8335.67,
       "gates": {
-        "pause_grind_until_sold_z": 140577.45,
-        "keep_shop_until_sold_z": 210866.18
+        "pause_grind_until_sold_z": 115421.81,
+        "keep_shop_until_sold_z": 173132.71
       }
     },
     "7": {
@@ -497,13 +456,6 @@
           "stock_value": 630142.63
         },
         {
-          "item_id": 913,
-          "name": "Tooth of Bat",
-          "qty": 9.81,
-          "price": 14960,
-          "stock_value": 146741.27
-        },
-        {
           "item_id": 1039,
           "name": "Little Evil Wing",
           "qty": 3.41,
@@ -511,7 +463,7 @@
           "stock_value": 20918.87
         }
       ],
-      "mats_stock_value_latam": 797802.76,
+      "mats_stock_value_latam": 651061.5,
       "cards": [
         {
           "item_id": 4234,
@@ -526,12 +478,12 @@
       ],
       "cards_sellable_total": 0.037,
       "cards_pipeline_value": 22232.38,
-      "lot_expected_value": 820035.14,
+      "lot_expected_value": 673293.88,
       "zeny_spent": 653843.99,
-      "net_if_sold_at_latam": 166191.15,
+      "net_if_sold_at_latam": 19449.89,
       "gates": {
-        "pause_grind_until_sold_z": 328014.06,
-        "keep_shop_until_sold_z": 492021.08
+        "pause_grind_until_sold_z": 269317.55,
+        "keep_shop_until_sold_z": 403976.33
       }
     },
     "10": {
@@ -546,13 +498,6 @@
           "stock_value": 900203.76
         },
         {
-          "item_id": 913,
-          "name": "Tooth of Bat",
-          "qty": 14.01,
-          "price": 14960,
-          "stock_value": 209630.38
-        },
-        {
           "item_id": 1039,
           "name": "Little Evil Wing",
           "qty": 4.87,
@@ -560,7 +505,7 @@
           "stock_value": 29884.1
         }
       ],
-      "mats_stock_value_latam": 1139718.23,
+      "mats_stock_value_latam": 930087.85,
       "cards": [
         {
           "item_id": 4234,
@@ -575,12 +520,12 @@
       ],
       "cards_sellable_total": 0.053,
       "cards_pipeline_value": 31760.55,
-      "lot_expected_value": 1171478.78,
+      "lot_expected_value": 961848.4,
       "zeny_spent": 934062.85,
-      "net_if_sold_at_latam": 237415.93,
+      "net_if_sold_at_latam": 27785.55,
       "gates": {
-        "pause_grind_until_sold_z": 468591.51,
-        "keep_shop_until_sold_z": 702887.27
+        "pause_grind_until_sold_z": 384739.36,
+        "keep_shop_until_sold_z": 577109.04
       }
     }
   },
@@ -596,13 +541,6 @@
         "stock_value": 900203.76
       },
       {
-        "item_id": 913,
-        "name": "Tooth of Bat",
-        "qty": 14.01,
-        "price": 14960,
-        "stock_value": 209630.38
-      },
-      {
         "item_id": 1039,
         "name": "Little Evil Wing",
         "qty": 4.87,
@@ -610,7 +548,7 @@
         "stock_value": 29884.1
       }
     ],
-    "mats_stock_value_latam": 1139718.23,
+    "mats_stock_value_latam": 930087.85,
     "cards": [
       {
         "item_id": 4234,
@@ -625,12 +563,12 @@
     ],
     "cards_sellable_total": 0.053,
     "cards_pipeline_value": 31760.55,
-    "lot_expected_value": 1171478.78,
+    "lot_expected_value": 961848.4,
     "zeny_spent": 934062.85,
-    "net_if_sold_at_latam": 237415.93,
+    "net_if_sold_at_latam": 27785.55,
     "gates": {
-      "pause_grind_until_sold_z": 468591.51,
-      "keep_shop_until_sold_z": 702887.27
+      "pause_grind_until_sold_z": 384739.36,
+      "keep_shop_until_sold_z": 577109.04
     }
   }
 }

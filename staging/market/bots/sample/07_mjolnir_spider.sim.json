@@ -58,34 +58,10 @@
         }
       ],
       "drop_types_count": 20,
-      "ev_mats_offer_per_kill": 856.5,
-      "ev_mats_offer_per_day": 488933.08,
+      "ev_mats_offer_per_kill": 37.42,
+      "ev_mats_offer_per_day": 21359.48,
       "offer": {
         "mats_for_sale": [
-          {
-            "item_id": 1042,
-            "aegis": "Short_Leg",
-            "name": "Bug Leg",
-            "type": "Etc",
-            "p_per_map_kill": 0.18504198,
-            "latam_price": 3998,
-            "latam_total_sold": 2703,
-            "has_offers": true,
-            "qty_per_day": 105.6312,
-            "score": 147524.95
-          },
-          {
-            "item_id": 511,
-            "aegis": "Green_Herb",
-            "name": "Green Herb",
-            "type": "Healing",
-            "p_per_map_kill": 0.05728053,
-            "latam_price": 1499,
-            "latam_total_sold": 35585,
-            "has_offers": true,
-            "qty_per_day": 32.6986,
-            "score": 55256.0
-          },
           {
             "item_id": 1032,
             "aegis": "Blossom_Of_Maneater",
@@ -97,17 +73,22 @@
             "has_offers": true,
             "qty_per_day": 44.121,
             "score": 19388.03
-          }
-        ],
-        "mats_discarded_count": 2,
-        "mats_discarded_top10": [
+          },
           {
             "item_id": 757,
+            "aegis": "Elunium_Stone",
             "name": "Rough Elunium",
-            "price": 1000,
+            "type": "Etc",
+            "p_per_map_kill": 0.00657824,
+            "latam_price": 1000,
+            "latam_total_sold": 1170,
+            "has_offers": true,
             "qty_per_day": 3.7552,
             "score": 11016.96
-          },
+          }
+        ],
+        "mats_discarded_count": 1,
+        "mats_discarded_top10": [
           {
             "item_id": 521,
             "name": "Aloe Leaflet",
@@ -116,45 +97,65 @@
             "score": 1463.9
           }
         ],
-        "mats_blocked_npc_buyable": [
+        "mats_blocked_pool": [
+          {
+            "item_id": 1042,
+            "name": "Bug Leg",
+            "price_latam": 3998,
+            "reason": "not_in_sellable_pool"
+          },
           {
             "item_id": 912,
             "name": "Zargon",
             "price_latam": 1790,
-            "reason": "npc_buyable"
+            "reason": "not_in_sellable_pool"
+          },
+          {
+            "item_id": 511,
+            "name": "Green Herb",
+            "price_latam": 1499,
+            "reason": "not_in_sellable_pool"
           },
           {
             "item_id": 719,
             "name": "Amethyst",
             "price_latam": 3500,
-            "reason": "npc_buyable"
+            "reason": "not_in_sellable_pool"
           },
           {
             "item_id": 1025,
             "name": "Cobweb",
             "price_latam": 6114,
-            "reason": "npc_buyable"
+            "reason": "not_in_sellable_pool"
           },
           {
             "item_id": 911,
             "name": "Scell",
             "price_latam": 2500,
-            "reason": "npc_buyable"
+            "reason": "not_in_sellable_pool"
+          },
+          {
+            "item_id": 629,
+            "name": "Singing Flower",
+            "price_latam": 45001,
+            "reason": "not_in_sellable_pool"
           },
           {
             "item_id": 905,
             "name": "Stem",
             "price_latam": 1190,
-            "reason": "npc_buyable"
+            "reason": "not_in_sellable_pool"
           },
           {
             "item_id": 748,
             "name": "Witherless Rose",
             "price_latam": 79999,
-            "reason": "npc_buyable"
+            "reason": "not_in_sellable_pool"
           }
         ],
-        "mats_blocked_npc_count": 6,
+        "mats_blocked_pool_count": 9,
+        "mats_blocked_npc_buyable": [],
+        "mats_blocked_npc_count": 0,
         "cards": [
           {
             "item_id": 4114,
@@ -186,28 +187,21 @@
           "hours": 3.5,
           "mats_stock": [
             {
-              "item_id": 1042,
-              "name": "Bug Leg",
-              "qty": 105.63,
-              "price": 3998,
-              "stock_value": 422313.59
-            },
-            {
-              "item_id": 511,
-              "name": "Green Herb",
-              "qty": 32.7,
-              "price": 1499,
-              "stock_value": 49015.19
-            },
-            {
               "item_id": 1032,
               "name": "Maneater Blossom",
               "qty": 44.12,
               "price": 399,
               "stock_value": 17604.3
+            },
+            {
+              "item_id": 757,
+              "name": "Rough Elunium",
+              "qty": 3.76,
+              "price": 1000,
+              "stock_value": 3755.19
             }
           ],
-          "mats_stock_value_latam": 488933.08,
+          "mats_stock_value_latam": 21359.48,
           "cards": [
             {
               "item_id": 4114,
@@ -222,12 +216,12 @@
           ],
           "cards_sellable_total": 0.02,
           "cards_pipeline_value": 19608.68,
-          "lot_expected_value": 508541.76,
+          "lot_expected_value": 40968.16,
           "zeny_spent": 25371.53,
-          "net_if_sold_at_latam": 483170.22,
+          "net_if_sold_at_latam": 15596.63,
           "gates": {
-            "pause_grind_until_sold_z": 203416.7,
-            "keep_shop_until_sold_z": 305125.05,
+            "pause_grind_until_sold_z": 16387.26,
+            "keep_shop_until_sold_z": 24580.9,
             "pause_frac": 0.4,
             "shop_keep_frac": 0.6
           }
@@ -238,28 +232,21 @@
           "hours": 10.5,
           "mats_stock": [
             {
-              "item_id": 1042,
-              "name": "Bug Leg",
-              "qty": 316.89,
-              "price": 3998,
-              "stock_value": 1266940.78
-            },
-            {
-              "item_id": 511,
-              "name": "Green Herb",
-              "qty": 98.1,
-              "price": 1499,
-              "stock_value": 147045.56
-            },
-            {
               "item_id": 1032,
               "name": "Maneater Blossom",
               "qty": 132.36,
               "price": 399,
               "stock_value": 52812.89
+            },
+            {
+              "item_id": 757,
+              "name": "Rough Elunium",
+              "qty": 11.27,
+              "price": 1000,
+              "stock_value": 11265.56
             }
           ],
-          "mats_stock_value_latam": 1466799.23,
+          "mats_stock_value_latam": 64078.45,
           "cards": [
             {
               "item_id": 4114,
@@ -274,12 +261,12 @@
           ],
           "cards_sellable_total": 0.059,
           "cards_pipeline_value": 58826.03,
-          "lot_expected_value": 1525625.27,
+          "lot_expected_value": 122904.49,
           "zeny_spent": 76114.6,
-          "net_if_sold_at_latam": 1449510.66,
+          "net_if_sold_at_latam": 46789.88,
           "gates": {
-            "pause_grind_until_sold_z": 610250.11,
-            "keep_shop_until_sold_z": 915375.16,
+            "pause_grind_until_sold_z": 49161.79,
+            "keep_shop_until_sold_z": 73742.69,
             "pause_frac": 0.4,
             "shop_keep_frac": 0.6
           }
@@ -290,28 +277,21 @@
           "hours": 24.5,
           "mats_stock": [
             {
-              "item_id": 1042,
-              "name": "Bug Leg",
-              "qty": 739.42,
-              "price": 3998,
-              "stock_value": 2956195.16
-            },
-            {
-              "item_id": 511,
-              "name": "Green Herb",
-              "qty": 228.89,
-              "price": 1499,
-              "stock_value": 343106.31
-            },
-            {
               "item_id": 1032,
               "name": "Maneater Blossom",
               "qty": 308.85,
               "price": 399,
               "stock_value": 123230.07
+            },
+            {
+              "item_id": 757,
+              "name": "Rough Elunium",
+              "qty": 26.29,
+              "price": 1000,
+              "stock_value": 26286.32
             }
           ],
-          "mats_stock_value_latam": 3422531.54,
+          "mats_stock_value_latam": 149516.39,
           "cards": [
             {
               "item_id": 4114,
@@ -326,12 +306,12 @@
           ],
           "cards_sellable_total": 0.137,
           "cards_pipeline_value": 137260.75,
-          "lot_expected_value": 3559792.29,
+          "lot_expected_value": 286777.13,
           "zeny_spent": 177600.74,
-          "net_if_sold_at_latam": 3382191.54,
+          "net_if_sold_at_latam": 109176.39,
           "gates": {
-            "pause_grind_until_sold_z": 1423916.92,
-            "keep_shop_until_sold_z": 2135875.37,
+            "pause_grind_until_sold_z": 114710.85,
+            "keep_shop_until_sold_z": 172066.28,
             "pause_frac": 0.4,
             "shop_keep_frac": 0.6
           }
@@ -342,28 +322,21 @@
           "hours": 35.0,
           "mats_stock": [
             {
-              "item_id": 1042,
-              "name": "Bug Leg",
-              "qty": 1056.31,
-              "price": 3998,
-              "stock_value": 4223135.95
-            },
-            {
-              "item_id": 511,
-              "name": "Green Herb",
-              "qty": 326.99,
-              "price": 1499,
-              "stock_value": 490151.87
-            },
-            {
               "item_id": 1032,
               "name": "Maneater Blossom",
               "qty": 441.21,
               "price": 399,
               "stock_value": 176042.96
+            },
+            {
+              "item_id": 757,
+              "name": "Rough Elunium",
+              "qty": 37.55,
+              "price": 1000,
+              "stock_value": 37551.88
             }
           ],
-          "mats_stock_value_latam": 4889330.78,
+          "mats_stock_value_latam": 213594.84,
           "cards": [
             {
               "item_id": 4114,
@@ -378,12 +351,12 @@
           ],
           "cards_sellable_total": 0.196,
           "cards_pipeline_value": 196086.78,
-          "lot_expected_value": 5085417.56,
+          "lot_expected_value": 409681.62,
           "zeny_spent": 253715.35,
-          "net_if_sold_at_latam": 4831702.21,
+          "net_if_sold_at_latam": 155966.27,
           "gates": {
-            "pause_grind_until_sold_z": 2034167.02,
-            "keep_shop_until_sold_z": 3051250.53,
+            "pause_grind_until_sold_z": 163872.65,
+            "keep_shop_until_sold_z": 245808.97,
             "pause_frac": 0.4,
             "shop_keep_frac": 0.6
           }
@@ -397,28 +370,21 @@
       "kills": 570.9,
       "mats_stock": [
         {
-          "item_id": 1042,
-          "name": "Bug Leg",
-          "qty": 105.63,
-          "price": 3998,
-          "stock_value": 422313.59
-        },
-        {
-          "item_id": 511,
-          "name": "Green Herb",
-          "qty": 32.7,
-          "price": 1499,
-          "stock_value": 49015.19
-        },
-        {
           "item_id": 1032,
           "name": "Maneater Blossom",
           "qty": 44.12,
           "price": 399,
           "stock_value": 17604.3
+        },
+        {
+          "item_id": 757,
+          "name": "Rough Elunium",
+          "qty": 3.76,
+          "price": 1000,
+          "stock_value": 3755.19
         }
       ],
-      "mats_stock_value_latam": 488933.08,
+      "mats_stock_value_latam": 21359.48,
       "cards": [
         {
           "item_id": 4114,
@@ -433,12 +399,12 @@
       ],
       "cards_sellable_total": 0.02,
       "cards_pipeline_value": 19608.68,
-      "lot_expected_value": 508541.76,
+      "lot_expected_value": 40968.16,
       "zeny_spent": 25371.53,
-      "net_if_sold_at_latam": 483170.23,
+      "net_if_sold_at_latam": 15596.63,
       "gates": {
-        "pause_grind_until_sold_z": 203416.7,
-        "keep_shop_until_sold_z": 305125.06
+        "pause_grind_until_sold_z": 16387.26,
+        "keep_shop_until_sold_z": 24580.9
       }
     },
     "3": {
@@ -446,28 +412,21 @@
       "kills": 1712.6,
       "mats_stock": [
         {
-          "item_id": 1042,
-          "name": "Bug Leg",
-          "qty": 316.89,
-          "price": 3998,
-          "stock_value": 1266940.78
-        },
-        {
-          "item_id": 511,
-          "name": "Green Herb",
-          "qty": 98.1,
-          "price": 1499,
-          "stock_value": 147045.56
-        },
-        {
           "item_id": 1032,
           "name": "Maneater Blossom",
           "qty": 132.36,
           "price": 399,
           "stock_value": 52812.89
+        },
+        {
+          "item_id": 757,
+          "name": "Rough Elunium",
+          "qty": 11.27,
+          "price": 1000,
+          "stock_value": 11265.56
         }
       ],
-      "mats_stock_value_latam": 1466799.23,
+      "mats_stock_value_latam": 64078.45,
       "cards": [
         {
           "item_id": 4114,
@@ -482,12 +441,12 @@
       ],
       "cards_sellable_total": 0.059,
       "cards_pipeline_value": 58826.03,
-      "lot_expected_value": 1525625.26,
+      "lot_expected_value": 122904.48,
       "zeny_spent": 76114.6,
-      "net_if_sold_at_latam": 1449510.66,
+      "net_if_sold_at_latam": 46789.88,
       "gates": {
-        "pause_grind_until_sold_z": 610250.1,
-        "keep_shop_until_sold_z": 915375.16
+        "pause_grind_until_sold_z": 49161.79,
+        "keep_shop_until_sold_z": 73742.69
       }
     },
     "7": {
@@ -495,28 +454,21 @@
       "kills": 3996.0,
       "mats_stock": [
         {
-          "item_id": 1042,
-          "name": "Bug Leg",
-          "qty": 739.42,
-          "price": 3998,
-          "stock_value": 2956195.16
-        },
-        {
-          "item_id": 511,
-          "name": "Green Herb",
-          "qty": 228.89,
-          "price": 1499,
-          "stock_value": 343106.31
-        },
-        {
           "item_id": 1032,
           "name": "Maneater Blossom",
           "qty": 308.85,
           "price": 399,
           "stock_value": 123230.07
+        },
+        {
+          "item_id": 757,
+          "name": "Rough Elunium",
+          "qty": 26.29,
+          "price": 1000,
+          "stock_value": 26286.32
         }
       ],
-      "mats_stock_value_latam": 3422531.54,
+      "mats_stock_value_latam": 149516.39,
       "cards": [
         {
           "item_id": 4114,
@@ -531,12 +483,12 @@
       ],
       "cards_sellable_total": 0.137,
       "cards_pipeline_value": 137260.75,
-      "lot_expected_value": 3559792.29,
+      "lot_expected_value": 286777.14,
       "zeny_spent": 177600.74,
-      "net_if_sold_at_latam": 3382191.55,
+      "net_if_sold_at_latam": 109176.4,
       "gates": {
-        "pause_grind_until_sold_z": 1423916.92,
-        "keep_shop_until_sold_z": 2135875.37
+        "pause_grind_until_sold_z": 114710.86,
+        "keep_shop_until_sold_z": 172066.28
       }
     },
     "10": {
@@ -544,28 +496,21 @@
       "kills": 5708.5,
       "mats_stock": [
         {
-          "item_id": 1042,
-          "name": "Bug Leg",
-          "qty": 1056.31,
-          "price": 3998,
-          "stock_value": 4223135.95
-        },
-        {
-          "item_id": 511,
-          "name": "Green Herb",
-          "qty": 326.99,
-          "price": 1499,
-          "stock_value": 490151.87
-        },
-        {
           "item_id": 1032,
           "name": "Maneater Blossom",
           "qty": 441.21,
           "price": 399,
           "stock_value": 176042.96
+        },
+        {
+          "item_id": 757,
+          "name": "Rough Elunium",
+          "qty": 37.55,
+          "price": 1000,
+          "stock_value": 37551.88
         }
       ],
-      "mats_stock_value_latam": 4889330.78,
+      "mats_stock_value_latam": 213594.84,
       "cards": [
         {
           "item_id": 4114,
@@ -580,12 +525,12 @@
       ],
       "cards_sellable_total": 0.196,
       "cards_pipeline_value": 196086.78,
-      "lot_expected_value": 5085417.56,
+      "lot_expected_value": 409681.62,
       "zeny_spent": 253715.35,
-      "net_if_sold_at_latam": 4831702.21,
+      "net_if_sold_at_latam": 155966.27,
       "gates": {
-        "pause_grind_until_sold_z": 2034167.02,
-        "keep_shop_until_sold_z": 3051250.54
+        "pause_grind_until_sold_z": 163872.65,
+        "keep_shop_until_sold_z": 245808.97
       }
     }
   },
@@ -594,28 +539,21 @@
     "kills": 5708.5,
     "mats_stock": [
       {
-        "item_id": 1042,
-        "name": "Bug Leg",
-        "qty": 1056.31,
-        "price": 3998,
-        "stock_value": 4223135.95
-      },
-      {
-        "item_id": 511,
-        "name": "Green Herb",
-        "qty": 326.99,
-        "price": 1499,
-        "stock_value": 490151.87
-      },
-      {
         "item_id": 1032,
         "name": "Maneater Blossom",
         "qty": 441.21,
         "price": 399,
         "stock_value": 176042.96
+      },
+      {
+        "item_id": 757,
+        "name": "Rough Elunium",
+        "qty": 37.55,
+        "price": 1000,
+        "stock_value": 37551.88
       }
     ],
-    "mats_stock_value_latam": 4889330.78,
+    "mats_stock_value_latam": 213594.84,
     "cards": [
       {
         "item_id": 4114,
@@ -630,12 +568,12 @@
     ],
     "cards_sellable_total": 0.196,
     "cards_pipeline_value": 196086.78,
-    "lot_expected_value": 5085417.56,
+    "lot_expected_value": 409681.62,
     "zeny_spent": 253715.35,
-    "net_if_sold_at_latam": 4831702.21,
+    "net_if_sold_at_latam": 155966.27,
     "gates": {
-      "pause_grind_until_sold_z": 2034167.02,
-      "keep_shop_until_sold_z": 3051250.54
+      "pause_grind_until_sold_z": 163872.65,
+      "keep_shop_until_sold_z": 245808.97
     }
   }
 }

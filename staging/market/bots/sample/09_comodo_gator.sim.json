@@ -151,45 +151,65 @@
             "score": 55.56
           }
         ],
-        "mats_blocked_npc_buyable": [
+        "mats_blocked_pool": [
           {
             "item_id": 912,
             "name": "Zargon",
             "price_latam": 1790,
-            "reason": "npc_buyable"
+            "reason": "not_in_sellable_pool"
+          },
+          {
+            "item_id": 1099,
+            "name": "Worn-out Prison Uniform",
+            "price_latam": 5000,
+            "reason": "not_in_sellable_pool"
           },
           {
             "item_id": 608,
             "name": "Yggdrasil Seed",
             "price_latam": 43000,
-            "reason": "npc_buyable"
+            "reason": "not_in_sellable_pool"
+          },
+          {
+            "item_id": 629,
+            "name": "Singing Flower",
+            "price_latam": 45001,
+            "reason": "not_in_sellable_pool"
           },
           {
             "item_id": 905,
             "name": "Stem",
             "price_latam": 1190,
-            "reason": "npc_buyable"
+            "reason": "not_in_sellable_pool"
           },
           {
             "item_id": 748,
             "name": "Witherless Rose",
             "price_latam": 79999,
-            "reason": "npc_buyable"
+            "reason": "not_in_sellable_pool"
+          },
+          {
+            "item_id": 930,
+            "name": "Rotten Bandage",
+            "price_latam": 8025,
+            "reason": "not_in_sellable_pool"
           },
           {
             "item_id": 7938,
             "name": "Light Granule",
             "price_latam": 9990,
-            "reason": "npc_buyable"
+            "reason": "not_in_sellable_pool"
           },
           {
             "item_id": 971,
             "name": "Detrimindexta",
             "price_latam": 1000,
-            "reason": "npc_buyable"
+            "reason": "not_in_sellable_pool"
           }
         ],
-        "mats_blocked_npc_count": 6,
+        "mats_blocked_pool_count": 9,
+        "mats_blocked_npc_buyable": [],
+        "mats_blocked_npc_count": 0,
         "cards": [
           {
             "item_id": 4252,

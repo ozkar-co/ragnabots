@@ -1,0 +1,607 @@
+{
+  "price_cap": [
+    {
+      "item_id": 711,
+      "name": "Shoot",
+      "price": 27417
+    },
+    {
+      "item_id": 7561,
+      "name": "Glacial Heart",
+      "price": 15000
+    },
+    {
+      "item_id": 6962,
+      "name": "Tanque Velho",
+      "price": 88828
+    },
+    {
+      "item_id": 514,
+      "name": "Grape",
+      "price": 193008
+    },
+    {
+      "item_id": 582,
+      "name": "Orange",
+      "price": 29998
+    },
+    {
+      "item_id": 662,
+      "name": "Authoritative Badge",
+      "price": 50000
+    },
+    {
+      "item_id": 7326,
+      "name": "Fluorescent Liquid",
+      "price": 14990
+    },
+    {
+      "item_id": 533,
+      "name": "Grape Juice",
+      "price": 27937
+    },
+    {
+      "item_id": 710,
+      "name": "Illusion Flower",
+      "price": 100000
+    },
+    {
+      "item_id": 532,
+      "name": "Banana Juice",
+      "price": 221251
+    },
+    {
+      "item_id": 996,
+      "name": "Rough Wind",
+      "price": 18999
+    },
+    {
+      "item_id": 944,
+      "name": "Horseshoe",
+      "price": 19899
+    },
+    {
+      "item_id": 7210,
+      "name": "Armor Piece of Dullahan",
+      "price": 19997
+    },
+    {
+      "item_id": 7182,
+      "name": "Cacao",
+      "price": 49000
+    },
+    {
+      "item_id": 6961,
+      "name": "Bloco de Sucata",
+      "price": 500000
+    },
+    {
+      "item_id": 753,
+      "name": "Yoyo Doll",
+      "price": 150000
+    },
+    {
+      "item_id": 7197,
+      "name": "Tough Vines",
+      "price": 48999
+    },
+    {
+      "item_id": 7213,
+      "name": "Needle Packet",
+      "price": 16000
+    },
+    {
+      "item_id": 6471,
+      "name": "Frio dos Mortos",
+      "price": 99999
+    },
+    {
+      "item_id": 12040,
+      "name": "Stone of Sage",
+      "price": 90000
+    },
+    {
+      "item_id": 1021,
+      "name": "Dokebi Horn",
+      "price": 50000
+    },
+    {
+      "item_id": 995,
+      "name": "Mystic Frozen",
+      "price": 110000
+    },
+    {
+      "item_id": 7110,
+      "name": "Broken Sword",
+      "price": 34000
+    },
+    {
+      "item_id": 907,
+      "name": "Resin",
+      "price": 15000
+    },
+    {
+      "item_id": 615,
+      "name": "Oridecon Hammer",
+      "price": 220000
+    },
+    {
+      "item_id": 661,
+      "name": "Soft Apron",
+      "price": 250000
+    },
+    {
+      "item_id": 7032,
+      "name": "Piece of Egg Shell",
+      "price": 499999
+    },
+    {
+      "item_id": 1009,
+      "name": "Hand of God",
+      "price": 199997
+    },
+    {
+      "item_id": 732,
+      "name": "3carat Diamond",
+      "price": 63072
+    },
+    {
+      "item_id": 724,
+      "name": "Cursed Ruby",
+      "price": 25000
+    },
+    {
+      "item_id": 7043,
+      "name": "Fine Sand",
+      "price": 14999
+    },
+    {
+      "item_id": 7312,
+      "name": "Jubilee",
+      "price": 458681
+    },
+    {
+      "item_id": 637,
+      "name": "Old Broom",
+      "price": 318846
+    },
+    {
+      "item_id": 1097,
+      "name": "Worn Out Page",
+      "price": 24749
+    },
+    {
+      "item_id": 706,
+      "name": "Four Leaf Clover",
+      "price": 10000000
+    },
+    {
+      "item_id": 619,
+      "name": "Unripe Apple",
+      "price": 129000
+    },
+    {
+      "item_id": 6041,
+      "name": "Strong Vine",
+      "price": 20000
+    },
+    {
+      "item_id": 7205,
+      "name": "Piece of Black Cloth",
+      "price": 15000
+    },
+    {
+      "item_id": 12373,
+      "name": "Boy's Pure Heart",
+      "price": 250000
+    },
+    {
+      "item_id": 6249,
+      "name": "Savage Meat",
+      "price": 17687
+    },
+    {
+      "item_id": 749,
+      "name": "Frozen Rose",
+      "price": 99999
+    },
+    {
+      "item_id": 7214,
+      "name": "Bat Cage",
+      "price": 19999
+    },
+    {
+      "item_id": 7166,
+      "name": "Soft Silk",
+      "price": 19999
+    },
+    {
+      "item_id": 640,
+      "name": "Shining Stone",
+      "price": 200000
+    },
+    {
+      "item_id": 12623,
+      "name": "Caixa das Melhores Armas",
+      "price": 800000
+    },
+    {
+      "item_id": 12573,
+      "name": "Cesta de Frutas",
+      "price": 99999
+    },
+    {
+      "item_id": 660,
+      "name": "Forbidden Red Candle",
+      "price": 2900000
+    },
+    {
+      "item_id": 750,
+      "name": "Baphomet Doll",
+      "price": 800000
+    },
+    {
+      "item_id": 983,
+      "name": "Black Dyestuffs",
+      "price": 20000
+    },
+    {
+      "item_id": 622,
+      "name": "Rainbow Carrot",
+      "price": 150000
+    },
+    {
+      "item_id": 623,
+      "name": "Earthworm the Dude",
+      "price": 50000
+    },
+    {
+      "item_id": 7442,
+      "name": "Cursed Seal",
+      "price": 14900
+    },
+    {
+      "item_id": 630,
+      "name": "Dew Laden Moss",
+      "price": 25000
+    },
+    {
+      "item_id": 634,
+      "name": "Tropical Banana",
+      "price": 250000
+    },
+    {
+      "item_id": 6509,
+      "name": "Flor Misteriosa",
+      "price": 20904
+    },
+    {
+      "item_id": 641,
+      "name": "Contract in Shadow",
+      "price": 250000
+    },
+    {
+      "item_id": 6921,
+      "name": "Desumidificador",
+      "price": 25000
+    },
+    {
+      "item_id": 632,
+      "name": "Fatty Chubby Earthworm",
+      "price": 150000
+    },
+    {
+      "item_id": 731,
+      "name": "2carat Diamond",
+      "price": 40000
+    },
+    {
+      "item_id": 642,
+      "name": "Book of the Devil",
+      "price": 150000
+    },
+    {
+      "item_id": 627,
+      "name": "Sweet Milk",
+      "price": 250000
+    },
+    {
+      "item_id": 913,
+      "name": "Tooth of Bat",
+      "price": 14960
+    },
+    {
+      "item_id": 743,
+      "name": "Spore Doll",
+      "price": 19999
+    },
+    {
+      "item_id": 7479,
+      "name": "Level 8 Cookbook",
+      "price": 3000000
+    },
+    {
+      "item_id": 625,
+      "name": "Rusty Iron",
+      "price": 25000
+    },
+    {
+      "item_id": 23189,
+      "name": "Carretel de Urso",
+      "price": 400999
+    },
+    {
+      "item_id": 7221,
+      "name": "Tangled Chains",
+      "price": 39600
+    },
+    {
+      "item_id": 6510,
+      "name": "Flor Elegante",
+      "price": 33131
+    },
+    {
+      "item_id": 7048,
+      "name": "Talon of Griffon",
+      "price": 650000
+    },
+    {
+      "item_id": 631,
+      "name": "Deadly Noxious Herb",
+      "price": 25999
+    },
+    {
+      "item_id": 1098,
+      "name": "Manacles",
+      "price": 24010
+    },
+    {
+      "item_id": 626,
+      "name": "Monster Juice",
+      "price": 250000
+    },
+    {
+      "item_id": 7437,
+      "name": "Fragment of Misery",
+      "price": 14900
+    },
+    {
+      "item_id": 7019,
+      "name": "Loki's Whispers",
+      "price": 14999999
+    }
+  ],
+  "markup_vs_buy": [
+    {
+      "item_id": 511,
+      "name": "Green Herb",
+      "price": 1499,
+      "buy": 10,
+      "ratio": 149.9
+    },
+    {
+      "item_id": 520,
+      "name": "Hinalle Leaflet",
+      "price": 9999,
+      "buy": 150,
+      "ratio": 66.7
+    },
+    {
+      "item_id": 523,
+      "name": "Holy Water",
+      "price": 2200,
+      "buy": 20,
+      "ratio": 110.0
+    },
+    {
+      "item_id": 507,
+      "name": "Red Herb",
+      "price": 1399,
+      "buy": 18,
+      "ratio": 77.7
+    },
+    {
+      "item_id": 531,
+      "name": "Apple Juice",
+      "price": 4999,
+      "buy": 20,
+      "ratio": 249.9
+    },
+    {
+      "item_id": 7799,
+      "name": "Crystal of Darkness",
+      "price": 8000,
+      "buy": 10,
+      "ratio": 800.0
+    },
+    {
+      "item_id": 914,
+      "name": "Fluff",
+      "price": 1700,
+      "buy": 8,
+      "ratio": 212.5
+    },
+    {
+      "item_id": 935,
+      "name": "Shell",
+      "price": 3500,
+      "buy": 14,
+      "ratio": 250.0
+    },
+    {
+      "item_id": 568,
+      "name": "Lemon",
+      "price": 9999,
+      "buy": 60,
+      "ratio": 166.7
+    },
+    {
+      "item_id": 1019,
+      "name": "Trunk",
+      "price": 4000,
+      "buy": 60,
+      "ratio": 66.7
+    },
+    {
+      "item_id": 7031,
+      "name": "Old Frying Pan",
+      "price": 10000,
+      "buy": 196,
+      "ratio": 51.0
+    },
+    {
+      "item_id": 949,
+      "name": "Feather",
+      "price": 10000,
+      "buy": 20,
+      "ratio": 500.0
+    },
+    {
+      "item_id": 530,
+      "name": "Candy Cane",
+      "price": 4398,
+      "buy": 20,
+      "ratio": 219.9
+    },
+    {
+      "item_id": 918,
+      "name": "Sticky Webfoot",
+      "price": 9999,
+      "buy": 20,
+      "ratio": 499.9
+    },
+    {
+      "item_id": 6244,
+      "name": "Gun Powder",
+      "price": 2249,
+      "buy": 10,
+      "ratio": 224.9
+    },
+    {
+      "item_id": 1027,
+      "name": "Porcupine Quill",
+      "price": 9900,
+      "buy": 158,
+      "ratio": 62.7
+    },
+    {
+      "item_id": 955,
+      "name": "Worm Peeling",
+      "price": 4999,
+      "buy": 52,
+      "ratio": 96.1
+    },
+    {
+      "item_id": 1004,
+      "name": "Chivalry Emblem",
+      "price": 3999,
+      "buy": 2,
+      "ratio": 1999.5
+    },
+    {
+      "item_id": 908,
+      "name": "Spawn",
+      "price": 10000,
+      "buy": 140,
+      "ratio": 71.4
+    },
+    {
+      "item_id": 7325,
+      "name": "Flexible Tube",
+      "price": 6250,
+      "buy": 102,
+      "ratio": 61.3
+    },
+    {
+      "item_id": 6245,
+      "name": "Black Powder",
+      "price": 9999,
+      "buy": 100,
+      "ratio": 100.0
+    },
+    {
+      "item_id": 1013,
+      "name": "Rainbow Shell",
+      "price": 10000,
+      "buy": 90,
+      "ratio": 111.1
+    },
+    {
+      "item_id": 946,
+      "name": "Snail's Shell",
+      "price": 9999,
+      "buy": 64,
+      "ratio": 156.2
+    },
+    {
+      "item_id": 906,
+      "name": "Pointed Scale",
+      "price": 5000,
+      "buy": 68,
+      "ratio": 73.5
+    },
+    {
+      "item_id": 916,
+      "name": "Feather of Birds",
+      "price": 2000,
+      "buy": 10,
+      "ratio": 200.0
+    },
+    {
+      "item_id": 12004,
+      "name": "Quiver",
+      "price": 475,
+      "buy": 2,
+      "ratio": 237.5
+    },
+    {
+      "item_id": 1067,
+      "name": "Solid Trunk",
+      "price": 8000,
+      "buy": 2,
+      "ratio": 4000.0
+    },
+    {
+      "item_id": 942,
+      "name": "Yoyo Tail",
+      "price": 8999,
+      "buy": 114,
+      "ratio": 78.9
+    },
+    {
+      "item_id": 1066,
+      "name": "Fine-grained Trunk",
+      "price": 1724,
+      "buy": 2,
+      "ratio": 862.0
+    },
+    {
+      "item_id": 1068,
+      "name": "Barren Trunk",
+      "price": 8000,
+      "buy": 2,
+      "ratio": 4000.0
+    },
+    {
+      "item_id": 1006,
+      "name": "Old Magicbook",
+      "price": 10000,
+      "buy": 2,
+      "ratio": 5000.0
+    },
+    {
+      "item_id": 705,
+      "name": "Clover",
+      "price": 1800,
+      "buy": 10,
+      "ratio": 180.0
+    },
+    {
+      "item_id": 940,
+      "name": "Grasshopper's Leg",
+      "price": 9000,
+      "buy": 36,
+      "ratio": 250.0
+    }
+  ]
+}
