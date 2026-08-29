@@ -1,0 +1,1252 @@
+{
+  "bot_total": 246,
+  "bots_active_sim": 173,
+  "bots_deferred_expert": 73,
+  "by_tier": {
+    "novice": 24,
+    "easy": 27,
+    "mid": 53,
+    "hard": 69,
+    "expert": 73
+  },
+  "sim_days": 100,
+  "hours_per_day": 3.5,
+  "assumptions": {
+    "activity": "sim assumes every day had ≥1 login (upper bound)",
+    "sell_down": "after day 100 no new grind; shops sell remanente",
+    "rates": "1x",
+    "prices": "LATAM",
+    "pool": "sellable_mat_ids"
+  },
+  "lot_100d": {
+    "min": 748344.53,
+    "p25": 10936979.04,
+    "p50": 25893485.36,
+    "p75": 87450174.85,
+    "p90": 261183195.32,
+    "max": 673270662.01,
+    "sum": 14441346148.64
+  },
+  "net_100d": {
+    "p50": 22765241.93,
+    "sum": 13981493671.64,
+    "negative_bots": 14
+  },
+  "kills_100d": {
+    "p50": 76405.0,
+    "sum": 20106065.0
+  },
+  "unique_sell_mats": 78,
+  "items_on_most_bots": [
+    {
+      "item_id": 938,
+      "name": "Sticky Mucus",
+      "price": 2000,
+      "bot_count": 59,
+      "maps_sample": [
+        "prt_fild08a",
+        "prt_fild08b",
+        "prt_fild08c",
+        "prt_fild08d",
+        "prt_fild08",
+        "prt_fild01",
+        "moc_fild07",
+        "gef_fild07"
+      ]
+    },
+    {
+      "item_id": 511,
+      "name": "Green Herb",
+      "price": 1499,
+      "bot_count": 54,
+      "maps_sample": [
+        "prt_fild08a",
+        "prt_fild08b",
+        "prt_fild08c",
+        "prt_fild08d",
+        "prt_fild08",
+        "prt_fild01",
+        "gef_fild07",
+        "gef_fild00"
+      ]
+    },
+    {
+      "item_id": 756,
+      "name": "Rough Oridecon",
+      "price": 8490,
+      "bot_count": 50,
+      "maps_sample": [
+        "mjolnir_01",
+        "pay_fild07",
+        "prt_sewb4",
+        "xmas_dun02",
+        "mjo_dun02",
+        "pay_dun01",
+        "gef_dun00",
+        "gef_fild10"
+      ]
+    },
+    {
+      "item_id": 507,
+      "name": "Red Herb",
+      "price": 1399,
+      "bot_count": 41,
+      "maps_sample": [
+        "moc_fild07",
+        "moc_fild12",
+        "moc_fild18",
+        "pay_fild06",
+        "pay_fild02",
+        "pay_fild08",
+        "prt_sewb1",
+        "prt_sewb2"
+      ]
+    },
+    {
+      "item_id": 935,
+      "name": "Shell",
+      "price": 3500,
+      "bot_count": 26,
+      "maps_sample": [
+        "moc_fild07",
+        "gef_fild07",
+        "gef_fild00",
+        "pay_fild03",
+        "moc_fild12",
+        "gef_fild04",
+        "gef_fild01",
+        "prt_fild00"
+      ]
+    },
+    {
+      "item_id": 508,
+      "name": "Yellow Herb",
+      "price": 1349,
+      "bot_count": 20,
+      "maps_sample": [
+        "moc_fild02",
+        "pay_dun02",
+        "cmd_fild02",
+        "cmd_fild04",
+        "hu_fild06",
+        "prt_fild11",
+        "pay_fild10",
+        "yuno_fild08"
+      ]
+    },
+    {
+      "item_id": 955,
+      "name": "Worm Peeling",
+      "price": 4999,
+      "bot_count": 18,
+      "maps_sample": [
+        "prt_fild05",
+        "prt_sewb1",
+        "prt_sewb2",
+        "gef_fild05",
+        "prt_sewb3",
+        "anthell01",
+        "anthell02",
+        "cmd_fild08"
+      ]
+    },
+    {
+      "item_id": 914,
+      "name": "Fluff",
+      "price": 1700,
+      "bot_count": 17,
+      "maps_sample": [
+        "prt_fild08a",
+        "prt_fild08b",
+        "prt_fild08c",
+        "prt_fild08d",
+        "prt_fild08",
+        "prt_fild01",
+        "gef_fild07",
+        "gef_fild00"
+      ]
+    },
+    {
+      "item_id": 1033,
+      "name": "Maneater Root",
+      "price": 3500,
+      "bot_count": 17,
+      "maps_sample": [
+        "yuno_fild01",
+        "yuno_fild12",
+        "mosk_fild02",
+        "yuno_fild08",
+        "yuno_fild09",
+        "lou_fild01",
+        "yuno_fild11",
+        "yuno_fild06"
+      ]
+    },
+    {
+      "item_id": 518,
+      "name": "Honey",
+      "price": 2690,
+      "bot_count": 16,
+      "maps_sample": [
+        "mjolnir_09",
+        "prt_fild05",
+        "gef_fild01",
+        "prt_fild02",
+        "gef_fild05",
+        "mjolnir_01",
+        "mjolnir_06",
+        "pay_fild07"
+      ]
+    },
+    {
+      "item_id": 509,
+      "name": "White Herb",
+      "price": 999,
+      "bot_count": 15,
+      "maps_sample": [
+        "iz_dun03",
+        "ayo_dun01",
+        "gon_fild01",
+        "mjolnir_03",
+        "gef_fild08",
+        "lou_dun01",
+        "in_sphinx5",
+        "c_tower2"
+      ]
+    },
+    {
+      "item_id": 1019,
+      "name": "Trunk",
+      "price": 4000,
+      "bot_count": 13,
+      "maps_sample": [
+        "pay_fild01",
+        "mjolnir_09",
+        "mjo_dun03",
+        "pay_dun03",
+        "pay_fild10",
+        "um_fild02",
+        "pay_dun04",
+        "um_fild01"
+      ]
+    },
+    {
+      "item_id": 705,
+      "name": "Clover",
+      "price": 1800,
+      "bot_count": 12,
+      "maps_sample": [
+        "prt_fild08a",
+        "prt_fild08b",
+        "prt_fild08c",
+        "prt_fild08d",
+        "prt_fild08",
+        "prt_fild01",
+        "gef_fild00",
+        "prt_fild06"
+      ]
+    },
+    {
+      "item_id": 937,
+      "name": "Venom Canine",
+      "price": 1288,
+      "bot_count": 12,
+      "maps_sample": [
+        "pay_fild06",
+        "pay_fild02",
+        "pay_fild08",
+        "prt_maze03",
+        "gon_fild01",
+        "mjolnir_04",
+        "mjolnir_03",
+        "mosk_fild02"
+      ]
+    },
+    {
+      "item_id": 1056,
+      "name": "Grit",
+      "price": 3289,
+      "bot_count": 11,
+      "maps_sample": [
+        "cmd_fild02",
+        "cmd_fild04",
+        "cmd_fild07",
+        "hu_fild06",
+        "moc_fild16",
+        "moc_fild17",
+        "yuno_fild09",
+        "mal_dun01"
+      ]
+    },
+    {
+      "item_id": 7053,
+      "name": "Cyfar",
+      "price": 1000,
+      "bot_count": 10,
+      "maps_sample": [
+        "gef_fild10",
+        "gef_fild03",
+        "cmd_fild02",
+        "cmd_fild04",
+        "prt_fild11",
+        "um_fild04",
+        "lou_dun03",
+        "hu_fild05"
+      ]
+    },
+    {
+      "item_id": 578,
+      "name": "Strawberry",
+      "price": 1299,
+      "bot_count": 9,
+      "maps_sample": [
+        "pay_fild06",
+        "pay_fild02",
+        "pay_fild08",
+        "prt_sewb2",
+        "ayo_fild01",
+        "prt_fild03",
+        "moc_fild03",
+        "ayo_fild02"
+      ]
+    },
+    {
+      "item_id": 1055,
+      "name": "Earthworm Peeling",
+      "price": 3999,
+      "bot_count": 9,
+      "maps_sample": [
+        "beach_dun3",
+        "moc_fild16",
+        "moc_fild17",
+        "beach_dun2",
+        "gl_in01",
+        "tur_dun01",
+        "gl_cas01",
+        "tur_dun02"
+      ]
+    },
+    {
+      "item_id": 916,
+      "name": "Feather of Birds",
+      "price": 2000,
+      "bot_count": 8,
+      "maps_sample": [
+        "moc_fild07",
+        "moc_fild12",
+        "moc_fild11",
+        "moc_fild18",
+        "cmd_fild07",
+        "mosk_dun01",
+        "dew_fild01",
+        "mosk_dun02"
+      ]
+    },
+    {
+      "item_id": 948,
+      "name": "Bear's Footskin",
+      "price": 3499,
+      "bot_count": 8,
+      "maps_sample": [
+        "mjolnir_01",
+        "pay_fild07",
+        "prt_maze02",
+        "prt_maze01",
+        "xmas_fild01",
+        "ama_fild01",
+        "lou_dun01",
+        "mag_dun01"
+      ]
+    },
+    {
+      "item_id": 943,
+      "name": "Solid Shell",
+      "price": 1000,
+      "bot_count": 7,
+      "maps_sample": [
+        "moc_fild18",
+        "gef_dun00",
+        "mjolnir_12",
+        "gef_dun02",
+        "alde_dun01",
+        "gl_prison",
+        "gl_prison1"
+      ]
+    },
+    {
+      "item_id": 510,
+      "name": "Blue Herb",
+      "price": 1399,
+      "bot_count": 7,
+      "maps_sample": [
+        "mjolnir_06",
+        "xmas_fild01",
+        "yuno_fild08",
+        "yuno_fild11",
+        "yuno_fild07",
+        "yuno_fild04",
+        "mosk_dun03"
+      ]
+    },
+    {
+      "item_id": 942,
+      "name": "Yoyo Tail",
+      "price": 8999,
+      "bot_count": 7,
+      "maps_sample": [
+        "mjolnir_02",
+        "prt_maze01",
+        "ayo_fild01",
+        "prt_fild03",
+        "ayo_fild02",
+        "um_fild02",
+        "um_fild04"
+      ]
+    },
+    {
+      "item_id": 997,
+      "name": "Great Nature",
+      "price": 5000,
+      "bot_count": 7,
+      "maps_sample": [
+        "mjo_dun02",
+        "moc_fild16",
+        "beach_dun2",
+        "yuno_fild09",
+        "yuno_fild06",
+        "yuno_fild02",
+        "yuno_fild03"
+      ]
+    },
+    {
+      "item_id": 757,
+      "name": "Rough Elunium",
+      "price": 1000,
+      "bot_count": 7,
+      "maps_sample": [
+        "mjo_dun03",
+        "mjolnir_10",
+        "mjolnir_07",
+        "mjolnir_11",
+        "mjolnir_05",
+        "tha_t01",
+        "gon_dun02"
+      ]
+    }
+  ],
+  "slow_stock_samples": [
+    {
+      "map": "tha_t01",
+      "tier": "hard",
+      "item": "Cursed Seal",
+      "qty_100d": 1.86,
+      "price": 14900
+    },
+    {
+      "map": "tha_t01",
+      "tier": "hard",
+      "item": "Gift Box",
+      "qty_100d": 1.86,
+      "price": 7600
+    },
+    {
+      "map": "gon_dun02",
+      "tier": "hard",
+      "item": "Old Blue Box",
+      "qty_100d": 2.21,
+      "price": 8500
+    },
+    {
+      "map": "tha_t01",
+      "tier": "hard",
+      "item": "Old Blue Box",
+      "qty_100d": 8.55,
+      "price": 8500
+    },
+    {
+      "map": "gon_dun02",
+      "tier": "hard",
+      "item": "Rough Oridecon",
+      "qty_100d": 12.06,
+      "price": 8490
+    },
+    {
+      "map": "in_sphinx2",
+      "tier": "mid",
+      "item": "Rough Oridecon",
+      "qty_100d": 13.42,
+      "price": 8490
+    },
+    {
+      "map": "ein_fild08",
+      "tier": "hard",
+      "item": "Fluorescent Liquid",
+      "qty_100d": 13.86,
+      "price": 14990
+    },
+    {
+      "map": "tha_t02",
+      "tier": "hard",
+      "item": "Old Blue Box",
+      "qty_100d": 14.52,
+      "price": 8500
+    },
+    {
+      "map": "tha_t02",
+      "tier": "hard",
+      "item": "Gift Box",
+      "qty_100d": 16.73,
+      "price": 7600
+    },
+    {
+      "map": "gl_prison",
+      "tier": "hard",
+      "item": "Rough Oridecon",
+      "qty_100d": 18.85,
+      "price": 8490
+    },
+    {
+      "map": "prt_fild11",
+      "tier": "mid",
+      "item": "Rough Oridecon",
+      "qty_100d": 22.19,
+      "price": 8490
+    },
+    {
+      "map": "nameless_n",
+      "tier": "hard",
+      "item": "Rough Oridecon",
+      "qty_100d": 24.62,
+      "price": 8490
+    },
+    {
+      "map": "beach_dun",
+      "tier": "hard",
+      "item": "Rough Oridecon",
+      "qty_100d": 26.24,
+      "price": 8490
+    },
+    {
+      "map": "lou_dun01",
+      "tier": "hard",
+      "item": "Rough Oridecon",
+      "qty_100d": 29.12,
+      "price": 8490
+    },
+    {
+      "map": "in_sphinx1",
+      "tier": "mid",
+      "item": "Old Blue Box",
+      "qty_100d": 31.65,
+      "price": 8500
+    },
+    {
+      "map": "ra_fild08",
+      "tier": "hard",
+      "item": "Rough Oridecon",
+      "qty_100d": 31.79,
+      "price": 8490
+    },
+    {
+      "map": "in_sphinx5",
+      "tier": "hard",
+      "item": "Rough Oridecon",
+      "qty_100d": 34.75,
+      "price": 8490
+    },
+    {
+      "map": "ein_dun01",
+      "tier": "hard",
+      "item": "Fluorescent Liquid",
+      "qty_100d": 35.25,
+      "price": 14990
+    },
+    {
+      "map": "mjo_dun02",
+      "tier": "mid",
+      "item": "Rough Oridecon",
+      "qty_100d": 38.78,
+      "price": 8490
+    },
+    {
+      "map": "ein_fild09",
+      "tier": "hard",
+      "item": "Fluorescent Liquid",
+      "qty_100d": 42.09,
+      "price": 14990
+    },
+    {
+      "map": "ama_dun02",
+      "tier": "hard",
+      "item": "Yellow Herb",
+      "qty_100d": 42.36,
+      "price": 1349
+    },
+    {
+      "map": "ein_fild04",
+      "tier": "hard",
+      "item": "Used Iron Plate",
+      "qty_100d": 44.27,
+      "price": 10000
+    },
+    {
+      "map": "gon_dun02",
+      "tier": "hard",
+      "item": "Rough Elunium",
+      "qty_100d": 44.79,
+      "price": 1000
+    },
+    {
+      "map": "in_sphinx2",
+      "tier": "mid",
+      "item": "Old Blue Box",
+      "qty_100d": 45.31,
+      "price": 8500
+    },
+    {
+      "map": "prt_sewb4",
+      "tier": "easy",
+      "item": "Rough Oridecon",
+      "qty_100d": 45.73,
+      "price": 8490
+    },
+    {
+      "map": "um_fild03",
+      "tier": "hard",
+      "item": "Rough Oridecon",
+      "qty_100d": 45.88,
+      "price": 8490
+    },
+    {
+      "map": "ein_fild07",
+      "tier": "hard",
+      "item": "Fluorescent Liquid",
+      "qty_100d": 45.93,
+      "price": 14990
+    },
+    {
+      "map": "ein_fild05",
+      "tier": "hard",
+      "item": "Used Iron Plate",
+      "qty_100d": 48.74,
+      "price": 10000
+    }
+  ],
+  "hot_stock_samples": [
+    {
+      "map": "prt_fild05",
+      "tier": "novice",
+      "item": "Bee Sting",
+      "qty_100d": 178128.83,
+      "stock_value": 127362113.18
+    },
+    {
+      "map": "prt_fild01",
+      "tier": "novice",
+      "item": "Clover",
+      "qty_100d": 170859.58,
+      "stock_value": 307547235.07
+    },
+    {
+      "map": "gef_fild00",
+      "tier": "novice",
+      "item": "Shell",
+      "qty_100d": 166539.13,
+      "stock_value": 582886951.92
+    },
+    {
+      "map": "prt_fild06",
+      "tier": "novice",
+      "item": "Fluff",
+      "qty_100d": 166124.65,
+      "stock_value": 282411904.32
+    },
+    {
+      "map": "pay_fild08",
+      "tier": "novice",
+      "item": "Mushroom Spore",
+      "qty_100d": 159070.4,
+      "stock_value": 143163359.03
+    },
+    {
+      "map": "pay_fild03",
+      "tier": "novice",
+      "item": "Fluff",
+      "qty_100d": 155586.21,
+      "stock_value": 264496553.33
+    },
+    {
+      "map": "moc_fild12",
+      "tier": "novice",
+      "item": "Feather of Birds",
+      "qty_100d": 137957.65,
+      "stock_value": 275915297.28
+    },
+    {
+      "map": "pay_dun00",
+      "tier": "easy",
+      "item": "Decayed Nail",
+      "qty_100d": 83665.7,
+      "stock_value": 234263964.65
+    },
+    {
+      "map": "prt_fild08a",
+      "tier": "novice",
+      "item": "Clover",
+      "qty_100d": 79058.82,
+      "stock_value": 142305883.78
+    },
+    {
+      "map": "prt_fild08b",
+      "tier": "novice",
+      "item": "Clover",
+      "qty_100d": 79058.82,
+      "stock_value": 142305883.78
+    },
+    {
+      "map": "prt_fild08c",
+      "tier": "novice",
+      "item": "Clover",
+      "qty_100d": 79058.82,
+      "stock_value": 142305883.78
+    },
+    {
+      "map": "prt_fild08d",
+      "tier": "novice",
+      "item": "Clover",
+      "qty_100d": 79058.82,
+      "stock_value": 142305883.78
+    },
+    {
+      "map": "prt_fild08",
+      "tier": "novice",
+      "item": "Clover",
+      "qty_100d": 73963.64,
+      "stock_value": 133134545.38
+    },
+    {
+      "map": "cmd_fild08",
+      "tier": "easy",
+      "item": "Worm Peeling",
+      "qty_100d": 73560.43,
+      "stock_value": 367728565.47
+    },
+    {
+      "map": "prt_fild06",
+      "tier": "novice",
+      "item": "Green Herb",
+      "qty_100d": 72982.32,
+      "stock_value": 109400504.88
+    },
+    {
+      "map": "pay_fild03",
+      "tier": "novice",
+      "item": "Green Herb",
+      "qty_100d": 69517.24,
+      "stock_value": 104206343.96
+    },
+    {
+      "map": "moc_fild01",
+      "tier": "easy",
+      "item": "Cactus Needle",
+      "qty_100d": 69416.07,
+      "stock_value": 62474466.07
+    },
+    {
+      "map": "prt_fild08a",
+      "tier": "novice",
+      "item": "Fluff",
+      "qty_100d": 69176.47,
+      "stock_value": 117599998.32
+    },
+    {
+      "map": "prt_fild08b",
+      "tier": "novice",
+      "item": "Fluff",
+      "qty_100d": 69176.47,
+      "stock_value": 117599998.32
+    },
+    {
+      "map": "prt_fild08c",
+      "tier": "novice",
+      "item": "Fluff",
+      "qty_100d": 69176.47,
+      "stock_value": 117599998.32
+    },
+    {
+      "map": "prt_fild08d",
+      "tier": "novice",
+      "item": "Fluff",
+      "qty_100d": 69176.47,
+      "stock_value": 117599998.32
+    },
+    {
+      "map": "prt_fild08",
+      "tier": "novice",
+      "item": "Fluff",
+      "qty_100d": 67581.82,
+      "stock_value": 114889088.83
+    },
+    {
+      "map": "pay_fild04",
+      "tier": "easy",
+      "item": "Sticky Mucus",
+      "qty_100d": 66561.1,
+      "stock_value": 133122207.28
+    },
+    {
+      "map": "pay_fild02",
+      "tier": "novice",
+      "item": "Strawberry",
+      "qty_100d": 65162.28,
+      "stock_value": 84645804.72
+    },
+    {
+      "map": "prt_fild04",
+      "tier": "novice",
+      "item": "Shell",
+      "qty_100d": 64894.42,
+      "stock_value": 227130464.6
+    },
+    {
+      "map": "pay_fild07",
+      "tier": "easy",
+      "item": "Bear's Footskin",
+      "qty_100d": 64295.43,
+      "stock_value": 224969716.21
+    },
+    {
+      "map": "moc_fild18",
+      "tier": "novice",
+      "item": "Scorpion Tail",
+      "qty_100d": 63913.92,
+      "stock_value": 145979401.03
+    },
+    {
+      "map": "prt_fild06",
+      "tier": "novice",
+      "item": "Clover",
+      "qty_100d": 59854.88,
+      "stock_value": 107738787.74
+    },
+    {
+      "map": "anthell02",
+      "tier": "easy",
+      "item": "Worm Peeling",
+      "qty_100d": 56777.93,
+      "stock_value": 283832885.61
+    },
+    {
+      "map": "prt_fild03",
+      "tier": "easy",
+      "item": "Yoyo Tail",
+      "qty_100d": 50172.07,
+      "stock_value": 451498502.83
+    }
+  ],
+  "top_lot_bots": [
+    {
+      "map": "gef_fild00",
+      "tier": "novice",
+      "lot": 673270662.01,
+      "net": 672401356.51,
+      "mats": [
+        "Shell",
+        "Fluff",
+        "Green Herb",
+        "Clover"
+      ]
+    },
+    {
+      "map": "prt_fild03",
+      "tier": "easy",
+      "lot": 533157824.6,
+      "net": 531947906.1,
+      "mats": [
+        "Yoyo Tail",
+        "Shell",
+        "Sticky Mucus",
+        "Strawberry"
+      ]
+    },
+    {
+      "map": "prt_fild06",
+      "tier": "novice",
+      "lot": 503551942.22,
+      "net": 502677386.72,
+      "mats": [
+        "Fluff",
+        "Clover",
+        "Green Herb",
+        "Sticky Mucus"
+      ]
+    },
+    {
+      "map": "cmd_fild08",
+      "tier": "easy",
+      "lot": 437197021.85,
+      "net": 436057652.85,
+      "mats": [
+        "Worm Peeling",
+        "Shell",
+        "Sticky Mucus"
+      ]
+    },
+    {
+      "map": "pay_fild03",
+      "tier": "novice",
+      "lot": 426633223.83,
+      "net": 425757639.33,
+      "mats": [
+        "Fluff",
+        "Green Herb",
+        "Clover",
+        "Shell"
+      ]
+    },
+    {
+      "map": "prt_fild01",
+      "tier": "novice",
+      "lot": 393605415.89,
+      "net": 392736271.39,
+      "mats": [
+        "Clover",
+        "Fluff",
+        "Green Herb",
+        "Sticky Mucus"
+      ]
+    },
+    {
+      "map": "pay_dun00",
+      "tier": "easy",
+      "lot": 379829819.15,
+      "net": 378790627.15,
+      "mats": [
+        "Decayed Nail",
+        "Sticky Mucus",
+        "Red Herb",
+        "Green Herb"
+      ]
+    },
+    {
+      "map": "prt_fild09",
+      "tier": "mid",
+      "lot": 342513446.34,
+      "net": 340795243.84,
+      "mats": [
+        "Old Frying Pan",
+        "Shell"
+      ]
+    },
+    {
+      "map": "moc_fild12",
+      "tier": "novice",
+      "lot": 332405995.28,
+      "net": 331523470.28,
+      "mats": [
+        "Feather of Birds",
+        "Shell",
+        "Red Herb",
+        "Sticky Mucus"
+      ]
+    },
+    {
+      "map": "anthell02",
+      "tier": "easy",
+      "lot": 329208124.38,
+      "net": 328044993.88,
+      "mats": [
+        "Worm Peeling",
+        "Shell",
+        "Sticky Mucus",
+        "Honey"
+      ]
+    },
+    {
+      "map": "prt_fild08a",
+      "tier": "novice",
+      "lot": 318972706.32,
+      "net": 318103141.82,
+      "mats": [
+        "Clover",
+        "Fluff",
+        "Green Herb",
+        "Sticky Mucus"
+      ]
+    },
+    {
+      "map": "prt_fild08b",
+      "tier": "novice",
+      "lot": 318972706.32,
+      "net": 318103141.82,
+      "mats": [
+        "Clover",
+        "Fluff",
+        "Green Herb",
+        "Sticky Mucus"
+      ]
+    },
+    {
+      "map": "prt_fild08c",
+      "tier": "novice",
+      "lot": 318972706.32,
+      "net": 318103141.82,
+      "mats": [
+        "Clover",
+        "Fluff",
+        "Green Herb",
+        "Sticky Mucus"
+      ]
+    },
+    {
+      "map": "prt_fild08d",
+      "tier": "novice",
+      "lot": 318972706.32,
+      "net": 318103141.82,
+      "mats": [
+        "Clover",
+        "Fluff",
+        "Green Herb",
+        "Sticky Mucus"
+      ]
+    },
+    {
+      "map": "prt_fild08",
+      "tier": "novice",
+      "lot": 308928434.12,
+      "net": 308057620.12,
+      "mats": [
+        "Clover",
+        "Fluff",
+        "Green Herb",
+        "Sticky Mucus"
+      ]
+    },
+    {
+      "map": "anthell01",
+      "tier": "easy",
+      "lot": 306219000.5,
+      "net": 305096288.0,
+      "mats": [
+        "Worm Peeling",
+        "Shell",
+        "Sticky Mucus",
+        "Red Herb"
+      ]
+    },
+    {
+      "map": "gef_fild07",
+      "tier": "novice",
+      "lot": 278716249.86,
+      "net": 277845894.36,
+      "mats": [
+        "Shell",
+        "Sticky Mucus",
+        "Fluff",
+        "Green Herb"
+      ]
+    },
+    {
+      "map": "ayo_fild01",
+      "tier": "easy",
+      "lot": 261183195.32,
+      "net": 259993331.82,
+      "mats": [
+        "Yoyo Tail",
+        "Fluff",
+        "Strawberry"
+      ]
+    },
+    {
+      "map": "prt_fild04",
+      "tier": "novice",
+      "lot": 254180576.97,
+      "net": 253185040.47,
+      "mats": [
+        "Spawn",
+        "Shell",
+        "Green Herb"
+      ]
+    },
+    {
+      "map": "pay_fild07",
+      "tier": "easy",
+      "lot": 253342165.74,
+      "net": 252256021.24,
+      "mats": [
+        "Bear's Footskin",
+        "Honey",
+        "Rough Oridecon"
+      ]
+    }
+  ],
+  "low_lot_bots": [
+    {
+      "map": "gon_dun02",
+      "tier": "hard",
+      "lot": 748344.53,
+      "net": -4722991.97,
+      "mats": [
+        "Rough Oridecon",
+        "Rough Elunium",
+        "Old Blue Box"
+      ]
+    },
+    {
+      "map": "tha_t01",
+      "tier": "hard",
+      "lot": 1130962.78,
+      "net": -5506276.22,
+      "mats": [
+        "Old Blue Box",
+        "Rough Elunium",
+        "Cursed Seal",
+        "Gift Box"
+      ]
+    },
+    {
+      "map": "ama_dun02",
+      "tier": "hard",
+      "lot": 1624627.99,
+      "net": -2400393.01,
+      "mats": [
+        "Green Herb",
+        "Slick Paper",
+        "White Herb",
+        "Yellow Herb"
+      ]
+    },
+    {
+      "map": "nameless_n",
+      "tier": "hard",
+      "lot": 1947060.84,
+      "net": -9838699.16,
+      "mats": [
+        "Skull",
+        "Sticky Mucus",
+        "Green Herb",
+        "Rough Oridecon"
+      ]
+    },
+    {
+      "map": "tha_t02",
+      "tier": "hard",
+      "lot": 2457600.46,
+      "net": -7105775.04,
+      "mats": [
+        "Worn-out Magic Scroll",
+        "Gift Box",
+        "Old Blue Box"
+      ]
+    },
+    {
+      "map": "ein_fild08",
+      "tier": "hard",
+      "lot": 2533274.43,
+      "net": -779090.57,
+      "mats": [
+        "Fluorescent Liquid",
+        "Rusty Screw"
+      ]
+    },
+    {
+      "map": "ein_fild07",
+      "tier": "hard",
+      "lot": 3182211.12,
+      "net": -127682.88,
+      "mats": [
+        "Fluorescent Liquid",
+        "Rusty Screw"
+      ]
+    },
+    {
+      "map": "rockrdg2",
+      "tier": "hard",
+      "lot": 3382747.2,
+      "net": -4444596.8,
+      "mats": [
+        "Worm Peeling",
+        "Brigan"
+      ]
+    },
+    {
+      "map": "lhz_fild03",
+      "tier": "hard",
+      "lot": 3671420.79,
+      "net": -877515.21,
+      "mats": [
+        "Maneater Root",
+        "Mould Powder",
+        "White Herb"
+      ]
+    },
+    {
+      "map": "gl_sew01",
+      "tier": "hard",
+      "lot": 3952990.03,
+      "net": -77385.97,
+      "mats": [
+        "Little Evil Wing",
+        "Sticky Mucus",
+        "Round Shell"
+      ]
+    },
+    {
+      "map": "mjolnir_07",
+      "tier": "mid",
+      "lot": 4305441.54,
+      "net": 2257154.04,
+      "mats": [
+        "Worm Peeling",
+        "Maneater Blossom",
+        "Rough Elunium"
+      ]
+    },
+    {
+      "map": "gl_prison",
+      "tier": "hard",
+      "lot": 4467581.41,
+      "net": -764799.59,
+      "mats": [
+        "White Herb",
+        "Solid Shell",
+        "Cyfar",
+        "Rough Oridecon"
+      ]
+    },
+    {
+      "map": "in_sphinx5",
+      "tier": "hard",
+      "lot": 4575886.41,
+      "net": 387793.41,
+      "mats": [
+        "Venom Canine",
+        "Rough Oridecon",
+        "White Herb",
+        "Snake Scale"
+      ]
+    },
+    {
+      "map": "gon_fild01",
+      "tier": "mid",
+      "lot": 4667883.37,
+      "net": 2735515.87,
+      "mats": [
+        "Rough Oridecon",
+        "Venom Canine",
+        "White Herb"
+      ]
+    },
+    {
+      "map": "gon_dun03",
+      "tier": "hard",
+      "lot": 5338805.63,
+      "net": -728069.87,
+      "mats": [
+        "Mandragora Flowerpot",
+        "Maneater Root",
+        "Strawberry"
+      ]
+    }
+  ]
+}
