@@ -8,8 +8,8 @@ Recolectar precios de servidores con datos públicos. **No analizamos jugadores 
 |--------|-------------|-----------------|--------------|------------|-----------|--------|
 | [latam-tools](https://mercado.latam-tools.com.br) | Sí, sin key | Sí (FREYA/NIDHOGG) | No | No | bRO oficial LATAM | **probando** |
 | [RagnaAPI](https://ragnapi.com) | Sí, sin key | No | No | Sí (iRO wiki) | iRO Renewal | **probando** |
-| [Divine Pride](https://www.divine-pride.net/api) | Sí, requiere key | No | Sí | Sí | por región (iRO, etc.) | pendiente key |
-| MyRag (myrag.kr) | No encontrada | Sí (scraping?) | No | No | kRO | no explorar aún |
+| Divine Pride | — | — | — | — | — | **fuera de alcance** |
+| MyRag (myrag.kr) | No encontrada | Sí (scraping?) | No | No | kRO | no explorar |
 
 ### latam-tools — prioridad alta
 
@@ -28,21 +28,19 @@ Recolectar precios de servidores con datos públicos. **No analizamos jugadores 
 - `monsters/{id}` — stats, drops con %
 - **Sin precios de mercado ni NPC.** Complementa diseño de quests.
 
-### Divine Pride — ancla NPC (pendiente)
+### Divine Pride — no usamos
 
-- Requiere registro y `DIVINE_PRIDE_API_KEY`
-- `GET /api/database/Item/{id}?apiKey=...` + header `x-server: iRO`
-- Útil para `buyPrice` / `sellPrice` oficiales como piso/techo
+Ancla NPC = YAML OzRo + `npc_shops`. Precios mercado = LATAM.
 
 ## Ajuste de rates (borrador)
 
 OzRo rates (ver `data/raw/server_rates.json`):
 - common 5x, heal/use 10x, equip 15x, card 100x
 
-Estrategia pendiente de validar en staging:
+Estrategia:
 1. Ancla dura: NPC buy/sell del YAML local
-2. Referencia mercado: latam_tools median (o Divine Pride si aplica)
-3. Factor de escala por categoría si hace falta — **no asumir fórmula hasta comparar muestras**
+2. Referencia mercado: latam_tools median
+3. Factor de escala solo si in-game se siente raro — **no asumir fórmula**
 
 ## Ítems sin cobertura externa
 

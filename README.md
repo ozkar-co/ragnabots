@@ -51,10 +51,13 @@ ragnabots/
 └── README.md
 ```
 
-## Próximo paso (M1)
+## Próximo paso
 
-1. Validar muestras en `staging/market/` (ver notas por fuente)
-2. Obtener Divine Pride API key para NPC buy/sell
-3. Ampliar batch de ítems representativos
-4. Promover fuentes validadas a `data/market/`
-5. Vendings OzRo cuando haya autotrade
+**En pausa** — diseño de zeny/spend cerrado ([docs/13-zeny-and-spend.md](docs/13-zeny-and-spend.md)).
+
+Cuando digas OK:
+1. Aplicar curva soft en sims + schema `bot_state` (ledger)
+2. Cron dry-run (compra → tiendas → grind)
+3. Áreas vending + `vendings` — cuando montes el cliente
+
+Fuentes: LATAM + Atlantis + YAML OzRo (**sin Divine Pride**).

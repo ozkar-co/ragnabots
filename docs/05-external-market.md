@@ -57,11 +57,9 @@ GET https://ragnapi.com/api/v1/re-newal/monsters/{id}
 - Metadata, drops, equip jobs — **útil para quests y NPCs**
 - Sin precios de mercado
 
-### Divine Pride (pendiente API key)
+### Divine Pride — **fuera de alcance**
 
-- NPC `buyPrice` / `sellPrice` como ancla
-- Registro: https://www.divine-pride.net/api
-
+No usamos Divine Pride. Precios = LATAM; ancla NPC = YAML OzRo / extract `npc_shops`.
 ## Proceso de validación antes de promover
 
 Para cada fuente, documentar en `staging/market/<fuente>/notes.md`:
@@ -106,7 +104,7 @@ Todas las fuentes comparten: batches, delays, jitter, pausas periódicas, `--res
 |--------|--------|------------|
 | `fetch_batch.py latam` | latam-tools API | 100 ítems/request |
 | `fetch_batch.py atlantis` | play-ro.com HTML | 1 ítem/request |
-| `fetch_batch.py ragnapi` | ragnapi.com | 1 ítem/request |
-| `fetch_batch.py divine_pride` | divine-pride.net | 1 ítem/request |
+| `fetch_batch.py ragnapi` | ragnapi.com | 1 ítem/request (metadata; opcional) |
 
-`fetch_probe.py` queda para pruebas rápidas puntuales.
+`fetch_probe.py` queda para pruebas rápidas puntuales.  
+Runner `divine_pride` en código: **no usar** (legado).

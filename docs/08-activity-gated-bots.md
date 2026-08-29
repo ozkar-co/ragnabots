@@ -133,9 +133,12 @@ El jugador percibe: “ayer había un merchant aquí, hoy otro allá con stock d
 | Regla | Detalle |
 |-------|---------|
 | Techo | `price > LATAM` → nunca |
-| Zeny | `gasto <= bot.zeny`; budget ~25–30% |
+| Zeny | `gasto <= ledger.zeny` (y char si aplica); budget ~25–30% |
+| Origen | solo zeny ganado vendiendo a jugadores — **no mintar** |
 | Volumen | sample listings + caps qty |
 | Skip | si no hay tiendas de jugadores |
+
+Ledger + spend: [13-zeny-and-spend.md](13-zeny-and-spend.md).
 
 ## Datos precalculados vs runtime
 
@@ -173,4 +176,5 @@ después:
 - [ ] Un cron diario (3 fases)
 - [ ] Dry-run contra SQLite antes de prod
 
-Detalle oferta/spend: [09-shop-catalog-review.md](09-shop-catalog-review.md).
+Detalle oferta: [09-shop-catalog-review.md](09-shop-catalog-review.md).  
+Zeny/spend: [13-zeny-and-spend.md](13-zeny-and-spend.md).

@@ -1,80 +1,55 @@
 # Preguntas abiertas
 
-Decisiones **intencionalmente aplazadas** hasta tener datos reales. Actualizar este archivo en cada iteración: mover preguntas resueltas a una sección "Resueltas" con la respuesta.
+Decisiones aplazadas. Las resueltas van abajo con respuesta.
 
-## Formato y estructura
-
-| # | Pregunta | Contexto |
-|---|----------|----------|
-| 1 | ¿JSON, CSV o Parquet para artefactos en `data/`? | Depende del volumen tras inspección M1 |
-| 2 | ¿Estructura de módulos Python? | Flat scripts vs paquete `src/` — decidir tras M1 |
-| 3 | ¿Un script por etapa o CLI unificada? | KISS sugiere scripts separados al inicio |
-
-## Datos y precios
+## Abiertas (pocas)
 
 | # | Pregunta | Contexto |
 |---|----------|----------|
-| 4 | ¿Qué fuente(s) de mercado externo usar? | latam-tools + RagnaAPI en staging; Divine Pride con key |
-| 5 | ¿Cómo normalizar precios al rate custom del servidor? | Rates salen de conf, no asumir fórmula |
-| 6 | ¿Hay ítems custom no presentes en DBs públicas? | Revisar item_db real |
-| 7 | ¿Fórmula de drop efectivo coincide con `@mobinfo` en juego? | Validar muestra en M2 |
+| 2 | ¿Scripts flat vs paquete `src/`? | KISS: flat en staging está bien por ahora |
+| 5 | ¿Normalizar precios LATAM → rates OzRo? | Hoy usamos LATAM crudo; ajustar solo si se siente caro/barato in-game |
+| 7 | ¿Drops 1× coinciden con `@mobinfo`? | Validar muestra cuando haya cliente |
+| 9 | ¿char_ids de bots ya existen? | Revisar `char` al montar chars de bots |
+| 11 | ¿Áreas / coords de vending? | **Tú** cuando montes el cliente + autotrade |
 
-## Bots y jugadores
+## Resueltas
 
-| # | Pregunta | Contexto |
-|---|----------|----------|
-| 8 | ¿Cuántos bots y qué roles? | Diseño manual — no basado en jugadores locales |
-| 9 | ¿char_ids de bots ya existen en el servidor? | Revisar tabla `char` |
-| 10 | ¿Priorizar compras a char_ids de familia? | Decisión de diseño M5 |
-| 11 | ¿Coordenadas de vending? | Pendiente; dump vendings cuando haya autotrade |
-
-## Simulación y auditoría
-
-| # | Pregunta | Contexto |
-|---|----------|----------|
-| 12 | ¿Resolución temporal del sandbox (1h, 1d)? | Decidir en M2 |
-| 18 | ¿Activity-gate por jugadores online? | Ver [08](08-activity-gated-bots.md) |
-| 13 | ¿Provider de IA para auditoría? | OpenAI, local, o solo métricas — M3 |
-| 14 | ¿Umbral de "economía sana" antes de ir a producción? | Definir tras primeras simulaciones |
-
-## Producción
-
-| # | Pregunta | Contexto |
-|---|----------|----------|
-| 15 | ¿DRY_RUN por defecto hasta validar en clon SQLite? | Sí por principio FailFast |
-| 16 | ¿Intervalo del market watcher? | M5, tras probar manualmente |
-| 17 | ¿Registrar en zenylog/picklog las transacciones de bots? | Revisar si el servidor usa esos logs |
-
----
-
-### #4 — Fuentes de mercado externo
-**Respuesta:** LATAM completo (29k). Curar en capas: 5328 → 2000 → 1000 → 100-200 NPCs. Atlantis siguiente.
+### #4 — Fuentes de mercado
+**Respuesta:** Nos quedamos con lo que tenemos: **LATAM** (precios), **Atlantis** (filtro histórico / grindable), **YAML NPC** OzRo, spawns rAthena. **Sin Divine Pride.** RagnaAPI solo si hace falta metadata puntual.
 **Fecha:** 2026-08-28
-**Etapa:** M1
 
 ### #8 — Perfiles de bots
-**Respuesta:** No derivar de jugadores locales. Diseñar perfiles manualmente; precios desde mercado externo validado.
+**Respuesta:** Diseño manual; no derivar de jugadores locales. Precios LATAM.
 **Fecha:** 2026-08-27
-**Etapa:** M1
+
+### #10 — “Priorizar familia”
+**Respuesta:** **No aplica.** Era una idea temprana de comprar preferente a chars de la familia vs desconocidos. En servidor familiar todos son “familia”; los bots compran a **cualquier** jugador real con precio ≤ LATAM, sin favoritos.
+**Fecha:** 2026-08-28
 
 ### #11 — Vendings locales
-**Respuesta:** Dump pendiente hasta tener tienda autotrade en OzRo.
-**Fecha:** 2026-08-27
-**Etapa:** M1
+**Respuesta:** Aplazado hasta cliente + autotrade. Áreas de vending las defines tú entonces.
+**Fecha:** 2026-08-28
 
 ### #12 — Resolución temporal
-**Respuesta:** Batch **1×/día**. Pregen por hora; runtime acredita 3~4h si hubo ≥1 login real ese día. Percepción = solo tiendas. Ver [08](08-activity-gated-bots.md).
+**Respuesta:** Batch **1×/día**. Ver [08](08-activity-gated-bots.md).
 **Fecha:** 2026-08-28
-**Etapa:** diseño M2
 
-### #18 — Activity-gate
-**Respuesta:** Un cron 1×/día en orden: (1) compra a jugadores si hay tiendas, (2) abrir/cerrar/refrescar tiendas, (3) grind solo bots elegibles (no en tienda, no pause, tier OK, sample del día). Zeny acotado + techo LATAM. Ver [08](08-activity-gated-bots.md).
+### #14 — “Umbral economía sana”
+**Respuesta:** **No métrica formal.** Era la idea M3 de un número mágico (“si inflación &lt; X → OK”). En la práctica: mirar tiendas, zeny de bots, y sentido común. Si algo se descontrola, se bajará sample/día o caps a mano.
 **Fecha:** 2026-08-28
-**Etapa:** diseño M2
 
-<!-- Formato para respuestas:
-### #N — Título
-**Respuesta:** ...
-**Fecha:** YYYY-MM-DD
-**Etapa:** M1
--->
+### #17 — zenylog / picklog
+**Respuesta:** **No es decisión de diseño ahora.** Son tablas de log de rAthena (movimientos de zeny / picks). Solo importa al inyectar en MySQL: si queremos que las compras de bots aparezcan en esos logs para depurar. Default: no inventar filas ahí hasta que haga falta auditar.
+**Fecha:** 2026-08-28
+
+### #18 — Activity-gate + runtime
+**Respuesta:** Un cron: compra → tiendas → grind. Ver [08](08-activity-gated-bots.md).
+**Fecha:** 2026-08-28
+
+### #13 / #16 — Auditoría IA / watcher
+**Respuesta:** Aplazado a mucho más adelante (post-runtime). No bloquea.
+**Fecha:** 2026-08-28
+
+### #15 — DRY_RUN
+**Respuesta:** Sí, por defecto hasta validar en clon.
+**Fecha:** 2026-08-28

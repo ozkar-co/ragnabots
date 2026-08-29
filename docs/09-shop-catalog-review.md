@@ -34,4 +34,10 @@ Fuera por NPC: Phracon, Emveretarcon, Meat, Milk, Zargon, Garlet, Scell, Jellopy
 
 ## Spend
 
-Sigue siendo placeholder `(3000+2×HP)×0.8` — no cambia con este filtro. Calibrar aparte.
+Ver detalle y curva suavizada en [13-zeny-and-spend.md](13-zeny-and-spend.md).
+
+- **Antes:** `(3000+2×HP)×0.8` — novices muy baratos, hard hasta ~34k z/h.
+- **Acordado:** floor por tier + `1100×ln(1+HP/100)` × 0.8 — novices ~4k/h, hard ~5–7k/h.
+- Solo resta **ledger interno**; no inventaría potions en DB.
+- Código/sim aún con fórmula vieja hasta la siguiente fase.
+

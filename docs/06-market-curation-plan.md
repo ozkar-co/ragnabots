@@ -49,9 +49,9 @@ Bulk crudo (115 MB) en `bulk/FREYA/items/` — **local, gitignored**.
 | **LATAM FREYA** | completo (29k) | Filtrar capas 1–2; vending actual |
 | **Atlantis** | pendiente | Capa 3: `total_sold`, std_dev, NPC buy/sell histórico |
 | **RagnaAPI** | pendiente | Drops/metadata para quests (no precios) |
-| **Divine Pride** | pendiente key | Ancla NPC oficial si hace falta |
+| **Divine Pride** | **no** | Fuera de alcance; bastan LATAM + YAML |
 | **YAML OzRo** | local | Custom 35001–35005, buy/sell NPC propio |
-| **Vendings OzRo** | bloqueado | Validar precios reales cuando haya autotrade |
+| **Vendings OzRo** | aplazado | Cliente + autotrade; áreas las defines tú |
 
 ## Próximos pasos (cuando retomemos)
 

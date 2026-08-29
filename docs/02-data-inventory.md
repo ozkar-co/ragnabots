@@ -25,9 +25,11 @@ Ruta base: `/home/oz/rathena` → `data/raw/rathena/`
 - [x] **All-bots 246** + sim 100d — [11](11-all-bots-sim.md)
 - [x] **Compra a jugadores** — diseño + curva P(precio) — [12](12-buy-from-players.md)
 - [x] **Runtime 1 job** — compra → tiendas → grind — [08](08-activity-gated-bots.md)
-- [ ] Áreas vending + wire cron / dry-run MySQL
-- [ ] Spend real
-- [ ] _(más adelante)_ Divine Pride / data/market/
+- [x] **Spend suavizado + ledger zeny** — diseño — [13](13-zeny-and-spend.md) *(código en pausa)*
+- [ ] Áreas vending + vendings MySQL — **cuando tengas cliente / autotrade**
+- [ ] Schema bot_state + cron dry-run — **esperando OK para siguiente fase**
+- [ ] Promote curated → `data/market/` cuando estabilice
+
 
 ### Resultado LATAM FREYA (2026-08-28)
 

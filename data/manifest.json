@@ -59,10 +59,12 @@
       "mobs_normal": 1132,
       "path": "staging/market/spawns/"
     },
-    "next": "grind simulation from grindable + spawn maps",
-    "sources_pending": ["ragnapi", "divine_pride"],
+    "next": "bot_state schema + daily cron dry-run; vendings when autotrade",
+    "sources_in_use": ["latam_tools", "atlantis_playro", "yaml_npc", "spawns"],
+    "sources_out_of_scope": ["divine_pride"],
+    "sources_optional": ["ragnapi"],
     "player_analysis": false,
-    "vendings_local": "blocked_until_autotrade"
+    "vendings_local": "deferred_until_client_autotrade"
   },
   "excluded": {
     "login.sql": "contiene hashes de contraseñas — no copiar a git",

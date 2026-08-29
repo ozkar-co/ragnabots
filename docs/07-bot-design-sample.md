@@ -23,11 +23,13 @@ dps=200  overhead=2.5s  dead_time=20% (travel 8% + restock 7% + idle 5%)
 hours_per_day=3.5  mats_top_n=5  mats_max_price=100k
 card_sell_fraction=0.5  card_shop_slots=1
 prt_fild*: card_min_price=1M (junk out)
-zeny_cost = (3000 + 2×avg_hp)/h × combat_frac
+zeny_cost = ver [13-zeny-and-spend.md](13-zeny-and-spend.md)
+  (viejo lineal aún en código; curva soft acordada: floor[tier]+1100×ln(1+hp/100))
 pause_grind @ 40% lote vendido · keep_shop @ 60%
 ```
 
-**Runtime:** batch 1×/día; horas solo si hubo login ese día — [08-activity-gated-bots.md](08-activity-gated-bots.md).
+**Zeny:** ledger interno; no mintar al comprar a jugadores — [13](13-zeny-and-spend.md).  
+**Runtime:** batch 1×/día — [08-activity-gated-bots.md](08-activity-gated-bots.md).
 
 ## Kills/h efectivos (tras dead time 20%)
 

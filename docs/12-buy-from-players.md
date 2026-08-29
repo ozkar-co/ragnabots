@@ -87,7 +87,9 @@ Si `price < NPC_buy * 0.5` (demasiado sospechoso), se puede capar qty — no urg
 | Volumen | caps qty + pocos listings |
 | Aleatorio | no barremos toda oferta barata ordenada |
 
-El zeny del bot viene de **haber vendido** antes (ciclo cerrado). Novice congelado sin ventas → no compra.
+El zeny del bot viene de **haber vendido** antes (ciclo cerrado / ledger).  
+Novice congelado sin ventas → ledger≈0 → no compra.  
+Ver [13-zeny-and-spend.md](13-zeny-and-spend.md) — no mintar zeny.
 
 ## Preview
 
