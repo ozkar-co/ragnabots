@@ -68,7 +68,7 @@ Decisiones **intencionalmente aplazadas** hasta tener datos reales. Actualizar e
 **Etapa:** diseño M2
 
 ### #18 — Activity-gate
-**Respuesta:** Aceptado simplificado: `COUNT` logins del día (no poll). Tiers altos tras X días activos. Compras a jugadores = job nocturno, zeny acotado + rango LATAM/NPC.
+**Respuesta:** Un cron 1×/día en orden: (1) compra a jugadores si hay tiendas, (2) abrir/cerrar/refrescar tiendas, (3) grind solo bots elegibles (no en tienda, no pause, tier OK, sample del día). Zeny acotado + techo LATAM. Ver [08](08-activity-gated-bots.md).
 **Fecha:** 2026-08-28
 **Etapa:** diseño M2
 

@@ -1,0 +1,239 @@
+{
+  "rules": {
+    "p_max": 0.85,
+    "k": 1.15,
+    "n_buyer_bots": [
+      4,
+      10
+    ],
+    "listings_per_bot": [
+      2,
+      5
+    ],
+    "qty_frac_of_stock": [
+      0.05,
+      0.4
+    ],
+    "qty_min": 1,
+    "qty_max_hard": 80,
+    "max_spend_frac_zeny": 0.3,
+    "max_spend_absolute": 3000000,
+    "bot_zeny_start": [
+      80000,
+      800000
+    ],
+    "monte_carlo_nights": 50,
+    "seed": 42
+  },
+  "formula": "P = p_max * (1 - price/latam)^k ; P=0 if price>latam",
+  "curve": [
+    {
+      "price_vs_latam_pct": 20,
+      "p_buy": 0.6576
+    },
+    {
+      "price_vs_latam_pct": 25,
+      "p_buy": 0.6106
+    },
+    {
+      "price_vs_latam_pct": 30,
+      "p_buy": 0.564
+    },
+    {
+      "price_vs_latam_pct": 35,
+      "p_buy": 0.5179
+    },
+    {
+      "price_vs_latam_pct": 40,
+      "p_buy": 0.4724
+    },
+    {
+      "price_vs_latam_pct": 45,
+      "p_buy": 0.4274
+    },
+    {
+      "price_vs_latam_pct": 50,
+      "p_buy": 0.383
+    },
+    {
+      "price_vs_latam_pct": 55,
+      "p_buy": 0.3393
+    },
+    {
+      "price_vs_latam_pct": 60,
+      "p_buy": 0.2963
+    },
+    {
+      "price_vs_latam_pct": 65,
+      "p_buy": 0.2542
+    },
+    {
+      "price_vs_latam_pct": 70,
+      "p_buy": 0.2129
+    },
+    {
+      "price_vs_latam_pct": 75,
+      "p_buy": 0.1726
+    },
+    {
+      "price_vs_latam_pct": 80,
+      "p_buy": 0.1335
+    },
+    {
+      "price_vs_latam_pct": 85,
+      "p_buy": 0.0959
+    },
+    {
+      "price_vs_latam_pct": 90,
+      "p_buy": 0.0602
+    },
+    {
+      "price_vs_latam_pct": 95,
+      "p_buy": 0.0271
+    },
+    {
+      "price_vs_latam_pct": 100,
+      "p_buy": 0.0
+    }
+  ],
+  "listing_examples": [
+    {
+      "name": "Maneater Root",
+      "latam": 3500,
+      "player_price": 1225,
+      "mult": 0.35,
+      "label": "ganga",
+      "p_buy": 0.5179
+    },
+    {
+      "name": "Sticky Poison",
+      "latam": 699,
+      "player_price": 244,
+      "mult": 0.35,
+      "label": "ganga",
+      "p_buy": 0.5188
+    },
+    {
+      "name": "Strawberry",
+      "latam": 1299,
+      "player_price": 454,
+      "mult": 0.35,
+      "label": "ganga",
+      "p_buy": 0.5184
+    },
+    {
+      "name": "Maneater Blossom",
+      "latam": 399,
+      "player_price": 139,
+      "mult": 0.35,
+      "label": "ganga",
+      "p_buy": 0.5194
+    },
+    {
+      "name": "Red Herb",
+      "latam": 1399,
+      "player_price": 489,
+      "mult": 0.35,
+      "label": "ganga",
+      "p_buy": 0.5184
+    },
+    {
+      "name": "Mandragora Flowerpot",
+      "latam": 11000,
+      "player_price": 3849,
+      "mult": 0.35,
+      "label": "ganga",
+      "p_buy": 0.518
+    },
+    {
+      "name": "Venom Canine",
+      "latam": 1288,
+      "player_price": 450,
+      "mult": 0.35,
+      "label": "ganga",
+      "p_buy": 0.5185
+    },
+    {
+      "name": "Burning Heart",
+      "latam": 600,
+      "player_price": 210,
+      "mult": 0.35,
+      "label": "ganga",
+      "p_buy": 0.5179
+    },
+    {
+      "name": "White Herb",
+      "latam": 999,
+      "player_price": 349,
+      "mult": 0.35,
+      "label": "ganga",
+      "p_buy": 0.5185
+    },
+    {
+      "name": "Bee Sting",
+      "latam": 715,
+      "player_price": 250,
+      "mult": 0.35,
+      "label": "ganga",
+      "p_buy": 0.5182
+    },
+    {
+      "name": "Cactus Needle",
+      "latam": 900,
+      "player_price": 315,
+      "mult": 0.35,
+      "label": "ganga",
+      "p_buy": 0.5179
+    },
+    {
+      "name": "Round Shell",
+      "latam": 696,
+      "player_price": 243,
+      "mult": 0.35,
+      "label": "ganga",
+      "p_buy": 0.5187
+    },
+    {
+      "name": "Blue Herb",
+      "latam": 1399,
+      "player_price": 489,
+      "mult": 0.35,
+      "label": "ganga",
+      "p_buy": 0.5184
+    },
+    {
+      "name": "Horrendous Hair",
+      "latam": 2000,
+      "player_price": 700,
+      "mult": 0.35,
+      "label": "ganga",
+      "p_buy": 0.5179
+    },
+    {
+      "name": "Claw of Desert Wolf",
+      "latam": 4999,
+      "player_price": 1749,
+      "mult": 0.35,
+      "label": "ganga",
+      "p_buy": 0.518
+    }
+  ],
+  "night_0_sample": {
+    "buyer_bots": 5,
+    "purchase_lines": 6,
+    "zeny_spent": 97964,
+    "skipped": {
+      "over_latam": 2,
+      "fail_roll": 8,
+      "no_zeny": 0
+    },
+    "events_sample": []
+  },
+  "monte_carlo": {
+    "nights": 50,
+    "avg_purchase_lines": 4.9,
+    "avg_zeny_spent": 152285.44,
+    "nights_with_at_least_one_buy": 50,
+    "pct_nights_active": 100.0
+  }
+}

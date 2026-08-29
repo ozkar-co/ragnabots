@@ -22,9 +22,11 @@ Ruta base: `/home/oz/rathena` → `data/raw/rathena/`
 - [x] **Grindable** — 926 ítems (drop + spawn normal) — `grindable_*`
 - [x] **Diseño bots ×10** — mapas/dificultad/P(drop) — `staging/market/bots/`
 - [x] **Preview sim** — 1×, LATAM, dead time, gasto zeny, pause/shop gates, cards prt≥1M — [07](07-bot-design-sample.md)
-- [x] **All-bots 246** + sim 100d — `staging/market/bots/all_bots/` — [11](11-all-bots-sim.md)
-- [ ] Runtime diario + áreas vending — [08](08-activity-gated-bots.md)
-- [ ] Spend real; techo compra jugadores
+- [x] **All-bots 246** + sim 100d — [11](11-all-bots-sim.md)
+- [x] **Compra a jugadores** — diseño + curva P(precio) — [12](12-buy-from-players.md)
+- [x] **Runtime 1 job** — compra → tiendas → grind — [08](08-activity-gated-bots.md)
+- [ ] Áreas vending + wire cron / dry-run MySQL
+- [ ] Spend real
 - [ ] _(más adelante)_ Divine Pride / data/market/
 
 ### Resultado LATAM FREYA (2026-08-28)

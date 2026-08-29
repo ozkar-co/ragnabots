@@ -2,7 +2,7 @@
 
 Fecha: 2026-08-28  
 Estado: **diseño aceptado** (runtime aún no implementado)  
-Complementa: [07-bot-design-sample.md](07-bot-design-sample.md)
+Complementa: [07-bot-design-sample.md](07-bot-design-sample.md) · [12-buy-from-players.md](12-buy-from-players.md)
 
 ## Principio
 
@@ -14,43 +14,76 @@ Jugador ve: tienda abierta / cerrada / movida / stock distinto
 Nosotros tenemos: estado interno precalculado (inventario, zeny, lote, gates)
 ```
 
-## Dos jobs diarios
+## Un solo job diario (orden fijo)
 
-### A — Mañana / tarde: grind + oferta (vender)
-
-```
-1. Contar jugadores reales que se conectaron HOY
-   (ver sección Actividad — consulta simple)
-
-2. Si count == 0 → no acreditar grind nuevo; opcionalmente
-   dejar tiendas como están o caducar suave
-
-3. Si count >= 1:
-   - horas_bot = 3.5  (estándar 3~4; no hace falta duración exacta)
-   - elegir al azar X bots del pool elegible
-     (X = f(count); tiers altos requieren más días/horas acumuladas)
-   - aplicar stats precalculadas × horas → Δ inventario, Δ zeny gasto
-   - decidir abrir / cerrar / refrescar tiendas según gates
-   - coordenadas: random dentro del área que definas (por ciudad/mapa)
-
-4. Escribir solo lo visible: filas vendings / vending_items (+ zeny char)
-```
-
-### B — Noche: compras a jugadores
+Un cron, tres fases en secuencia. Cada fase usa el estado que dejó la anterior.
 
 ```
-1. Leer tiendas autotrade de jugadores reales (vendings)
-
-2. Por cada bot comprador elegible (con zeny > 0):
-   - mirar ítems en rango de precio del diccionario (LATAM / YAML NPC)
-   - comprar aleatoriamente pocas unidades
-   - tope duro: no gastar más que su zeny actual
-   - tope suave: máx % del zeny o máx N compras/noche
-
-3. Así no hay comprador compulsivo ni exploit de zeny infinito
+1. COMPRA a jugadores   (si hay tiendas de jugadores)
+2. TIENDAS              (abrir / cerrar / refrescar / mover)
+3. GRIND                (solo bots elegibles)
 ```
 
-Ambos jobs son **batch**, no daemons. Fácil de cron-ear y de dry-run.
+### 1 — Compra a jugadores
+
+Si **no** hay tiendas autotrade de jugadores → skip (no hay nada que comprar).
+
+Si hay:
+
+```
+elegir N bots con zeny
+  → sample 2–5 listings de jugadores
+  → si price > LATAM: nunca
+  → si no: comprar con P = 0.85*(1-price/LATAM)^1.15
+  → qty random del stock, budget ≤ 30% zeny
+```
+
+Detalle y curva: [12-buy-from-players.md](12-buy-from-players.md).
+
+Efecto: los bots gastan zeny **antes** de decidir tiendas/grind → el estado de zeny ya refleja compras del día.
+
+### 2 — Abrir / cerrar / refrescar tiendas
+
+Tras las compras (y ventas reales del día vía delta stock / vending log):
+
+```
+1. Contar jugadores_hoy (ver Actividad)
+2. Evaluar gates por bot:
+   - keep_shop: ¿seguir en vending o cerrar?
+   - abrir / refrescar / mover coords (área que definas)
+   - stagger: subset random, no tocar todas el mismo día
+3. Escribir solo lo visible: vendings / vending_items (+ zeny char)
+```
+
+| Gate | Regla (tunable) |
+|------|-----------------|
+| Mantener tienda | hasta `vendido >= keep_shop_frac × lote` (~60%) |
+| Cerrar / desaparecer | stock≈0 o ciclo sell-down terminado |
+| Abrir nueva | bot con inventario, tier desbloqueado, slot libre |
+
+Si `jugadores_hoy == 0`: no abrir tiendas nuevas; opcional caducar suave.
+
+### 3 — Grind (recalcular)
+
+Solo bots que cumplan **todas** las condiciones:
+
+| Condición | |
+|-----------|--|
+| **No está en tienda** | bot con vending abierta no grindea |
+| Tier desbloqueado | según `server_active_days` |
+| No en pause_grind | `vendido < pause_frac × lote` (~40%) → sigue “vendiendo”, no acredita loot |
+| Ciclo activo | día ≤ ~100 (después solo sell-down) |
+| Elegido hoy | sample random X = f(`jugadores_hoy`) |
+
+```
+si jugadores_hoy == 0 → nadie grindea
+si no:
+  horas = 3.5
+  para cada bot elegible del sample:
+    aplicar loot/h × horas, gasto/h × horas → Δ inventario, Δ zeny
+```
+
+No se resimula combate: solo la fila precalculada × horas.
 
 ## Actividad del día (KISS)
 
@@ -66,98 +99,78 @@ No necesitamos “horas exactas conectado” con una sola query.
 jugadores_hoy = chars WHERE DATE(last_login) = CURDATE()
   AND account_id NOT IN (bot_accounts)
   AND char_id NOT IN (bot_chars)
-  -- opcional: excluir chars que SOLO existen como autotrade vacío
 ```
 
-Luego:
-
 ```text
-horas_acreditadas_por_bot_activo = 3.5   # estándar 3~4
+horas_acreditadas_por_bot_activo = 3.5
 bots_despertados = f(jugadores_hoy)     # 0 si nadie; más si hay varios
 ```
 
 Semanas vacías → sin progreso interno ni tiendas nuevas.  
 Días con 1–5 jugadores → escala orgánica.
 
-## Progresión por tier (percepción de “el server crece”)
-
-Los bots de **tier más alto** no aparecen el día 1.
+## Progresión por tier
 
 | Condición (ejemplo tunable) | Qué desbloquea |
 |-----------------------------|----------------|
 | `server_active_days >= 0` | novice / easy |
-| `server_active_days >= 7` o `cum_player_days >= N` | mid |
-| `server_active_days >= 21` | hard (si se usan) |
-| expert | fuera del pool o muy tarde / restringido |
+| `server_active_days >= 7` | mid |
+| `server_active_days >= 21` | hard |
+| expert | fuera del pool o muy tarde |
 
-`server_active_days` = días con `jugadores_hoy >= 1`.  
-Los jugadores verán primero mats baratos en Prontera/Payon; luego orcos, spiders, etc.
-
-Misma idea para **diversidad de oferta**: el catálogo de la tienda refleja el tier desbloqueado + inventario acumulado.
+`server_active_days` = días con `jugadores_hoy >= 1`.
 
 ## Tiendas: orgánico y barato
 
-- Abrir / cerrar / refrescar stock **solo en el job diario**
-- **Mover** la tienda a coords random dentro de un área fija (tú defines el polígono/bbox por ciudad)
-- No quitar tienda hasta `vendido >= keep_shop_frac × lote_esperado` (o zeny equivalente)
-- No volver a “grindear” ese bot hasta `vendido >= pause_frac × lote`
-- Stagger: no abrir las 20 tiendas el mismo día; random subset
+- Abrir / cerrar / refrescar **solo en la fase 2** del job diario
+- **Mover** coords random dentro del área fija (tú defines bbox por ciudad)
+- Stagger: no abrir las 20 tiendas el mismo día
 
 El jugador percibe: “ayer había un merchant aquí, hoy otro allá con stock distinto”.
 
-## Compras nocturnas (anti-exploit)
+## Compras (anti-exploit) — resumen
 
 | Regla | Detalle |
 |-------|---------|
-| Precio | solo si `precio_tienda ∈ [floor, ceiling]` del diccionario |
-| Floor | ≈ NPC buy YAML o sell×0.5 (tunable) |
-| Ceiling | LATAM `offers_median` (techo de compra a jugadores) |
-| Zeny | `gasto <= bot.zeny`; nunca crédito infinito |
-| Volumen | máx N ítems o % zeny por noche |
-| Aleatorio | no comprar todo lo “barato”; sample |
-
-El bot gasta zeny que **ganó vendiendo** (ciclo cerrado). Si no vendió, no compra.
+| Techo | `price > LATAM` → nunca |
+| Zeny | `gasto <= bot.zeny`; budget ~25–30% |
+| Volumen | sample listings + caps qty |
+| Skip | si no hay tiendas de jugadores |
 
 ## Datos precalculados vs runtime
 
-| Pregen (`preview_sim` → tablas) | Runtime diario |
-|---------------------------------|----------------|
-| loot/h, gasto/h, oferta top, cards policy | × horas (3.5) × bots elegidos |
-| gates pause/shop | comparar contra ventas reales del día (vending log o delta stock) |
-| tier / mapas | filtro de elegibilidad |
-
-No se resimula el combate en vivo: solo se aplica la fila precalculada.
+| Pregen | Runtime diario |
+|--------|----------------|
+| loot/h, gasto/h, oferta, cards | × 3.5h × bots elegibles (fase 3) |
+| gates pause/shop | ventas reales → fase 2 |
+| LATAM ref | compras fase 1 |
 
 ## Escala ejemplo
 
-| `jugadores_hoy` | Bots que acreditan grind | Tiendas tocadas (abrir/mover/cerrar) |
-|-----------------|--------------------------|--------------------------------------|
+| `jugadores_hoy` | Bots que acreditan grind | Tiendas tocadas |
+|-----------------|--------------------------|-----------------|
 | 0 | 0 | 0 (o solo caducar) |
 | 1 | 2–4 | 1–3 |
 | 2–3 | 5–8 | 3–5 |
 | 4–5+ | 10–15 | 5–8 |
 
-Pool ~100; activos por día << pool.
+## Ciclo de vida
+
+```
+días 1..~100 (si hubo login):
+  1 compra → 2 tiendas → 3 grind (elegibles)
+
+después:
+  1 compra → 2 tiendas (sell-down)
+  sin grind nuevo → desaparecen al vaciar
+```
 
 ## Pendiente
 
 - [ ] Áreas de vending (coords) por ciudad — las defines tú
 - [ ] Confirmar `vendings` / autotrade en MySQL OzRo
 - [ ] Schema: `bot_profiles`, `bot_hour_stats`, `bot_state`, `bot_shop_meta`
-- [ ] Cron A (oferta) + Cron B (compras)
+- [ ] Un cron diario (3 fases)
 - [ ] Dry-run contra SQLite antes de prod
-- [ ] Ajustar `hours_per_day` en sim a **3.5** (alineado con runtime)
 
-## Ciclo de vida (acordado)
-
-```
-días 1..~100 (si hubo login):
-  acreditar grind 3.5h × bots elegibles
-  actualizar tiendas
-
-después:
-  sin grind nuevo
-  solo vender remanente → desaparecen
-```
-
-Detalle de oferta por bot y spend: [09-shop-catalog-review.md](09-shop-catalog-review.md).
+Detalle oferta/spend: [09-shop-catalog-review.md](09-shop-catalog-review.md).
